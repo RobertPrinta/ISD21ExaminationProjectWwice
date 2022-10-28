@@ -14,6 +14,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="TestTone600Hz" ID="{5B253813-7135-4F96-B9F6-F101EF6958C8}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.300970873786408"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>TestFiles\TestTone600Hz.wav</AudioFile>
 							<MediaIDList>
@@ -40,10 +45,14 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="TestTone600HzLP" ID="{533BA240-AE11-4FDE-B5D8-DA453C63F8A3}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>TestFiles\TestTone600HzLP.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="369654993"/>
+								<MediaID ID="431966542"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
@@ -73,10 +82,15 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="TestTone600Hz" ID="{E997BD3F-1933-4E56-B82E-CC46BED0D4FD}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.301853486319506"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>TestFiles\TestTone600Hz.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="176245023"/>
+										<MediaID ID="442963850"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -99,10 +113,14 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="TestTone600HzLP" ID="{97340341-4888-4735-B339-303BEBCD730B}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>TestFiles\TestTone600HzLP.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="369654993"/>
+										<MediaID ID="431966542"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>

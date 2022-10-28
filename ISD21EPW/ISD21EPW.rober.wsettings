@@ -4,6 +4,9 @@
 		<UserProjectSettings Name="" ID="{93E3B18E-CBA0-4754-8577-739174FBDED9}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\rober\Documents\REAPER Media\"/>
+				<Property Name="Event Action List\{73B2726D-1CBB-4590-909E-918E7DE506EB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{96FE1CB2-949D-4C49-98DA-81A969A6C60C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B80C0D5F-A876-4CA8-BFC2-2A4A595FD81A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EFA2420A-2991-4D13-BD19-FBDD024D8F44}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
