@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C73B3E6-B596-449D-A659-BED2BF01F12C}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="PlayerLocomotion" ID="{7C73B3E6-B596-449D-A659-BED2BF01F12C}" PersistMode="Standalone"/>
+	</AudioObjects>
+</WwiseDocument>
