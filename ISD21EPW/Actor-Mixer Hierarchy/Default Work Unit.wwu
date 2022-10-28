@@ -15,7 +15,7 @@
 					<ObjectLists/>
 					<GroupingInfo/>
 				</SwitchContainer>
-				<Sound Name="Test_600hz_lp" ID="{48B8552E-4E39-4542-8AFD-A134DF863962}" ShortID="415182972">
+				<ActorMixer Name="TestTones" ID="{0A788E07-DA31-41B8-93F2-BFC27963850D}" ShortID="565671255">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A57E8859-D049-4D8B-8B3B-75D07F2C8038}"/>
@@ -25,19 +25,32 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Test_600hz_lp" ID="{649A53AF-9CE5-4DB1-A153-28033EC61295}">
-							<Language>SFX</Language>
-							<AudioFile>Test_600hz_lp.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="209753742"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="TestTone_600hz" ID="{48B8552E-4E39-4542-8AFD-A134DF863962}" ShortID="415182972">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A57E8859-D049-4D8B-8B3B-75D07F2C8038}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3050581-2CCA-42C1-BC3B-8CF4E68861C2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Test_600hz_lp" ID="{649A53AF-9CE5-4DB1-A153-28033EC61295}">
+									<Language>SFX</Language>
+									<AudioFile>Test_600hz_lp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="209753742"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Test_600hz_lp" ID="{649A53AF-9CE5-4DB1-A153-28033EC61295}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Test_600hz_lp" ID="{649A53AF-9CE5-4DB1-A153-28033EC61295}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
