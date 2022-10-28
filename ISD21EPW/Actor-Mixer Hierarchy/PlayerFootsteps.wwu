@@ -1,6 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{74CD21BA-DD79-408F-ADFB-2B24436B8B44}" SchemaVersion="103" RootDocumentID="{7C73B3E6-B596-449D-A659-BED2BF01F12C}" ParentDocumentID="{7C73B3E6-B596-449D-A659-BED2BF01F12C}">
 	<AudioObjects>
-		<WorkUnit Name="PlayerFootsteps" ID="{74CD21BA-DD79-408F-ADFB-2B24436B8B44}" OwnerID="{7C73B3E6-B596-449D-A659-BED2BF01F12C}" PersistMode="Nested"/>
+		<WorkUnit Name="PlayerFootsteps" ID="{74CD21BA-DD79-408F-ADFB-2B24436B8B44}" OwnerID="{7C73B3E6-B596-449D-A659-BED2BF01F12C}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<RandomSequenceContainer Name="PLYR_Footsteps_Dirt" ID="{5C5734A3-623D-47AD-83AF-2EE7F4DF7C79}" ShortID="284897253">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A57E8859-D049-4D8B-8B3B-75D07F2C8038}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3050581-2CCA-42C1-BC3B-8CF4E68861C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="PLYR_Footsteps_Water" ID="{45E41047-BAC1-4857-85C4-71F3EFDA438E}" ShortID="205096004">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A57E8859-D049-4D8B-8B3B-75D07F2C8038}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3050581-2CCA-42C1-BC3B-8CF4E68861C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="PLYR_Footsteps_Concrete" ID="{7D159745-0441-4BF0-961E-24F704778E43}" ShortID="158199151">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A57E8859-D049-4D8B-8B3B-75D07F2C8038}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3050581-2CCA-42C1-BC3B-8CF4E68861C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="PLYR_Footsteps_Wood" ID="{4746C028-4B6E-4311-958D-9EE43924E168}" ShortID="45543152">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A57E8859-D049-4D8B-8B3B-75D07F2C8038}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3050581-2CCA-42C1-BC3B-8CF4E68861C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="PLYR_Footsteps_Gravel" ID="{1616896E-D291-4677-A60E-D4A90638A14F}" ShortID="392390845">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A57E8859-D049-4D8B-8B3B-75D07F2C8038}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3050581-2CCA-42C1-BC3B-8CF4E68861C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="PLYR_Footsteps_Grass" ID="{6D552B40-E09D-4604-BA50-92DBBD841260}" ShortID="839645633">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A57E8859-D049-4D8B-8B3B-75D07F2C8038}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3050581-2CCA-42C1-BC3B-8CF4E68861C2}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

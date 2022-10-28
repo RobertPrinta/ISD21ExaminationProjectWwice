@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B96529AB-E24B-4F73-AB1C-A7DC12E5018D}" SchemaVersion="103">
+	<Attenuations>
+		<WorkUnit Name="PlayerLocomotion" ID="{B96529AB-E24B-4F73-AB1C-A7DC12E5018D}" PersistMode="Standalone"/>
+	</Attenuations>
+</WwiseDocument>

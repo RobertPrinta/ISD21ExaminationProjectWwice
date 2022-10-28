@@ -11,6 +11,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="PlayerMaster" ID="{F94109AD-B48E-47BE-A3B3-00D7C51E5A9C}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Bus Name="PlayerLocamotion" ID="{D7A6EEC2-F658-4233-9D10-6E4A62D5B1A4}">
 									<ChildrenList>
