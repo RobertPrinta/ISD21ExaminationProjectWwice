@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6C6925AA-C5CC-412E-B2F7-D167EC30E6E8}" SchemaVersion="103" RootDocumentID="{903F299D-BD04-4011-86E2-93BF89DF39EF}" ParentDocumentID="{903F299D-BD04-4011-86E2-93BF89DF39EF}">
+	<Attenuations>
+		<WorkUnit Name="att_Generic" ID="{6C6925AA-C5CC-412E-B2F7-D167EC30E6E8}" OwnerID="{903F299D-BD04-4011-86E2-93BF89DF39EF}" PersistMode="Nested"/>
+	</Attenuations>
+</WwiseDocument>

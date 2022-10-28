@@ -15,7 +15,7 @@
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Metadata\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1666950227" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\ISD21EPW.wproj" DateLow="1666942522" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\ISD21EPW.rober.wsettings" DateLow="1666954889" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\ISD21EPW.rober.wsettings" DateLow="1666958076" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Game Parameters\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\Ui.wwu" DateLow="1666957382" DateHigh="0"/>
@@ -34,9 +34,10 @@
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Audio Devices\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Attenuations\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Ui.wwu" DateLow="1666954420" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\TestFiles.wwu" DateLow="1666958075" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\PlayerLocomotion.wwu" DateLow="1666954420" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\PlayerFootsteps.wwu" DateLow="1666954420" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\PlayerCloth.wwu" DateLow="1666954420" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Music.wwu" DateLow="1666957766" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1666953971" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1666958075" DateHigh="0"/>
 </ValidationCache>
