@@ -2,8 +2,8 @@
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Virtual Acoustics\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Triggers\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Switches\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\States\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Switches\Default Work Unit.wwu" DateLow="1667207872" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\States\Default Work Unit.wwu" DateLow="1667207872" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\SoundBanks\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Queries\Factory Queries.wwu" DateLow="1666941959" DateHigh="0"/>
@@ -13,11 +13,19 @@
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Modulators\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Mixing Sessions\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Metadata\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1666960279" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\ISD21EPW.wproj" DateLow="1666942715" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\ISD21EPW.lundi.wsettings" DateLow="1666943840" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\ISD21EPW.lundi.wsettings" DateLow="1667207921" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Game Parameters\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Events\Ui.wwu" DateLow="1666960292" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Events\TestEvents.wwu" DateLow="1666958791" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Events\PlayerLocomotion.wwu" DateLow="1666959764" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Events\Player.wwu" DateLow="1666960279" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Events\Play_PLYR_Footsteps.wwu" DateLow="1666959742" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Events\NPC.wwu" DateLow="1666954269" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Events\Music.wwu" DateLow="1666954882" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Events\Locomotion.wwu" DateLow="1666954259" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Events\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Effects\Factory Effects.wwu" DateLow="1666941958" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Effects\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
@@ -26,8 +34,14 @@
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Conversion Settings\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Control Surface Sessions\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Audio Devices\Default Work Unit.wwu" DateLow="1666942715" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Attenuations\PlayerLocomotion.wwu" DateLow="1666959644" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Attenuations\Default Work Unit.wwu" DateLow="1666959447" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Attenuations\att_Generic.wwu" DateLow="1666959447" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\TestFiles.wwu" DateLow="1666959447" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Ui.wwu" DateLow="1666960279" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\TestFiles.wwu" DateLow="1666959681" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\PlayerLocomotion.wwu" DateLow="1666960279" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\PlayerFootsteps.wwu" DateLow="1666960279" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\PlayerCloth.wwu" DateLow="1666960279" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Music.wwu" DateLow="1666954874" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1666958134" DateHigh="0"/>
 </ValidationCache>

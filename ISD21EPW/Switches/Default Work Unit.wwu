@@ -11,6 +11,20 @@
 						<Switch Name="Gravel" ID="{7B17FFC5-D9DB-4C1C-A30F-FC46635B3E50}"/>
 						<Switch Name="Water" ID="{EB01304C-697A-49E0-9821-870B96480C98}"/>
 						<Switch Name="Wood" ID="{AEA42112-77A2-4674-9C43-3320ED316A85}"/>
+						<Switch Name="Forest" ID="{F4AB9D65-75DD-4967-8CD4-D9F2E8CC5BCC}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="PlayerSpeedSwitch" ID="{CE7C13C9-A7E8-4816-AE17-83D7CCA9348C}">
+					<ChildrenList>
+						<Switch Name="Walk" ID="{532A9BF8-C475-4B42-BCC9-DEFE242C8063}"/>
+						<Switch Name="Run" ID="{0678AF96-9814-4755-B7B3-9BA70A0A2915}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="PlayerHealth" ID="{56FD3E2D-D739-45C9-9D1C-3097E93745E2}">
+					<ChildrenList>
+						<Switch Name="FullHealth" ID="{D3E0D662-28BC-4C8C-BBA6-91192AA2DB3D}"/>
+						<Switch Name="LowHealth" ID="{D5EEA30A-9F7A-4929-A815-A165E7011D50}"/>
+						<Switch Name="NearDeath" ID="{EC105FAB-DF31-456D-BA64-2773F1A57492}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

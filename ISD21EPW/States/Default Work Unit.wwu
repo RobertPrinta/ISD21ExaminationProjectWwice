@@ -24,7 +24,7 @@
 						<State Name="OutDoor" ID="{C22066DD-38B1-4CAD-9206-019507A03EE9}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Hub" ID="{F952B62F-155A-43D0-A6BB-824DCB3C8D4C}">
+				<StateGroup Name="Lvl_Hub" ID="{F952B62F-155A-43D0-A6BB-824DCB3C8D4C}">
 					<ChildrenList>
 						<State Name="None" ID="{9ABC3A42-18CE-40FB-9B90-07E71F8F98D7}"/>
 						<State Name="Office_Room" ID="{475EA2BF-F2D9-455D-889E-3EEDDF910E4D}"/>
@@ -32,17 +32,17 @@
 						<State Name="Suspect_Room" ID="{D48E4333-FF83-46BF-AB61-581C7E61479E}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Karla_Happy" ID="{676555B6-609C-4FC6-A134-10777AA22994}">
+				<StateGroup Name="Lvl_Karla_Happy" ID="{676555B6-609C-4FC6-A134-10777AA22994}">
 					<ChildrenList>
 						<State Name="None" ID="{8A8AD8E1-5D75-473D-AB96-9E33F29A6751}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Hauke_Angry" ID="{98A16A1F-5754-47F5-A423-77A072B97FD4}">
+				<StateGroup Name="Lvl_Hauke_Angry" ID="{98A16A1F-5754-47F5-A423-77A072B97FD4}">
 					<ChildrenList>
 						<State Name="None" ID="{BAA479D7-8E98-485C-9935-95424A4FB882}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Sigifrit_Sad" ID="{90B482FF-4C84-4926-A52D-677F5ED8BEDC}">
+				<StateGroup Name="Lvl_Sigifrit_Sad" ID="{90B482FF-4C84-4926-A52D-677F5ED8BEDC}">
 					<ChildrenList>
 						<State Name="None" ID="{D5CBA0BC-5D6E-4487-9342-E68737533CEC}"/>
 					</ChildrenList>
