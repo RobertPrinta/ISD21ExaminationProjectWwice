@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C25136CD-9400-40ED-92FB-3C1E39B0FD8B}" SchemaVersion="103">
-	<SoundBanks>
-		<WorkUnit Name="Ambient_SB" ID="{C25136CD-9400-40ED-92FB-3C1E39B0FD8B}" PersistMode="Standalone"/>
-	</SoundBanks>
-</WwiseDocument>

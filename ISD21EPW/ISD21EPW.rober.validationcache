@@ -2,10 +2,13 @@
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Virtual Acoustics\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Triggers\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Switches\Default Work Unit.wwu" DateLow="1666962152" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\States\Default Work Unit.wwu" DateLow="1666962152" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Switches\Default Work Unit.wwu" DateLow="1667210523" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\States\Default Work Unit.wwu" DateLow="1667210523" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\SoundBanks\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\SoundBanks\New Worksunit.wwu" DateLow="1667213867" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\SoundBanks\Music_SB.wwu" DateLow="1667212383" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\SoundBanks\Default Work Unit.wwu" DateLow="1667213901" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\SoundBanks\Ambient_SB.wwu" DateLow="1667212383" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Queries\Factory Queries.wwu" DateLow="1662400025" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Queries\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Presets\Factory Spatial Audio.wwu" DateLow="1662400025" DateHigh="0"/>
@@ -15,16 +18,16 @@
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Metadata\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1666960378" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\ISD21EPW.wproj" DateLow="1666942522" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\ISD21EPW.rober.wsettings" DateLow="1667162125" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Game Parameters\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\ISD21EPW.rober.wsettings" DateLow="1667213903" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1667208993" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Game Parameters\Default Work Unit.wwu" DateLow="1667210523" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\Ui.wwu" DateLow="1666960378" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\TestEvents.wwu" DateLow="1666958871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\PlayerLocomotion.wwu" DateLow="1666960378" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\Player.wwu" DateLow="1666960378" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\Play_PLYR_Footsteps.wwu" DateLow="1666960378" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\NPC.wwu" DateLow="1666954420" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\Music.wwu" DateLow="1666957766" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\Music.wwu" DateLow="1667212383" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\Locomotion.wwu" DateLow="1666954420" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Events\Default Work Unit.wwu" DateLow="1666942522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Effects\Factory Effects.wwu" DateLow="1662400025" DateHigh="0"/>
@@ -42,6 +45,6 @@
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\PlayerLocomotion.wwu" DateLow="1666960378" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\PlayerFootsteps.wwu" DateLow="1666960378" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\PlayerCloth.wwu" DateLow="1666960378" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Music.wwu" DateLow="1666957766" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Music.wwu" DateLow="1667212383" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Git\ISD21ExaminationProjectWwice\ISD21EPW\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1666958075" DateHigh="0"/>
 </ValidationCache>
