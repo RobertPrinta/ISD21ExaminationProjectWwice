@@ -1,0 +1,107 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\",
+   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\GeneratedSoundBanks\\Windows"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "1175920402",
+    "GUID": "{D20EAC4F-C225-4495-9497-E308887003D2}",
+    "Language": "SFX",
+    "Hash": "4000911918",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambint_SB",
+    "ShortName": "Ambint_SB",
+    "Path": "Ambint_SB.bnk"
+   },
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "3496962300",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "187046019",
+      "Name": "LargeRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\LargeRoom",
+      "GUID": "{1564DFD9-B20B-42AB-A257-A1EBB78D989F}"
+     },
+     {
+      "Id": "1245295233",
+      "Name": "MediumRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\MediumRoom",
+      "GUID": "{6DE5969D-5AC4-4943-A815-7AA951413F56}"
+     },
+     {
+      "Id": "2933838247",
+      "Name": "SmallRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\SmallRoom",
+      "GUID": "{5710E48F-B007-477B-BA44-9DE6B5388441}"
+     },
+     {
+      "Id": "3545700988",
+      "Name": "Reverbs",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs",
+      "GUID": "{CCA9FE13-ABA7-40DA-AB02-50BB1A1B990E}"
+     },
+     {
+      "Id": "4063189299",
+      "Name": "Corridor",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\Corridor",
+      "GUID": "{1A8AF176-4D39-40EC-A701-209690DCD415}"
+     }
+    ]
+   },
+   {
+    "Id": "2112314683",
+    "GUID": "{D01D0F91-9CC6-419B-9CED-9A4563C361C2}",
+    "Language": "SFX",
+    "Hash": "1449290087",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\NewtestBank",
+    "ShortName": "NewtestBank",
+    "Path": "NewtestBank.bnk"
+   },
+   {
+    "Id": "2996874622",
+    "GUID": "{C73247BD-C766-44A4-AF32-D3F7A2BD777E}",
+    "Language": "SFX",
+    "Hash": "1245501925",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music_SB",
+    "ShortName": "Music_SB",
+    "Path": "Music_SB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1068347553",
+      "Name": "Music_Test",
+      "ObjectPath": "\\Events\\Music\\Music_Test",
+      "GUID": "{AEF29892-BBD7-4CDB-814E-B119894AD386}",
+      "DurationType": "OneShot",
+      "DurationMin": "100.069771",
+      "DurationMax": "100.069771",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "575773600",
+        "Language": "SFX",
+        "ShortName": "TestFiles\\Bantam.wav",
+        "Path": "SFX\\TestFiles\\Bantam_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\ISD21EPW\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2996874622" GUID="{C73247BD-C766-44A4-AF32-D3F7A2BD777E}" Language="SFX" Hash="1245501925">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_SB</ObjectPath>
+			<ShortName>Music_SB</ShortName>
+			<Path>Music_SB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1068347553" Name="Music_Test" ObjectPath="\Events\Music\Music_Test" GUID="{AEF29892-BBD7-4CDB-814E-B119894AD386}" DurationType="OneShot" DurationMin="100.069771" DurationMax="100.069771">
+					<IncludedMemoryFiles>
+						<File Id="575773600" Language="SFX">
+							<ShortName>TestFiles\Bantam.wav</ShortName>
+							<Path>SFX\TestFiles\Bantam_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

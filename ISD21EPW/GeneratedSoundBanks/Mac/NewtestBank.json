@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\",
+   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2112314683",
+    "GUID": "{D01D0F91-9CC6-419B-9CED-9A4563C361C2}",
+    "Language": "SFX",
+    "Hash": "1449290087",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\NewtestBank",
+    "ShortName": "NewtestBank",
+    "Path": "NewtestBank.bnk"
+   }
+  ]
+ }
+}

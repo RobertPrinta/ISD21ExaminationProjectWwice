@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\",
+   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\ISD21EPW\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2996874622",
+    "GUID": "{C73247BD-C766-44A4-AF32-D3F7A2BD777E}",
+    "Language": "SFX",
+    "Hash": "1245501925",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music_SB",
+    "ShortName": "Music_SB",
+    "Path": "Music_SB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1068347553",
+      "Name": "Music_Test",
+      "ObjectPath": "\\Events\\Music\\Music_Test",
+      "GUID": "{AEF29892-BBD7-4CDB-814E-B119894AD386}",
+      "DurationType": "OneShot",
+      "DurationMin": "100.069771",
+      "DurationMax": "100.069771",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "575773600",
+        "Language": "SFX",
+        "ShortName": "TestFiles\\Bantam.wav",
+        "Path": "SFX\\TestFiles\\Bantam_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

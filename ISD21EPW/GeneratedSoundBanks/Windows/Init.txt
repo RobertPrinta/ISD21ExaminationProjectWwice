@@ -1,0 +1,51 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	185713839	RoomState			\Default Work Unit\RoomState	
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+	1648156094	Lvl_Sigifrit_Sad			\Default Work Unit\Lvl_Sigifrit_Sad	
+	2785744068	Lvl_Hauke_Angry			\Default Work Unit\Lvl_Hauke_Angry	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+	4019299809	Lvl_Hub			\Default Work Unit\Lvl_Hub	
+	4239861668	Lvl_Karla_Happy			\Default Work Unit\Lvl_Karla_Happy	
+
+State	ID	Name	State Group			Notes
+	144697359	OutDoor	RoomState			
+	340398852	InDoor	RoomState			
+	748895195	None	RoomState			
+	748895195	None	GameStatus			
+	984691642	InGame	GameStatus			
+	3374585465	InMenu	GameStatus			
+	748895195	None	Lvl_Sigifrit_Sad			
+	748895195	None	Lvl_Hauke_Angry			
+	655265632	Alive	PlayerState			
+	748895195	None	PlayerState			
+	2044049779	Dead	PlayerState			
+	748895195	None	Lvl_Hub			
+	783263462	Suspect_Room	Lvl_Hub			
+	2198133169	Hallway	Lvl_Hub			
+	3612388757	Office_Room	Lvl_Hub			
+	748895195	None	Lvl_Karla_Happy			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocamotion\PlayerCloth	
+	976112805	2DAmientBeds			\Default Work Unit\Master Audio Bus\AmbienceMaster\AmbientBeds\2DAmientBeds	
+	1182634443	AmbientBeds			\Default Work Unit\Master Audio Bus\AmbienceMaster\AmbientBeds	
+	1301074112	3DAmbience			\Default Work Unit\Master Audio Bus\AmbienceMaster\3DAmbience	
+	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocamotion\PlayerFootsteps	
+	2033911932	NPCMaster			\Default Work Unit\Master Audio Bus\NPCMaster	
+	2159269011	PlayerLocamotion			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocamotion	
+	2168483725	2DAmbient			\Default Work Unit\Master Audio Bus\AmbienceMaster\2DAmbient	
+	2611281843	AmbienceMaster			\Default Work Unit\Master Audio Bus\AmbienceMaster	
+	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\PlayerMaster	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	187046019	LargeRoom			\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom	
+	1245295233	MediumRoom			\Default Work Unit\Master Audio Bus\Reverbs\MediumRoom	
+	2933838247	SmallRoom			\Default Work Unit\Master Audio Bus\Reverbs\SmallRoom	
+	3545700988	Reverbs			\Default Work Unit\Master Audio Bus\Reverbs	
+	4063189299	Corridor			\Default Work Unit\Master Audio Bus\Reverbs\Corridor	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
