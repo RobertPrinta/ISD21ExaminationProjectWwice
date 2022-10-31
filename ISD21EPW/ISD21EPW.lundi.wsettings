@@ -6,6 +6,7 @@
 				<Property Name="Event Action List\{73B2726D-1CBB-4590-909E-918E7DE506EB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{74E6D400-0938-4601-9CEC-FDA588A20AEE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{96FE1CB2-949D-4C49-98DA-81A969A6C60C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AEF29892-BBD7-4CDB-814E-B119894AD386}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B80C0D5F-A876-4CA8-BFC2-2A4A595FD81A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C455C444-BA69-4983-B690-FA250C60763B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EFA2420A-2991-4D13-BD19-FBDD024D8F44}\x64_Expand States" Type="string" Value=""/>
@@ -22,6 +23,9 @@
 					</ValueList>
 				</Property>
 				<Property Name="GenerateSoundBanks\ListMode" Type="string" Value="Tree"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="9yVkj5Qn9UC7a99Z/l1Txw=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
