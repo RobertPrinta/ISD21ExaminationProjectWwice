@@ -12,6 +12,7 @@
 						<Switch Name="Water" ID="{EB01304C-697A-49E0-9821-870B96480C98}"/>
 						<Switch Name="Wood" ID="{AEA42112-77A2-4674-9C43-3320ED316A85}"/>
 						<Switch Name="Forest" ID="{F4AB9D65-75DD-4967-8CD4-D9F2E8CC5BCC}"/>
+						<Switch Name="Glass" ID="{B9B3A0AF-DA0D-4A7B-9F7E-3E1BC712F24E}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="PlayerSpeedSwitch" ID="{CE7C13C9-A7E8-4816-AE17-83D7CCA9348C}">
