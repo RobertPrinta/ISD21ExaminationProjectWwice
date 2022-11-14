@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{686AD121-AA56-4C62-9745-E872BCB6838C}" SchemaVersion="103" RootDocumentID="{226A2FA5-B830-4F11-A65D-07FA34054190}" ParentDocumentID="{05B7F38F-E8D6-46C5-8ED3-0BDF61B26DDA}">
-	<Events>
-		<WorkUnit Name="Play_PLYR_Footsteps" ID="{686AD121-AA56-4C62-9745-E872BCB6838C}" OwnerID="{05B7F38F-E8D6-46C5-8ED3-0BDF61B26DDA}" PersistMode="Nested"/>
-	</Events>
-</WwiseDocument>
