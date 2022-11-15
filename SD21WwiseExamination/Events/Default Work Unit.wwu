@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{00036224-81D5-4750-92F6-24B782F79F39}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{00036224-81D5-4750-92F6-24B782F79F39}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TestEvent" ID="{B5C8F208-926C-4E34-818A-948334BBC1B4}">
+					<ChildrenList>
+						<Action Name="" ID="{E8EC7096-9ED0-4411-A1CF-4FCCBC856A17}" ShortID="423676853">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test" ID="{15306A1A-FC9F-49F0-AF8F-3605C47B0224}" WorkUnitID="{04B3D9AA-C531-418B-983C-C976791A6A1F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
