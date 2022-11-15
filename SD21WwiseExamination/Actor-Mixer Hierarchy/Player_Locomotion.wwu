@@ -5,6 +5,17 @@
 			<ChildrenList>
 				<WorkUnit Name="PlayerFootsteps" ID="{0717E4F1-805E-4CCE-BE0B-42986EE979AA}" PersistMode="Reference"/>
 				<WorkUnit Name="PlayerCloth" ID="{442DBE27-6D15-4C8D-8B88-D252A59660A6}" PersistMode="Reference"/>
+				<Sound Name="Test_1" ID="{CFA110F1-217C-4C68-ADB3-84114DC11202}" ShortID="813722316">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
