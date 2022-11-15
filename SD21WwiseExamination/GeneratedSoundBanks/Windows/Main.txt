@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1097980931	TestEvent			\Default Work Unit\TestEvent	
+	4257474714	TestGitEmptyEvent			\Default Work Unit\TestGitEmptyEvent	
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	754351447	Test	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Bantam_10C4C929.wem	754351447.wem	\Actor-Mixer Hierarchy\Default Work Unit\Test	

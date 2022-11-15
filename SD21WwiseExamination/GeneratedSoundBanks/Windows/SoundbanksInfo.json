@@ -26,7 +26,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3690994985",
+    "Hash": "1063345722",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
@@ -35,7 +35,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "1285331794",
+    "Hash": "182540302",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -56,6 +56,16 @@
         "Path": "SFX\\Test\\Bantam_10C4C929.wem"
        }
       ]
+     },
+     {
+      "Id": "4257474714",
+      "Name": "TestGitEmptyEvent",
+      "ObjectPath": "\\Events\\Default Work Unit\\TestGitEmptyEvent",
+      "GUID": "{4FE3BAC4-288F-4960-9E02-025399BE9F01}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ]
    }

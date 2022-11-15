@@ -1,4 +1,8 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion\PlayerCloth	
+	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion\PlayerFootsteps	
+	2343802269	PlayerLocomotion			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion	
+	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\PlayerMaster	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

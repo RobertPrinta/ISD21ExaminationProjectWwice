@@ -9,6 +9,24 @@
 							<ObjectRef Name="System" ID="{AFDBD36C-8895-4560-97BB-24C383FA6989}" WorkUnitID="{5200DDC1-D73D-4220-95BA-BD09FDD505B9}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="PlayerMaster" ID="{7AF732C7-47D3-44A2-9848-0E166421A91C}">
+							<ChildrenList>
+								<Bus Name="PlayerLocomotion" ID="{4BE82FA6-C33E-43AE-B4CC-830081ED5379}">
+									<ChildrenList>
+										<Bus Name="PlayerFootsteps" ID="{FD96472E-B142-45CE-84F1-407F22BC478F}">
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="PlayerCloth" ID="{4E37EC78-89C0-4966-9628-D44FBF4B1CF0}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

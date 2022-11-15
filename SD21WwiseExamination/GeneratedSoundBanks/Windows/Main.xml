@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="1285331794">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="182540302">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -21,6 +21,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
+				<Event Id="4257474714" Name="TestGitEmptyEvent" ObjectPath="\Events\Default Work Unit\TestGitEmptyEvent" GUID="{4FE3BAC4-288F-4960-9E02-025399BE9F01}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
