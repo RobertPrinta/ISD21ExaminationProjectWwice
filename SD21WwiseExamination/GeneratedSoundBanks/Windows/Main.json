@@ -16,11 +16,70 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "182540302",
+    "Hash": "2491690547",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2321815099",
+      "Name": "PlayerFootsepsEvent",
+      "ObjectPath": "\\Events\\Locomotion\\PlayerFootsepsEvent",
+      "GUID": "{A7D35627-1610-4AF4-ADAE-0EE180A029D6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.40744",
+      "DurationMax": "0.531491",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "17175645",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V8.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V8_10C4C929.wem"
+       },
+       {
+        "Id": "177767404",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V7.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V7_10C4C929.wem"
+       },
+       {
+        "Id": "349413103",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V6.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V6_10C4C929.wem"
+       },
+       {
+        "Id": "385645978",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V2.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V2_10C4C929.wem"
+       },
+       {
+        "Id": "628328633",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V5.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V5_10C4C929.wem"
+       },
+       {
+        "Id": "667107837",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V1.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V1_10C4C929.wem"
+       },
+       {
+        "Id": "705238245",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V4.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V4_10C4C929.wem"
+       },
+       {
+        "Id": "924495630",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V3.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V3_10C4C929.wem"
+       }
+      ]
+     },
      {
       "Id": "1097980931",
       "Name": "TestEvent",
@@ -39,9 +98,9 @@
       ]
      },
      {
-      "Id": "4257474714",
-      "Name": "TestGitEmptyEvent",
-      "ObjectPath": "\\Events\\Default Work Unit\\TestGitEmptyEvent",
+      "Id": "1125969025",
+      "Name": "TestGitEvent",
+      "ObjectPath": "\\Events\\Default Work Unit\\TestGitEvent",
       "GUID": "{4FE3BAC4-288F-4960-9E02-025399BE9F01}",
       "MaxAttenuation": "0.",
       "DurationType": "OneShot",
