@@ -7,34 +7,11 @@
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
-	<DialogueEvents/>
-	<StreamedFiles>
-		<File Id="754351447" Language="SFX">
-			<ShortName>Test\Bantam.wav</ShortName>
-			<Path>SFX\Test\Bantam_10C4C929.wem</Path>
-		</File>
-	</StreamedFiles>
-	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3690994985">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="1285331794">
-			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
-			<ShortName>Main</ShortName>
-			<Path>Main.bnk</Path>
-			<IncludedEvents>
-				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\Default Work Unit\TestEvent" GUID="{B5C8F208-926C-4E34-818A-948334BBC1B4}" DurationType="OneShot" DurationMin="100.069771" DurationMax="100.069771">
-					<ReferencedStreamedFiles>
-						<File Id="754351447" Language="SFX">
-							<ShortName>Test\Bantam.wav</ShortName>
-							<Path>SFX\Test\Bantam_10C4C929.wem</Path>
-						</File>
-					</ReferencedStreamedFiles>
-				</Event>
-			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
