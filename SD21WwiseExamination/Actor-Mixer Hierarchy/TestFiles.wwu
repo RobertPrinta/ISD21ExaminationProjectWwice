@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A55FE4AD-45A1-4AAE-81B4-E661FC94D161}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="TestFiles" ID="{A55FE4AD-45A1-4AAE-81B4-E661FC94D161}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="TestTones" ID="{C67030A0-B809-4E04-863E-35AF58E2CF7B}" ShortID="991008519">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="TestBip_lp" ID="{C315691F-6B86-4826-9C12-CA8F5B335EDC}" ShortID="925183296">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Test_600hz_lp" ID="{CA64F894-ECD4-400C-BCDD-8A7B3C970723}">
+									<Language>SFX</Language>
+									<AudioFile>Test\Test_600hz_lp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="47529884"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Test_600hz_lp" ID="{CA64F894-ECD4-400C-BCDD-8A7B3C970723}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TestBip" ID="{15246C4A-F712-4017-9242-44CCD4F81AE2}" ShortID="112656415">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Test_600hz_lp" ID="{BDC799F9-5C4E-4045-8379-93A91020135F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.194200647249191"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.338341173776959"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Test\Test_600hz_lp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="308265121"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Test_600hz_lp" ID="{BDC799F9-5C4E-4045-8379-93A91020135F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="TestTones_3D" ID="{ECDD6198-C991-423D-9EBB-EFCDAA7F61C7}" ShortID="413015484">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="TestBip_lp_3d" ID="{A302252B-762A-42D7-A8B0-BEA7B7F1E805}" ShortID="114006658">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Test_600hz_lp" ID="{B2E79945-F364-49DA-8D22-B96E0F703E1E}">
+									<Language>SFX</Language>
+									<AudioFile>Test\Test_600hz_lp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="47529884"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Test_600hz_lp" ID="{B2E79945-F364-49DA-8D22-B96E0F703E1E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TestBip_3d" ID="{987E1FF7-8F07-406E-8B39-267D1C45FB3D}" ShortID="399971303">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Test_600hz_lp" ID="{F798434E-D401-4D0A-A71D-7548DCF59F47}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.255991762283024"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.370746690203002"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Test\Test_600hz_lp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="105393619"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Test_600hz_lp" ID="{F798434E-D401-4D0A-A71D-7548DCF59F47}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
