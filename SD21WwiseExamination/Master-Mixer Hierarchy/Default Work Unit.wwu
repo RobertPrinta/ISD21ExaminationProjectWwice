@@ -26,6 +26,12 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
+						<Bus Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="AmbientMaster" ID="{ABE69BCB-4419-4E78-95D6-DD412512ED14}">
+							<ObjectLists/>
+						</Bus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
