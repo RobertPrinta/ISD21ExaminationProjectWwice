@@ -327,7 +327,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="HubMusicAct1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" ShortID="156645765">
+						<MusicPlaylistContainer Name="HubMusicAct1_1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" ShortID="156645765">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -399,7 +399,7 @@
 								<MusicPlaylistItem Name="" ID="{A23F0BA3-E358-46D3-98A2-9D5CB2F7DA12}" ShortID="102503426"/>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="HubMusicAct2" ID="{A59DEB4D-4AE6-46C7-8F2F-1341C0B0A6B8}" ShortID="846515349">
+						<MusicPlaylistContainer Name="HubMusicAct1_2" ID="{A59DEB4D-4AE6-46C7-8F2F-1341C0B0A6B8}" ShortID="846515349">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -471,7 +471,7 @@
 								<MusicPlaylistItem Name="" ID="{DD5A8706-7532-4495-BBFF-25856BDEC24C}" ShortID="519248647"/>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="HubMusicAct3" ID="{2E5BE8A4-BF5F-40A7-A3FC-7A19FF74B47A}" ShortID="560691886">
+						<MusicPlaylistContainer Name="HubMusicAct1_3" ID="{2E5BE8A4-BF5F-40A7-A3FC-7A19FF74B47A}" ShortID="560691886">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -543,7 +543,7 @@
 								<MusicPlaylistItem Name="" ID="{E482D747-EC9A-41EE-BE45-B45A0FF07A07}" ShortID="618619487"/>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="HubMusicAct4" ID="{A096622A-B4C6-4F1F-B927-560B14DE4038}" ShortID="686445250">
+						<MusicPlaylistContainer Name="HubMusicAct2_1" ID="{A096622A-B4C6-4F1F-B927-560B14DE4038}" ShortID="686445250">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -615,7 +615,7 @@
 								<MusicPlaylistItem Name="" ID="{674F8ACC-B4CF-4745-AA12-B04733D2E1B8}" ShortID="4572947"/>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="HubMusicAct5" ID="{D0834E82-D1D1-47A8-9E78-13337FBF2EBE}" ShortID="1041065636">
+						<MusicPlaylistContainer Name="HubMusicAct2_2" ID="{D0834E82-D1D1-47A8-9E78-13337FBF2EBE}" ShortID="1041065636">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -687,7 +687,7 @@
 								<MusicPlaylistItem Name="" ID="{7B4F8071-8FF2-4403-8FCF-9094044BA699}" ShortID="636006666"/>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="HubMusicAct6" ID="{C1312006-0677-42C3-B6C3-99E9A2DBEB90}" ShortID="317838706">
+						<MusicPlaylistContainer Name="HubMusicAct2_3" ID="{C1312006-0677-42C3-B6C3-99E9A2DBEB90}" ShortID="317838706">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -759,7 +759,7 @@
 								<MusicPlaylistItem Name="" ID="{9A9F6B9C-4AC0-4CA6-A981-5CD9F23FF650}" ShortID="446297556"/>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="HubMusicAct7" ID="{B1695D83-2BCE-4457-BAA2-A6CE28A3E654}" ShortID="276134474">
+						<MusicPlaylistContainer Name="HubMusicAct3_1" ID="{B1695D83-2BCE-4457-BAA2-A6CE28A3E654}" ShortID="276134474">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -831,7 +831,7 @@
 								<MusicPlaylistItem Name="" ID="{500F6C92-CE24-4D95-9BC2-6D37EC3413FA}" ShortID="887603856"/>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="HubMusicAct8" ID="{7838228D-00A2-4789-ADDE-E097B84EAC61}" ShortID="181406825">
+						<MusicPlaylistContainer Name="HubMusicAct3_2" ID="{7838228D-00A2-4789-ADDE-E097B84EAC61}" ShortID="181406825">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -903,7 +903,7 @@
 								<MusicPlaylistItem Name="" ID="{4D638FC9-C695-40A1-BA36-98C567A94B67}" ShortID="203266629"/>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="HubMusicAct9" ID="{C9C50077-0B5E-4DA4-ADE0-60723300874A}" ShortID="987558994">
+						<MusicPlaylistContainer Name="HubMusicAct3_3" ID="{C9C50077-0B5E-4DA4-ADE0-60723300874A}" ShortID="987558994">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -1048,7 +1048,7 @@
 								<PathElementRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="HubMusicAct1_1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1056,7 +1056,7 @@
 								<PathElementRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct2" ID="{A59DEB4D-4AE6-46C7-8F2F-1341C0B0A6B8}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="HubMusicAct1_2" ID="{A59DEB4D-4AE6-46C7-8F2F-1341C0B0A6B8}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1064,7 +1064,7 @@
 								<PathElementRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct3" ID="{2E5BE8A4-BF5F-40A7-A3FC-7A19FF74B47A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="HubMusicAct1_3" ID="{2E5BE8A4-BF5F-40A7-A3FC-7A19FF74B47A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1072,7 +1072,7 @@
 								<PathElementRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct4" ID="{A096622A-B4C6-4F1F-B927-560B14DE4038}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="HubMusicAct2_1" ID="{A096622A-B4C6-4F1F-B927-560B14DE4038}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1080,7 +1080,7 @@
 								<PathElementRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct5" ID="{D0834E82-D1D1-47A8-9E78-13337FBF2EBE}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="HubMusicAct2_2" ID="{D0834E82-D1D1-47A8-9E78-13337FBF2EBE}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1088,7 +1088,7 @@
 								<PathElementRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct6" ID="{C1312006-0677-42C3-B6C3-99E9A2DBEB90}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="HubMusicAct2_3" ID="{C1312006-0677-42C3-B6C3-99E9A2DBEB90}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1096,7 +1096,7 @@
 								<PathElementRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct7" ID="{B1695D83-2BCE-4457-BAA2-A6CE28A3E654}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="HubMusicAct3_1" ID="{B1695D83-2BCE-4457-BAA2-A6CE28A3E654}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1104,7 +1104,7 @@
 								<PathElementRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct8" ID="{7838228D-00A2-4789-ADDE-E097B84EAC61}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="HubMusicAct3_2" ID="{7838228D-00A2-4789-ADDE-E097B84EAC61}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -1112,7 +1112,7 @@
 								<PathElementRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct9" ID="{C9C50077-0B5E-4DA4-ADE0-60723300874A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="HubMusicAct3_3" ID="{C9C50077-0B5E-4DA4-ADE0-60723300874A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
