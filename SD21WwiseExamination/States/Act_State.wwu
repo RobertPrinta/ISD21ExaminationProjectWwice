@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7A073626-D636-4918-82AF-B7A79BBC1F0E}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Act_State" ID="{7A073626-D636-4918-82AF-B7A79BBC1F0E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}">
+					<ChildrenList>
+						<State Name="None" ID="{FE051320-4012-45DB-8597-197D62A458E6}"/>
+						<State Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+						<State Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+						<State Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+						<State Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+						<State Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+						<State Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+						<State Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+						<State Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+						<State Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Runner_LVL_State" ID="{FD24C61E-9588-4D0F-BCAD-0DA024FB9634}">
+					<ChildrenList>
+						<State Name="None" ID="{8B77F188-B864-4A48-A88B-A13BCA72DB36}"/>
+						<State Name="Runner_Act1" ID="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}"/>
+						<State Name="Runner_Act2" ID="{F15E7649-AC49-4703-834C-42299FE4C3AD}"/>
+						<State Name="Runner_Act3" ID="{879C6307-863E-48F2-993D-E12F4D4DFBAE}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Thug_LVL_State" ID="{CE361D83-0A5A-40ED-A09B-FB19152B38D8}">
+					<ChildrenList>
+						<State Name="None" ID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
+						<State Name="Thug_Act1" ID="{41717F4D-89C2-4812-B173-6BE94CC1F3C1}"/>
+						<State Name="Thug_Act2" ID="{B603DFE1-B99E-447A-90E4-22039077C126}"/>
+						<State Name="Thug_Act3" ID="{1389356E-9BA5-40DD-884D-83BC5081EF04}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="OldLady_LVL" ID="{568D98EA-22AC-4E25-AE13-513AD3F9A270}">
+					<ChildrenList>
+						<State Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
+						<State Name="OldLady_Act1" ID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
+						<State Name="OldLady_Act2" ID="{508B344F-C35A-4116-9EB5-80E22DDCC24A}"/>
+						<State Name="OldLady_Act3" ID="{5411FB4F-64CF-4F8F-9B63-5562422834BE}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

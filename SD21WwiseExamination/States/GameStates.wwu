@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A071490D-D46C-4D29-95E3-15AF93666F06}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="GameStates" ID="{A071490D-D46C-4D29-95E3-15AF93666F06}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}">
+					<ChildrenList>
+						<State Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
+						<State Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+						<State Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

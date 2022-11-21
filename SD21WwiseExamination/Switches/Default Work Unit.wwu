@@ -1,51 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{ADED9BD8-0375-4915-999F-960372BC50AD}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{ADED9BD8-0375-4915-999F-960372BC50AD}" PersistMode="Standalone">
-			<ChildrenList>
-				<SwitchGroup Name="Lvl" ID="{1510022F-EEE8-492A-813D-0571F5682777}">
-					<ChildrenList>
-						<Switch Name="Hub" ID="{DB8A28E9-A5B6-40C2-892B-1C86C2728212}"/>
-						<Switch Name="Thug" ID="{14EECCE7-F02F-43D8-BF15-29B5A1541A99}"/>
-						<Switch Name="Runner" ID="{7B67658C-73F3-4076-853D-C991563068DD}"/>
-						<Switch Name="OldLady" ID="{EB8924CD-4D32-4F91-94D4-5A120CFDC499}"/>
-					</ChildrenList>
-				</SwitchGroup>
-				<SwitchGroup Name="Act_Hub" ID="{09D888FD-08D9-402F-899A-3C39D7597094}">
-					<ChildrenList>
-						<Switch Name="Hub_Act1" ID="{94439B7C-B41B-4D69-B1A6-D4013AFCD488}"/>
-						<Switch Name="Hub_Act2" ID="{DCDD55D8-4A76-4F57-9269-AA5EFB09B3FD}"/>
-						<Switch Name="Hub_Act3" ID="{4EC89F62-C92C-4885-A1E3-DAEC1392BC54}"/>
-						<Switch Name="Hub_Act4" ID="{0E35AF1F-C6C2-4BAD-ABAA-9E841058E4EB}"/>
-						<Switch Name="Hub_Act5" ID="{7DFCC422-0B38-4D22-A628-5D98D05E31F1}"/>
-						<Switch Name="Hub_Act6" ID="{51111116-C434-4CB9-A636-14749955146C}"/>
-						<Switch Name="Hub_Act7" ID="{837752E0-F644-4336-9E86-FD368689C067}"/>
-						<Switch Name="Hub_Act8" ID="{5A8175E0-0AD8-4BFD-A394-E31A38D890B3}"/>
-						<Switch Name="Hub_Act9" ID="{798A82F4-3257-4C4B-B514-22F02719A94F}"/>
-					</ChildrenList>
-				</SwitchGroup>
-				<SwitchGroup Name="Act_OldLady" ID="{76519FB0-F6C6-4379-9789-3608B8588814}">
-					<ChildrenList>
-						<Switch Name="OldLady_Act1" ID="{22DF9544-A70C-497C-BA15-3FD20A17AE08}"/>
-						<Switch Name="OldLady_Act2" ID="{8A2F1D4B-3F42-41B5-8055-4037889C5799}"/>
-						<Switch Name="OldLady_Act3" ID="{8D64EEB9-5A45-4594-93FC-6DABB9E17057}"/>
-					</ChildrenList>
-				</SwitchGroup>
-				<SwitchGroup Name="Act_Runner" ID="{0F3FD9B4-4007-49B1-AF73-A8017ACFB130}">
-					<ChildrenList>
-						<Switch Name="Act_Runner_Act1" ID="{C51517E9-53A9-44FE-8A1B-ADDEF3A9FB38}"/>
-						<Switch Name="Act_Runner_Act2" ID="{D87D4D0E-81A7-4128-9F6B-58349175EEA9}"/>
-						<Switch Name="Act_Runner_Act3" ID="{5DF1D26B-2210-48FB-BA55-8841B1F870F5}"/>
-					</ChildrenList>
-				</SwitchGroup>
-				<SwitchGroup Name="Act_Thug" ID="{39D0932E-9368-4D6A-B034-CF9343869A97}">
-					<ChildrenList>
-						<Switch Name="Act_Thug_Act1" ID="{38E2806F-783C-40A2-A650-321CE353D693}"/>
-						<Switch Name="Act_Thug_Act2" ID="{1A28755B-59AA-45A3-A8E9-4D8DCEEA62CF}"/>
-						<Switch Name="Act_Thug_Act3" ID="{66828107-2EC5-44A9-8C4E-65669F85E95D}"/>
-					</ChildrenList>
-				</SwitchGroup>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{ADED9BD8-0375-4915-999F-960372BC50AD}" PersistMode="Standalone"/>
 	</Switches>
 </WwiseDocument>
