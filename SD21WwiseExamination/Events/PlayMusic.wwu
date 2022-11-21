@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="PlayMusic" ID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}">
+					<ChildrenList>
+						<Action Name="" ID="{9075C1DF-C743-453C-B285-F1FEE80F1018}" ShortID="232860219">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HubMusic" ID="{D9D8DF5D-71D9-4D2E-B8FD-C47256D8A48F}" WorkUnitID="{435C963C-58A1-4CE7-86E0-05658344D00F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stop_MusicHub" ID="{202F35BD-36A3-458B-8A69-8CB4B84260A4}">
+					<ChildrenList>
+						<Action Name="" ID="{BD7C9337-9E59-41BC-922B-7CB5641CFD98}" ShortID="667605008">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HubMusic" ID="{D9D8DF5D-71D9-4D2E-B8FD-C47256D8A48F}" WorkUnitID="{435C963C-58A1-4CE7-86E0-05658344D00F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
