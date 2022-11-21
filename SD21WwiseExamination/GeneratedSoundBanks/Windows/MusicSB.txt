@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	75935907	Play_Stop_Runner			\PlayMusic\Play_Stop_Runner	
+	709266268	Play_MusicHub			\PlayMusic\Play_MusicHub	
+	2607843828	Play_Stop_OldLady			\PlayMusic\Play_Stop_OldLady	
+	3289997258	Play_Thug			\PlayMusic\Play_Thug	
+	3466869857	Play_Stop_Thug			\PlayMusic\Play_Stop_Thug	
+	3569629287	Play_Stop_MusicHub			\PlayMusic\Play_Stop_MusicHub	
+	3965456208	Play_Runner			\PlayMusic\Play_Runner	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1025315780	Thug_LVL_State			\Act_State\Thug_LVL_State	
+	2910197478	Runner_LVL_State			\Act_State\Runner_LVL_State	
+	4017376967	Hub_LVL_State			\Act_State\Hub_LVL_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Thug_LVL_State			
+	1794750309	Thug_Act1	Thug_LVL_State			
+	1794750310	Thug_Act2	Thug_LVL_State			
+	1794750311	Thug_Act3	Thug_LVL_State			
+	748895195	None	Runner_LVL_State			
+	1513083912	Runner_Act2	Runner_LVL_State			
+	1513083913	Runner_Act3	Runner_LVL_State			
+	1513083915	Runner_Act1	Runner_LVL_State			
+	748895195	None	Hub_LVL_State			
+	3086885376	Hub_Act9	Hub_LVL_State			
+	3086885377	Hub_Act8	Hub_LVL_State			
+	3086885384	Hub_Act1	Hub_LVL_State			
+	3086885386	Hub_Act3	Hub_LVL_State			
+	3086885387	Hub_Act2	Hub_LVL_State			
+	3086885388	Hub_Act5	Hub_LVL_State			
+	3086885389	Hub_Act4	Hub_LVL_State			
+	3086885390	Hub_Act7	Hub_LVL_State			
+	3086885391	Hub_Act6	Hub_LVL_State			
+

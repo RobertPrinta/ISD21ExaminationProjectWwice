@@ -14,7 +14,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="TestGitEvent" ID="{4FE3BAC4-288F-4960-9E02-025399BE9F01}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

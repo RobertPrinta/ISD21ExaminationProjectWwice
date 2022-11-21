@@ -5,9 +5,27 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{5421AEBB-4246-409D-870F-D804332B1B02}">
 					<ObjectInclusionList>
-						<ObjectRef Name="TestGitEvent" ID="{4FE3BAC4-288F-4960-9E02-025399BE9F01}" WorkUnitID="{00036224-81D5-4750-92F6-24B782F79F39}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_StopTestBeep_lp" ID="{00EEDECC-2355-418C-8EE6-10F881E5908B}" WorkUnitID="{73CF7650-C0E0-483B-AB57-34C78E0A67DC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TestBeep_3D" ID="{A6BF64AF-A9E3-41E5-B0E4-78C47A9E18E0}" WorkUnitID="{73CF7650-C0E0-483B-AB57-34C78E0A67DC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TestBeep_3D_lp" ID="{831DD70B-5741-46B7-98BA-4C57A4C840F6}" WorkUnitID="{73CF7650-C0E0-483B-AB57-34C78E0A67DC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerFootstepsEvent" ID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" WorkUnitID="{C5A83140-F17F-4361-A957-F5569C8CB4DB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TestBeep" ID="{D2E78B9D-119E-4C59-AC2C-F0E6DF6A5941}" WorkUnitID="{73CF7650-C0E0-483B-AB57-34C78E0A67DC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TestBeep_lp" ID="{41335FB9-1521-4D2C-8636-A71E98075D5E}" WorkUnitID="{73CF7650-C0E0-483B-AB57-34C78E0A67DC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TestEvent" ID="{B5C8F208-926C-4E34-818A-948334BBC1B4}" WorkUnitID="{00036224-81D5-4750-92F6-24B782F79F39}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop_TestBeep_3D" ID="{F24B9F0C-FE53-4E84-98A5-60337AB30795}" WorkUnitID="{73CF7650-C0E0-483B-AB57-34C78E0A67DC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MusicSB" ID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Runner" ID="{7C574E14-4AE8-42DB-B631-328664FFED03}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Thug" ID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop_OldLady" ID="{278243EB-BD65-4307-BCA0-02B61869922A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop_Thug" ID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop_MusicHub" ID="{202F35BD-36A3-458B-8A69-8CB4B84260A4}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop_Runner" ID="{5F2696C4-D0CB-4B43-B5D1-6B817172CFE1}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

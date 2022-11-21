@@ -130,6 +130,35 @@
 						</MusicTransition>
 					</TransitionList>
 					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="OldLady_LVL" ID="{568D98EA-22AC-4E25-AE13-513AD3F9A270}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="OldLady_Act1" ID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="OldLadyMusicAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="OldLady_Act2" ID="{508B344F-C35A-4116-9EB5-80E22DDCC24A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="OldLadyMusicAct2" ID="{56A63A92-F098-4975-BA64-D574058D2AC3}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="OldLady_Act3" ID="{5411FB4F-64CF-4F8F-9B63-5562422834BE}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="OldLadyMusicAct3" ID="{D9941E38-7BC5-4883-9B5F-2F73E314799E}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="RunnerMusic" ID="{E5BC8875-53C3-4915-BA91-84A148ABABCA}" ShortID="518029593">
 					<ReferenceList>
@@ -140,6 +169,89 @@
 							<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="RunnerAct1" ID="{46CDFBE4-3F1D-4BB3-8151-3663C2DF757F}" ShortID="845746994">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8AFA02AD-5880-483F-A52B-C9CB7A179AD2}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CD571AF4-2626-4CA2-AB0B-F2FEB6638D55}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2E380711-944C-459C-B150-76A20860A39D}" ShortID="545271556"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="RunnerAct2" ID="{19B52615-C773-4ED4-B495-0E1A25B874EA}" ShortID="219158843">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{BA6C4738-482B-4901-9889-BAE796E889FF}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{AED3F88D-9790-41B3-B9DA-82DE3CE25680}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{500A88DF-3BEF-48C5-8F18-8A9ECD732DEC}" ShortID="697031750"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="RunnerAct3" ID="{7302CEB0-0E72-4764-8B09-D12152EC4F44}" ShortID="419991657">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{18B043D2-5B9A-45B7-BEE0-F65C0B116D46}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{F988A14A-4587-4232-B4FE-091C7B9E7CF1}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{8D214EBB-976C-45E8-A209-00E8CCD0F479}" ShortID="341243731"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -175,6 +287,35 @@
 						</MusicTransition>
 					</TransitionList>
 					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="Runner_LVL_State" ID="{FD24C61E-9588-4D0F-BCAD-0DA024FB9634}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Runner_Act1" ID="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="RunnerAct1" ID="{46CDFBE4-3F1D-4BB3-8151-3663C2DF757F}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Runner_Act2" ID="{F15E7649-AC49-4703-834C-42299FE4C3AD}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="RunnerAct2" ID="{19B52615-C773-4ED4-B495-0E1A25B874EA}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Runner_Act3" ID="{879C6307-863E-48F2-993D-E12F4D4DFBAE}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="RunnerAct3" ID="{7302CEB0-0E72-4764-8B09-D12152EC4F44}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="HubMusic" ID="{D9D8DF5D-71D9-4D2E-B8FD-C47256D8A48F}" ShortID="940750221">
 					<ReferenceList>
@@ -186,7 +327,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="HubMusicPlayslist" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" ShortID="156645765">
+						<MusicPlaylistContainer Name="HubMusicAct1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" ShortID="156645765">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -258,6 +399,582 @@
 								<MusicPlaylistItem Name="" ID="{A23F0BA3-E358-46D3-98A2-9D5CB2F7DA12}" ShortID="102503426"/>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubMusicAct2" ID="{A59DEB4D-4AE6-46C7-8F2F-1341C0B0A6B8}" ShortID="846515349">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<CustomState Name="" ID="{67A35E2A-C6A5-45D7-B587-D94A725F971F}" ShortID="602468656"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+										<CustomState Name="" ID="{127020E9-A425-497B-BBD3-4CDBA309B5C3}" ShortID="152377387"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+										<CustomState Name="" ID="{F42F2DF0-845B-4440-AC23-CCCF75E98756}" ShortID="696401111"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+										<CustomState Name="" ID="{AE31BE23-347D-44D2-8843-616C78256FF9}" ShortID="1026452404"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<CustomState Name="" ID="{031F3C96-061D-418A-BAF7-C32DAD822B82}" ShortID="297696750"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+										<CustomState Name="" ID="{77F0CB10-F068-48F0-AAD4-AB171F30FBAF}" ShortID="314741326"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<CustomState Name="" ID="{8B7A43F5-8609-4EF2-A638-F2E26DDAC919}" ShortID="377559296"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+										<CustomState Name="" ID="{76523D72-0594-4CA9-AB6D-5EBD0A92BBFE}" ShortID="829698285"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+										<CustomState Name="" ID="{03BE7EAE-714D-4BE9-8052-C94DB366D7A7}" ShortID="389458687"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{ECF0F330-FE20-4C9F-B7A2-E3186249866B}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{45E32CBE-7FF0-481D-99E3-856903E24330}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{DD5A8706-7532-4495-BBFF-25856BDEC24C}" ShortID="519248647"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubMusicAct3" ID="{2E5BE8A4-BF5F-40A7-A3FC-7A19FF74B47A}" ShortID="560691886">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<CustomState Name="" ID="{7883DAE3-D49A-4E2B-A988-2670455202B2}" ShortID="923495680"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+										<CustomState Name="" ID="{1942AFCE-03AF-4C10-A2D6-B33905F52DCA}" ShortID="883155889"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+										<CustomState Name="" ID="{EDF3B7CF-E5E3-4AEB-87D6-BB1BFE42901D}" ShortID="176261013"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+										<CustomState Name="" ID="{0EB2AD20-5C42-49FA-932C-FEFFC6530494}" ShortID="4701523"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<CustomState Name="" ID="{B740E166-1A56-445C-9773-3B7A88D7C2A3}" ShortID="895392405"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+										<CustomState Name="" ID="{82A04CEA-3CA7-432D-8535-2912C256CBCE}" ShortID="273885029"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<CustomState Name="" ID="{0F3DBB15-9D53-4108-8D61-C6C0A717803E}" ShortID="33299695"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+										<CustomState Name="" ID="{D5658203-2412-4B44-AA6B-BC9345137C3D}" ShortID="1027656830"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+										<CustomState Name="" ID="{753E00CD-1F9D-4606-BDA3-1E4297628002}" ShortID="853110996"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{022DD447-38D1-4CBE-AAC5-7240D467C725}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{FC786B1D-6DFC-4AD5-9A1C-687EAC519738}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{E482D747-EC9A-41EE-BE45-B45A0FF07A07}" ShortID="618619487"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubMusicAct4" ID="{A096622A-B4C6-4F1F-B927-560B14DE4038}" ShortID="686445250">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<CustomState Name="" ID="{3765817E-A454-4F20-B332-680A5A98D04D}" ShortID="488263288"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+										<CustomState Name="" ID="{6EBAF62B-617A-4405-AD70-7681796DADE3}" ShortID="916076313"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+										<CustomState Name="" ID="{6FF868A7-079A-4F5F-B467-672E9AFD7B48}" ShortID="555429959"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+										<CustomState Name="" ID="{7F2CBE39-F5A3-4749-8C43-851F2DCCBBAE}" ShortID="315926422"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<CustomState Name="" ID="{92E2ED14-DEAA-4C5F-B1A9-5740865AA24F}" ShortID="150718244"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+										<CustomState Name="" ID="{8B5594AF-3A49-4C02-AACB-4A8419D816E0}" ShortID="249105259"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<CustomState Name="" ID="{B5CFD1F1-BE48-4D93-90E8-76EA05997E0C}" ShortID="495777131"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+										<CustomState Name="" ID="{63B7951C-ACAC-4D95-8F84-FCCB2F85BA10}" ShortID="923400355"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+										<CustomState Name="" ID="{9E95CAD4-3B95-4A92-8C5A-EAE28F2E5134}" ShortID="1069907475"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{EC895B11-91FC-406B-9372-56BD95234A86}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{99D69D40-545F-45BF-BFBF-C9803291D9AD}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{674F8ACC-B4CF-4745-AA12-B04733D2E1B8}" ShortID="4572947"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubMusicAct5" ID="{D0834E82-D1D1-47A8-9E78-13337FBF2EBE}" ShortID="1041065636">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<CustomState Name="" ID="{7DBC4C9A-0F16-4D2E-8E26-C36429B38841}" ShortID="784363370"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+										<CustomState Name="" ID="{22E88CA6-B4DC-4737-AE48-BC5165AFD133}" ShortID="825297956"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+										<CustomState Name="" ID="{342C8242-8590-421D-93C5-7E3BCBF159D3}" ShortID="28671078"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+										<CustomState Name="" ID="{548B1FAC-45F3-424E-A5AC-7A7B07608EB2}" ShortID="462893472"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<CustomState Name="" ID="{F6D46020-0CC8-4DCF-8A99-6ACC93F601C0}" ShortID="772336698"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+										<CustomState Name="" ID="{2017971B-AE68-444E-A153-97A542ABB857}" ShortID="196225275"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<CustomState Name="" ID="{EC11BFE6-8BAC-4DE5-A87D-B9B3017F8BC3}" ShortID="519592834"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+										<CustomState Name="" ID="{9F4366B0-FE9E-4537-A2BC-1EAD32ED7135}" ShortID="158080128"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+										<CustomState Name="" ID="{C6C72BD0-66A4-4A18-918D-E8CEB5FA3A6F}" ShortID="745763612"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3633F5CC-6E25-45E5-862D-384C0D445671}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E81F0CA7-EC86-4072-AD31-2AA5F1F50BE7}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{7B4F8071-8FF2-4403-8FCF-9094044BA699}" ShortID="636006666"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubMusicAct6" ID="{C1312006-0677-42C3-B6C3-99E9A2DBEB90}" ShortID="317838706">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<CustomState Name="" ID="{B2C0D5EF-DC66-477B-A45A-8E9251ECF910}" ShortID="36122351"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+										<CustomState Name="" ID="{80CB401E-17AF-4C03-BBFD-71DBCEA7A348}" ShortID="798622622"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+										<CustomState Name="" ID="{87A803F8-15F5-4006-A7B0-3567B7422E3D}" ShortID="337036170"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+										<CustomState Name="" ID="{8BEB52E2-2DE8-44AD-82A7-781CCD4113FD}" ShortID="626870859"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<CustomState Name="" ID="{D7712C19-11AA-4AFA-BC84-9AEDDA970205}" ShortID="680057321"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+										<CustomState Name="" ID="{CAF2B5A1-9CB2-42CE-93F7-A106C9A8D261}" ShortID="331859897"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<CustomState Name="" ID="{76F279B2-8ECA-471D-AEE7-F21715767B35}" ShortID="1013133436"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+										<CustomState Name="" ID="{7A015252-E896-4220-B62D-8EE6E3B67170}" ShortID="250084471"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+										<CustomState Name="" ID="{91039B8B-3515-4DFA-BA29-2C6324EAE363}" ShortID="657491867"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{CFC119B9-4A17-4725-96CE-2A5812A29D05}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{F8BAD25C-71AF-4529-BA77-602443824B9D}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{9A9F6B9C-4AC0-4CA6-A981-5CD9F23FF650}" ShortID="446297556"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubMusicAct7" ID="{B1695D83-2BCE-4457-BAA2-A6CE28A3E654}" ShortID="276134474">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<CustomState Name="" ID="{DACA018F-D617-487D-BC98-DFB0747CB7DC}" ShortID="413445067"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+										<CustomState Name="" ID="{761704B6-6DC8-44AE-8850-E5CDD54CFC59}" ShortID="566333526"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+										<CustomState Name="" ID="{AC256E2F-4192-4A58-9FFC-91E5B6903E17}" ShortID="525689932"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+										<CustomState Name="" ID="{79CF159A-DD32-48BF-91CF-5D012A6B8891}" ShortID="673415081"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<CustomState Name="" ID="{067EE3BB-D04E-4C01-B6AA-F3FA74066761}" ShortID="503914557"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+										<CustomState Name="" ID="{AEF74E37-45AA-4A93-9958-C01C57C531E3}" ShortID="107740195"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<CustomState Name="" ID="{141AE137-659C-489F-AC0D-5DD24B450C70}" ShortID="832108936"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+										<CustomState Name="" ID="{99BB3423-3625-4BE9-90AC-6191337251B8}" ShortID="556561818"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+										<CustomState Name="" ID="{34882F0C-1A13-41CE-97D9-64E30DB15B94}" ShortID="577240094"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D5257219-84F5-40AB-804E-5F2B11B7A589}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{4DB8BE80-CB26-421C-80ED-3D28DC3D213E}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{500F6C92-CE24-4D95-9BC2-6D37EC3413FA}" ShortID="887603856"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubMusicAct8" ID="{7838228D-00A2-4789-ADDE-E097B84EAC61}" ShortID="181406825">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<CustomState Name="" ID="{095778A7-E55C-412C-A886-068CA956D5FF}" ShortID="383025539"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+										<CustomState Name="" ID="{4B4291C2-E593-46BD-8544-B4A3ED3B75EB}" ShortID="846601418"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+										<CustomState Name="" ID="{232FF0D0-8F1A-4E26-8652-6346F9DB8A1E}" ShortID="405274515"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+										<CustomState Name="" ID="{4DBF154F-75E2-46DD-B5E3-EDA22BE17548}" ShortID="137302504"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<CustomState Name="" ID="{E5FE1412-B2D6-4DE9-B0D8-5EA6B5CC3692}" ShortID="1053638593"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+										<CustomState Name="" ID="{3E9D5C65-A547-48A3-A953-FF1CCA01DC97}" ShortID="635197764"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<CustomState Name="" ID="{61DC34F2-28A2-4474-95AA-2976E3677A54}" ShortID="718939362"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+										<CustomState Name="" ID="{D292B01E-3E3B-4B7D-8102-345FADA95CA8}" ShortID="596194450"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+										<CustomState Name="" ID="{9AAA84B5-AB01-4E7F-AD57-50B4C30E4C65}" ShortID="1048253322"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{13DE7860-2D25-4B20-9493-AFB9BADBED28}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{49E9E75B-D426-4C5A-81F7-58AAEB46308C}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{4D638FC9-C695-40A1-BA36-98C567A94B67}" ShortID="203266629"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubMusicAct9" ID="{C9C50077-0B5E-4DA4-ADE0-60723300874A}" ShortID="987558994">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<CustomState Name="" ID="{EF8FC507-C5E9-4A6E-97C5-4C9B51557197}" ShortID="340710023"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+										<CustomState Name="" ID="{670C3C19-1E3A-4406-941A-26DD5D8A489B}" ShortID="500869741"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+										<CustomState Name="" ID="{0939B9DC-E685-4DFE-B170-CD365FA98DC4}" ShortID="428635915"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+										<CustomState Name="" ID="{85011581-9372-41E7-B0D2-AC32B250FF87}" ShortID="777384376"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<CustomState Name="" ID="{AB141225-EF10-49BD-88FC-151A4B0DB473}" ShortID="630112602"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+										<CustomState Name="" ID="{596CEB2B-1767-4A5E-A2F6-EDE87C7BF91C}" ShortID="244599162"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<CustomState Name="" ID="{33B3B21F-8731-4E1A-9459-74F57BF6D913}" ShortID="921996266"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+										<CustomState Name="" ID="{0F8BD96C-71D4-40DC-B457-E9B7F2F62A2E}" ShortID="336435834"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+										<CustomState Name="" ID="{5CF5F94B-5CF6-4746-BF67-31472998D8FE}" ShortID="641547697"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8B3C81C2-4DB4-4AAC-B853-333E4BB3F298}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{49E3EB12-4500-4AAA-96FC-B7DAF9DD07D8}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{9FFA07BA-8E55-467B-AA6F-E4AB4B2AA485}" ShortID="178612202"/>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
@@ -322,6 +1039,83 @@
 						</MusicTransition>
 					</TransitionList>
 					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct2" ID="{A59DEB4D-4AE6-46C7-8F2F-1341C0B0A6B8}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct3" ID="{2E5BE8A4-BF5F-40A7-A3FC-7A19FF74B47A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct4" ID="{A096622A-B4C6-4F1F-B927-560B14DE4038}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct5" ID="{D0834E82-D1D1-47A8-9E78-13337FBF2EBE}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct6" ID="{C1312006-0677-42C3-B6C3-99E9A2DBEB90}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct7" ID="{B1695D83-2BCE-4457-BAA2-A6CE28A3E654}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct8" ID="{7838228D-00A2-4789-ADDE-E097B84EAC61}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct9" ID="{C9C50077-0B5E-4DA4-ADE0-60723300874A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="ThugMusic" ID="{5AD2F3BA-10BC-41E2-94A1-63420B7CE0BE}" ShortID="859707018">
 					<ReferenceList>
@@ -332,6 +1126,89 @@
 							<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="ThugMusic_Act1" ID="{05799B1A-B310-4185-B775-5228231BD617}" ShortID="690759932">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{0B5A419C-5B9F-4761-A9E1-A4EDA9A8020D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{1D3C60A8-042F-4888-8C16-86AE79EAEAB9}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{83F1EEDF-5F20-4753-8053-66A600EA758C}" ShortID="229393440"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="ThugMusic_Act2" ID="{5D51C7B6-53C0-4C9A-88DC-89CC97605545}" ShortID="186908773">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{68E691C8-C38A-4349-9545-B4CFF4A411A6}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E7372416-C125-4CBE-A631-7A67CFEA9064}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{B40F5AE3-08FB-4A5C-9368-5A180EC3F0F2}" ShortID="171316036"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="ThugMusic_Act3" ID="{12710F74-A249-4BA2-8E75-7185870E3675}" ShortID="423123972">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2B2EB9FB-21E8-44E1-9DC7-7548824BA32F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{00A23BFF-9DBA-4654-8AB5-90011F7CD6E6}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{A051D124-742E-4EE9-AB7F-054F1A9B9BBE}" ShortID="326731501"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -367,6 +1244,35 @@
 						</MusicTransition>
 					</TransitionList>
 					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="Thug_LVL_State" ID="{CE361D83-0A5A-40ED-A09B-FB19152B38D8}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Thug_Act1" ID="{41717F4D-89C2-4812-B173-6BE94CC1F3C1}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="ThugMusic_Act1" ID="{05799B1A-B310-4185-B775-5228231BD617}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Thug_Act2" ID="{B603DFE1-B99E-447A-90E4-22039077C126}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="ThugMusic_Act2" ID="{5D51C7B6-53C0-4C9A-88DC-89CC97605545}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Thug_Act3" ID="{1389356E-9BA5-40DD-884D-83BC5081EF04}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="ThugMusic_Act3" ID="{12710F74-A249-4BA2-8E75-7185870E3675}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

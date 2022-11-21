@@ -1,7 +1,43 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	893472011	OldLady_LVL			\Act_State\OldLady_LVL	
+	1025315780	Thug_LVL_State			\Act_State\Thug_LVL_State	
+	2910197478	Runner_LVL_State			\Act_State\Runner_LVL_State	
+	4017376967	Hub_LVL_State			\Act_State\Hub_LVL_State	
+	4091656514	GameState			\GameStates\GameState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	OldLady_LVL			
+	3548830616	OldLady_Act3	OldLady_LVL			
+	3548830617	OldLady_Act2	OldLady_LVL			
+	3548830618	OldLady_Act1	OldLady_LVL			
+	748895195	None	Thug_LVL_State			
+	1794750309	Thug_Act1	Thug_LVL_State			
+	1794750310	Thug_Act2	Thug_LVL_State			
+	1794750311	Thug_Act3	Thug_LVL_State			
+	748895195	None	Runner_LVL_State			
+	1513083912	Runner_Act2	Runner_LVL_State			
+	1513083913	Runner_Act3	Runner_LVL_State			
+	1513083915	Runner_Act1	Runner_LVL_State			
+	748895195	None	Hub_LVL_State			
+	3086885376	Hub_Act9	Hub_LVL_State			
+	3086885377	Hub_Act8	Hub_LVL_State			
+	3086885384	Hub_Act1	Hub_LVL_State			
+	3086885386	Hub_Act3	Hub_LVL_State			
+	3086885387	Hub_Act2	Hub_LVL_State			
+	3086885388	Hub_Act5	Hub_LVL_State			
+	3086885389	Hub_Act4	Hub_LVL_State			
+	3086885390	Hub_Act7	Hub_LVL_State			
+	3086885391	Hub_Act6	Hub_LVL_State			
+	748895195	None	GameState			
+	984691642	InGame	GameState			
+	3374585465	InMenu	GameState			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion\PlayerCloth	
+	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\AmbientMaster	
 	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion\PlayerFootsteps	
 	2343802269	PlayerLocomotion			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion	
+	3199789248	MusicMaster			\Default Work Unit\Master Audio Bus\MusicMaster	
 	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\PlayerMaster	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

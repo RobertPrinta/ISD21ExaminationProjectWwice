@@ -1,18 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
+	858964037	Play_TestBeep_lp			\TestEvents\Play_TestBeep_lp	
 	1097980931	TestEvent			\Default Work Unit\TestEvent	
-	1125969025	TestGitEvent			\Default Work Unit\TestGitEvent	
+	1681067324	Play_TestBeep_3D			\TestEvents\Play_TestBeep_3D	
+	1955951874	Play_TestBeep			\TestEvents\Play_TestBeep	
+	2141710033	Play_Stop_TestBeep_3D			\TestEvents\Play_Stop_TestBeep_3D	
+	2447536685	Play_StopTestBeep_lp			\TestEvents\Play_StopTestBeep_lp	
+	3463000471	Play_TestBeep_3D_lp			\TestEvents\Play_TestBeep_3D_lp	
 	3528723453	PlayerFootstepsEvent			\Locomotion\PlayerFootstepsEvent	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	17175645	FootstepsCon_V8	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V8_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V8		41528
-	177767404	FootstepsCon_V7	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V7_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V7		43102
-	349413103	FootstepsCon_V6	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V6_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V6		41732
-	385645978	FootstepsCon_V2	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V2_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V2		49606
-	628328633	FootstepsCon_V5	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V5_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V5		46020
-	667107837	FootstepsCon_V1	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V1_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V1		48056
-	705238245	FootstepsCon_V4	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V4_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V4		44736
-	924495630	FootstepsCon_V3	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V3_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V3		47504
+	17175645	FootstepsCon_V8	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V8_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V8		41528
+	47529884	TestBip_lp	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Test_600hz_lp_D79FB2B7.wem		\Actor-Mixer Hierarchy\TestFiles\TestTones\TestBip_lp		960192
+	105393619	TestBip_3d	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Test_600hz_lp_AFB6E014.wem		\Actor-Mixer Hierarchy\TestFiles\TestTones_3D\TestBip_3d		11080
+	177767404	FootstepsCon_V7	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V7_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V7		43102
+	308265121	TestBip	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Test_600hz_lp_E5F3E2CB.wem		\Actor-Mixer Hierarchy\TestFiles\TestTones\TestBip		13900
+	349413103	FootstepsCon_V6	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V6_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V6		41732
+	385645978	FootstepsCon_V2	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V2_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V2		49606
+	628328633	FootstepsCon_V5	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V5_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V5		46020
+	667107837	FootstepsCon_V1	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V1_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V1		48056
+	705238245	FootstepsCon_V4	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V4_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V4		44736
+	924495630	FootstepsCon_V3	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootstepsCon_V3_10C4C929.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Steps\FootstepsCon_V3		47504
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	754351447	Test	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Bantam_10C4C929.wem	754351447.wem	\Actor-Mixer Hierarchy\Default Work Unit\Test	
+	754351447	Test	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Bantam_10C4C929.wem	754351447.wem	\Actor-Mixer Hierarchy\Default Work Unit\Test	
 
