@@ -16,6 +16,12 @@
 						<Switch Name="Cobblestone" ID="{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="WalkingRunning" ID="{0645EEAD-D30D-480B-B908-24B6322A459F}">
+					<ChildrenList>
+						<Switch Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}"/>
+						<Switch Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
