@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{ADED9BD8-0375-4915-999F-960372BC50AD}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{ADED9BD8-0375-4915-999F-960372BC50AD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{ADED9BD8-0375-4915-999F-960372BC50AD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="MaterialSwitch" ID="{61C7AC41-AD06-45F3-9CCB-D85A5531C5F4}">
+					<ChildrenList>
+						<Switch Name="Stonetiles" ID="{D2956954-6A8F-48E4-AC0A-BEAE63E09F82}"/>
+						<Switch Name="Wood" ID="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}"/>
+						<Switch Name="Concrete" ID="{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}"/>
+						<Switch Name="Grass" ID="{EC73D8E6-F32D-4FF7-8C83-FDD81D007998}"/>
+						<Switch Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
+						<Switch Name="Rubber" ID="{B1B29272-5A4F-4486-8F42-8232B90D6323}"/>
+						<Switch Name="Rug" ID="{E598C8EC-9B78-461D-B10F-FB03297966D9}"/>
+						<Switch Name="Lino" ID="{B1630C93-1781-45FF-A6DA-EDEB1850FC30}"/>
+						<Switch Name="Cobblestone" ID="{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

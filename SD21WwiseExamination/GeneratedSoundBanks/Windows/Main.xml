@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="2176238457">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="1453200136">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -47,41 +47,92 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0.40744" DurationMax="0.531491">
+				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0.40744" DurationMax="0.58614">
 					<IncludedMemoryFiles>
+						<File Id="15589681" Language="SFX">
+							<ShortName>Test\FootSteps\FootstepsWood_V5.wav</ShortName>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V5_C8B78068.wem</Path>
+						</File>
 						<File Id="17175645" Language="SFX">
 							<ShortName>Test\FootstepsCon_V8.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V8_10C4C929.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V8_1582DC91.wem</Path>
 						</File>
 						<File Id="177767404" Language="SFX">
 							<ShortName>Test\FootstepsCon_V7.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V7_10C4C929.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V7_2F70ED41.wem</Path>
+						</File>
+						<File Id="223590677" Language="SFX">
+							<ShortName>Test\FootSteps\FootstepsWood_V2.wav</ShortName>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V2_9FA5C5DE.wem</Path>
+						</File>
+						<File Id="255130552" Language="SFX">
+							<ShortName>Test\FootSteps\FootstepsWood_V1.wav</ShortName>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V1_38993F70.wem</Path>
+						</File>
+						<File Id="323101246" Language="SFX">
+							<ShortName>Test\FootSteps\FootstepsWood_V3.wav</ShortName>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V3_6D76A9DC.wem</Path>
 						</File>
 						<File Id="349413103" Language="SFX">
 							<ShortName>Test\FootstepsCon_V6.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V6_10C4C929.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V6_8FBD122E.wem</Path>
 						</File>
 						<File Id="385645978" Language="SFX">
 							<ShortName>Test\FootstepsCon_V2.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V2_10C4C929.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V2_A5829BB8.wem</Path>
 						</File>
 						<File Id="628328633" Language="SFX">
 							<ShortName>Test\FootstepsCon_V5.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V5_10C4C929.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V5_99E5177B.wem</Path>
 						</File>
 						<File Id="667107837" Language="SFX">
 							<ShortName>Test\FootstepsCon_V1.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V1_10C4C929.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V1_A1C10B00.wem</Path>
 						</File>
 						<File Id="705238245" Language="SFX">
 							<ShortName>Test\FootstepsCon_V4.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V4_10C4C929.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V4_575C3B0E.wem</Path>
+						</File>
+						<File Id="717416413" Language="SFX">
+							<ShortName>Test\FootSteps\FootstepsWood_V4.wav</ShortName>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V4_A4929D57.wem</Path>
 						</File>
 						<File Id="924495630" Language="SFX">
 							<ShortName>Test\FootstepsCon_V3.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V3_10C4C929.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V3_9181734B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}">
+							<Children>
+								<SwitchContainer SwitchValue="{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}">
+									<Media>
+										<File Id="17175645"/>
+										<File Id="177767404"/>
+										<File Id="349413103"/>
+										<File Id="385645978"/>
+										<File Id="628328633"/>
+										<File Id="667107837"/>
+										<File Id="705238245"/>
+										<File Id="924495630"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}">
+							<Children>
+								<SwitchContainer SwitchValue="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}">
+									<Media>
+										<File Id="15589681"/>
+										<File Id="223590677"/>
+										<File Id="255130552"/>
+										<File Id="323101246"/>
+										<File Id="717416413"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\Default Work Unit\TestEvent" GUID="{B5C8F208-926C-4E34-818A-948334BBC1B4}" DurationType="OneShot" DurationMin="100.069771" DurationMax="100.069771">
 					<ReferencedStreamedFiles>
@@ -92,6 +143,21 @@
 					</ReferencedStreamedFiles>
 				</Event>
 			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="561786842" Name="MaterialSwitch" ObjectPath="\Switches\Default Work Unit\MaterialSwitch" GUID="{61C7AC41-AD06-45F3-9CCB-D85A5531C5F4}">
+					<Switches>
+						<Switch Id="2505248467" Name="Stonetiles" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Stonetiles" GUID="{D2956954-6A8F-48E4-AC0A-BEAE63E09F82}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Wood" GUID="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Concrete" GUID="{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Grass" GUID="{EC73D8E6-F32D-4FF7-8C83-FDD81D007998}"/>
+						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Carpet" GUID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
+						<Switch Id="437659151" Name="Rubber" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Rubber" GUID="{B1B29272-5A4F-4486-8F42-8232B90D6323}"/>
+						<Switch Id="712161697" Name="Rug" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Rug" GUID="{E598C8EC-9B78-461D-B10F-FB03297966D9}"/>
+						<Switch Id="136358821" Name="Lino" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Lino" GUID="{B1630C93-1781-45FF-A6DA-EDEB1850FC30}"/>
+						<Switch Id="2383988601" Name="Cobblestone" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Cobblestone" GUID="{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

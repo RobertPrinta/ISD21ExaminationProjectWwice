@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "2176238457",
+    "Hash": "1453200136",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -112,55 +112,146 @@
       "GUID": "{A7D35627-1610-4AF4-ADAE-0EE180A029D6}",
       "DurationType": "OneShot",
       "DurationMin": "0.40744",
-      "DurationMax": "0.531491",
+      "DurationMax": "0.58614",
       "IncludedMemoryFiles": [
+       {
+        "Id": "15589681",
+        "Language": "SFX",
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V5.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V5_C8B78068.wem"
+       },
        {
         "Id": "17175645",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V8.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V8_10C4C929.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V8_1582DC91.wem"
        },
        {
         "Id": "177767404",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V7.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V7_10C4C929.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V7_2F70ED41.wem"
+       },
+       {
+        "Id": "223590677",
+        "Language": "SFX",
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V2.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V2_9FA5C5DE.wem"
+       },
+       {
+        "Id": "255130552",
+        "Language": "SFX",
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V1.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V1_38993F70.wem"
+       },
+       {
+        "Id": "323101246",
+        "Language": "SFX",
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V3.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V3_6D76A9DC.wem"
        },
        {
         "Id": "349413103",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V6.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V6_10C4C929.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V6_8FBD122E.wem"
        },
        {
         "Id": "385645978",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V2.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V2_10C4C929.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V2_A5829BB8.wem"
        },
        {
         "Id": "628328633",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V5.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V5_10C4C929.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V5_99E5177B.wem"
        },
        {
         "Id": "667107837",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V1.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V1_10C4C929.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V1_A1C10B00.wem"
        },
        {
         "Id": "705238245",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V4.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V4_10C4C929.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V4_575C3B0E.wem"
+       },
+       {
+        "Id": "717416413",
+        "Language": "SFX",
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V4.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V4_A4929D57.wem"
        },
        {
         "Id": "924495630",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V3.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V3_10C4C929.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V3_9181734B.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}",
+        "Children": [
+         {
+          "SwitchValue": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}",
+          "Media": [
+           {
+            "Id": "17175645"
+           },
+           {
+            "Id": "177767404"
+           },
+           {
+            "Id": "349413103"
+           },
+           {
+            "Id": "385645978"
+           },
+           {
+            "Id": "628328633"
+           },
+           {
+            "Id": "667107837"
+           },
+           {
+            "Id": "705238245"
+           },
+           {
+            "Id": "924495630"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}",
+        "Children": [
+         {
+          "SwitchValue": "{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}",
+          "Media": [
+           {
+            "Id": "15589681"
+           },
+           {
+            "Id": "223590677"
+           },
+           {
+            "Id": "255130552"
+           },
+           {
+            "Id": "323101246"
+           },
+           {
+            "Id": "717416413"
+           }
+          ]
+         }
+        ]
        }
       ]
      },
@@ -178,6 +269,70 @@
         "Language": "SFX",
         "ShortName": "Test\\Bantam.wav",
         "Path": "SFX\\Test\\Bantam_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "561786842",
+      "Name": "MaterialSwitch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch",
+      "GUID": "{61C7AC41-AD06-45F3-9CCB-D85A5531C5F4}",
+      "Switches": [
+       {
+        "Id": "2505248467",
+        "Name": "Stonetiles",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Stonetiles",
+        "GUID": "{D2956954-6A8F-48E4-AC0A-BEAE63E09F82}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Wood",
+        "GUID": "{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Concrete",
+        "GUID": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Grass",
+        "GUID": "{EC73D8E6-F32D-4FF7-8C83-FDD81D007998}"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Carpet",
+        "GUID": "{49626C79-B44F-4186-B298-E4D7EA6A73C5}"
+       },
+       {
+        "Id": "437659151",
+        "Name": "Rubber",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Rubber",
+        "GUID": "{B1B29272-5A4F-4486-8F42-8232B90D6323}"
+       },
+       {
+        "Id": "712161697",
+        "Name": "Rug",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Rug",
+        "GUID": "{E598C8EC-9B78-461D-B10F-FB03297966D9}"
+       },
+       {
+        "Id": "136358821",
+        "Name": "Lino",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Lino",
+        "GUID": "{B1630C93-1781-45FF-A6DA-EDEB1850FC30}"
+       },
+       {
+        "Id": "2383988601",
+        "Name": "Cobblestone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Cobblestone",
+        "GUID": "{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"
        }
       ]
      }
