@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -35,7 +35,6 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "2155619382",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -137,79 +136,79 @@
         "Id": "2536815",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V4.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V4_9335493E.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V4_C2A29570.wem"
        },
        {
         "Id": "97152406",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V3.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V3_E781FEF7.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V3_1E74893A.wem"
        },
        {
         "Id": "317756079",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V8.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V8_D3835455.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V8_F5CDD60A.wem"
        },
        {
         "Id": "323248795",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V5.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V5_1E728DBC.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V5_25FC4FA2.wem"
        },
        {
         "Id": "394750744",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V6.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V6_4E4DE49E.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V6_BD7FD863.wem"
        },
        {
         "Id": "397077059",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V4.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V4_61CC7ECC.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V4_646BD5BB.wem"
        },
        {
         "Id": "464843299",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V2.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V2_59C12AB2.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V2_360919CB.wem"
        },
        {
         "Id": "611434053",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V7.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V7_0E84F98A.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V7_E8549E4D.wem"
        },
        {
         "Id": "670291807",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V1.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V1_A402D899.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V1_3CFA7678.wem"
        },
        {
         "Id": "677653142",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V2.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V2_E2EFB603.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V2_741CAF95.wem"
        },
        {
         "Id": "944078048",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V1.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V1_BFF99D6B.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V1_242CF0E7.wem"
        },
        {
         "Id": "967295816",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V3.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V3_B9D80EF4.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V3_045E2E3A.wem"
        },
        {
         "Id": "1064124288",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V5.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V5_FD0F5227.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V5_1709E418.wem"
        }
       ],
       "SwitchContainers": [
@@ -467,7 +466,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "673801384",
+    "Hash": "64052174",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -486,12 +485,6 @@
         "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB5_D79FB2B7.wem"
        },
        {
-        "Id": "276086348",
-        "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB8.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB8_D79FB2B7.wem"
-       },
-       {
         "Id": "328109733",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB6.wav",
@@ -508,12 +501,6 @@
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB1.wav",
         "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB1_D79FB2B7.wem"
-       },
-       {
-        "Id": "851657697",
-        "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB9.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB9_D79FB2B7.wem"
        },
        {
         "Id": "865793335",
@@ -588,22 +575,6 @@
         "Media": [
          {
           "Id": "899191269"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{2D60D2AE-62BC-43E0-B874-6320FE468780}",
-        "Media": [
-         {
-          "Id": "276086348"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}",
-        "Media": [
-         {
-          "Id": "851657697"
          }
         ]
        }
