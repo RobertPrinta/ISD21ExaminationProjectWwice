@@ -27,7 +27,7 @@ Switch	ID	Name	Switch Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	2536815	FootstepsWood_V4	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootSteps\FootstepsWood_V4_559D8EA0.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Footsteps\Wood\Walking\FootstepsWood_V4		5059
-	47529884	TestBip_lp	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Test_600hz_lp_9EDFC787.wem		\Actor-Mixer Hierarchy\TestFiles\TestTones\TestBip_lp		18003
+	47529884	TestBip_lp_3d	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Test_600hz_lp_9EDFC787.wem		\Actor-Mixer Hierarchy\TestFiles\TestTones_3D\TestBip_lp_3d		18003
 	97152406	FootstepsWood_V3	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\FootSteps\FootstepsWood_V3_0EFA0F2A.wem		\Actor-Mixer Hierarchy\Player_Locomotion\PlayerFootsteps\Footsteps\Wood\Walking\FootstepsWood_V3		4792
 	105393619	TestBip_3d	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Test_600hz_lp_BF12C104.wem		\Actor-Mixer Hierarchy\TestFiles\TestTones_3D\TestBip_3d		662
 	308265121	TestBip	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Test\Test_600hz_lp_5C57849B.wem		\Actor-Mixer Hierarchy\TestFiles\TestTones\TestBip		818

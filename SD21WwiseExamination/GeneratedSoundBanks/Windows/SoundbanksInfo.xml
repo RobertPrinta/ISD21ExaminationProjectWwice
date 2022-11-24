@@ -229,7 +229,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="4211379545">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2372018117">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -285,40 +285,7 @@
 							<Path>SFX\Music\TheHub\The Hub 32Bars 120Bpm HUB4_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}">
-							<Media>
-								<File Id="39043558"/>
-								<File Id="106546438"/>
-								<File Id="271054572"/>
-								<File Id="328109733"/>
-								<File Id="423716369"/>
-								<File Id="462824573"/>
-								<File Id="645712183"/>
-								<File Id="738564118"/>
-								<File Id="837767505"/>
-								<File Id="865793335"/>
-								<File Id="899191269"/>
-								<File Id="926746066"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}">
-							<Media>
-								<File Id="39043558"/>
-								<File Id="106546438"/>
-								<File Id="271054572"/>
-								<File Id="328109733"/>
-								<File Id="423716369"/>
-								<File Id="462824573"/>
-								<File Id="645712183"/>
-								<File Id="738564118"/>
-								<File Id="837767505"/>
-								<File Id="865793335"/>
-								<File Id="899191269"/>
-								<File Id="926746066"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
+					<SwitchContainers/>
 				</Event>
 				<Event Id="3965456208" Name="Play_Runner" ObjectPath="\Events\PlayMusic\Play_Runner" GUID="{7C574E14-4AE8-42DB-B631-328664FFED03}" DurationType="Infinite">
 					<SwitchContainers/>

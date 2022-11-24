@@ -388,7 +388,7 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																						<Property Name="PlayAt" Type="Real64" Value="20214.4671364122"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-28.8392213409625"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB1" ID="{C456B6D6-95D1-430E-91D5-ADC69F19080A}"/>
 																					<PropertyCurveList>
@@ -461,7 +461,7 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																						<Property Name="PlayAt" Type="Real64" Value="20214.4671364121"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-28.8392213410644"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB1" ID="{C456B6D6-95D1-430E-91D5-ADC69F19080A}"/>
 																					<PropertyCurveList>
@@ -541,7 +541,7 @@
 												<Local>
 													<MusicCue Name="Entry Cue" ID="{154C0E24-16A3-4EB7-A413-D38F31068F71}">
 														<PropertyList>
-															<Property Name="TimeMs" Type="Real64" Value="22000"/>
+															<Property Name="TimeMs" Type="Real64" Value="1756.69364224684"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -551,7 +551,17 @@
 													<MusicCue Name="Exit Cue" ID="{089B27B5-FBC3-4872-A225-F19FB6D16F54}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="84214.4671364122"/>
+															<Property Name="TimeMs" Type="Real64" Value="63971.160778659"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="" ID="{E8AEA1E3-5852-4079-9709-9CEF20D71998}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="1756.69364224684"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -2312,14 +2322,6 @@
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct1_1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
 								<PathElementRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -2380,14 +2382,6 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="HubMusicAct3_3" ID="{C9C50077-0B5E-4DA4-ADE0-60723300874A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="None" ID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct1_1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
