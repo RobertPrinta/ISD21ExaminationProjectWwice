@@ -48,6 +48,9 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
@@ -142,6 +145,9 @@
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
@@ -238,6 +244,9 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
@@ -333,6 +342,9 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
@@ -427,6 +439,9 @@
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
@@ -678,6 +693,11 @@
 								<RandomSequenceContainer Name="Running" ID="{30E88B94-5B2B-4F16-B7BB-010EB1999A14}" ShortID="240442742">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>610</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -687,6 +707,231 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FootstepsCon_V7" ID="{6124AC53-F62C-4E76-ABF3-707C70C06DEC}" ShortID="144647283">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsCon_V7" ID="{4D3C4EA3-56C6-4A31-B7E1-53223079B863}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0444890267175572"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootstepsCon_V7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="611434053"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsCon_V7" ID="{4D3C4EA3-56C6-4A31-B7E1-53223079B863}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsCon_V3" ID="{958A0AEB-1AA5-4976-9C0C-6786DC33A61B}" ShortID="942971112">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsCon_V3" ID="{C9F8F524-D0EF-4A5D-B26C-854160E0124B}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0364652247667515"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootstepsCon_V3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="967295816"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsCon_V3" ID="{C9F8F524-D0EF-4A5D-B26C-854160E0124B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsCon_V2" ID="{FB578FDC-63A7-4D0E-ACB0-0B815BC44BF2}" ShortID="186286943">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsCon_V2" ID="{6246DEF4-4057-4DEC-828B-E7C645F5438C}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0315152671755725"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootstepsCon_V2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="677653142"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsCon_V2" ID="{6246DEF4-4057-4DEC-828B-E7C645F5438C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsCon_V4" ID="{00E43458-C900-4CF1-B6B2-FBECBE31E68E}" ShortID="203158693">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsCon_V4" ID="{4CA37969-EC78-48EB-AE3F-E8477C298942}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0361136556403732"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootstepsCon_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="397077059"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsCon_V4" ID="{4CA37969-EC78-48EB-AE3F-E8477C298942}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsCon_V5" ID="{E37C7D02-22DF-4B66-B4D0-95F5196D81D2}" ShortID="312895693">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsCon_V5" ID="{EF5946A2-36F8-4719-94B4-942ADBB8EF73}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0554229749787956"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootstepsCon_V5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="323248795"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsCon_V5" ID="{EF5946A2-36F8-4719-94B4-942ADBB8EF73}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsCon_V6" ID="{DEB7F6D8-4374-47D6-B680-4F80679693B5}" ShortID="228527302">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsCon_V6" ID="{62CD367A-4B69-43A3-A908-C0F3A3C35505}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.033132951653944"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootstepsCon_V6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="394750744"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsCon_V6" ID="{62CD367A-4B69-43A3-A908-C0F3A3C35505}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsCon_V1" ID="{53EB57F5-CFCB-4504-8318-646EB43B6A7D}" ShortID="589657317">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsCon_V1" ID="{EC5F9DAA-AAD2-4AB8-94AD-0F184C6955F2}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0286211832061069"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootstepsCon_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="670291807"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsCon_V1" ID="{EC5F9DAA-AAD2-4AB8-94AD-0F184C6955F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsCon_V8" ID="{EE3C2548-BAC3-4CEC-BD2D-17DB147A8B56}" ShortID="917041012">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsCon_V8" ID="{A766CA9B-46F7-4909-B771-552C85FBFB6E}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0357182994062765"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootstepsCon_V8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="317756079"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsCon_V8" ID="{A766CA9B-46F7-4909-B771-552C85FBFB6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -747,6 +992,9 @@
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
@@ -842,6 +1090,9 @@
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
@@ -1010,6 +1261,11 @@
 								<RandomSequenceContainer Name="Running" ID="{E9CABA19-6970-4C34-9F56-D2D1E912FD60}" ShortID="931237265">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>760</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1019,6 +1275,148 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FootstepsWood_V2" ID="{5E41188A-97E4-4EEA-9762-D639FD29AAB1}" ShortID="701716202">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsWood_V2" ID="{56BBC268-E8B6-4C87-9D57-C044C11E26EB}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0344446829940628"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootSteps\FootstepsWood_V2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="464843299"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsWood_V2" ID="{56BBC268-E8B6-4C87-9D57-C044C11E26EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsWood_V3" ID="{3D6C63E4-712E-4496-8ECD-9D93096759DB}" ShortID="625177361">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsWood_V3" ID="{BF393209-5A3B-4FD1-BF7F-79625C4A608F}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0724041295589483"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootSteps\FootstepsWood_V3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="97152406"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsWood_V3" ID="{BF393209-5A3B-4FD1-BF7F-79625C4A608F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsWood_V5" ID="{8A5DB086-5D6F-4589-8FD1-85B286CCBCF4}" ShortID="947072562">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsWood_V5" ID="{AF44F9A2-3173-4113-A0A2-9E53A8FA7197}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0503854961832061"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootSteps\FootstepsWood_V5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1064124288"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsWood_V5" ID="{AF44F9A2-3173-4113-A0A2-9E53A8FA7197}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsWood_V4" ID="{1D955F39-A26D-4401-A003-386967E6D658}" ShortID="1062539419">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsWood_V4" ID="{C925E704-1EF4-43F0-9E01-D2A9F9A01FF0}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0751459923664122"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootSteps\FootstepsWood_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="2536815"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsWood_V4" ID="{C925E704-1EF4-43F0-9E01-D2A9F9A01FF0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootstepsWood_V1" ID="{37BE2A3B-42E6-40ED-B77E-A54E1032FCD9}" ShortID="303391981">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootstepsWood_V1" ID="{6EA7E898-E3B7-4FDC-88B2-277B460B7893}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0325834923664122"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Test\FootSteps\FootstepsWood_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="944078048"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FootstepsWood_V1" ID="{6EA7E898-E3B7-4FDC-88B2-277B460B7893}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -1079,6 +1477,9 @@
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
@@ -1174,6 +1575,9 @@
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
