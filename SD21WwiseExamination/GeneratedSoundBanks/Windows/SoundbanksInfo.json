@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -17,7 +17,7 @@
     "Id": "754351447",
     "Language": "SFX",
     "ShortName": "Test\\Bantam.wav",
-    "Path": "SFX\\Test\\Bantam_10C4C929.wem"
+    "Path": "SFX\\Test\\Bantam_3F75BDB9.wem"
    }
   ],
   "MediaFilesNotInAnyBank": [],
@@ -35,7 +35,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "502576572",
+    "Hash": "3341697706",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -73,7 +73,7 @@
         "Id": "308265121",
         "Language": "SFX",
         "ShortName": "Test\\Test_600hz_lp.wav",
-        "Path": "SFX\\Test\\Test_600hz_lp_E5F3E2CB.wem"
+        "Path": "SFX\\Test\\Test_600hz_lp_5C57849B.wem"
        }
       ]
      },
@@ -90,7 +90,7 @@
         "Id": "105393619",
         "Language": "SFX",
         "ShortName": "Test\\Test_600hz_lp.wav",
-        "Path": "SFX\\Test\\Test_600hz_lp_AFB6E014.wem"
+        "Path": "SFX\\Test\\Test_600hz_lp_BF12C104.wem"
        }
       ]
      },
@@ -105,7 +105,7 @@
         "Id": "47529884",
         "Language": "SFX",
         "ShortName": "Test\\Test_600hz_lp.wav",
-        "Path": "SFX\\Test\\Test_600hz_lp_D79FB2B7.wem"
+        "Path": "SFX\\Test\\Test_600hz_lp_9EDFC787.wem"
        }
       ]
      },
@@ -120,7 +120,7 @@
         "Id": "47529884",
         "Language": "SFX",
         "ShortName": "Test\\Test_600hz_lp.wav",
-        "Path": "SFX\\Test\\Test_600hz_lp_D79FB2B7.wem"
+        "Path": "SFX\\Test\\Test_600hz_lp_9EDFC787.wem"
        }
       ]
      },
@@ -137,79 +137,79 @@
         "Id": "2536815",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V4.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V4_C2A29570.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V4_559D8EA0.wem"
        },
        {
         "Id": "97152406",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V3.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V3_1E74893A.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V3_0EFA0F2A.wem"
        },
        {
         "Id": "317756079",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V8.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V8_F5CDD60A.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V8_1C34A93A.wem"
        },
        {
         "Id": "323248795",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V5.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V5_25FC4FA2.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V5_E6FBB2F2.wem"
        },
        {
         "Id": "394750744",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V6.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V6_BD7FD863.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V6_8A73E813.wem"
        },
        {
         "Id": "397077059",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V4.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V4_646BD5BB.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V4_D39351EB.wem"
        },
        {
         "Id": "464843299",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V2.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V2_360919CB.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V2_25A5D6FB.wem"
        },
        {
         "Id": "611434053",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V7.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V7_E8549E4D.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V7_6F7BF93D.wem"
        },
        {
         "Id": "670291807",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V1.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V1_3CFA7678.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V1_871406A8.wem"
        },
        {
         "Id": "677653142",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V2.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V2_741CAF95.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V2_702A0B85.wem"
        },
        {
         "Id": "944078048",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V1.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V1_242CF0E7.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V1_E1DEEA37.wem"
        },
        {
         "Id": "967295816",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V3.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V3_045E2E3A.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V3_B69E3A4A.wem"
        },
        {
         "Id": "1064124288",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V5.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V5_1709E418.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V5_820CED68.wem"
        }
       ],
       "SwitchContainers": [
@@ -373,7 +373,7 @@
         "Id": "754351447",
         "Language": "SFX",
         "ShortName": "Test\\Bantam.wav",
-        "Path": "SFX\\Test\\Bantam_10C4C929.wem"
+        "Path": "SFX\\Test\\Bantam_3F75BDB9.wem"
        }
       ]
      }
@@ -467,7 +467,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "3049732264",
+    "Hash": "4211379545",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -483,43 +483,73 @@
         "Id": "39043558",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB5.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB5_D79FB2B7.wem"
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB5_9EDFC787.wem"
+       },
+       {
+        "Id": "106546438",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB11.wav",
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB11_9EDFC787.wem"
+       },
+       {
+        "Id": "271054572",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB12.wav",
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB12_9EDFC787.wem"
        },
        {
         "Id": "328109733",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB6.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB6_D79FB2B7.wem"
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB6_9EDFC787.wem"
+       },
+       {
+        "Id": "423716369",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB10.wav",
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB10_9EDFC787.wem"
        },
        {
         "Id": "462824573",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB2.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB2_D79FB2B7.wem"
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB2_9EDFC787.wem"
        },
        {
         "Id": "645712183",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB1.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB1_D79FB2B7.wem"
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB1_9EDFC787.wem"
+       },
+       {
+        "Id": "738564118",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB8.wav",
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB8_9EDFC787.wem"
+       },
+       {
+        "Id": "837767505",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB9.wav",
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB9_9EDFC787.wem"
        },
        {
         "Id": "865793335",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB3.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB3_D79FB2B7.wem"
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB3_9EDFC787.wem"
        },
        {
         "Id": "899191269",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB7.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB7_D79FB2B7.wem"
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB7_9EDFC787.wem"
        },
        {
         "Id": "926746066",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB4.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB4_D79FB2B7.wem"
+        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB4_9EDFC787.wem"
        }
       ],
       "SwitchContainers": [
@@ -527,55 +557,81 @@
         "SwitchValue": "{F7DD1200-F24C-4364-9D68-4B56F620CAA2}",
         "Media": [
          {
-          "Id": "645712183"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{3DECBAFC-492A-408F-BFF7-58207892F48E}",
-        "Media": [
+          "Id": "39043558"
+         },
+         {
+          "Id": "106546438"
+         },
+         {
+          "Id": "271054572"
+         },
+         {
+          "Id": "328109733"
+         },
+         {
+          "Id": "423716369"
+         },
          {
           "Id": "462824573"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8AEF6285-402B-443A-949D-E2CECCE2ED93}",
-        "Media": [
+         },
+         {
+          "Id": "645712183"
+         },
+         {
+          "Id": "738564118"
+         },
+         {
+          "Id": "837767505"
+         },
          {
           "Id": "865793335"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}",
-        "Media": [
+         },
+         {
+          "Id": "899191269"
+         },
          {
           "Id": "926746066"
          }
         ]
        },
        {
-        "SwitchValue": "{9D6167F0-A407-40D3-9463-BA73894CB7A6}",
+        "SwitchValue": "{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}",
         "Media": [
          {
           "Id": "39043558"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{27943BD8-515B-4131-968E-D120A5EBFA75}",
-        "Media": [
+         },
+         {
+          "Id": "106546438"
+         },
+         {
+          "Id": "271054572"
+         },
          {
           "Id": "328109733"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}",
-        "Media": [
+         },
+         {
+          "Id": "423716369"
+         },
+         {
+          "Id": "462824573"
+         },
+         {
+          "Id": "645712183"
+         },
+         {
+          "Id": "738564118"
+         },
+         {
+          "Id": "837767505"
+         },
+         {
+          "Id": "865793335"
+         },
          {
           "Id": "899191269"
+         },
+         {
+          "Id": "926746066"
          }
         ]
        }

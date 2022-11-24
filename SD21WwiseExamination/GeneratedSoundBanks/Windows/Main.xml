@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="502576572">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="3341697706">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -19,7 +19,7 @@
 					<IncludedMemoryFiles>
 						<File Id="308265121" Language="SFX">
 							<ShortName>Test\Test_600hz_lp.wav</ShortName>
-							<Path>SFX\Test\Test_600hz_lp_E5F3E2CB.wem</Path>
+							<Path>SFX\Test\Test_600hz_lp_5C57849B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -27,7 +27,7 @@
 					<IncludedMemoryFiles>
 						<File Id="105393619" Language="SFX">
 							<ShortName>Test\Test_600hz_lp.wav</ShortName>
-							<Path>SFX\Test\Test_600hz_lp_AFB6E014.wem</Path>
+							<Path>SFX\Test\Test_600hz_lp_BF12C104.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -35,7 +35,7 @@
 					<IncludedMemoryFiles>
 						<File Id="47529884" Language="SFX">
 							<ShortName>Test\Test_600hz_lp.wav</ShortName>
-							<Path>SFX\Test\Test_600hz_lp_D79FB2B7.wem</Path>
+							<Path>SFX\Test\Test_600hz_lp_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -43,7 +43,7 @@
 					<IncludedMemoryFiles>
 						<File Id="47529884" Language="SFX">
 							<ShortName>Test\Test_600hz_lp.wav</ShortName>
-							<Path>SFX\Test\Test_600hz_lp_D79FB2B7.wem</Path>
+							<Path>SFX\Test\Test_600hz_lp_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -51,55 +51,55 @@
 					<IncludedMemoryFiles>
 						<File Id="2536815" Language="SFX">
 							<ShortName>Test\FootSteps\FootstepsWood_V4.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V4_C2A29570.wem</Path>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V4_559D8EA0.wem</Path>
 						</File>
 						<File Id="97152406" Language="SFX">
 							<ShortName>Test\FootSteps\FootstepsWood_V3.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V3_1E74893A.wem</Path>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V3_0EFA0F2A.wem</Path>
 						</File>
 						<File Id="317756079" Language="SFX">
 							<ShortName>Test\FootstepsCon_V8.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V8_F5CDD60A.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V8_1C34A93A.wem</Path>
 						</File>
 						<File Id="323248795" Language="SFX">
 							<ShortName>Test\FootstepsCon_V5.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V5_25FC4FA2.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V5_E6FBB2F2.wem</Path>
 						</File>
 						<File Id="394750744" Language="SFX">
 							<ShortName>Test\FootstepsCon_V6.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V6_BD7FD863.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V6_8A73E813.wem</Path>
 						</File>
 						<File Id="397077059" Language="SFX">
 							<ShortName>Test\FootstepsCon_V4.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V4_646BD5BB.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V4_D39351EB.wem</Path>
 						</File>
 						<File Id="464843299" Language="SFX">
 							<ShortName>Test\FootSteps\FootstepsWood_V2.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V2_360919CB.wem</Path>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V2_25A5D6FB.wem</Path>
 						</File>
 						<File Id="611434053" Language="SFX">
 							<ShortName>Test\FootstepsCon_V7.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V7_E8549E4D.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V7_6F7BF93D.wem</Path>
 						</File>
 						<File Id="670291807" Language="SFX">
 							<ShortName>Test\FootstepsCon_V1.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V1_3CFA7678.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V1_871406A8.wem</Path>
 						</File>
 						<File Id="677653142" Language="SFX">
 							<ShortName>Test\FootstepsCon_V2.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V2_741CAF95.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V2_702A0B85.wem</Path>
 						</File>
 						<File Id="944078048" Language="SFX">
 							<ShortName>Test\FootSteps\FootstepsWood_V1.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V1_242CF0E7.wem</Path>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V1_E1DEEA37.wem</Path>
 						</File>
 						<File Id="967295816" Language="SFX">
 							<ShortName>Test\FootstepsCon_V3.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V3_045E2E3A.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V3_B69E3A4A.wem</Path>
 						</File>
 						<File Id="1064124288" Language="SFX">
 							<ShortName>Test\FootSteps\FootstepsWood_V5.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V5_1709E418.wem</Path>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V5_820CED68.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -189,7 +189,7 @@
 					<ReferencedStreamedFiles>
 						<File Id="754351447" Language="SFX">
 							<ShortName>Test\Bantam.wav</ShortName>
-							<Path>SFX\Test\Bantam_10C4C929.wem</Path>
+							<Path>SFX\Test\Bantam_3F75BDB9.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
