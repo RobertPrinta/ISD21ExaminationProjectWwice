@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="1453200136">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="2155619382">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -47,90 +47,141 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0.40744" DurationMax="0.58614">
+				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0." DurationMax="0.594666">
 					<IncludedMemoryFiles>
-						<File Id="15589681" Language="SFX">
-							<ShortName>Test\FootSteps\FootstepsWood_V5.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V5_C8B78068.wem</Path>
-						</File>
-						<File Id="17175645" Language="SFX">
-							<ShortName>Test\FootstepsCon_V8.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V8_1582DC91.wem</Path>
-						</File>
-						<File Id="177767404" Language="SFX">
-							<ShortName>Test\FootstepsCon_V7.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V7_2F70ED41.wem</Path>
-						</File>
-						<File Id="223590677" Language="SFX">
-							<ShortName>Test\FootSteps\FootstepsWood_V2.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V2_9FA5C5DE.wem</Path>
-						</File>
-						<File Id="255130552" Language="SFX">
-							<ShortName>Test\FootSteps\FootstepsWood_V1.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V1_38993F70.wem</Path>
-						</File>
-						<File Id="323101246" Language="SFX">
-							<ShortName>Test\FootSteps\FootstepsWood_V3.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V3_6D76A9DC.wem</Path>
-						</File>
-						<File Id="349413103" Language="SFX">
-							<ShortName>Test\FootstepsCon_V6.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V6_8FBD122E.wem</Path>
-						</File>
-						<File Id="385645978" Language="SFX">
-							<ShortName>Test\FootstepsCon_V2.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V2_A5829BB8.wem</Path>
-						</File>
-						<File Id="628328633" Language="SFX">
-							<ShortName>Test\FootstepsCon_V5.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V5_99E5177B.wem</Path>
-						</File>
-						<File Id="667107837" Language="SFX">
-							<ShortName>Test\FootstepsCon_V1.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V1_A1C10B00.wem</Path>
-						</File>
-						<File Id="705238245" Language="SFX">
-							<ShortName>Test\FootstepsCon_V4.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V4_575C3B0E.wem</Path>
-						</File>
-						<File Id="717416413" Language="SFX">
+						<File Id="2536815" Language="SFX">
 							<ShortName>Test\FootSteps\FootstepsWood_V4.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V4_A4929D57.wem</Path>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V4_9335493E.wem</Path>
 						</File>
-						<File Id="924495630" Language="SFX">
+						<File Id="97152406" Language="SFX">
+							<ShortName>Test\FootSteps\FootstepsWood_V3.wav</ShortName>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V3_E781FEF7.wem</Path>
+						</File>
+						<File Id="317756079" Language="SFX">
+							<ShortName>Test\FootstepsCon_V8.wav</ShortName>
+							<Path>SFX\Test\FootstepsCon_V8_D3835455.wem</Path>
+						</File>
+						<File Id="323248795" Language="SFX">
+							<ShortName>Test\FootstepsCon_V5.wav</ShortName>
+							<Path>SFX\Test\FootstepsCon_V5_1E728DBC.wem</Path>
+						</File>
+						<File Id="394750744" Language="SFX">
+							<ShortName>Test\FootstepsCon_V6.wav</ShortName>
+							<Path>SFX\Test\FootstepsCon_V6_4E4DE49E.wem</Path>
+						</File>
+						<File Id="397077059" Language="SFX">
+							<ShortName>Test\FootstepsCon_V4.wav</ShortName>
+							<Path>SFX\Test\FootstepsCon_V4_61CC7ECC.wem</Path>
+						</File>
+						<File Id="464843299" Language="SFX">
+							<ShortName>Test\FootSteps\FootstepsWood_V2.wav</ShortName>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V2_59C12AB2.wem</Path>
+						</File>
+						<File Id="611434053" Language="SFX">
+							<ShortName>Test\FootstepsCon_V7.wav</ShortName>
+							<Path>SFX\Test\FootstepsCon_V7_0E84F98A.wem</Path>
+						</File>
+						<File Id="670291807" Language="SFX">
+							<ShortName>Test\FootstepsCon_V1.wav</ShortName>
+							<Path>SFX\Test\FootstepsCon_V1_A402D899.wem</Path>
+						</File>
+						<File Id="677653142" Language="SFX">
+							<ShortName>Test\FootstepsCon_V2.wav</ShortName>
+							<Path>SFX\Test\FootstepsCon_V2_E2EFB603.wem</Path>
+						</File>
+						<File Id="944078048" Language="SFX">
+							<ShortName>Test\FootSteps\FootstepsWood_V1.wav</ShortName>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V1_BFF99D6B.wem</Path>
+						</File>
+						<File Id="967295816" Language="SFX">
 							<ShortName>Test\FootstepsCon_V3.wav</ShortName>
-							<Path>SFX\Test\FootstepsCon_V3_9181734B.wem</Path>
+							<Path>SFX\Test\FootstepsCon_V3_B9D80EF4.wem</Path>
+						</File>
+						<File Id="1064124288" Language="SFX">
+							<ShortName>Test\FootSteps\FootstepsWood_V5.wav</ShortName>
+							<Path>SFX\Test\FootSteps\FootstepsWood_V5_FD0F5227.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}">
+							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
 							<Children>
-								<SwitchContainer SwitchValue="{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}">
+								<SwitchContainer SwitchValue="{1AE29A23-ED00-467F-929E-092D3D4B00F5}">
 									<Media>
-										<File Id="17175645"/>
-										<File Id="177767404"/>
-										<File Id="349413103"/>
-										<File Id="385645978"/>
-										<File Id="628328633"/>
-										<File Id="667107837"/>
-										<File Id="705238245"/>
-										<File Id="924495630"/>
+										<File Id="317756079"/>
+										<File Id="323248795"/>
+										<File Id="394750744"/>
+										<File Id="397077059"/>
+										<File Id="611434053"/>
+										<File Id="670291807"/>
+										<File Id="677653142"/>
+										<File Id="967295816"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{627310E8-51FB-40C7-9B64-0919BECF37FC}">
+									<Media>
+										<File Id="317756079"/>
+										<File Id="323248795"/>
+										<File Id="394750744"/>
+										<File Id="397077059"/>
+										<File Id="611434053"/>
+										<File Id="670291807"/>
+										<File Id="677653142"/>
+										<File Id="967295816"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D2956954-6A8F-48E4-AC0A-BEAE63E09F82}">
+							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B1B29272-5A4F-4486-8F42-8232B90D6323}">
+							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{878D3574-13F8-4EF5-9F9F-BB293C6903AD}">
+							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{49626C79-B44F-4186-B298-E4D7EA6A73C5}">
+							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
+							<Children/>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}">
+							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
 							<Children>
-								<SwitchContainer SwitchValue="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}">
+								<SwitchContainer SwitchValue="{1AE29A23-ED00-467F-929E-092D3D4B00F5}">
 									<Media>
-										<File Id="15589681"/>
-										<File Id="223590677"/>
-										<File Id="255130552"/>
-										<File Id="323101246"/>
-										<File Id="717416413"/>
+										<File Id="2536815"/>
+										<File Id="97152406"/>
+										<File Id="464843299"/>
+										<File Id="944078048"/>
+										<File Id="1064124288"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{627310E8-51FB-40C7-9B64-0919BECF37FC}">
+									<Media>
+										<File Id="2536815"/>
+										<File Id="97152406"/>
+										<File Id="464843299"/>
+										<File Id="944078048"/>
+										<File Id="1064124288"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B1630C93-1781-45FF-A6DA-EDEB1850FC30}">
+							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{EC73D8E6-F32D-4FF7-8C83-FDD81D007998}">
+							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E598C8EC-9B78-461D-B10F-FB03297966D9}">
+							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
+							<Children/>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -155,6 +206,12 @@
 						<Switch Id="712161697" Name="Rug" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Rug" GUID="{E598C8EC-9B78-461D-B10F-FB03297966D9}"/>
 						<Switch Id="136358821" Name="Lino" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Lino" GUID="{B1630C93-1781-45FF-A6DA-EDEB1850FC30}"/>
 						<Switch Id="2383988601" Name="Cobblestone" ObjectPath="\Switches\Default Work Unit\MaterialSwitch\Cobblestone" GUID="{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2166948503" Name="WalkingRunning" ObjectPath="\Switches\Default Work Unit\WalkingRunning" GUID="{0645EEAD-D30D-480B-B908-24B6322A459F}">
+					<Switches>
+						<Switch Id="340271938" Name="Walking" ObjectPath="\Switches\Default Work Unit\WalkingRunning\Walking" GUID="{627310E8-51FB-40C7-9B64-0919BECF37FC}"/>
+						<Switch Id="3863236874" Name="Running" ObjectPath="\Switches\Default Work Unit\WalkingRunning\Running" GUID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

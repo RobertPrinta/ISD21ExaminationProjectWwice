@@ -35,7 +35,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "1453200136",
+    "Hash": "2155619382",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -130,147 +130,233 @@
       "ObjectPath": "\\Events\\Locomotion\\PlayerFootstepsEvent",
       "GUID": "{A7D35627-1610-4AF4-ADAE-0EE180A029D6}",
       "DurationType": "OneShot",
-      "DurationMin": "0.40744",
-      "DurationMax": "0.58614",
+      "DurationMin": "0.",
+      "DurationMax": "0.594666",
       "IncludedMemoryFiles": [
        {
-        "Id": "15589681",
-        "Language": "SFX",
-        "ShortName": "Test\\FootSteps\\FootstepsWood_V5.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V5_C8B78068.wem"
-       },
-       {
-        "Id": "17175645",
-        "Language": "SFX",
-        "ShortName": "Test\\FootstepsCon_V8.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V8_1582DC91.wem"
-       },
-       {
-        "Id": "177767404",
-        "Language": "SFX",
-        "ShortName": "Test\\FootstepsCon_V7.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V7_2F70ED41.wem"
-       },
-       {
-        "Id": "223590677",
-        "Language": "SFX",
-        "ShortName": "Test\\FootSteps\\FootstepsWood_V2.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V2_9FA5C5DE.wem"
-       },
-       {
-        "Id": "255130552",
-        "Language": "SFX",
-        "ShortName": "Test\\FootSteps\\FootstepsWood_V1.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V1_38993F70.wem"
-       },
-       {
-        "Id": "323101246",
-        "Language": "SFX",
-        "ShortName": "Test\\FootSteps\\FootstepsWood_V3.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V3_6D76A9DC.wem"
-       },
-       {
-        "Id": "349413103",
-        "Language": "SFX",
-        "ShortName": "Test\\FootstepsCon_V6.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V6_8FBD122E.wem"
-       },
-       {
-        "Id": "385645978",
-        "Language": "SFX",
-        "ShortName": "Test\\FootstepsCon_V2.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V2_A5829BB8.wem"
-       },
-       {
-        "Id": "628328633",
-        "Language": "SFX",
-        "ShortName": "Test\\FootstepsCon_V5.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V5_99E5177B.wem"
-       },
-       {
-        "Id": "667107837",
-        "Language": "SFX",
-        "ShortName": "Test\\FootstepsCon_V1.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V1_A1C10B00.wem"
-       },
-       {
-        "Id": "705238245",
-        "Language": "SFX",
-        "ShortName": "Test\\FootstepsCon_V4.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V4_575C3B0E.wem"
-       },
-       {
-        "Id": "717416413",
+        "Id": "2536815",
         "Language": "SFX",
         "ShortName": "Test\\FootSteps\\FootstepsWood_V4.wav",
-        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V4_A4929D57.wem"
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V4_9335493E.wem"
        },
        {
-        "Id": "924495630",
+        "Id": "97152406",
+        "Language": "SFX",
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V3.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V3_E781FEF7.wem"
+       },
+       {
+        "Id": "317756079",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V8.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V8_D3835455.wem"
+       },
+       {
+        "Id": "323248795",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V5.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V5_1E728DBC.wem"
+       },
+       {
+        "Id": "394750744",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V6.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V6_4E4DE49E.wem"
+       },
+       {
+        "Id": "397077059",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V4.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V4_61CC7ECC.wem"
+       },
+       {
+        "Id": "464843299",
+        "Language": "SFX",
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V2.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V2_59C12AB2.wem"
+       },
+       {
+        "Id": "611434053",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V7.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V7_0E84F98A.wem"
+       },
+       {
+        "Id": "670291807",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V1.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V1_A402D899.wem"
+       },
+       {
+        "Id": "677653142",
+        "Language": "SFX",
+        "ShortName": "Test\\FootstepsCon_V2.wav",
+        "Path": "SFX\\Test\\FootstepsCon_V2_E2EFB603.wem"
+       },
+       {
+        "Id": "944078048",
+        "Language": "SFX",
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V1.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V1_BFF99D6B.wem"
+       },
+       {
+        "Id": "967295816",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V3.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V3_9181734B.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V3_B9D80EF4.wem"
+       },
+       {
+        "Id": "1064124288",
+        "Language": "SFX",
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V5.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V5_FD0F5227.wem"
        }
       ],
       "SwitchContainers": [
        {
         "SwitchValue": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}",
+        "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
         "Children": [
          {
-          "SwitchValue": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}",
+          "SwitchValue": "{1AE29A23-ED00-467F-929E-092D3D4B00F5}",
           "Media": [
            {
-            "Id": "17175645"
+            "Id": "317756079"
            },
            {
-            "Id": "177767404"
+            "Id": "323248795"
            },
            {
-            "Id": "349413103"
+            "Id": "394750744"
            },
            {
-            "Id": "385645978"
+            "Id": "397077059"
            },
            {
-            "Id": "628328633"
+            "Id": "611434053"
            },
            {
-            "Id": "667107837"
+            "Id": "670291807"
            },
            {
-            "Id": "705238245"
+            "Id": "677653142"
            },
            {
-            "Id": "924495630"
+            "Id": "967295816"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
+          "Media": [
+           {
+            "Id": "317756079"
+           },
+           {
+            "Id": "323248795"
+           },
+           {
+            "Id": "394750744"
+           },
+           {
+            "Id": "397077059"
+           },
+           {
+            "Id": "611434053"
+           },
+           {
+            "Id": "670291807"
+           },
+           {
+            "Id": "677653142"
+           },
+           {
+            "Id": "967295816"
            }
           ]
          }
         ]
        },
        {
+        "SwitchValue": "{D2956954-6A8F-48E4-AC0A-BEAE63E09F82}",
+        "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
+        "Children": []
+       },
+       {
+        "SwitchValue": "{B1B29272-5A4F-4486-8F42-8232B90D6323}",
+        "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
+        "Children": []
+       },
+       {
+        "SwitchValue": "{878D3574-13F8-4EF5-9F9F-BB293C6903AD}",
+        "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
+        "Children": []
+       },
+       {
+        "SwitchValue": "{49626C79-B44F-4186-B298-E4D7EA6A73C5}",
+        "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
+        "Children": []
+       },
+       {
         "SwitchValue": "{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}",
+        "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
         "Children": [
          {
-          "SwitchValue": "{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}",
+          "SwitchValue": "{1AE29A23-ED00-467F-929E-092D3D4B00F5}",
           "Media": [
            {
-            "Id": "15589681"
+            "Id": "2536815"
            },
            {
-            "Id": "223590677"
+            "Id": "97152406"
            },
            {
-            "Id": "255130552"
+            "Id": "464843299"
            },
            {
-            "Id": "323101246"
+            "Id": "944078048"
            },
            {
-            "Id": "717416413"
+            "Id": "1064124288"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
+          "Media": [
+           {
+            "Id": "2536815"
+           },
+           {
+            "Id": "97152406"
+           },
+           {
+            "Id": "464843299"
+           },
+           {
+            "Id": "944078048"
+           },
+           {
+            "Id": "1064124288"
            }
           ]
          }
         ]
+       },
+       {
+        "SwitchValue": "{B1630C93-1781-45FF-A6DA-EDEB1850FC30}",
+        "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
+        "Children": []
+       },
+       {
+        "SwitchValue": "{EC73D8E6-F32D-4FF7-8C83-FDD81D007998}",
+        "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
+        "Children": []
+       },
+       {
+        "SwitchValue": "{E598C8EC-9B78-461D-B10F-FB03297966D9}",
+        "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
+        "Children": []
        }
       ]
      },
@@ -352,6 +438,26 @@
         "Name": "Cobblestone",
         "ObjectPath": "\\Switches\\Default Work Unit\\MaterialSwitch\\Cobblestone",
         "GUID": "{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"
+       }
+      ]
+     },
+     {
+      "Id": "2166948503",
+      "Name": "WalkingRunning",
+      "ObjectPath": "\\Switches\\Default Work Unit\\WalkingRunning",
+      "GUID": "{0645EEAD-D30D-480B-B908-24B6322A459F}",
+      "Switches": [
+       {
+        "Id": "340271938",
+        "Name": "Walking",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WalkingRunning\\Walking",
+        "GUID": "{627310E8-51FB-40C7-9B64-0919BECF37FC}"
+       },
+       {
+        "Id": "3863236874",
+        "Name": "Running",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WalkingRunning\\Running",
+        "GUID": "{1AE29A23-ED00-467F-929E-092D3D4B00F5}"
        }
       ]
      }
