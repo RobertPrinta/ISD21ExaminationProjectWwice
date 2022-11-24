@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{9F9E2023-8BB7-4945-92BD-55F4F1CE6B04}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Ljudproduktion\Reaper\Projects\Forsbergs UnrealWwise\Bounces\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\Originals\SFX\Test\"/>
 				<Property Name="Event Action List\{41335FB9-1521-4D2C-8636-A71E98075D5E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4FE3BAC4-288F-4960-9E02-025399BE9F01}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A6BF64AF-A9E3-41E5-B0E4-78C47A9E18E0}\x64_Expand States" Type="string" Value=""/>
