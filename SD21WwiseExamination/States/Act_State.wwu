@@ -5,7 +5,6 @@
 			<ChildrenList>
 				<StateGroup Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}">
 					<ChildrenList>
-						<State Name="None" ID="{FE051320-4012-45DB-8597-197D62A458E6}"/>
 						<State Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
 						<State Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
 						<State Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
