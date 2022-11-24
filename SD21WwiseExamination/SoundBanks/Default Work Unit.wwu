@@ -18,6 +18,13 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="MusicSB" ID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>99000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Runner" ID="{7C574E14-4AE8-42DB-B631-328664FFED03}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Thug" ID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>

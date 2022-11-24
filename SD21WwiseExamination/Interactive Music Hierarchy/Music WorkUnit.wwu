@@ -339,7 +339,7 @@
 							<ChildrenList>
 								<MusicSegment Name="The Hub 32Bars 120Bpm HUB1" ID="{D04A5E42-B6EF-40A1-9647-5AF47091F9F4}" ShortID="879494518">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="81971.160778659"/>
+										<Property Name="EndPosition" Type="Real64" Value="94214.4671364122"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -388,7 +388,7 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																						<Property Name="PlayAt" Type="Real64" Value="17971.160778659"/>
+																						<Property Name="PlayAt" Type="Real64" Value="20214.4671364122"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB1" ID="{C456B6D6-95D1-430E-91D5-ADC69F19080A}"/>
 																					<PropertyCurveList>
@@ -461,7 +461,7 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																						<Property Name="PlayAt" Type="Real64" Value="17971.1607786589"/>
+																						<Property Name="PlayAt" Type="Real64" Value="20214.4671364121"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB1" ID="{C456B6D6-95D1-430E-91D5-ADC69F19080A}"/>
 																					<PropertyCurveList>
@@ -541,7 +541,7 @@
 												<Local>
 													<MusicCue Name="Entry Cue" ID="{154C0E24-16A3-4EB7-A413-D38F31068F71}">
 														<PropertyList>
-															<Property Name="TimeMs" Type="Real64" Value="24000"/>
+															<Property Name="TimeMs" Type="Real64" Value="22000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -551,7 +551,931 @@
 													<MusicCue Name="Exit Cue" ID="{089B27B5-FBC3-4872-A225-F19FB6D16F54}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="81971.160778659"/>
+															<Property Name="TimeMs" Type="Real64" Value="84214.4671364122"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB2" ID="{EF8734C4-5DA4-4B0A-8FC6-37D169886E7E}" ShortID="320894272">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB2" ID="{26B24F94-A2B6-402F-ACF5-55BFBAB238B4}" ShortID="249982923">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB2" ID="{063AAA59-EE90-445B-81BC-20B2DBB86C97}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="462824573"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{47D0459B-1299-494D-A249-891B7A3D725C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4C5C9172-020D-4D41-9F46-B18320E2F489}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB2" ID="{06A5F133-158C-4534-AB40-6B804D72EF99}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB2" ID="{063AAA59-EE90-445B-81BC-20B2DBB86C97}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{28BAA3EB-104C-46A6-8E70-96DFA22415D1}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CBE4891F-6171-4BD7-89E8-0007EA3D358F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB3" ID="{CACA9F9D-250C-4FEC-BA9B-5E3EE9E0832E}" ShortID="994069846">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB3" ID="{8DE49397-9FC1-49C7-993A-C7B7DC1D384A}" ShortID="941502625">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB3" ID="{C1BFF849-5623-4D5B-ABFF-F2F95323BB4D}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="865793335"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C28D88B8-A68B-4FE2-B97F-F83157D36277}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AA95A390-2E59-48E3-9BC2-A05E8ED32653}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB3" ID="{AB8DAF50-FC32-4FFC-92B5-EAAAB8508059}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB3" ID="{C1BFF849-5623-4D5B-ABFF-F2F95323BB4D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7594C72C-4096-4695-8C5F-E1374C998E56}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5BD58E3D-70B3-4E99-AEAF-16A86C261B1E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB4" ID="{CE328D9A-CA62-4552-BFC7-C1A0101E7B49}" ShortID="163786863">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB4" ID="{68748470-A6C4-4036-966D-6A5CC2422918}" ShortID="232267670">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB4" ID="{FDD8C07F-9900-4122-A323-7F4650F7C5A3}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="926746066"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{96657EDB-9918-42EB-B559-BD43A0662A7E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C237CCB3-74D9-4881-9C08-A762218C46D5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB4" ID="{054FBB12-6083-4A8B-A5AC-E2FB6C85E263}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB4" ID="{FDD8C07F-9900-4122-A323-7F4650F7C5A3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{321BC52A-A488-4B5D-9D79-96A68C1CE439}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{3728C775-42E7-4B3B-AE1C-42740CEA5482}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB5" ID="{913044D1-14BE-4F0A-8BEE-28A3FAF490EC}" ShortID="467184571">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB5" ID="{09E28F4C-A499-4A1A-96E7-3D5E4A351BFE}" ShortID="345953797">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB5" ID="{9A8D00AB-91D4-4015-9020-814E6928FFD1}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="39043558"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E69D61C2-175C-41B9-A19D-96954DDEED9F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B63C70DB-7DB2-47AC-81F9-47016C903800}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB5" ID="{CBF524C7-7C05-446E-B773-6D01C8AE42B0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB5" ID="{9A8D00AB-91D4-4015-9020-814E6928FFD1}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F22E99BE-7C45-4E91-90B0-CE0B3F905239}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9366AAE0-F0EE-47A8-9830-45B8C1B62895}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB6" ID="{7B1D0F25-0F06-47E7-9DB1-071E369D1129}" ShortID="809870371">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB6" ID="{6F134D94-719C-4CA6-A3A4-B53BA86DB656}" ShortID="998488808">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB6" ID="{3F1C9CBE-B21A-4A4F-9E66-B22F1AA96133}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="328109733"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1AB0AA49-348F-4B23-9E48-0DC330B1917A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CA80562E-2945-4809-996C-028F0852B2F3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB6" ID="{9A52D399-F5AF-4423-9DEB-AD60F968D562}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB6" ID="{3F1C9CBE-B21A-4A4F-9E66-B22F1AA96133}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{779CC407-3B12-4587-8D63-AB6BDD7A0771}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{678611AD-4A12-4293-9DC9-D685F042CBE5}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB7" ID="{9B46B2B6-D5AB-4A9C-A4BE-8028FBC15096}" ShortID="801722385">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB7" ID="{9CCA2FF5-4C38-4EB1-8294-58B13431724C}" ShortID="1018544042">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB7" ID="{A80AAA37-9C56-4155-B4DE-929D557879E3}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="899191269"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{03798A07-4E8E-4F4D-B80B-6B12AB8BCEDD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D4F7B38B-598E-4B87-BDA8-A5CE19794E02}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB7" ID="{9D3FA12B-5FDE-49B7-9311-7B5723C7E766}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB7" ID="{A80AAA37-9C56-4155-B4DE-929D557879E3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{89733A96-7107-450B-9043-BF8262BD5397}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{987917BB-71D8-4A90-9942-B735967B3E40}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB8" ID="{FBF59407-6862-495F-BE2C-9D02C11B0687}" ShortID="659337224">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB8" ID="{00CA767B-958D-4DEF-90DC-57A501DEE3FC}" ShortID="788936619">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB8" ID="{879AB54B-D868-45A4-925C-19814680D8C8}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="738564118"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{34FF820D-2669-498B-9663-8C7AA97504DD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AB3CD771-D79D-4B31-B62F-14F25B0E4F34}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB8" ID="{260679BC-911D-4396-80B2-FB3D91806ECC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB8" ID="{879AB54B-D868-45A4-925C-19814680D8C8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{643301FE-7973-43E4-BF82-9F0EA75DD160}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{A2F0F00F-3A43-4E79-92C7-DF2CCCF9E419}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB9" ID="{34D4922F-0348-4904-8D51-E1C57D42F38C}" ShortID="179933947">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB9" ID="{586BF9AF-56C7-46D6-A6D3-66542CCF53F1}" ShortID="774268277">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB9" ID="{15054C17-A51A-4B9E-B52C-7874B8B68EAE}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="837767505"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CBD5D4A8-847E-4D7C-A3C6-EB4DF5F61834}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B6EC7343-237F-488B-BD89-4275F682BAD1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB9" ID="{5EE73031-F69C-452A-9D6D-6832D120E487}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB9" ID="{15054C17-A51A-4B9E-B52C-7874B8B68EAE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{362B81DA-0711-40A0-A83F-2FCE1F0B3EA3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{27B0F7B5-1A53-49E5-8D06-83E531443271}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB10" ID="{96382F23-C95C-4178-9D3B-2E3704C10DDF}" ShortID="255543200">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB10" ID="{FC3FDC32-EBFB-4719-9232-645EA3115716}" ShortID="696142802">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB10" ID="{3760AECA-5C66-46E2-B743-D58D29A527D6}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="423716369"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B174ECDA-8956-412B-840C-3A620BBFDE86}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{209A04B6-B2D2-4442-B516-66839652F26C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB10" ID="{2A832EF5-0B6D-4117-BD33-07B07BB9F633}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB10" ID="{3760AECA-5C66-46E2-B743-D58D29A527D6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3991EFD0-A511-473A-95C0-AC0598CD9ABD}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{87103F12-8EEF-488A-9A51-55616C7EC042}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB11" ID="{BC6FC8D5-528E-47B6-B0DC-ED851038909B}" ShortID="1042155516">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB11" ID="{989C38CB-62CE-44D7-AADA-5185CC28733F}" ShortID="378779276">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB11" ID="{EEC9EB21-47B8-410F-9476-0B888297A96F}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="106546438"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{03320BA2-824E-46BD-A53D-22F720E70194}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{506A006C-16E5-4C34-A31E-61B89384F782}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB11" ID="{61AAB38F-672B-4916-A481-E484E2D8EB5A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB11" ID="{EEC9EB21-47B8-410F-9476-0B888297A96F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A3EE82CD-5A77-4955-88A7-51D7340E2D9E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{34378850-A52C-41DA-856A-07CF844CD966}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub 32Bars 120Bpm HUB12" ID="{AA1FEB01-E21C-4FD9-A1AE-5E0BEBD9C9EB}" ShortID="302938173">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub 32Bars 120Bpm HUB12" ID="{D2BB4584-9B1F-423E-9642-F08D47F2D5E5}" ShortID="807516287">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB12" ID="{FCC9304D-2B91-4EDF-A837-626466482456}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="271054572"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{91D0A12C-0A2B-498E-BDCF-C9CD9453183C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3356A953-ED54-4287-87A1-F875394255A9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub 32Bars 120Bpm HUB12" ID="{B51BE463-657C-4822-B465-FF58EF0B0E1B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB12" ID="{FCC9304D-2B91-4EDF-A837-626466482456}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1380F8E6-BAAB-41D6-AF8F-64D05D922EC9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5E7D3C94-D17F-42F0-AB5F-F28D0F202124}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -632,6 +1556,72 @@
 											</PropertyList>
 											<SegmentRef Name="The Hub 32Bars 120Bpm HUB1" ID="{D04A5E42-B6EF-40A1-9647-5AF47091F9F4}"/>
 										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6919B436-93AB-486C-A7BF-5C9F00C7E936}" ShortID="24792066">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB2" ID="{EF8734C4-5DA4-4B0A-8FC6-37D169886E7E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{13AA5B57-ECFD-4EF3-99C5-180F357D8692}" ShortID="618421969">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB3" ID="{CACA9F9D-250C-4FEC-BA9B-5E3EE9E0832E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C71A535D-58D9-4BBD-9A81-8CF64EA35721}" ShortID="662549206">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB4" ID="{CE328D9A-CA62-4552-BFC7-C1A0101E7B49}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{F4D2FBA0-E7D1-4637-9FF5-6589031068F5}" ShortID="645527478">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB5" ID="{913044D1-14BE-4F0A-8BEE-28A3FAF490EC}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{09DAE819-44CF-416E-BF55-B8BFE856932F}" ShortID="935847051">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB6" ID="{7B1D0F25-0F06-47E7-9DB1-071E369D1129}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{718C6F45-2C21-4385-8C61-46C5BB3459E8}" ShortID="655115056">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB7" ID="{9B46B2B6-D5AB-4A9C-A4BE-8028FBC15096}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{46F87159-9C5E-41FD-A3B4-2B4994B656A7}" ShortID="492489528">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB8" ID="{FBF59407-6862-495F-BE2C-9D02C11B0687}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{98D9A1AE-B1EC-421B-9313-1D66AFC6815F}" ShortID="444832862">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB9" ID="{34D4922F-0348-4904-8D51-E1C57D42F38C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C86DB09D-8BDD-45F5-BE00-297185CA2A98}" ShortID="249128394">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB10" ID="{96382F23-C95C-4178-9D3B-2E3704C10DDF}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{FDC844CA-2D15-45ED-A6C9-0376B8F88759}" ShortID="153778228">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB11" ID="{BC6FC8D5-528E-47B6-B0DC-ED851038909B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{F09C1CFC-BBE0-409F-8F99-5A3F791B0473}" ShortID="40489284">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub 32Bars 120Bpm HUB12" ID="{AA1FEB01-E21C-4FD9-A1AE-5E0BEBD9C9EB}"/>
+										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
@@ -645,92 +1635,6 @@
 									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<MusicSegment Name="The Hub 32Bars 120Bpm HUB2" ID="{EF8734C4-5DA4-4B0A-8FC6-37D169886E7E}" ShortID="320894272">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="64000"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="The Hub 32Bars 120Bpm HUB2" ID="{26B24F94-A2B6-402F-ACF5-55BFBAB238B4}" ShortID="249982923">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB2" ID="{063AAA59-EE90-445B-81BC-20B2DBB86C97}">
-													<Language>SFX</Language>
-													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="462824573"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{47D0459B-1299-494D-A249-891B7A3D725C}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{4C5C9172-020D-4D41-9F46-B18320E2F489}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="The Hub 32Bars 120Bpm HUB2" ID="{06A5F133-158C-4534-AB40-6B804D72EF99}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB2" ID="{063AAA59-EE90-445B-81BC-20B2DBB86C97}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{28BAA3EB-104C-46A6-8E70-96DFA22415D1}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{CBE4891F-6171-4BD7-89E8-0007EA3D358F}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="64000"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
@@ -796,14 +1700,6 @@
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMode" Type="int16" Value="3"/>
 									</PropertyList>
-									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{6EB22193-C2E5-4762-BB7C-C2946FF0A253}" ShortID="464487479">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="The Hub 32Bars 120Bpm HUB2" ID="{EF8734C4-5DA4-4B0A-8FC6-37D169886E7E}"/>
-										</MusicPlaylistItem>
-									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
@@ -816,92 +1712,6 @@
 									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<MusicSegment Name="The Hub 32Bars 120Bpm HUB3" ID="{1DACB543-A31B-4A51-B232-DE38484C7A40}" ShortID="809374773">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="64000"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="The Hub 32Bars 120Bpm HUB3" ID="{53B48624-FA8D-407E-B549-1ED61FDC62ED}" ShortID="1035289244">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB3" ID="{D1822304-1806-4944-AACE-D74CD77B23A4}">
-													<Language>SFX</Language>
-													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="865793335"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{3B1F7631-037F-4993-B89B-D175C3929ECC}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{E0DDFCE4-E7C9-4E63-B003-4324CDDCFB8D}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="The Hub 32Bars 120Bpm HUB3" ID="{265AE5E7-DD2D-4C73-8EEE-3001B6DF7921}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB3" ID="{D1822304-1806-4944-AACE-D74CD77B23A4}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{8DF8273B-1DFF-4907-BAB1-BFF20D9FF359}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{24EF1F31-A7DF-4E2E-929A-F1A3C8B3FF39}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="64000"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
@@ -967,14 +1777,6 @@
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMode" Type="int16" Value="3"/>
 									</PropertyList>
-									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{6961E70C-8999-4DA7-B42D-C1B8AB8204BD}" ShortID="721164918">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="The Hub 32Bars 120Bpm HUB3" ID="{1DACB543-A31B-4A51-B232-DE38484C7A40}"/>
-										</MusicPlaylistItem>
-									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
@@ -987,92 +1789,6 @@
 									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<MusicSegment Name="The Hub 32Bars 120Bpm HUB4" ID="{1D37E1FB-3A1C-4625-BE0A-FC4CA0DE777F}" ShortID="708134910">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="64000"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="The Hub 32Bars 120Bpm HUB4" ID="{EC4118F9-9621-402D-830A-2F59B4B06F91}" ShortID="660250254">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB4" ID="{F06F6D9B-75D3-485D-8E06-C633E7D57A97}">
-													<Language>SFX</Language>
-													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="926746066"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{9BB97588-D1A4-4B2D-84D7-FC86224A7484}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{36FC1974-8E85-424D-A374-2CFF560098A1}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="The Hub 32Bars 120Bpm HUB4" ID="{8188FF5D-F72E-428E-A034-F730DB9F4BBF}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB4" ID="{F06F6D9B-75D3-485D-8E06-C633E7D57A97}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{F6EE851C-A9EE-4719-8630-E3A692C36C9F}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{FB245630-9CA6-48B7-B294-9BE1D74FC593}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="64000"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
@@ -1138,14 +1854,6 @@
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMode" Type="int16" Value="3"/>
 									</PropertyList>
-									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{3C65970A-8523-45AA-AA23-68DB9465A84C}" ShortID="737494351">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="The Hub 32Bars 120Bpm HUB4" ID="{1D37E1FB-3A1C-4625-BE0A-FC4CA0DE777F}"/>
-										</MusicPlaylistItem>
-									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
@@ -1158,92 +1866,6 @@
 									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<MusicSegment Name="The Hub 32Bars 120Bpm HUB5" ID="{DBB5B0B4-9569-4099-9752-B29CB0899DAA}" ShortID="465806980">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="64000"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="The Hub 32Bars 120Bpm HUB5" ID="{9CB0E3D7-F25B-4334-9064-BC279DBC88A4}" ShortID="145736517">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB5" ID="{B1502A24-2B7C-4F08-AD95-052591BAA729}">
-													<Language>SFX</Language>
-													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB5.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="39043558"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{9A7BA17D-F2C5-4AD1-9279-F83EE64C6F5C}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{E95CA601-4AFA-4F50-A4A6-294688F8AD9B}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="The Hub 32Bars 120Bpm HUB5" ID="{47D29D01-153F-4789-8DF1-B323212F753A}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB5" ID="{B1502A24-2B7C-4F08-AD95-052591BAA729}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{8C5E6632-7FB4-4495-8EF7-5935DABFB6AB}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{0D8CABC9-84BE-4A10-A6D5-713303D7A9B3}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="64000"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
@@ -1309,14 +1931,6 @@
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMode" Type="int16" Value="3"/>
 									</PropertyList>
-									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{2249064F-DC79-42B8-B8D0-AA9D5DE6B054}" ShortID="860767070">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="The Hub 32Bars 120Bpm HUB5" ID="{DBB5B0B4-9569-4099-9752-B29CB0899DAA}"/>
-										</MusicPlaylistItem>
-									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
@@ -1329,92 +1943,6 @@
 									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<MusicSegment Name="The Hub 32Bars 120Bpm HUB6" ID="{9EE0BA44-E8E3-4C9D-93B7-D02404A32D6B}" ShortID="919591125">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="64000"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="The Hub 32Bars 120Bpm HUB6" ID="{524F3714-4D80-455D-AD86-052B3FEBF8BF}" ShortID="484522031">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB6" ID="{E47B14B0-CD9C-4ECA-B632-377E8DFDC280}">
-													<Language>SFX</Language>
-													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB6.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="328109733"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{93A0FC5A-288E-47B5-A207-79E10F384266}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{692C70A6-EF2B-4BE8-BCFA-948946B972D2}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="The Hub 32Bars 120Bpm HUB6" ID="{C562500D-D444-4EE4-8047-92707AA25A8F}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB6" ID="{E47B14B0-CD9C-4ECA-B632-377E8DFDC280}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{8EE66C9E-5B1A-4DD1-8DFF-4D408907278E}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{F24DC797-0903-46DC-B60F-8DC656B75AE1}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="64000"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
@@ -1480,14 +2008,6 @@
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMode" Type="int16" Value="3"/>
 									</PropertyList>
-									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{B2D85EA2-AB8C-464D-9BDE-53BEAA733112}" ShortID="742441953">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="The Hub 32Bars 120Bpm HUB6" ID="{9EE0BA44-E8E3-4C9D-93B7-D02404A32D6B}"/>
-										</MusicPlaylistItem>
-									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
@@ -1500,92 +2020,6 @@
 									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<MusicSegment Name="The Hub 32Bars 120Bpm HUB7" ID="{530EE902-D475-431E-A716-2038045829B8}" ShortID="370383333">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="64000"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="The Hub 32Bars 120Bpm HUB7" ID="{F2A6B76D-9348-4D66-807A-2E62B82B99F7}" ShortID="396435624">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="The Hub 32Bars 120Bpm HUB7" ID="{9AD6FC73-8494-4B68-BF78-7E86B598C352}">
-													<Language>SFX</Language>
-													<AudioFile>Music\TheHub\The Hub 32Bars 120Bpm HUB7.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="899191269"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{CD9617F9-6990-4EC9-AA07-C7A3A01754BD}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{E3CCDB97-7D15-4714-A291-76654D4617CA}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="The Hub 32Bars 120Bpm HUB7" ID="{6F65626D-7832-490E-9EA0-9153D689B879}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="The Hub 32Bars 120Bpm HUB7" ID="{9AD6FC73-8494-4B68-BF78-7E86B598C352}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{36C3564D-A5C2-460A-82CE-F1C2B61D8C56}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{00D58252-5182-459A-9125-409C1046B91F}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="64000"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
@@ -1651,14 +2085,6 @@
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMode" Type="int16" Value="3"/>
 									</PropertyList>
-									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{2A0F3EF1-4FCC-47EE-9700-DCE8C5400374}" ShortID="685157723">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="The Hub 32Bars 120Bpm HUB7" ID="{530EE902-D475-431E-A716-2038045829B8}"/>
-										</MusicPlaylistItem>
-									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
@@ -1954,6 +2380,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="HubMusicAct3_3" ID="{C9C50077-0B5E-4DA4-ADE0-60723300874A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubMusicAct1_1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
