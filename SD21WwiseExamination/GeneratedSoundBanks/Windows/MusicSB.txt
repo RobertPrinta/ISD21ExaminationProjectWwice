@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	75935907	Play_Stop_Runner			\PlayMusic\Play_Stop_Runner	
 	709266268	Play_MusicHub			\PlayMusic\Play_MusicHub	
+	1789806177	Play_Stop_MainTheme			\PlayMusic\Play_Stop_MainTheme	
 	2607843828	Play_Stop_OldLady			\PlayMusic\Play_Stop_OldLady	
+	3009755888	Play_MainTheme			\PlayMusic\Play_MainTheme	
 	3289997258	Play_Thug			\PlayMusic\Play_Thug	
 	3466869857	Play_Stop_Thug			\PlayMusic\Play_Stop_Thug	
 	3569629287	Play_Stop_MusicHub			\PlayMusic\Play_Stop_MusicHub	
@@ -84,6 +86,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	873713962	The Hub Ambi10 107Bpm	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Music\TheHub\TheHub\The Hub Ambi10 107Bpm_9EDFC787.wem		\Interactive Music Hierarchy\Music WorkUnit\HubMusic\HubMusicAct1_1\The Hub Ambi10 107Bpm\The Hub Ambi10 107Bpm		877111
 	902108595	The Hub Ambi3 107Bpm	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Music\TheHub\TheHub\The Hub Ambi3 107Bpm_9EDFC787.wem		\Interactive Music Hierarchy\Music WorkUnit\HubMusic\HubMusicAct1_1\The Hub Ambi3 107Bpm\The Hub Ambi3 107Bpm		909959
 	923988624	The Hub Ambi1 107Bpm	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Music\TheHub\TheHub\The Hub Ambi1 107Bpm_9EDFC787.wem		\Interactive Music Hierarchy\Music WorkUnit\HubMusic\HubMusicAct1_1\The Hub Ambi1 107Bpm\The Hub Ambi1 107Bpm		914552
+	927860421	MAIN THEME (DEMO 2)	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Music\Theam\MAIN THEME (DEMO 2)_9EDFC787.wem		\Interactive Music Hierarchy\Theme Music Work Unit\ThemeMusic\New Music Playlist Container\MAIN THEME (DEMO 2)\MAIN THEME (DEMO 2)		3407843
 	974417402	The Hub Klarinett4 107Bpm	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett4 107Bpm_9EDFC787.wem		\Interactive Music Hierarchy\Music WorkUnit\HubMusic\HubMusicAct2_2\The Hub Klarinett4 107Bpm\The Hub Klarinett4 107Bpm		1177918
 	987296090	The Hub Ambi5 107Bpm	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Music\TheHub\TheHub\The Hub Ambi5 107Bpm_9EDFC787.wem		\Interactive Music Hierarchy\Music WorkUnit\HubMusic\HubMusicAct1_1\The Hub Ambi5 107Bpm\The Hub Ambi5 107Bpm		884083
 	1006132169	The Hub Klarinett15 107Bpm	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett15 107Bpm_9EDFC787.wem		\Interactive Music Hierarchy\Music WorkUnit\HubMusic\HubMusicAct3_2\The Hub Klarinett15 107Bpm\The Hub Klarinett15 107Bpm		695980

@@ -110,6 +110,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MainTheme" ID="{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}">
+					<ChildrenList>
+						<Action Name="" ID="{6BBF057C-860C-43A7-83C3-B80AF74244B0}" ShortID="1051854884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN THEME (DEMO 2)" ID="{0CD51EC4-2985-4B74-A58A-15F09879D119}" WorkUnitID="{B2780D92-C5EB-4024-8856-2F8CCD5E7A41}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stop_MainTheme" ID="{3C5E178D-70B8-48BC-A158-DD317939869A}">
+					<ChildrenList>
+						<Action Name="" ID="{7C0AA517-0A4B-4DC2-B747-C976C4439D17}" ShortID="110087535">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN THEME (DEMO 2)" ID="{0CD51EC4-2985-4B74-A58A-15F09879D119}" WorkUnitID="{B2780D92-C5EB-4024-8856-2F8CCD5E7A41}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

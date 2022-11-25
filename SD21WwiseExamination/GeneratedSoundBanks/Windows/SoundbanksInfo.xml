@@ -230,11 +230,19 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="3265950306">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1738196155">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3009755888" Name="Play_MainTheme" ObjectPath="\Events\PlayMusic\Play_MainTheme" GUID="{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}" DurationType="OneShot" DurationMin="178.285736" DurationMax="178.285736">
+					<IncludedMemoryFiles>
+						<File Id="927860421" Language="SFX">
+							<ShortName>Music\Theam\MAIN THEME (DEMO 2).wav</ShortName>
+							<Path>SFX\Music\Theam\MAIN THEME (DEMO 2)_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="709266268" Name="Play_MusicHub" ObjectPath="\Events\PlayMusic\Play_MusicHub" GUID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="7186386" Language="SFX">
@@ -549,6 +557,7 @@
 				<Event Id="3965456208" Name="Play_Runner" ObjectPath="\Events\PlayMusic\Play_Runner" GUID="{7C574E14-4AE8-42DB-B631-328664FFED03}" DurationType="Infinite">
 					<SwitchContainers/>
 				</Event>
+				<Event Id="1789806177" Name="Play_Stop_MainTheme" ObjectPath="\Events\PlayMusic\Play_Stop_MainTheme" GUID="{3C5E178D-70B8-48BC-A158-DD317939869A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3569629287" Name="Play_Stop_MusicHub" ObjectPath="\Events\PlayMusic\Play_Stop_MusicHub" GUID="{202F35BD-36A3-458B-8A69-8CB4B84260A4}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2607843828" Name="Play_Stop_OldLady" ObjectPath="\Events\PlayMusic\Play_Stop_OldLady" GUID="{278243EB-BD65-4307-BCA0-02B61869922A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="75935907" Name="Play_Stop_Runner" ObjectPath="\Events\PlayMusic\Play_Stop_Runner" GUID="{5F2696C4-D0CB-4B43-B5D1-6B817172CFE1}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
