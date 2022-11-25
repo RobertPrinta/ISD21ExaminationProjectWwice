@@ -5,22 +5,39 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "574397246",
+    "Hash": "1738196155",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3009755888",
+      "Name": "Play_MainTheme",
+      "ObjectPath": "\\Events\\PlayMusic\\Play_MainTheme",
+      "GUID": "{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}",
+      "DurationType": "OneShot",
+      "DurationMin": "178.285736",
+      "DurationMax": "178.285736",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "927860421",
+        "Language": "SFX",
+        "ShortName": "Music\\Theam\\MAIN THEME (DEMO 2).wav",
+        "Path": "SFX\\Music\\Theam\\MAIN THEME (DEMO 2)_9EDFC787.wem"
+       }
+      ]
+     },
      {
       "Id": "709266268",
       "Name": "Play_MusicHub",
@@ -29,79 +46,525 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "39043558",
+        "Id": "7186386",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB5.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB5_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett12 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett12 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "106546438",
+        "Id": "19588509",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB11.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB11_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm11 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm11 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "271054572",
+        "Id": "34960775",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB12.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB12_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm7 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm7 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "328109733",
+        "Id": "38739032",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB6.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB6_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Kontra Act 3\\The Hub Kontra3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Kontra Act 3\\The Hub Kontra3 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "423716369",
+        "Id": "47967510",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB10.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB10_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi9 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi9 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "462824573",
+        "Id": "49263054",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB2.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB2_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett2 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "645712183",
+        "Id": "75182647",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB1.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB1_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi11 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi11 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "738564118",
+        "Id": "95148008",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB8.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB8_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett16 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett16 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "837767505",
+        "Id": "109454418",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB9.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB9_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett13 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett13 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "865793335",
+        "Id": "110308273",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB3.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB3_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett19 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett19 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "899191269",
+        "Id": "124511540",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB7.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB7_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm12 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm12 107Bpm_9EDFC787.wem"
        },
        {
-        "Id": "926746066",
+        "Id": "126435349",
         "Language": "SFX",
-        "ShortName": "Music\\TheHub\\The Hub 32Bars 120Bpm HUB4.wav",
-        "Path": "SFX\\Music\\TheHub\\The Hub 32Bars 120Bpm HUB4_9EDFC787.wem"
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett1 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett1 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "133668139",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm4 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm4 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "149305370",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi13 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi13 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "156350224",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Kontra Act 3\\The Hub Kontra7 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Kontra Act 3\\The Hub Kontra7 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "162806489",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm14 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm14 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "178568217",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Kontra Act 3\\The Hub Kontra1 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Kontra Act 3\\The Hub Kontra1 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "186432223",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett8 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett8 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "221139832",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Kontra Act 3\\The Hub Kontra4 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Kontra Act 3\\The Hub Kontra4 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "275321656",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett7 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett7 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "305097834",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm9 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm9 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "309614749",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi8 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi8 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "311229540",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm5 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm5 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "331939923",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi6 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi6 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "335745444",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm15 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm15 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "347663930",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett14 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett14 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "361177564",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett3 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "373302793",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Kontra Act 3\\The Hub Kontra6 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Kontra Act 3\\The Hub Kontra6 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "381311774",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm2 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "445458464",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm13 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm13 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "460907771",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett18 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett18 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "474143180",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett11 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett11 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "484799993",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm8 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm8 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "502315308",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Kontra Act 3\\The Hub Kontra5 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Kontra Act 3\\The Hub Kontra5 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "532581507",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi4 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi4 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "562836194",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm6 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm6 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "602699446",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm10 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm10 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "604858977",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett9 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett9 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "614174703",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Kontra Act 3\\The Hub Kontra2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Kontra Act 3\\The Hub Kontra2 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "668235142",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett10 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett10 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "685651396",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi12 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi12 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "721149901",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi7 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi7 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "754184267",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Kontra Act 3\\The Hub Kontra9 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Kontra Act 3\\The Hub Kontra9 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "772188735",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett5 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett5 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "790405876",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Kontra Act 3\\The Hub Kontra8 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Kontra Act 3\\The Hub Kontra8 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "843702744",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett17 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett17 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "848237195",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett6 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett6 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "861012832",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm3 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "873713962",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi10 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi10 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "902108595",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi3 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "923988624",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi1 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi1 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "974417402",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett4 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett4 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "987296090",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi5 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi5 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "1006132169",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett15 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Klarinett Act 2+3\\The Hub Klarinett15 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "1019858199",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\TheHub\\The Hub Ambi2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\TheHub\\The Hub Ambi2 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "1026165340",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm16 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm16 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "1046921352",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm1 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\Bas Klarinet Act 1\\The Hub SubOrm1 107Bpm_9EDFC787.wem"
        }
       ],
-      "SwitchContainers": []
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{3DECBAFC-492A-408F-BFF7-58207892F48E}",
+        "Media": [
+         {
+          "Id": "34960775"
+         },
+         {
+          "Id": "133668139"
+         },
+         {
+          "Id": "311229540"
+         },
+         {
+          "Id": "381311774"
+         },
+         {
+          "Id": "562836194"
+         },
+         {
+          "Id": "861012832"
+         },
+         {
+          "Id": "1046921352"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8AEF6285-402B-443A-949D-E2CECCE2ED93}",
+        "Media": [
+         {
+          "Id": "19588509"
+         },
+         {
+          "Id": "124511540"
+         },
+         {
+          "Id": "162806489"
+         },
+         {
+          "Id": "305097834"
+         },
+         {
+          "Id": "335745444"
+         },
+         {
+          "Id": "445458464"
+         },
+         {
+          "Id": "484799993"
+         },
+         {
+          "Id": "602699446"
+         },
+         {
+          "Id": "1026165340"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}",
+        "Media": [
+         {
+          "Id": "49263054"
+         },
+         {
+          "Id": "126435349"
+         },
+         {
+          "Id": "361177564"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{9D6167F0-A407-40D3-9463-BA73894CB7A6}",
+        "Media": [
+         {
+          "Id": "772188735"
+         },
+         {
+          "Id": "848237195"
+         },
+         {
+          "Id": "974417402"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{27943BD8-515B-4131-968E-D120A5EBFA75}",
+        "Media": [
+         {
+          "Id": "186432223"
+         },
+         {
+          "Id": "275321656"
+         },
+         {
+          "Id": "604858977"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}",
+        "Media": [
+         {
+          "Id": "7186386"
+         },
+         {
+          "Id": "38739032"
+         },
+         {
+          "Id": "178568217"
+         },
+         {
+          "Id": "474143180"
+         },
+         {
+          "Id": "614174703"
+         },
+         {
+          "Id": "668235142"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{2D60D2AE-62BC-43E0-B874-6320FE468780}",
+        "Media": [
+         {
+          "Id": "7186386"
+         },
+         {
+          "Id": "109454418"
+         },
+         {
+          "Id": "221139832"
+         },
+         {
+          "Id": "347663930"
+         },
+         {
+          "Id": "373302793"
+         },
+         {
+          "Id": "502315308"
+         },
+         {
+          "Id": "1006132169"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}",
+        "Media": [
+         {
+          "Id": "95148008"
+         },
+         {
+          "Id": "110308273"
+         },
+         {
+          "Id": "156350224"
+         },
+         {
+          "Id": "460907771"
+         },
+         {
+          "Id": "754184267"
+         },
+         {
+          "Id": "790405876"
+         },
+         {
+          "Id": "843702744"
+         }
+        ]
+       }
+      ]
      },
      {
       "Id": "3965456208",
@@ -110,6 +573,16 @@
       "GUID": "{7C574E14-4AE8-42DB-B631-328664FFED03}",
       "DurationType": "Infinite",
       "SwitchContainers": []
+     },
+     {
+      "Id": "1789806177",
+      "Name": "Play_Stop_MainTheme",
+      "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_MainTheme",
+      "GUID": "{3C5E178D-70B8-48BC-A158-DD317939869A}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3569629287",

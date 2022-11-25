@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "1746644408",
+    "Hash": "400937428",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -112,67 +112,19 @@
       "GUID": "{A7D35627-1610-4AF4-ADAE-0EE180A029D6}",
       "DurationType": "OneShot",
       "DurationMin": "0.",
-      "DurationMax": "0.539222",
+      "DurationMax": "0.594666",
       "IncludedMemoryFiles": [
        {
-        "Id": "39041516",
+        "Id": "2536815",
         "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-001_3F75BDB9.wem"
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V4.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V4_559D8EA0.wem"
        },
        {
-        "Id": "40051922",
+        "Id": "97152406",
         "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-003_3F75BDB9.wem"
-       },
-       {
-        "Id": "76485917",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-003_3F75BDB9.wem"
-       },
-       {
-        "Id": "88318376",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood-006.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood-006_3BCA41EF.wem"
-       },
-       {
-        "Id": "92551525",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-005.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-005_40EDEBEB.wem"
-       },
-       {
-        "Id": "176505034",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood_Run-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood_Run-004_3F75BDB9.wem"
-       },
-       {
-        "Id": "245138531",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood-003_1C9CD25A.wem"
-       },
-       {
-        "Id": "247786507",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-002_3F75BDB9.wem"
-       },
-       {
-        "Id": "284292024",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood_3F75BDB9.wem"
-       },
-       {
-        "Id": "303691176",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005_3F75BDB9.wem"
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V3.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V3_0EFA0F2A.wem"
        },
        {
         "Id": "317756079",
@@ -187,12 +139,6 @@
         "Path": "SFX\\Test\\FootstepsCon_V5_E6FBB2F2.wem"
        },
        {
-        "Id": "368553821",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-003_3F75BDB9.wem"
-       },
-       {
         "Id": "394750744",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V6.wav",
@@ -205,40 +151,10 @@
         "Path": "SFX\\Test\\FootstepsCon_V4_D39351EB.wem"
        },
        {
-        "Id": "409977945",
+        "Id": "464843299",
         "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood-005.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood-005_F3AE82D2.wem"
-       },
-       {
-        "Id": "430655581",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-003_3F75BDB9.wem"
-       },
-       {
-        "Id": "530337031",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-004_3F75BDB9.wem"
-       },
-       {
-        "Id": "565915097",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-004_3F75BDB9.wem"
-       },
-       {
-        "Id": "604334080",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-001_3F75BDB9.wem"
-       },
-       {
-        "Id": "607684142",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood_Run-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood_Run-002_3F75BDB9.wem"
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V2.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V2_25A5D6FB.wem"
        },
        {
         "Id": "611434053",
@@ -247,22 +163,10 @@
         "Path": "SFX\\Test\\FootstepsCon_V7_6F7BF93D.wem"
        },
        {
-        "Id": "646089722",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood_Run-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood_Run-003_3F75BDB9.wem"
-       },
-       {
         "Id": "670291807",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V1.wav",
         "Path": "SFX\\Test\\FootstepsCon_V1_871406A8.wem"
-       },
-       {
-        "Id": "671219025",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-002_3F75BDB9.wem"
        },
        {
         "Id": "677653142",
@@ -271,70 +175,10 @@
         "Path": "SFX\\Test\\FootstepsCon_V2_702A0B85.wem"
        },
        {
-        "Id": "716796894",
+        "Id": "944078048",
         "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood_Run-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood_Run-001_3F75BDB9.wem"
-       },
-       {
-        "Id": "736989269",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-005.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-005_3F75BDB9.wem"
-       },
-       {
-        "Id": "791057571",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-007.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-007_3F75BDB9.wem"
-       },
-       {
-        "Id": "803622530",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-001_3F75BDB9.wem"
-       },
-       {
-        "Id": "816047149",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-002_3F75BDB9.wem"
-       },
-       {
-        "Id": "820784578",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood-001_88E00F8A.wem"
-       },
-       {
-        "Id": "843309029",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-001_3F75BDB9.wem"
-       },
-       {
-        "Id": "877450948",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood-002_1BC570B0.wem"
-       },
-       {
-        "Id": "881700537",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-002_3F75BDB9.wem"
-       },
-       {
-        "Id": "928479574",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Wood\\Footsteps_Wood-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Wood\\Footsteps_Wood-004_9B89ACED.wem"
-       },
-       {
-        "Id": "966168256",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-006.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-006_3F75BDB9.wem"
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V1.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V1_E1DEEA37.wem"
        },
        {
         "Id": "967295816",
@@ -343,22 +187,10 @@
         "Path": "SFX\\Test\\FootstepsCon_V3_B69E3A4A.wem"
        },
        {
-        "Id": "968630797",
+        "Id": "1064124288",
         "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-005.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles-005_3F75BDB9.wem"
-       },
-       {
-        "Id": "1012312668",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Stonetiles\\Footsteps_Stonetiles_Run-004_3F75BDB9.wem"
-       },
-       {
-        "Id": "1026889357",
-        "Language": "SFX",
-        "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-004_3F75BDB9.wem"
+        "ShortName": "Test\\FootSteps\\FootstepsWood_V5.wav",
+        "Path": "SFX\\Test\\FootSteps\\FootstepsWood_V5_820CED68.wem"
        }
       ],
       "DefaultSwitchValue": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}",
@@ -430,54 +262,7 @@
        {
         "SwitchValue": "{D2956954-6A8F-48E4-AC0A-BEAE63E09F82}",
         "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
-        "Children": [
-         {
-          "SwitchValue": "{1AE29A23-ED00-467F-929E-092D3D4B00F5}",
-          "Media": [
-           {
-            "Id": "430655581"
-           },
-           {
-            "Id": "604334080"
-           },
-           {
-            "Id": "736989269"
-           },
-           {
-            "Id": "816047149"
-           },
-           {
-            "Id": "1012312668"
-           }
-          ]
-         },
-         {
-          "SwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
-          "Media": [
-           {
-            "Id": "247786507"
-           },
-           {
-            "Id": "368553821"
-           },
-           {
-            "Id": "530337031"
-           },
-           {
-            "Id": "791057571"
-           },
-           {
-            "Id": "843309029"
-           },
-           {
-            "Id": "966168256"
-           },
-           {
-            "Id": "968630797"
-           }
-          ]
-         }
-        ]
+        "Children": []
        },
        {
         "SwitchValue": "{B1B29272-5A4F-4486-8F42-8232B90D6323}",
@@ -502,19 +287,19 @@
           "SwitchValue": "{1AE29A23-ED00-467F-929E-092D3D4B00F5}",
           "Media": [
            {
-            "Id": "176505034"
+            "Id": "2536815"
            },
            {
-            "Id": "284292024"
+            "Id": "97152406"
            },
            {
-            "Id": "607684142"
+            "Id": "464843299"
            },
            {
-            "Id": "646089722"
+            "Id": "944078048"
            },
            {
-            "Id": "716796894"
+            "Id": "1064124288"
            }
           ]
          },
@@ -522,22 +307,19 @@
           "SwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
           "Media": [
            {
-            "Id": "88318376"
+            "Id": "2536815"
            },
            {
-            "Id": "245138531"
+            "Id": "97152406"
            },
            {
-            "Id": "409977945"
+            "Id": "464843299"
            },
            {
-            "Id": "820784578"
+            "Id": "944078048"
            },
            {
-            "Id": "877450948"
-           },
-           {
-            "Id": "928479574"
+            "Id": "1064124288"
            }
           ]
          }
@@ -556,48 +338,7 @@
        {
         "SwitchValue": "{E598C8EC-9B78-461D-B10F-FB03297966D9}",
         "DefaultSwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
-        "Children": [
-         {
-          "SwitchValue": "{1AE29A23-ED00-467F-929E-092D3D4B00F5}",
-          "Media": [
-           {
-            "Id": "76485917"
-           },
-           {
-            "Id": "303691176"
-           },
-           {
-            "Id": "565915097"
-           },
-           {
-            "Id": "671219025"
-           },
-           {
-            "Id": "803622530"
-           }
-          ]
-         },
-         {
-          "SwitchValue": "{627310E8-51FB-40C7-9B64-0919BECF37FC}",
-          "Media": [
-           {
-            "Id": "39041516"
-           },
-           {
-            "Id": "40051922"
-           },
-           {
-            "Id": "92551525"
-           },
-           {
-            "Id": "881700537"
-           },
-           {
-            "Id": "1026889357"
-           }
-          ]
-         }
-        ]
+        "Children": []
        }
       ]
      },

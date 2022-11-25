@@ -32,7 +32,9 @@
 						<ObjectRef Name="Play_Stop_Thug" ID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Stop_MusicHub" ID="{202F35BD-36A3-458B-8A69-8CB4B84260A4}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop_MainTheme" ID="{3C5E178D-70B8-48BC-A158-DD317939869A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Stop_Runner" ID="{5F2696C4-D0CB-4B43-B5D1-6B817172CFE1}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MainTheme" ID="{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
