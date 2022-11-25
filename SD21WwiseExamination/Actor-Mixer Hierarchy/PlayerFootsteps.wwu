@@ -74,6 +74,129 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps_Rug-001" ID="{D1DFA843-7CFC-45D3-8555-140D4BB9DC93}" ShortID="385480557">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug-001" ID="{A33247BE-B7B5-427C-85C8-86626BC3C5BB}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="39041516"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug-001" ID="{A33247BE-B7B5-427C-85C8-86626BC3C5BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rug-002" ID="{2941C6AF-8E69-4EB9-875D-6381ECD605E2}" ShortID="47673004">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug-002" ID="{1A6B933E-2687-4565-9353-9080810C1EDB}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="881700537"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug-002" ID="{1A6B933E-2687-4565-9353-9080810C1EDB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rug-003" ID="{CE849A87-993B-45F5-84DE-45B7BF9AC91E}" ShortID="48519760">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug-003" ID="{A1519D0F-88FC-43B2-A731-51110A5A95B8}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="40051922"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug-003" ID="{A1519D0F-88FC-43B2-A731-51110A5A95B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rug-004" ID="{152A5378-5812-461E-A466-98F717431FB3}" ShortID="979838431">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug-004" ID="{6194932E-BD3D-4B9E-BC21-42B89F5F029C}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1026889357"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug-004" ID="{6194932E-BD3D-4B9E-BC21-42B89F5F029C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rug-005" ID="{D43002B9-D357-430B-AA66-6EBAF45DD54B}" ShortID="831027357">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug-005" ID="{6E881017-6D8E-4224-8A7B-CCD89CE7E742}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.093109287820302"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.171694564170028"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="92551525"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug-005" ID="{6E881017-6D8E-4224-8A7B-CCD89CE7E742}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Running" ID="{C9B419A3-4298-4FB6-BFDA-055F8B1FEF00}" ShortID="302980370">
@@ -88,6 +211,123 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps_Rug_Run-001" ID="{1C006329-EDB8-4E80-B423-CB93C3C44D8B}" ShortID="435566264">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug_Run-001" ID="{321AE8A0-98F5-47E5-8A69-E47DE6979DFB}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug_Run-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="803622530"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug_Run-001" ID="{321AE8A0-98F5-47E5-8A69-E47DE6979DFB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rug_Run-002" ID="{514E8A4A-1259-4EE2-AFAE-893BF42FB0D4}" ShortID="561768272">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug_Run-002" ID="{05FB0D1F-6B58-4D91-9D78-66D5BC18FE43}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug_Run-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="671219025"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug_Run-002" ID="{05FB0D1F-6B58-4D91-9D78-66D5BC18FE43}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rug_Run-003" ID="{71EB0573-3207-484B-B061-AEA966818AB0}" ShortID="1014182570">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug_Run-003" ID="{3996C751-6D3E-479F-BA73-8FC498840E3C}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug_Run-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="76485917"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug_Run-003" ID="{3996C751-6D3E-479F-BA73-8FC498840E3C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rug_Run-004" ID="{BE1D26DB-E15F-4208-8AF4-2AF93E563D7A}" ShortID="221802496">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug_Run-004" ID="{EDAA11E6-2CE3-4B38-A353-F2B59CB1A43E}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug_Run-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="565915097"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug_Run-004" ID="{EDAA11E6-2CE3-4B38-A353-F2B59CB1A43E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rug_Run-005" ID="{53FAE79F-BB36-4B31-9B4A-982768197EDB}" ShortID="965627749">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rug_Run-005" ID="{59967B7B-6812-4881-93DF-AACB05EF9070}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Rug\Footsteps_Rug_Run-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="303691176"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rug_Run-005" ID="{59967B7B-6812-4881-93DF-AACB05EF9070}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -368,6 +608,169 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps_Stonetiles-001" ID="{EF60A13F-114D-4632-B9AB-760CF02E6860}" ShortID="1008048119">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles-001" ID="{0AD55DC0-4A2D-462E-BD93-AEF542A7FC55}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="843309029"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles-001" ID="{0AD55DC0-4A2D-462E-BD93-AEF542A7FC55}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles-002" ID="{93C4B4F9-A18E-48DF-9736-D498C3DD7D88}" ShortID="936061975">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles-002" ID="{08DACEDC-97DD-484D-9A89-26FAD94BC8E5}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="247786507"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles-002" ID="{08DACEDC-97DD-484D-9A89-26FAD94BC8E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles-003" ID="{565A7488-A431-48E9-B463-C92BEED1CDD3}" ShortID="471859345">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles-003" ID="{63E5E91A-2476-43AE-B1C2-7E18ACAFBF34}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="368553821"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles-003" ID="{63E5E91A-2476-43AE-B1C2-7E18ACAFBF34}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles-004" ID="{0E9683AC-DAF8-4EF0-A92C-49B8C2874CC6}" ShortID="129598743">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles-004" ID="{93D9D34E-25B1-479D-81AD-8475A8C3BAF2}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="530337031"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles-004" ID="{93D9D34E-25B1-479D-81AD-8475A8C3BAF2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles-005" ID="{C362454C-F2A8-4D18-BE16-D1A499AB2F78}" ShortID="465278402">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles-005" ID="{DA85DE90-9448-4915-A9F3-D3ABA4533C1E}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="968630797"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles-005" ID="{DA85DE90-9448-4915-A9F3-D3ABA4533C1E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles-006" ID="{6E020784-0CBB-4173-8B6F-40E7503F06EE}" ShortID="1069724128">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles-006" ID="{4B64137A-5019-42B3-A0C8-B9097A905467}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="966168256"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles-006" ID="{4B64137A-5019-42B3-A0C8-B9097A905467}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles-007" ID="{FE0893E1-DBA2-47C1-80EE-197BB95F3D63}" ShortID="903443658">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles-007" ID="{AF834B5C-7DF1-4241-ADAC-4B3BCB6EE361}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="791057571"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles-007" ID="{AF834B5C-7DF1-4241-ADAC-4B3BCB6EE361}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Running" ID="{3A75418B-E3BF-42A7-B05E-E9E27C1DDB5D}" ShortID="104192901">
@@ -382,6 +785,123 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps_Stonetiles_Run-001" ID="{DC3A4AD6-69ED-41B9-BBD3-F7BABE41D5CA}" ShortID="69315381">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles_Run-001" ID="{DCF55236-8AEB-4932-93E2-9A6414CE7AA9}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604334080"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles_Run-001" ID="{DCF55236-8AEB-4932-93E2-9A6414CE7AA9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles_Run-002" ID="{1E10DF72-DEC8-4DE5-BA36-C6A3B39C7511}" ShortID="410353977">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles_Run-002" ID="{06A33ECB-7D3E-4692-B3C0-F9B6D6B55AF3}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="816047149"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles_Run-002" ID="{06A33ECB-7D3E-4692-B3C0-F9B6D6B55AF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles_Run-003" ID="{66BA98D7-885C-4050-8498-655954C26221}" ShortID="981919079">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles_Run-003" ID="{EF5996F8-3D8D-49E5-AC08-47A5BAFBCB35}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="430655581"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles_Run-003" ID="{EF5996F8-3D8D-49E5-AC08-47A5BAFBCB35}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles_Run-004" ID="{7F4E6433-F9DF-4E6F-B9F2-F12412B847F2}" ShortID="159760309">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles_Run-004" ID="{5A293A9E-B9AD-42A4-B6CD-BE35F27D26FB}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1012312668"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles_Run-004" ID="{5A293A9E-B9AD-42A4-B6CD-BE35F27D26FB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Stonetiles_Run-005" ID="{7A0A20B3-7650-48E7-B738-C717C6074F7A}" ShortID="331174242">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Stonetiles_Run-005" ID="{9367A5FF-1E0C-42B3-B4BB-23865D4DE843}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="736989269"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Stonetiles_Run-005" ID="{9367A5FF-1E0C-42B3-B4BB-23865D4DE843}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -1108,165 +1628,9 @@
 								<RandomSequenceContainer Name="Walking" ID="{7A4B43FC-3738-4754-B5FA-68F715E2CCFE}" ShortID="82717232">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="FootstepsWood_V1" ID="{7DF95190-3030-4FF1-B533-7DDC816A8E3E}" ShortID="380850212">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V1" ID="{51980A07-F0E9-40CB-B04D-4A08D1B76023}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0325834923664122"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="944078048"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V1" ID="{51980A07-F0E9-40CB-B04D-4A08D1B76023}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="FootstepsWood_V2" ID="{DABC2431-D471-4172-95DA-6D7CD856F137}" ShortID="742765717">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V2" ID="{1F6E3E83-330F-4B17-84CF-E10DBF17945C}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0344446829940628"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="464843299"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V2" ID="{1F6E3E83-330F-4B17-84CF-E10DBF17945C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="FootstepsWood_V3" ID="{581B0B82-A8BD-45F0-9402-CC6D59637A2E}" ShortID="570346223">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V3" ID="{C17649A5-B4AF-4719-83B3-8FD6CC58984E}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0724041295589483"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="97152406"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V3" ID="{C17649A5-B4AF-4719-83B3-8FD6CC58984E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="FootstepsWood_V4" ID="{41A2054A-61B7-4C94-8A58-A36EA9205D11}" ShortID="400628405">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V4" ID="{661DB4BC-97A8-4B67-841F-8C14AB1055EB}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0751459923664122"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="2536815"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V4" ID="{661DB4BC-97A8-4B67-841F-8C14AB1055EB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="FootstepsWood_V5" ID="{3800081A-9504-45D5-923B-F10677473FF9}" ShortID="197270414">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V5" ID="{DD3C9D2A-692E-4927-9B8D-8F79CD004005}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0503854961832061"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V5.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1064124288"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V5" ID="{DD3C9D2A-692E-4927-9B8D-8F79CD004005}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<ObjectLists/>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Running" ID="{E9CABA19-6970-4C34-9F56-D2D1E912FD60}" ShortID="931237265">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="Pitch" Type="int32">
+										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>760</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1279,144 +1643,311 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="FootstepsWood_V2" ID="{5E41188A-97E4-4EEA-9762-D639FD29AAB1}" ShortID="701716202">
+										<Sound Name="Footsteps_Wood-001" ID="{B0003FCB-5C52-4D6C-8E2B-180F8B067C6F}" ShortID="569778418">
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V2" ID="{56BBC268-E8B6-4C87-9D57-C044C11E26EB}">
+												<AudioFileSource Name="Footsteps_Wood-001" ID="{2F57A02C-554D-42F9-BCF5-589C02EB506B}">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0344446829940628"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0501069452378068"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.187831062874683"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V2.wav</AudioFile>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood-001.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="464843299"/>
+														<MediaID ID="820784578"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V2" ID="{56BBC268-E8B6-4C87-9D57-C044C11E26EB}" Platform="Linked"/>
+												<ActiveSource Name="Footsteps_Wood-001" ID="{2F57A02C-554D-42F9-BCF5-589C02EB506B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="FootstepsWood_V3" ID="{3D6C63E4-712E-4496-8ECD-9D93096759DB}" ShortID="625177361">
+										<Sound Name="Footsteps_Wood-002" ID="{A920F284-E6C9-4747-B2F6-BC72B91EB1B9}" ShortID="531944364">
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V3" ID="{BF393209-5A3B-4FD1-BF7F-79625C4A608F}">
+												<AudioFileSource Name="Footsteps_Wood-002" ID="{976FEFE0-09B5-43E2-AAF9-1DF294644214}">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0724041295589483"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.125291611131306"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.145804844414441"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V3.wav</AudioFile>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood-002.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="97152406"/>
+														<MediaID ID="877450948"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V3" ID="{BF393209-5A3B-4FD1-BF7F-79625C4A608F}" Platform="Linked"/>
+												<ActiveSource Name="Footsteps_Wood-002" ID="{976FEFE0-09B5-43E2-AAF9-1DF294644214}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="FootstepsWood_V5" ID="{8A5DB086-5D6F-4589-8FD1-85B286CCBCF4}" ShortID="947072562">
+										<Sound Name="Footsteps_Wood-003" ID="{10E57CBF-B5BD-460A-8EF8-E9D611F9946A}" ShortID="999748684">
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V5" ID="{AF44F9A2-3173-4113-A0A2-9E53A8FA7197}">
+												<AudioFileSource Name="Footsteps_Wood-003" ID="{D98CD575-018E-432B-A6A9-8CDB0080760B}">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0503854961832061"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.101335733614905"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.200468516499051"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V5.wav</AudioFile>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood-003.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1064124288"/>
+														<MediaID ID="245138531"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V5" ID="{AF44F9A2-3173-4113-A0A2-9E53A8FA7197}" Platform="Linked"/>
+												<ActiveSource Name="Footsteps_Wood-003" ID="{D98CD575-018E-432B-A6A9-8CDB0080760B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="FootstepsWood_V4" ID="{1D955F39-A26D-4401-A003-386967E6D658}" ShortID="1062539419">
+										<Sound Name="Footsteps_Wood-004" ID="{E4C00AFD-0FA8-4318-A060-520838B7B8BE}" ShortID="560627770">
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V4" ID="{C925E704-1EF4-43F0-9E01-D2A9F9A01FF0}">
+												<AudioFileSource Name="Footsteps_Wood-004" ID="{1089DC9D-37B7-4CC7-B9DA-ACCBFD54FF36}">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0751459923664122"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0337089543196413"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V4.wav</AudioFile>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood-004.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="2536815"/>
+														<MediaID ID="928479574"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V4" ID="{C925E704-1EF4-43F0-9E01-D2A9F9A01FF0}" Platform="Linked"/>
+												<ActiveSource Name="Footsteps_Wood-004" ID="{1089DC9D-37B7-4CC7-B9DA-ACCBFD54FF36}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="FootstepsWood_V1" ID="{37BE2A3B-42E6-40ED-B77E-A54E1032FCD9}" ShortID="303391981">
+										<Sound Name="Footsteps_Wood-005" ID="{15000A87-1DA9-4470-A1F3-3E8938156354}" ShortID="322725362">
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FootstepsWood_V1" ID="{6EA7E898-E3B7-4FDC-88B2-277B460B7893}">
+												<AudioFileSource Name="Footsteps_Wood-005" ID="{F1391886-2906-4DC9-8F87-C6649BDA78B9}">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0325834923664122"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0306635970758108"/>
 														<Property Name="LoopBegin" Type="Real64" Value="0"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\FootSteps\FootstepsWood_V1.wav</AudioFile>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood-005.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="944078048"/>
+														<MediaID ID="409977945"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="FootstepsWood_V1" ID="{6EA7E898-E3B7-4FDC-88B2-277B460B7893}" Platform="Linked"/>
+												<ActiveSource Name="Footsteps_Wood-005" ID="{F1391886-2906-4DC9-8F87-C6649BDA78B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Wood-006" ID="{B0FEC8D9-677B-4839-8A1F-00E82CDF1C72}" ShortID="455841312">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Wood-006" ID="{DE91410F-2F84-4D8B-9DE7-B604E1D3843A}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0875700611033217"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.238686538228523"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="88318376"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Wood-006" ID="{DE91410F-2F84-4D8B-9DE7-B604E1D3843A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Running" ID="{E9CABA19-6970-4C34-9F56-D2D1E912FD60}" ShortID="931237265">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps_Wood_Run-005" ID="{68E9AE38-5807-42CA-B18A-9E43298D3059}" ShortID="252359913">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Wood" ID="{F1DFCB71-56B5-4804-ABA0-917954998FAE}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="284292024"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Wood" ID="{F1DFCB71-56B5-4804-ABA0-917954998FAE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Wood_Run-001" ID="{64E82B28-13ED-479C-9E27-614542E6EE89}" ShortID="500214326">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Wood_Run-001" ID="{7BE02461-8C2C-4DC8-B9FA-20D4A79A9C60}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood_Run-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="716796894"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Wood_Run-001" ID="{7BE02461-8C2C-4DC8-B9FA-20D4A79A9C60}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Wood_Run-002" ID="{FC9BE8F0-DE8B-4002-85D5-C0D843F478E5}" ShortID="738799910">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Wood_Run-002" ID="{763260CA-2B9B-44FA-BAD6-7D199F4D10BC}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood_Run-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="607684142"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Wood_Run-002" ID="{763260CA-2B9B-44FA-BAD6-7D199F4D10BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Wood_Run-003" ID="{9EA118E3-D832-4EB7-B298-7021714DB69E}" ShortID="711003213">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Wood_Run-003" ID="{CC52F342-96B9-4E8C-950E-E0C6D7E1D535}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood_Run-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="646089722"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Wood_Run-003" ID="{CC52F342-96B9-4E8C-950E-E0C6D7E1D535}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Wood_Run-004" ID="{28C612EA-7053-4E4C-8639-7F262FD5884E}" ShortID="221170343">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Wood_Run-004" ID="{52A3019F-67C5-4907-B1A7-8D440A1B791A}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Wood\Footsteps_Wood_Run-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="176505034"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Wood_Run-004" ID="{52A3019F-67C5-4907-B1A7-8D440A1B791A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{9F9E2023-8BB7-4945-92BD-55F4F1CE6B04}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\Originals\SFX\Test\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Final Projects sound assets\Footsteps\Wood\Wood Walking\"/>
 				<Property Name="Event Action List\{01F2B377-D584-4E43-A03D-50015A4F0E78}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{41335FB9-1521-4D2C-8636-A71E98075D5E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4FE3BAC4-288F-4960-9E02-025399BE9F01}\x64_Expand States" Type="string" Value=""/>
@@ -44,7 +44,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_11_2" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_2" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{FB983F4B-6273-4EC4-B008-4F11158F2762}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{4E37EC78-89C0-4966-9628-D44FBF4B1CF0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_2" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_2" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
@@ -84,10 +84,10 @@
 				<Property Name="ProjectExplorer\x64_Expanded_2_2" Type="string" Value="dW8KVndxaUa7Agqblfi8Gw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="Q8IlW2AI90Cc2CFRZwYDVarZswQxxYtBmDzJdnkaah/PXTz91hTtQbErTstkPmZ8Hp3Z0jcBWkSSrlv+Ns1+tTxEUN5ayHRGik0rt6LxBIoXnlH4NCB6RqvRZkylFqV80TOuQ+8MKkeIUVenXZPN6PxDS3o4N1RHtfpo9xXizP4DnNFJpVmYSJ9RMgXzvB8kOUF1eqGijEqMWW7W98Ra7inSbor30dBKkY+MbEkjs2wZusrpcGk0TJ9W0tHpEv1g8eQXB16Azky+C0KYbul5qsMzpTdl131NmoqSFAfugnMYQIsZzRvzTZTsIo6VgfMRSz+Y+3NixE6wCE8RFY8nYpSL6DArWxZPt7sBDrGZmhQ="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_2" Type="string" Value="qtmzBDHFi0GYPMl2eRpqHwOc0UmlWZhIn1EyBfO8HyTx5BcHXoDOTL4LQphu6Xmq"/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="QDGoxX/xYUOpV/VWnIy02yRiAwDVgVBHkvYkt4L3nznsQ0DLyedyTZiNPJnOlRgO"/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="JGIDANWBUEeS9iS3gvefOQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_2" Type="string" Value="JGIDANWBUEeS9iS3gvefOVB2z3PgwDtIq1c0x44KZ9w="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_5_2" Type="string" Value="re5FBg3TC0i5CCS2MipFn9ib7a11AxVJmZ+WA3K8UK0="/>
+				<Property Name="ProjectExplorer\x64_Expanded_5_2" Type="string" Value="QazHYQat80Wcy9haVTHF9K3uRQYN0wtIuQgktjIqRZ/Ym+2tdQMVSZmflgNyvFCt"/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="qdGdW1aLckuVDiX8DRNjFw=="/>
