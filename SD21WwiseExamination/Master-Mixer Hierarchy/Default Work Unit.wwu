@@ -10,26 +10,31 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="PlayerMaster" ID="{7AF732C7-47D3-44A2-9848-0E166421A91C}">
+						<Bus Name="MainINgame" ID="{B8B8D1BE-970A-4D35-A6A8-860886F3B726}">
 							<ChildrenList>
-								<Bus Name="PlayerLocomotion" ID="{4BE82FA6-C33E-43AE-B4CC-830081ED5379}">
+								<Bus Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="AmbientMaster" ID="{ABE69BCB-4419-4E78-95D6-DD412512ED14}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="PlayerMaster" ID="{7AF732C7-47D3-44A2-9848-0E166421A91C}">
 									<ChildrenList>
-										<Bus Name="PlayerFootsteps" ID="{FD96472E-B142-45CE-84F1-407F22BC478F}">
-											<ObjectLists/>
-										</Bus>
-										<Bus Name="PlayerCloth" ID="{4E37EC78-89C0-4966-9628-D44FBF4B1CF0}">
+										<Bus Name="PlayerLocomotion" ID="{4BE82FA6-C33E-43AE-B4CC-830081ED5379}">
+											<ChildrenList>
+												<Bus Name="PlayerFootsteps" ID="{FD96472E-B142-45CE-84F1-407F22BC478F}">
+													<ObjectLists/>
+												</Bus>
+												<Bus Name="PlayerCloth" ID="{4E37EC78-89C0-4966-9628-D44FBF4B1CF0}">
+													<ObjectLists/>
+												</Bus>
+											</ChildrenList>
 											<ObjectLists/>
 										</Bus>
 									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
-							<ObjectLists/>
-						</Bus>
-						<Bus Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}">
-							<ObjectLists/>
-						</Bus>
-						<Bus Name="AmbientMaster" ID="{ABE69BCB-4419-4E78-95D6-DD412512ED14}">
 							<ObjectLists/>
 						</Bus>
 					</ChildrenList>
