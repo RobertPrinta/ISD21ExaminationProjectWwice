@@ -331,6 +331,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicPlaylistContainer Name="HubMusicAct1_1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" ShortID="156645765">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -408,7 +415,11 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{C8D5EF59-5586-42FD-912F-3A5BB4E2343B}"/>
+													<MusicCue Name="Entry Cue" ID="{C8D5EF59-5586-42FD-912F-3A5BB4E2343B}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="9432.06423611111"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 											<Reference>
@@ -1598,7 +1609,7 @@
 							<ChildrenList>
 								<MusicSegment Name="The Hub SubOrm1 107Bpm" ID="{7F3BE0FF-4E47-45FB-9F30-87B2794C3F89}" ShortID="645321742">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="76261.6875"/>
+										<Property Name="EndPosition" Type="Real64" Value="101498.928635817"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1651,6 +1662,18 @@
 																				</MusicClip>
 																			</Local>
 																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub SubOrm1 107Bpm" ID="{C24C09C4-597D-442B-822E-A150BB602BDE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="76261.6875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub SubOrm1 107Bpm" ID="{3C2EFEED-4EBC-4EFD-9AEC-5015AC3EA1B6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
 																	</ObjectList>
 																</ObjectLists>
 															</MusicTrackSequence>
@@ -1664,7 +1687,11 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{F4FFDB51-C071-4691-A764-03A2B8ED9CF6}"/>
+													<MusicCue Name="Entry Cue" ID="{F4FFDB51-C071-4691-A764-03A2B8ED9CF6}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="4485.98130841121"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 											<Reference>
@@ -1672,7 +1699,7 @@
 													<MusicCue Name="Exit Cue" ID="{79B0C15E-ED2B-4CAF-9C1E-B992A5D5E480}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="76261.6875"/>
+															<Property Name="TimeMs" Type="Real64" Value="76261.6874999999"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
