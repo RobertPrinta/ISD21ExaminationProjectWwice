@@ -33,12 +33,13 @@ State	ID	Name	State Group			Notes
 	3374585465	InMenu	GameState			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion\PlayerCloth	
-	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\AmbientMaster	
-	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion\PlayerFootsteps	
-	2343802269	PlayerLocomotion			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerLocomotion	
-	3199789248	MusicMaster			\Default Work Unit\Master Audio Bus\MusicMaster	
-	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\PlayerMaster	
+	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\MainINgame\PlayerMaster\PlayerLocomotion\PlayerCloth	
+	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\MainINgame\AmbientMaster	
+	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\MainINgame\PlayerMaster\PlayerLocomotion\PlayerFootsteps	
+	1754727609	MainINgame			\Default Work Unit\Master Audio Bus\MainINgame	
+	2343802269	PlayerLocomotion			\Default Work Unit\Master Audio Bus\MainINgame\PlayerMaster\PlayerLocomotion	
+	3199789248	MusicMaster			\Default Work Unit\Master Audio Bus\MainINgame\MusicMaster	
+	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\MainINgame\PlayerMaster	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

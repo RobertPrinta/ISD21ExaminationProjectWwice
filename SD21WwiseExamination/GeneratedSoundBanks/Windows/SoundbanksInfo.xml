@@ -16,12 +16,12 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3614390745">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="216127005">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="400937428">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="746606194">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -60,15 +60,47 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0." DurationMax="0.594666">
+				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0." DurationMax="0.539222">
 					<IncludedMemoryFiles>
-						<File Id="2536815" Language="SFX">
-							<ShortName>Test\FootSteps\FootstepsWood_V4.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V4_559D8EA0.wem</Path>
+						<File Id="39041516" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug-001.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug-001_3F75BDB9.wem</Path>
 						</File>
-						<File Id="97152406" Language="SFX">
-							<ShortName>Test\FootSteps\FootstepsWood_V3.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V3_0EFA0F2A.wem</Path>
+						<File Id="40051922" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug-003.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug-003_3F75BDB9.wem</Path>
+						</File>
+						<File Id="76485917" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug_Run-003.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug_Run-003_3F75BDB9.wem</Path>
+						</File>
+						<File Id="88318376" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood-006.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood-006_90762B26.wem</Path>
+						</File>
+						<File Id="92551525" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug-005.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug-005_78FCE5D1.wem</Path>
+						</File>
+						<File Id="176505034" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood_Run-004.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood_Run-004_3F75BDB9.wem</Path>
+						</File>
+						<File Id="245138531" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood-003.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood-003_C0723B95.wem</Path>
+						</File>
+						<File Id="247786507" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-002.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles-002_3F75BDB9.wem</Path>
+						</File>
+						<File Id="284292024" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood_3F75BDB9.wem</Path>
+						</File>
+						<File Id="303691176" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug_Run-005.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug_Run-005_3F75BDB9.wem</Path>
 						</File>
 						<File Id="317756079" Language="SFX">
 							<ShortName>Test\FootstepsCon_V8.wav</ShortName>
@@ -78,6 +110,10 @@
 							<ShortName>Test\FootstepsCon_V5.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V5_E6FBB2F2.wem</Path>
 						</File>
+						<File Id="368553821" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-003.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles-003_3F75BDB9.wem</Path>
+						</File>
 						<File Id="394750744" Language="SFX">
 							<ShortName>Test\FootstepsCon_V6.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V6_8A73E813.wem</Path>
@@ -86,33 +122,109 @@
 							<ShortName>Test\FootstepsCon_V4.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V4_D39351EB.wem</Path>
 						</File>
-						<File Id="464843299" Language="SFX">
-							<ShortName>Test\FootSteps\FootstepsWood_V2.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V2_25A5D6FB.wem</Path>
+						<File Id="409977945" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood-005.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood-005_E21D3787.wem</Path>
+						</File>
+						<File Id="430655581" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-003.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-003_3F75BDB9.wem</Path>
+						</File>
+						<File Id="530337031" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-004.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles-004_3F75BDB9.wem</Path>
+						</File>
+						<File Id="565915097" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug_Run-004.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug_Run-004_3F75BDB9.wem</Path>
+						</File>
+						<File Id="604334080" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-001.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-001_3F75BDB9.wem</Path>
+						</File>
+						<File Id="607684142" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood_Run-002.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood_Run-002_3F75BDB9.wem</Path>
 						</File>
 						<File Id="611434053" Language="SFX">
 							<ShortName>Test\FootstepsCon_V7.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V7_6F7BF93D.wem</Path>
 						</File>
+						<File Id="646089722" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood_Run-003.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood_Run-003_3F75BDB9.wem</Path>
+						</File>
 						<File Id="670291807" Language="SFX">
 							<ShortName>Test\FootstepsCon_V1.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V1_871406A8.wem</Path>
+						</File>
+						<File Id="671219025" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug_Run-002.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug_Run-002_3F75BDB9.wem</Path>
 						</File>
 						<File Id="677653142" Language="SFX">
 							<ShortName>Test\FootstepsCon_V2.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V2_702A0B85.wem</Path>
 						</File>
-						<File Id="944078048" Language="SFX">
-							<ShortName>Test\FootSteps\FootstepsWood_V1.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V1_E1DEEA37.wem</Path>
+						<File Id="716796894" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood_Run-001.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood_Run-001_3F75BDB9.wem</Path>
+						</File>
+						<File Id="736989269" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-005.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-005_3F75BDB9.wem</Path>
+						</File>
+						<File Id="791057571" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-007.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles-007_3F75BDB9.wem</Path>
+						</File>
+						<File Id="803622530" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug_Run-001.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug_Run-001_3F75BDB9.wem</Path>
+						</File>
+						<File Id="816047149" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-002.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-002_3F75BDB9.wem</Path>
+						</File>
+						<File Id="820784578" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood-001.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood-001_FD33E45E.wem</Path>
+						</File>
+						<File Id="843309029" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-001.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles-001_3F75BDB9.wem</Path>
+						</File>
+						<File Id="877450948" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood-002.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood-002_3665FE18.wem</Path>
+						</File>
+						<File Id="881700537" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug-002.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug-002_3F75BDB9.wem</Path>
+						</File>
+						<File Id="928479574" Language="SFX">
+							<ShortName>Player\Footsteps\Wood\Footsteps_Wood-004.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Wood\Footsteps_Wood-004_094D534B.wem</Path>
+						</File>
+						<File Id="966168256" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-006.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles-006_3F75BDB9.wem</Path>
 						</File>
 						<File Id="967295816" Language="SFX">
 							<ShortName>Test\FootstepsCon_V3.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V3_B69E3A4A.wem</Path>
 						</File>
-						<File Id="1064124288" Language="SFX">
-							<ShortName>Test\FootSteps\FootstepsWood_V5.wav</ShortName>
-							<Path>SFX\Test\FootSteps\FootstepsWood_V5_820CED68.wem</Path>
+						<File Id="968630797" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles-005.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles-005_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1012312668" Language="SFX">
+							<ShortName>Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-004.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Stonetiles\Footsteps_Stonetiles_Run-004_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1026889357" Language="SFX">
+							<ShortName>Player\Footsteps\Rug\Footsteps_Rug-004.wav</ShortName>
+							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug-004_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}</DefaultSwitchValue>
@@ -148,7 +260,28 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D2956954-6A8F-48E4-AC0A-BEAE63E09F82}">
 							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
-							<Children/>
+							<Children>
+								<SwitchContainer SwitchValue="{1AE29A23-ED00-467F-929E-092D3D4B00F5}">
+									<Media>
+										<File Id="430655581"/>
+										<File Id="604334080"/>
+										<File Id="736989269"/>
+										<File Id="816047149"/>
+										<File Id="1012312668"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{627310E8-51FB-40C7-9B64-0919BECF37FC}">
+									<Media>
+										<File Id="247786507"/>
+										<File Id="368553821"/>
+										<File Id="530337031"/>
+										<File Id="791057571"/>
+										<File Id="843309029"/>
+										<File Id="966168256"/>
+										<File Id="968630797"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{B1B29272-5A4F-4486-8F42-8232B90D6323}">
 							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
@@ -167,20 +300,21 @@
 							<Children>
 								<SwitchContainer SwitchValue="{1AE29A23-ED00-467F-929E-092D3D4B00F5}">
 									<Media>
-										<File Id="2536815"/>
-										<File Id="97152406"/>
-										<File Id="464843299"/>
-										<File Id="944078048"/>
-										<File Id="1064124288"/>
+										<File Id="176505034"/>
+										<File Id="284292024"/>
+										<File Id="607684142"/>
+										<File Id="646089722"/>
+										<File Id="716796894"/>
 									</Media>
 								</SwitchContainer>
 								<SwitchContainer SwitchValue="{627310E8-51FB-40C7-9B64-0919BECF37FC}">
 									<Media>
-										<File Id="2536815"/>
-										<File Id="97152406"/>
-										<File Id="464843299"/>
-										<File Id="944078048"/>
-										<File Id="1064124288"/>
+										<File Id="88318376"/>
+										<File Id="245138531"/>
+										<File Id="409977945"/>
+										<File Id="820784578"/>
+										<File Id="877450948"/>
+										<File Id="928479574"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
@@ -195,7 +329,26 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{E598C8EC-9B78-461D-B10F-FB03297966D9}">
 							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
-							<Children/>
+							<Children>
+								<SwitchContainer SwitchValue="{1AE29A23-ED00-467F-929E-092D3D4B00F5}">
+									<Media>
+										<File Id="76485917"/>
+										<File Id="303691176"/>
+										<File Id="565915097"/>
+										<File Id="671219025"/>
+										<File Id="803622530"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{627310E8-51FB-40C7-9B64-0919BECF37FC}">
+									<Media>
+										<File Id="39041516"/>
+										<File Id="40051922"/>
+										<File Id="92551525"/>
+										<File Id="881700537"/>
+										<File Id="1026889357"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -230,7 +383,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1738196155">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2927616751">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
