@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A1653022-C35E-40C5-B995-DC31F4961CF9}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{A1653022-C35E-40C5-B995-DC31F4961CF9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A1653022-C35E-40C5-B995-DC31F4961CF9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="FootSteps and Music" ID="{1250E8F0-90E1-4503-A488-3C38BF413A10}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayerFootstepsEvent" ID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" WorkUnitID="{C5A83140-F17F-4361-A957-F5569C8CB4DB}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MainTheme" ID="{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+						<CurrentStateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Rug" ID="{E598C8EC-9B78-461D-B10F-FB03297966D9}"/>
+						<CurrentSwitchRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3B9A0E10-FD5C-4864-B658-A26FB851DD42}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Dialogue Stayes" ID="{3B9A0E10-FD5C-4864-B658-A26FB851DD42}" PersistMode="Standalone">
+		<WorkUnit Name="Dialogue States" ID="{3B9A0E10-FD5C-4864-B658-A26FB851DD42}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="Hub_DI_State" ID="{0AF45E7A-C301-4509-BBCF-CC60D7A81C64}">
 					<ChildrenList>

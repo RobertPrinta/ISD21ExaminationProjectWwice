@@ -1930,15 +1930,95 @@
 						</Effect>
 						<Effect Name="Very_Bad_Connection" ID="{0C5A674D-5EC0-45A6-87A7-3885B3196DCD}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
-								<Property Name="ModDepth" Type="Real32" Value="63.2"/>
+								<Property Name="ModDepth" Type="Real32" Value="62.1"/>
 								<Property Name="ModFrequency" Type="Real32" Value="1376.52"/>
-								<Property Name="ModPWM" Type="Real32" Value="1"/>
+								<Property Name="ModPWM" Type="Real32" Value="27"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
 								<Property Name="ModPhaseSpread" Type="Real32" Value="71"/>
 								<Property Name="ModSmoothing" Type="Real32" Value="77"/>
-								<Property Name="ModWaveform" Type="int32" Value="1"/>
+								<Property Name="ModWaveform" Type="int32" Value="3"/>
 								<Property Name="OutputGain" Type="Real32" Value="2"/>
 							</PropertyList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="ModDepth"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<CustomState Name="" ID="{90C50259-E0A3-4F34-8FF7-30C95703EF02}" ShortID="893710895">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="22.1"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
+										<CustomState Name="" ID="{353C93D5-D251-44E3-B931-BA768F6F59D6}" ShortID="338770466">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="38.9"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
+										<CustomState Name="" ID="{2066E202-3CCC-4029-A254-B90613CF6718}" ShortID="929260038">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="71.6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
+										<CustomState Name="" ID="{C2E873A3-3D8E-4B0A-BA3A-71A855AF4E18}" ShortID="1019208778">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="52.6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<CustomState Name="" ID="{ACA58F61-CF02-4F02-811C-F15DE96FA616}" ShortID="332296121">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="13.7"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
+										<CustomState Name="" ID="{121E601C-7C71-45BC-A302-757BB15C1BEC}" ShortID="336925218">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="86.3"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<CustomState Name="" ID="{EFAD6E65-8C37-4D45-8B87-FCB948231142}" ShortID="474562835">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="22.1"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
+										<CustomState Name="" ID="{72DCC8FD-525E-48EA-AD36-7E37AF1F94C1}" ShortID="489405178"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
+										<CustomState Name="" ID="{ACC57AE2-6A16-4A98-BD21-3088219BF113}" ShortID="1050371247">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="27.4"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Effect>
 						<Effect Name="Aliasing" ID="{4CCC0D23-78CD-4B09-A62B-D3CB5E071A2F}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>

@@ -39,6 +39,7 @@
 												<CustomState Name="" ID="{92526D06-8126-4896-AD1E-83BEBC9260EE}" ShortID="471660500">
 													<PropertyList>
 														<Property Name="BypassEffect0" Type="bool" Value="True"/>
+														<Property Name="BypassEffect1" Type="bool" Value="True"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>

@@ -146,6 +146,13 @@
 						</MusicTransition>
 					</TransitionList>
 					<ObjectLists/>
+					<EntryList>
+						<Entry>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="New Music Playlist Container" ID="{F2A49F03-AC8B-4602-A57C-C26762F92BC5}" WorkUnitID="{B2780D92-C5EB-4024-8856-2F8CCD5E7A41}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
