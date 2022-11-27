@@ -1765,9 +1765,9 @@
 								<Property Name="DryLevel" Type="Real32" Value="-96"/>
 								<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
 								<Property Name="EnableFeedback" Type="bool" Value="True"/>
-								<Property Name="FilterFrequency" Type="Real32" Value="333"/>
+								<Property Name="FilterFrequency" Type="Real32" Value="117"/>
 								<Property Name="FilterGain" Type="Real32" Value="7"/>
-								<Property Name="FilterType" Type="int32" Value="4"/>
+								<Property Name="FilterType" Type="int32" Value="5"/>
 								<Property Name="LeftCrossfeed" Type="Real32" Value="-3"/>
 								<Property Name="LeftDelayTime" Type="Real32" Value="0.29"/>
 								<Property Name="RightCrossfeed" Type="Real32" Value="-3"/>
@@ -1787,6 +1787,31 @@
 								<Property Name="RightCrossfeed" Type="Real32" Value="-8"/>
 								<Property Name="RightDelayTime" Type="Real32" Value="0.43"/>
 							</PropertyList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="DryLevel"/>
+									<Property Name="WetLevel"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+										<CustomState Name="" ID="{B35E783A-E5DD-4492-AD36-D9362863A4F6}" ShortID="75541662"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+										<CustomState Name="" ID="{B06040D9-A4AF-478F-93A9-C3B16B568BF3}" ShortID="38225339">
+											<PropertyList>
+												<Property Name="DryLevel" Type="Real32" Value="-120"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Effect>
 						<Effect Name="Personnel_Advisor" ID="{B78063AF-DC4F-4D1D-B4AB-B3487BE02D7F}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 							<PropertyList>
@@ -1905,11 +1930,14 @@
 						</Effect>
 						<Effect Name="Very_Bad_Connection" ID="{0C5A674D-5EC0-45A6-87A7-3885B3196DCD}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
+								<Property Name="ModDepth" Type="Real32" Value="63.2"/>
 								<Property Name="ModFrequency" Type="Real32" Value="1376.52"/>
 								<Property Name="ModPWM" Type="Real32" Value="1"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
-								<Property Name="ModSmoothing" Type="Real32" Value="100"/>
-								<Property Name="ModWaveform" Type="int32" Value="2"/>
+								<Property Name="ModPhaseSpread" Type="Real32" Value="71"/>
+								<Property Name="ModSmoothing" Type="Real32" Value="77"/>
+								<Property Name="ModWaveform" Type="int32" Value="1"/>
+								<Property Name="OutputGain" Type="Real32" Value="2"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Aliasing" ID="{4CCC0D23-78CD-4B09-A62B-D3CB5E071A2F}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">

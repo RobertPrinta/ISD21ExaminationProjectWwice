@@ -13,6 +13,45 @@
 						<Bus Name="MainINgame" ID="{B8B8D1BE-970A-4D35-A6A8-860886F3B726}">
 							<ChildrenList>
 								<Bus Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Very_Bad_Connection" ID="{0C5A674D-5EC0-45A6-87A7-3885B3196DCD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StatePropertyList>
+											<Property Name="BusVolume"/>
+											<Property Name="BypassEffect0"/>
+											<Property Name="BypassEffect1"/>
+											<Property Name="Highpass"/>
+											<Property Name="Lowpass"/>
+											<Property Name="Pitch"/>
+											<Property Name="Volume"/>
+										</StatePropertyList>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+												<CustomState Name="" ID="{92526D06-8126-4896-AD1E-83BEBC9260EE}" ShortID="471660500">
+													<PropertyList>
+														<Property Name="BypassEffect0" Type="bool" Value="True"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+												<CustomState Name="" ID="{29BC862E-61B7-433D-BB6A-F41E2BE2B4CA}" ShortID="401357270">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16" Value="40"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="AmbientMaster" ID="{ABE69BCB-4419-4E78-95D6-DD412512ED14}">
