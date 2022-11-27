@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}" SchemaVersion="103" RootDocumentID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" ParentDocumentID="{B2850E86-100A-408E-86B6-D08D49F44F1A}">
+	<Events>
+		<WorkUnit Name="Di_HuB" ID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}" OwnerID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Di_HuB_Act1" ID="{9D85EB0B-9D93-4403-9456-E4C175F46AAF}"/>
+				<Event Name="Play_Di_HuB_Act2" ID="{FD6C4E29-2782-42A9-A9DF-FE2EF27E6BF5}"/>
+				<Event Name="Play_Di_HuB_Act3" ID="{10E6E0F7-7A8B-470E-9142-D4E3820A048B}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

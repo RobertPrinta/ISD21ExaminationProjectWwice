@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B9A0E10-FD5C-4864-B658-A26FB851DD42}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Dialogue Stayes" ID="{3B9A0E10-FD5C-4864-B658-A26FB851DD42}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Hub_DI_State" ID="{0AF45E7A-C301-4509-BBCF-CC60D7A81C64}">
+					<ChildrenList>
+						<State Name="None" ID="{6351C5DA-4B21-4E23-BAD9-503F5E44F607}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="OldLady_Di_State" ID="{ED43AE9C-D9E8-4374-9CFB-618893F0F377}">
+					<ChildrenList>
+						<State Name="None" ID="{13A2AAF7-A61F-43DE-A9B0-D7022CFD844A}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Runner_Di_State" ID="{60CEB4BC-64E6-415D-BEE2-FB4DF2BD1745}">
+					<ChildrenList>
+						<State Name="None" ID="{FA40961D-1ABD-4ABD-8762-F5395A15D677}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Thug_Di_State" ID="{2BBE64DB-29FD-4226-B912-7276FB8FFA74}">
+					<ChildrenList>
+						<State Name="None" ID="{38F7298F-63E6-4904-9875-DA9DD87A49DE}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

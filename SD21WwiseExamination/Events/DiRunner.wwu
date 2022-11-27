@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{46C32E38-5F9A-467E-83E7-1E47CC3AFF7D}" SchemaVersion="103" RootDocumentID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" ParentDocumentID="{B2850E86-100A-408E-86B6-D08D49F44F1A}">
+	<Events>
+		<WorkUnit Name="DiRunner" ID="{46C32E38-5F9A-467E-83E7-1E47CC3AFF7D}" OwnerID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_DiRunner_Act1" ID="{8A72B67B-B823-4A4C-A208-95B124532FF5}"/>
+				<Event Name="Play_DiRunner_Act2" ID="{3FA140E6-A653-4294-8BC1-A439C4AA832A}"/>
+				<Event Name="Play_DiRunner_Act3" ID="{A103CF3E-4C0E-4BA3-8364-E57E4C5433DA}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

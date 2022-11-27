@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Dialogue" ID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Di_HuB" ID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}" PersistMode="Reference"/>
+				<WorkUnit Name="Di_OldLady" ID="{EA391D63-12EC-4054-9F5D-8E2FE84D9A7A}" PersistMode="Reference"/>
+				<WorkUnit Name="DiRunner" ID="{46C32E38-5F9A-467E-83E7-1E47CC3AFF7D}" PersistMode="Reference"/>
+				<WorkUnit Name="DiThug" ID="{5E775DC5-311E-48F7-96FB-B5CC0C920490}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

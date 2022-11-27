@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E775DC5-311E-48F7-96FB-B5CC0C920490}" SchemaVersion="103" RootDocumentID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" ParentDocumentID="{B2850E86-100A-408E-86B6-D08D49F44F1A}">
+	<Events>
+		<WorkUnit Name="DiThug" ID="{5E775DC5-311E-48F7-96FB-B5CC0C920490}" OwnerID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_DiThug_Act1" ID="{F8376DDB-EBE1-4F11-8719-E09F34364255}"/>
+				<Event Name="Play_DiThug_Act2" ID="{AF8EA876-4669-4A52-A9BA-BE48D842D702}"/>
+				<Event Name="Play_DiThug_Act3" ID="{2E0F6C49-AD94-40E3-8D40-E9BF62E75A69}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
