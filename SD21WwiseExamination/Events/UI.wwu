@@ -1,6 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="UI" ID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}" PersistMode="Standalone"/>
+		<WorkUnit Name="UI" ID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="UI_Open_Menu" ID="{225F7E9D-6344-4D85-88CB-02814352E22D}">
+					<ChildrenList>
+						<Action Name="" ID="{04E69B81-38FB-42D0-A9A6-A3D00605BE9E}" ShortID="971603143">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.321"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Tape_Noise" ID="{6D93970C-DFB3-4306-A0D7-0DA7BB87EEB4}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1EB0E062-CF26-4C7C-BDD8-6409A0019F49}" ShortID="717584513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Turn_On_Sine" ID="{CC037AE4-876B-45CD-BA72-FE28872C6118}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{38DC1911-8709-4FDE-A4F4-01106FACC105}" ShortID="705534946">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.321"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_VCR_Noise" ID="{978EE0F2-F59B-400B-8576-364A4109AF46}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E6D470AA-D884-4E4D-AE3F-D29713B18CC9}" ShortID="374629993">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}" WorkUnitID="{A071490D-D46C-4D29-95E3-15AF93666F06}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Hover_Over_Button" ID="{66D5A7AD-02F3-4099-B00D-B23033411B16}">
+					<ChildrenList>
+						<Action Name="" ID="{2D38C3BE-A850-4CF9-A712-6EBB303955F3}" ShortID="992556674">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Hover" ID="{035B713D-54A0-48DC-9BD5-58DD71FF64B2}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Click_Button" ID="{C08F3209-396D-4817-999D-BE74BB1000B4}">
+					<ChildrenList>
+						<Action Name="" ID="{5717419D-AEEB-4B2B-9A87-0F125483CC6F}" ShortID="677347514">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Click" ID="{30ADEAFF-523C-4B16-A5BE-669F287C06EF}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Close_Menu" ID="{7DF20592-A6A7-4C6A-A074-E8B61C3516E0}">
+					<ChildrenList>
+						<Action Name="" ID="{736B81EC-D8C0-4752-88BB-75435896DB6F}" ShortID="442183432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Press_Heavy" ID="{2A07D440-E519-4EFF-A93D-41CC574F3D8C}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1F94F4C4-183F-4E2D-9512-12CB0E55A788}" ShortID="703579279">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Tape_Noise" ID="{6D93970C-DFB3-4306-A0D7-0DA7BB87EEB4}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BECDD07E-DBAF-47BE-B628-BCABF2514237}" ShortID="133917893">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="0"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.003"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_VCR_Noise" ID="{978EE0F2-F59B-400B-8576-364A4109AF46}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{50F0D2AF-C23F-472C-B50D-1B07268AAE2A}" ShortID="967134984">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.003"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_VCR_Noise_Stop" ID="{0B02A2B7-F673-45B0-9F88-D8050D775B2A}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{34A5915F-4590-4AA3-9EF1-1583459EC87A}" ShortID="547439784">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.16"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Return_To_Game_Noise" ID="{4445FBAD-FF7F-4FB6-AEDC-87D8E416803A}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
