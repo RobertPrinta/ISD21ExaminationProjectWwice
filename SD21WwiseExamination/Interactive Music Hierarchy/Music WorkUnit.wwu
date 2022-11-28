@@ -329,6 +329,2616 @@
 							<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="HubAct1" ID="{56673EF8-EC18-40F4-AA40-11B8313CD877}" ShortID="332552315">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="The Hub Ambi1 107Bpm" ID="{376A90A8-3868-4DF5-B791-B965352542D5}" ShortID="401369040">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="96448.6177959501"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi1 107Bpm" ID="{32DF0EBC-25B9-447C-95A1-A7970F21CC29}" ShortID="345863198">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi1 107Bpm" ID="{84C5F8A8-B055-4AE6-8697-49B16905B2C8}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi1 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="423504379"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5822F5A5-5D1B-4837-B6F1-139974517B42}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{87DBCF20-A737-4381-9A5E-49D50FD33933}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi1 107Bpm" ID="{6933BBEB-DBFE-48E2-9F6D-3F6380A98F57}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="89719.6458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5204.88872694754"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi1 107Bpm" ID="{84C5F8A8-B055-4AE6-8697-49B16905B2C8}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{7C070A8C-C127-4BB8-8D28-9AD6E27558F0}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>89.71965</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{63758558-4D0D-4229-8C38-17E29B5D144D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>89.71965</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{313B76CA-951E-4FE0-8969-0C15608FAB7B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>89.71965</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A9AB1CFC-3D4C-436B-8E5F-072DDF5F0E88}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="22429.9065420561"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FD279F84-4BAE-4428-BBB5-B69D72354AE4}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="94205.6074766355"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi2 107Bpm" ID="{24E2A4FA-1549-4D4B-8615-95B144FEEE0D}" ShortID="211848149">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="80747.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi2 107Bpm" ID="{45800BFE-4498-4A88-9AC0-E18E1FBD3FC9}" ShortID="421230471">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi2 107Bpm" ID="{8D2939EF-81B9-4E29-A494-496FC7880D7A}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="790405129"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CE010444-108B-4400-B2EF-E4E825F36690}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{99B1AFFF-79AA-4FAC-AC50-B0091165AD1F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi2 107Bpm" ID="{8B549CF7-EDE6-43B7-8E6F-0573745084BE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="80747.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi2 107Bpm" ID="{8D2939EF-81B9-4E29-A494-496FC7880D7A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi2 107Bpm" ID="{7B0875BB-AF2C-4214-BBD3-D654F40DAAEA}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="80747.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi2 107Bpm" ID="{8D2939EF-81B9-4E29-A494-496FC7880D7A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F016FBDD-914D-4C56-9856-F420D46C220C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F0C061C3-ACAC-4AE9-84D9-87AA79D090E1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="78504.6728971963"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi3 107Bpm" ID="{410829CE-112D-4A20-9EBD-83C88C9260F6}" ShortID="33366244">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi3 107Bpm" ID="{0BBA8830-2225-4F47-9E2D-8DB553028941}" ShortID="347304011">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi3 107Bpm" ID="{528E5932-C2AE-4EE4-AD30-2A1D1A614EC8}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="823916637"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7199A639-F0F7-4917-8761-38591BDA2C1E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B43EC2CD-32BF-454C-AAC6-69B2ED01F53D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi3 107Bpm" ID="{CAEED346-F573-46E8-BD46-E8E0E6C90CC2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi3 107Bpm" ID="{528E5932-C2AE-4EE4-AD30-2A1D1A614EC8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D294BFFE-F611-4F61-82E8-1D4E049F63A7}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{980092D5-97FB-4EFE-8CF5-76EE601F6663}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi4 107Bpm" ID="{006A1735-9074-4382-892B-8F37BA1FCF15}" ShortID="202184396">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi4 107Bpm" ID="{A40465A0-FA7D-4032-82B9-8E25A4928FA5}" ShortID="706935428">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi4 107Bpm" ID="{19D6E52C-7585-48D7-BB66-BFDAE3AEA745}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi4 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="949673654"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{03EF7121-B32A-45A0-9599-0FFE14367DCB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{80FF58D8-C92A-4F4E-8D3B-9D0E897833D8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi4 107Bpm" ID="{0F79E92D-3808-4BB4-B83A-9E275EA0F3C3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi4 107Bpm" ID="{19D6E52C-7585-48D7-BB66-BFDAE3AEA745}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2B033EDF-2732-47BE-8736-EC7A41C7B011}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{65EC79DB-03D8-4E12-A0E5-040021E2CE8E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi5 107Bpm" ID="{A272A749-66A9-4BC1-88AF-C46E9A5BC4CE}" ShortID="524319216">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi5 107Bpm" ID="{A10816C4-0A8A-4DFA-B5F3-27406AE4F9E4}" ShortID="451094102">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi5 107Bpm" ID="{C9E5D4B7-92DF-41C3-B4C2-6AA6C4E40FF3}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi5 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1044402490"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{175784A7-1028-4DD6-9C83-51638C03C03C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{16550D67-601D-4FE9-927E-B8A4F6FE92D2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi5 107Bpm" ID="{8654EC02-10B2-4B07-8E95-165C567B8129}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi5 107Bpm" ID="{C9E5D4B7-92DF-41C3-B4C2-6AA6C4E40FF3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{82BFFED7-FBCE-4FDC-9A29-D2A0F455DE38}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{A521D45B-7983-4C6E-9B09-C751A9DDA5F3}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi6 107Bpm" ID="{BE1852C9-2CE5-4901-9959-0F0E6E90D925}" ShortID="347923528">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi6 107Bpm" ID="{F3F15F36-A8BC-4247-8649-FC403B54DDE3}" ShortID="168096096">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi6 107Bpm" ID="{B34C2FC6-4264-42FE-91F7-3CC7B4F04782}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi6 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="349021124"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C9409265-7DC8-4441-8694-470123918C3F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{22B616B0-2C82-49BA-93DE-89F2F5E82652}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi6 107Bpm" ID="{0635BBC8-AE2D-45F5-AEC4-3BA9521BC6B0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi6 107Bpm" ID="{B34C2FC6-4264-42FE-91F7-3CC7B4F04782}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{0AF76679-38B5-4A03-AB8A-9E21ED94BDD6}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6C00D41D-523F-47BA-BE58-9A120D5B57F8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi7 107Bpm" ID="{9F11595A-E69A-470B-BE10-C61435522034}" ShortID="844263642">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="89719.6458333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi7 107Bpm" ID="{AB0A7435-1CDB-4E57-A626-EC5CD36BE0D5}" ShortID="808876892">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi7 107Bpm" ID="{B8C61D41-C55D-41CA-8284-F6D492B3FE4A}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi7 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="74421163"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2AB153BC-C99D-432F-A65E-E6E689C96E95}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{07A2D16C-584B-448C-92DA-F6D3D081D7AC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi7 107Bpm" ID="{67D3128C-4007-4AA3-809A-F5ED80FFA4C3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="89719.6458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi7 107Bpm" ID="{B8C61D41-C55D-41CA-8284-F6D492B3FE4A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E5B81AC8-4510-426D-A568-C83B7AB8796A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{3C846B93-0C02-4615-8A7B-01E8608CD768}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="87476.6355140187"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi8 107Bpm" ID="{F9E34463-408B-43AF-9117-36CD1A6EF620}" ShortID="183019225">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="85233.6458333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi8 107Bpm" ID="{2612290D-7A9D-4653-88F7-C64875478ADF}" ShortID="87416027">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi8 107Bpm" ID="{77936CFF-2785-4C2F-A53C-B9061EB57A04}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi8 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="809878510"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CA11AB7E-DE04-4079-BAEE-4A4CB64077C5}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{21C21557-800C-4410-B7D2-A85CF0C74679}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi8 107Bpm" ID="{054F344A-A859-4180-8395-5A907145712C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="85233.6458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi8 107Bpm" ID="{77936CFF-2785-4C2F-A53C-B9061EB57A04}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BBDD8946-3410-423B-9569-B5DD966CBBBB}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{C06CF2BA-FCC8-46D3-97A7-8A3934CF4C2C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="82990.6542056075"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi9 107Bpm" ID="{9FC09AA3-F084-4B66-B9A1-2638EC2B1F92}" ShortID="624165412">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi9 107Bpm" ID="{8283D915-E9DD-4B52-97EF-59ECF26FCC34}" ShortID="978710268">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi9 107Bpm" ID="{585522E2-BA29-4673-BE8C-4549170A9599}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi9 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="38661901"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4852A8A1-DEF2-4B3C-878D-458743D48563}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{335DCF60-A73D-4CE0-927A-156D09AD3EA5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi9 107Bpm" ID="{837C85B6-F6B7-41E0-9718-EA4D86BE6BA6}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi9 107Bpm" ID="{585522E2-BA29-4673-BE8C-4549170A9599}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2FA2E1FA-6239-4DBD-BA4D-D4BB521696BF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{83BE6A14-1144-4700-A0C5-BB138977D5CE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi10 107Bpm" ID="{601522EB-5750-42C6-ADF9-033013A7A44F}" ShortID="976181388">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi10 107Bpm" ID="{7A8F1BE7-BB0C-4801-9F92-3AF9B956C582}" ShortID="633874879">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi10 107Bpm" ID="{B1EC1AF2-5324-4B76-A91B-9804E73FB4C3}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi10 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="926145073"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C3A867DC-58BF-4743-B7F6-CF45A5D0DE5F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{ADA50942-F8BE-4A9B-BBE4-98DB975A7C6A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi10 107Bpm" ID="{F47A0AFB-0C98-4667-BD16-36319C74D9B9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi10 107Bpm" ID="{B1EC1AF2-5324-4B76-A91B-9804E73FB4C3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4A08899D-7888-452E-9CC5-12C4B6BD9B2A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F8D527AA-57B2-4833-889C-C61B08C75932}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi11 107Bpm" ID="{09AFD071-A50B-4C3A-BE0B-1817C7B0BEC8}" ShortID="739633344">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi11 107Bpm" ID="{2A3DD0F2-47DE-43FC-9A2C-2C44B043F965}" ShortID="384396177">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi11 107Bpm" ID="{F3D27B7E-1CDF-4652-B78F-57751939F203}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi11 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="999313794"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{37B74503-DA22-4EBA-AFE8-965394AD3E7F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{75FE5DE2-090C-4592-862E-B063749EF82D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi11 107Bpm" ID="{7E02B45F-B081-4854-876E-3E0F769B73B7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi11 107Bpm" ID="{F3D27B7E-1CDF-4652-B78F-57751939F203}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{772E1BAB-A226-4DAD-B85C-873AA407EDC5}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E16BE8D3-130D-46EC-B749-2E08D594496C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi12 107Bpm" ID="{79996128-6C90-4F81-9C37-FE2C23938ACC}" ShortID="901048170">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi12 107Bpm" ID="{E924C00D-6B18-45D0-A0E9-B2B8D0D23E15}" ShortID="900017983">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi12 107Bpm" ID="{543B4EE9-0CAE-469C-8EC8-A5B12F4C1F10}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi12 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="583933653"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{945B384F-2F0D-4328-BD4C-687F42E0EC2C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4A466704-43B9-4527-97E2-F9C610ACD50A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi12 107Bpm" ID="{81C820E2-D39A-4866-91BB-2BFB66E60D41}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi12 107Bpm" ID="{543B4EE9-0CAE-469C-8EC8-A5B12F4C1F10}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{420C8501-24AC-4D65-9DD1-26FDBB99F626}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B578DBDF-BC13-4DEC-9955-5273F49F75E7}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi13 107Bpm" ID="{B14E8092-FFE5-4926-A9F1-2DC8F3D45747}" ShortID="1015158893">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi13 107Bpm" ID="{4C2CABE7-D4A7-4CDA-B989-3581A3B6F8CE}" ShortID="823073852">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi13 107Bpm" ID="{53559D88-3EE3-4905-8726-AD57952F1309}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi13 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="841251571"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{32D342A3-79F7-4A2D-B9C7-26009F292ACC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{73EFE385-FBC2-4886-8260-BB633638DF73}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi13 107Bpm" ID="{7A972D41-D598-4736-9036-560B066A7F61}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi13 107Bpm" ID="{53559D88-3EE3-4905-8726-AD57952F1309}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{20C7324B-D0F8-4FBC-A789-DF5D60E642E5}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B63CC326-F789-4216-9B83-B3546AD98A30}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi14 107Bpm" ID="{AD52E72E-D02F-4520-8C31-40488A55F68B}" ShortID="946069810">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi14 107Bpm" ID="{842E8A8B-EEA4-49CA-A4B4-A25F613A7118}" ShortID="649327540">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi14 107Bpm" ID="{2B84B0B0-8163-4900-A788-7B1953F01B29}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi14 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1047510627"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3985CF2B-2BAA-4FBD-9514-7A9F60AA4E11}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A4625BF5-0B67-48BB-851D-C9C63B4687A8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi14 107Bpm" ID="{3CA6D7AB-55D7-485A-9AFD-B634D7C9DA3D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi14 107Bpm" ID="{2B84B0B0-8163-4900-A788-7B1953F01B29}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F77BA2CA-34C1-4222-9EBD-A4DB3F66CA9E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{3E94030E-3B53-4FB9-A07E-E5578086DC46}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi15 107Bpm" ID="{DE05690E-5F99-47A1-8AB8-7BFADCE24D0D}" ShortID="597553419">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="80747.6635514019"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi15 107Bpm" ID="{4C879742-3903-4CBD-8B52-2A0149B8AB67}" ShortID="183825113">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi15 107Bpm" ID="{7A31749F-28B9-40F1-88C3-5F185B99BEC3}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi15 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="223431485"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{ACA019CF-87DC-43D4-9115-8FD386A35877}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{39579F4F-A8C8-4C49-8211-98EA3284D5B0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi15 107Bpm" ID="{7E7CA4EA-7594-49DC-9575-2C815219908F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi15 107Bpm" ID="{7A31749F-28B9-40F1-88C3-5F185B99BEC3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1484F6BF-BB4E-4374-9FC2-BFDBD94B83F9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B8E68639-87C1-4D9E-B159-4EB94827354F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="65046.7289719626"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi16 107Bpm" ID="{AAA68F6B-5F53-4D54-A64B-F9EF536EA2AC}" ShortID="49692019">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi16 107Bpm" ID="{1F310522-5180-43F4-A5AB-33463017F624}" ShortID="81243373">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi16 107Bpm" ID="{48FEBE33-3659-4AA7-BF95-BFA91EDCBA25}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi16 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="755352097"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9DF89035-9751-4678-9C4A-413C7450D480}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{99305033-A844-4CA0-94BC-0F9B501F4C3B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi16 107Bpm" ID="{3AE2A847-268F-45FD-BFC0-FFE295C4F380}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi16 107Bpm" ID="{48FEBE33-3659-4AA7-BF95-BFA91EDCBA25}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A69C6DE6-0AAF-4083-89B2-C48198372EA4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6C44306E-276E-48CB-8B50-B30910183E69}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi17 107Bpm" ID="{6F8639B4-A844-4042-9A13-40AD72168925}" ShortID="261898414">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi17 107Bpm" ID="{91CBECAD-2F80-4602-B074-A9495C27007E}" ShortID="447322040">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi17 107Bpm" ID="{37689543-94AF-4F56-8F23-2580FE60E2C2}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi17 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="56903408"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A948E746-467B-4802-942A-AF0C522A6792}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{944CD70A-50B8-42DE-9C1B-DDF15C3278CB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi17 107Bpm" ID="{AED353E9-A05F-40F5-A5DC-A79EF4346AE9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi17 107Bpm" ID="{37689543-94AF-4F56-8F23-2580FE60E2C2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D5705C02-867B-4557-A048-09D53D855C70}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{748C116E-A39F-4460-9855-AE6F7E488667}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi18 107Bpm" ID="{F6CB4F82-8063-48F5-ACFB-E52289967ECD}" ShortID="813592991">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi18 107Bpm" ID="{C1078047-30EC-41F5-982B-AFC655112FB8}" ShortID="472120545">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi18 107Bpm" ID="{D37822B8-739D-4F22-BF25-D0C76A7AE390}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi18 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="702685933"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C6E3FF1C-D084-4903-AB7C-3E11B568E8F8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{803A45C1-4CC8-4240-9FE7-81E83E867B4B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi18 107Bpm" ID="{B0EDF3B7-4C26-41B4-9FE7-765FFADEC21A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi18 107Bpm" ID="{D37822B8-739D-4F22-BF25-D0C76A7AE390}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{9A0761F7-8087-4672-9CE4-C27809FCB0C5}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FFF68385-AACE-4322-983A-6450F0E3048B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi19 107Bpm" ID="{E29CBF50-47C1-4C56-A46F-EAC786B3D2A9}" ShortID="538343211">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi19 107Bpm" ID="{BE8E8928-CA2D-4DBA-97E2-863F7846A4DD}" ShortID="515811949">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi19 107Bpm" ID="{ED28A230-6C80-475F-B794-2458B1F29641}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi19 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="607379227"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DD56671C-61CC-4D7B-824B-A0A97B1A0A7D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B0F3624F-8B28-4238-8672-C78056B765D7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi19 107Bpm" ID="{A706E16A-071D-4D63-ACEA-A1EA9FAB5B80}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi19 107Bpm" ID="{ED28A230-6C80-475F-B794-2458B1F29641}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{14799C7C-D0C0-47FD-992B-9673260CDDFE}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{4A839E97-3695-4053-AA73-B2684451FBF8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi20 107Bpm" ID="{5C832450-2444-4C4C-B9C4-6BBAAE53FC13}" ShortID="1015152952">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="76261.6875"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi20 107Bpm" ID="{BA581FAD-A24F-4064-9622-356F44228C59}" ShortID="353664749">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi20 107Bpm" ID="{18703CED-3827-49FD-A105-422A243C8D60}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi20 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="828113739"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F8C88A5D-904A-4A7F-AE8B-654D0FA97815}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6F8A4A99-340C-4664-B11C-2488805A5C98}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi20 107Bpm" ID="{EAFA5FD1-2FA0-4CE2-8EEA-65D584367CBE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="76261.6875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi20 107Bpm" ID="{18703CED-3827-49FD-A105-422A243C8D60}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{0D5E831B-0072-430D-8D77-A0DC8646B177}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F8600002-F507-4E81-8747-89456B31225F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="74018.691588785"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi21 107Bpm" ID="{79AAB446-0535-491F-A55B-A57AF49C237D}" ShortID="840847788">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi21 107Bpm" ID="{AFE95A3C-8889-44C4-9BBC-265B88B0E6D5}" ShortID="373415184">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi21 107Bpm" ID="{42602DCC-1809-4374-BAA9-10F7C14DB490}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi21 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="710814827"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0DFEF914-5AEC-4912-8B8A-AD33315F3263}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F5F0D1A1-378A-4195-8425-3D8797FE9C39}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi21 107Bpm" ID="{DBB58A19-B5D0-4D3B-A4EA-A7C2F83F43A0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi21 107Bpm" ID="{42602DCC-1809-4374-BAA9-10F7C14DB490}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{01E71DE7-DBA1-41E7-A39F-55B8450B51A2}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E69DC781-0799-4007-9E38-018714D280D2}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi22 107Bpm" ID="{6DCB2E04-E2EB-4708-8C66-7586B91D0B48}" ShortID="718560922">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi22 107Bpm" ID="{4EDF98D1-C7D8-4126-B1AC-1956CAA4BDAE}" ShortID="475724355">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi22 107Bpm" ID="{DF5D0505-D766-455A-AA35-72AFC18592E1}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi22 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="391664795"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E3BC8BC6-DDA9-4030-BCCB-E3BF51121B7F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{25745963-082D-4E9C-9FE5-9D459843056E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi22 107Bpm" ID="{5DF1CED9-3230-4333-9C92-99918C7EB498}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi22 107Bpm" ID="{DF5D0505-D766-455A-AA35-72AFC18592E1}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7A60A7A3-1D0E-4B04-8F66-1633FA591C4E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{4DA4BCF2-AD2E-4FAC-8A2E-A7A1B6B5D3B9}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi23 107Bpm" ID="{A28018DE-72A9-44CF-8004-C35318E12FEA}" ShortID="992541130">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi23 107Bpm" ID="{3A1B092B-C3C6-4139-9F3B-A2E769AB13CA}" ShortID="162716367">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi23 107Bpm" ID="{49E707B3-5394-46EE-8C61-10892263B2DA}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi23 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="8527650"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A3BBABC7-4B8E-4CDD-8F7F-9F3853CB9B7F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C5B29CB2-D201-4F33-8B9C-240ADC979FB8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi23 107Bpm" ID="{FD29B350-4FC3-4259-ACB6-D06CFC3A57C2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi23 107Bpm" ID="{49E707B3-5394-46EE-8C61-10892263B2DA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{CEF900C4-873D-467B-8DCF-013D1C595497}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{60894F75-C6FC-45F2-BD90-307007DDB075}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi24 107Bpm" ID="{51BAB72B-68EC-49F9-B4C7-7308CE1B15D4}" ShortID="705029459">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi24 107Bpm" ID="{46A7A0E7-DCEF-446E-BB41-7B61FFED2B28}" ShortID="683546248">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi24 107Bpm" ID="{4392B0C6-76BE-4BBA-AB3D-8B1221C8FCE4}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi24 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="112429613"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2CB7FA6D-E1AA-4F7D-9526-C82BF9C558C2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{36FA7E54-C9AC-4B36-BCB5-D89F878198D1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi24 107Bpm" ID="{9FA1CC04-B8FD-4A9F-820A-1E27B845247E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi24 107Bpm" ID="{4392B0C6-76BE-4BBA-AB3D-8B1221C8FCE4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{32BC60F4-98A4-4D0A-BEA6-05CF025DD3D3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6D5D3D38-737D-4F3F-9382-9B0AD8DAC32B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi25 107Bpm" ID="{4DAAE3D3-28AF-460B-9DBC-E7F743AD8AFB}" ShortID="454141271">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi25 107Bpm" ID="{65912D4E-9DD3-4A83-B841-C9080D8B0044}" ShortID="305293985">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi25 107Bpm" ID="{E7538EF1-4606-441D-8150-2DE149CD6A2B}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi25 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="995413236"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D8E581EB-F5F3-4A48-9789-00020FA0468E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{74D6CB9B-6848-4639-B809-21D9F6E4F7E5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi25 107Bpm" ID="{8CB12F51-D1F9-4BE8-A719-252B915298DA}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi25 107Bpm" ID="{E7538EF1-4606-441D-8150-2DE149CD6A2B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{41561163-3C40-4F00-9861-504860580BA3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6CD41B93-AE3E-4EBC-8ED4-E2B1BA3AA365}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi26 107Bpm" ID="{591EB16D-B0CA-4870-AE4D-30FC01E08768}" ShortID="553129138">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi26 107Bpm" ID="{9540295B-72BD-4BA2-A1B9-1E4A7FAAA571}" ShortID="868754839">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi26 107Bpm" ID="{3ABB724B-A3B3-4942-9D9E-B77D175F3023}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi26 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="240629171"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B5BB1EA1-321E-4969-B667-A2E81CB5348F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0827EF42-D60A-4D64-9FB8-CECD837A0974}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi26 107Bpm" ID="{BF14EA84-6C7B-4BCD-ACAA-09454312E862}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi26 107Bpm" ID="{3ABB724B-A3B3-4942-9D9E-B77D175F3023}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2DE124FD-902F-4658-8DE1-7CD5E8721DD2}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{3A5FFC54-E398-48C2-8A88-8FC62CBDDA26}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="The Hub Ambi27 107Bpm" ID="{24B51504-CA1D-4DDF-A54C-1A9C4E77B051}" ShortID="45377286">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Hub Ambi27 107Bpm" ID="{45DA2821-CA65-470F-AC1F-2BD48A17E125}" ShortID="35351862">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Hub Ambi27 107Bpm" ID="{8F131480-D52E-4033-8BDC-5C8775E5F91D}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi27 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="695985048"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{863E0F7B-5081-44F8-93E1-00CE1FD38C61}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{533905A3-E391-44BD-A945-2F40CFFF3606}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="The Hub Ambi27 107Bpm" ID="{81BD39E3-2F43-46D9-BDF6-A096ACD622C8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="The Hub Ambi27 107Bpm" ID="{8F131480-D52E-4033-8BDC-5C8775E5F91D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{031C9BA4-B7AA-4344-A401-0980E67BEC2A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{AA7F4823-07B6-4C2E-9696-BC97719A892A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7102803738"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{9FBCB483-0304-4755-9724-43F3BE375D20}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{67038343-ED9E-46C1-9703-9AA9243ABADD}">
+											<PropertyList>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="EnableTransitionFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableTransitionFadeOut" Type="bool" Value="True"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{A8FB0F2E-AB58-4164-B3E2-C1F41D6C70AB}" ShortID="998388122">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{68C7969B-D6C2-49CB-9AE8-5C056B216648}" ShortID="948497121">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi1 107Bpm" ID="{376A90A8-3868-4DF5-B791-B965352542D5}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{B02F22D9-F91B-45E4-8E84-DEC142D27C1E}" ShortID="895360481">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi2 107Bpm" ID="{24E2A4FA-1549-4D4B-8615-95B144FEEE0D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{419CE157-DE83-443A-A965-D8A861558842}" ShortID="723433656">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi3 107Bpm" ID="{410829CE-112D-4A20-9EBD-83C88C9260F6}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{602D983F-785B-4A24-80D3-3DE777E98A51}" ShortID="905764095">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi4 107Bpm" ID="{006A1735-9074-4382-892B-8F37BA1FCF15}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5F68F507-A3AA-4422-88FB-0AA2E8BEBB34}" ShortID="452663933">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi5 107Bpm" ID="{A272A749-66A9-4BC1-88AF-C46E9A5BC4CE}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{93D05BFF-F0B7-40C7-BC30-60D51EF85D21}" ShortID="259031913">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi6 107Bpm" ID="{BE1852C9-2CE5-4901-9959-0F0E6E90D925}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{054CD2E3-F4CC-4C9D-AFE8-D4C09DBFD082}" ShortID="59148803">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi7 107Bpm" ID="{9F11595A-E69A-470B-BE10-C61435522034}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{2F510EE1-DF1F-49C2-AE3B-D48E5CCB28D5}" ShortID="205505089">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi8 107Bpm" ID="{F9E34463-408B-43AF-9117-36CD1A6EF620}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{20DBD1EC-C4FD-4A9A-8DF7-499FCE7104DA}" ShortID="451187362">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi9 107Bpm" ID="{9FC09AA3-F084-4B66-B9A1-2638EC2B1F92}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{9A8AF00C-060C-44DF-880B-278801962642}" ShortID="596862585">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi10 107Bpm" ID="{601522EB-5750-42C6-ADF9-033013A7A44F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C753D550-F97B-4247-B649-790F5C1B305E}" ShortID="251355135">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi11 107Bpm" ID="{09AFD071-A50B-4C3A-BE0B-1817C7B0BEC8}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{DFEBAFA7-1760-4474-9EDA-B0C8B632E403}" ShortID="131155335">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi12 107Bpm" ID="{79996128-6C90-4F81-9C37-FE2C23938ACC}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{914AC9B0-5FD3-4063-AD3E-1F0E8549730E}" ShortID="521030789">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi13 107Bpm" ID="{B14E8092-FFE5-4926-A9F1-2DC8F3D45747}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{01A9D602-302E-47A1-9CE2-A9B869D30DA3}" ShortID="992924707">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi14 107Bpm" ID="{AD52E72E-D02F-4520-8C31-40488A55F68B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{1F335099-D408-4B17-9B7C-68FAF864A68A}" ShortID="730468384">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi15 107Bpm" ID="{DE05690E-5F99-47A1-8AB8-7BFADCE24D0D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{8577B40D-A546-4CE3-913F-6B94427DF7A7}" ShortID="514152822">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi16 107Bpm" ID="{AAA68F6B-5F53-4D54-A64B-F9EF536EA2AC}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{592C8D6F-0355-4995-9146-604C0284D849}" ShortID="659946267">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi17 107Bpm" ID="{6F8639B4-A844-4042-9A13-40AD72168925}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{14EDB5C1-FC50-4C95-840A-5FCE74A0E2D0}" ShortID="968467141">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi18 107Bpm" ID="{F6CB4F82-8063-48F5-ACFB-E52289967ECD}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{0920B139-DE84-4AC3-A1B9-C1D14617A276}" ShortID="1059057077">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi19 107Bpm" ID="{E29CBF50-47C1-4C56-A46F-EAC786B3D2A9}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{40CD74E9-ADE4-448E-8361-92ADBFFCB628}" ShortID="604795662">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi20 107Bpm" ID="{5C832450-2444-4C4C-B9C4-6BBAAE53FC13}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{B97C23C4-AB90-4ECF-B49C-E2747D7A3CE3}" ShortID="173671678">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi21 107Bpm" ID="{79AAB446-0535-491F-A55B-A57AF49C237D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{F5E6E923-FA64-4C56-95D7-1EC7CB5E7CEF}" ShortID="901718871">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi22 107Bpm" ID="{6DCB2E04-E2EB-4708-8C66-7586B91D0B48}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CA1D0D29-662F-485C-8428-C49DDEE598AF}" ShortID="250397534">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi23 107Bpm" ID="{A28018DE-72A9-44CF-8004-C35318E12FEA}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CB386B80-A542-4B27-B0D3-85B9AD19D9EF}" ShortID="513495171">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi24 107Bpm" ID="{51BAB72B-68EC-49F9-B4C7-7308CE1B15D4}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{BB8CFC1D-9262-4395-BAAA-251C5DE97B84}" ShortID="307259645">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi25 107Bpm" ID="{4DAAE3D3-28AF-460B-9DBC-E7F743AD8AFB}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D4005769-7DEC-4AD8-A132-6B93E874895E}" ShortID="758880285">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi26 107Bpm" ID="{591EB16D-B0CA-4870-AE4D-30FC01E08768}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CF9D8C18-A9AB-4109-81B1-6ADCE5A42A8D}" ShortID="854941439">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Hub Ambi27 107Bpm" ID="{24B51504-CA1D-4DDF-A54C-1A9C4E77B051}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubAct2" ID="{CCEDE016-D57A-4D70-9747-F1C9768220F1}" ShortID="327985219">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="107"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{20F7C82B-FF96-4066-89EE-8559D56BE7F3}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{3BF62338-9970-4C34-B9C6-96CA107A166C}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{FAFA1BD2-C535-47B8-91D9-074D2F26A214}" ShortID="265389210"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="HubAct3" ID="{5A6D2106-52FF-478F-B8FF-B147772D3E55}" ShortID="939317236">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="107"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8296FB0C-CA23-4F1B-9B06-BE9F8BCE7B99}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{41EDD117-984C-4230-A651-1F15E30C13DE}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{53935C85-88B1-4AF7-9DF0-3527F9A4FF9E}" ShortID="322287999"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -341,36 +2951,12 @@
 								<CustomState Name="" ID="{797AC132-B253-4820-AED5-8CED2BCA5C12}" ShortID="259999027"/>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
-								<CustomState Name="" ID="{6F41F2BA-A88C-4B5D-BA0F-4C1F76FD1125}" ShortID="682428947"/>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
-								<CustomState Name="" ID="{27D78E9A-665C-418A-BBD4-15A5996F538E}" ShortID="506052517"/>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
-								<CustomState Name="" ID="{85F37288-985D-4842-A40A-7037FFCC7465}" ShortID="969498403"/>
-							</CustomState>
-							<CustomState>
 								<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
 								<CustomState Name="" ID="{CD8D21C5-534C-4366-99AD-A9D0FA63333C}" ShortID="525638549"/>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
-								<CustomState Name="" ID="{CD760189-7497-4C41-AFF3-B5BCEBAECD60}" ShortID="621973022"/>
-							</CustomState>
-							<CustomState>
 								<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
 								<CustomState Name="" ID="{C3C5BFA8-418D-4B99-AA84-612FD5C09523}" ShortID="144236297"/>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
-								<CustomState Name="" ID="{154C1175-C75A-4A2E-86FF-3DBAB3801135}" ShortID="1051789708"/>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
-								<CustomState Name="" ID="{6FDA8B9D-F41B-46F4-B4DD-82E1F792067A}" ShortID="756293133"/>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>
@@ -395,72 +2981,6 @@
 					<ArgumentList>
 						<ArgumentRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
 					</ArgumentList>
-					<EntryList>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct1_2" ID="{A59DEB4D-4AE6-46C7-8F2F-1341C0B0A6B8}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct1_3" ID="{2E5BE8A4-BF5F-40A7-A3FC-7A19FF74B47A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Hub_Act4" ID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct2_1" ID="{A096622A-B4C6-4F1F-B927-560B14DE4038}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Hub_Act5" ID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct2_2" ID="{D0834E82-D1D1-47A8-9E78-13337FBF2EBE}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Hub_Act6" ID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct2_3" ID="{C1312006-0677-42C3-B6C3-99E9A2DBEB90}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Hub_Act7" ID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct3_1" ID="{B1695D83-2BCE-4457-BAA2-A6CE28A3E654}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Hub_Act8" ID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct3_2" ID="{7838228D-00A2-4789-ADDE-E097B84EAC61}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Hub_Act9" ID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="HubMusicAct3_3" ID="{C9C50077-0B5E-4DA4-ADE0-60723300874A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="ThugMusic" ID="{5AD2F3BA-10BC-41E2-94A1-63420B7CE0BE}" ShortID="859707018">
 					<ReferenceList>

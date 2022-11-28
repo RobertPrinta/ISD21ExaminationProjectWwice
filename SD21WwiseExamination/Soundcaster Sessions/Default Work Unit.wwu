@@ -30,7 +30,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
-						<CurrentStateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+						<CurrentStateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Rug" ID="{E598C8EC-9B78-461D-B10F-FB03297966D9}"/>

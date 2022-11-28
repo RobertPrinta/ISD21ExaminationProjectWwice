@@ -15,7 +15,7 @@
 						<Action Name="" ID="{0CA6A9C5-6F49-4173-B73D-8D071C7905C5}" ShortID="521129910">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="HubMusicAct1_1" ID="{D51B1D3D-5FC5-4BC4-915C-8D4470BB8E01}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+									<ObjectRef Name="HubAct1" ID="{56673EF8-EC18-40F4-AA40-11B8313CD877}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
