@@ -24,10 +24,6 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Ui_Vol" ID="{469191C1-1A73-4439-8A5E-B56657DF1B52}"/>
-							<Value>100</Value>
-						</RTPCValue>
-						<RTPCValue>
 							<GameParameterRef Name="Music_Vol" ID="{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}"/>
 							<Value>100</Value>
 						</RTPCValue>
