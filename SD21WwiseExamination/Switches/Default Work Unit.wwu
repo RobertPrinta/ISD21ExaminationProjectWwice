@@ -22,6 +22,21 @@
 						<Switch Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Level" ID="{97899AB1-0F8B-4889-924C-6FE368722935}">
+					<ChildrenList>
+						<Switch Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
+						<Switch Name="OldLady" ID="{10CB6F3B-1CBA-4BF0-AEEF-09BF8E93E4AB}"/>
+						<Switch Name="Runner" ID="{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"/>
+						<Switch Name="Thug" ID="{83FE05CB-9116-42B1-B40D-1AB2CA42725D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Biome" ID="{25E0C9D3-F8F8-4387-9580-0F554739DDB3}">
+					<ChildrenList>
+						<Switch Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
+						<Switch Name="Outdoors" ID="{10680EB0-6A13-4457-AA70-FF5A98FCF9BD}"/>
+						<Switch Name="Basement" ID="{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

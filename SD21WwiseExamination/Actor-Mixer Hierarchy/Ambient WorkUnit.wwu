@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Ambient WorkUnit" ID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="Headlockt_Ambient" ID="{AE7A30C0-75F8-4BB8-872E-D1921BE6266D}" ShortID="909338538">
+				<ActorMixer Name="AB_Headlockt_Ambient" ID="{AE7A30C0-75F8-4BB8-872E-D1921BE6266D}" ShortID="909338538">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -12,6 +12,100 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="AB_Level" ID="{9200AB4E-57EA-4165-A465-FD561AE42284}" ShortID="396631157">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Level" ID="{97899AB1-0F8B-4889-924C-6FE368722935}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="AB_Hub" ID="{9D4DC263-C7C4-4F3A-9D9A-DEB5D83DDF71}" ShortID="160035260">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Biome" ID="{25E0C9D3-F8F8-4387-9580-0F554739DDB3}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+									<GroupingInfo/>
+								</SwitchContainer>
+								<SwitchContainer Name="AB_OldLady" ID="{093C537C-981D-423B-891C-FBF60141BED0}" ShortID="40250316">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Biome" ID="{25E0C9D3-F8F8-4387-9580-0F554739DDB3}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+									<GroupingInfo/>
+								</SwitchContainer>
+								<SwitchContainer Name="AB_Runner" ID="{4813C0F0-BC5C-4B46-A6D8-5963D88AB27C}" ShortID="581511260">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Biome" ID="{25E0C9D3-F8F8-4387-9580-0F554739DDB3}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+									<GroupingInfo/>
+								</SwitchContainer>
+								<SwitchContainer Name="AB_Thug" ID="{6B46AC5B-E732-4D6F-A99F-7972B2CB025E}" ShortID="957419090">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Biome" ID="{25E0C9D3-F8F8-4387-9580-0F554739DDB3}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+									<GroupingInfo/>
+								</SwitchContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="AB_Thug" ID="{6B46AC5B-E732-4D6F-A99F-7972B2CB025E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="AB_Hub" ID="{9D4DC263-C7C4-4F3A-9D9A-DEB5D83DDF71}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="AB_OldLady" ID="{093C537C-981D-423B-891C-FBF60141BED0}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="AB_Runner" ID="{4813C0F0-BC5C-4B46-A6D8-5963D88AB27C}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="3DAmbient" ID="{B2EDDFAA-0CEC-41CC-9C02-B9CD444B297D}" ShortID="404258927">
@@ -24,7 +118,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<ActorMixer Name="Ventilation" ID="{9E883E93-99A7-4F38-8AB9-E55FDE98132C}" ShortID="581160518">
+						<ActorMixer Name="AB_Ventilation" ID="{9E883E93-99A7-4F38-8AB9-E55FDE98132C}" ShortID="581160518">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -34,29 +128,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Ventilation_Bathroom_3D" ID="{C95071E8-D387-48D9-B6FC-31058BFFCA66}" ShortID="509577553">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Ventilation_Bathroom_3D" ID="{2DF19517-97F0-4FE6-81D5-408F8B858B10}">
-											<Language>SFX</Language>
-											<AudioFile>Ambience\3D\Ventilation_Bathroom_3D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="996160389"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Ventilation_Bathroom_3D" ID="{2DF19517-97F0-4FE6-81D5-408F8B858B10}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Ventilation_Storage_1_3D" ID="{AA318922-9C4F-4826-8FCC-F6156EB9D31D}" ShortID="822823225">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -175,7 +246,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
-						<ActorMixer Name="Invisible_Soundsources" ID="{BFE144E1-B82B-4368-9581-894E6E412583}" ShortID="310757591">
+						<ActorMixer Name="AB_Invisible_Soundsources" ID="{BFE144E1-B82B-4368-9581-894E6E412583}" ShortID="310757591">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
