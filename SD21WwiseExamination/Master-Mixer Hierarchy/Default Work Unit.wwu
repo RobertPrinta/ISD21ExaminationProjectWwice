@@ -46,9 +46,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{D87B8033-A6F4-41E0-852A-082C8FC5D0E9}" ShortID="563323396">
-													<ReferenceList/>
-												</RTPC>
+												<RTPC Name="" ID="{D87B8033-A6F4-41E0-852A-082C8FC5D0E9}" ShortID="563323396"/>
 											</RTPCList>
 										</Property>
 									</PropertyList>
@@ -163,9 +161,7 @@
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{B13D9C3C-12BF-49B1-A8DF-A13C1E4EE85A}" ShortID="445956047">
-															<ReferenceList/>
-														</RTPC>
+														<RTPC Name="" ID="{B13D9C3C-12BF-49B1-A8DF-A13C1E4EE85A}" ShortID="445956047"/>
 													</RTPCList>
 												</Property>
 											</PropertyList>
@@ -188,36 +184,6 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Ui" ID="{BB111FFF-69DF-4913-B75A-A1FF178A6F8B}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{7C8EFD06-A7FA-4872-B79C-5BA333A7C820}" ShortID="318933623">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Ui_Vol" ID="{469191C1-1A73-4439-8A5E-B56657DF1B52}" WorkUnitID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{76349E5A-27D0-4D1C-817E-26C6A36AE97C}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
