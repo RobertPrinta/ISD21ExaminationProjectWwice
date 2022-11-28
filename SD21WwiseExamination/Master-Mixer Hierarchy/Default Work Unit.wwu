@@ -116,6 +116,8 @@
 														<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
 														<CustomState Name="" ID="{29BC862E-61B7-433D-BB6A-F41E2BE2B4CA}" ShortID="401357270">
 															<PropertyList>
+																<Property Name="BypassEffect0" Type="bool" Value="True"/>
+																<Property Name="BypassEffect1" Type="bool" Value="True"/>
 																<Property Name="Highpass" Type="int16" Value="40"/>
 															</PropertyList>
 														</CustomState>
