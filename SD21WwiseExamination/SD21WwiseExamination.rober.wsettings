@@ -157,7 +157,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_11_2" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_2" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{AFDBD36C-8895-4560-97BB-24C383FA6989}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_2" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_2" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
@@ -170,8 +170,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_2" Type="string" Value="8Qg08j76BkCntCKI5ohfx5Bjun/xTPpEnaX8ZfZuj8B4iqYOzOsRR6qnfWyJCYO+muDxwU0Tf0eyPad6nIimxw=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="kg14suvFJECIVi+MzV56QSWYmxLM3eNDoxfwBRNDarsDn6Tyi6wCRqV8wmdi+SvFPJZcQ6FY50yG4AVlg0TQDyto+riCrRtOiSVWXtWbbOc="/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_2" Type="string" Value="kGO6f/FM+kSdpfxl9m6PwA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="kg14suvFJECIVi+MzV56QSWYmxLM3eNDoxfwBRNDarsDn6Tyi6wCRqV8wmdi+SvFxB7VDIUpdEulihXwmHnRGTyWXEOhWOdMhuAFZYNE0A8raPq4gq0bToklVl7Vm2zn"/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_2" Type="string" Value=""/>
@@ -193,23 +193,27 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_2" Type="string" Value="rhrrdVMhOEqCfX0xftkvYQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_2" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ83VvClZ3cWlGuwIKm5X4vBu+0bi4Cpc1TaaohgiG87cm"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ8xs7lB/hDdhDp7vM5Zi7oWN1bwpWd3FpRrsCCpuV+LwbvtG4uAqXNU2mqIYIhvO3Jg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_2" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ83VvClZ3cWlGuwIKm5X4vBs="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="bBvW+sEMHEeXBiic+nuFEg=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="bBvW+sEMHEeXBiic+nuFEq3kX6WhRa5KgbTmYfyU0WE="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="Yx056uwSVECfXY4v6E2aeoYOhbIKEI5AhrbQjUn0Txo4LsNGml9+RoPnHkfMOv99xV13Xh4x90iW+7XMDJIEkM7YsM2zYwxPuKEWfpWrurA="/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_2" Type="string" Value="hg6FsgoQjkCGttCNSfRPGkAxqMV/8WFDqVf1VpyMtNskYgMA1YFQR5L2JLeC9585UHbPc+DAO0irVzTHjgpn3OxDQMvJ53JNmI08mc6VGA4="/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_5_2" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_5_2" Type="string" Value="2JvtrXUDFUmZn5YDcrxQrQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="C4G6NeyIhES8/GtujCnwHA1JcaBs1ClNleMVr5NmbwY="/>
-				<Property Name="ProjectExplorer\x64_Expanded_6_2" Type="string" Value="FBJAI5HbfkWYqYNd54DNxBAOmjtc/WRItliib7hR3UINSXGgbNQpTZXjFa+TZm8G"/>
+				<Property Name="ProjectExplorer\x64_Expanded_6_2" Type="string" Value="FBJAI5HbfkWYqYNd54DNxCY2B3o21hhJgq+3p5u8Hw4="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="qdGdW1aLckuVDiX8DRNjFw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_8_2" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_8_2" Type="string" Value="ANol3eEXMEGqaaL6i704YA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_9_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_9_2" Type="string" Value="f3+a9GJlPkOnPPz0p2slgvo7Fm2DDkxDr038pQk0FSp9P2Ho07rNRaPtUFV28xJ3VXiXuhMg7EudoRQBLAKutWLlr9KENvBLg/6Cq1wNhIuwH+7fblzxS6teODXm3Qcj4W3FmG1wkk2zgGnN9k1d8r1VbtEZuL5OjGYspaX+FlM+XVMqtp/5Tq4UDcxASkza"/>
+				<Property Name="ProjectExplorer\x64_Expanded_9_2" Type="string" Value="f3+a9GJlPkOnPPz0p2slgvo7Fm2DDkxDr038pQk0FSpVeJe6EyDsS52hFAEsAq61YuWv0oQ28EuD/oKrXA2Ei7Af7t9uXPFLq144NebdByPhbcWYbXCSTbOAac32TV3yvVVu0Rm4vk6MZiylpf4WUz5dUyq2n/lOrhQNzEBKTNo="/>
 				<Property Name="Query\PreviousQuery" Type="string" Value="{593E5494-8214-43CE-90A0-FA194FBBA09D}"/>
+				<Property Name="RTPC\GameParameterSimValue\{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}" Type="Real64" Value="50"/>
+				<Property Name="RTPC\GameParameterSimValue\{31CFA690-A887-4407-BD42-0952ABFBF319}" Type="Real64" Value="50"/>
+				<Property Name="RTPC\GameParameterSimValue\{469191C1-1A73-4439-8A5E-B56657DF1B52}" Type="Real64" Value="50"/>
+				<Property Name="RTPC\GameParameterSimValue\{CD020137-2BA1-4350-8904-0D80EDF0B94F}" Type="Real64" Value="0"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="qdGdW1aLckuVDiX8DRNjFw=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">

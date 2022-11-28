@@ -18,7 +18,20 @@
 							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Master_Vol" ID="{31CFA690-A887-4407-BD42-0952ABFBF319}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ui_Vol" ID="{469191C1-1A73-4439-8A5E-B56657DF1B52}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Vol" ID="{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
 						<CurrentStateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>

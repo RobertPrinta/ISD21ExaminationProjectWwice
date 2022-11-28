@@ -10,68 +10,214 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="MainINgame" ID="{B8B8D1BE-970A-4D35-A6A8-860886F3B726}">
+						<Bus Name="Master" ID="{1F943B1B-0DE1-43D8-A7BB-CCE598BBA163}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{EADA4451-BF8F-4F7E-B5C1-FF8980D4A747}" ShortID="589317650">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Vol" ID="{31CFA690-A887-4407-BD42-0952ABFBF319}" WorkUnitID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6A3A0194-3F8A-4B39-AEC5-19F0F3F58D92}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
-								<Bus Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}">
-									<ReferenceList>
-										<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-											<ObjectRef Name="Very_Bad_Connection" ID="{0C5A674D-5EC0-45A6-87A7-3885B3196DCD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-										</Reference>
-									</ReferenceList>
-									<StateInfo>
-										<StatePropertyList>
-											<Property Name="BusVolume"/>
-											<Property Name="BypassEffect0"/>
-											<Property Name="BypassEffect1"/>
-											<Property Name="Highpass"/>
-											<Property Name="Lowpass"/>
-											<Property Name="Pitch"/>
-											<Property Name="Volume"/>
-										</StatePropertyList>
-										<StateGroupList>
-											<StateGroupInfo MusicSyncType="2">
-												<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
-												<CustomState Name="" ID="{92526D06-8126-4896-AD1E-83BEBC9260EE}" ShortID="471660500">
-													<PropertyList>
-														<Property Name="BypassEffect0" Type="bool" Value="True"/>
-														<Property Name="BypassEffect1" Type="bool" Value="True"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
-												<CustomState Name="" ID="{29BC862E-61B7-433D-BB6A-F41E2BE2B4CA}" ShortID="401357270">
-													<PropertyList>
-														<Property Name="Highpass" Type="int16" Value="40"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="AmbientMaster" ID="{ABE69BCB-4419-4E78-95D6-DD412512ED14}">
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="PlayerMaster" ID="{7AF732C7-47D3-44A2-9848-0E166421A91C}">
+								<Bus Name="MainINgame" ID="{B8B8D1BE-970A-4D35-A6A8-860886F3B726}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{D87B8033-A6F4-41E0-852A-082C8FC5D0E9}" ShortID="563323396">
+													<ReferenceList/>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
 									<ChildrenList>
-										<Bus Name="PlayerLocomotion" ID="{4BE82FA6-C33E-43AE-B4CC-830081ED5379}">
+										<Bus Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{2BA990C0-B634-4DB4-9D51-EB4E3F443F71}" ShortID="655732514">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Music_Vol" ID="{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}" WorkUnitID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{DC9AE571-6F22-46A6-830E-BFCA75EAB5FC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+													<ObjectRef Name="Very_Bad_Connection" ID="{0C5A674D-5EC0-45A6-87A7-3885B3196DCD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+											<StateInfo>
+												<StatePropertyList>
+													<Property Name="BusVolume"/>
+													<Property Name="BypassEffect0"/>
+													<Property Name="BypassEffect1"/>
+													<Property Name="Highpass"/>
+													<Property Name="Lowpass"/>
+													<Property Name="Pitch"/>
+													<Property Name="Volume"/>
+												</StatePropertyList>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+														<CustomState Name="" ID="{92526D06-8126-4896-AD1E-83BEBC9260EE}" ShortID="471660500">
+															<PropertyList>
+																<Property Name="BypassEffect0" Type="bool" Value="True"/>
+																<Property Name="BypassEffect1" Type="bool" Value="True"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+														<CustomState Name="" ID="{29BC862E-61B7-433D-BB6A-F41E2BE2B4CA}" ShortID="401357270">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16" Value="40"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="AmbientMaster" ID="{ABE69BCB-4419-4E78-95D6-DD412512ED14}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{C723D2CA-5D8D-42DD-9D1A-F05324721C2D}" ShortID="443772264">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Ambi_Vol" ID="{CD020137-2BA1-4350-8904-0D80EDF0B94F}" WorkUnitID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{77FD8D55-B766-48B8-B528-292991ED94A0}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="PlayerMaster" ID="{7AF732C7-47D3-44A2-9848-0E166421A91C}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{B13D9C3C-12BF-49B1-A8DF-A13C1E4EE85A}" ShortID="445956047">
+															<ReferenceList/>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ChildrenList>
-												<Bus Name="PlayerFootsteps" ID="{FD96472E-B142-45CE-84F1-407F22BC478F}">
-													<ObjectLists/>
-												</Bus>
-												<Bus Name="PlayerCloth" ID="{4E37EC78-89C0-4966-9628-D44FBF4B1CF0}">
+												<Bus Name="PlayerLocomotion" ID="{4BE82FA6-C33E-43AE-B4CC-830081ED5379}">
+													<ChildrenList>
+														<Bus Name="PlayerFootsteps" ID="{FD96472E-B142-45CE-84F1-407F22BC478F}">
+															<ObjectLists/>
+														</Bus>
+														<Bus Name="PlayerCloth" ID="{4E37EC78-89C0-4966-9628-D44FBF4B1CF0}">
+															<ObjectLists/>
+														</Bus>
+													</ChildrenList>
 													<ObjectLists/>
 												</Bus>
 											</ChildrenList>
 											<ObjectLists/>
 										</Bus>
 									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Ui" ID="{BB111FFF-69DF-4913-B75A-A1FF178A6F8B}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{7C8EFD06-A7FA-4872-B79C-5BA333A7C820}" ShortID="318933623">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ui_Vol" ID="{469191C1-1A73-4439-8A5E-B56657DF1B52}" WorkUnitID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{76349E5A-27D0-4D1C-817E-26C6A36AE97C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>

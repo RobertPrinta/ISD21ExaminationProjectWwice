@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="System Vol Sliders" ID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Music_Vol" ID="{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Ambi_Vol" ID="{CD020137-2BA1-4350-8904-0D80EDF0B94F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Ui_Vol" ID="{469191C1-1A73-4439-8A5E-B56657DF1B52}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Master_Vol" ID="{31CFA690-A887-4407-BD42-0952ABFBF319}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
