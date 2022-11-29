@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2927616751">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="30426002">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -23,314 +23,115 @@
 				</Event>
 				<Event Id="709266268" Name="Play_MusicHub" ObjectPath="\Events\PlayMusic\Play_MusicHub" GUID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="7186386" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett12 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett12 107Bpm_9EDFC787.wem</Path>
+						<File Id="8527650" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi23 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi23 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="19588509" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm11 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm11 107Bpm_9EDFC787.wem</Path>
+						<File Id="38661901" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi9 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi9 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="34960775" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm7 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm7 107Bpm_9EDFC787.wem</Path>
+						<File Id="56903408" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi17 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi17 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="38739032" Language="SFX">
-							<ShortName>Music\TheHub\Kontra Act 3\The Hub Kontra3 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Kontra Act 3\The Hub Kontra3 107Bpm_9EDFC787.wem</Path>
+						<File Id="74421163" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi7 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi7 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="47967510" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi9 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi9 107Bpm_9EDFC787.wem</Path>
+						<File Id="112429613" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi24 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi24 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="49263054" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett2 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett2 107Bpm_9EDFC787.wem</Path>
+						<File Id="223431485" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi15 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi15 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="75182647" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi11 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi11 107Bpm_9EDFC787.wem</Path>
+						<File Id="240629171" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi26 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi26 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="95148008" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett16 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett16 107Bpm_9EDFC787.wem</Path>
+						<File Id="349021124" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi6 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi6 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="109454418" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett13 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett13 107Bpm_9EDFC787.wem</Path>
+						<File Id="391664795" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi22 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi22 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="110308273" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett19 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett19 107Bpm_9EDFC787.wem</Path>
+						<File Id="423504379" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi1 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi1 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="124511540" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm12 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm12 107Bpm_9EDFC787.wem</Path>
+						<File Id="583933653" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi12 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi12 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="126435349" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett1 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett1 107Bpm_9EDFC787.wem</Path>
+						<File Id="607379227" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi19 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi19 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="133668139" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm4 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm4 107Bpm_9EDFC787.wem</Path>
+						<File Id="695985048" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi27 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi27 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="149305370" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi13 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi13 107Bpm_9EDFC787.wem</Path>
+						<File Id="702685933" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi18 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi18 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="156350224" Language="SFX">
-							<ShortName>Music\TheHub\Kontra Act 3\The Hub Kontra7 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Kontra Act 3\The Hub Kontra7 107Bpm_9EDFC787.wem</Path>
+						<File Id="710814827" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi21 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi21 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="162806489" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm14 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm14 107Bpm_9EDFC787.wem</Path>
+						<File Id="755352097" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi16 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi16 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="178568217" Language="SFX">
-							<ShortName>Music\TheHub\Kontra Act 3\The Hub Kontra1 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Kontra Act 3\The Hub Kontra1 107Bpm_9EDFC787.wem</Path>
+						<File Id="790405129" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi2 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi2 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="186432223" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett8 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett8 107Bpm_9EDFC787.wem</Path>
+						<File Id="809878510" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi8 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi8 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="221139832" Language="SFX">
-							<ShortName>Music\TheHub\Kontra Act 3\The Hub Kontra4 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Kontra Act 3\The Hub Kontra4 107Bpm_9EDFC787.wem</Path>
+						<File Id="823916637" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi3 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi3 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="275321656" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett7 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett7 107Bpm_9EDFC787.wem</Path>
+						<File Id="828113739" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi20 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi20 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="305097834" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm9 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm9 107Bpm_9EDFC787.wem</Path>
+						<File Id="841251571" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi13 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi13 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="309614749" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi8 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi8 107Bpm_9EDFC787.wem</Path>
+						<File Id="926145073" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi10 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi10 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="311229540" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm5 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm5 107Bpm_9EDFC787.wem</Path>
+						<File Id="949673654" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi4 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi4 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="331939923" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi6 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi6 107Bpm_9EDFC787.wem</Path>
+						<File Id="995413236" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi25 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi25 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="335745444" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm15 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm15 107Bpm_9EDFC787.wem</Path>
+						<File Id="999313794" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi11 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi11 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="347663930" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett14 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett14 107Bpm_9EDFC787.wem</Path>
+						<File Id="1044402490" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi5 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi5 107Bpm_9EDFC787.wem</Path>
 						</File>
-						<File Id="361177564" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett3 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett3 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="373302793" Language="SFX">
-							<ShortName>Music\TheHub\Kontra Act 3\The Hub Kontra6 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Kontra Act 3\The Hub Kontra6 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="381311774" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm2 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm2 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="445458464" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm13 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm13 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="460907771" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett18 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett18 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="474143180" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett11 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett11 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="484799993" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm8 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm8 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="502315308" Language="SFX">
-							<ShortName>Music\TheHub\Kontra Act 3\The Hub Kontra5 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Kontra Act 3\The Hub Kontra5 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="532581507" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi4 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi4 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="562836194" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm6 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm6 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="602699446" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm10 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm10 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="604858977" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett9 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett9 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="614174703" Language="SFX">
-							<ShortName>Music\TheHub\Kontra Act 3\The Hub Kontra2 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Kontra Act 3\The Hub Kontra2 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="668235142" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett10 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett10 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="685651396" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi12 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi12 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="721149901" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi7 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi7 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="754184267" Language="SFX">
-							<ShortName>Music\TheHub\Kontra Act 3\The Hub Kontra9 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Kontra Act 3\The Hub Kontra9 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="772188735" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett5 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett5 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="790405876" Language="SFX">
-							<ShortName>Music\TheHub\Kontra Act 3\The Hub Kontra8 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Kontra Act 3\The Hub Kontra8 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="843702744" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett17 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett17 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="848237195" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett6 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett6 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="861012832" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm3 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm3 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="873713962" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi10 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi10 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="902108595" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi3 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi3 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="923988624" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi1 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi1 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="974417402" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett4 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett4 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="987296090" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi5 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi5 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="1006132169" Language="SFX">
-							<ShortName>Music\TheHub\Klarinett Act 2+3\The Hub Klarinett15 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Klarinett Act 2+3\The Hub Klarinett15 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="1019858199" Language="SFX">
-							<ShortName>Music\TheHub\TheHub\The Hub Ambi2 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\TheHub\The Hub Ambi2 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="1026165340" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm16 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm16 107Bpm_9EDFC787.wem</Path>
-						</File>
-						<File Id="1046921352" Language="SFX">
-							<ShortName>Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm1 107Bpm.wav</ShortName>
-							<Path>SFX\Music\TheHub\Bas Klarinet Act 1\The Hub SubOrm1 107Bpm_9EDFC787.wem</Path>
+						<File Id="1047510627" Language="SFX">
+							<ShortName>Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi14 107Bpm.wav</ShortName>
+							<Path>SFX\Music\TheHub\THE HUB - AMBI ACT 1 (NY)\The Hub Ambi14 107Bpm_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{3DECBAFC-492A-408F-BFF7-58207892F48E}">
-							<Media>
-								<File Id="34960775"/>
-								<File Id="133668139"/>
-								<File Id="311229540"/>
-								<File Id="381311774"/>
-								<File Id="562836194"/>
-								<File Id="861012832"/>
-								<File Id="1046921352"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{8AEF6285-402B-443A-949D-E2CECCE2ED93}">
-							<Media>
-								<File Id="19588509"/>
-								<File Id="124511540"/>
-								<File Id="162806489"/>
-								<File Id="305097834"/>
-								<File Id="335745444"/>
-								<File Id="445458464"/>
-								<File Id="484799993"/>
-								<File Id="602699446"/>
-								<File Id="1026165340"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}">
-							<Media>
-								<File Id="49263054"/>
-								<File Id="126435349"/>
-								<File Id="361177564"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{9D6167F0-A407-40D3-9463-BA73894CB7A6}">
-							<Media>
-								<File Id="772188735"/>
-								<File Id="848237195"/>
-								<File Id="974417402"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{27943BD8-515B-4131-968E-D120A5EBFA75}">
-							<Media>
-								<File Id="186432223"/>
-								<File Id="275321656"/>
-								<File Id="604858977"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}">
-							<Media>
-								<File Id="7186386"/>
-								<File Id="38739032"/>
-								<File Id="178568217"/>
-								<File Id="474143180"/>
-								<File Id="614174703"/>
-								<File Id="668235142"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{2D60D2AE-62BC-43E0-B874-6320FE468780}">
-							<Media>
-								<File Id="7186386"/>
-								<File Id="109454418"/>
-								<File Id="221139832"/>
-								<File Id="347663930"/>
-								<File Id="373302793"/>
-								<File Id="502315308"/>
-								<File Id="1006132169"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}">
-							<Media>
-								<File Id="95148008"/>
-								<File Id="110308273"/>
-								<File Id="156350224"/>
-								<File Id="460907771"/>
-								<File Id="754184267"/>
-								<File Id="790405876"/>
-								<File Id="843702744"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
 				</Event>
 				<Event Id="3965456208" Name="Play_Runner" ObjectPath="\Events\PlayMusic\Play_Runner" GUID="{7C574E14-4AE8-42DB-B631-328664FFED03}" DurationType="Infinite">
 					<SwitchContainers/>
@@ -367,12 +168,6 @@
 						<State Id="3086885384" Name="Hub_Act1" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act1" GUID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
 						<State Id="3086885387" Name="Hub_Act2" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act2" GUID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
 						<State Id="3086885386" Name="Hub_Act3" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act3" GUID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
-						<State Id="3086885389" Name="Hub_Act4" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act4" GUID="{F97CF00C-0E41-4F1A-81BC-A819DDE413A1}"/>
-						<State Id="3086885388" Name="Hub_Act5" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act5" GUID="{9D6167F0-A407-40D3-9463-BA73894CB7A6}"/>
-						<State Id="3086885391" Name="Hub_Act6" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act6" GUID="{27943BD8-515B-4131-968E-D120A5EBFA75}"/>
-						<State Id="3086885390" Name="Hub_Act7" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act7" GUID="{323DE5B1-F066-40D7-9CE3-27F26AA8E92B}"/>
-						<State Id="3086885377" Name="Hub_Act8" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act8" GUID="{2D60D2AE-62BC-43E0-B874-6320FE468780}"/>
-						<State Id="3086885376" Name="Hub_Act9" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act9" GUID="{2EBCFFEE-A76F-44D5-85D5-33C63F86A717}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

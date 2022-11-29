@@ -43,13 +43,6 @@
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="MainINgame" ID="{B8B8D1BE-970A-4D35-A6A8-860886F3B726}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{D87B8033-A6F4-41E0-852A-082C8FC5D0E9}" ShortID="563323396"/>
-											</RTPCList>
-										</Property>
-									</PropertyList>
 									<ChildrenList>
 										<Bus Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}">
 											<PropertyList>
@@ -82,7 +75,6 @@
 													</RTPCList>
 												</Property>
 											</PropertyList>
-											<ReferenceList/>
 											<StateInfo>
 												<StatePropertyList>
 													<Property Name="BusVolume"/>
@@ -130,13 +122,6 @@
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="PlayerMaster" ID="{7AF732C7-47D3-44A2-9848-0E166421A91C}">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{B13D9C3C-12BF-49B1-A8DF-A13C1E4EE85A}" ShortID="445956047"/>
-													</RTPCList>
-												</Property>
-											</PropertyList>
 											<ChildrenList>
 												<Bus Name="PlayerLocomotion" ID="{4BE82FA6-C33E-43AE-B4CC-830081ED5379}">
 													<ChildrenList>

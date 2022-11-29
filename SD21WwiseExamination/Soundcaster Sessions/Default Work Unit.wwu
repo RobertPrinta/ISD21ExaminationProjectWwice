@@ -24,6 +24,10 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Dialogue_Vol" ID="{E22BE48E-07DA-46F6-9D5A-317D36877DDE}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Music_Vol" ID="{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}"/>
 							<Value>100</Value>
 						</RTPCValue>

@@ -8,10 +8,15 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="216127005">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="44084952">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2246609544" Name="Music_Vol" ObjectPath="\Game Parameters\System Vol Sliders\Music_Vol" GUID="{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}"/>
+				<GameParameter Id="3578718921" Name="Master_Vol" ObjectPath="\Game Parameters\System Vol Sliders\Master_Vol" GUID="{31CFA690-A887-4407-BD42-0952ABFBF319}"/>
+				<GameParameter Id="4176647666" Name="Ambi_Vol" ObjectPath="\Game Parameters\System Vol Sliders\Ambi_Vol" GUID="{CD020137-2BA1-4350-8904-0D80EDF0B94F}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
