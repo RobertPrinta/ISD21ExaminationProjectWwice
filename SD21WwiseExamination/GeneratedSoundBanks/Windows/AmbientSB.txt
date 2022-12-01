@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3354322557	Play_Headlocked_Ambience			\Ambience\Play_Headlocked_Ambience	
+
