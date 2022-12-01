@@ -4111,6 +4111,1268 @@
 									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="KlariKontra1 Akt3 107Bpm" ID="{87308E3C-F2AE-4572-BF5C-B62BE888846E}" ShortID="827316926">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="56074.7708333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra1 Akt3 107Bpm" ID="{9A14EED2-B4C4-43B5-8BA3-830FACBD408E}" ShortID="22914807">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra1 Akt3 107Bpm" ID="{34A39443-05D9-455C-8813-F3D70AC23010}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra1 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="158290635"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E4EDF87D-D4F9-4435-BC53-B8C4B96A41BE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{19DA23DB-F4F8-43B8-A0D8-D44348CDECAD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra1 Akt3 107Bpm" ID="{7596B2F5-A010-493F-A9C6-F051C1217863}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56074.7708333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra1 Akt3 107Bpm" ID="{34A39443-05D9-455C-8813-F3D70AC23010}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FCFF7350-EC11-4668-8B85-541399E63EB4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8FCFF2BF-5CC2-484A-B5F7-D1B98DAA78D4}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="56074.7708333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra2 Akt3 107Bpm" ID="{8801BEA0-8746-4F5B-999F-63D69F935008}" ShortID="577913576">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="47102.8125"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra2 Akt3 107Bpm" ID="{39F365DB-46CB-4D7A-B387-619C37358FFC}" ShortID="923506751">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra2 Akt3 107Bpm" ID="{4AA4BB0E-B840-4408-8273-10A0A74EA1F8}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra2 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1000740171"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AD3B4DAD-43C3-4F79-AA1C-89F8C5E12674}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0556E286-A391-4184-A68A-FD6783C24C9F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra2 Akt3 107Bpm" ID="{5FCD6FCB-A400-4643-A897-F9A470DEC514}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="47102.8125"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra2 Akt3 107Bpm" ID="{4AA4BB0E-B840-4408-8273-10A0A74EA1F8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{990C5CCD-423F-406B-BEF9-E89C51CE5C5F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{146E4F3F-E0F7-4A68-9EB6-66BA87195467}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="47102.8125"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra3 Akt3 107Bpm" ID="{E76BACB8-5C29-47DB-9424-77158D4F87C5}" ShortID="707322496">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="38130.8541666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra3 Akt3 107Bpm" ID="{64962210-57AC-454A-87F6-B8814A05E348}" ShortID="767599755">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra3 Akt3 107Bpm" ID="{2B116A94-9014-49F6-BE6A-53152092FE36}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra3 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="661159091"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{097FC771-B678-4C33-B880-4DEEC24C1BB6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FB805F15-B85B-40D4-A5F1-36C795DBD0F1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra3 Akt3 107Bpm" ID="{E79FB44A-E56B-4F95-894D-2BD2447CBFAE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="38130.8541666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra3 Akt3 107Bpm" ID="{2B116A94-9014-49F6-BE6A-53152092FE36}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{373DFAE9-A1F0-42DB-BA53-D6DDEBD2FD8C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{66DFB20C-00F8-4443-9A4D-C9950CC0058C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="38130.8541666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra4 Akt3 107Bpm" ID="{A313B54F-7FB2-40BF-9DA9-8E81A9F4249A}" ShortID="991241204">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="65046.7291666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra4 Akt3 107Bpm" ID="{DF3B568A-8C6F-49DC-B1F9-BD482E06EA08}" ShortID="531406815">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra4 Akt3 107Bpm" ID="{F0C7F773-6650-466E-A138-DF649C9AC890}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra4 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="301421353"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2980E25A-DD78-4D33-AC95-056FE5C552E1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3D6FEA82-65D5-4350-A2AF-6C681B7989CD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra4 Akt3 107Bpm" ID="{A8134132-80A9-4CD7-B040-65EA0CD90BC9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="65046.7291666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra4 Akt3 107Bpm" ID="{F0C7F773-6650-466E-A138-DF649C9AC890}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1D802A83-F3FA-4630-9F5A-84CAB153B459}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FD498965-42E5-43A0-AFE8-65D02CD7333E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="65046.7291666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra5 Akt3 107Bpm" ID="{B9E39A3C-9E21-4831-8CF4-4C6F960A6E07}" ShortID="694726130">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="103177.583333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra5 Akt3 107Bpm" ID="{EDE15C1D-1FEE-45A6-9DDE-4A0D866F0DFB}" ShortID="17234202">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra5 Akt3 107Bpm" ID="{6619CE33-4A65-4A9D-96B1-6F899AC9DD92}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra5 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="985934564"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{592A226D-2535-48FF-86AD-9CC204584FCC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0D372FB5-3783-4DE5-B6C6-7EC57B82A6EC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra5 Akt3 107Bpm" ID="{8C4687C8-4ED3-4CC4-8CA8-78C2B1E7B26C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="103177.583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra5 Akt3 107Bpm" ID="{6619CE33-4A65-4A9D-96B1-6F899AC9DD92}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E51FF272-1FB3-46EE-B902-1FED24D79DF9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E3A76CD7-64E3-4131-AA94-F199FC4EF0BE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="103177.583333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra6 Akt3 107Bpm" ID="{D910F528-A88C-4849-AC76-FE0528E9CBA7}" ShortID="669973319">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="62803.75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra6 Akt3 107Bpm" ID="{DFBFBD16-1925-45D4-B8DA-F8BE6CFDC59E}" ShortID="991680014">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra6 Akt3 107Bpm" ID="{E7E2ADFF-36F2-4426-AE5F-EB8A1A25D640}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra6 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="957743122"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5E2226AC-2274-4881-B2BA-EB7192140F93}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{69025E3F-18C5-402D-9C25-F5CF99231049}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra6 Akt3 107Bpm" ID="{C4FAAC80-A400-4A9C-8A00-16271903043B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="62803.75"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra6 Akt3 107Bpm" ID="{E7E2ADFF-36F2-4426-AE5F-EB8A1A25D640}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BC8109B8-80DA-4105-A84A-EB4E9AFF78BF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{BB12C86F-AF15-46D0-B59E-D976E8098E2E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="62803.75"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra7 Akt3 107Bpm" ID="{66A80727-57F2-44F9-A9E9-F2702636388B}" ShortID="946969963">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="62803.75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra7 Akt3 107Bpm" ID="{E2FEC037-CDA2-4E7B-B4F9-405E78E52054}" ShortID="132278321">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra7 Akt3 107Bpm" ID="{A4451769-8FF1-4BC4-999D-1317E31255D7}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra7 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="732147827"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{627CCB08-9560-4FF5-8EBD-AE8B357810BC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3B8091CC-FD70-4308-9157-B7E5C78D8536}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra7 Akt3 107Bpm" ID="{33CF7447-CEBD-41EB-A04C-1F52D8D1D8BF}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="62803.75"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra7 Akt3 107Bpm" ID="{A4451769-8FF1-4BC4-999D-1317E31255D7}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{0AEC953E-D5CC-4087-B1C7-9A56529FEB4E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{DC5C4349-0917-4D39-8B4B-D060E605CE71}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="62803.75"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra8 Akt3 107Bpm" ID="{C180844A-7664-4B79-9D21-596BF1E8F0AA}" ShortID="360307927">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="91962.625"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra8 Akt3 107Bpm" ID="{1B2C65A5-FC9F-47BA-BD5B-A9940F19B385}" ShortID="551782353">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra8 Akt3 107Bpm" ID="{000C0B42-E82C-4277-A123-6E2BDE1562BD}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra8 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="288230028"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6F66BB41-5814-4501-B2F6-0358D9EBDCF1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C9A62940-2669-4D14-97AA-F443DCADEE39}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra8 Akt3 107Bpm" ID="{5A8A3258-0753-4101-9A0E-3EBE645ABC0F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="91962.625"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra8 Akt3 107Bpm" ID="{000C0B42-E82C-4277-A123-6E2BDE1562BD}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{20010352-2D6C-428C-91D6-534272C160CA}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{84502AAF-BD17-43FC-B868-AB22A7EAD685}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="91962.625"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra9 Akt3 107Bpm" ID="{12B99609-B35D-481F-B0F9-DED514B668A0}" ShortID="542339344">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="80747.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra9 Akt3 107Bpm" ID="{D7E7F62A-7053-44D7-8512-83EFB37DCED7}" ShortID="957304119">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra9 Akt3 107Bpm" ID="{8C672955-19E9-4729-9214-90349D68FB13}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra9 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="513686879"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6B05CA4C-7BA8-433D-A68C-3208F6C859C4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B0C85F46-A2C2-4729-829E-FE8E4DDACCAB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra9 Akt3 107Bpm" ID="{D8E65242-8EF7-4BD6-87D2-46258A855297}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="80747.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra9 Akt3 107Bpm" ID="{8C672955-19E9-4729-9214-90349D68FB13}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{814EA07B-C439-48EF-9E41-B0C6ACC457AF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5B28AC23-804D-4FFA-89D7-489E7EF83AFC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="80747.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra10 Akt3 107Bpm" ID="{A8691530-E876-472A-A5E0-B4F593FC6A7E}" ShortID="20157472">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="69532.7291666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra10 Akt3 107Bpm" ID="{EEBF52C0-E2A3-44C6-AC38-F540728CFDE4}" ShortID="640811677">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra10 Akt3 107Bpm" ID="{E055EB6A-F386-45A3-9159-871F5AC62C96}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra10 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="106864608"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{84A134E6-5D62-4A51-989C-02285E50BFEA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5969286C-E4A5-422F-A877-FF0AB62FB26B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra10 Akt3 107Bpm" ID="{046EE2FB-2A46-4EC1-810C-8F051C0D5732}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="69532.7291666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra10 Akt3 107Bpm" ID="{E055EB6A-F386-45A3-9159-871F5AC62C96}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E809772D-E9DC-4454-A88C-B9CA957494AF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F1E69491-30A9-42BB-9473-B3A57B85D989}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="69532.7291666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra11 Akt3 107Bpm" ID="{8444D956-5585-43D7-9288-490EAC09335A}" ShortID="158997902">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="80747.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra11 Akt3 107Bpm" ID="{9F849A05-9C41-4EC5-B39B-9F657806C39B}" ShortID="543910352">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra11 Akt3 107Bpm" ID="{E8148304-9237-44B3-B17E-C38373C4E3AE}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra11 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="765166854"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1C8725B7-B73D-472F-A3EF-8DA497822589}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A3A1243C-D746-416F-8CE3-A7CE47F7BAC4}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra11 Akt3 107Bpm" ID="{79CA526B-4C60-4371-BAAD-D78B0427346F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="80747.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra11 Akt3 107Bpm" ID="{E8148304-9237-44B3-B17E-C38373C4E3AE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{54CF65BA-47F6-4227-8183-90E2C2758C87}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F9440A72-94A2-4B8C-8A39-624E64A46A56}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="80747.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra12 Akt3 107Bpm" ID="{5A9C7E2C-A2CC-44D3-98B8-064D37908A05}" ShortID="779966502">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="103177.583333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra12 Akt3 107Bpm" ID="{EDAA8517-AA64-4E48-BD89-AA36908003D1}" ShortID="820844425">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra12 Akt3 107Bpm" ID="{511D8B6B-BEB6-4ACF-83B7-31654F12F3C4}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra12 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="657069404"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B14F1CA4-C465-41F5-A7E8-C1A5E714E7E8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A9B4C1E0-D6F5-4EF6-B07F-15120A4946FE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra12 Akt3 107Bpm" ID="{681653A8-15C2-44FE-9293-99C0D9B3ED6A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="103177.583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra12 Akt3 107Bpm" ID="{511D8B6B-BEB6-4ACF-83B7-31654F12F3C4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{01760C91-BD4B-4E67-B8BE-7719B69CD50A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5B907A37-0C20-42DD-86E8-891B07523DBA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="103177.583333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra13 Akt3 107Bpm" ID="{E5D4305F-7CCD-4EA0-A3E7-D2E73AF8461F}" ShortID="75373326">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="78504.6875"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra13 Akt3 107Bpm" ID="{EA6B5F28-3962-4103-B680-26CC48EAAB68}" ShortID="272393886">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra13 Akt3 107Bpm" ID="{9339B651-80A6-42F0-919D-253D28A2961A}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra13 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="316853711"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{758B33C2-32F5-46C9-A956-4C121C17ADEC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{DE88B120-CE34-421B-8F59-8B161E7FCBFA}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra13 Akt3 107Bpm" ID="{0DC2F48F-CF62-416F-8036-5AAA1264AC55}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78504.6875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra13 Akt3 107Bpm" ID="{9339B651-80A6-42F0-919D-253D28A2961A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{5ED6F449-ED41-4D16-9490-3E2C73D6D66B}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E1852E9A-8A99-48F2-B0EB-A037A7A6DEF4}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="78504.6875"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra14 Akt3 107Bpm" ID="{4D5B901F-E9CD-4319-A82A-AA36C6FEAAA7}" ShortID="616515843">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="89719.6458333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra14 Akt3 107Bpm" ID="{3DDF6E0E-90AA-48F3-93F1-F9A4ABC4656F}" ShortID="891133027">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra14 Akt3 107Bpm" ID="{C26A8E69-5038-4B0C-8A17-CAE793ABB626}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra14 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="241970606"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7F9A5730-9A07-4455-93B7-43B734921746}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{35CE5E4C-44E6-4EEF-BD76-133A297ECBA3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra14 Akt3 107Bpm" ID="{85947A18-BBF9-478F-80AE-D601F46629D8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="89719.6458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra14 Akt3 107Bpm" ID="{C26A8E69-5038-4B0C-8A17-CAE793ABB626}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F82EB23F-27C6-4182-BF04-2170B7C1871E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{0C5CFF22-36C4-4BA9-98FA-D0AA43B0C27D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="89719.6458333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlariKontra15 Akt3 107Bpm" ID="{D39311B8-6965-450C-86EF-27E2E635B816}" ShortID="226032277">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="58317.7708333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlariKontra15 Akt3 107Bpm" ID="{05A4ED25-C22F-4E69-A1C8-A823A865298E}" ShortID="76333399">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlariKontra15 Akt3 107Bpm" ID="{21B8B951-563A-4877-BF39-B5FAE2A2EED8}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE HUB -KONTRA ACT 3 (NY)\KlariKontra15 Akt3 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="998871737"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1C4952F4-7C9E-48B1-92CF-9409A8213280}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2E81AA19-C488-43D2-A32F-0166125F339B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlariKontra15 Akt3 107Bpm" ID="{1DA2D8BF-CBD1-4624-A32B-E2FA01355FAF}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="58317.7708333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlariKontra15 Akt3 107Bpm" ID="{21B8B951-563A-4877-BF39-B5FAE2A2EED8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F9B3E0A1-1580-425B-B6C2-4212A119B6F0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D2012370-E7A5-4276-8D66-71164898F180}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="58317.7708333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{8296FB0C-CA23-4F1B-9B06-BE9F8BCE7B99}">
 									<PropertyList>
@@ -4126,7 +5388,104 @@
 							</TransitionList>
 							<ObjectLists/>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{53935C85-88B1-4AF7-9DF0-3527F9A4FF9E}" ShortID="322287999"/>
+								<MusicPlaylistItem Name="" ID="{53935C85-88B1-4AF7-9DF0-3527F9A4FF9E}" ShortID="322287999">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{F6E8FB88-6029-4F9E-9BED-E392266065CA}" ShortID="336492087">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra1 Akt3 107Bpm" ID="{87308E3C-F2AE-4572-BF5C-B62BE888846E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{9119EEA3-2951-4DDB-8621-766F98ABA0FE}" ShortID="315104850">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra2 Akt3 107Bpm" ID="{8801BEA0-8746-4F5B-999F-63D69F935008}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{4B4E0E1C-6971-4CED-85F1-3A849C508EE6}" ShortID="216484440">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra3 Akt3 107Bpm" ID="{E76BACB8-5C29-47DB-9424-77158D4F87C5}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D67519E1-7A36-48A0-BCE1-9A1A79B714D7}" ShortID="291922120">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra4 Akt3 107Bpm" ID="{A313B54F-7FB2-40BF-9DA9-8E81A9F4249A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{37B9474B-C9BF-4F49-A49A-8D47D3FD7975}" ShortID="83352293">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra5 Akt3 107Bpm" ID="{B9E39A3C-9E21-4831-8CF4-4C6F960A6E07}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{8F99C575-E261-4454-9D61-7AFFC69F8BC3}" ShortID="168943644">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra6 Akt3 107Bpm" ID="{D910F528-A88C-4849-AC76-FE0528E9CBA7}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6984A1CC-8901-4A52-AE83-B82C291F5A98}" ShortID="412551758">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra7 Akt3 107Bpm" ID="{66A80727-57F2-44F9-A9E9-F2702636388B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{7E309779-1934-4288-B617-5D4D9F565F41}" ShortID="286913455">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra8 Akt3 107Bpm" ID="{C180844A-7664-4B79-9D21-596BF1E8F0AA}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{06EEA52E-2AE0-4A85-9D28-54D714B1651F}" ShortID="956221457">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra9 Akt3 107Bpm" ID="{12B99609-B35D-481F-B0F9-DED514B668A0}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CCBE301A-DCFF-4C09-AC57-CA9FA741A2E0}" ShortID="263349951">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra10 Akt3 107Bpm" ID="{A8691530-E876-472A-A5E0-B4F593FC6A7E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{B69A2F98-AD18-48C5-B823-E1DA7DE0E520}" ShortID="205851323">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra11 Akt3 107Bpm" ID="{8444D956-5585-43D7-9288-490EAC09335A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A76D7260-6A8C-4A77-B9C4-6FB34207AB5A}" ShortID="938716850">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra12 Akt3 107Bpm" ID="{5A9C7E2C-A2CC-44D3-98B8-064D37908A05}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{B5B2BA57-61F7-4B6A-B039-063862C2440B}" ShortID="1061444007">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra13 Akt3 107Bpm" ID="{E5D4305F-7CCD-4EA0-A3E7-D2E73AF8461F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{E6E1CEC5-6BB8-4560-B7C4-ABE86F242D1C}" ShortID="772222385">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra14 Akt3 107Bpm" ID="{4D5B901F-E9CD-4319-A82A-AA36C6FEAAA7}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{25B916F6-D530-47F1-A86B-D81375ED359C}" ShortID="826366053">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlariKontra15 Akt3 107Bpm" ID="{D39311B8-6965-450C-86EF-27E2E635B816}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
