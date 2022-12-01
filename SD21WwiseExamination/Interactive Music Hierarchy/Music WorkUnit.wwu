@@ -331,6 +331,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicPlaylistContainer Name="HubAct1" ID="{56673EF8-EC18-40F4-AA40-11B8313CD877}" ShortID="332552315">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -2890,6 +2897,1105 @@
 									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Klarinett1 Akt2 107Bpm" ID="{2B5A6C90-1BDF-4033-AA82-78A4F88418C4}" ShortID="1065795151">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="44859.8333333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett1 Akt2 107Bpm" ID="{3EA714E3-0BC6-463E-9A86-C83280EB03BA}" ShortID="358954703">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett1 Akt2 107Bpm" ID="{76C7D12A-7DD2-431E-AD5D-DF0D33636FAE}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett1 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1058437537"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FF732356-E2F7-45BA-B9BF-F8C6EB0C6441}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{610A6AC0-81E6-4092-BEF0-9EF5892DC509}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett1 Akt2 107Bpm" ID="{611C3CB6-5326-46D8-9697-97EEB7E2AB2D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="44859.8333333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett1 Akt2 107Bpm" ID="{76C7D12A-7DD2-431E-AD5D-DF0D33636FAE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{01C2B3D0-9E69-41FF-9552-D81491F64260}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{096D2156-D03C-401B-AC0E-FB2593993B93}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="44859.8333333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett2 Akt2 107Bpm" ID="{54FEA09B-0C54-4EC7-9F58-9223138B675A}" ShortID="307710036">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="44859.8333333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett2 Akt2 107Bpm" ID="{71A73195-DC47-408F-9EBE-EADB610E0598}" ShortID="992872471">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett2 Akt2 107Bpm" ID="{346B724D-6D32-498B-92F5-4B9C5D2E1C73}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett2 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="989544754"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2E33C75F-3FC7-42D2-9EB8-9AA6D96FA43E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4C338077-B2A0-4082-B39B-5036505FBB3B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett2 Akt2 107Bpm" ID="{1B609BDA-BCAC-4318-8C12-74C74CCAD55C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="44859.8333333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett2 Akt2 107Bpm" ID="{346B724D-6D32-498B-92F5-4B9C5D2E1C73}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{275313B7-BADD-43B0-B263-A52C54CDDCBC}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{50C4E740-B182-486F-9896-484256655569}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="44859.8333333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett3 Akt2 107Bpm" ID="{A4C6A2CD-411A-4AF2-B28F-D26EE99B4E87}" ShortID="1063116268">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="53831.7916666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett3 Akt2 107Bpm" ID="{66123DD3-94C1-4AA0-B81D-A608D4BBF517}" ShortID="3691227">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett3 Akt2 107Bpm" ID="{381225F7-99DE-4F9C-83AD-2DC3EC84D32F}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett3 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="184208573"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DF52B510-873E-48C4-B669-F6F2F2A2D8F1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7C2A6A7A-D6C8-45C0-98C3-9424791CB3E1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett3 Akt2 107Bpm" ID="{0C08933B-DAA9-4FC8-BCF0-63D5219A798C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="53831.7916666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett3 Akt2 107Bpm" ID="{381225F7-99DE-4F9C-83AD-2DC3EC84D32F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6CE5DDF0-50DE-4954-BB8E-CEDE23A35DF4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6136280B-A4DD-40C6-A9F1-84C45085E8B3}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="53831.7916666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett4 Akt2 107Bpm" ID="{C9D48E64-8A44-40CE-BA30-0C95D152DB34}" ShortID="716143216">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="85233.6479750779"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett4 Akt2 107Bpm" ID="{EC01414E-8E30-4660-B554-9D6797740285}" ShortID="895330635">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett4 Akt2 107Bpm" ID="{9D099486-3320-46F1-A2B3-28E0978CEA97}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett4 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="621656144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{74D834DD-3900-49EA-A9DC-CE26F6CA878A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4ACE5CA5-4EC2-4F4F-8492-A435215FF0B6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett4 Akt2 107Bpm" ID="{484BB496-072B-495D-B5AE-A15742127CF3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="80747.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="4270.3092948718"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett4 Akt2 107Bpm" ID="{9D099486-3320-46F1-A2B3-28E0978CEA97}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F9C56E29-9EC0-40A9-B550-E9380B159F8C}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="3429.18776709402"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{358003F3-850E-47E2-8125-63816614808E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="85017.9759615385"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett5 Akt2 107Bpm" ID="{3C487580-980F-43D5-A6DB-A19233C72AB1}" ShortID="776505011">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="44859.8333333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett5 Akt2 107Bpm" ID="{D45FE034-57B2-4202-92B4-35FE18E7BBE6}" ShortID="769217422">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett5 Akt2 107Bpm" ID="{7FF262F3-A6AD-4254-A6B2-A5032BCD26BF}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett5 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="559809631"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{78289CA5-189E-4A49-8024-60BC36C9598F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{39C1A3C0-241F-40C5-A91E-B02B26222499}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett5 Akt2 107Bpm" ID="{795B9999-95DD-4868-AF64-9C2A4F73DA20}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="44859.8333333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett5 Akt2 107Bpm" ID="{7FF262F3-A6AD-4254-A6B2-A5032BCD26BF}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{949221D5-B0B6-4B57-B5DA-E52E960A2ADD}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D01CC32F-A804-4E45-BA31-B97BE5F836CA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="44859.8333333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett6 Akt2 107Bpm" ID="{30254FEE-1F9B-42A6-A070-491BD6E8F6B3}" ShortID="454201592">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="80747.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett6 Akt2 107Bpm" ID="{D8BC7118-71DB-41C8-B585-1BE5A90CA2D1}" ShortID="296662949">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett6 Akt2 107Bpm" ID="{82626DFD-38AA-45C9-B2BC-CEB6B0926125}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett6 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="691783688"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{69D7B2F1-B852-4849-A9EB-309097B517C7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8AA18FC8-857F-4BE5-AB58-AA2B00379F2F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett6 Akt2 107Bpm" ID="{64BC0F8D-DFCF-4609-8B45-C5F17DB0C39A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="80747.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett6 Akt2 107Bpm" ID="{82626DFD-38AA-45C9-B2BC-CEB6B0926125}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1E1D0230-D5CB-4B39-9F4F-08A15D2FDAFA}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{107A75A1-FDA2-494B-8020-5E320DC6E572}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="80747.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett7 Akt2 107Bpm" ID="{ADD67422-88F7-41FA-A129-2900A687ADBF}" ShortID="726855388">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="62803.75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett7 Akt2 107Bpm" ID="{FE70E38B-DE13-43FD-8FC3-6295EBBAE528}" ShortID="7468359">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett7 Akt2 107Bpm" ID="{E15B93D7-8666-4AE5-9908-AC04BF2D96A6}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett7 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="468234340"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5280DE5D-DABB-49E4-8ABD-E267129F82FB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{DCF6A926-74FD-4A97-A4C8-CB0A9039BAD7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett7 Akt2 107Bpm" ID="{C018095F-00A3-4AB5-9B1F-0418FE1ED62C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="62803.75"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett7 Akt2 107Bpm" ID="{E15B93D7-8666-4AE5-9908-AC04BF2D96A6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{41DC32D3-0197-49F5-ADC1-1BB72895E237}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{2DBAF167-64C8-42C1-90A2-F00AA7DB2F15}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="62803.75"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett8 Akt2 107Bpm" ID="{D9D55D7B-D5B2-4286-AF42-37612D08926F}" ShortID="922577876">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="103177.583333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett8 Akt2 107Bpm" ID="{A84D3DB0-5997-4307-BEA3-0333EFB788E0}" ShortID="652551518">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett8 Akt2 107Bpm" ID="{8C5E4D7C-DAD0-4852-95B7-73DC1D50EEC0}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett8 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="652961063"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{556ED0D1-5757-469B-AAF1-6B759D038DB4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{BB66343A-D6C5-4EF1-9311-B0037B1951F1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett8 Akt2 107Bpm" ID="{CC46C781-2AE8-4D59-A05D-B2620D074545}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="103177.583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett8 Akt2 107Bpm" ID="{8C5E4D7C-DAD0-4852-95B7-73DC1D50EEC0}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E22688D4-BC8B-4E56-92CB-BAF883DB036F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D38C4374-EABB-49CF-8A1B-3B669790C507}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="103177.583333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett9 Akt2 107Bpm" ID="{14A7E175-5F83-4DAA-95FB-5C33E7AB1EA0}" ShortID="278269559">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="44859.8333333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett9 Akt2 107Bpm" ID="{FA047C1C-5253-49C0-BA54-42EDE6EF391A}" ShortID="894416494">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett9 Akt2 107Bpm" ID="{720A4D31-7AF9-4570-A9B7-FDB0D54AC166}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett9 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="192667223"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5CBEC58A-3A08-4FB0-9E03-0CB9D05A43DD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9BBF1AC9-23A5-4A40-BB93-78D4DEBDAB8A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett9 Akt2 107Bpm" ID="{1443E6B2-7F17-4756-85DB-C68289B09C25}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="44859.8333333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett9 Akt2 107Bpm" ID="{720A4D31-7AF9-4570-A9B7-FDB0D54AC166}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4C4D9FC3-2B15-4167-BDD1-E8D37FADDE32}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{2846FB41-0502-4F82-A9ED-F539A13C8CE8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="44859.8333333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett10 Akt2 107Bpm" ID="{8AF6CD64-6748-4368-BE09-5716CF22F3B7}" ShortID="237092618">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="53831.7916666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett10 Akt2 107Bpm" ID="{A3F506D2-C62E-4C7A-B9C0-5489BB7FB0FE}" ShortID="246322081">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett10 Akt2 107Bpm" ID="{48F8C5F5-CC22-4D18-A44D-ED1717974358}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett10 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="107871130"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CB78BDC5-747D-4063-AB75-9F1E9E823AA9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F29362E9-CF1F-499B-880A-DA9BC478ACCB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett10 Akt2 107Bpm" ID="{9DA0AE27-7FDE-4BCA-BDAE-D20F9817B1AB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="53831.7916666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett10 Akt2 107Bpm" ID="{48F8C5F5-CC22-4D18-A44D-ED1717974358}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{37ECA76D-AB25-4262-A3D1-0DF139433FA1}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{3F6F135C-9F5E-4424-BB44-E1F7BEBB94F8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="53831.7916666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett11 Akt2 107Bpm" ID="{D659CD1D-3195-4823-B3FE-1D2FC937012A}" ShortID="377434616">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="71775.7083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett11 Akt2 107Bpm" ID="{CE2AB088-8C16-4C40-A846-7184F75CD9FB}" ShortID="611470934">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett11 Akt2 107Bpm" ID="{C781206F-EB28-4788-A42F-B8972D2AC66F}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett11 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="821272824"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BE2DF21B-E461-490D-9CDD-844EC0D1ABCA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{17D88433-8F56-46D9-B69F-DA197EEC9A1C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett11 Akt2 107Bpm" ID="{C63DC786-82CD-43F0-9ABE-EB71E9FB76DC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="71775.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett11 Akt2 107Bpm" ID="{C781206F-EB28-4788-A42F-B8972D2AC66F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1BA236A1-19CD-47BD-98C8-C0A61CCBE16C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{71F0EF76-2654-49A4-BBBB-8085053337BA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="71775.7083333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett12 Akt2 107Bpm" ID="{1B9CD1D7-29E5-49CD-907D-06A7A8821A64}" ShortID="901502916">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="80747.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett12 Akt2 107Bpm" ID="{03B3A9D1-8DDD-48D6-9DD4-81B0767F2580}" ShortID="157927848">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett12 Akt2 107Bpm" ID="{5146661A-7779-4A97-BB3E-8FCB8FCF41AB}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett12 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="605672174"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2FC5BA31-57B8-4140-9B9D-15E493E3D7C8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{85008575-2BD8-4D22-8B34-A4EBE2063C18}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett12 Akt2 107Bpm" ID="{1DAACDDF-577C-42EB-BC6B-261A86200E3A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="80747.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett12 Akt2 107Bpm" ID="{5146661A-7779-4A97-BB3E-8FCB8FCF41AB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{AE96E679-3E5E-4C14-A825-4A4C56CEDCFD}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B690E4B0-2E11-42E8-9F72-6E582EC644F1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="80747.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Klarinett13 Akt2 107Bpm" ID="{34E6BD7C-FEBC-47D6-BF61-FF1E099AF358}" ShortID="896286809">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="62803.75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Klarinett13 Akt2 107Bpm" ID="{FE0EC19E-5F5F-48E4-B59D-BEAFDBF09E7D}" ShortID="366635240">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Klarinett13 Akt2 107Bpm" ID="{3A58C41F-39F9-43DD-9821-F13C042199EE}">
+													<Language>SFX</Language>
+													<AudioFile>Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett13 Akt2 107Bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="862881599"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{29BD7E13-9564-46F6-9AB1-5EA7D32D82E4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{28413EAC-DBDD-4731-89D0-38F57D0766E9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Klarinett13 Akt2 107Bpm" ID="{E1324839-516A-44B5-8E6E-56B7DA629332}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="62803.75"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Klarinett13 Akt2 107Bpm" ID="{3A58C41F-39F9-43DD-9821-F13C042199EE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{23EDE0A1-8766-47C8-8034-22D3C133C62F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{DBDE12F1-B2FB-4443-9A5F-B74E9DAB9353}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="62803.75"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{20F7C82B-FF96-4066-89EE-8559D56BE7F3}">
 									<PropertyList>
@@ -2905,7 +4011,92 @@
 							</TransitionList>
 							<ObjectLists/>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{FAFA1BD2-C535-47B8-91D9-074D2F26A214}" ShortID="265389210"/>
+								<MusicPlaylistItem Name="" ID="{FAFA1BD2-C535-47B8-91D9-074D2F26A214}" ShortID="265389210">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{B3212EF2-FA49-4CD0-8934-3B7B13C4EB81}" ShortID="678758808">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett1 Akt2 107Bpm" ID="{2B5A6C90-1BDF-4033-AA82-78A4F88418C4}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{855490E9-2D32-4A34-8D8C-9E9623767FDA}" ShortID="739793441">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett2 Akt2 107Bpm" ID="{54FEA09B-0C54-4EC7-9F58-9223138B675A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6CFC5BCC-785D-4012-BF37-CD6FE19D6740}" ShortID="920085282">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett3 Akt2 107Bpm" ID="{A4C6A2CD-411A-4AF2-B28F-D26EE99B4E87}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CD8B06EB-08D8-477F-9067-01F3285F0AD0}" ShortID="433455080">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett4 Akt2 107Bpm" ID="{C9D48E64-8A44-40CE-BA30-0C95D152DB34}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{26B3DD06-C769-4DDF-9588-20A7926DE574}" ShortID="712882834">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett5 Akt2 107Bpm" ID="{3C487580-980F-43D5-A6DB-A19233C72AB1}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5D6D1600-FA73-4161-A469-C4B1CC1003E1}" ShortID="414565499">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett6 Akt2 107Bpm" ID="{30254FEE-1F9B-42A6-A070-491BD6E8F6B3}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A4B6B1B3-F0CB-410E-86C1-267859A1D760}" ShortID="798112004">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett7 Akt2 107Bpm" ID="{ADD67422-88F7-41FA-A129-2900A687ADBF}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{064E5B9F-42BD-4E0D-8886-CB1DE16BBCA8}" ShortID="648314744">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett8 Akt2 107Bpm" ID="{D9D55D7B-D5B2-4286-AF42-37612D08926F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6BE9A7BC-4372-46D1-A78B-180F4F228745}" ShortID="643118693">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett9 Akt2 107Bpm" ID="{14A7E175-5F83-4DAA-95FB-5C33E7AB1EA0}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{923BFE42-669B-4E88-97E2-EC8E6D44001D}" ShortID="988977853">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett10 Akt2 107Bpm" ID="{8AF6CD64-6748-4368-BE09-5716CF22F3B7}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{FFEB77D6-29EF-4A73-8833-A7FFB6B48736}" ShortID="799807242">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett11 Akt2 107Bpm" ID="{D659CD1D-3195-4823-B3FE-1D2FC937012A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{B34224B7-25BA-445C-9FAF-FBFD9A7AACFC}" ShortID="937131601">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett12 Akt2 107Bpm" ID="{1B9CD1D7-29E5-49CD-907D-06A7A8821A64}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{BDE6B616-6C90-4F18-8390-B3A5EFA5DD1A}" ShortID="460462174">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Klarinett13 Akt2 107Bpm" ID="{34E6BD7C-FEBC-47D6-BF61-FF1E099AF358}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="HubAct3" ID="{5A6D2106-52FF-478F-B8FF-B147772D3E55}" ShortID="939317236">
