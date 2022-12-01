@@ -39,6 +39,20 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="AmbientSB" ID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>99000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Headlocked_Ambience" ID="{75515714-049D-48B2-9FA0-6190615A2562}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

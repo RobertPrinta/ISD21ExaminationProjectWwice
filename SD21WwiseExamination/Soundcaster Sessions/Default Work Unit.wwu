@@ -37,8 +37,8 @@
 						<CurrentStateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Rug" ID="{E598C8EC-9B78-461D-B10F-FB03297966D9}"/>
-						<CurrentSwitchRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}"/>
+						<CurrentSwitchRef Name="Wood" ID="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}"/>
+						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="UI Menu" ID="{D54B3266-E763-4F8A-90FC-E68C18147A57}">
