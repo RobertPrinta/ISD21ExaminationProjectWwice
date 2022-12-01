@@ -4,6 +4,28 @@
 		<WorkUnit Name="Ambience" ID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Play_Headlocked_Ambience" ID="{75515714-049D-48B2-9FA0-6190615A2562}"/>
+				<Event Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}">
+					<ChildrenList>
+						<Action Name="" ID="{97319247-F968-4EEB-8481-16CCE26EECD2}" ShortID="473438447">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Dream_Machine_Working_3D" ID="{535FDFB2-B0E8-4497-BB16-2159177C11E4}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dream_Machine_Heart_Monitor_3D" ID="{1EF2627A-B366-48C7-AC17-93F48A72DBEF}">
+					<ChildrenList>
+						<Action Name="" ID="{13431959-8D07-4729-8D96-19E050953A16}" ShortID="477535068">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Dream_Machine_Heart_Monitor_3D" ID="{71E2808A-9C96-4FFA-B006-D244C86D45C5}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
