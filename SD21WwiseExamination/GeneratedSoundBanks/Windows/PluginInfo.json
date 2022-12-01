@@ -5,6 +5,12 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Flanger",
+    "ID": "8192003",
+    "DLL": "AkFlanger",
+    "StaticLib": "AkFlangerFX"
+   },
+   {
     "Name": "System",
     "ID": "11403271"
    },

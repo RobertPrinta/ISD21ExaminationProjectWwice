@@ -47,7 +47,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "4009016323",
+    "Hash": "3113753300",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -69,6 +69,34 @@
       "Name": "Ambi_Vol",
       "ObjectPath": "\\Game Parameters\\System Vol Sliders\\Ambi_Vol",
       "GUID": "{CD020137-2BA1-4350-8904-0D80EDF0B94F}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\GameStates\\GameState",
+      "GUID": "{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\GameStates\\GameState\\None",
+        "GUID": "{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"
+       },
+       {
+        "Id": "984691642",
+        "Name": "InGame",
+        "ObjectPath": "\\States\\GameStates\\GameState\\InGame",
+        "GUID": "{3252B483-306E-4C1E-A5E5-53733DA80CBE}"
+       },
+       {
+        "Id": "3374585465",
+        "Name": "InMenu",
+        "ObjectPath": "\\States\\GameStates\\GameState\\InMenu",
+        "GUID": "{4D9A9010-700B-4CAD-8E79-74E2058B596F}"
+       }
+      ]
      }
     ]
    },
@@ -768,7 +796,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "3226178794",
+    "Hash": "3241451847",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -822,10 +850,28 @@
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi7 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "107871130",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett10 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett10 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "112429613",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi24 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi24 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "184208573",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett3 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett3 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "192667223",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett9 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett9 Akt2 107Bpm_9EDFC787.wem"
        },
        {
         "Id": "223431485",
@@ -858,16 +904,52 @@
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi1 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "468234340",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett7 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett7 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "559809631",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett5 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett5 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "583933653",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi12 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi12 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "605672174",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett12 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett12 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "607379227",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi19 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi19 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "621656144",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett4 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett4 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "652961063",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett8 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett8 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "691783688",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett6 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett6 Akt2 107Bpm_9EDFC787.wem"
        },
        {
         "Id": "695985048",
@@ -906,6 +988,12 @@
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi8 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "821272824",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett11 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett11 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "823916637",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi3 107Bpm.wav",
@@ -924,6 +1012,12 @@
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi13 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "862881599",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett13 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett13 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "926145073",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi10 107Bpm.wav",
@@ -934,6 +1028,12 @@
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi4 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi4 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "989544754",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett2 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett2 Akt2 107Bpm_9EDFC787.wem"
        },
        {
         "Id": "995413236",
@@ -958,6 +1058,12 @@
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi14 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi14 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "1058437537",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett1 Akt2 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett1 Akt2 107Bpm_9EDFC787.wem"
        }
       ]
      },

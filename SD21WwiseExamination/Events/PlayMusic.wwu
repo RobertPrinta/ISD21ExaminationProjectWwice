@@ -19,6 +19,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{60733A33-6BD9-40D2-BB4E-591B42EE6D83}" ShortID="107868587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HubAct2" ID="{CCEDE016-D57A-4D70-9747-F1C9768220F1}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Stop_MusicHub" ID="{202F35BD-36A3-458B-8A69-8CB4B84260A4}">
