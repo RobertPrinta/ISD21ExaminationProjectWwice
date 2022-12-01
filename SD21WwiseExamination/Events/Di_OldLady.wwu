@@ -3,9 +3,7 @@
 	<Events>
 		<WorkUnit Name="Di_OldLady" ID="{EA391D63-12EC-4054-9F5D-8E2FE84D9A7A}" OwnerID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Play_Di_OldLady_Act1" ID="{37EFD383-BAD0-4DF3-B80D-B7263791437C}"/>
-				<Event Name="Play_Di_OldLady_Act2" ID="{D6CF38CD-0DAA-4524-A41D-41429F7A320B}"/>
-				<Event Name="Play_Di_OldLady_Act3" ID="{50CB3C9E-C304-45E9-B72F-C26D1303AA94}"/>
+				<Event Name="Play_Di_OldLady_A1_S1" ID="{37EFD383-BAD0-4DF3-B80D-B7263791437C}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
