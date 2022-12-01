@@ -1612,7 +1612,32 @@
 								<Property Name="ModDepth" Type="Real32" Value="80"/>
 								<Property Name="ModFrequency" Type="Real32" Value="2"/>
 								<Property Name="ModPWM" Type="Real32" Value="0"/>
+								<Property Name="WetDryMix" Type="Real32" Value="0"/>
 							</PropertyList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="DryLevel"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+										<CustomState Name="" ID="{7DF45C9C-B7C6-45C9-AE73-29BC28F80C7C}" ShortID="326029501">
+											<PropertyList>
+												<Property Name="DryLevel" Type="Real32" Value="-1"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+										<CustomState Name="" ID="{781B0552-E800-4EEA-8E6C-9FBFD6114947}" ShortID="508741258"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Effect>
 						<Folder Name="Static Comb Filtering" ID="{6044FF31-2237-4EC5-B94F-9C0C25CFAC44}" ShortID="504290141">
 							<ChildrenList>
@@ -1651,10 +1676,36 @@
 								</Effect>
 								<Effect Name="Few_Even_Harm_Peaks" ID="{63235485-F861-422B-91D5-B5545F7FEE21}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="0.4"/>
-										<Property Name="EnableLFO" Type="bool" Value="False"/>
-										<Property Name="FeedBackLevel" Type="Real32" Value="-0.95"/>
+										<Property Name="DelayTime" Type="Real32" Value="19.6"/>
+										<Property Name="DryLevel" Type="Real32" Value="0.68"/>
+										<Property Name="FeedBackLevel" Type="Real32" Value="-0.45"/>
+										<Property Name="ModFrequency" Type="Real32" Value="4.66"/>
+										<Property Name="WetDryMix" Type="Real32" Value="0"/>
 									</PropertyList>
+									<StateInfo>
+										<StatePropertyList>
+											<Property Name="WetDryMix"/>
+										</StatePropertyList>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+												<CustomState Name="" ID="{D9369F50-AABE-4E6B-826E-13CF0EE54569}" ShortID="112633297">
+													<PropertyList>
+														<Property Name="WetDryMix" Type="Real32" Value="-100"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+												<CustomState Name="" ID="{A103EF34-F92C-4F69-A0AA-2E1B09202AF5}" ShortID="414936922"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</Effect>
 								<Effect Name="Many_Even_Harm_Notches" ID="{A7113535-F7D6-4B83-9DCB-01DD88295F76}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
@@ -1903,11 +1954,40 @@
 						</Effect>
 						<Effect Name="Very_Slow_Modulation" ID="{6082F901-3CE1-4D78-8F2D-B2B72CF28085}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
+								<Property Name="ModDepth" Type="Real32" Value="0"/>
 								<Property Name="ModFrequency" Type="Real32" Value="0.5"/>
 								<Property Name="ModPWM" Type="Real32" Value="0"/>
-								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
+								<Property Name="ModPhaseOffset" Type="Real32" Value="-51"/>
 								<Property Name="ModPhaseSpread" Type="Real32" Value="58"/>
 							</PropertyList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="ModDepth"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+										<CustomState Name="" ID="{F5A5E2F9-6174-4C66-AF67-9F65913E974C}" ShortID="232146353">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="-100"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+										<CustomState Name="" ID="{3879CDFC-B5C8-475A-8800-3DBE094807E9}" ShortID="326259505">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="0"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Effect>
 						<Effect Name="Boomerang" ID="{65397B72-19EC-43DB-B2D2-EB84437B6BDC}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
@@ -1931,12 +2011,12 @@
 						<Effect Name="Very_Bad_Connection" ID="{0C5A674D-5EC0-45A6-87A7-3885B3196DCD}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
 								<Property Name="ModDepth" Type="Real32" Value="62.1"/>
-								<Property Name="ModFrequency" Type="Real32" Value="1376.52"/>
+								<Property Name="ModFrequency" Type="Real32" Value="19.56"/>
 								<Property Name="ModPWM" Type="Real32" Value="27"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
 								<Property Name="ModPhaseSpread" Type="Real32" Value="71"/>
 								<Property Name="ModSmoothing" Type="Real32" Value="77"/>
-								<Property Name="ModWaveform" Type="int32" Value="3"/>
+								<Property Name="ModWaveform" Type="int32" Value="1"/>
 								<Property Name="OutputGain" Type="Real32" Value="2"/>
 							</PropertyList>
 							<StateInfo>
@@ -1946,6 +2026,9 @@
 								<StateGroupList>
 									<StateGroupInfo>
 										<StateGroupRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
 									</StateGroupInfo>
 								</StateGroupList>
 								<CustomStateList>
@@ -1972,6 +2055,18 @@
 												<Property Name="ModDepth" Type="Real32" Value="22.1"/>
 											</PropertyList>
 										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+										<CustomState Name="" ID="{EABE0FD4-5EE4-4090-87D0-719010570F4C}" ShortID="969284608">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="-100"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+										<CustomState Name="" ID="{4EC9E511-A8D1-4C04-AEFC-9662E833A33D}" ShortID="601762551"/>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -2034,9 +2129,41 @@
 								</Effect>
 								<Effect Name="Monsterize" ID="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
 									<PropertyList>
+										<Property Name="DryLevel" Type="Real32" Value="0"/>
 										<Property Name="FilterFrequency" Type="Real32" Value="2000"/>
 										<Property Name="Pitch" Type="Real32" Value="-1200"/>
+										<Property Name="WetLevel" Type="Real32" Value="-96"/>
 									</PropertyList>
+									<StateInfo>
+										<StatePropertyList>
+											<Property Name="DryLevel"/>
+											<Property Name="WetLevel"/>
+										</StatePropertyList>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+												<CustomState Name="" ID="{888E6ECF-0907-486C-94E8-2C5AA724A151}" ShortID="897881801">
+													<PropertyList>
+														<Property Name="DryLevel" Type="Real32" Value="0"/>
+														<Property Name="WetLevel" Type="Real32" Value="-120"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+												<CustomState Name="" ID="{FE1493CC-3A10-4D2F-9AF4-ECDC4D4BE48C}" ShortID="700206656">
+													<PropertyList>
+														<Property Name="DryLevel" Type="Real32" Value="-120"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</Effect>
 								<Effect Name="Voice_CenterOnly_Lowered" ID="{179558E7-E6DF-4021-9D38-A284DF53B7E5}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
 									<PropertyList>
