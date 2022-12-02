@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}" SchemaVersion="103" RootDocumentID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" ParentDocumentID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}">
+	<AudioObjects>
+		<WorkUnit Name="Dialogue Hub Work Unit" ID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}" OwnerID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" PersistMode="Nested"/>
+	</AudioObjects>
+</WwiseDocument>

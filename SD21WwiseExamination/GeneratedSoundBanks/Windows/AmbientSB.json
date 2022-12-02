@@ -1,0 +1,38 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "712956476",
+    "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
+    "Language": "SFX",
+    "Hash": "2984468389",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
+    "ShortName": "AmbientSB",
+    "Path": "AmbientSB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3354322557",
+      "Name": "Play_Headlocked_Ambience",
+      "ObjectPath": "\\Events\\Ambience\\Play_Headlocked_Ambience",
+      "GUID": "{75515714-049D-48B2-9FA0-6190615A2562}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ]
+   }
+  ]
+ }
+}

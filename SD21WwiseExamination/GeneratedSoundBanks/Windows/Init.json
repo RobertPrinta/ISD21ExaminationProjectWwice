@@ -16,10 +16,58 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "216127005",
+    "Hash": "3113753300",
     "ObjectPath": "Init",
     "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Path": "Init.bnk",
+    "GameParameters": [
+     {
+      "Id": "2246609544",
+      "Name": "Music_Vol",
+      "ObjectPath": "\\Game Parameters\\System Vol Sliders\\Music_Vol",
+      "GUID": "{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}"
+     },
+     {
+      "Id": "3578718921",
+      "Name": "Master_Vol",
+      "ObjectPath": "\\Game Parameters\\System Vol Sliders\\Master_Vol",
+      "GUID": "{31CFA690-A887-4407-BD42-0952ABFBF319}"
+     },
+     {
+      "Id": "4176647666",
+      "Name": "Ambi_Vol",
+      "ObjectPath": "\\Game Parameters\\System Vol Sliders\\Ambi_Vol",
+      "GUID": "{CD020137-2BA1-4350-8904-0D80EDF0B94F}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\GameStates\\GameState",
+      "GUID": "{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\GameStates\\GameState\\None",
+        "GUID": "{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"
+       },
+       {
+        "Id": "984691642",
+        "Name": "InGame",
+        "ObjectPath": "\\States\\GameStates\\GameState\\InGame",
+        "GUID": "{3252B483-306E-4C1E-A5E5-53733DA80CBE}"
+       },
+       {
+        "Id": "3374585465",
+        "Name": "InMenu",
+        "ObjectPath": "\\States\\GameStates\\GameState\\InMenu",
+        "GUID": "{4D9A9010-700B-4CAD-8E79-74E2058B596F}"
+       }
+      ]
+     }
+    ]
    }
   ]
  }

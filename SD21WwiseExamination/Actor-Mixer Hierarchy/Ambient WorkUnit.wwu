@@ -328,6 +328,284 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
+						<ActorMixer Name="AB_Dream_Machine" ID="{8D2B619D-0D1F-41C9-A9A7-C6D540BE37CC}" ShortID="229809556">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="AB_Dream_Machine_Working_3D" ID="{535FDFB2-B0E8-4497-BB16-2159177C11E4}" ShortID="924321434">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Generic_25m" ID="{2BB92BAE-1D68-4FB0-B9F6-2AE415E2FED8}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dream_Machine_Working2_3D" ID="{0A5EC03D-495E-4D8B-AC7A-EFE0E369140C}" ShortID="50107323">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dream_Machine_Working2_3D" ID="{D0D7D95D-6EEE-4C46-9BE0-1221BD4DC379}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Dream_Machine_Working2_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="963938858"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Dream_Machine_Working2_3D" ID="{D0D7D95D-6EEE-4C46-9BE0-1221BD4DC379}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dream_Machine_Working3_3D" ID="{C94091B2-C3C2-4F77-BBF8-01681DB0BCC3}" ShortID="803732025">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dream_Machine_Working3_3D" ID="{E1337E23-B8DB-45AF-9C19-291E79A1BA18}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Dream_Machine_Working3_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="357629459"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Dream_Machine_Working3_3D" ID="{E1337E23-B8DB-45AF-9C19-291E79A1BA18}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dream_Machine_Working4_3D" ID="{7BEED8F4-CC51-4AF2-9A31-835ADB3B8AAF}" ShortID="459464162">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dream_Machine_Working4_3D" ID="{32722780-3DE4-4808-B834-369ADEFE1C51}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Dream_Machine_Working4_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="851081858"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Dream_Machine_Working4_3D" ID="{32722780-3DE4-4808-B834-369ADEFE1C51}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dream_Machine_Working5_3D" ID="{A57890FC-3FCD-4E1E-AD1A-F7F490298485}" ShortID="479184551">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dream_Machine_Working5_3D" ID="{D0654B44-7EA8-41DF-92F7-E34E254480B9}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Dream_Machine_Working5_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="5444127"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Dream_Machine_Working5_3D" ID="{D0654B44-7EA8-41DF-92F7-E34E254480B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dream_Machine_Working1_3D" ID="{D818AFFA-A28F-49DB-8D3B-13C5918BEFAB}" ShortID="771079741">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A0A8A6BC-BF31-44B1-BE95-01E1CB9B4654}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dream_Machine_Working1_3D" ID="{F809ACC8-0A7F-4A91-84A3-F57203117536}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Dream_Machine_Working1_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="60940898"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Dream_Machine_Working1_3D" ID="{F809ACC8-0A7F-4A91-84A3-F57203117536}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="AB_Dream_Machine_Heart_Monitor_3D" ID="{71E2808A-9C96-4FFA-B006-D244C86D45C5}" ShortID="63338019">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dream_Machine_Heart_Monitor1_3D" ID="{15AB7782-A564-4568-A127-4D676EA90139}" ShortID="761482838">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dream_Machine_Heart_Monitor1_3D" ID="{2782B40A-D09A-40AB-ADC9-7E0C5D975C69}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Dream_Machine_Heart_Monitor1_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="71120849"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Dream_Machine_Heart_Monitor1_3D" ID="{2782B40A-D09A-40AB-ADC9-7E0C5D975C69}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dream_Machine_Heart_Monitor2_3D" ID="{39F8B768-F578-44C4-958D-3399D0D50C67}" ShortID="154995655">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dream_Machine_Heart_Monitor2_3D" ID="{A7E35DE5-24AC-4E2F-9586-CC63288C3494}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Dream_Machine_Heart_Monitor2_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="979497733"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Dream_Machine_Heart_Monitor2_3D" ID="{A7E35DE5-24AC-4E2F-9586-CC63288C3494}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dream_Machine_Heart_Monitor3_3D" ID="{BDF48F40-2A39-4165-80EF-3443BCFE9566}" ShortID="606354102">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dream_Machine_Heart_Monitor3_3D" ID="{2F5C26A0-DC78-4E14-B38A-81FB2DC236E9}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Dream_Machine_Heart_Monitor3_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="340444638"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Dream_Machine_Heart_Monitor3_3D" ID="{2F5C26A0-DC78-4E14-B38A-81FB2DC236E9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dream_Machine_Heart_Monitor4_3D" ID="{322D1CC4-62EC-4F4D-BB79-C436F27929E3}" ShortID="847044588">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dream_Machine_Heart_Monitor4_3D" ID="{891E184D-3B4F-4792-957F-B918AF9A3B6F}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Dream_Machine_Heart_Monitor4_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="808862803"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Dream_Machine_Heart_Monitor4_3D" ID="{891E184D-3B4F-4792-957F-B918AF9A3B6F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

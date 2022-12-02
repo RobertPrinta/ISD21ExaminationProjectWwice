@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Dialogue Work Unit" ID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" PersistMode="Standalone"/>
+		<WorkUnit Name="Dialogue Work Unit" ID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Dialogue Hub Work Unit" ID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}" PersistMode="Reference"/>
+				<WorkUnit Name="Dialogue OldLady Work Unit" ID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}" PersistMode="Reference"/>
+				<WorkUnit Name="Dialogue Runner Work Unit" ID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}" PersistMode="Reference"/>
+				<WorkUnit Name="Dialogue Thug Work Unit" ID="{FDE7DC1A-E666-46F8-9631-9F190F021884}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
