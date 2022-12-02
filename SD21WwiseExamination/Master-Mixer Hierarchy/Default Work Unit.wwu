@@ -46,9 +46,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{D87B8033-A6F4-41E0-852A-082C8FC5D0E9}" ShortID="563323396">
-													<ReferenceList/>
-												</RTPC>
+												<RTPC Name="" ID="{D87B8033-A6F4-41E0-852A-082C8FC5D0E9}" ShortID="563323396"/>
 											</RTPCList>
 										</Property>
 									</PropertyList>
@@ -163,9 +161,7 @@
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{B13D9C3C-12BF-49B1-A8DF-A13C1E4EE85A}" ShortID="445956047">
-															<ReferenceList/>
-														</RTPC>
+														<RTPC Name="" ID="{B13D9C3C-12BF-49B1-A8DF-A13C1E4EE85A}" ShortID="445956047"/>
 													</RTPCList>
 												</Property>
 											</PropertyList>
@@ -218,6 +214,51 @@
 											</RTPCList>
 										</Property>
 									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Rooms" ID="{B7FA9C9C-471D-44E7-A1AC-46357E7EB3A5}">
+									<ChildrenList>
+										<AuxBus Name="SmallRoom" ID="{52EE55A3-806A-4149-BA6D-10AEC2CB1286}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</AuxBus>
+										<AuxBus Name="MediumRoom" ID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</AuxBus>
+										<AuxBus Name="LargeRoom" ID="{AFFD7AA1-69B7-468B-873E-C21A590E8C74}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</AuxBus>
+										<AuxBus Name="Corridor" ID="{30F3C25B-ACE9-445B-9F67-D66EBF845097}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Plate_Small" ID="{5681977F-CD7F-4D09-AA58-118BEFA48C8C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</AuxBus>
+										<AuxBus Name="DreamRoom" ID="{400F7CF9-0318-4A62-925F-D787F3F9BB6E}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Machine_Gun_Hangar" ID="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</AuxBus>
+									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>

@@ -4,6 +4,9 @@
 		<WorkUnit Name="PlayerFootsteps" ID="{0717E4F1-805E-4CCE-BE0B-42986EE979AA}" OwnerID="{49D19C03-59A5-4898-9F51-3205F3BC1F24}" PersistMode="Nested">
 			<ChildrenList>
 				<SwitchContainer Name="Footsteps" ID="{FB983F4B-6273-4EC4-B008-4F11158F2762}" ShortID="871507591">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -2138,6 +2141,7 @@
 								<RandomSequenceContainer Name="Running" ID="{4A06CB6B-0184-476B-8E97-2D249889816F}" ShortID="993014256">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
