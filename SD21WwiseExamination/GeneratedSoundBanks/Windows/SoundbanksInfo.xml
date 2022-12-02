@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -24,10 +24,17 @@
 				<Event Id="3354322557" Name="Play_Headlocked_Ambience" ObjectPath="\Events\Ambience\Play_Headlocked_Ambience" GUID="{75515714-049D-48B2-9FA0-6190615A2562}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3113753300">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2727383513">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\LargeRoom" GUID="{AFFD7AA1-69B7-468B-873E-C21A590E8C74}"/>
+				<AuxBus Id="1245295233" Name="MediumRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoom" GUID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"/>
+				<AuxBus Id="1847104687" Name="DreamRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\DreamRoom" GUID="{400F7CF9-0318-4A62-925F-D787F3F9BB6E}"/>
+				<AuxBus Id="2933838247" Name="SmallRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\SmallRoom" GUID="{52EE55A3-806A-4149-BA6D-10AEC2CB1286}"/>
+				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\Corridor" GUID="{30F3C25B-ACE9-445B-9F67-D66EBF845097}"/>
+			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="2246609544" Name="Music_Vol" ObjectPath="\Game Parameters\System Vol Sliders\Music_Vol" GUID="{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}"/>
 				<GameParameter Id="3578718921" Name="Master_Vol" ObjectPath="\Game Parameters\System Vol Sliders\Master_Vol" GUID="{31CFA690-A887-4407-BD42-0952ABFBF319}"/>
@@ -43,7 +50,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="3323118171">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="4166905057">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -405,7 +412,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="3635318683">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2630457416">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>

@@ -27,9 +27,13 @@ State	ID	Name	State Group			Notes
 	3374585465	InMenu	GameState			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	112633297	InGame	GameState	\Effects\Factory Effects\Wwise Flanger\Static Comb Filtering\Few_Even_Harm_Peaks		
-	272173714	InMenu	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\MainINgame		
-	414936922	InMenu	GameState	\Effects\Factory Effects\Wwise Flanger\Static Comb Filtering\Few_Even_Harm_Peaks		
+	332296121	Hub_Act1	Hub_LVL_State	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
+	401357270	InMenu	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\MainINgame\MusicMaster		
+	471660500	InGame	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\MainINgame\MusicMaster		
+	474562835	Hub_Act3	Hub_LVL_State	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
+	601762551	InMenu	GameState	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
+	893710895	Hub_Act2	Hub_LVL_State	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
+	969284608	InGame	GameState	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2246609544	Music_Vol			\System Vol Sliders\Music_Vol	
@@ -38,6 +42,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\Master\MainINgame\PlayerMaster\PlayerLocomotion\PlayerCloth	
+	1359360203	Rooms			\Default Work Unit\Master Audio Bus\Master\Rooms	
 	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\Master\MainINgame\AmbientMaster	
 	1551306167	Ui			\Default Work Unit\Master Audio Bus\Master\Ui	
 	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\Master\MainINgame\PlayerMaster\PlayerLocomotion\PlayerFootsteps	
@@ -48,8 +53,20 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	4056684167	Master			\Default Work Unit\Master Audio Bus\Master	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	187046019	LargeRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\LargeRoom	
+	1245295233	MediumRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoom	
+	1847104687	DreamRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\DreamRoom	
+	2933838247	SmallRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\SmallRoom	
+	4063189299	Corridor			\Default Work Unit\Master Audio Bus\Master\Rooms\Corridor	
+
 Effect plug-ins	ID	Name	Type				Notes
-	3332138788	Few_Even_Harm_Peaks	Wwise Flanger			
+	506891147	Plate_Small	Wwise RoomVerb			
+	602546716	Room_Large	Wwise RoomVerb			
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2230265344	Very_Bad_Connection	Wwise Tremolo			
+	2995775460	Room_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

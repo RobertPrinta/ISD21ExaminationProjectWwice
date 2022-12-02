@@ -5,10 +5,16 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
-    "Name": "Wwise Flanger",
-    "ID": "8192003",
-    "DLL": "AkFlanger",
-    "StaticLib": "AkFlangerFX"
+    "Name": "Wwise RoomVerb",
+    "ID": "7733251",
+    "DLL": "AkRoomVerb",
+    "StaticLib": "AkRoomVerbFX"
+   },
+   {
+    "Name": "Wwise Tremolo",
+    "ID": "8585219",
+    "DLL": "AkTremolo",
+    "StaticLib": "AkTremoloFX"
    },
    {
     "Name": "System",
