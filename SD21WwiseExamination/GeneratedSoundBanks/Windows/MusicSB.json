@@ -16,7 +16,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "3241451847",
+    "Hash": "3635318683",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -70,6 +70,12 @@
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi7 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "106864608",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra10 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra10 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "107871130",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett10 Akt2 107Bpm.wav",
@@ -80,6 +86,12 @@
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi24 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi24 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "158290635",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra1 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra1 Akt3 107Bpm_9EDFC787.wem"
        },
        {
         "Id": "184208573",
@@ -106,6 +118,30 @@
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi26 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "241970606",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra14 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra14 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "288230028",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra8 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra8 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "301421353",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra4 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra4 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "316853711",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra13 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra13 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "349021124",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi6 107Bpm.wav",
@@ -128,6 +164,12 @@
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett7 Akt2 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett7 Akt2 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "513686879",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra9 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra9 Akt3 107Bpm_9EDFC787.wem"
        },
        {
         "Id": "559809631",
@@ -166,6 +208,18 @@
         "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett8 Akt2 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "657069404",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra12 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra12 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "661159091",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra3 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra3 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "691783688",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett6 Akt2 107Bpm.wav",
@@ -190,10 +244,22 @@
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi21 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "732147827",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra7 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra7 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "755352097",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi16 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi16 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "765166854",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra11 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra11 Akt3 107Bpm_9EDFC787.wem"
        },
        {
         "Id": "790405129",
@@ -250,6 +316,18 @@
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi4 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "957743122",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra6 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra6 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "985934564",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra5 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra5 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "989544754",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett2 Akt2 107Bpm.wav",
@@ -262,10 +340,22 @@
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi25 107Bpm_9EDFC787.wem"
        },
        {
+        "Id": "998871737",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra15 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra15 Akt3 107Bpm_9EDFC787.wem"
+       },
+       {
         "Id": "999313794",
         "Language": "SFX",
         "ShortName": "Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi11 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE HUB - AMBI ACT 1 (NY)\\The Hub Ambi11 107Bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "1000740171",
+        "Language": "SFX",
+        "ShortName": "Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra2 Akt3 107Bpm.wav",
+        "Path": "SFX\\Music\\TheHub\\THE HUB -KONTRA ACT 3 (NY)\\KlariKontra2 Akt3 107Bpm_9EDFC787.wem"
        },
        {
         "Id": "1044402490",
