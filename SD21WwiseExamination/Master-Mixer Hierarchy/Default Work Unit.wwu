@@ -14,13 +14,13 @@
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<RTPCList>
-										<RTPC Name="" ID="{EADA4451-BF8F-4F7E-B5C1-FF8980D4A747}" ShortID="589317650">
+										<RTPC Name="" ID="{E0A30759-B8CF-4AFC-B76E-F0D03B379C80}" ShortID="177977282">
 											<ReferenceList>
 												<Reference Name="ControlInput">
 													<ObjectRef Name="Master_Vol" ID="{31CFA690-A887-4407-BD42-0952ABFBF319}" WorkUnitID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{6A3A0194-3F8A-4B39-AEC5-19F0F3F58D92}">
+											<Curve Name="" ID="{9A2878F0-1ACE-493B-8024-FE430CA697EB}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
@@ -43,13 +43,6 @@
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="MainINgame" ID="{B8B8D1BE-970A-4D35-A6A8-860886F3B726}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{D87B8033-A6F4-41E0-852A-082C8FC5D0E9}" ShortID="563323396"/>
-											</RTPCList>
-										</Property>
-									</PropertyList>
 									<ChildrenList>
 										<Bus Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}">
 											<PropertyList>
@@ -158,13 +151,6 @@
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="PlayerMaster" ID="{7AF732C7-47D3-44A2-9848-0E166421A91C}">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{B13D9C3C-12BF-49B1-A8DF-A13C1E4EE85A}" ShortID="445956047"/>
-													</RTPCList>
-												</Property>
-											</PropertyList>
 											<ChildrenList>
 												<Bus Name="PlayerLocomotion" ID="{4BE82FA6-C33E-43AE-B4CC-830081ED5379}">
 													<ChildrenList>
@@ -184,36 +170,6 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Ui" ID="{BB111FFF-69DF-4913-B75A-A1FF178A6F8B}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{7C8EFD06-A7FA-4872-B79C-5BA333A7C820}" ShortID="318933623">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Ui_Vol" ID="{469191C1-1A73-4439-8A5E-B56657DF1B52}" WorkUnitID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{76349E5A-27D0-4D1C-817E-26C6A36AE97C}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Rooms" ID="{B7FA9C9C-471D-44E7-A1AC-46357E7EB3A5}">
