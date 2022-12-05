@@ -119,6 +119,9 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="MediumRoom" ID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Collision" ID="{8E50655C-1CAA-4AF7-8F08-69C39259096E}" ShortID="112500668">
