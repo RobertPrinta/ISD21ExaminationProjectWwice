@@ -26,6 +26,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Faulty_Socket_Electricity_Buzz_3D" ID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}">
+					<ChildrenList>
+						<Action Name="" ID="{0CFB2B6A-B7EE-4278-8D64-8887D3989DDC}" ShortID="830849621">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Electricity_Buzz_3D" ID="{0082F8DA-ACD2-487F-9A1D-3F948C08CFFB}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Low_Electricity_Hum_3D" ID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}">
+					<ChildrenList>
+						<Action Name="" ID="{86CB1D93-0600-48FA-9713-636B20439ADD}" ShortID="375703576">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Electricity_Hum_3D" ID="{D2F1472C-7FA2-48A1-8ED6-667915C09941}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

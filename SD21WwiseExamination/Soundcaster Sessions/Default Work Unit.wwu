@@ -51,6 +51,14 @@
 							<ObjectRef Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Low_Electricity_Hum_3D" ID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Faulty_Socket_Electricity_Buzz_3D" ID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
