@@ -21,7 +21,7 @@
 							<ObjectRef Name="MaterialSwitch" ID="{61C7AC41-AD06-45F3-9CCB-D85A5531C5F4}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="LargeRoom" ID="{AFFD7AA1-69B7-468B-873E-C21A590E8C74}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+							<ObjectRef Name="MediumRoom" ID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
