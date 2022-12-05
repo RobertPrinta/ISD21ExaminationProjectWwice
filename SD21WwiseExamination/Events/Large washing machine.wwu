@@ -16,6 +16,16 @@
 				</Event>
 				<Event Name="PlayLarge_washing_machineEnd" ID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}">
 					<ChildrenList>
+						<Action Name="" ID="{C53ECCA5-E3F5-4B97-86AE-5C2EC99BB399}" ShortID="89515982">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beginning" ID="{434D9AFC-5891-4C81-B1AA-73934A2AE718}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{46E09239-950A-4DE2-BEBE-A21CB00626BE}" ShortID="546607718">
 							<ReferenceList>
 								<Reference Name="Target">

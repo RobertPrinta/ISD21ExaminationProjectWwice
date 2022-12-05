@@ -45,6 +45,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Collision" ID="{8E50655C-1CAA-4AF7-8F08-69C39259096E}" ShortID="112500668">
 							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -279,6 +280,11 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Beginning" ID="{434D9AFC-5891-4C81-B1AA-73934A2AE718}" ShortID="238709294">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>36</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
