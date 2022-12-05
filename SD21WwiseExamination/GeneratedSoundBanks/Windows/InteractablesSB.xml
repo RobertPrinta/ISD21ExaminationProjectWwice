@@ -8,26 +8,75 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4223437857" GUID="{DE65C750-E210-4254-B208-9850C091F9A9}" Language="SFX" Hash="2800796219">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="1758089043">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2073058824" Name="PlayLarge_washing_machine" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machine" GUID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" DurationType="OneShot" DurationMin="4.741395" DurationMax="4.741395">
+				<Event Id="2073058824" Name="PlayLarge_washing_machine" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machine" GUID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" DurationType="OneShot" DurationMin="3.930326" DurationMax="6.181608">
+					<IncludedMemoryFiles>
+						<File Id="653913186" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1245295233" Name="MediumRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoom" GUID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2929248152" Name="PlayLarge_washing_machineDoor" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineDoor" GUID="{23842A14-CFB7-4BA3-B690-5B87E0D8BFF0}" DurationType="OneShot" DurationMin="4.603756" DurationMax="4.954175">
 					<IncludedMemoryFiles>
 						<File Id="365028018" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\sliding.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\sliding_356C29CA.wem</Path>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\sliding_2C52FA27.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1245295233" Name="MediumRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoom" GUID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="1899315439" Name="PlayLarge_washing_machineEnd" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineEnd" GUID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" DurationType="OneShot" DurationMin="2.055605" DurationMax="2.055605">
+				<Event Id="1899315439" Name="PlayLarge_washing_machineEnd" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineEnd" GUID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" DurationType="OneShot" DurationMin="0.504773" DurationMax="1.225705">
 					<IncludedMemoryFiles>
-						<File Id="615277814" Language="SFX">
-							<ShortName>Interactables\Thug\Large_washing_machine\sliding.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\sliding_5747035E.wem</Path>
+						<File Id="152970793" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V5.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V5_3CADDE39.wem</Path>
+						</File>
+						<File Id="234822014" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V7.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V7_3CADDE39.wem</Path>
+						</File>
+						<File Id="474926511" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V3.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V3_3CADDE39.wem</Path>
+						</File>
+						<File Id="635716665" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V9.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V9_3CADDE39.wem</Path>
+						</File>
+						<File Id="643357370" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V4.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V4_3CADDE39.wem</Path>
+						</File>
+						<File Id="689859656" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V6.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V6_3CADDE39.wem</Path>
+						</File>
+						<File Id="758545831" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V2.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V2_3CADDE39.wem</Path>
+						</File>
+						<File Id="793873194" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V8.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V8_3CADDE39.wem</Path>
+						</File>
+						<File Id="927392652" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V1.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V1_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1245295233" Name="MediumRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoom" GUID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>

@@ -46,6 +46,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Smal_Washing_Machine_Door" ID="{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

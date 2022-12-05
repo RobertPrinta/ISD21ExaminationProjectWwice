@@ -1,8 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1899315439	PlayLarge_washing_machineEnd			\Interactables\INThug\Large washing machine\PlayLarge_washing_machineEnd	
 	2073058824	PlayLarge_washing_machine			\Interactables\INThug\Large washing machine\PlayLarge_washing_machine	
+	2929248152	PlayLarge_washing_machineDoor			\Interactables\INThug\Large washing machine\PlayLarge_washing_machineDoor	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	365028018	PlayLarge_washing_machinesend	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\sliding_356C29CA.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Large_washing_machine\PlayLarge_washing_machinesend		57457
-	615277814	PlayLarge_washing_machinestart	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\sliding_5747035E.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Large_washing_machine\PlayLarge_washing_machinestart		33149
+	152970793	WashingMachine_Hit_V5	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V5_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Collision\WashingMachine_Hit_V5		7726
+	234822014	WashingMachine_Hit_V7	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V7_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Collision\WashingMachine_Hit_V7		4967
+	365028018	Washing Door	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\sliding_2C52FA27.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Door\Washing Door		57457
+	474926511	WashingMachine_Hit_V3	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V3_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Collision\WashingMachine_Hit_V3		5490
+	635716665	WashingMachine_Hit_V9	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V9_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Collision\WashingMachine_Hit_V9		4436
+	643357370	WashingMachine_Hit_V4	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V4_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Collision\WashingMachine_Hit_V4		7674
+	653913186	WashingMachine_FloorScraping	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Beginning\WashingMachine_FloorScraping		43539
+	689859656	WashingMachine_Hit_V6	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V6_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Collision\WashingMachine_Hit_V6		6950
+	758545831	WashingMachine_Hit_V2	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V2_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Collision\WashingMachine_Hit_V2		6103
+	793873194	WashingMachine_Hit_V8	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V8_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Collision\WashingMachine_Hit_V8		6602
+	927392652	WashingMachine_Hit_V1	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V1_3CADDE39.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Washing_Maschine\Collision\WashingMachine_Hit_V1		6005
 
