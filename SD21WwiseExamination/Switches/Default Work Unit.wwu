@@ -41,6 +41,8 @@
 					<ChildrenList>
 						<Switch Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 						<Switch Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+						<Switch Name="Stairs" ID="{A89AAE5E-7A9C-43E0-B073-A250A0614F6C}"/>
+						<Switch Name="Laundromat" ID="{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
