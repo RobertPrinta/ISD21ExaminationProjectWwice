@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="201704571">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="3907025059">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
@@ -25,15 +25,15 @@
 						</File>
 						<File Id="294453549" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door4.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door4_569D5497.wem</Path>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door4_4FAA26E9.wem</Path>
 						</File>
 						<File Id="686862164" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door3.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door3_B24467BD.wem</Path>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door3_4FABF103.wem</Path>
 						</File>
 						<File Id="923417905" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door5.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door5_F6CA5BED.wem</Path>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door5_C6EEFF0F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

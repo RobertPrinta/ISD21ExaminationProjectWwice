@@ -1677,7 +1677,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "201704571",
+    "Hash": "3907025059",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -1707,19 +1707,19 @@
         "Id": "294453549",
         "Language": "SFX",
         "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door4.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door4_569D5497.wem"
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door4_4FAA26E9.wem"
        },
        {
         "Id": "686862164",
         "Language": "SFX",
         "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door3.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door3_B24467BD.wem"
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door3_4FABF103.wem"
        },
        {
         "Id": "923417905",
         "Language": "SFX",
         "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door5.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door5_F6CA5BED.wem"
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door5_C6EEFF0F.wem"
        }
       ]
      },
