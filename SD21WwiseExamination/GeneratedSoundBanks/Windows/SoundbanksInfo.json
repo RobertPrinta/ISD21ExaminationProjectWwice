@@ -1677,11 +1677,58 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "1758089043",
+    "Hash": "59222858",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3581348024",
+      "Name": "Play_Smal_Washing_Machine_Door",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\Play_Smal_Washing_Machine_Door",
+      "GUID": "{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.02027",
+      "DurationMax": "5.148709",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "130602357",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door2.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door2_3CADDE39.wem"
+       },
+       {
+        "Id": "214161566",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door hinch.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door hinch_3CADDE39.wem"
+       },
+       {
+        "Id": "217728391",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door_3CADDE39.wem"
+       },
+       {
+        "Id": "294453549",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door4.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door4_3CADDE39.wem"
+       },
+       {
+        "Id": "686862164",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door3.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door3_3CADDE39.wem"
+       },
+       {
+        "Id": "923417905",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door5.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door5_3CADDE39.wem"
+       }
+      ]
+     },
      {
       "Id": "2073058824",
       "Name": "PlayLarge_washing_machine",
@@ -1696,14 +1743,6 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping.wav",
         "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping_3CADDE39.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1245295233",
-        "Name": "MediumRoom",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoom",
-        "GUID": "{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"
        }
       ]
      },
@@ -1720,15 +1759,7 @@
         "Id": "365028018",
         "Language": "SFX",
         "ShortName": "Interactables\\Thug\\Large_washing_machine\\sliding.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\sliding_2C52FA27.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1245295233",
-        "Name": "MediumRoom",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoom",
-        "GUID": "{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\sliding_73F17786.wem"
        }
       ]
      },
@@ -1794,14 +1825,6 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V1.wav",
         "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V1_3CADDE39.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "1245295233",
-        "Name": "MediumRoom",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoom",
-        "GUID": "{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"
        }
       ]
      }

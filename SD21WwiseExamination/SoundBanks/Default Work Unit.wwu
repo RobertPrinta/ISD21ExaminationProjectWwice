@@ -89,6 +89,7 @@
 						</Property>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Smal_Washing_Machine_Door" ID="{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}" WorkUnitID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayLarge_washing_machineEnd" ID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" WorkUnitID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayLarge_washing_machineDoor" ID="{23842A14-CFB7-4BA3-B690-5B87E0D8BFF0}" WorkUnitID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayLarge_washing_machine" ID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" WorkUnitID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}" Origin="Manual" Filter="7"/>

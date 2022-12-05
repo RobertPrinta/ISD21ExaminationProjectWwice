@@ -19,6 +19,7 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ModifierList>
 								<ModifierInfo>
@@ -38,9 +39,6 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="MediumRoom" ID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -395,6 +393,13 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Smal_Washing_Machine_Door" ID="{8EE8F041-5A4C-4D49-B57D-601519DE0FB7}" ShortID="453000503">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>23</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -403,6 +408,146 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="whasher Door" ID="{345F5FFB-3FEB-449B-8D83-B83405998FD7}" ShortID="1038381699">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="whasher Door" ID="{C1D095F5-F02E-46E5-9736-74A0282DF85E}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217728391"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="whasher Door" ID="{C1D095F5-F02E-46E5-9736-74A0282DF85E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="whasher Door2" ID="{A28C85A8-2FB6-4B74-BD59-62F897AD7F25}" ShortID="40396244">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="whasher Door2" ID="{040BE0D2-D0E5-4CE3-BC0A-8690D9E6BCA3}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="130602357"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="whasher Door2" ID="{040BE0D2-D0E5-4CE3-BC0A-8690D9E6BCA3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="whasher Door3" ID="{6AF332C0-9C4C-4EC9-83AC-F0178567A444}" ShortID="1060225831">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="whasher Door3" ID="{0CFCD248-AD76-47F0-B717-D9AAB983E3D5}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="686862164"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="whasher Door3" ID="{0CFCD248-AD76-47F0-B717-D9AAB983E3D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="whasher Door4" ID="{1806DC47-6AEA-4402-8EE3-E14C6E637C1D}" ShortID="363183568">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="whasher Door4" ID="{1D506B06-1A5F-4032-B3EE-CC7603240596}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="294453549"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="whasher Door4" ID="{1D506B06-1A5F-4032-B3EE-CC7603240596}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="whasher Door5" ID="{32FECD1B-73F4-4F3C-A84B-B0181A55F304}" ShortID="889021588">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="whasher Door5" ID="{3812A94A-60EF-4676-AEAF-0EE133B7FFD3}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="923417905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="whasher Door5" ID="{3812A94A-60EF-4676-AEAF-0EE133B7FFD3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="whasher Door hinch" ID="{D2F64983-6A62-4791-822E-BE3FE671214E}" ShortID="627752163">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="whasher Door hinch" ID="{4FFD7F67-76F5-418C-ACC0-85C7C5E0EAA3}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door hinch.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214161566"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="whasher Door hinch" ID="{4FFD7F67-76F5-418C-ACC0-85C7C5E0EAA3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>

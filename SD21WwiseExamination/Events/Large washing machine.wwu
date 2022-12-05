@@ -46,7 +46,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Smal_Washing_Machine_Door" ID="{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}"/>
+				<Event Name="Play_Smal_Washing_Machine_Door" ID="{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}">
+					<ChildrenList>
+						<Action Name="" ID="{57073034-F2F0-40CB-BE70-BB9B1668324E}" ShortID="866001348">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Smal_Washing_Machine_Door" ID="{8EE8F041-5A4C-4D49-B57D-601519DE0FB7}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

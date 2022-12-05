@@ -70,10 +70,10 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
-						<CurrentStateRef Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
+						<CurrentStateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
 						<CurrentStateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
 						<CurrentStateRef Name="None" ID="{8B77F188-B864-4A48-A88B-A13BCA72DB36}"/>
-						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
+						<CurrentStateRef Name="OldLady_Act1" ID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
