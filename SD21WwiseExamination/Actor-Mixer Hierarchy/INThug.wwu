@@ -84,6 +84,343 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<ActorMixer Name="Washing_Maschine" ID="{6C278A39-B776-48DF-A937-BD1A0C9720AF}" ShortID="404785139">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0C203DDC-3EDD-4DB3-AD35-7F6BAC137564}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="51"/>
+											<Property Name="Min" Type="Real64" Value="-76"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A46401FA-D544-47FF-B629-CF0DD1F5F37C}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Collision" ID="{8E50655C-1CAA-4AF7-8F08-69C39259096E}" ShortID="112500668">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6F370FC7-0ADF-499C-BD82-72D379CB01CD}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="76"/>
+													<Property Name="Min" Type="Real64" Value="-51"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WashingMachine_Hit_V1" ID="{EAE1E4FD-F743-498E-8083-7F448D469E35}" ShortID="105072305">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_Hit_V1" ID="{93B3DCAF-2179-478D-B4D8-BDC9FC9324BF}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="927392652"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_Hit_V1" ID="{93B3DCAF-2179-478D-B4D8-BDC9FC9324BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WashingMachine_Hit_V2" ID="{07033211-F5BA-4BD7-8C98-95A7CD921FFB}" ShortID="256188947">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_Hit_V2" ID="{69F1429E-859E-4B91-9AC7-3CFA4E255762}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="758545831"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_Hit_V2" ID="{69F1429E-859E-4B91-9AC7-3CFA4E255762}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WashingMachine_Hit_V3" ID="{56BFB799-3CA2-41FF-B770-67FEF6063164}" ShortID="277405880">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_Hit_V3" ID="{C981A2DA-F7B2-4567-A6F3-E9FD2F538A4E}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="474926511"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_Hit_V3" ID="{C981A2DA-F7B2-4567-A6F3-E9FD2F538A4E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WashingMachine_Hit_V4" ID="{5D802615-5DCE-4917-B22B-FB16F8AE7D10}" ShortID="1036757551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_Hit_V4" ID="{C001B2DF-98A1-40D2-9DAD-9BB4E21BE7E7}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="643357370"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_Hit_V4" ID="{C001B2DF-98A1-40D2-9DAD-9BB4E21BE7E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WashingMachine_Hit_V5" ID="{BD5F72EC-756E-403A-A00A-CE89B92A50DB}" ShortID="81213755">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_Hit_V5" ID="{51A7E303-6A74-4BFC-91FF-3A9126EC640E}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="152970793"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_Hit_V5" ID="{51A7E303-6A74-4BFC-91FF-3A9126EC640E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WashingMachine_Hit_V6" ID="{F89629E1-D56E-47D8-BF3E-030ABA1885CB}" ShortID="636125992">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_Hit_V6" ID="{4BC664BB-58F5-439C-827C-4251EF9C74F6}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="689859656"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_Hit_V6" ID="{4BC664BB-58F5-439C-827C-4251EF9C74F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WashingMachine_Hit_V7" ID="{5B78F795-4844-4899-BD92-DAB2826F350E}" ShortID="121017475">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_Hit_V7" ID="{A89FB50F-E39E-4236-8237-A4EF36BC2E71}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="234822014"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_Hit_V7" ID="{A89FB50F-E39E-4236-8237-A4EF36BC2E71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WashingMachine_Hit_V8" ID="{5E9A2DCE-0D03-4497-B882-088DE8744750}" ShortID="260866574">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_Hit_V8" ID="{24E61020-2FC6-469D-8CCF-50E8FB2E0C6B}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="793873194"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_Hit_V8" ID="{24E61020-2FC6-469D-8CCF-50E8FB2E0C6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WashingMachine_Hit_V9" ID="{53B3A792-1B91-40E2-AD58-53F1653FEC11}" ShortID="263511999">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_Hit_V9" ID="{2C65696E-4FD3-4228-B887-65A8F3710971}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="635716665"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_Hit_V9" ID="{2C65696E-4FD3-4228-B887-65A8F3710971}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Beginning" ID="{434D9AFC-5891-4C81-B1AA-73934A2AE718}" ShortID="238709294">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E81B360B-5303-47D7-AD64-C78DA2EDDF25}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="379"/>
+													<Property Name="Min" Type="Real64" Value="-278"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CA576755-6198-4BA8-A40E-22E88B4FA292}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WashingMachine_FloorScraping" ID="{B79F54D1-8CE4-4A0D-A000-72E3A72D638C}" ShortID="396448738">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WashingMachine_FloorScraping" ID="{87945B27-ED4F-4747-A310-7C7D14835A42}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653913186"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="WashingMachine_FloorScraping" ID="{87945B27-ED4F-4747-A310-7C7D14835A42}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
