@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="1858466019">
+			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
+			<ShortName>UiSB</ShortName>
+			<Path>UiSB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="409665737" Name="UI_Click_Button" ObjectPath="\Events\UI\UI_Click_Button" GUID="{C08F3209-396D-4817-999D-BE74BB1000B4}" DurationType="OneShot" DurationMin="1.013039" DurationMax="1.013039">
+					<IncludedMemoryFiles>
+						<File Id="476123600" Language="SFX">
+							<ShortName>UI\UI_Button_Click.wav</ShortName>
+							<Path>SFX\UI\UI_Button_Click_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1781508224" Name="UI_Close_Menu" ObjectPath="\Events\UI\UI_Close_Menu" GUID="{7DF20592-A6A7-4C6A-A074-E8B61C3516E0}" DurationType="OneShot" DurationMin="0.811451" DurationMax="0.811451">
+					<IncludedMemoryFiles>
+						<File Id="515792353" Language="SFX">
+							<ShortName>UI\UI_VCR_Noise_Stop.wav</ShortName>
+							<Path>SFX\UI\UI_VCR_Noise_Stop_3CADDE39.wem</Path>
+						</File>
+						<File Id="685597690" Language="SFX">
+							<ShortName>UI\UI_Button_Press_Heavy.wav</ShortName>
+							<Path>SFX\UI\UI_Button_Press_Heavy_3CADDE39.wem</Path>
+						</File>
+						<File Id="819179302" Language="SFX">
+							<ShortName>UI\UI_Return_To_Game_Noise.wav</ShortName>
+							<Path>SFX\UI\UI_Return_To_Game_Noise_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="984691642" Name="InGame" ObjectPath="\States\GameStates\GameState\InGame" GUID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="739981572" Name="UI_Hover_Over_Button" ObjectPath="\Events\UI\UI_Hover_Over_Button" GUID="{66D5A7AD-02F3-4099-B00D-B23033411B16}" DurationType="OneShot" DurationMin="0.131179" DurationMax="0.131179">
+					<IncludedMemoryFiles>
+						<File Id="409769837" Language="SFX">
+							<ShortName>UI\UI_Button_Hover.wav</ShortName>
+							<Path>SFX\UI\UI_Button_Hover_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1997076556" Name="UI_Open_Menu" ObjectPath="\Events\UI\UI_Open_Menu" GUID="{225F7E9D-6344-4D85-88CB-02814352E22D}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="1057112490" Language="SFX">
+							<ShortName>UI\UI_Tape_Noise.wav</ShortName>
+							<Path>SFX\UI\UI_Tape_Noise_696A9007.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="197508550" Language="SFX">
+							<ShortName>UI\UI_VCR_Noise.wav</ShortName>
+							<Path>SFX\UI\UI_VCR_Noise_696A9007.wem</Path>
+						</File>
+						<File Id="598926904" Language="SFX">
+							<ShortName>UI\UI_Turn_On_Sine.wav</ShortName>
+							<Path>SFX\UI\UI_Turn_On_Sine_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="3374585465" Name="InMenu" ObjectPath="\States\GameStates\GameState\InMenu" GUID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="984691642" Name="InGame" ObjectPath="\States\GameStates\GameState\InGame" GUID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3374585465" Name="InMenu" ObjectPath="\States\GameStates\GameState\InMenu" GUID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

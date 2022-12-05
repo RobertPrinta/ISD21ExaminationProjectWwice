@@ -320,6 +320,13 @@
 				<MusicSwitchContainer Name="HubMusic" ID="{D9D8DF5D-71D9-4D2E-B8FD-C47256D8A48F}" ShortID="940750221">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="107"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1CB48841-9C45-4076-A59B-46A254CEF1AF}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -336,6 +343,17 @@
 									<ValueList>
 										<Value>-10</Value>
 									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3EB5A2CD-6AC9-4A7D-A17B-560C45844184}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -350,6 +368,13 @@
 								<MusicSegment Name="The Hub Ambi1 107Bpm" ID="{376A90A8-3868-4DF5-B791-B965352542D5}" ShortID="401369040">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="96448.6177959501"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D417948D-CB39-4E24-BAB6-DDC7BA30DCF4}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -498,6 +523,13 @@
 								<MusicSegment Name="The Hub Ambi2 107Bpm" ID="{24E2A4FA-1549-4D4B-8615-95B144FEEE0D}" ShortID="211848149">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="80747.6666666667"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{940D17A8-1B21-4F0E-B931-DF39CD4FF474}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2888,6 +2920,22 @@
 						<MusicPlaylistContainer Name="HubAct2" ID="{CCEDE016-D57A-4D70-9747-F1C9768220F1}" ShortID="327985219">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="107"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C2DA4CC5-BACD-44C8-96F3-4B6E1D22C117}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2901,6 +2949,13 @@
 								<MusicSegment Name="Klarinett1 Akt2 107Bpm" ID="{2B5A6C90-1BDF-4033-AA82-78A4F88418C4}" ShortID="1065795151">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="44859.8333333333"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{77CAAB3A-1A7A-4CE9-9D76-FC561FCD3F40}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2985,6 +3040,13 @@
 								<MusicSegment Name="Klarinett2 Akt2 107Bpm" ID="{54FEA09B-0C54-4EC7-9F58-9223138B675A}" ShortID="307710036">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="44859.8333333333"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AD707B9D-D213-4B4C-8FB5-EF238DAD6DA7}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3069,6 +3131,13 @@
 								<MusicSegment Name="Klarinett3 Akt2 107Bpm" ID="{A4C6A2CD-411A-4AF2-B28F-D26EE99B4E87}" ShortID="1063116268">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="53831.7916666667"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1D61D9E3-B25E-4F20-927C-4F381DD7AC09}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3152,7 +3221,14 @@
 								</MusicSegment>
 								<MusicSegment Name="Klarinett4 Akt2 107Bpm" ID="{C9D48E64-8A44-40CE-BA30-0C95D152DB34}" ShortID="716143216">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="85233.6479750779"/>
+										<Property Name="EndPosition" Type="Real64" Value="87535.4254797897"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1075116A-DD41-43E5-97B1-26DFD5B495F6}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3200,7 +3276,7 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="80747.6666666667"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																						<Property Name="PlayAt" Type="Real64" Value="4270.3092948718"/>
+																						<Property Name="PlayAt" Type="Real64" Value="841.12152777778"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Klarinett4 Akt2 107Bpm" ID="{9D099486-3320-46F1-A2B3-28E0978CEA97}"/>
 																				</MusicClip>
@@ -3219,11 +3295,7 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{F9C56E29-9EC0-40A9-B550-E9380B159F8C}">
-														<PropertyList>
-															<Property Name="TimeMs" Type="Real64" Value="3429.18776709402"/>
-														</PropertyList>
-													</MusicCue>
+													<MusicCue Name="Entry Cue" ID="{F9C56E29-9EC0-40A9-B550-E9380B159F8C}"/>
 												</Local>
 											</Reference>
 											<Reference>
@@ -3231,7 +3303,7 @@
 													<MusicCue Name="Exit Cue" ID="{358003F3-850E-47E2-8125-63816614808E}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="85017.9759615385"/>
+															<Property Name="TimeMs" Type="Real64" Value="74018.691588785"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -3242,6 +3314,13 @@
 								<MusicSegment Name="Klarinett5 Akt2 107Bpm" ID="{3C487580-980F-43D5-A6DB-A19233C72AB1}" ShortID="776505011">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="44859.8333333333"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4D5C3F7B-F4F1-415A-BD60-F9CEA451533B}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3315,7 +3394,7 @@
 													<MusicCue Name="Exit Cue" ID="{D01CC32F-A804-4E45-BA31-B97BE5F836CA}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="44859.8333333333"/>
+															<Property Name="TimeMs" Type="Real64" Value="40373.8317757009"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -3326,6 +3405,13 @@
 								<MusicSegment Name="Klarinett6 Akt2 107Bpm" ID="{30254FEE-1F9B-42A6-A070-491BD6E8F6B3}" ShortID="454201592">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="80747.6666666667"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DAFA77C3-C4A8-4C63-8FB1-4A66009708F2}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3399,7 +3485,7 @@
 													<MusicCue Name="Exit Cue" ID="{107A75A1-FDA2-494B-8020-5E320DC6E572}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="80747.6666666667"/>
+															<Property Name="TimeMs" Type="Real64" Value="76261.6822429906"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -3410,6 +3496,13 @@
 								<MusicSegment Name="Klarinett7 Akt2 107Bpm" ID="{ADD67422-88F7-41FA-A129-2900A687ADBF}" ShortID="726855388">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="62803.75"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9FEE885A-EB82-4D7D-BC61-38F7D5A5B147}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3483,7 +3576,7 @@
 													<MusicCue Name="Exit Cue" ID="{2DBAF167-64C8-42C1-90A2-F00AA7DB2F15}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="62803.75"/>
+															<Property Name="TimeMs" Type="Real64" Value="60560.7476635514"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -3494,6 +3587,13 @@
 								<MusicSegment Name="Klarinett8 Akt2 107Bpm" ID="{D9D55D7B-D5B2-4286-AF42-37612D08926F}" ShortID="922577876">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="103177.583333333"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BE5BC11F-9DB9-48D7-A625-B25DD49BE843}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4102,6 +4202,22 @@
 						<MusicPlaylistContainer Name="HubAct3" ID="{5A6D2106-52FF-478F-B8FF-B147772D3E55}" ShortID="939317236">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="107"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DB8613A0-1F3C-4B7B-B948-D607890C06D1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4535,6 +4651,13 @@
 								<MusicSegment Name="KlariKontra6 Akt3 107Bpm" ID="{D910F528-A88C-4849-AC76-FE0528E9CBA7}" ShortID="669973319">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="62803.75"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0BBFAF71-137E-4318-BCBF-2BD01A852883}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5531,6 +5654,24 @@
 					<ArgumentList>
 						<ArgumentRef Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}"/>
 					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubAct2" ID="{CCEDE016-D57A-4D70-9747-F1C9768220F1}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubAct3" ID="{5A6D2106-52FF-478F-B8FF-B147772D3E55}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="ThugMusic" ID="{5AD2F3BA-10BC-41E2-94A1-63420B7CE0BE}" ShortID="859707018">
 					<ReferenceList>

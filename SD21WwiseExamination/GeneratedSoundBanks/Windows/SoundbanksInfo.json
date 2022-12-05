@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -18,6 +18,12 @@
     "Language": "SFX",
     "ShortName": "Test\\Bantam.wav",
     "Path": "SFX\\Test\\Bantam_3F75BDB9.wem"
+   },
+   {
+    "Id": "1057112490",
+    "Language": "SFX",
+    "ShortName": "UI\\UI_Tape_Noise.wav",
+    "Path": "SFX\\UI\\UI_Tape_Noise_696A9007.wem"
    }
   ],
   "MediaFilesNotInAnyBank": [],
@@ -26,10 +32,86 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
+    "Hash": "3004208980",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2189000874",
+      "Name": "Play_Dream_Machine_Ambience_3D",
+      "ObjectPath": "\\Events\\Ambience\\Play_Dream_Machine_Ambience_3D",
+      "GUID": "{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}",
+      "MaxAttenuation": "25.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "5444127",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Dream_Machine_Working5_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Dream_Machine_Working5_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "60940898",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Dream_Machine_Working1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Dream_Machine_Working1_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "357629459",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Dream_Machine_Working3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Dream_Machine_Working3_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "851081858",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Dream_Machine_Working4_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Dream_Machine_Working4_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "963938858",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Dream_Machine_Working2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Dream_Machine_Working2_3D_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1942000015",
+      "Name": "Play_Dream_Machine_Heart_Monitor_3D",
+      "ObjectPath": "\\Events\\Ambience\\Play_Dream_Machine_Heart_Monitor_3D",
+      "GUID": "{1EF2627A-B366-48C7-AC17-93F48A72DBEF}",
+      "DurationType": "OneShot",
+      "DurationMin": "23.711632",
+      "DurationMax": "23.711632",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "71120849",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Dream_Machine_Heart_Monitor1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Dream_Machine_Heart_Monitor1_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "340444638",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Dream_Machine_Heart_Monitor3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Dream_Machine_Heart_Monitor3_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "808862803",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Dream_Machine_Heart_Monitor4_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Dream_Machine_Heart_Monitor4_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "979497733",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Dream_Machine_Heart_Monitor2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Dream_Machine_Heart_Monitor2_3D_3F75BDB9.wem"
+       }
+      ]
+     },
      {
       "Id": "3354322557",
       "Name": "Play_Headlocked_Ambience",
@@ -43,10 +125,145 @@
     ]
    },
    {
+    "Id": "1070355952",
+    "GUID": "{A646F937-A3B8-467A-82D6-7A999570C91A}",
+    "Language": "SFX",
+    "Hash": "1858466019",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UiSB",
+    "ShortName": "UiSB",
+    "Path": "UiSB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "409665737",
+      "Name": "UI_Click_Button",
+      "ObjectPath": "\\Events\\UI\\UI_Click_Button",
+      "GUID": "{C08F3209-396D-4817-999D-BE74BB1000B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.013039",
+      "DurationMax": "1.013039",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "476123600",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Button_Click.wav",
+        "Path": "SFX\\UI\\UI_Button_Click_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1781508224",
+      "Name": "UI_Close_Menu",
+      "ObjectPath": "\\Events\\UI\\UI_Close_Menu",
+      "GUID": "{7DF20592-A6A7-4C6A-A074-E8B61C3516E0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.811451",
+      "DurationMax": "0.811451",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "515792353",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_VCR_Noise_Stop.wav",
+        "Path": "SFX\\UI\\UI_VCR_Noise_Stop_3CADDE39.wem"
+       },
+       {
+        "Id": "685597690",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Button_Press_Heavy.wav",
+        "Path": "SFX\\UI\\UI_Button_Press_Heavy_3CADDE39.wem"
+       },
+       {
+        "Id": "819179302",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Return_To_Game_Noise.wav",
+        "Path": "SFX\\UI\\UI_Return_To_Game_Noise_3CADDE39.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "984691642",
+        "Name": "InGame",
+        "ObjectPath": "\\States\\GameStates\\GameState\\InGame",
+        "GUID": "{3252B483-306E-4C1E-A5E5-53733DA80CBE}"
+       }
+      ]
+     },
+     {
+      "Id": "739981572",
+      "Name": "UI_Hover_Over_Button",
+      "ObjectPath": "\\Events\\UI\\UI_Hover_Over_Button",
+      "GUID": "{66D5A7AD-02F3-4099-B00D-B23033411B16}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.131179",
+      "DurationMax": "0.131179",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "409769837",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Button_Hover.wav",
+        "Path": "SFX\\UI\\UI_Button_Hover_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1997076556",
+      "Name": "UI_Open_Menu",
+      "ObjectPath": "\\Events\\UI\\UI_Open_Menu",
+      "GUID": "{225F7E9D-6344-4D85-88CB-02814352E22D}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "1057112490",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Tape_Noise.wav",
+        "Path": "SFX\\UI\\UI_Tape_Noise_696A9007.wem"
+       }
+      ],
+      "IncludedMemoryFiles": [
+       {
+        "Id": "197508550",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_VCR_Noise.wav",
+        "Path": "SFX\\UI\\UI_VCR_Noise_696A9007.wem"
+       },
+       {
+        "Id": "598926904",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Turn_On_Sine.wav",
+        "Path": "SFX\\UI\\UI_Turn_On_Sine_3CADDE39.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "3374585465",
+        "Name": "InMenu",
+        "ObjectPath": "\\States\\GameStates\\GameState\\InMenu",
+        "GUID": "{4D9A9010-700B-4CAD-8E79-74E2058B596F}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "984691642",
+      "Name": "InGame",
+      "ObjectPath": "\\States\\GameStates\\GameState\\InGame",
+      "GUID": "{3252B483-306E-4C1E-A5E5-53733DA80CBE}",
+      "States": []
+     },
+     {
+      "Id": "3374585465",
+      "Name": "InMenu",
+      "ObjectPath": "\\States\\GameStates\\GameState\\InMenu",
+      "GUID": "{4D9A9010-700B-4CAD-8E79-74E2058B596F}",
+      "States": []
+     }
+    ]
+   },
+   {
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3796112662",
+    "Hash": "2228418866",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -62,6 +279,12 @@
       "Name": "MediumRoom",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoom",
       "GUID": "{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"
+     },
+     {
+      "Id": "1837650191",
+      "Name": "MediumRoomAbs",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoomAbs",
+      "GUID": "{61528CA2-A5C6-44B7-A747-0BBB3803A023}"
      },
      {
       "Id": "1847104687",
@@ -135,7 +358,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "4166905057",
+    "Hash": "2325225980",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -827,6 +1050,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
+    "Hash": "2909768101",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -1185,6 +1409,102 @@
         "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett1 Akt2 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett1 Akt2 107Bpm_9EDFC787.wem"
        }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{3DECBAFC-492A-408F-BFF7-58207892F48E}",
+        "Media": [
+         {
+          "Id": "107871130"
+         },
+         {
+          "Id": "184208573"
+         },
+         {
+          "Id": "192667223"
+         },
+         {
+          "Id": "468234340"
+         },
+         {
+          "Id": "559809631"
+         },
+         {
+          "Id": "605672174"
+         },
+         {
+          "Id": "621656144"
+         },
+         {
+          "Id": "652961063"
+         },
+         {
+          "Id": "691783688"
+         },
+         {
+          "Id": "821272824"
+         },
+         {
+          "Id": "862881599"
+         },
+         {
+          "Id": "989544754"
+         },
+         {
+          "Id": "1058437537"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8AEF6285-402B-443A-949D-E2CECCE2ED93}",
+        "Media": [
+         {
+          "Id": "106864608"
+         },
+         {
+          "Id": "158290635"
+         },
+         {
+          "Id": "241970606"
+         },
+         {
+          "Id": "288230028"
+         },
+         {
+          "Id": "301421353"
+         },
+         {
+          "Id": "316853711"
+         },
+         {
+          "Id": "513686879"
+         },
+         {
+          "Id": "657069404"
+         },
+         {
+          "Id": "661159091"
+         },
+         {
+          "Id": "732147827"
+         },
+         {
+          "Id": "765166854"
+         },
+         {
+          "Id": "957743122"
+         },
+         {
+          "Id": "985934564"
+         },
+         {
+          "Id": "998871737"
+         },
+         {
+          "Id": "1000740171"
+         }
+        ]
+       }
       ]
      },
      {
@@ -1348,6 +1668,51 @@
         "Name": "Hub_Act3",
         "ObjectPath": "\\States\\Act_State\\Hub_LVL_State\\Hub_Act3",
         "GUID": "{8AEF6285-402B-443A-949D-E2CECCE2ED93}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "4223437857",
+    "GUID": "{DE65C750-E210-4254-B208-9850C091F9A9}",
+    "Language": "SFX",
+    "Hash": "2800796219",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
+    "ShortName": "InteractablesSB",
+    "Path": "InteractablesSB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2073058824",
+      "Name": "PlayLarge_washing_machine",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machine",
+      "GUID": "{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.741395",
+      "DurationMax": "4.741395",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "365028018",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\sliding.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\sliding_356C29CA.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1899315439",
+      "Name": "PlayLarge_washing_machineEnd",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machineEnd",
+      "GUID": "{082C3432-7D34-4845-8FDB-BA04457ECE7B}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.055605",
+      "DurationMax": "2.055605",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "615277814",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\sliding.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\sliding_5747035E.wem"
        }
       ]
      }

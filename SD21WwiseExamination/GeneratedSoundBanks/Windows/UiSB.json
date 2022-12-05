@@ -1,0 +1,152 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1070355952",
+    "GUID": "{A646F937-A3B8-467A-82D6-7A999570C91A}",
+    "Language": "SFX",
+    "Hash": "1858466019",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UiSB",
+    "ShortName": "UiSB",
+    "Path": "UiSB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "409665737",
+      "Name": "UI_Click_Button",
+      "ObjectPath": "\\Events\\UI\\UI_Click_Button",
+      "GUID": "{C08F3209-396D-4817-999D-BE74BB1000B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.013039",
+      "DurationMax": "1.013039",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "476123600",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Button_Click.wav",
+        "Path": "SFX\\UI\\UI_Button_Click_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1781508224",
+      "Name": "UI_Close_Menu",
+      "ObjectPath": "\\Events\\UI\\UI_Close_Menu",
+      "GUID": "{7DF20592-A6A7-4C6A-A074-E8B61C3516E0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.811451",
+      "DurationMax": "0.811451",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "515792353",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_VCR_Noise_Stop.wav",
+        "Path": "SFX\\UI\\UI_VCR_Noise_Stop_3CADDE39.wem"
+       },
+       {
+        "Id": "685597690",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Button_Press_Heavy.wav",
+        "Path": "SFX\\UI\\UI_Button_Press_Heavy_3CADDE39.wem"
+       },
+       {
+        "Id": "819179302",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Return_To_Game_Noise.wav",
+        "Path": "SFX\\UI\\UI_Return_To_Game_Noise_3CADDE39.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "984691642",
+        "Name": "InGame",
+        "ObjectPath": "\\States\\GameStates\\GameState\\InGame",
+        "GUID": "{3252B483-306E-4C1E-A5E5-53733DA80CBE}"
+       }
+      ]
+     },
+     {
+      "Id": "739981572",
+      "Name": "UI_Hover_Over_Button",
+      "ObjectPath": "\\Events\\UI\\UI_Hover_Over_Button",
+      "GUID": "{66D5A7AD-02F3-4099-B00D-B23033411B16}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.131179",
+      "DurationMax": "0.131179",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "409769837",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Button_Hover.wav",
+        "Path": "SFX\\UI\\UI_Button_Hover_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1997076556",
+      "Name": "UI_Open_Menu",
+      "ObjectPath": "\\Events\\UI\\UI_Open_Menu",
+      "GUID": "{225F7E9D-6344-4D85-88CB-02814352E22D}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "1057112490",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Tape_Noise.wav",
+        "Path": "SFX\\UI\\UI_Tape_Noise_696A9007.wem"
+       }
+      ],
+      "IncludedMemoryFiles": [
+       {
+        "Id": "197508550",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_VCR_Noise.wav",
+        "Path": "SFX\\UI\\UI_VCR_Noise_696A9007.wem"
+       },
+       {
+        "Id": "598926904",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Turn_On_Sine.wav",
+        "Path": "SFX\\UI\\UI_Turn_On_Sine_3CADDE39.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "3374585465",
+        "Name": "InMenu",
+        "ObjectPath": "\\States\\GameStates\\GameState\\InMenu",
+        "GUID": "{4D9A9010-700B-4CAD-8E79-74E2058B596F}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "984691642",
+      "Name": "InGame",
+      "ObjectPath": "\\States\\GameStates\\GameState\\InGame",
+      "GUID": "{3252B483-306E-4C1E-A5E5-53733DA80CBE}",
+      "States": []
+     },
+     {
+      "Id": "3374585465",
+      "Name": "InMenu",
+      "ObjectPath": "\\States\\GameStates\\GameState\\InMenu",
+      "GUID": "{4D9A9010-700B-4CAD-8E79-74E2058B596F}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -8,11 +8,55 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="2984468389">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="3004208980">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2189000874" Name="Play_Dream_Machine_Ambience_3D" ObjectPath="\Events\Ambience\Play_Dream_Machine_Ambience_3D" GUID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" MaxAttenuation="25." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="5444127" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working5_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working5_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="60940898" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working1_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working1_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="357629459" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working3_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working3_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="851081858" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working4_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working4_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="963938858" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working2_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working2_3D_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1942000015" Name="Play_Dream_Machine_Heart_Monitor_3D" ObjectPath="\Events\Ambience\Play_Dream_Machine_Heart_Monitor_3D" GUID="{1EF2627A-B366-48C7-AC17-93F48A72DBEF}" DurationType="OneShot" DurationMin="23.711632" DurationMax="23.711632">
+					<IncludedMemoryFiles>
+						<File Id="71120849" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor1_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Heart_Monitor1_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="340444638" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor3_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Heart_Monitor3_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="808862803" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor4_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Heart_Monitor4_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="979497733" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor2_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Heart_Monitor2_3D_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3354322557" Name="Play_Headlocked_Ambience" ObjectPath="\Events\Ambience\Play_Headlocked_Ambience" GUID="{75515714-049D-48B2-9FA0-6190615A2562}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>

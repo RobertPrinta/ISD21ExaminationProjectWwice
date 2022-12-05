@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -13,24 +13,144 @@
 			<ShortName>Test\Bantam.wav</ShortName>
 			<Path>SFX\Test\Bantam_3F75BDB9.wem</Path>
 		</File>
+		<File Id="1057112490" Language="SFX">
+			<ShortName>UI\UI_Tape_Noise.wav</ShortName>
+			<Path>SFX\UI\UI_Tape_Noise_696A9007.wem</Path>
+		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="3004208980">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2189000874" Name="Play_Dream_Machine_Ambience_3D" ObjectPath="\Events\Ambience\Play_Dream_Machine_Ambience_3D" GUID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" MaxAttenuation="25." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="5444127" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working5_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working5_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="60940898" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working1_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working1_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="357629459" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working3_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working3_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="851081858" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working4_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working4_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="963938858" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Working2_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Working2_3D_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1942000015" Name="Play_Dream_Machine_Heart_Monitor_3D" ObjectPath="\Events\Ambience\Play_Dream_Machine_Heart_Monitor_3D" GUID="{1EF2627A-B366-48C7-AC17-93F48A72DBEF}" DurationType="OneShot" DurationMin="23.711632" DurationMax="23.711632">
+					<IncludedMemoryFiles>
+						<File Id="71120849" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor1_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Heart_Monitor1_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="340444638" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor3_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Heart_Monitor3_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="808862803" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor4_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Heart_Monitor4_3D_3F75BDB9.wem</Path>
+						</File>
+						<File Id="979497733" Language="SFX">
+							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor2_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Dream_Machine_Heart_Monitor2_3D_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3354322557" Name="Play_Headlocked_Ambience" ObjectPath="\Events\Ambience\Play_Headlocked_Ambience" GUID="{75515714-049D-48B2-9FA0-6190615A2562}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3796112662">
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="1858466019">
+			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
+			<ShortName>UiSB</ShortName>
+			<Path>UiSB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="409665737" Name="UI_Click_Button" ObjectPath="\Events\UI\UI_Click_Button" GUID="{C08F3209-396D-4817-999D-BE74BB1000B4}" DurationType="OneShot" DurationMin="1.013039" DurationMax="1.013039">
+					<IncludedMemoryFiles>
+						<File Id="476123600" Language="SFX">
+							<ShortName>UI\UI_Button_Click.wav</ShortName>
+							<Path>SFX\UI\UI_Button_Click_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1781508224" Name="UI_Close_Menu" ObjectPath="\Events\UI\UI_Close_Menu" GUID="{7DF20592-A6A7-4C6A-A074-E8B61C3516E0}" DurationType="OneShot" DurationMin="0.811451" DurationMax="0.811451">
+					<IncludedMemoryFiles>
+						<File Id="515792353" Language="SFX">
+							<ShortName>UI\UI_VCR_Noise_Stop.wav</ShortName>
+							<Path>SFX\UI\UI_VCR_Noise_Stop_3CADDE39.wem</Path>
+						</File>
+						<File Id="685597690" Language="SFX">
+							<ShortName>UI\UI_Button_Press_Heavy.wav</ShortName>
+							<Path>SFX\UI\UI_Button_Press_Heavy_3CADDE39.wem</Path>
+						</File>
+						<File Id="819179302" Language="SFX">
+							<ShortName>UI\UI_Return_To_Game_Noise.wav</ShortName>
+							<Path>SFX\UI\UI_Return_To_Game_Noise_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="984691642" Name="InGame" ObjectPath="\States\GameStates\GameState\InGame" GUID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="739981572" Name="UI_Hover_Over_Button" ObjectPath="\Events\UI\UI_Hover_Over_Button" GUID="{66D5A7AD-02F3-4099-B00D-B23033411B16}" DurationType="OneShot" DurationMin="0.131179" DurationMax="0.131179">
+					<IncludedMemoryFiles>
+						<File Id="409769837" Language="SFX">
+							<ShortName>UI\UI_Button_Hover.wav</ShortName>
+							<Path>SFX\UI\UI_Button_Hover_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1997076556" Name="UI_Open_Menu" ObjectPath="\Events\UI\UI_Open_Menu" GUID="{225F7E9D-6344-4D85-88CB-02814352E22D}" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="1057112490" Language="SFX">
+							<ShortName>UI\UI_Tape_Noise.wav</ShortName>
+							<Path>SFX\UI\UI_Tape_Noise_696A9007.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="197508550" Language="SFX">
+							<ShortName>UI\UI_VCR_Noise.wav</ShortName>
+							<Path>SFX\UI\UI_VCR_Noise_696A9007.wem</Path>
+						</File>
+						<File Id="598926904" Language="SFX">
+							<ShortName>UI\UI_Turn_On_Sine.wav</ShortName>
+							<Path>SFX\UI\UI_Turn_On_Sine_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="3374585465" Name="InMenu" ObjectPath="\States\GameStates\GameState\InMenu" GUID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="984691642" Name="InGame" ObjectPath="\States\GameStates\GameState\InGame" GUID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3374585465" Name="InMenu" ObjectPath="\States\GameStates\GameState\InMenu" GUID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2228418866">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
 				<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\LargeRoom" GUID="{AFFD7AA1-69B7-468B-873E-C21A590E8C74}"/>
 				<AuxBus Id="1245295233" Name="MediumRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoom" GUID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"/>
+				<AuxBus Id="1837650191" Name="MediumRoomAbs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoomAbs" GUID="{61528CA2-A5C6-44B7-A747-0BBB3803A023}"/>
 				<AuxBus Id="1847104687" Name="DreamRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\DreamRoom" GUID="{400F7CF9-0318-4A62-925F-D787F3F9BB6E}"/>
 				<AuxBus Id="2933838247" Name="SmallRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\SmallRoom" GUID="{52EE55A3-806A-4149-BA6D-10AEC2CB1286}"/>
 				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\Corridor" GUID="{30F3C25B-ACE9-445B-9F67-D66EBF845097}"/>
@@ -50,7 +170,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="4166905057">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="2325225980">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -412,7 +532,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2909768101">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -648,6 +768,44 @@
 							<Path>SFX\Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett1 Akt2 107Bpm_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{3DECBAFC-492A-408F-BFF7-58207892F48E}">
+							<Media>
+								<File Id="107871130"/>
+								<File Id="184208573"/>
+								<File Id="192667223"/>
+								<File Id="468234340"/>
+								<File Id="559809631"/>
+								<File Id="605672174"/>
+								<File Id="621656144"/>
+								<File Id="652961063"/>
+								<File Id="691783688"/>
+								<File Id="821272824"/>
+								<File Id="862881599"/>
+								<File Id="989544754"/>
+								<File Id="1058437537"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8AEF6285-402B-443A-949D-E2CECCE2ED93}">
+							<Media>
+								<File Id="106864608"/>
+								<File Id="158290635"/>
+								<File Id="241970606"/>
+								<File Id="288230028"/>
+								<File Id="301421353"/>
+								<File Id="316853711"/>
+								<File Id="513686879"/>
+								<File Id="657069404"/>
+								<File Id="661159091"/>
+								<File Id="732147827"/>
+								<File Id="765166854"/>
+								<File Id="957743122"/>
+								<File Id="985934564"/>
+								<File Id="998871737"/>
+								<File Id="1000740171"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3965456208" Name="Play_Runner" ObjectPath="\Events\PlayMusic\Play_Runner" GUID="{7C574E14-4AE8-42DB-B631-328664FFED03}" DurationType="Infinite">
 					<SwitchContainers/>
@@ -687,6 +845,29 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="4223437857" GUID="{DE65C750-E210-4254-B208-9850C091F9A9}" Language="SFX" Hash="2800796219">
+			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
+			<ShortName>InteractablesSB</ShortName>
+			<Path>InteractablesSB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2073058824" Name="PlayLarge_washing_machine" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machine" GUID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" DurationType="OneShot" DurationMin="4.741395" DurationMax="4.741395">
+					<IncludedMemoryFiles>
+						<File Id="365028018" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\sliding.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\sliding_356C29CA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1899315439" Name="PlayLarge_washing_machineEnd" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineEnd" GUID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" DurationType="OneShot" DurationMin="2.055605" DurationMax="2.055605">
+					<IncludedMemoryFiles>
+						<File Id="615277814" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\sliding.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\sliding_5747035E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{5B9DD1A9-8B56-4B72-950E-25FC0D136317}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{5421AEBB-4246-409D-870F-D804332B1B02}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>99000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_StopTestBeep_lp" ID="{00EEDECC-2355-418C-8EE6-10F881E5908B}" WorkUnitID="{73CF7650-C0E0-483B-AB57-34C78E0A67DC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TestBeep_3D" ID="{A6BF64AF-A9E3-41E5-B0E4-78C47A9E18E0}" WorkUnitID="{73CF7650-C0E0-483B-AB57-34C78E0A67DC}" Origin="Manual" Filter="7"/>
@@ -48,7 +55,27 @@
 						</Property>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Headlocked_Ambience" ID="{75515714-049D-48B2-9FA0-6190615A2562}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dream_Machine_Heart_Monitor_3D" ID="{1EF2627A-B366-48C7-AC17-93F48A72DBEF}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UiSB" ID="{A646F937-A3B8-467A-82D6-7A999570C91A}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>99000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="UI_Hover_Over_Button" ID="{66D5A7AD-02F3-4099-B00D-B23033411B16}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Click_Button" ID="{C08F3209-396D-4817-999D-BE74BB1000B4}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Close_Menu" ID="{7DF20592-A6A7-4C6A-A074-E8B61C3516E0}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Open_Menu" ID="{225F7E9D-6344-4D85-88CB-02814352E22D}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

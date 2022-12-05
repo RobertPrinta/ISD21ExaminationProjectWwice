@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}" SchemaVersion="103" RootDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" ParentDocumentID="{129698BD-B9BE-4213-8D70-198E7B034F6F}">
+	<Events>
+		<WorkUnit Name="Large washing machine" ID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}" OwnerID="{129698BD-B9BE-4213-8D70-198E7B034F6F}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="PlayLarge_washing_machine" ID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}">
+					<ChildrenList>
+						<Action Name="" ID="{FA9AA9CB-65D1-4F6C-8E5D-D8E5956E1FC0}" ShortID="904631977">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayLarge_washing_machinesend" ID="{1F50BD2A-733F-4130-9675-DC2CEAFF97D5}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayLarge_washing_machineEnd" ID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}">
+					<ChildrenList>
+						<Action Name="" ID="{46E09239-950A-4DE2-BEBE-A21CB00626BE}" ShortID="546607718">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayLarge_washing_machinestart" ID="{A7252F99-BE90-4DE4-8FB7-F74B74971948}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
