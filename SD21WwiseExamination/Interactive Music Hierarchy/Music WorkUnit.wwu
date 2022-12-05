@@ -26,9 +26,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="OldLady Ambi1 100bpm" ID="{433080F4-1940-4385-A9E4-67AF40289CD9}" ShortID="658119284">
+								<MusicSegment Name="AmbiGhostStinger-001" ID="{859CCA15-D4E5-4BAF-8BBD-E609D04E98B0}" ShortID="194174096">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="54218.4133202742"/>
+										<Property Name="EndPosition" Type="Real64" Value="20200"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -39,41 +39,26 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="OldLady Ambi1 100bpm" ID="{1A8B5A01-2C70-4844-8FB7-D5B6A0FD44E4}" ShortID="200109317">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{7D874717-8441-48AF-8D30-A9DB02C15F8D}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Min" Type="Real64" Value="-100"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
+										<MusicTrack Name="AmbiGhostStinger-001" ID="{978AD22A-E137-4ACB-8C24-A80BE3FF0812}" ShortID="653431456">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="OldLady Ambi1 100bpm" ID="{0D127FF5-FD8A-4C43-A3F1-424CADB70B9C}">
+												<AudioFileSource Name="AmbiGhostStinger-001" ID="{C1FF7AAD-3861-4569-8F6F-46FC3523FA20}">
 													<Language>SFX</Language>
-													<AudioFile>OldLady Ambi1 100bpm.wav</AudioFile>
+													<AudioFile>Music\OldLady\AmbiGhostStinger-001.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="72049974"/>
+														<MediaID ID="630468742"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{2B7F1966-0640-4191-8908-311468104AC0}">
+												<MusicTransition Name="Root" ID="{73E53C0E-FCAA-4BC1-B86E-CF7E111841D5}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -81,146 +66,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{8E1BD8D1-3EAD-412E-8862-E9355AF16274}">
+															<MusicTrackSequence Name="" ID="{8A6E0EC6-7A7C-49E0-B4F5-32B50669C014}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="OldLady Ambi1 100bpm" ID="{204A90E2-E972-4743-A786-03DE3B29E676}">
+																				<MusicClip Name="AmbiGhostStinger-001" ID="{04E80EDC-88F4-48D3-BA2C-B81C71A55E0D}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="17751.2242899116"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="2546.91478942214"/>
-																						<Property Name="PlayAt" Type="Real64" Value="9763.17335945152"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="OldLady Ambi1 100bpm" ID="{0D127FF5-FD8A-4C43-A3F1-424CADB70B9C}"/>
-																					<PropertyCurveList>
-																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{A1E3BB09-4397-44A5-B1A0-1B49BAA544E3}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>0</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>17.75122</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{352A5718-4104-4BD1-AD22-F1D94A12479F}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>0</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>17.75122</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{239EF101-8326-4277-B5F4-58B06FD7AEEA}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="3"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>0</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>17.75122</XPos>
-																										<YPos>-0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																					</PropertyCurveList>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-										<MusicTrack Name="OldLady Ambi2 100bpm" ID="{1DB70ECA-866B-4991-977C-30226107C965}" ShortID="253347827">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{C8BA17AC-B1AF-4DD0-A29C-226B56669FF0}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Min" Type="Real64" Value="-100"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="OldLady Ambi2 100bpm" ID="{8027B749-5CF4-4475-81E2-656E58ADDE35}">
-													<Language>SFX</Language>
-													<AudioFile>OldLady Ambi2 100bpm.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="599419742"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{AA37DFC4-629D-4BE9-AB29-3B8CC5CE7524}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList/>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{B29875B3-444D-495E-97F4-2CA7CEA5B8BE}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="OldLady Ambi2 100bpm" ID="{7B77714B-43E1-41C9-BAC7-315F167127E8}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="39400"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="20200"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="OldLady Ambi2 100bpm" ID="{8027B749-5CF4-4475-81E2-656E58ADDE35}"/>
+																					<AudioSourceRef Name="AmbiGhostStinger-001" ID="{C1FF7AAD-3861-4569-8F6F-46FC3523FA20}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -237,15 +94,15 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{B730F180-3523-4327-A547-7720E704C6A1}"/>
+													<MusicCue Name="Entry Cue" ID="{76122F6E-7862-48BA-A8CC-3C6F88E85A90}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{02ECE94B-A1B9-4C86-A779-22E5D90482CD}">
+													<MusicCue Name="Exit Cue" ID="{79295D68-6F53-4F3B-A8B4-A5EBD36BDF1D}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="11075.2203721841"/>
+															<Property Name="TimeMs" Type="Real64" Value="20200"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -253,41 +110,9 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="OldLady Ambi2 100bpm" ID="{C8D74B47-ABC0-4A18-9738-4388A28E48C1}" ShortID="796973225">
+								<MusicSegment Name="AmbiGhostStinger-002" ID="{5E2DF571-CF74-42E8-A602-505779E5EE04}" ShortID="363361079">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="39400"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{AEF6B275-828D-48AE-9B6F-1D1AD1D087BD}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{9F6E1E2D-FA76-4B5C-9E2A-7C7DC38B946E}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="20066.6013712047"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-								<MusicSegment Name="OldLady Ambi3 100bpm" ID="{6BA57E31-7CC1-45FD-9760-0618BE97461C}" ShortID="402586861">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="39400"/>
+										<Property Name="EndPosition" Type="Real64" Value="10600"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -298,27 +123,26 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="OldLady Ambi3 100bpm" ID="{92FC1DD2-EE10-47E4-A0D3-628F69D2331D}" ShortID="176711089">
+										<MusicTrack Name="AmbiGhostStinger-002" ID="{56C8039B-C50C-4A41-89CB-A314EC7213CF}" ShortID="407202647">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="OldLady Ambi3 100bpm" ID="{FBC89767-73B3-408C-9D71-020702F3BA23}">
+												<AudioFileSource Name="AmbiGhostStinger-002" ID="{A7EFD35D-037F-4C7B-A52B-85104458AA7A}">
 													<Language>SFX</Language>
-													<AudioFile>OldLady Ambi3 100bpm.wav</AudioFile>
+													<AudioFile>Music\OldLady\AmbiGhostStinger-002.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="417640431"/>
+														<MediaID ID="831688287"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{B279BA98-DB01-418F-8B42-CA378DDD1519}">
+												<MusicTransition Name="Root" ID="{D8B9C75F-8E39-4933-A1D9-612797B6A156}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -326,18 +150,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{198E8097-4D05-418F-A9F3-ACA9E9C7C832}">
+															<MusicTrackSequence Name="" ID="{A302752F-7EB2-4E65-9D88-709013309CA5}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="OldLady Ambi3 100bpm" ID="{083A2EDE-543F-44E0-8438-305FC2752510}">
+																				<MusicClip Name="AmbiGhostStinger-002" ID="{ADD1B203-B191-47A5-98E9-F1B217600C2D}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="39400"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10600"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="OldLady Ambi3 100bpm" ID="{FBC89767-73B3-408C-9D71-020702F3BA23}"/>
+																					<AudioSourceRef Name="AmbiGhostStinger-002" ID="{A7EFD35D-037F-4C7B-A52B-85104458AA7A}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -354,15 +178,15 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{413D0DD6-A526-46A2-9E0E-097214F32B0A}"/>
+													<MusicCue Name="Entry Cue" ID="{89F23D6F-917A-4716-85CC-E82DDFA42E81}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{46F48041-BF7E-4922-A87E-A79B79298D53}">
+													<MusicCue Name="Exit Cue" ID="{B1A93CF9-1772-4122-B47C-5B3CB61C3D30}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="20066.6013712047"/>
+															<Property Name="TimeMs" Type="Real64" Value="10600"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -370,7 +194,10 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="New Music Segment" ID="{9F46FC12-9006-46CD-A806-E8AD704727D6}" ShortID="409827806">
+								<MusicSegment Name="AmbiGhostStinger-003" ID="{BF1DFBDE-FD7D-48E5-93D8-D8AF50384CD5}" ShortID="587935501">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="20200"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -379,19 +206,743 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="AmbiGhostStinger-003" ID="{5ADE7473-7BB7-456C-8D79-9EFED0AE0A60}" ShortID="685395701">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbiGhostStinger-003" ID="{EB16DABF-55C9-4E8D-B9F6-85566916DD19}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\AmbiGhostStinger-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="112581485"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D23A6628-F546-4FC5-93C9-97771E0E17AD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{95A7D22F-93A9-4ADF-88B7-7A3AB7B4D3C1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="AmbiGhostStinger-003" ID="{C738F471-06B9-4FED-8593-4DCB184F4598}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="20200"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="AmbiGhostStinger-003" ID="{EB16DABF-55C9-4E8D-B9F6-85566916DD19}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{E0BE04FE-E144-4213-BB48-698AD301A6F9}"/>
+													<MusicCue Name="Entry Cue" ID="{C7CF4940-566A-4761-B9C6-EB996EFDFC0E}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{06C3FDAB-8555-4D3D-B465-FA645B98BFC8}">
+													<MusicCue Name="Exit Cue" ID="{49C6AC06-9328-4794-8C3F-97342E9845CF}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+															<Property Name="TimeMs" Type="Real64" Value="20200"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AmbiGhostStinger-004" ID="{8A00C60F-8090-4251-81F1-910B4D3DF720}" ShortID="484516253">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="8800"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="AmbiGhostStinger-004" ID="{6577C06B-6AE1-448C-B1BB-6D8ED5B160AA}" ShortID="399032665">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbiGhostStinger-004" ID="{239CB53B-B243-4D19-BDBC-F327E028BE6B}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\AmbiGhostStinger-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1051834861"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{29DB3AA4-C3F4-4824-A9D2-1D99365ABB98}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7FACBF3E-941A-48F5-A3C1-A7D9BD63B844}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="AmbiGhostStinger-004" ID="{A40E8657-9490-4676-9DC5-FEC0314F4BA4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="8800"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="AmbiGhostStinger-004" ID="{239CB53B-B243-4D19-BDBC-F327E028BE6B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E12DAD67-9648-41C6-9471-85AB7DB155AE}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B53DE748-3A55-4591-86E8-B5F1A0AC1737}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="8800"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AmbiPianoStinger-001" ID="{B866A0F8-5EEF-4757-AAD1-04B4A2E7CF0F}" ShortID="582008406">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17800"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="AmbiPianoStinger-001" ID="{CB0C16ED-DA19-437A-B4CF-9202F234A8BB}" ShortID="89267772">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbiPianoStinger-001" ID="{FFBACD4D-4137-43C4-B39C-1062618BB167}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\AmbiPianoStinger-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="925984506"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7EA91611-C4BA-41FF-A9F7-1BA44CB67FCE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E5EFE716-1F69-460C-B160-82971D80D00E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="AmbiPianoStinger-001" ID="{87E30E23-9573-4A1C-8528-6FCF9F1E1DB6}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="17800"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="AmbiPianoStinger-001" ID="{FFBACD4D-4137-43C4-B39C-1062618BB167}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F2711A76-4D37-489C-8677-3E9C7A137860}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1BFB73FA-C72C-4204-86C3-A25EDF77D075}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="17800"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AmbiPianoStinger-002" ID="{A3CA4757-760D-4D90-B165-CDE0B5AF968A}" ShortID="72152860">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="20200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="AmbiPianoStinger-002" ID="{E97564DC-A52C-47EC-A45D-C138B63A6846}" ShortID="768614829">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbiPianoStinger-002" ID="{F530AC95-5472-4EBB-9B50-B6D2EACB36D6}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\AmbiPianoStinger-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="173370905"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E25816A6-0C3D-474C-AC63-079C5C4B8E75}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{ECB9792B-8AD2-44C7-AD42-9C8D23EE6DE2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="AmbiPianoStinger-002" ID="{FCDFFE57-7863-48A3-B705-D981C2956F99}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="20200"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="AmbiPianoStinger-002" ID="{F530AC95-5472-4EBB-9B50-B6D2EACB36D6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D36C8FA6-133B-45F9-AF10-F2E8CC22D1D3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{BFFBBC72-38D6-44AF-891B-18CBD04B7527}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="20200"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AmbiPianoStinger-003" ID="{52381DDA-2A72-40DA-BD74-EE6ABD8DC822}" ShortID="56880076">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="9400"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="AmbiPianoStinger-003" ID="{2E47AF8C-C10F-45FA-8BD3-FFD3B424A211}" ShortID="109738318">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbiPianoStinger-003" ID="{CF3651C4-B102-449E-A1F5-0EC44325DDD2}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\AmbiPianoStinger-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="462796641"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7FC65A9F-83A5-4D25-BBF9-9A432973C4D0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{DB8BD5CF-3D32-4E41-BD29-7888BEE5C3C8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="AmbiPianoStinger-003" ID="{AC6EF885-D8B7-48D7-BDC0-CFBDABAF27A9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="9400"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="AmbiPianoStinger-003" ID="{CF3651C4-B102-449E-A1F5-0EC44325DDD2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6BB2288C-E9AA-46BB-A142-FBC5D59B5E85}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FB553753-B145-4D44-8BFA-B0289E0B9C5F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="9400"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AmbiPianoStinger-004" ID="{9A1764EE-DDB1-447A-B03F-4B16E1166387}" ShortID="49023623">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="8200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="AmbiPianoStinger-004" ID="{A90CB95E-B58B-4AAB-A4F2-A6E3650E762D}" ShortID="431692042">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmbiPianoStinger-004" ID="{9DEB7A79-F5E1-44B7-AED2-F068C6BF4F77}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\AmbiPianoStinger-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="776105822"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EB4E04FC-8FDF-44EE-9887-A855E5E6E93A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9AC073B6-6A43-4A89-858A-3AF386A9E4DC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="AmbiPianoStinger-004" ID="{33EB1953-A284-4E65-A88A-F1A7BD7F8C8B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="8200"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="AmbiPianoStinger-004" ID="{9DEB7A79-F5E1-44B7-AED2-F068C6BF4F77}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{16FCAF45-7203-41F5-9DA2-99C9F143CA2D}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F374CDE1-3684-4374-825A-0C3570642CD2}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="8200"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OldLady Ambi1 100bpm" ID="{8BA47879-8DEA-4F40-BF9C-A3113011D635}" ShortID="702405526">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="39400"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OldLady Ambi1 100bpm" ID="{37E4321A-912D-424F-AEA6-C728DEB3C2CD}" ShortID="862890540">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OldLady Ambi1 100bpm" ID="{BD19534B-1CAC-4065-8EDF-E7AC3A440AB2}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\OldLady Ambi1 100bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="934320070"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{38361388-2929-4EA8-A102-A7BE1B1D1AF2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C6E22096-A0CA-47E6-97F3-E8E252DD4923}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OldLady Ambi1 100bpm" ID="{0B3CC4F5-8347-4D37-9994-BE9C45BE2769}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="39400"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OldLady Ambi1 100bpm" ID="{BD19534B-1CAC-4065-8EDF-E7AC3A440AB2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{79E5192B-F443-4F11-A7CC-B18769570983}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FB374810-FF97-4356-9B97-D62D0CFEAB67}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="39400"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OldLady Ambi2 100bpm" ID="{40048255-6D6A-4F57-8E3C-28085E7610E4}" ShortID="53083017">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="39400"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OldLady Ambi2 100bpm" ID="{43400664-3D62-404B-B1AB-F7FA08CA0A63}" ShortID="57355310">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OldLady Ambi2 100bpm" ID="{2F2D6455-3122-4EA9-BB69-540A3F1F4919}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\OldLady Ambi2 100bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="929162355"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{747591F3-BC1E-4647-93B5-58BD03ADBA16}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9C69E89F-C1F1-4AAB-9859-5CE460A05A86}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OldLady Ambi2 100bpm" ID="{6077DFDF-0E97-46A4-807F-D0C2742F6A3E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="39400"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OldLady Ambi2 100bpm" ID="{2F2D6455-3122-4EA9-BB69-540A3F1F4919}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{DFA15C19-8656-478A-9D96-0C697B1B632E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{876E5DEF-7EA2-4042-AAFC-AD3698CA27B5}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="39400"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OldLady Ambi3 100bpm" ID="{F71FD57D-4A0F-490C-B406-A93F4EA9BA74}" ShortID="92746600">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="39400"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OldLady Ambi3 100bpm" ID="{B9FE525D-F31F-4567-BA21-0F62CB1F14EA}" ShortID="343560239">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OldLady Ambi3 100bpm" ID="{E6102986-77A8-4F60-A850-D1B7A370A613}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\OldLady Ambi3 100bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1067109446"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E64CF48F-438B-4AC8-B1FD-1414F614FA67}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{54E3853A-9537-4C8C-997C-1EEF7D292B08}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OldLady Ambi3 100bpm" ID="{10609BB3-BD24-4F83-94E5-B1B8D1ACB953}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="39400"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OldLady Ambi3 100bpm" ID="{E6102986-77A8-4F60-A850-D1B7A370A613}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BD96B74F-6B2E-493A-966F-D8A6B1C6AAE0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D5623E9D-6A4C-4255-A090-BCB39D8E1080}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="39400"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -425,39 +976,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{A73EBEC7-8D40-4D15-9CEA-157EFA4B5355}" ShortID="626554595">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="OldLady Ambi2 100bpm" ID="{C8D74B47-ABC0-4A18-9738-4388A28E48C1}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{0ECFD16D-8B6B-4567-B1B3-0935C42AFD86}" ShortID="582086720">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="OldLady Ambi3 100bpm" ID="{6BA57E31-7CC1-45FD-9760-0618BE97461C}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{19683FEB-7CE7-45E7-9131-E90748C9C7A8}" ShortID="533485623">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>25</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<SegmentRef Name="OldLady Ambi1 100bpm" ID="{433080F4-1940-4385-A9E4-67AF40289CD9}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{FABFBC34-804D-4FAA-AA26-BC41243339B0}" ShortID="85117216">
-											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{61A9B94A-1CBF-4653-BF0B-DE1D822372C0}" ShortID="508084926">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<SegmentRef Name="New Music Segment" ID="{9F46FC12-9006-46CD-A806-E8AD704727D6}"/>
-												</MusicPlaylistItem>
-											</ChildrenList>
-										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{FABFBC34-804D-4FAA-AA26-BC41243339B0}" ShortID="85117216"/>
 									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
