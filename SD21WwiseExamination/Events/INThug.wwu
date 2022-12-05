@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{129698BD-B9BE-4213-8D70-198E7B034F6F}" SchemaVersion="103" RootDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" ParentDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}">
+	<Events>
+		<WorkUnit Name="INThug" ID="{129698BD-B9BE-4213-8D70-198E7B034F6F}" OwnerID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Large washing machine" ID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

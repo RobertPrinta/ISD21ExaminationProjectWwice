@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Interactables" ID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="INThug" ID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
