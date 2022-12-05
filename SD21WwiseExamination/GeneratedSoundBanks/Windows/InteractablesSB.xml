@@ -8,20 +8,16 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="59222858">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="201704571">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3581348024" Name="Play_Smal_Washing_Machine_Door" ObjectPath="\Events\Interactables\INThug\Large washing machine\Play_Smal_Washing_Machine_Door" GUID="{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}" DurationType="OneShot" DurationMin="3.02027" DurationMax="5.148709">
+				<Event Id="3581348024" Name="Play_Smal_Washing_Machine_Door" ObjectPath="\Events\Interactables\INThug\Large washing machine\Play_Smal_Washing_Machine_Door" GUID="{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}" DurationType="OneShot" DurationMin="2.767195" DurationMax="5.148709">
 					<IncludedMemoryFiles>
 						<File Id="130602357" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door2.wav</ShortName>
 							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door2_3CADDE39.wem</Path>
-						</File>
-						<File Id="214161566" Language="SFX">
-							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door hinch.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door hinch_3CADDE39.wem</Path>
 						</File>
 						<File Id="217728391" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door.wav</ShortName>
@@ -29,15 +25,15 @@
 						</File>
 						<File Id="294453549" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door4.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door4_3CADDE39.wem</Path>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door4_569D5497.wem</Path>
 						</File>
 						<File Id="686862164" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door3.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door3_3CADDE39.wem</Path>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door3_B24467BD.wem</Path>
 						</File>
 						<File Id="923417905" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door5.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door5_3CADDE39.wem</Path>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door5_F6CA5BED.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

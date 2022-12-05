@@ -420,6 +420,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="whasher Door" ID="{C1D095F5-F02E-46E5-9736-74A0282DF85E}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.0368267445821554"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door.wav</AudioFile>
 											<MediaIDList>
@@ -443,6 +447,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="whasher Door2" ID="{040BE0D2-D0E5-4CE3-BC0A-8690D9E6BCA3}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.256347764539342"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door2.wav</AudioFile>
 											<MediaIDList>
@@ -466,6 +474,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="whasher Door3" ID="{0CFCD248-AD76-47F0-B717-D9AAB983E3D5}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.744527545122095"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.744527545122095"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door3.wav</AudioFile>
 											<MediaIDList>
@@ -489,6 +502,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="whasher Door4" ID="{1D506B06-1A5F-4032-B3EE-CC7603240596}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.609984009017865"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.609984009017865"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door4.wav</AudioFile>
 											<MediaIDList>
@@ -512,6 +530,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="whasher Door5" ID="{3812A94A-60EF-4676-AEAF-0EE133B7FFD3}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.684429633124928"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.684429633124928"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door5.wav</AudioFile>
 											<MediaIDList>
@@ -524,7 +547,44 @@
 										<ActiveSource Name="whasher Door5" ID="{3812A94A-60EF-4676-AEAF-0EE133B7FFD3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="whasher Door hinch" ID="{D2F64983-6A62-4791-822E-BE3FE671214E}" ShortID="627752163">
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Smal_Washing_Machine_Door_Hinch" ID="{1CB292FE-2EF6-4725-A922-0988EF05BDFC}" ShortID="734662932">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>23</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="whasher Door hinch" ID="{F8D1B52D-D8BC-41CA-90A1-3E205D13FDC2}" ShortID="424950440">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{615D7EA3-A198-439E-8E7B-AACFF2DB2E5C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="429"/>
+															<Property Name="Min" Type="Real64" Value="-354"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -534,7 +594,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="whasher Door hinch" ID="{4FFD7F67-76F5-418C-ACC0-85C7C5E0EAA3}">
+										<AudioFileSource Name="whasher Door hinch" ID="{0C8586AB-6DDE-4744-93E2-AEDEA523D16A}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.00449503886332951"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00449503886332951"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door hinch.wav</AudioFile>
 											<MediaIDList>
@@ -544,7 +609,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="whasher Door hinch" ID="{4FFD7F67-76F5-418C-ACC0-85C7C5E0EAA3}" Platform="Linked"/>
+										<ActiveSource Name="whasher Door hinch" ID="{0C8586AB-6DDE-4744-93E2-AEDEA523D16A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
