@@ -68,8 +68,8 @@
 						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Wood" ID="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}"/>
-						<CurrentSwitchRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
+						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="UI Menu" ID="{D54B3266-E763-4F8A-90FC-E68C18147A57}">
