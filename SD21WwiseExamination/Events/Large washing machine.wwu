@@ -8,7 +8,7 @@
 						<Action Name="" ID="{FA9AA9CB-65D1-4F6C-8E5D-D8E5956E1FC0}" ShortID="904631977">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="PlayLarge_washing_machinesend" ID="{1F50BD2A-733F-4130-9675-DC2CEAFF97D5}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+									<ObjectRef Name="Beginning" ID="{434D9AFC-5891-4C81-B1AA-73934A2AE718}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -19,7 +19,18 @@
 						<Action Name="" ID="{46E09239-950A-4DE2-BEBE-A21CB00626BE}" ShortID="546607718">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="PlayLarge_washing_machinestart" ID="{A7252F99-BE90-4DE4-8FB7-F74B74971948}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+									<ObjectRef Name="Collision" ID="{8E50655C-1CAA-4AF7-8F08-69C39259096E}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayLarge_washing_machineDoor" ID="{23842A14-CFB7-4BA3-B690-5B87E0D8BFF0}">
+					<ChildrenList>
+						<Action Name="" ID="{F1FC191A-1A29-41F8-AB5B-F6B10F131611}" ShortID="1040652882">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door" ID="{280CEF2C-DECC-4215-8899-50EA0F9BDF2A}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -3,87 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="INThug" ID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}" OwnerID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="Large_washing_machine" ID="{AF413955-0290-4294-9D5D-72EDDBAC20CD}" ShortID="437447276">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="MainINgame" ID="{B8B8D1BE-970A-4D35-A6A8-860886F3B726}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="PlayLarge_washing_machinestart" ID="{A7252F99-BE90-4DE4-8FB7-F74B74971948}" ShortID="253960858">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sliding" ID="{7AF3DE74-3134-4522-81D5-C1117D5018F9}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.240070609002648"/>
-										<Property Name="LoopBegin" Type="Real64" Value="4.83892321270962"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="4.81641659311563"/>
-										<Property Name="TrimEnd" Type="Real64" Value="6.87202118270079"/>
-										<Property Name="VolumeOffset" Type="Real64">
-											<ValueList>
-												<Value>-24</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Interactables\Thug\Large_washing_machine\sliding.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="615277814"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="sliding" ID="{7AF3DE74-3134-4522-81D5-C1117D5018F9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="PlayLarge_washing_machinesend" ID="{1F50BD2A-733F-4130-9675-DC2CEAFF97D5}" ShortID="386960051">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sliding" ID="{B373F3E7-AB88-408C-91EB-496802651486}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.570167696381288"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="4.7413945278023"/>
-										<Property Name="VolumeOffset" Type="Real64">
-											<ValueList>
-												<Value>-10.3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Interactables\Thug\Large_washing_machine\sliding.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="365028018"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="sliding" ID="{B373F3E7-AB88-408C-91EB-496802651486}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-					<ObjectLists/>
-				</ActorMixer>
 				<ActorMixer Name="Washing_Maschine" ID="{6C278A39-B776-48DF-A937-BD1A0C9720AF}" ShortID="404785139">
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
@@ -416,6 +335,53 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="WashingMachine_FloorScraping" ID="{87945B27-ED4F-4747-A310-7C7D14835A42}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Door" ID="{280CEF2C-DECC-4215-8899-50EA0F9BDF2A}" ShortID="990608530">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Washing Door" ID="{1F50BD2A-733F-4130-9675-DC2CEAFF97D5}" ShortID="386960051">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MainINgame" ID="{B8B8D1BE-970A-4D35-A6A8-860886F3B726}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sliding" ID="{B373F3E7-AB88-408C-91EB-496802651486}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.570167696381288"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.7413945278023"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-10.3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Thug\Large_washing_machine\sliding.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="365028018"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sliding" ID="{B373F3E7-AB88-408C-91EB-496802651486}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
