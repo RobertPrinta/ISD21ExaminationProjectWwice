@@ -5,6 +5,12 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Delay",
+    "ID": "6946819",
+    "DLL": "AkDelay",
+    "StaticLib": "AkDelayFX"
+   },
+   {
     "Name": "Wwise RoomVerb",
     "ID": "7733251",
     "DLL": "AkRoomVerb",

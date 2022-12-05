@@ -16,7 +16,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "96854519",
+    "Hash": "2228418866",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -32,6 +32,12 @@
       "Name": "MediumRoom",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoom",
       "GUID": "{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"
+     },
+     {
+      "Id": "1837650191",
+      "Name": "MediumRoomAbs",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoomAbs",
+      "GUID": "{61528CA2-A5C6-44B7-A747-0BBB3803A023}"
      },
      {
       "Id": "1847104687",

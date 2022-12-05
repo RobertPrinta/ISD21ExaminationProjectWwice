@@ -51,6 +51,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	187046019	LargeRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\LargeRoom	
 	1245295233	MediumRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoom	
+	1837650191	MediumRoomAbs			\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoomAbs	
 	1847104687	DreamRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\DreamRoom	
 	2933838247	SmallRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\SmallRoom	
 	4063189299	Corridor			\Default Work Unit\Master Audio Bus\Master\Rooms\Corridor	
@@ -58,9 +59,11 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	506891147	Plate_Small	Wwise RoomVerb			
 	602546716	Room_Large	Wwise RoomVerb			
-	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
+	1588715066	Echoes_Linear	Wwise Delay			
 	1990128658	Room_Medium	Wwise RoomVerb			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
 	2995775460	Room_Small	Wwise RoomVerb			
+	3900114836	Metal_Hangar	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

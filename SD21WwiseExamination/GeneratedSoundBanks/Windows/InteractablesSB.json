@@ -1,0 +1,62 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4223437857",
+    "GUID": "{DE65C750-E210-4254-B208-9850C091F9A9}",
+    "Language": "SFX",
+    "Hash": "2800796219",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
+    "ShortName": "InteractablesSB",
+    "Path": "InteractablesSB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2073058824",
+      "Name": "PlayLarge_washing_machine",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machine",
+      "GUID": "{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.741395",
+      "DurationMax": "4.741395",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "365028018",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\sliding.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\sliding_356C29CA.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1899315439",
+      "Name": "PlayLarge_washing_machineEnd",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machineEnd",
+      "GUID": "{082C3432-7D34-4845-8FDB-BA04457ECE7B}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.055605",
+      "DurationMax": "2.055605",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "615277814",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\sliding.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\sliding_5747035E.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

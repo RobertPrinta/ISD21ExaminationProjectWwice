@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1899315439	PlayLarge_washing_machineEnd			\Interactables\INThug\Large washing machine\PlayLarge_washing_machineEnd	
+	2073058824	PlayLarge_washing_machine			\Interactables\INThug\Large washing machine\PlayLarge_washing_machine	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	365028018	PlayLarge_washing_machinesend	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\sliding_356C29CA.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Large_washing_machine\PlayLarge_washing_machinesend		57457
+	615277814	PlayLarge_washing_machinestart	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Interactables\Thug\Large_washing_machine\sliding_5747035E.wem		\Actor-Mixer Hierarchy\Interactables\INThug\Large_washing_machine\PlayLarge_washing_machinestart		33149
+

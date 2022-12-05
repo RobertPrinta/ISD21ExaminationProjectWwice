@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2362736555">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2909768101">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -244,6 +244,44 @@
 							<Path>SFX\Music\TheHub\THE Hub - KLARINETT ACT2 (NY)\Klarinett1 Akt2 107Bpm_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{3DECBAFC-492A-408F-BFF7-58207892F48E}">
+							<Media>
+								<File Id="107871130"/>
+								<File Id="184208573"/>
+								<File Id="192667223"/>
+								<File Id="468234340"/>
+								<File Id="559809631"/>
+								<File Id="605672174"/>
+								<File Id="621656144"/>
+								<File Id="652961063"/>
+								<File Id="691783688"/>
+								<File Id="821272824"/>
+								<File Id="862881599"/>
+								<File Id="989544754"/>
+								<File Id="1058437537"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8AEF6285-402B-443A-949D-E2CECCE2ED93}">
+							<Media>
+								<File Id="106864608"/>
+								<File Id="158290635"/>
+								<File Id="241970606"/>
+								<File Id="288230028"/>
+								<File Id="301421353"/>
+								<File Id="316853711"/>
+								<File Id="513686879"/>
+								<File Id="657069404"/>
+								<File Id="661159091"/>
+								<File Id="732147827"/>
+								<File Id="765166854"/>
+								<File Id="957743122"/>
+								<File Id="985934564"/>
+								<File Id="998871737"/>
+								<File Id="1000740171"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3965456208" Name="Play_Runner" ObjectPath="\Events\PlayMusic\Play_Runner" GUID="{7C574E14-4AE8-42DB-B631-328664FFED03}" DurationType="Infinite">
 					<SwitchContainers/>

@@ -263,7 +263,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "96854519",
+    "Hash": "2228418866",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -279,6 +279,12 @@
       "Name": "MediumRoom",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoom",
       "GUID": "{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"
+     },
+     {
+      "Id": "1837650191",
+      "Name": "MediumRoomAbs",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoomAbs",
+      "GUID": "{61528CA2-A5C6-44B7-A747-0BBB3803A023}"
      },
      {
       "Id": "1847104687",
@@ -1044,7 +1050,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "2362736555",
+    "Hash": "2909768101",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -1403,6 +1409,102 @@
         "ShortName": "Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett1 Akt2 107Bpm.wav",
         "Path": "SFX\\Music\\TheHub\\THE Hub - KLARINETT ACT2 (NY)\\Klarinett1 Akt2 107Bpm_9EDFC787.wem"
        }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{3DECBAFC-492A-408F-BFF7-58207892F48E}",
+        "Media": [
+         {
+          "Id": "107871130"
+         },
+         {
+          "Id": "184208573"
+         },
+         {
+          "Id": "192667223"
+         },
+         {
+          "Id": "468234340"
+         },
+         {
+          "Id": "559809631"
+         },
+         {
+          "Id": "605672174"
+         },
+         {
+          "Id": "621656144"
+         },
+         {
+          "Id": "652961063"
+         },
+         {
+          "Id": "691783688"
+         },
+         {
+          "Id": "821272824"
+         },
+         {
+          "Id": "862881599"
+         },
+         {
+          "Id": "989544754"
+         },
+         {
+          "Id": "1058437537"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8AEF6285-402B-443A-949D-E2CECCE2ED93}",
+        "Media": [
+         {
+          "Id": "106864608"
+         },
+         {
+          "Id": "158290635"
+         },
+         {
+          "Id": "241970606"
+         },
+         {
+          "Id": "288230028"
+         },
+         {
+          "Id": "301421353"
+         },
+         {
+          "Id": "316853711"
+         },
+         {
+          "Id": "513686879"
+         },
+         {
+          "Id": "657069404"
+         },
+         {
+          "Id": "661159091"
+         },
+         {
+          "Id": "732147827"
+         },
+         {
+          "Id": "765166854"
+         },
+         {
+          "Id": "957743122"
+         },
+         {
+          "Id": "985934564"
+         },
+         {
+          "Id": "998871737"
+         },
+         {
+          "Id": "1000740171"
+         }
+        ]
+       }
       ]
      },
      {
@@ -1566,6 +1668,51 @@
         "Name": "Hub_Act3",
         "ObjectPath": "\\States\\Act_State\\Hub_LVL_State\\Hub_Act3",
         "GUID": "{8AEF6285-402B-443A-949D-E2CECCE2ED93}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "4223437857",
+    "GUID": "{DE65C750-E210-4254-B208-9850C091F9A9}",
+    "Language": "SFX",
+    "Hash": "2800796219",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
+    "ShortName": "InteractablesSB",
+    "Path": "InteractablesSB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2073058824",
+      "Name": "PlayLarge_washing_machine",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machine",
+      "GUID": "{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.741395",
+      "DurationMax": "4.741395",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "365028018",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\sliding.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\sliding_356C29CA.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1899315439",
+      "Name": "PlayLarge_washing_machineEnd",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machineEnd",
+      "GUID": "{082C3432-7D34-4845-8FDB-BA04457ECE7B}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.055605",
+      "DurationMax": "2.055605",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "615277814",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\sliding.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\sliding_5747035E.wem"
        }
       ]
      }
