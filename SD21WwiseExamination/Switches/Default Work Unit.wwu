@@ -37,6 +37,12 @@
 						<Switch Name="Basement" ID="{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="RoomType" ID="{B1B8C0B5-EE57-4944-8C49-ACE362DDF898}">
+					<ChildrenList>
+						<Switch Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
+						<Switch Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

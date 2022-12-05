@@ -38,8 +38,81 @@
 											<ObjectRef Name="Biome" ID="{25E0C9D3-F8F8-4387-9580-0F554739DDB3}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<SwitchContainer Name="AB_RoomSize" ID="{C18F853B-CB59-40BB-868C-034F85F0BC12}" ShortID="283078508">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="RoomType" ID="{B1B8C0B5-EE57-4944-8C49-ACE362DDF898}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AB_Small_Room_Headlocked" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}" ShortID="349663179">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Small_Room_Headlocked" ID="{6B440C61-E35A-4C69-932B-21E9745321EC}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Headlocked\AB_Small_Room_Headlocked.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="812702739"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Small_Room_Headlocked" ID="{6B440C61-E35A-4C69-932B-21E9745321EC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="AB_Small_Room_Headlocked" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
+														<ItemList>
+															<ItemRef Name="AB_Small_Room_Headlocked" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
 									<ObjectLists/>
-									<GroupingInfo/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="AB_RoomSize" ID="{C18F853B-CB59-40BB-868C-034F85F0BC12}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
+												<ItemList>
+													<ItemRef Name="AB_RoomSize" ID="{C18F853B-CB59-40BB-868C-034F85F0BC12}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="AB_OldLady" ID="{093C537C-981D-423B-891C-FBF60141BED0}" ShortID="40250316">
 									<ReferenceList>
@@ -714,13 +787,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="AB_City_Traffic_From_Closed_Window_2_3D" ID="{C0DC0323-026B-4235-AFAC-DA5BF31A1F96}">
-											<PropertyList>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>24</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D.wav</AudioFile>
 											<MediaIDList>
