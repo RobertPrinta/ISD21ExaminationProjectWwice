@@ -75,7 +75,6 @@
 													</RTPCList>
 												</Property>
 											</PropertyList>
-											<ReferenceList/>
 											<StateInfo>
 												<StatePropertyList>
 													<Property Name="BusVolume"/>
