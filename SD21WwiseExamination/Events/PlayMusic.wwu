@@ -61,6 +61,7 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{F57F54CF-644D-4DF8-BB27-320AFB934B71}" ShortID="142776610"/>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Stop_Thug" ID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}">
