@@ -714,6 +714,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="AB_City_Traffic_From_Closed_Window_2_3D" ID="{C0DC0323-026B-4235-AFAC-DA5BF31A1F96}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D.wav</AudioFile>
 											<MediaIDList>
