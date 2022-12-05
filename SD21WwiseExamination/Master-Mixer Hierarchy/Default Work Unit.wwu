@@ -75,11 +75,7 @@
 													</RTPCList>
 												</Property>
 											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-													<ObjectRef Name="Very_Bad_Connection" ID="{0C5A674D-5EC0-45A6-87A7-3885B3196DCD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
+											<ReferenceList/>
 											<StateInfo>
 												<StatePropertyList>
 													<Property Name="BusVolume"/>

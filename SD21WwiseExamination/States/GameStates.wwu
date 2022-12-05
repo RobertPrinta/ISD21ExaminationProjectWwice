@@ -9,6 +9,14 @@
 						<State Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
 						<State Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
+							<EndState Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

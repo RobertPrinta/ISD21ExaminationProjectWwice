@@ -27,13 +27,8 @@ State	ID	Name	State Group			Notes
 	3374585465	InMenu	GameState			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	332296121	Hub_Act1	Hub_LVL_State	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
 	401357270	InMenu	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\MainINgame\MusicMaster		
 	471660500	InGame	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\MainINgame\MusicMaster		
-	474562835	Hub_Act3	Hub_LVL_State	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
-	601762551	InMenu	GameState	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
-	893710895	Hub_Act2	Hub_LVL_State	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
-	969284608	InGame	GameState	\Effects\Factory Effects\Tremolo\Very_Bad_Connection		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2246609544	Music_Vol			\System Vol Sliders\Music_Vol	
@@ -65,7 +60,6 @@ Effect plug-ins	ID	Name	Type				Notes
 	602546716	Room_Large	Wwise RoomVerb			
 	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
 	1990128658	Room_Medium	Wwise RoomVerb			
-	2230265344	Very_Bad_Connection	Wwise Tremolo			
 	2995775460	Room_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

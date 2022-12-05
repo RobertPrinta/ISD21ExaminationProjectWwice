@@ -11,12 +11,6 @@
     "StaticLib": "AkRoomVerbFX"
    },
    {
-    "Name": "Wwise Tremolo",
-    "ID": "8585219",
-    "DLL": "AkTremolo",
-    "StaticLib": "AkTremoloFX"
-   },
-   {
     "Name": "System",
     "ID": "11403271"
    },

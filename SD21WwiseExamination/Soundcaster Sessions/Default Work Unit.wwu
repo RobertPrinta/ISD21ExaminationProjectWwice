@@ -17,6 +17,34 @@
 							<ObjectRef Name="Play_MainTheme" ID="{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="UI_Click_Button" ID="{C08F3209-396D-4817-999D-BE74BB1000B4}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_Close_Menu" ID="{7DF20592-A6A7-4C6A-A074-E8B61C3516E0}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_Hover_Over_Button" ID="{66D5A7AD-02F3-4099-B00D-B23033411B16}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_Open_Menu" ID="{225F7E9D-6344-4D85-88CB-02814352E22D}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dream_Machine_Heart_Monitor_3D" ID="{1EF2627A-B366-48C7-AC17-93F48A72DBEF}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Headlocked_Ambience" ID="{75515714-049D-48B2-9FA0-6190615A2562}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<Position X="3" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -33,12 +61,15 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
-						<CurrentStateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+						<CurrentStateRef Name="None" ID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
+						<CurrentStateRef Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
+						<CurrentStateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+						<CurrentStateRef Name="None" ID="{8B77F188-B864-4A48-A88B-A13BCA72DB36}"/>
+						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Wood" ID="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}"/>
-						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
+						<CurrentSwitchRef Name="Walking" ID="{627310E8-51FB-40C7-9B64-0919BECF37FC}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="UI Menu" ID="{D54B3266-E763-4F8A-90FC-E68C18147A57}">
