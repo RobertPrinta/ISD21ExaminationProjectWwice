@@ -4,6 +4,8 @@
 		<WorkUnit Name="Interactables" ID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="INThug" ID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}" PersistMode="Reference"/>
+				<WorkUnit Name="INRunner" ID="{890B7C4F-7E06-4CF2-BC08-88715BB3FD08}" PersistMode="Reference"/>
+				<WorkUnit Name="INOldLady" ID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

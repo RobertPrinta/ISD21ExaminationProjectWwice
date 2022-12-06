@@ -4,6 +4,8 @@
 		<WorkUnit Name="Interactables" ID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="INThug" ID="{129698BD-B9BE-4213-8D70-198E7B034F6F}" PersistMode="Reference"/>
+				<WorkUnit Name="INOldLady" ID="{C856504A-FF71-41AC-858B-46CBEEF44807}" PersistMode="Reference"/>
+				<WorkUnit Name="INRunner" ID="{AFD28495-093E-4F21-BC91-9F7430535023}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
