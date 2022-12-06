@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}" SchemaVersion="103" RootDocumentID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" ParentDocumentID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}">
 	<AudioObjects>
-		<WorkUnit Name="Dialogue Runner Work Unit" ID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}" OwnerID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" PersistMode="Nested"/>
+		<WorkUnit Name="Dialogue Runner Work Unit" ID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}" OwnerID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Dialogue Runner" ID="{CD4559EA-06D5-4D4E-82AB-357A8D2CE188}" ShortID="580977754">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
