@@ -136,6 +136,60 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Stop_All_Music" ID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}">
+					<ChildrenList>
+						<Action Name="" ID="{FE3FFA23-FF3C-4C7A-92A0-1DE5AFD54C92}" ShortID="475012942">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OldLadyMusic" ID="{D67909C7-5B3B-4E47-A34F-48168EC235FD}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6839A473-4B3F-4728-84E9-941F80EE44A5}" ShortID="18313108">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HubMusic" ID="{D9D8DF5D-71D9-4D2E-B8FD-C47256D8A48F}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{84130030-5B07-40AD-8327-83A3D025C300}" ShortID="200659057">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RunnerMusic" ID="{E5BC8875-53C3-4915-BA91-84A148ABABCA}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DFA25348-D257-4BF0-9686-AE24E97F1A6C}" ShortID="453455330">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ThugMusic" ID="{5AD2F3BA-10BC-41E2-94A1-63420B7CE0BE}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7EDDCE58-020E-42A0-8E27-505F748A7969}" ShortID="538456951">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ThemeMusic" ID="{129B9825-DDCC-43E3-A317-F00513436ABB}" WorkUnitID="{B2780D92-C5EB-4024-8856-2F8CCD5E7A41}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
