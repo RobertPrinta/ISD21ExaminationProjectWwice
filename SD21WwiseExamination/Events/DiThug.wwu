@@ -3,7 +3,72 @@
 	<Events>
 		<WorkUnit Name="DiThug" ID="{5E775DC5-311E-48F7-96FB-B5CC0C920490}" OwnerID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Play_DiThug_A_S1" ID="{F8376DDB-EBE1-4F11-8719-E09F34364255}"/>
+				<Event Name="Play_DiThug_A1_S6" ID="{F8376DDB-EBE1-4F11-8719-E09F34364255}">
+					<ChildrenList>
+						<Action Name="" ID="{2E43FB4A-947A-4E53-A36F-F73499C3724F}" ShortID="336796626">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigThug_A1_S6" ID="{6627F97B-B1A6-4FB2-9354-15AF0684EB43}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DiThug_A1_S9" ID="{A66215B7-5BEA-4929-A283-796AD8676D2C}">
+					<ChildrenList>
+						<Action Name="" ID="{83EC63E5-208A-452C-89CC-4E9363BD8B20}" ShortID="692828985">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigThug_A1_S9" ID="{4087D776-7DD9-41D9-8835-7F8396A72A44}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DiThug_A1_S10" ID="{0DD69659-3019-4F8B-B558-77BD720DC26A}">
+					<ChildrenList>
+						<Action Name="" ID="{DFDEA189-E15B-4F7A-8384-F90301E12EDA}" ShortID="553766340">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigThug_A1_S10" ID="{B3301060-5C94-4EA9-B740-70F2716D93F8}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DiThug_A1_S11" ID="{BC3C0884-2F58-4568-88FF-5F2FA1D729F0}">
+					<ChildrenList>
+						<Action Name="" ID="{78C67CD7-08BD-4698-A072-1BA114ED5522}" ShortID="909830678">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigThug_A1_S11" ID="{0F699B9F-E325-45A1-AA36-FCBDA38C8B86}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DiThug_A1_S11_5" ID="{EB9A3224-4F96-470C-86B7-9F9FA084C662}">
+					<ChildrenList>
+						<Action Name="" ID="{F3D5AF8D-C0E8-499B-8F27-EFE39C8439AA}" ShortID="1004505638">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigThug_A1_S11_5" ID="{2F45C11F-5538-4C2E-8D7F-73B69A2CA1C3}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DiThug_A1_S12" ID="{2DED3D4A-B42A-4CD4-BD5C-B4A9A865D21B}">
+					<ChildrenList>
+						<Action Name="" ID="{76FFC630-447C-4A7E-BA17-B30141D1F5D0}" ShortID="617142093">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigThug_A1_S12" ID="{3E586502-9AEA-45F0-BC4B-0BDE5DA3504D}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

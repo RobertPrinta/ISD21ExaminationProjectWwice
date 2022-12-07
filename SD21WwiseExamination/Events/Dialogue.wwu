@@ -7,50 +7,7 @@
 				<WorkUnit Name="Di_OldLady" ID="{EA391D63-12EC-4054-9F5D-8E2FE84D9A7A}" PersistMode="Reference"/>
 				<WorkUnit Name="DiRunner" ID="{46C32E38-5F9A-467E-83E7-1E47CC3AFF7D}" PersistMode="Reference"/>
 				<WorkUnit Name="DiThug" ID="{5E775DC5-311E-48F7-96FB-B5CC0C920490}" PersistMode="Reference"/>
-				<Event Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}">
-					<ChildrenList>
-						<Action Name="" ID="{8AC54ADF-2176-4F28-A3F9-0BE6E42C1870}" ShortID="87544215">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dialogue Hub" ID="{CC3072DE-2EF9-4CEF-98C9-1836890EA3DD}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{C9A2DC36-2C41-4267-B2A9-92C60194FE04}" ShortID="722265833">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dialogue OldLady" ID="{669AF4C0-FFDE-4E41-94AC-F8B50AB9E4C4}" WorkUnitID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{14003F9C-B01F-4B59-93F6-EBA44D662F4F}" ShortID="309329513">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dialogue Runner" ID="{CD4559EA-06D5-4D4E-82AB-357A8D2CE188}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{F0F62E2D-2301-4CEA-8E87-191E9425F7A0}" ShortID="444367742">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dialogue Thug" ID="{80AE3C3C-6E9C-4BE7-BE52-5C00831DF5A2}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				<Event Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
