@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Dialogue Runner Work Unit" ID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}" OwnerID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="Dialogue Runner" ID="{CD4559EA-06D5-4D4E-82AB-357A8D2CE188}" ShortID="580977754">
+				<ActorMixer Name="DI_Runner_Actor-Mixer" ID="{067BB497-4499-4FB7-A27E-8B59F439D78A}" ShortID="46721388">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -12,6 +12,54 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Emilia_A1_S13" ID="{83095ECD-E5CB-4CD3-97D3-6FB9A0CAD29B}" ShortID="527182277">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emilia_A1_S13" ID="{4C869F55-ADBA-48D7-958B-349BD2C57297}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Runner\Emilia_A1_S13.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="106776280"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Emilia_A1_S13" ID="{4C869F55-ADBA-48D7-958B-349BD2C57297}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Emilia_A1_S14" ID="{FD613FA7-DEA9-419A-80BA-836A21AAEC55}" ShortID="406753450">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emilia_A1_S14" ID="{B25DBF5B-C49A-44FC-AAB6-5F2C0E3362A5}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Runner\Emilia_A1_S14.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1049815376"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Emilia_A1_S14" ID="{B25DBF5B-C49A-44FC-AAB6-5F2C0E3362A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
