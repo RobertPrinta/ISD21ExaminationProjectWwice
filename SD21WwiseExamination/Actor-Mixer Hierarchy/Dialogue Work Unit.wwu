@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Dialogue Work Unit" ID="{FAD61B6C-0CC1-471C-9706-289CFA7B8512}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="Di_Master_Acter-Mixer" ID="{3F614CAC-5081-4FBE-B05E-D7218A2CFCF8}" ShortID="75561430">
+				<ActorMixer Name="Di_Master_Actor-Mixer" ID="{3F614CAC-5081-4FBE-B05E-D7218A2CFCF8}" ShortID="75561430">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
