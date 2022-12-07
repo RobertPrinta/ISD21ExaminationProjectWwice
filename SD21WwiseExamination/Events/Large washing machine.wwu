@@ -60,6 +60,9 @@
 				<Event Name="Play_Smal_Washing_Machine_Door_Hinch" ID="{5E658B3D-89FA-43D8-B126-AB9CB5F89208}">
 					<ChildrenList>
 						<Action Name="" ID="{DB72D9F0-E387-4FB9-AAF3-D8F2F7F8C3A6}" ShortID="589786522">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.7"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Smal_Washing_Machine_Door_Hinch" ID="{1CB292FE-2EF6-4725-A922-0988EF05BDFC}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>

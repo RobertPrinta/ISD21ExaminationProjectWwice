@@ -101,7 +101,7 @@
 					<PropertyList>
 						<Property Name="Maximum" Type="int32">
 							<ValueList>
-								<Value>9900000</Value>
+								<Value>99000000</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
