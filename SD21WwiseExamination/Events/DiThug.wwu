@@ -5,6 +5,16 @@
 			<ChildrenList>
 				<Event Name="Play_DiThug_A1_S6" ID="{F8376DDB-EBE1-4F11-8719-E09F34364255}">
 					<ChildrenList>
+						<Action Name="" ID="{EE1797BD-695E-4954-807F-25AFD1CA31FA}" ShortID="830610359">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{2E43FB4A-947A-4E53-A36F-F73499C3724F}" ShortID="336796626">
 							<ReferenceList>
 								<Reference Name="Target">

@@ -1,0 +1,277 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3934261240",
+    "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
+    "Language": "SFX",
+    "Hash": "17340171",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
+    "ShortName": "DialogueSB",
+    "Path": "DialogueSB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3995126365",
+      "Name": "Play_Di_Hub_A1_S3",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S3",
+      "GUID": "{A449762F-D754-4A12-B2DE-753FD87FF80E}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.49",
+      "DurationMax": "7.49",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "191906222",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S3.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S3_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3995126362",
+      "Name": "Play_Di_Hub_A1_S4",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S4",
+      "GUID": "{805019BB-7ECD-4636-9685-7D5F8FFF841C}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.879047",
+      "DurationMax": "5.879047",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "671378646",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S4.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S4_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3995126363",
+      "Name": "Play_Di_Hub_A1_S5",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S5",
+      "GUID": "{7C3147BA-3065-4A30-B4C8-CC56CD66DCDC}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.901678",
+      "DurationMax": "3.901678",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "121317476",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S5.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S5_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3995126360",
+      "Name": "Play_Di_Hub_A1_S6",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S6",
+      "GUID": "{68D9E7AA-5CE2-4FD7-B96A-CED1BF820E22}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.729887",
+      "DurationMax": "2.729887",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "493278628",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S6.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S6_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3995126361",
+      "Name": "Play_Di_Hub_A1_S7",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S7",
+      "GUID": "{CB468FB4-F07D-495B-8B44-00AF170DBF26}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.465896",
+      "DurationMax": "2.465896",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "546768705",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S7.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S7_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "495780877",
+      "Name": "Play_Di_OldLady_A1_S1",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Di_OldLady_A1_S1",
+      "GUID": "{37EFD383-BAD0-4DF3-B80D-B7263791437C}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "1763705084",
+      "Name": "Play_DiRunner_A1_S13",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_DiRunner_A1_S13",
+      "GUID": "{8A72B67B-B823-4A4C-A208-95B124532FF5}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.57619",
+      "DurationMax": "4.57619",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "106776280",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A1_S13.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A1_S13_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1763705083",
+      "Name": "Play_DiRunner_A1_S14",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_DiRunner_A1_S14",
+      "GUID": "{0C801580-269B-4BD7-8CB8-83E93BA0241E}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.229932",
+      "DurationMax": "4.229932",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1049815376",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A1_S14.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A1_S14_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3983170265",
+      "Name": "Play_DiThug_A1_S10",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S10",
+      "GUID": "{0DD69659-3019-4F8B-B558-77BD720DC26A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.989138",
+      "DurationMax": "1.989138",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "302741454",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A1_S10.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A1_S10_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3983170264",
+      "Name": "Play_DiThug_A1_S11",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S11",
+      "GUID": "{BC3C0884-2F58-4568-88FF-5F2FA1D729F0}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.269955",
+      "DurationMax": "2.269955",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "63124836",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A1_S11.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A1_S11_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "614117056",
+      "Name": "Play_DiThug_A1_S11_5",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S11_5",
+      "GUID": "{EB9A3224-4F96-470C-86B7-9F9FA084C662}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.28483",
+      "DurationMax": "3.28483",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "827356823",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A1_S11.5.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A1_S11.5_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3983170267",
+      "Name": "Play_DiThug_A1_S12",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S12",
+      "GUID": "{2DED3D4A-B42A-4CD4-BD5C-B4A9A865D21B}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.408549",
+      "DurationMax": "4.408549",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "744168595",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A1_S12.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A1_S12_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2726752020",
+      "Name": "Play_DiThug_A1_S6",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S6",
+      "GUID": "{F8376DDB-EBE1-4F11-8719-E09F34364255}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.19839",
+      "DurationMax": "10.19839",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "433585722",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A1_S6.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A1_S6_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "2726752027",
+      "Name": "Play_DiThug_A1_S9",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S9",
+      "GUID": "{A66215B7-5BEA-4929-A283-796AD8676D2C}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.492041",
+      "DurationMax": "2.492041",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "801120542",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A1_S9.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A1_S9_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1194815331",
+      "Name": "Play_Stop_ALL_Dialogue",
+      "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+      "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ]
+   }
+  ]
+ }
+}

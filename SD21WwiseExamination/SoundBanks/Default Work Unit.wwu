@@ -97,6 +97,20 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="DialogueSB" ID="{3C1EE6B0-9F08-463E-9699-828BF513D672}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>9900000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Dialogue" ID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
