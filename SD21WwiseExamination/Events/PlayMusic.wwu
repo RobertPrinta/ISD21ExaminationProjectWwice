@@ -61,7 +61,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{F57F54CF-644D-4DF8-BB27-320AFB934B71}" ShortID="142776610"/>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Stop_Thug" ID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}">
@@ -106,6 +105,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="OldLadyMusic" ID="{D67909C7-5B3B-4E47-A34F-48168EC235FD}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8A35D4C9-8C22-4C2F-A3F2-7BC0081ABB8B}" ShortID="1064594684">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OldLadyMusicAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

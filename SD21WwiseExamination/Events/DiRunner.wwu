@@ -5,6 +5,16 @@
 			<ChildrenList>
 				<Event Name="Play_DiRunner_A1_S13" ID="{8A72B67B-B823-4A4C-A208-95B124532FF5}">
 					<ChildrenList>
+						<Action Name="" ID="{620D0798-57EE-440D-A59F-BEAB35C8EF9B}" ShortID="578653091">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{3C39B0F2-C126-4826-9954-815189F9B36A}" ShortID="249553639">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -16,6 +26,16 @@
 				</Event>
 				<Event Name="Play_DiRunner_A1_S14" ID="{0C801580-269B-4BD7-8CB8-83E93BA0241E}">
 					<ChildrenList>
+						<Action Name="" ID="{42E7C490-1B58-4F95-A893-AFFD2BF45D68}" ShortID="808246632">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{24C0C99B-E4D8-4962-969C-078FC9D88203}" ShortID="8635647">
 							<ReferenceList>
 								<Reference Name="Target">
