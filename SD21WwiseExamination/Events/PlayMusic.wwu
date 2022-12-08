@@ -115,6 +115,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{43F09146-A8C8-401C-A456-F22AD0B3DACF}" ShortID="182661285">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OldladyGrundAmbi" ID="{1F18BCD9-1786-47AB-B348-AABC8BAC9274}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_MainTheme" ID="{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}">
