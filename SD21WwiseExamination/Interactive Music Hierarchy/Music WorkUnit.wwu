@@ -732,7 +732,54 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{FABFBC34-804D-4FAA-AA26-BC41243339B0}" ShortID="85117216"/>
+										<MusicPlaylistItem Name="" ID="{1B3D1932-02CA-4425-8462-DCF970872DAA}" ShortID="494848075">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AmbiGhostStinger-001" ID="{859CCA15-D4E5-4BAF-8BBD-E609D04E98B0}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5A1555EE-E322-4918-8CBF-D39DBA2BD49E}" ShortID="794118631">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AmbiGhostStinger-002" ID="{5E2DF571-CF74-42E8-A602-505779E5EE04}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3BE30081-450B-4C0C-A376-84563E54ECC3}" ShortID="537852913">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AmbiGhostStinger-003" ID="{BF1DFBDE-FD7D-48E5-93D8-D8AF50384CD5}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{F72B5250-7CD5-4B37-987C-AA570A777465}" ShortID="826825369">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AmbiGhostStinger-004" ID="{8A00C60F-8090-4251-81F1-910B4D3DF720}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{EEE53BFF-7107-4F37-AA56-E337F4696028}" ShortID="601028927">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AmbiPianoStinger-001" ID="{B866A0F8-5EEF-4757-AAD1-04B4A2E7CF0F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6F35195B-E631-48FB-ADF0-37C85D76D9F2}" ShortID="596654092">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AmbiPianoStinger-002" ID="{A3CA4757-760D-4D90-B165-CDE0B5AF968A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{444A5DC2-5B91-4090-84AA-C761B57B6AA3}" ShortID="309556698">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AmbiPianoStinger-003" ID="{52381DDA-2A72-40DA-BD74-EE6ABD8DC822}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{8D2A345F-C9A5-4F64-8160-AEEB04D37187}" ShortID="392603152">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AmbiPianoStinger-004" ID="{9A1764EE-DDB1-447A-B03F-4B16E1166387}"/>
+										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
@@ -1072,7 +1119,31 @@
 							</TransitionList>
 							<ObjectLists/>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{EFA366D1-CFC5-4040-85A4-A96999CB6078}" ShortID="761757958"/>
+								<MusicPlaylistItem Name="" ID="{EFA366D1-CFC5-4040-85A4-A96999CB6078}" ShortID="761757958">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{B4B14A44-B521-4305-8822-0C0B0987663E}" ShortID="588694619">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OldLady Ambi1 100bpm" ID="{8BA47879-8DEA-4F40-BF9C-A3113011D635}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A249601D-680D-4F2E-B05A-5BDBC7F35107}" ShortID="48258103">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OldLady Ambi2 100bpm" ID="{40048255-6D6A-4F57-8E3C-28085E7610E4}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{E8F245C0-9049-49DD-8AF0-7CA13DE27A93}" ShortID="578940858">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OldLady Ambi3 100bpm" ID="{F71FD57D-4A0F-490C-B406-A93F4EA9BA74}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
