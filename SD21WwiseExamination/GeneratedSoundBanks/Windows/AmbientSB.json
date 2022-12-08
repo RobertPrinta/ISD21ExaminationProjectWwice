@@ -16,7 +16,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "3004208980",
+    "Hash": "4005643110",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -26,7 +26,7 @@
       "Name": "Play_Dream_Machine_Ambience_3D",
       "ObjectPath": "\\Events\\Ambience\\Play_Dream_Machine_Ambience_3D",
       "GUID": "{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}",
-      "MaxAttenuation": "25.",
+      "MaxAttenuation": "25000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

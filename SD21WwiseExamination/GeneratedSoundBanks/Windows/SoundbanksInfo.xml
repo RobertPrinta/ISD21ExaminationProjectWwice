@@ -20,12 +20,12 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="3004208980">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="4005643110">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2189000874" Name="Play_Dream_Machine_Ambience_3D" ObjectPath="\Events\Ambience\Play_Dream_Machine_Ambience_3D" GUID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" MaxAttenuation="25." DurationType="Infinite">
+				<Event Id="2189000874" Name="Play_Dream_Machine_Ambience_3D" ObjectPath="\Events\Ambience\Play_Dream_Machine_Ambience_3D" GUID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" MaxAttenuation="25000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="5444127" Language="SFX">
 							<ShortName>Ambience\3D\Dream_Machine_Working5_3D.wav</ShortName>
@@ -962,12 +962,12 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="806359210">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="3907025059">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3581348024" Name="Play_Smal_Washing_Machine_Door" ObjectPath="\Events\Interactables\INThug\Large washing machine\Play_Smal_Washing_Machine_Door" GUID="{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.767195" DurationMax="5.148709">
+				<Event Id="3581348024" Name="Play_Smal_Washing_Machine_Door" ObjectPath="\Events\Interactables\INThug\Large washing machine\Play_Smal_Washing_Machine_Door" GUID="{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}" DurationType="OneShot" DurationMin="2.767195" DurationMax="5.148709">
 					<IncludedMemoryFiles>
 						<File Id="130602357" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WasherDoor\whasher Door2.wav</ShortName>
@@ -991,7 +991,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2073058824" Name="PlayLarge_washing_machine" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machine" GUID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" MaxAttenuation="10." DurationType="OneShot" DurationMin="3.930326" DurationMax="6.181608">
+				<Event Id="2073058824" Name="PlayLarge_washing_machine" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machine" GUID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" DurationType="OneShot" DurationMin="3.930326" DurationMax="6.181608">
 					<IncludedMemoryFiles>
 						<File Id="653913186" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping.wav</ShortName>
@@ -999,7 +999,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2929248152" Name="PlayLarge_washing_machineDoor" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineDoor" GUID="{23842A14-CFB7-4BA3-B690-5B87E0D8BFF0}" MaxAttenuation="10." DurationType="OneShot" DurationMin="4.603756" DurationMax="4.954175">
+				<Event Id="2929248152" Name="PlayLarge_washing_machineDoor" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineDoor" GUID="{23842A14-CFB7-4BA3-B690-5B87E0D8BFF0}" DurationType="OneShot" DurationMin="4.603756" DurationMax="4.954175">
 					<IncludedMemoryFiles>
 						<File Id="365028018" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\sliding.wav</ShortName>
@@ -1007,7 +1007,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1899315439" Name="PlayLarge_washing_machineEnd" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineEnd" GUID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" MaxAttenuation="10." DurationType="OneShot" DurationMin="0.504773" DurationMax="1.225705">
+				<Event Id="1899315439" Name="PlayLarge_washing_machineEnd" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineEnd" GUID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" DurationType="OneShot" DurationMin="0.504773" DurationMax="1.225705">
 					<IncludedMemoryFiles>
 						<File Id="152970793" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V5.wav</ShortName>
