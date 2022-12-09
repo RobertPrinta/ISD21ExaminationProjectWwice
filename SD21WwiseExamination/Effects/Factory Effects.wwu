@@ -1497,8 +1497,9 @@
 										<Property Name="Diffusion" Type="Real32" Value="45"/>
 										<Property Name="ERLevel" Type="Real32" Value="-17"/>
 										<Property Name="ERPattern" Type="int32" Value="30"/>
-										<Property Name="Filter1Freq" Type="Real32" Value="300"/>
-										<Property Name="Filter1Gain" Type="Real32" Value="4"/>
+										<Property Name="EnableToneControls" Type="bool" Value="True"/>
+										<Property Name="Filter1Freq" Type="Real32" Value="220"/>
+										<Property Name="Filter1Gain" Type="Real32" Value="-4.5"/>
 										<Property Name="Filter2Freq" Type="Real32" Value="2480"/>
 										<Property Name="Filter2Gain" Type="Real32" Value="-24"/>
 										<Property Name="Filter3Freq" Type="Real32" Value="9290"/>
@@ -1508,7 +1509,7 @@
 										<Property Name="PreDelay" Type="Real32" Value="128"/>
 										<Property Name="ReverbLevel" Type="Real32" Value="-16"/>
 										<Property Name="RoomShape" Type="Real32" Value="69"/>
-										<Property Name="RoomSize" Type="Real32" Value="38"/>
+										<Property Name="RoomSize" Type="Real32" Value="9"/>
 										<Property Name="StereoWidth" Type="Real32" Value="150"/>
 									</PropertyList>
 								</Effect>

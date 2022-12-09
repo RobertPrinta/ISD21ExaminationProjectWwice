@@ -220,6 +220,14 @@
 											</ReferenceList>
 											<ObjectLists/>
 										</AuxBus>
+										<AuxBus Name="StairCase" ID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Bathroom1" ID="{1969D30F-C165-45C0-B290-DE3ED07A7AA3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</AuxBus>
 									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
