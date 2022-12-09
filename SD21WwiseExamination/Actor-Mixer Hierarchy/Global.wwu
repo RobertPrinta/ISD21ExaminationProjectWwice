@@ -4,6 +4,9 @@
 		<WorkUnit Name="Global" ID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}" OwnerID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Player_Interactables" ID="{27F2F745-29A0-43FB-B1EF-3DE17A7AB1DB}" ShortID="305329107">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
