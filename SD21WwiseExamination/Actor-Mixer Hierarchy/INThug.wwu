@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="INThug" ID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}" OwnerID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="Washing_Maschine" ID="{6C278A39-B776-48DF-A937-BD1A0C9720AF}" ShortID="404785139">
+				<ActorMixer Name="Washing_Maschine_Room" ID="{6C278A39-B776-48DF-A937-BD1A0C9720AF}" ShortID="404785139">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Pitch" Type="int32">

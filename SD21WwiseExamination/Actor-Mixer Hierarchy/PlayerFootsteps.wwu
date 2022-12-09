@@ -2802,6 +2802,211 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps_Grass (4)" ID="{30104A6B-C677-4DF7-B144-7528190A4CE4}" ShortID="690873279">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="StairCase" ID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Grass (4)" ID="{7BCE1156-17BC-4AFB-9531-D46B1C280E0A}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (4).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="114343297"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Grass (4)" ID="{7BCE1156-17BC-4AFB-9531-D46B1C280E0A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Grass (2)" ID="{D500FB31-0149-43AE-99CD-03CF0FDC7972}" ShortID="668627869">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="StairCase" ID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Grass (2)" ID="{D58A5399-2AA9-46F5-AE26-2F40F55187A2}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="218680643"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Grass (2)" ID="{D58A5399-2AA9-46F5-AE26-2F40F55187A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Grass (1)" ID="{8843DEF0-884A-4732-BA7C-2362B993C37E}" ShortID="256321164">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="StairCase" ID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Grass (1)" ID="{A655078F-8BFD-4216-920B-C3074AA6D2CD}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (1).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="801546593"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Grass (1)" ID="{A655078F-8BFD-4216-920B-C3074AA6D2CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Grass (3)" ID="{450548E3-619A-4286-BC13-E784B0DA7953}" ShortID="920152683">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="StairCase" ID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Grass (3)" ID="{53366416-8625-4AFA-84E3-3BC509DD9695}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (3).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="381794049"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Grass (3)" ID="{53366416-8625-4AFA-84E3-3BC509DD9695}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Grass (5)" ID="{DC4D069B-D56F-4565-A257-8826109086AA}" ShortID="100365144">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="StairCase" ID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Grass (5)" ID="{8419A1C1-38D6-4453-B77F-00BF95DCAFE7}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (5).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="932216627"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Grass (5)" ID="{8419A1C1-38D6-4453-B77F-00BF95DCAFE7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Grass (6)" ID="{658EDF36-5626-41A0-8A4A-1914885E5B1B}" ShortID="952266300">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="StairCase" ID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Grass (6)" ID="{2581684E-F864-4E2A-8CA1-585636532F8E}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (6).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="46418895"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Grass (6)" ID="{2581684E-F864-4E2A-8CA1-585636532F8E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Grass (7)" ID="{0C8884D7-1135-43C4-8909-30E4B72E3943}" ShortID="379933254">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="StairCase" ID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Grass (7)" ID="{D6C99E97-8EAF-4CAA-AD4F-F484E9474FF0}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (7).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="289172952"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Grass (7)" ID="{D6C99E97-8EAF-4CAA-AD4F-F484E9474FF0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
