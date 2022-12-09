@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="1858466019">
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="3962808560">
 			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
 			<ShortName>UiSB</ShortName>
 			<Path>UiSB.bnk</Path>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2106213153">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="88734658">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -330,23 +330,6 @@
 							<Path>SFX\Music\OldLady\OldLady Ambi3 100bpm_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{986CE454-595E-457B-A92A-89F99965AFA9}">
-							<Media>
-								<File Id="112581485"/>
-								<File Id="173370905"/>
-								<File Id="462796641"/>
-								<File Id="630468742"/>
-								<File Id="776105822"/>
-								<File Id="831688287"/>
-								<File Id="925984506"/>
-								<File Id="929162355"/>
-								<File Id="934320070"/>
-								<File Id="1051834861"/>
-								<File Id="1067109446"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
 				</Event>
 				<Event Id="3965456208" Name="Play_Runner" ObjectPath="\Events\PlayMusic\Play_Runner" GUID="{7C574E14-4AE8-42DB-B631-328664FFED03}" DurationType="Infinite">
 					<SwitchContainers/>
@@ -361,14 +344,6 @@
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
-				<StateGroup Id="893472011" Name="OldLady_LVL" ObjectPath="\States\Act_State\OldLady_LVL" GUID="{568D98EA-22AC-4E25-AE13-513AD3F9A270}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Act_State\OldLady_LVL\None" GUID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
-						<State Id="3548830618" Name="OldLady_Act1" ObjectPath="\States\Act_State\OldLady_LVL\OldLady_Act1" GUID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
-						<State Id="3548830617" Name="OldLady_Act2" ObjectPath="\States\Act_State\OldLady_LVL\OldLady_Act2" GUID="{508B344F-C35A-4116-9EB5-80E22DDCC24A}"/>
-						<State Id="3548830616" Name="OldLady_Act3" ObjectPath="\States\Act_State\OldLady_LVL\OldLady_Act3" GUID="{5411FB4F-64CF-4F8F-9B63-5562422834BE}"/>
-					</States>
-				</StateGroup>
 				<StateGroup Id="1025315780" Name="Thug_LVL_State" ObjectPath="\States\Act_State\Thug_LVL_State" GUID="{CE361D83-0A5A-40ED-A09B-FB19152B38D8}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Act_State\Thug_LVL_State\None" GUID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>

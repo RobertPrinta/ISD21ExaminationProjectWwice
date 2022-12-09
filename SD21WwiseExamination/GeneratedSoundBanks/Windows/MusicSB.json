@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "2106213153",
+    "Hash": "88734658",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -546,46 +546,6 @@
         "ShortName": "Music\\OldLady\\OldLady Ambi3 100bpm.wav",
         "Path": "SFX\\Music\\OldLady\\OldLady Ambi3 100bpm_9EDFC787.wem"
        }
-      ],
-      "SwitchContainers": [
-       {
-        "SwitchValue": "{986CE454-595E-457B-A92A-89F99965AFA9}",
-        "Media": [
-         {
-          "Id": "112581485"
-         },
-         {
-          "Id": "173370905"
-         },
-         {
-          "Id": "462796641"
-         },
-         {
-          "Id": "630468742"
-         },
-         {
-          "Id": "776105822"
-         },
-         {
-          "Id": "831688287"
-         },
-         {
-          "Id": "925984506"
-         },
-         {
-          "Id": "929162355"
-         },
-         {
-          "Id": "934320070"
-         },
-         {
-          "Id": "1051834861"
-         },
-         {
-          "Id": "1067109446"
-         }
-        ]
-       }
       ]
      },
      {
@@ -656,38 +616,6 @@
      }
     ],
     "StateGroups": [
-     {
-      "Id": "893472011",
-      "Name": "OldLady_LVL",
-      "ObjectPath": "\\States\\Act_State\\OldLady_LVL",
-      "GUID": "{568D98EA-22AC-4E25-AE13-513AD3F9A270}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Act_State\\OldLady_LVL\\None",
-        "GUID": "{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"
-       },
-       {
-        "Id": "3548830618",
-        "Name": "OldLady_Act1",
-        "ObjectPath": "\\States\\Act_State\\OldLady_LVL\\OldLady_Act1",
-        "GUID": "{986CE454-595E-457B-A92A-89F99965AFA9}"
-       },
-       {
-        "Id": "3548830617",
-        "Name": "OldLady_Act2",
-        "ObjectPath": "\\States\\Act_State\\OldLady_LVL\\OldLady_Act2",
-        "GUID": "{508B344F-C35A-4116-9EB5-80E22DDCC24A}"
-       },
-       {
-        "Id": "3548830616",
-        "Name": "OldLady_Act3",
-        "ObjectPath": "\\States\\Act_State\\OldLady_LVL\\OldLady_Act3",
-        "GUID": "{5411FB4F-64CF-4F8F-9B63-5562422834BE}"
-       }
-      ]
-     },
      {
       "Id": "1025315780",
       "Name": "Thug_LVL_State",

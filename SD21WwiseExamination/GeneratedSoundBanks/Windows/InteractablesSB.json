@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "3907025059",
+    "Hash": "3092735806",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -68,8 +68,8 @@
       "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machine",
       "GUID": "{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}",
       "DurationType": "OneShot",
-      "DurationMin": "3.930326",
-      "DurationMax": "6.181608",
+      "DurationMin": "3.925788",
+      "DurationMax": "6.188754",
       "IncludedMemoryFiles": [
        {
         "Id": "653913186",

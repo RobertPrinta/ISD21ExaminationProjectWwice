@@ -51,6 +51,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	187046019	LargeRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\LargeRoom	
 	1245295233	MediumRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoom	
+	1756167208	StairCase			\Default Work Unit\Master Audio Bus\Master\Rooms\StairCase	
 	1837650191	MediumRoomAbs			\Default Work Unit\Master Audio Bus\Master\Rooms\MediumRoomAbs	
 	1847104687	DreamRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\DreamRoom	
 	2933838247	SmallRoom			\Default Work Unit\Master Audio Bus\Master\Rooms\SmallRoom	
@@ -58,6 +59,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	506891147	Plate_Small	Wwise RoomVerb			
+	535667444	Bathroom1	Wwise Matrix Reverb			
 	602546716	Room_Large	Wwise RoomVerb			
 	1588715066	Echoes_Linear	Wwise Delay			
 	1990128658	Room_Medium	Wwise RoomVerb			
