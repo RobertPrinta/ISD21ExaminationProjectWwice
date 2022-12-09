@@ -143,6 +143,18 @@
 													</RTPCList>
 												</Property>
 											</PropertyList>
+											<ChildrenList>
+												<Bus Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+													</PropertyList>
+													<ObjectLists/>
+												</Bus>
+												<Bus Name="AmbientHeadLockt" ID="{D6E0A904-CAC0-47DA-AB88-04FF3204BD6A}">
+													<ObjectLists/>
+												</Bus>
+											</ChildrenList>
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="PlayerMaster" ID="{7AF732C7-47D3-44A2-9848-0E166421A91C}">
@@ -156,6 +168,17 @@
 															<ObjectLists/>
 														</Bus>
 													</ChildrenList>
+													<ObjectLists/>
+												</Bus>
+											</ChildrenList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="DialogueMaster" ID="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}">
+											<ChildrenList>
+												<Bus Name="Dialogue3D" ID="{D60E940E-50D9-4A9A-A3AD-BA82FF090F7A}">
+													<ObjectLists/>
+												</Bus>
+												<Bus Name="DialogueHeadLockt" ID="{B1C43746-F551-4B72-8B9A-FA01BCAE509C}">
 													<ObjectLists/>
 												</Bus>
 											</ChildrenList>
