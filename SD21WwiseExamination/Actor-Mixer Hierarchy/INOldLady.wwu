@@ -1,6 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}" SchemaVersion="103" RootDocumentID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" ParentDocumentID="{4C01C850-0A01-4D2C-9087-CD58724179FC}">
 	<AudioObjects>
-		<WorkUnit Name="INOldLady" ID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}" OwnerID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Nested"/>
+		<WorkUnit Name="INOldLady" ID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}" OwnerID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="PiclkUpKey" ID="{B4ACDA13-B87D-4BB9-A8FB-BFCB0A462197}" ShortID="487625069">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PickupKey" ID="{B877A0F0-DB69-46AC-AB17-39FE2CBAFC4F}" ShortID="60081786">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PickupKey" ID="{F1E8F443-02B3-4B6B-B607-3BD7F642753A}">
+									<PropertyList>
+										<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Interactables\OldLady\PickUpKey\PickupKey.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="961618389"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PickupKey" ID="{F1E8F443-02B3-4B6B-B607-3BD7F642753A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="PickUpPapper" ID="{27EF12A4-55B5-4DB6-AEE3-111FD20691F3}" ShortID="970719825">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Book_Close" ID="{2D9AFE9F-143A-4AE8-8320-95D7DD5C2C91}" ShortID="755883573">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Book_Close" ID="{3BDA9434-DF67-4EB1-9F2D-BF80919E4FAE}">
+									<Language>SFX</Language>
+									<AudioFile>Interactables\OldLady\PickUpPapper\Book_Close.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="110249580"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Book_Close" ID="{3BDA9434-DF67-4EB1-9F2D-BF80919E4FAE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Book_Open" ID="{F359D83B-F0A8-48CA-99FA-53302D4DDD2D}" ShortID="306609581">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Book_Open" ID="{F0860CEA-070C-43F1-8ADD-3CC00A4F6756}">
+									<Language>SFX</Language>
+									<AudioFile>Interactables\OldLady\PickUpPapper\Book_Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="483252778"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Book_Open" ID="{F0860CEA-070C-43F1-8ADD-3CC00A4F6756}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Book_Read" ID="{EAA34ABB-4DE6-41EE-8E76-326A43C5648E}" ShortID="475657077">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Book_Read" ID="{777C7DF1-A44C-44A6-BCBF-4867C8C4AA9A}">
+									<Language>SFX</Language>
+									<AudioFile>Interactables\OldLady\PickUpPapper\Book_Read.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="224761974"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Book_Read" ID="{777C7DF1-A44C-44A6-BCBF-4867C8C4AA9A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
