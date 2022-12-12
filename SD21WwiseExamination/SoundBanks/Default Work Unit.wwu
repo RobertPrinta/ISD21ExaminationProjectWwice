@@ -56,9 +56,9 @@
 						</Property>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{CBBDF146-BD8D-42E1-8EA9-B2613361CE47}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Headlocked_Ambience" ID="{75515714-049D-48B2-9FA0-6190615A2562}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Dream_Machine_Heart_Monitor_3D" ID="{1EF2627A-B366-48C7-AC17-93F48A72DBEF}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dream_Machine_Heart_Monitor_3D" ID="{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

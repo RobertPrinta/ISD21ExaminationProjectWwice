@@ -5,14 +5,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	1997076556	UI_Open_Menu			\UI\UI_Open_Menu	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	197508550	UI_VCR_Noise	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_VCR_Noise_696A9007.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_VCR_Noise		17720
-	409769837	UI_Button_Hover	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Hover_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Hover		1835
-	476123600	UI_Button_Click	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Click_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Click		8599
-	515792353	UI_VCR_Noise_Stop	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_VCR_Noise_Stop_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_VCR_Noise_Stop		4031
-	598926904	UI_Turn_On_Sine	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Turn_On_Sine_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Turn_On_Sine		1296
-	685597690	UI_Button_Press_Heavy	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Press_Heavy_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Press_Heavy		4464
-	819179302	UI_Return_To_Game_Noise	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Return_To_Game_Noise_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Return_To_Game_Noise		2658
+	197508550	UI_VCR_Noise	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_VCR_Noise_696A9007.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_VCR_Noise		17720
+	409769837	UI_Button_Hover	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Hover_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Hover		1835
+	476123600	UI_Button_Click	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Click_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Click		8599
+	515792353	UI_VCR_Noise_Stop	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_VCR_Noise_Stop_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_VCR_Noise_Stop		4031
+	598926904	UI_Turn_On_Sine	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Turn_On_Sine_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Turn_On_Sine		1296
+	685597690	UI_Button_Press_Heavy	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Press_Heavy_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Press_Heavy		4464
+	819179302	UI_Return_To_Game_Noise	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Return_To_Game_Noise_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Return_To_Game_Noise		2658
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	1057112490	UI_Tape_Noise	C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Tape_Noise_696A9007.wem	1057112490.wem	\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Tape_Noise	
+	1057112490	UI_Tape_Noise	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Tape_Noise_696A9007.wem	1057112490.wem	\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Tape_Noise	
 

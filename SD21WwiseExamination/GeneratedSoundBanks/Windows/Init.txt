@@ -36,16 +36,21 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4176647666	Ambi_Vol			\System Vol Sliders\Ambi_Vol	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	205406560	DialogueHeadLockt			\Default Work Unit\Master Audio Bus\Master\MainINgame\DialogueMaster\DialogueHeadLockt	
+	713061438	Dialogue3D			\Default Work Unit\Master Audio Bus\Master\MainINgame\DialogueMaster\Dialogue3D	
 	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\Master\MainINgame\PlayerMaster\PlayerLocomotion\PlayerCloth	
 	1359360203	Rooms			\Default Work Unit\Master Audio Bus\Master\Rooms	
 	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\Master\MainINgame\AmbientMaster	
 	1551306167	Ui			\Default Work Unit\Master Audio Bus\Master\Ui	
 	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\Master\MainINgame\PlayerMaster\PlayerLocomotion\PlayerFootsteps	
 	1754727609	MainINgame			\Default Work Unit\Master Audio Bus\Master\MainINgame	
+	2219949300	AmbientHeadLockt			\Default Work Unit\Master Audio Bus\Master\MainINgame\AmbientMaster\AmbientHeadLockt	
 	2343802269	PlayerLocomotion			\Default Work Unit\Master Audio Bus\Master\MainINgame\PlayerMaster\PlayerLocomotion	
+	2645497833	DialogueMaster			\Default Work Unit\Master Audio Bus\Master\MainINgame\DialogueMaster	
 	3199789248	MusicMaster			\Default Work Unit\Master Audio Bus\Master\MainINgame\MusicMaster	
 	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\Master\MainINgame\PlayerMaster	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3934156282	Ambient3D			\Default Work Unit\Master Audio Bus\Master\MainINgame\AmbientMaster\Ambient3D	
 	4056684167	Master			\Default Work Unit\Master Audio Bus\Master	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes

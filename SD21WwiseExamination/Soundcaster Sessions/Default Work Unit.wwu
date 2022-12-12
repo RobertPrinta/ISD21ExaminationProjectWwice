@@ -34,14 +34,6 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}"/>
-							<Position X="3" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Dream_Machine_Heart_Monitor_3D" ID="{1EF2627A-B366-48C7-AC17-93F48A72DBEF}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}"/>
-							<Position X="3" Y="1"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Headlocked_Ambience" ID="{75515714-049D-48B2-9FA0-6190615A2562}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
 							<Position X="3" Y="2"/>
 						</Module>
@@ -82,10 +74,6 @@
 				</SoundcasterSession>
 				<SoundcasterSession Name="UI Menu" ID="{D54B3266-E763-4F8A-90FC-E68C18147A57}">
 					<ModuleList>
-						<Module>
-							<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}"/>
-							<Position X="0" Y="0"/>
-						</Module>
 						<Module>
 							<ObjectRef Name="AB_Small_Room_Headlocked" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
 							<Position X="0" Y="1"/>
