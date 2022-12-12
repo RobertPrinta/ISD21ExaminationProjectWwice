@@ -8,7 +8,7 @@
 						<Action Name="" ID="{BA8F2BFC-344F-490F-B412-6A8E76099167}" ShortID="884674825">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Waterpipes_3D" ID="{C7352DAF-3270-451A-A4BE-F39388724763}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+									<ObjectRef Name="AB_Waterpipes_3D" ID="{C7352DAF-3270-451A-A4BE-F39388724763}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

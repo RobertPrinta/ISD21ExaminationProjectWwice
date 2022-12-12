@@ -30,14 +30,14 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+									<ObjectRef Name="AB_FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{0BE98FE7-A040-4456-8281-54A646F800D8}" ShortID="100235362">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Fire_Crackle_3D" ID="{C45AA3E0-6302-4959-B53C-6BE40F10E80C}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+									<ObjectRef Name="AB_Fire_Crackle_3D" ID="{C45AA3E0-6302-4959-B53C-6BE40F10E80C}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,7 +52,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+									<ObjectRef Name="AB_FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -63,7 +63,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Fire_Crackle_3D" ID="{C45AA3E0-6302-4959-B53C-6BE40F10E80C}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+									<ObjectRef Name="AB_Fire_Crackle_3D" ID="{C45AA3E0-6302-4959-B53C-6BE40F10E80C}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

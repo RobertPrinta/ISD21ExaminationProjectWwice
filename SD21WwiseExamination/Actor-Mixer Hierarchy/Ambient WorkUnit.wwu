@@ -96,6 +96,29 @@
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
+										<Sound Name="Basement" ID="{359EC2F6-61D9-46E2-B9FD-A05AE59DAC05}" ShortID="478626523">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Basement" ID="{9A07678A-97BE-482D-9508-4D6643EE3D87}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Headlocked\Basement.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="105010681"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Basement" ID="{9A07678A-97BE-482D-9508-4D6643EE3D87}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 									<GroupingInfo>
@@ -103,8 +126,17 @@
 											<GroupingBehavior>
 												<ItemRef Name="AB_RoomType" ID="{C18F853B-CB59-40BB-868C-034F85F0BC12}"/>
 											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Basement" ID="{359EC2F6-61D9-46E2-B9FD-A05AE59DAC05}"/>
+											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Basement" ID="{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"/>
+												<ItemList>
+													<ItemRef Name="Basement" ID="{359EC2F6-61D9-46E2-B9FD-A05AE59DAC05}"/>
+												</ItemList>
+											</Grouping>
 											<Grouping>
 												<SwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
 												<ItemList>
@@ -434,7 +466,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Haunting_Portal_3D" ID="{C29F9FEB-2DE7-49E8-A7BE-FBF9B2103BF6}" ShortID="332069428">
+								<Sound Name="AB_Haunting_Portal_3D" ID="{C29F9FEB-2DE7-49E8-A7BE-FBF9B2103BF6}" ShortID="332069428">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -457,7 +489,7 @@
 										<ActiveSource Name="Haunting_Portal_3D" ID="{128C7D1E-8D8E-48B6-A82A-6FBBD1553B9F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="City_Traffic_3D" ID="{19B94BAB-CF29-42D6-B5D0-41FEDD454B27}" ShortID="941912756">
+								<Sound Name="AB_City_Traffic_3D" ID="{19B94BAB-CF29-42D6-B5D0-41FEDD454B27}" ShortID="941912756">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -478,29 +510,6 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="City_Traffic_3D" ID="{5B34B9C0-5653-467B-B8DD-532DF70D95A4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Train_Passing_By_3D" ID="{64F7F5BA-C7A9-4DA7-ADFF-21FD621B86DF}" ShortID="713773166">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Train_Passing_By_3D" ID="{9801A4FB-0207-44F6-B58F-B0F27DAB681C}">
-											<Language>SFX</Language>
-											<AudioFile>Ambience\3D\Train_Passing_By_3D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="684294779"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Train_Passing_By_3D" ID="{9801A4FB-0207-44F6-B58F-B0F27DAB681C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1125,7 +1134,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Train_Passing_By_1_3D" ID="{D5F67DC2-536D-4EA1-A44E-7B8412A672A7}" ShortID="92414022">
+										<Sound Name="AB_Train_Passing_By_1_3D" ID="{D5F67DC2-536D-4EA1-A44E-7B8412A672A7}" ShortID="92414022">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 											</PropertyList>
@@ -1154,7 +1163,7 @@
 												<ActiveSource Name="Train_Passing_By_1_3D" ID="{1CB0B204-E24B-40B6-94EC-80C511B78D92}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Train_Passing_By_2_3D" ID="{C3D44197-38C5-413A-8B48-354CE686AA71}" ShortID="566618464">
+										<Sound Name="AB_Train_Passing_By_2_3D" ID="{C3D44197-38C5-413A-8B48-354CE686AA71}" ShortID="566618464">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 											</PropertyList>
@@ -1183,7 +1192,7 @@
 												<ActiveSource Name="Train_Passing_By_2_3D" ID="{3E24C6C9-9791-4307-A2BB-FB01A4E4C3AE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="City_Traffic_From_Open_Window_3D" ID="{D4AF333E-12FB-4C44-8131-D5289C7F74A2}" ShortID="196876343">
+										<Sound Name="AB_City_Traffic_From_Open_Window_3D" ID="{D4AF333E-12FB-4C44-8131-D5289C7F74A2}" ShortID="196876343">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -1226,7 +1235,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" ShortID="371324055">
+										<Sound Name="AB_FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" ShortID="371324055">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
@@ -1280,7 +1289,7 @@
 												<ActiveSource Name="Fire_Start" ID="{BD8D0CED-ECEC-472C-A45F-1B93FA94AA00}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<RandomSequenceContainer Name="Fire_Crackle_3D" ID="{C45AA3E0-6302-4959-B53C-6BE40F10E80C}" ShortID="741871424">
+										<RandomSequenceContainer Name="AB_Fire_Crackle_3D" ID="{C45AA3E0-6302-4959-B53C-6BE40F10E80C}" ShortID="741871424">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="InitialDelay" Type="Real64">
@@ -1474,7 +1483,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
-								<Sound Name="Waterpipes_3D" ID="{C7352DAF-3270-451A-A4BE-F39388724763}" ShortID="1047668411">
+								<Sound Name="AB_Waterpipes_3D" ID="{C7352DAF-3270-451A-A4BE-F39388724763}" ShortID="1047668411">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
