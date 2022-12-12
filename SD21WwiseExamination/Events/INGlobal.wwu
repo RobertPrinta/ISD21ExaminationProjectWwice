@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}" SchemaVersion="103" RootDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" ParentDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}">
+	<Events>
+		<WorkUnit Name="INGlobal" ID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}" OwnerID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Drawer" ID="{776FED0A-8D09-438D-AF2A-93D11E06229A}">
+					<ChildrenList>
+						<Action Name="" ID="{37EDA9F6-A343-4F6B-897D-8B6F7098AF38}" ShortID="689735186">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drawer" ID="{320699BB-098A-4807-88BA-840453803134}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

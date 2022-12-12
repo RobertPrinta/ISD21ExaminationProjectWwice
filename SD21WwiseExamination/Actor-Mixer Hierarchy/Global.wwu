@@ -18,7 +18,17 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Drawer" ID="{320699BB-098A-4807-88BA-840453803134}" ShortID="887530862">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
