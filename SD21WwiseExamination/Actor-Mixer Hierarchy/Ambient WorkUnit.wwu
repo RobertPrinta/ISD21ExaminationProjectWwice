@@ -1180,35 +1180,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="FireLoop" ID="{914ECC3C-0E14-46CA-96C0-683214C125E4}" ShortID="288430395">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="FireLoop" ID="{92927774-635C-48F7-824C-CDA9F9D70C18}">
-													<Language>SFX</Language>
-													<AudioFile>Ambience\3D\FireLoop.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="636147898"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="FireLoop" ID="{92927774-635C-48F7-824C-CDA9F9D70C18}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Fire_Crackle_1_3D" ID="{35A5F721-6657-49F5-91A2-FC0EEC23D83A}" ShortID="508272674">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -1282,6 +1253,32 @@
 											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Fire_Crackle_3_3D" ID="{50668385-3BCE-42D7-941B-500809416AA6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" ShortID="371324055">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FireLoop_3D" ID="{503D3CAD-179D-4F91-9500-81E7AE415790}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\FireLoop_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="887081129"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FireLoop_3D" ID="{503D3CAD-179D-4F91-9500-81E7AE415790}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
