@@ -34,11 +34,11 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Dream_Machine_Heart_Monitor_3D" ID="{1EF2627A-B366-48C7-AC17-93F48A72DBEF}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<ObjectRef Name="Play_Dream_Machine_Heart_Monitor_3D" ID="{1EF2627A-B366-48C7-AC17-93F48A72DBEF}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
@@ -83,7 +83,7 @@
 				<SoundcasterSession Name="UI Menu" ID="{D54B3266-E763-4F8A-90FC-E68C18147A57}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<ObjectRef Name="Play_Dream_Machine_Ambience_3D" ID="{68A1EE6E-F1CC-43E1-8704-CFFFD70BFE65}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
