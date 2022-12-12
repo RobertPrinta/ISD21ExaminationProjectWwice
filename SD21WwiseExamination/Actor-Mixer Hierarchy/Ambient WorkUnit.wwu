@@ -156,12 +156,6 @@
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
-												<SwitchRef Name="Basement" ID="{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"/>
-												<ItemList>
-													<ItemRef Name="Basement" ID="{359EC2F6-61D9-46E2-B9FD-A05AE59DAC05}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
 												<SwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
 												<ItemList>
 													<ItemRef Name="AB_RoomType" ID="{C18F853B-CB59-40BB-868C-034F85F0BC12}"/>
@@ -265,14 +259,6 @@
 														<ItemRef Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
-												<GroupingList>
-													<Grouping>
-														<SwitchRef Name="Laundromat" ID="{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"/>
-														<ItemList>
-															<ItemRef Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
-														</ItemList>
-													</Grouping>
-												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
 									</ChildrenList>
