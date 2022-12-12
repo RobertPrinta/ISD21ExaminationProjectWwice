@@ -4,6 +4,13 @@
 		<WorkUnit Name="Theme Music Work Unit" ID="{B2780D92-C5EB-4024-8856-2F8CCD5E7A41}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="ThemeMusic" ID="{129B9825-DDCC-43E3-A317-F00513436ABB}" ShortID="1023066286">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>

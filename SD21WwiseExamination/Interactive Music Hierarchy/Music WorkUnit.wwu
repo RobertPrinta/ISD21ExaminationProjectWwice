@@ -6,6 +6,11 @@
 				<MusicSwitchContainer Name="OldLadyMusic" ID="{D67909C7-5B3B-4E47-A34F-48168EC235FD}" ShortID="93409855">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

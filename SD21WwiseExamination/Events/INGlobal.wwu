@@ -25,6 +25,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="KeyPad" ID="{65509D48-69BB-45C1-BBA0-0E516FDACDD1}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

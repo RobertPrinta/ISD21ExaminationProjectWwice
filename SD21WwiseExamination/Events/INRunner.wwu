@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Moving_a_painting" ID="{D4279477-ABD4-41C0-B33D-F33245318570}">
+					<ChildrenList>
+						<Action Name="" ID="{7C36DD66-4938-49F0-A1A7-CD8CE1D5B806}" ShortID="984110071">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moving a painting" ID="{42560EFA-2BDC-4C16-9DDF-68A8668E00C7}" WorkUnitID="{890B7C4F-7E06-4CF2-BC08-88715BB3FD08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

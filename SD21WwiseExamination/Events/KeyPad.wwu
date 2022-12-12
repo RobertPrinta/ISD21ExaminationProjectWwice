@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65509D48-69BB-45C1-BBA0-0E516FDACDD1}" SchemaVersion="103" RootDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" ParentDocumentID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}">
+	<Events>
+		<WorkUnit Name="KeyPad" ID="{65509D48-69BB-45C1-BBA0-0E516FDACDD1}" OwnerID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_KeyPad_Button" ID="{ECA41777-D9C6-4668-B65C-AC0E495D60D8}">
+					<ChildrenList>
+						<Action Name="" ID="{B80107C0-64AB-4545-A731-0CD6D57C94A5}" ShortID="695230009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="KeyPad_Button" ID="{4ABBCD25-8666-4B5D-9DCB-A93E32B45A9C}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_KeyPad_Correct" ID="{FDACEF61-D2FA-49C4-A23F-8E8ABB9C3F47}">
+					<ChildrenList>
+						<Action Name="" ID="{EF7C388C-4F68-4FFB-96C2-BEF86D92C82F}" ShortID="683544494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="KeyPad_Correct" ID="{94ED398E-E25C-415E-8DD2-92C6A5DEC5D9}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_KeyPad_Error" ID="{E326516C-53DC-4690-AAF8-0C65B0C97134}">
+					<ChildrenList>
+						<Action Name="" ID="{63943EFA-B474-4739-BAD1-D629CEB73567}" ShortID="56607114">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="KeyPad_Error" ID="{81C061C3-50F0-4AAD-A73F-656FAE7D367A}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

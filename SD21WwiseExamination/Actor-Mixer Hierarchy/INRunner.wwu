@@ -291,6 +291,265 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<ActorMixer Name="Moving a painting3d" ID="{B6AEC419-9216-4F09-9076-163246B83E7D}" ShortID="412272752">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Moving a painting" ID="{42560EFA-2BDC-4C16-9DDF-68A8668E00C7}" ShortID="554224445">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hidden_Painting_Slide (1)" ID="{7DCE79C1-D583-4C83-AAFD-DF991E036E99}" ShortID="379629731">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (1)" ID="{B05FC09D-DF9D-4F63-A117-A72237D3579D}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (1).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="837272195"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (1)" ID="{B05FC09D-DF9D-4F63-A117-A72237D3579D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hidden_Painting_Slide (2)" ID="{26C25B8F-812F-4228-A2A3-5A6216A189B5}" ShortID="718424039">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (2)" ID="{768BA6D8-49F8-48AA-9A30-CB23A56A78D7}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (2).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="410205664"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (2)" ID="{768BA6D8-49F8-48AA-9A30-CB23A56A78D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hidden_Painting_Slide (3)" ID="{8AE9FACB-871A-4569-9D53-07908DD3B5A0}" ShortID="821077551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (3)" ID="{1C18DE08-F3CF-4D7A-A60C-579D446DEE0B}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (3).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="282396835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (3)" ID="{1C18DE08-F3CF-4D7A-A60C-579D446DEE0B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hidden_Painting_Slide (4)" ID="{2E310470-93C8-4046-A4B8-22403F1A07A0}" ShortID="995335140">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (4)" ID="{1D081151-8C60-4628-8F9A-D43AE22CE369}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (4).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="249437892"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (4)" ID="{1D081151-8C60-4628-8F9A-D43AE22CE369}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hidden_Painting_Slide (5)" ID="{DBCCD703-EF89-4E4B-9B6D-AE0FE5EA8FA5}" ShortID="711545827">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (5)" ID="{1B7CA050-AAA7-4E7A-872A-6F7F9D6FB048}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (5).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973438950"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (5)" ID="{1B7CA050-AAA7-4E7A-872A-6F7F9D6FB048}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hidden_Painting_Slide (6)" ID="{74AF279B-E759-4523-925B-BAECF47D0B02}" ShortID="574777918">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (6)" ID="{ED80E890-AE83-42B2-B670-4A2DB818E945}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (6).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="782403885"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (6)" ID="{ED80E890-AE83-42B2-B670-4A2DB818E945}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hidden_Painting_Slide (7)" ID="{3A13AAEC-1148-4C9D-A14A-ADE4EE584372}" ShortID="705549176">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (7)" ID="{3118BE7B-9678-447E-8EB9-6497535A853A}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (7).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="854511259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (7)" ID="{3118BE7B-9678-447E-8EB9-6497535A853A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hidden_Painting_Slide (8)" ID="{6C388CE3-6FEA-4284-9653-A7F67F16017D}" ShortID="215282552">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (8)" ID="{765F9D47-927B-4DFB-8D30-92CDF48E565A}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (8).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="373414315"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (8)" ID="{765F9D47-927B-4DFB-8D30-92CDF48E565A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hidden_Painting_Slide (9)" ID="{770BEEAA-BB28-4D8A-9461-AF1E349A9F93}" ShortID="1071602688">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (9)" ID="{959C18FB-0074-41FC-8C13-91F4AB5493A8}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (9).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="232160825"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (9)" ID="{959C18FB-0074-41FC-8C13-91F4AB5493A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hidden_Painting_Slide (10)" ID="{E16F6D4B-89DC-49B6-94C3-EB8FF73DD296}" ShortID="70441983">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hidden_Painting_Slide (10)" ID="{942D52FE-C12E-4156-AC5D-58B044E0F561}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Runner\Moving A Painting\Hidden_Painting_Slide (10).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1068175776"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hidden_Painting_Slide (10)" ID="{942D52FE-C12E-4156-AC5D-58B044E0F561}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
