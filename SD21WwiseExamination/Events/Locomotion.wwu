@@ -12,6 +12,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{12E5522E-D3C3-46ED-88DE-9F73B3A25597}" ShortID="266802936">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clothing" ID="{9F50AE32-4A1A-4396-8FC8-8E6897259CFE}" WorkUnitID="{442DBE27-6D15-4C8D-8B88-D252A59660A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>
