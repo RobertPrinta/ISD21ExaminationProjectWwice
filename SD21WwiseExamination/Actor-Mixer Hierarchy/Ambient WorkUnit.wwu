@@ -873,6 +873,7 @@
 												<Sound Name="AB_City_Traffic_From_Closed_Window_2_3D" ID="{3B6321E0-B41F-42B2-B4B1-2152C37178F8}" ShortID="831765703">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -902,6 +903,7 @@
 												<Sound Name="AB_City_Traffic_From_Closed_Window_1_3D" ID="{99A305D6-FD5B-45CC-AF89-0DC756ABA840}" ShortID="390426300">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -931,6 +933,7 @@
 												<Sound Name="AB_City_Traffic_From_Closed_Window_3_3D" ID="{BB5FA88D-42E2-489B-8BB2-403A7B32D44B}" ShortID="890282991">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -973,6 +976,7 @@
 												<Sound Name="AB_Rain_From_Closed_Window_3_3D" ID="{5BEADE4C-9845-48DC-8BD5-F832ED04121B}" ShortID="599723048">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -1002,6 +1006,7 @@
 												<Sound Name="AB_Rain_From_Closed_Window_2_3D" ID="{8CFF8556-FF52-41B6-9010-9B042313CBFB}" ShortID="212107493">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -1031,6 +1036,7 @@
 												<Sound Name="AB_Rain_From_Closed_Window_1_3D" ID="{F29733B5-DC65-45D1-B277-1A9723D4F6E4}" ShortID="10275254">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
