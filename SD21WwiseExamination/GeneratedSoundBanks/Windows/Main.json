@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "3807001640",
+    "Hash": "1705915393",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -111,7 +111,7 @@
       "ObjectPath": "\\Events\\Locomotion\\PlayerFootstepsEvent",
       "GUID": "{A7D35627-1610-4AF4-ADAE-0EE180A029D6}",
       "DurationType": "OneShot",
-      "DurationMin": "0.076951",
+      "DurationMin": "0.481575",
       "DurationMax": "0.900277",
       "IncludedMemoryFiles": [
        {
@@ -119,6 +119,12 @@
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2)_3F75BDB9.wem"
+       },
+       {
+        "Id": "7454451",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (8).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (8)_3CADDE39.wem"
        },
        {
         "Id": "14426411",
@@ -187,6 +193,12 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (7)_3F75BDB9.wem"
        },
        {
+        "Id": "106582159",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (6).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (6)_3CADDE39.wem"
+       },
+       {
         "Id": "114343297",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (4).wav",
@@ -197,6 +209,12 @@
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7)_3F75BDB9.wem"
+       },
+       {
+        "Id": "185152910",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (5).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (5)_3CADDE39.wem"
        },
        {
         "Id": "187162118",
@@ -223,6 +241,12 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (2)_3F75BDB9.wem"
        },
        {
+        "Id": "242964610",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (4).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (4)_3CADDE39.wem"
+       },
+       {
         "Id": "245576160",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (15).wav",
@@ -247,6 +271,12 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (7)_3F75BDB9.wem"
        },
        {
+        "Id": "299543608",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (2).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (2)_3CADDE39.wem"
+       },
+       {
         "Id": "303691176",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005.wav",
@@ -269,6 +299,12 @@
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V8.wav",
         "Path": "SFX\\Test\\FootstepsCon_V8_1C34A93A.wem"
+       },
+       {
+        "Id": "321638850",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (4).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (4)_3CADDE39.wem"
        },
        {
         "Id": "323248795",
@@ -331,10 +367,22 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (5)_3F75BDB9.wem"
        },
        {
+        "Id": "406659476",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (9).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (9)_3CADDE39.wem"
+       },
+       {
         "Id": "419638209",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10)_3F75BDB9.wem"
+       },
+       {
+        "Id": "435083447",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (7).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (7)_3CADDE39.wem"
        },
        {
         "Id": "472381021",
@@ -371,6 +419,12 @@
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3)_3F75BDB9.wem"
+       },
+       {
+        "Id": "516627021",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (8).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (8)_3CADDE39.wem"
        },
        {
         "Id": "527822694",
@@ -457,6 +511,12 @@
         "Path": "SFX\\Test\\FootstepsCon_V2_702A0B85.wem"
        },
        {
+        "Id": "713070512",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (2).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (2)_3CADDE39.wem"
+       },
+       {
         "Id": "731619016",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (9).wav",
@@ -479,6 +539,18 @@
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12)_3F75BDB9.wem"
+       },
+       {
+        "Id": "771841038",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (5).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (5)_3CADDE39.wem"
+       },
+       {
+        "Id": "791462432",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (1).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (1)_3CADDE39.wem"
        },
        {
         "Id": "801546593",
@@ -523,16 +595,34 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (4)_3F75BDB9.wem"
        },
        {
+        "Id": "848995407",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (3).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (3)_3CADDE39.wem"
+       },
+       {
         "Id": "881700537",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-002.wav",
         "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-002_3F75BDB9.wem"
        },
        {
+        "Id": "884468684",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (3).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (3)_3CADDE39.wem"
+       },
+       {
         "Id": "891774448",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1)_3F75BDB9.wem"
+       },
+       {
+        "Id": "897082184",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (9).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (9)_3CADDE39.wem"
        },
        {
         "Id": "897478884",
@@ -595,16 +685,40 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (3)_3F75BDB9.wem"
        },
        {
+        "Id": "955253757",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (10).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (10)_3CADDE39.wem"
+       },
+       {
         "Id": "967295816",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V3.wav",
         "Path": "SFX\\Test\\FootstepsCon_V3_B69E3A4A.wem"
        },
        {
+        "Id": "972690154",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (1).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (1)_1827270A.wem"
+       },
+       {
+        "Id": "982325880",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (6).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (6)_3CADDE39.wem"
+       },
+       {
         "Id": "985951034",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12)_3F75BDB9.wem"
+       },
+       {
+        "Id": "998668263",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (7).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (7)_3CADDE39.wem"
        },
        {
         "Id": "999318475",
@@ -655,7 +769,7 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (2)_3F75BDB9.wem"
        }
       ],
-      "DefaultSwitchValue": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}",
+      "DefaultSwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
       "SwitchContainers": [
        {
         "SwitchValue": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}",
@@ -1380,6 +1494,73 @@
           ]
          }
         ]
+       },
+       {
+        "SwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
+        "Media": [
+         {
+          "Id": "7454451"
+         },
+         {
+          "Id": "185152910"
+         },
+         {
+          "Id": "242964610"
+         },
+         {
+          "Id": "299543608"
+         },
+         {
+          "Id": "406659476"
+         },
+         {
+          "Id": "791462432"
+         },
+         {
+          "Id": "884468684"
+         },
+         {
+          "Id": "982325880"
+         },
+         {
+          "Id": "998668263"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}",
+        "Media": [
+         {
+          "Id": "106582159"
+         },
+         {
+          "Id": "321638850"
+         },
+         {
+          "Id": "435083447"
+         },
+         {
+          "Id": "516627021"
+         },
+         {
+          "Id": "713070512"
+         },
+         {
+          "Id": "771841038"
+         },
+         {
+          "Id": "848995407"
+         },
+         {
+          "Id": "897082184"
+         },
+         {
+          "Id": "955253757"
+         },
+         {
+          "Id": "972690154"
+         }
+        ]
        }
       ],
       "AuxBusSends": [
@@ -1489,6 +1670,38 @@
         "Name": "Running",
         "ObjectPath": "\\Switches\\Default Work Unit\\WalkingRunning\\Running",
         "GUID": "{1AE29A23-ED00-467F-929E-092D3D4B00F5}"
+       }
+      ]
+     },
+     {
+      "Id": "2782712965",
+      "Name": "Level",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Level",
+      "GUID": "{97899AB1-0F8B-4889-924C-6FE368722935}",
+      "Switches": [
+       {
+        "Id": "646625282",
+        "Name": "Hub",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Hub",
+        "GUID": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}"
+       },
+       {
+        "Id": "408753320",
+        "Name": "OldLady",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\OldLady",
+        "GUID": "{10CB6F3B-1CBA-4BF0-AEEF-09BF8E93E4AB}"
+       },
+       {
+        "Id": "3161078327",
+        "Name": "Runner",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Runner",
+        "GUID": "{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"
+       },
+       {
+        "Id": "3124286477",
+        "Name": "Thug",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Thug",
+        "GUID": "{83FE05CB-9116-42B1-B40D-1AB2CA42725D}"
        }
       ]
      }

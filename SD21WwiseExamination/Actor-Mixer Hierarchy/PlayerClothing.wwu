@@ -331,6 +331,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Cloth (1)" ID="{7E922451-4F6B-4664-AEB7-41B0AA8EFBFB}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Player\Clothing\Cloth\Cloth (1).wav</AudioFile>
 											<MediaIDList>

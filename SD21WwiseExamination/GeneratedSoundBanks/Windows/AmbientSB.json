@@ -16,7 +16,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "4043865061",
+    "Hash": "3632731369",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -102,10 +102,153 @@
       "Name": "Play_Headlocked_Ambience",
       "ObjectPath": "\\Events\\Ambience\\Play_Headlocked_Ambience",
       "GUID": "{75515714-049D-48B2-9FA0-6190615A2562}",
-      "MaxAttenuation": "0.",
-      "DurationType": "OneShot",
+      "DurationType": "Mixed",
       "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMax": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "87600754",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Laundromat_Ambience.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Laundromat_Ambience_9EDFC787.wem"
+       },
+       {
+        "Id": "812702739",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Small_Room_Headlocked.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Small_Room_Headlocked_9EDFC787.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
+        "Children": [
+         {
+          "SwitchValue": "{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}",
+          "Children": [
+           {
+            "SwitchValue": "{5D010B08-4CCE-4BE9-8095-9D5446797640}",
+            "Media": [
+             {
+              "Id": "812702739"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{83FE05CB-9116-42B1-B40D-1AB2CA42725D}",
+        "Children": [
+         {
+          "SwitchValue": "{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}",
+          "Children": [
+           {
+            "SwitchValue": "{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}",
+            "Media": [
+             {
+              "Id": "87600754"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "835576787",
+      "Name": "Biome",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Biome",
+      "GUID": "{25E0C9D3-F8F8-4387-9580-0F554739DDB3}",
+      "Switches": [
+       {
+        "Id": "4103860031",
+        "Name": "Indoors",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biome\\Indoors",
+        "GUID": "{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"
+       },
+       {
+        "Id": "2730119150",
+        "Name": "Outdoors",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biome\\Outdoors",
+        "GUID": "{10680EB0-6A13-4457-AA70-FF5A98FCF9BD}"
+       },
+       {
+        "Id": "1413413702",
+        "Name": "Basement",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biome\\Basement",
+        "GUID": "{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"
+       }
+      ]
+     },
+     {
+      "Id": "1992536912",
+      "Name": "RoomType",
+      "ObjectPath": "\\Switches\\Default Work Unit\\RoomType",
+      "GUID": "{B1B8C0B5-EE57-4944-8C49-ACE362DDF898}",
+      "Switches": [
+       {
+        "Id": "3205342581",
+        "Name": "RoomSmall",
+        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\RoomSmall",
+        "GUID": "{5D010B08-4CCE-4BE9-8095-9D5446797640}"
+       },
+       {
+        "Id": "92673186",
+        "Name": "RoomBig",
+        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\RoomBig",
+        "GUID": "{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"
+       },
+       {
+        "Id": "1289942167",
+        "Name": "Stairs",
+        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\Stairs",
+        "GUID": "{A89AAE5E-7A9C-43E0-B073-A250A0614F6C}"
+       },
+       {
+        "Id": "3671013188",
+        "Name": "Laundromat",
+        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\Laundromat",
+        "GUID": "{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"
+       }
+      ]
+     },
+     {
+      "Id": "2782712965",
+      "Name": "Level",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Level",
+      "GUID": "{97899AB1-0F8B-4889-924C-6FE368722935}",
+      "Switches": [
+       {
+        "Id": "646625282",
+        "Name": "Hub",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Hub",
+        "GUID": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}"
+       },
+       {
+        "Id": "408753320",
+        "Name": "OldLady",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\OldLady",
+        "GUID": "{10CB6F3B-1CBA-4BF0-AEEF-09BF8E93E4AB}"
+       },
+       {
+        "Id": "3161078327",
+        "Name": "Runner",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Runner",
+        "GUID": "{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"
+       },
+       {
+        "Id": "3124286477",
+        "Name": "Thug",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Thug",
+        "GUID": "{83FE05CB-9116-42B1-B40D-1AB2CA42725D}"
+       }
+      ]
      }
     ]
    }

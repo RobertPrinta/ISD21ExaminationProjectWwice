@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="1858466019">
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="1301373312">
 			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
 			<ShortName>UiSB</ShortName>
 			<Path>UiSB.bnk</Path>
@@ -68,6 +68,14 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="3374585465" Name="InMenu" ObjectPath="\States\GameStates\GameState\InMenu" GUID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
 					</ActionSetState>
+				</Event>
+				<Event Id="3406913002" Name="UI_Play_Incoming_Call" ObjectPath="\Events\UI\UI_Play_Incoming_Call" GUID="{9EB0B1AA-797E-4845-9078-1EB9A5A6373C}" DurationType="OneShot" DurationMin="4.201928" DurationMax="4.201928">
+					<IncludedMemoryFiles>
+						<File Id="910700981" Language="SFX">
+							<ShortName>UI\Incoming_Call.wav</ShortName>
+							<Path>SFX\UI\Incoming_Call_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 			<StateGroups>

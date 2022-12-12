@@ -32,7 +32,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "4043865061",
+    "Hash": "3632731369",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -118,10 +118,153 @@
       "Name": "Play_Headlocked_Ambience",
       "ObjectPath": "\\Events\\Ambience\\Play_Headlocked_Ambience",
       "GUID": "{75515714-049D-48B2-9FA0-6190615A2562}",
-      "MaxAttenuation": "0.",
-      "DurationType": "OneShot",
+      "DurationType": "Mixed",
       "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMax": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "87600754",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Laundromat_Ambience.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Laundromat_Ambience_9EDFC787.wem"
+       },
+       {
+        "Id": "812702739",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Small_Room_Headlocked.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Small_Room_Headlocked_9EDFC787.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
+        "Children": [
+         {
+          "SwitchValue": "{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}",
+          "Children": [
+           {
+            "SwitchValue": "{5D010B08-4CCE-4BE9-8095-9D5446797640}",
+            "Media": [
+             {
+              "Id": "812702739"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{83FE05CB-9116-42B1-B40D-1AB2CA42725D}",
+        "Children": [
+         {
+          "SwitchValue": "{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}",
+          "Children": [
+           {
+            "SwitchValue": "{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}",
+            "Media": [
+             {
+              "Id": "87600754"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "835576787",
+      "Name": "Biome",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Biome",
+      "GUID": "{25E0C9D3-F8F8-4387-9580-0F554739DDB3}",
+      "Switches": [
+       {
+        "Id": "4103860031",
+        "Name": "Indoors",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biome\\Indoors",
+        "GUID": "{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"
+       },
+       {
+        "Id": "2730119150",
+        "Name": "Outdoors",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biome\\Outdoors",
+        "GUID": "{10680EB0-6A13-4457-AA70-FF5A98FCF9BD}"
+       },
+       {
+        "Id": "1413413702",
+        "Name": "Basement",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biome\\Basement",
+        "GUID": "{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"
+       }
+      ]
+     },
+     {
+      "Id": "1992536912",
+      "Name": "RoomType",
+      "ObjectPath": "\\Switches\\Default Work Unit\\RoomType",
+      "GUID": "{B1B8C0B5-EE57-4944-8C49-ACE362DDF898}",
+      "Switches": [
+       {
+        "Id": "3205342581",
+        "Name": "RoomSmall",
+        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\RoomSmall",
+        "GUID": "{5D010B08-4CCE-4BE9-8095-9D5446797640}"
+       },
+       {
+        "Id": "92673186",
+        "Name": "RoomBig",
+        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\RoomBig",
+        "GUID": "{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"
+       },
+       {
+        "Id": "1289942167",
+        "Name": "Stairs",
+        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\Stairs",
+        "GUID": "{A89AAE5E-7A9C-43E0-B073-A250A0614F6C}"
+       },
+       {
+        "Id": "3671013188",
+        "Name": "Laundromat",
+        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\Laundromat",
+        "GUID": "{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"
+       }
+      ]
+     },
+     {
+      "Id": "2782712965",
+      "Name": "Level",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Level",
+      "GUID": "{97899AB1-0F8B-4889-924C-6FE368722935}",
+      "Switches": [
+       {
+        "Id": "646625282",
+        "Name": "Hub",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Hub",
+        "GUID": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}"
+       },
+       {
+        "Id": "408753320",
+        "Name": "OldLady",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\OldLady",
+        "GUID": "{10CB6F3B-1CBA-4BF0-AEEF-09BF8E93E4AB}"
+       },
+       {
+        "Id": "3161078327",
+        "Name": "Runner",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Runner",
+        "GUID": "{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"
+       },
+       {
+        "Id": "3124286477",
+        "Name": "Thug",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Thug",
+        "GUID": "{83FE05CB-9116-42B1-B40D-1AB2CA42725D}"
+       }
+      ]
      }
     ]
    },
@@ -129,7 +272,7 @@
     "Id": "1070355952",
     "GUID": "{A646F937-A3B8-467A-82D6-7A999570C91A}",
     "Language": "SFX",
-    "Hash": "1858466019",
+    "Hash": "1301373312",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UiSB",
     "ShortName": "UiSB",
     "Path": "UiSB.bnk",
@@ -239,6 +382,23 @@
         "Name": "InMenu",
         "ObjectPath": "\\States\\GameStates\\GameState\\InMenu",
         "GUID": "{4D9A9010-700B-4CAD-8E79-74E2058B596F}"
+       }
+      ]
+     },
+     {
+      "Id": "3406913002",
+      "Name": "UI_Play_Incoming_Call",
+      "ObjectPath": "\\Events\\UI\\UI_Play_Incoming_Call",
+      "GUID": "{9EB0B1AA-797E-4845-9078-1EB9A5A6373C}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.201928",
+      "DurationMax": "4.201928",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "910700981",
+        "Language": "SFX",
+        "ShortName": "UI\\Incoming_Call.wav",
+        "Path": "SFX\\UI\\Incoming_Call_3CADDE39.wem"
        }
       ]
      }
@@ -365,7 +525,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "3807001640",
+    "Hash": "1705915393",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -460,7 +620,7 @@
       "ObjectPath": "\\Events\\Locomotion\\PlayerFootstepsEvent",
       "GUID": "{A7D35627-1610-4AF4-ADAE-0EE180A029D6}",
       "DurationType": "OneShot",
-      "DurationMin": "0.076951",
+      "DurationMin": "0.481575",
       "DurationMax": "0.900277",
       "IncludedMemoryFiles": [
        {
@@ -468,6 +628,12 @@
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2)_3F75BDB9.wem"
+       },
+       {
+        "Id": "7454451",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (8).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (8)_3CADDE39.wem"
        },
        {
         "Id": "14426411",
@@ -536,6 +702,12 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (7)_3F75BDB9.wem"
        },
        {
+        "Id": "106582159",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (6).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (6)_3CADDE39.wem"
+       },
+       {
         "Id": "114343297",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (4).wav",
@@ -546,6 +718,12 @@
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7)_3F75BDB9.wem"
+       },
+       {
+        "Id": "185152910",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (5).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (5)_3CADDE39.wem"
        },
        {
         "Id": "187162118",
@@ -572,6 +750,12 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (2)_3F75BDB9.wem"
        },
        {
+        "Id": "242964610",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (4).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (4)_3CADDE39.wem"
+       },
+       {
         "Id": "245576160",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (15).wav",
@@ -596,6 +780,12 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (7)_3F75BDB9.wem"
        },
        {
+        "Id": "299543608",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (2).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (2)_3CADDE39.wem"
+       },
+       {
         "Id": "303691176",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005.wav",
@@ -618,6 +808,12 @@
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V8.wav",
         "Path": "SFX\\Test\\FootstepsCon_V8_1C34A93A.wem"
+       },
+       {
+        "Id": "321638850",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (4).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (4)_3CADDE39.wem"
        },
        {
         "Id": "323248795",
@@ -680,10 +876,22 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (5)_3F75BDB9.wem"
        },
        {
+        "Id": "406659476",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (9).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (9)_3CADDE39.wem"
+       },
+       {
         "Id": "419638209",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10)_3F75BDB9.wem"
+       },
+       {
+        "Id": "435083447",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (7).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (7)_3CADDE39.wem"
        },
        {
         "Id": "472381021",
@@ -720,6 +928,12 @@
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3)_3F75BDB9.wem"
+       },
+       {
+        "Id": "516627021",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (8).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (8)_3CADDE39.wem"
        },
        {
         "Id": "527822694",
@@ -806,6 +1020,12 @@
         "Path": "SFX\\Test\\FootstepsCon_V2_702A0B85.wem"
        },
        {
+        "Id": "713070512",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (2).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (2)_3CADDE39.wem"
+       },
+       {
         "Id": "731619016",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (9).wav",
@@ -828,6 +1048,18 @@
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12)_3F75BDB9.wem"
+       },
+       {
+        "Id": "771841038",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (5).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (5)_3CADDE39.wem"
+       },
+       {
+        "Id": "791462432",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (1).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (1)_3CADDE39.wem"
        },
        {
         "Id": "801546593",
@@ -872,16 +1104,34 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (4)_3F75BDB9.wem"
        },
        {
+        "Id": "848995407",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (3).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (3)_3CADDE39.wem"
+       },
+       {
         "Id": "881700537",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-002.wav",
         "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-002_3F75BDB9.wem"
        },
        {
+        "Id": "884468684",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (3).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (3)_3CADDE39.wem"
+       },
+       {
         "Id": "891774448",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1)_3F75BDB9.wem"
+       },
+       {
+        "Id": "897082184",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (9).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (9)_3CADDE39.wem"
        },
        {
         "Id": "897478884",
@@ -944,16 +1194,40 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (3)_3F75BDB9.wem"
        },
        {
+        "Id": "955253757",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (10).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (10)_3CADDE39.wem"
+       },
+       {
         "Id": "967295816",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V3.wav",
         "Path": "SFX\\Test\\FootstepsCon_V3_B69E3A4A.wem"
        },
        {
+        "Id": "972690154",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Cloth\\Cloth (1).wav",
+        "Path": "SFX\\Player\\Clothing\\Cloth\\Cloth (1)_1827270A.wem"
+       },
+       {
+        "Id": "982325880",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (6).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (6)_3CADDE39.wem"
+       },
+       {
         "Id": "985951034",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12).wav",
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12)_3F75BDB9.wem"
+       },
+       {
+        "Id": "998668263",
+        "Language": "SFX",
+        "ShortName": "Player\\Clothing\\Leather\\Leather (7).wav",
+        "Path": "SFX\\Player\\Clothing\\Leather\\Leather (7)_3CADDE39.wem"
        },
        {
         "Id": "999318475",
@@ -1004,7 +1278,7 @@
         "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (2)_3F75BDB9.wem"
        }
       ],
-      "DefaultSwitchValue": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}",
+      "DefaultSwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
       "SwitchContainers": [
        {
         "SwitchValue": "{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}",
@@ -1729,6 +2003,73 @@
           ]
          }
         ]
+       },
+       {
+        "SwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
+        "Media": [
+         {
+          "Id": "7454451"
+         },
+         {
+          "Id": "185152910"
+         },
+         {
+          "Id": "242964610"
+         },
+         {
+          "Id": "299543608"
+         },
+         {
+          "Id": "406659476"
+         },
+         {
+          "Id": "791462432"
+         },
+         {
+          "Id": "884468684"
+         },
+         {
+          "Id": "982325880"
+         },
+         {
+          "Id": "998668263"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}",
+        "Media": [
+         {
+          "Id": "106582159"
+         },
+         {
+          "Id": "321638850"
+         },
+         {
+          "Id": "435083447"
+         },
+         {
+          "Id": "516627021"
+         },
+         {
+          "Id": "713070512"
+         },
+         {
+          "Id": "771841038"
+         },
+         {
+          "Id": "848995407"
+         },
+         {
+          "Id": "897082184"
+         },
+         {
+          "Id": "955253757"
+         },
+         {
+          "Id": "972690154"
+         }
+        ]
        }
       ],
       "AuxBusSends": [
@@ -1838,6 +2179,38 @@
         "Name": "Running",
         "ObjectPath": "\\Switches\\Default Work Unit\\WalkingRunning\\Running",
         "GUID": "{1AE29A23-ED00-467F-929E-092D3D4B00F5}"
+       }
+      ]
+     },
+     {
+      "Id": "2782712965",
+      "Name": "Level",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Level",
+      "GUID": "{97899AB1-0F8B-4889-924C-6FE368722935}",
+      "Switches": [
+       {
+        "Id": "646625282",
+        "Name": "Hub",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Hub",
+        "GUID": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}"
+       },
+       {
+        "Id": "408753320",
+        "Name": "OldLady",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\OldLady",
+        "GUID": "{10CB6F3B-1CBA-4BF0-AEEF-09BF8E93E4AB}"
+       },
+       {
+        "Id": "3161078327",
+        "Name": "Runner",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Runner",
+        "GUID": "{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"
+       },
+       {
+        "Id": "3124286477",
+        "Name": "Thug",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Level\\Thug",
+        "GUID": "{83FE05CB-9116-42B1-B40D-1AB2CA42725D}"
        }
       ]
      }

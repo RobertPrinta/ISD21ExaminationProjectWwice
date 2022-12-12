@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	739981572	UI_Hover_Over_Button			\UI\UI_Hover_Over_Button	
 	1781508224	UI_Close_Menu			\UI\UI_Close_Menu	
 	1997076556	UI_Open_Menu			\UI\UI_Open_Menu	
+	3406913002	UI_Play_Incoming_Call			\UI\UI_Play_Incoming_Call	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	197508550	UI_VCR_Noise	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_VCR_Noise_696A9007.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_VCR_Noise		17720
@@ -12,6 +13,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	598926904	UI_Turn_On_Sine	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Turn_On_Sine_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Turn_On_Sine		1296
 	685597690	UI_Button_Press_Heavy	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Press_Heavy_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Press_Heavy		4464
 	819179302	UI_Return_To_Game_Noise	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Return_To_Game_Noise_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Return_To_Game_Noise		2658
+	910700981	Incoming_Call	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\Incoming_Call_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_InGame\Incoming_Call		38611
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	1057112490	UI_Tape_Noise	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Tape_Noise_696A9007.wem	1057112490.wem	\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Tape_Noise	

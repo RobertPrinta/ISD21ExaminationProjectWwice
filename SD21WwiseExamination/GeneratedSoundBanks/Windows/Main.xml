@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="3807001640">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="1705915393">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -47,11 +47,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0.076951" DurationMax="0.900277">
+				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0.481575" DurationMax="0.900277">
 					<IncludedMemoryFiles>
 						<File Id="155546" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Carpet\Footsteps_Carpet (2).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Carpet\Footsteps_Carpet (2)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="7454451" Language="SFX">
+							<ShortName>Player\Clothing\Leather\Leather (8).wav</ShortName>
+							<Path>SFX\Player\Clothing\Leather\Leather (8)_3CADDE39.wem</Path>
 						</File>
 						<File Id="14426411" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Stonetiles\Footsteps_Tiles (4).wav</ShortName>
@@ -97,6 +101,10 @@
 							<ShortName>Player\Footsteps\LuddesFotsteg\Carpet\Footsteps_Carpet (7).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Carpet\Footsteps_Carpet (7)_3F75BDB9.wem</Path>
 						</File>
+						<File Id="106582159" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (6).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (6)_3CADDE39.wem</Path>
+						</File>
 						<File Id="114343297" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (4).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (4)_3F75BDB9.wem</Path>
@@ -104,6 +112,10 @@
 						<File Id="160831234" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Cobblestone\Footsteps_Cobblestone (7).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Cobblestone\Footsteps_Cobblestone (7)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="185152910" Language="SFX">
+							<ShortName>Player\Clothing\Leather\Leather (5).wav</ShortName>
+							<Path>SFX\Player\Clothing\Leather\Leather (5)_3CADDE39.wem</Path>
 						</File>
 						<File Id="187162118" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Wood\Footsteps_Wood (13).wav</ShortName>
@@ -121,6 +133,10 @@
 							<ShortName>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (2).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (2)_3F75BDB9.wem</Path>
 						</File>
+						<File Id="242964610" Language="SFX">
+							<ShortName>Player\Clothing\Leather\Leather (4).wav</ShortName>
+							<Path>SFX\Player\Clothing\Leather\Leather (4)_3CADDE39.wem</Path>
+						</File>
 						<File Id="245576160" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Wood\Footsteps_Wood (15).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Wood\Footsteps_Wood (15)_3F75BDB9.wem</Path>
@@ -137,6 +153,10 @@
 							<ShortName>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (7).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (7)_3F75BDB9.wem</Path>
 						</File>
+						<File Id="299543608" Language="SFX">
+							<ShortName>Player\Clothing\Leather\Leather (2).wav</ShortName>
+							<Path>SFX\Player\Clothing\Leather\Leather (2)_3CADDE39.wem</Path>
+						</File>
 						<File Id="303691176" Language="SFX">
 							<ShortName>Player\Footsteps\Rug\Footsteps_Rug_Run-005.wav</ShortName>
 							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug_Run-005_3F75BDB9.wem</Path>
@@ -152,6 +172,10 @@
 						<File Id="317756079" Language="SFX">
 							<ShortName>Test\FootstepsCon_V8.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V8_1C34A93A.wem</Path>
+						</File>
+						<File Id="321638850" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (4).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (4)_3CADDE39.wem</Path>
 						</File>
 						<File Id="323248795" Language="SFX">
 							<ShortName>Test\FootstepsCon_V5.wav</ShortName>
@@ -193,9 +217,17 @@
 							<ShortName>Player\Footsteps\LuddesFotsteg\Carpet\Footsteps_Carpet (5).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Carpet\Footsteps_Carpet (5)_3F75BDB9.wem</Path>
 						</File>
+						<File Id="406659476" Language="SFX">
+							<ShortName>Player\Clothing\Leather\Leather (9).wav</ShortName>
+							<Path>SFX\Player\Clothing\Leather\Leather (9)_3CADDE39.wem</Path>
+						</File>
 						<File Id="419638209" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Wood\Footsteps_Wood (10).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Wood\Footsteps_Wood (10)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="435083447" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (7).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (7)_3CADDE39.wem</Path>
 						</File>
 						<File Id="472381021" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Rubber\Footsteps_Rubber (7).wav</ShortName>
@@ -220,6 +252,10 @@
 						<File Id="502883752" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Wood\Footsteps_Wood (3).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Wood\Footsteps_Wood (3)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="516627021" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (8).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (8)_3CADDE39.wem</Path>
 						</File>
 						<File Id="527822694" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Rubber\Footsteps_Rubber (10).wav</ShortName>
@@ -277,6 +313,10 @@
 							<ShortName>Test\FootstepsCon_V2.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V2_702A0B85.wem</Path>
 						</File>
+						<File Id="713070512" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (2).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (2)_3CADDE39.wem</Path>
+						</File>
 						<File Id="731619016" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Lino\Footsteps_Linoleum (9).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Lino\Footsteps_Linoleum (9)_3F75BDB9.wem</Path>
@@ -292,6 +332,14 @@
 						<File Id="768941977" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Rubber\Footsteps_Rubber (12).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Rubber\Footsteps_Rubber (12)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="771841038" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (5).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (5)_3CADDE39.wem</Path>
+						</File>
+						<File Id="791462432" Language="SFX">
+							<ShortName>Player\Clothing\Leather\Leather (1).wav</ShortName>
+							<Path>SFX\Player\Clothing\Leather\Leather (1)_3CADDE39.wem</Path>
 						</File>
 						<File Id="801546593" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Grass\Footsteps_Grass (1).wav</ShortName>
@@ -321,13 +369,25 @@
 							<ShortName>Player\Footsteps\LuddesFotsteg\Rubber\Footsteps_Rubber (4).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Rubber\Footsteps_Rubber (4)_3F75BDB9.wem</Path>
 						</File>
+						<File Id="848995407" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (3).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (3)_3CADDE39.wem</Path>
+						</File>
 						<File Id="881700537" Language="SFX">
 							<ShortName>Player\Footsteps\Rug\Footsteps_Rug-002.wav</ShortName>
 							<Path>SFX\Player\Footsteps\Rug\Footsteps_Rug-002_3F75BDB9.wem</Path>
 						</File>
+						<File Id="884468684" Language="SFX">
+							<ShortName>Player\Clothing\Leather\Leather (3).wav</ShortName>
+							<Path>SFX\Player\Clothing\Leather\Leather (3)_3CADDE39.wem</Path>
+						</File>
 						<File Id="891774448" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Wood\Footsteps_Wood (1).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Wood\Footsteps_Wood (1)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="897082184" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (9).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (9)_3CADDE39.wem</Path>
 						</File>
 						<File Id="897478884" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Carpet\Footsteps_Carpet (10).wav</ShortName>
@@ -369,13 +429,29 @@
 							<ShortName>Player\Footsteps\LuddesFotsteg\Cobblestone\Footsteps_Cobblestone (3).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Cobblestone\Footsteps_Cobblestone (3)_3F75BDB9.wem</Path>
 						</File>
+						<File Id="955253757" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (10).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (10)_3CADDE39.wem</Path>
+						</File>
 						<File Id="967295816" Language="SFX">
 							<ShortName>Test\FootstepsCon_V3.wav</ShortName>
 							<Path>SFX\Test\FootstepsCon_V3_B69E3A4A.wem</Path>
 						</File>
+						<File Id="972690154" Language="SFX">
+							<ShortName>Player\Clothing\Cloth\Cloth (1).wav</ShortName>
+							<Path>SFX\Player\Clothing\Cloth\Cloth (1)_1827270A.wem</Path>
+						</File>
+						<File Id="982325880" Language="SFX">
+							<ShortName>Player\Clothing\Leather\Leather (6).wav</ShortName>
+							<Path>SFX\Player\Clothing\Leather\Leather (6)_3CADDE39.wem</Path>
+						</File>
 						<File Id="985951034" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Cobblestone\Footsteps_Cobblestone (12).wav</ShortName>
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Cobblestone\Footsteps_Cobblestone (12)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="998668263" Language="SFX">
+							<ShortName>Player\Clothing\Leather\Leather (7).wav</ShortName>
+							<Path>SFX\Player\Clothing\Leather\Leather (7)_3CADDE39.wem</Path>
 						</File>
 						<File Id="999318475" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Stonetiles\Footsteps_Tiles (2).wav</ShortName>
@@ -410,7 +486,7 @@
 							<Path>SFX\Player\Footsteps\LuddesFotsteg\Lino\Footsteps_Linoleum (2)_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}</DefaultSwitchValue>
+					<DefaultSwitchValue>{9A83165F-A0DD-47EB-9147-626FAE542D5E}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}">
 							<DefaultSwitchValue>{627310E8-51FB-40C7-9B64-0919BECF37FC}</DefaultSwitchValue>
@@ -727,6 +803,33 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9A83165F-A0DD-47EB-9147-626FAE542D5E}">
+							<Media>
+								<File Id="7454451"/>
+								<File Id="185152910"/>
+								<File Id="242964610"/>
+								<File Id="299543608"/>
+								<File Id="406659476"/>
+								<File Id="791462432"/>
+								<File Id="884468684"/>
+								<File Id="982325880"/>
+								<File Id="998668263"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}">
+							<Media>
+								<File Id="106582159"/>
+								<File Id="321638850"/>
+								<File Id="435083447"/>
+								<File Id="516627021"/>
+								<File Id="713070512"/>
+								<File Id="771841038"/>
+								<File Id="848995407"/>
+								<File Id="897082184"/>
+								<File Id="955253757"/>
+								<File Id="972690154"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
 						<AuxBus Id="1756167208" Name="StairCase" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\Rooms\StairCase" GUID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}"/>
@@ -759,6 +862,14 @@
 					<Switches>
 						<Switch Id="340271938" Name="Walking" ObjectPath="\Switches\Default Work Unit\WalkingRunning\Walking" GUID="{627310E8-51FB-40C7-9B64-0919BECF37FC}"/>
 						<Switch Id="3863236874" Name="Running" ObjectPath="\Switches\Default Work Unit\WalkingRunning\Running" GUID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2782712965" Name="Level" ObjectPath="\Switches\Default Work Unit\Level" GUID="{97899AB1-0F8B-4889-924C-6FE368722935}">
+					<Switches>
+						<Switch Id="646625282" Name="Hub" ObjectPath="\Switches\Default Work Unit\Level\Hub" GUID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
+						<Switch Id="408753320" Name="OldLady" ObjectPath="\Switches\Default Work Unit\Level\OldLady" GUID="{10CB6F3B-1CBA-4BF0-AEEF-09BF8E93E4AB}"/>
+						<Switch Id="3161078327" Name="Runner" ObjectPath="\Switches\Default Work Unit\Level\Runner" GUID="{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"/>
+						<Switch Id="3124286477" Name="Thug" ObjectPath="\Switches\Default Work Unit\Level\Thug" GUID="{83FE05CB-9116-42B1-B40D-1AB2CA42725D}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
