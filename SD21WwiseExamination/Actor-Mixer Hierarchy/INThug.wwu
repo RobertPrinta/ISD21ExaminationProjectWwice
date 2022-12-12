@@ -369,6 +369,13 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Door" ID="{280CEF2C-DECC-4215-8899-50EA0F9BDF2A}" ShortID="990608530">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -417,9 +424,9 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Smal_Washing_Machine_Door" ID="{8EE8F041-5A4C-4D49-B57D-601519DE0FB7}" ShortID="453000503">
 							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
+								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>23</Value>
+										<Value>21</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
@@ -581,9 +588,9 @@
 						<RandomSequenceContainer Name="Smal_Washing_Machine_Door_Hinch" ID="{1CB292FE-2EF6-4725-A922-0988EF05BDFC}" ShortID="734662932">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="Lowpass" Type="int16">
+								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>23</Value>
+										<Value>21</Value>
 									</ValueList>
 								</Property>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>

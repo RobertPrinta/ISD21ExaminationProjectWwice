@@ -4,6 +4,13 @@
 		<WorkUnit Name="Dialogue Runner Work Unit" ID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}" OwnerID="{3F614CAC-5081-4FBE-B05E-D7218A2CFCF8}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="DI_Runner_Actor-Mixer" ID="{067BB497-4499-4FB7-A27E-8B59F439D78A}" ShortID="46721388">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>

@@ -4,6 +4,13 @@
 		<WorkUnit Name="Dialogue OldLady Work Unit" ID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}" OwnerID="{3F614CAC-5081-4FBE-B05E-D7218A2CFCF8}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Dialogue OldLady" ID="{669AF4C0-FFDE-4E41-94AC-F8B50AB9E4C4}" ShortID="239174304">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>

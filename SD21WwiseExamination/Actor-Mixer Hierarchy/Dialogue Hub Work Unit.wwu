@@ -4,6 +4,13 @@
 		<WorkUnit Name="Dialogue Hub Work Unit" ID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}" OwnerID="{3F614CAC-5081-4FBE-B05E-D7218A2CFCF8}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="DI_Hub_Actor-Mixer" ID="{BF9CF2A1-125E-49D0-A701-6C9117D3CD2C}" ShortID="768527149">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
