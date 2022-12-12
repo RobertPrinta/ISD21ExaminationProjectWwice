@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{814217F0-5259-4241-B5F7-DA85037D12CB}" SchemaVersion="103" RootDocumentID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" ParentDocumentID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}">
+	<Events>
+		<WorkUnit Name="AB_Thug_Specific" ID="{814217F0-5259-4241-B5F7-DA85037D12CB}" OwnerID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Waterpipes_3D" ID="{7D19E042-BFE0-4482-A59C-540C8947AD60}">
+					<ChildrenList>
+						<Action Name="" ID="{BA8F2BFC-344F-490F-B412-6A8E76099167}" ShortID="884674825">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waterpipes_3D" ID="{C7352DAF-3270-451A-A4BE-F39388724763}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
