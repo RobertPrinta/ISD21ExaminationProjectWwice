@@ -4,7 +4,7 @@
 		<WorkUnit Name="Player_Locomotion" ID="{49D19C03-59A5-4898-9F51-3205F3BC1F24}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="PlayerFootsteps" ID="{0717E4F1-805E-4CCE-BE0B-42986EE979AA}" PersistMode="Reference"/>
-				<WorkUnit Name="PlayerCloth" ID="{442DBE27-6D15-4C8D-8B88-D252A59660A6}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerClothing" ID="{442DBE27-6D15-4C8D-8B88-D252A59660A6}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
