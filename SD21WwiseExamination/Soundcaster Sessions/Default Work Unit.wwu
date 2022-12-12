@@ -174,7 +174,7 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Basement" ID="{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"/>
-						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
+						<CurrentSwitchRef Name="Cobblestone" ID="{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
 						<CurrentSwitchRef Name="Laundromat" ID="{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"/>

@@ -69,6 +69,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PickUpPapper_Open" ID="{8153235C-6BAA-4755-BF64-B6D2FDF8EE1A}">
+					<ChildrenList>
+						<Action Name="" ID="{B5AD22E6-2E72-4B74-A98D-9E3F2FC524BC}" ShortID="957215505">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Book_Open" ID="{F359D83B-F0A8-48CA-99FA-53302D4DDD2D}" WorkUnitID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PickUpPapper_Close" ID="{CC2BA108-7600-4A2B-B575-A53C26A8C27F}">
+					<ChildrenList>
+						<Action Name="" ID="{C3632713-5089-475F-8EB7-634A1D1E0185}" ShortID="180997528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Book_Close" ID="{2D9AFE9F-143A-4AE8-8320-95D7DD5C2C91}" WorkUnitID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PickUpPapper_Read" ID="{6C5C7938-1B53-43D5-B9C3-51A62DE72FD1}">
+					<ChildrenList>
+						<Action Name="" ID="{91635376-FCC8-4638-A915-79D282AD1100}" ShortID="392809032">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Book_Read" ID="{EAA34ABB-4DE6-41EE-8E76-326A43C5648E}" WorkUnitID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
