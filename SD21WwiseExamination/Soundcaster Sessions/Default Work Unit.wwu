@@ -75,11 +75,15 @@
 				<SoundcasterSession Name="UI Menu" ID="{D54B3266-E763-4F8A-90FC-E68C18147A57}">
 					<ModuleList>
 						<Module>
+							<ObjectRef Name="OldLady Ambi1 100bpm" ID="{8BA47879-8DEA-4F40-BF9C-A3113011D635}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="AB_Small_Room_Headlocked" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
+							<ObjectRef Name="Play_Drawer" ID="{776FED0A-8D09-438D-AF2A-93D11E06229A}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -113,10 +117,11 @@
 						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Basement" ID="{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"/>
-						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
+						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
+						<CurrentSwitchRef Name="Cobblestone" ID="{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
-						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
+						<CurrentSwitchRef Name="Thug" ID="{83FE05CB-9116-42B1-B40D-1AB2CA42725D}"/>
+						<CurrentSwitchRef Name="Laundromat" ID="{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Event fotsteps and music" ID="{BF940280-887A-4CC3-B586-64D539219D00}">

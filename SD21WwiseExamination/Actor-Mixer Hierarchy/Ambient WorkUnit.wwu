@@ -204,6 +204,14 @@
 														<ItemRef Name="AB_Laundromat_Ambience" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Laundromat" ID="{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"/>
+														<ItemList>
+															<ItemRef Name="AB_Laundromat_Ambience" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
 									</ChildrenList>

@@ -3,7 +3,20 @@
 	<Events>
 		<WorkUnit Name="Ambience" ID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Headlocked_Ambience" ID="{75515714-049D-48B2-9FA0-6190615A2562}"/>
+				<Event Name="Play_Headlocked_Ambience" ID="{75515714-049D-48B2-9FA0-6190615A2562}">
+					<ChildrenList>
+						<Action Name="" ID="{5878A0D9-5605-43D7-B837-59D08259B4A0}" ShortID="734126394">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Level" ID="{9200AB4E-57EA-4165-A465-FD561AE42284}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Play_Faulty_Socket_Electricity_Buzz_3D" ID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}">
 					<ChildrenList>
 						<Action Name="" ID="{0CFB2B6A-B7EE-4278-8D64-8887D3989DDC}" ShortID="830849621">
