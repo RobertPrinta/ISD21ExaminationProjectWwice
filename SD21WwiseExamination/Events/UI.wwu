@@ -136,6 +136,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="UI_Play_Incoming_Call" ID="{9EB0B1AA-797E-4845-9078-1EB9A5A6373C}">
+					<ChildrenList>
+						<Action Name="" ID="{33A3B7C4-2E0B-4287-8A88-422DE82313D0}" ShortID="198555885">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Incoming_Call" ID="{2226F6B5-3DC5-49B9-9E47-B640704DC464}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
