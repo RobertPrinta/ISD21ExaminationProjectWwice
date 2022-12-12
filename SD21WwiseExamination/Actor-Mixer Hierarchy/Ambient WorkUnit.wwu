@@ -1514,6 +1514,140 @@
 										<ActiveSource Name="Waterpipes_3D" ID="{6B1A3BDA-CFF4-47E1-A9E2-5ACA9B25F59C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<ActorMixer Name="AB_LaundryMachine_3D" ID="{2A36EEAD-CFBE-4F46-8363-5B7AFF641E9C}" ShortID="282531245">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Generic_10m" ID="{0F21200F-4F50-4F6F-9381-BB9AD43FE5F3}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Laundry_Machine_Cycle1_3D" ID="{AD169A48-36C7-4010-9509-45CC927AB0BE}" ShortID="178867956">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Laundry_Machine_Cycle1_3D" ID="{D75B74EE-DFC3-43B7-A343-EE6188CB69D0}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Laundry_Machine_Cycle1_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="533683151"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Laundry_Machine_Cycle1_3D" ID="{D75B74EE-DFC3-43B7-A343-EE6188CB69D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Laundry_Machine_Cycle2_3D" ID="{83250590-5F6D-4AF2-9944-3361A75C7725}" ShortID="385129851">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Laundry_Machine_Cycle2_3D" ID="{17CDB8A7-A10C-4A5B-B13C-F42784B718B6}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Laundry_Machine_Cycle2_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1071516995"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Laundry_Machine_Cycle2_3D" ID="{17CDB8A7-A10C-4A5B-B13C-F42784B718B6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Laundry_Machine_Cycle3_3D" ID="{8EE59047-8B13-4A89-BFED-4373B194B71A}" ShortID="671872340">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Laundry_Machine_Cycle3_3D" ID="{DC6225DB-77DD-409A-9026-432F4EB8B6D5}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Laundry_Machine_Cycle3_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="146322623"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Laundry_Machine_Cycle3_3D" ID="{DC6225DB-77DD-409A-9026-432F4EB8B6D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Laundry_Machine_Cycle4_3D" ID="{24942732-FBE5-4BC3-BECF-CF3DAEDD6BF5}" ShortID="958411731">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Laundry_Machine_Cycle4_3D" ID="{7BA7A5C3-5D2C-49B5-B439-8695CDE5A6F8}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Laundry_Machine_Cycle4_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="672423414"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Laundry_Machine_Cycle4_3D" ID="{7BA7A5C3-5D2C-49B5-B439-8695CDE5A6F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Laundry_Machine_Filling_Up_3D" ID="{78F143D3-26DE-4C55-90F9-CCE796B77E8B}" ShortID="683059891">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Laundry_Machine_Filling_Up_3D" ID="{54AEC74D-DD02-4B8D-9D30-0FD494A52E9A}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Laundry_Machine_Filling_Up_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="130845540"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Laundry_Machine_Filling_Up_3D" ID="{54AEC74D-DD02-4B8D-9D30-0FD494A52E9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
