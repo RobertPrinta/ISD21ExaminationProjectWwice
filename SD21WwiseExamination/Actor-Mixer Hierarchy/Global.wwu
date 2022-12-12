@@ -3,8 +3,9 @@
 	<AudioObjects>
 		<WorkUnit Name="Global" ID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}" OwnerID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="Player_Interactables" ID="{27F2F745-29A0-43FB-B1EF-3DE17A7AB1DB}" ShortID="305329107">
+				<ActorMixer Name="Player_Interactables3d" ID="{27F2F745-29A0-43FB-B1EF-3DE17A7AB1DB}" ShortID="305329107">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -50,6 +51,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 1" ID="{34D56132-517A-4919-AC90-7C927B41E1CC}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 1.wav</AudioFile>
 											<MediaIDList>
@@ -73,6 +77,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 2" ID="{BD532E8E-F8A0-4B43-90A6-542100F75C34}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 2.wav</AudioFile>
 											<MediaIDList>
@@ -96,6 +103,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 3" ID="{8062065C-AB2A-4AD1-9236-272B0EF9F3E8}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 3.wav</AudioFile>
 											<MediaIDList>
@@ -119,6 +129,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 4" ID="{1902B173-6FD6-4BF5-AF9F-7A149660ACBE}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 4.wav</AudioFile>
 											<MediaIDList>
@@ -142,6 +155,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 5" ID="{9A12789D-3731-42A0-B594-9E489FCA182B}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 5.wav</AudioFile>
 											<MediaIDList>
@@ -165,6 +181,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 6" ID="{16CAAB0F-3EED-401D-AA5C-D2E128C5EA76}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 6.wav</AudioFile>
 											<MediaIDList>
@@ -188,6 +207,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 7" ID="{5A1C66FE-837E-4284-9C00-D8923B7BC164}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 7.wav</AudioFile>
 											<MediaIDList>
@@ -211,6 +233,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 8" ID="{620AA551-234D-41A0-8F03-B03B8CBE8DF8}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 8.wav</AudioFile>
 											<MediaIDList>
@@ -234,6 +259,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 9" ID="{F80AF68D-F2BB-4756-B771-FBFBCF8B9140}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 9.wav</AudioFile>
 											<MediaIDList>
@@ -257,6 +285,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 10" ID="{AF573A62-971D-4C4D-B7AD-B95392740541}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 10.wav</AudioFile>
 											<MediaIDList>
@@ -280,6 +311,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 11" ID="{A15A649F-5373-4C4D-BED1-78D33A71DE23}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 11.wav</AudioFile>
 											<MediaIDList>
@@ -303,6 +337,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 12" ID="{81B410F7-EF4E-4ACE-BA1B-2DD64D40B94E}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 12.wav</AudioFile>
 											<MediaIDList>
@@ -326,6 +363,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Drawer - Track 13" ID="{ECAF86CC-5D14-43CC-9ECD-7AECD5F590B8}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\Drawer\Drawer - Track 13.wav</AudioFile>
 											<MediaIDList>
@@ -387,6 +427,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 1" ID="{9B0EB293-E9B5-4E0D-AD41-AAD5E2F2E17E}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 1.wav</AudioFile>
 											<MediaIDList>
@@ -410,6 +453,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 2" ID="{227DB660-84D7-471C-AC82-0381A8F98464}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 2.wav</AudioFile>
 											<MediaIDList>
@@ -433,6 +479,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 3" ID="{B571FE92-F570-43A1-B6DC-DF4AABCD8E7C}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 3.wav</AudioFile>
 											<MediaIDList>
@@ -456,6 +505,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 4" ID="{72115164-1F9D-49CB-B1B7-21066BB17C1C}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 4.wav</AudioFile>
 											<MediaIDList>
@@ -479,6 +531,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 5" ID="{8E6D8B8F-228C-450C-BF66-1FC4DF3D7D02}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 5.wav</AudioFile>
 											<MediaIDList>
@@ -502,6 +557,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 6" ID="{75D70027-FBA3-4146-B874-F0679EB2502B}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 6.wav</AudioFile>
 											<MediaIDList>
@@ -525,6 +583,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 7" ID="{79FFC5F2-C309-42E7-85B2-7D42531E87E2}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 7.wav</AudioFile>
 											<MediaIDList>
@@ -548,6 +609,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 8" ID="{AC60D45A-5894-49F5-B6DE-9F6E8280BD80}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 8.wav</AudioFile>
 											<MediaIDList>
@@ -571,6 +635,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 9" ID="{4DF90096-5C67-4004-85E5-DF4377C23C44}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 9.wav</AudioFile>
 											<MediaIDList>
@@ -594,6 +661,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 10" ID="{0FF746B8-9853-4E6C-AF3B-40949BFCA4CE}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 10.wav</AudioFile>
 											<MediaIDList>
@@ -617,6 +687,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 11" ID="{03E24DA0-0201-49BD-B7B2-CD8E4DCAC9A7}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 11.wav</AudioFile>
 											<MediaIDList>
@@ -640,6 +713,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 12" ID="{70168980-E4A6-44FC-AC6A-CC5807BF9D9B}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 12.wav</AudioFile>
 											<MediaIDList>
@@ -663,6 +739,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SwitchButtons 13" ID="{0836661E-52F2-46AF-96FA-13DF3844E854}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 13.wav</AudioFile>
 											<MediaIDList>
@@ -724,6 +803,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="PickupKey" ID="{7E49F130-C5B3-4D50-ADBF-78FA39AF2DAD}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>PickupKey.wav</AudioFile>
 											<MediaIDList>

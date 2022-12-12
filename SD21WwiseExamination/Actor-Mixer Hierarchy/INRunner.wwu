@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="INRunner" ID="{890B7C4F-7E06-4CF2-BC08-88715BB3FD08}" OwnerID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="Seesaw" ID="{CBE51E84-37C2-41F1-8CF4-A6717E2AB698}" ShortID="221145586">
+				<ActorMixer Name="Seesaw3d" ID="{CBE51E84-37C2-41F1-8CF4-A6717E2AB698}" ShortID="221145586">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -15,12 +15,14 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Seesaw" ID="{E309D711-6700-42D5-BB73-322A5F814011}" ShortID="201920573">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>15</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -60,6 +62,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Seesaw_Squeak (1)" ID="{791A6CFE-5E44-45EC-818A-6CA4FAA0DCD9}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Runner\Seesaw\Seesaw_Squeak (1).wav</AudioFile>
 											<MediaIDList>
@@ -83,6 +88,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Seesaw_Squeak (2)" ID="{59ABF9B8-298F-4FD0-93D7-1497FE7A34FE}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Runner\Seesaw\Seesaw_Squeak (2).wav</AudioFile>
 											<MediaIDList>
@@ -106,6 +114,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Seesaw_Squeak (3)" ID="{04CA5DD8-ACCC-49FF-8E62-D42FBAE636A6}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Runner\Seesaw\Seesaw_Squeak (3).wav</AudioFile>
 											<MediaIDList>
@@ -129,6 +140,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Seesaw_Squeak (4)" ID="{683FA415-9F95-4C12-AC50-7A2E38B18279}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Runner\Seesaw\Seesaw_Squeak (4).wav</AudioFile>
 											<MediaIDList>
@@ -152,6 +166,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Seesaw_Squeak (5)" ID="{19587684-6660-42AA-99A4-56E55435FB95}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Runner\Seesaw\Seesaw_Squeak (5).wav</AudioFile>
 											<MediaIDList>
@@ -175,6 +192,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Seesaw_Squeak (6)" ID="{B0A75E0F-03E7-4F6C-8097-148A1411FB1E}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Runner\Seesaw\Seesaw_Squeak (6).wav</AudioFile>
 											<MediaIDList>
@@ -198,6 +218,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Seesaw_Squeak (7)" ID="{3E69B329-4392-4448-932C-F27A5A9CFD73}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Runner\Seesaw\Seesaw_Squeak (7).wav</AudioFile>
 											<MediaIDList>
@@ -221,6 +244,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Seesaw_Squeak (8)" ID="{91BC67AA-ED99-46F5-B824-CFEDC6C89B9C}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Runner\Seesaw\Seesaw_Squeak (8).wav</AudioFile>
 											<MediaIDList>
@@ -244,6 +270,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Seesaw_Squeak (9)" ID="{D2842F20-A59F-41AB-953D-7E0F3191F7E8}">
+											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Runner\Seesaw\Seesaw_Squeak (9).wav</AudioFile>
 											<MediaIDList>
