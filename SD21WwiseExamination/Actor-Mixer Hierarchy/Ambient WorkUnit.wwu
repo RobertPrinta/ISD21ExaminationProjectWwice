@@ -52,7 +52,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="AB_Small_Room_Headlocked" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}" ShortID="349663179">
+												<Sound Name="AB_Small_Room_HeadlockedLP" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}" ShortID="349663179">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
@@ -83,20 +83,44 @@
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="AB_Small_Room_Headlocked" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}"/>
+														<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 														<ItemList>
-															<ItemRef Name="AB_Small_Room_Headlocked" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}"/>
+															<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
 										<Sound Name="Basement" ID="{359EC2F6-61D9-46E2-B9FD-A05AE59DAC05}" ShortID="478626523">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6DFEDDC7-C7F2-4E45-B576-21ECD14D6414}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="20"/>
+																	<Property Name="Min" Type="Real64" Value="-20"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -202,8 +226,13 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="AB_Laundromat_Ambience" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}" ShortID="1073636791">
+												<Sound Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}" ShortID="1073636791">
 													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>21</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
@@ -233,14 +262,14 @@
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="AB_Laundromat_Ambience" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
+														<ItemRef Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Laundromat" ID="{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"/>
 														<ItemList>
-															<ItemRef Name="AB_Laundromat_Ambience" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
+															<ItemRef Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>
