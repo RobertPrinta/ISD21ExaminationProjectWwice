@@ -27,6 +27,7 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="AB_Hub_Specific" ID="{D5F2C256-726A-439B-A628-F590F6C4B444}" PersistMode="Reference"/>
+				<WorkUnit Name="AB_Global" ID="{A474B2D6-9874-4E8E-A5EB-0C0F445AF468}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

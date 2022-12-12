@@ -273,7 +273,13 @@
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="3DAmbient" ID="{B2EDDFAA-0CEC-41CC-9C02-B9CD444B297D}" ShortID="404258927">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Generic_1m" ID="{9F2A091D-0F4E-4F62-8F8A-12206012EA60}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
 						</Reference>
@@ -844,7 +850,7 @@
 										<ActiveSource Name="Electricity_Hum_3D" ID="{2C90E778-A9F8-4193-A1E4-57700E2B6138}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="AB_City_Traffic_From_Closed_Window_1_3D" ID="{99A305D6-FD5B-45CC-AF89-0DC756ABA840}" ShortID="390426300">
+								<ActorMixer Name="AB_Closted_Window" ID="{E906A4CB-9AFD-490E-B4EC-C4C91492C764}" ShortID="648494888">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -854,134 +860,209 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="AB_City_Traffic_From_Closed_Window_1_3D" ID="{FFB86280-8393-44BF-86A3-0852BFE235D3}">
-											<Language>SFX</Language>
-											<AudioFile>Ambience\3D\AB_City_Traffic_From_Closed_Window_1_3D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="869859257"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<RandomSequenceContainer Name="AB_City_Traffic_From_Closed_Window_3D" ID="{B1B873A3-6679-4E18-BE9E-77F8D48FD83C}" ShortID="578649881">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AB_City_Traffic_From_Closed_Window_2_3D" ID="{3B6321E0-B41F-42B2-B4B1-2152C37178F8}" ShortID="831765703">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_City_Traffic_From_Closed_Window_2_3D" ID="{C0DC0323-026B-4235-AFAC-DA5BF31A1F96}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="499956017"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_City_Traffic_From_Closed_Window_2_3D" ID="{C0DC0323-026B-4235-AFAC-DA5BF31A1F96}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_City_Traffic_From_Closed_Window_1_3D" ID="{99A305D6-FD5B-45CC-AF89-0DC756ABA840}" ShortID="390426300">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_City_Traffic_From_Closed_Window_1_3D" ID="{FFB86280-8393-44BF-86A3-0852BFE235D3}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_City_Traffic_From_Closed_Window_1_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="869859257"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_City_Traffic_From_Closed_Window_1_3D" ID="{FFB86280-8393-44BF-86A3-0852BFE235D3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_City_Traffic_From_Closed_Window_3_3D" ID="{BB5FA88D-42E2-489B-8BB2-403A7B32D44B}" ShortID="890282991">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_City_Traffic_From_Closed_Window_3_3D" ID="{426FF194-7532-4307-A4C6-C3DD4F4749C2}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_City_Traffic_From_Closed_Window_3_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="882470511"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_City_Traffic_From_Closed_Window_3_3D" ID="{426FF194-7532-4307-A4C6-C3DD4F4749C2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="AB_Rain_From_Closed_Window_3D" ID="{4D90E558-0E54-4028-9696-5ED373887FF5}" ShortID="947356225">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AB_Rain_From_Closed_Window_3_3D" ID="{5BEADE4C-9845-48DC-8BD5-F832ED04121B}" ShortID="599723048">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Rain_From_Closed_Window_3_3D" ID="{5D5C73C1-F3AD-4D73-9871-3B3D8D4F2F2E}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_Rain_From_Closed_Window_3_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="681954304"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Rain_From_Closed_Window_3_3D" ID="{5D5C73C1-F3AD-4D73-9871-3B3D8D4F2F2E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_Rain_From_Closed_Window_2_3D" ID="{8CFF8556-FF52-41B6-9010-9B042313CBFB}" ShortID="212107493">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Rain_From_Closed_Window_2_3D" ID="{33C6CC7E-B5CB-4362-A151-3EFA77C2FFA8}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_Rain_From_Closed_Window_2_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="188213775"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Rain_From_Closed_Window_2_3D" ID="{33C6CC7E-B5CB-4362-A151-3EFA77C2FFA8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_Rain_From_Closed_Window_1_3D" ID="{F29733B5-DC65-45D1-B277-1A9723D4F6E4}" ShortID="10275254">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Rain_From_Closed_Window_1_3D" ID="{38855E00-2082-497C-B38B-CBB729D57B66}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_Rain_From_Closed_Window_1_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="3740573"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Rain_From_Closed_Window_1_3D" ID="{38855E00-2082-497C-B38B-CBB729D57B66}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="AB_City_Traffic_From_Closed_Window_1_3D" ID="{FFB86280-8393-44BF-86A3-0852BFE235D3}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AB_City_Traffic_From_Closed_Window_2_3D" ID="{3B6321E0-B41F-42B2-B4B1-2152C37178F8}" ShortID="831765703">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AB_City_Traffic_From_Closed_Window_2_3D" ID="{C0DC0323-026B-4235-AFAC-DA5BF31A1F96}">
-											<Language>SFX</Language>
-											<AudioFile>Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="499956017"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="AB_City_Traffic_From_Closed_Window_2_3D" ID="{C0DC0323-026B-4235-AFAC-DA5BF31A1F96}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AB_City_Traffic_From_Closed_Window_3_3D" ID="{BB5FA88D-42E2-489B-8BB2-403A7B32D44B}" ShortID="890282991">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AB_City_Traffic_From_Closed_Window_3_3D" ID="{426FF194-7532-4307-A4C6-C3DD4F4749C2}">
-											<Language>SFX</Language>
-											<AudioFile>Ambience\3D\AB_City_Traffic_From_Closed_Window_3_3D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="882470511"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="AB_City_Traffic_From_Closed_Window_3_3D" ID="{426FF194-7532-4307-A4C6-C3DD4F4749C2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AB_Rain_From_Closed_Window_1_3D" ID="{F29733B5-DC65-45D1-B277-1A9723D4F6E4}" ShortID="10275254">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AB_Rain_From_Closed_Window_1_3D" ID="{38855E00-2082-497C-B38B-CBB729D57B66}">
-											<Language>SFX</Language>
-											<AudioFile>Ambience\3D\AB_Rain_From_Closed_Window_1_3D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="3740573"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="AB_Rain_From_Closed_Window_1_3D" ID="{38855E00-2082-497C-B38B-CBB729D57B66}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AB_Rain_From_Closed_Window_2_3D" ID="{8CFF8556-FF52-41B6-9010-9B042313CBFB}" ShortID="212107493">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AB_Rain_From_Closed_Window_2_3D" ID="{33C6CC7E-B5CB-4362-A151-3EFA77C2FFA8}">
-											<Language>SFX</Language>
-											<AudioFile>Ambience\3D\AB_Rain_From_Closed_Window_2_3D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="188213775"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="AB_Rain_From_Closed_Window_2_3D" ID="{33C6CC7E-B5CB-4362-A151-3EFA77C2FFA8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AB_Rain_From_Closed_Window_3_3D" ID="{5BEADE4C-9845-48DC-8BD5-F832ED04121B}" ShortID="599723048">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AB_Rain_From_Closed_Window_3_3D" ID="{5D5C73C1-F3AD-4D73-9871-3B3D8D4F2F2E}">
-											<Language>SFX</Language>
-											<AudioFile>Ambience\3D\AB_Rain_From_Closed_Window_3_3D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="681954304"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="AB_Rain_From_Closed_Window_3_3D" ID="{5D5C73C1-F3AD-4D73-9871-3B3D8D4F2F2E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</ActorMixer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>

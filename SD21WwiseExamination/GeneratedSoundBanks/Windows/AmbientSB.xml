@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="3104042487">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="4043865061">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
@@ -37,7 +37,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1942000015" Name="Play_Dream_Machine_Heart_Monitor_3D" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_Dream_Machine_Heart_Monitor_3D" GUID="{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}" DurationType="OneShot" DurationMin="23.711632" DurationMax="23.711632">
+				<Event Id="1942000015" Name="Play_Dream_Machine_Heart_Monitor_3D" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_Dream_Machine_Heart_Monitor_3D" GUID="{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}" MaxAttenuation="100." DurationType="OneShot" DurationMin="23.711632" DurationMax="23.711632">
 					<IncludedMemoryFiles>
 						<File Id="71120849" Language="SFX">
 							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor1_3D.wav</ShortName>
