@@ -850,7 +850,7 @@
 										<ActiveSource Name="Electricity_Hum_3D" ID="{2C90E778-A9F8-4193-A1E4-57700E2B6138}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<ActorMixer Name="AB_Closted_Window" ID="{E906A4CB-9AFD-490E-B4EC-C4C91492C764}" ShortID="648494888">
+								<ActorMixer Name="AB_Closed_Window" ID="{E906A4CB-9AFD-490E-B4EC-C4C91492C764}" ShortID="648494888">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1060,6 +1060,107 @@
 											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="AB_Open_Window" ID="{30250CD1-5B6D-4704-83ED-D25B97437296}" ShortID="303415813">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Train_Passing_By_1_3D" ID="{D5F67DC2-536D-4EA1-A44E-7B8412A672A7}" ShortID="92414022">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Generic_1m" ID="{9F2A091D-0F4E-4F62-8F8A-12206012EA60}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Train_Passing_By_1_3D" ID="{1CB0B204-E24B-40B6-94EC-80C511B78D92}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Train_Passing_By_1_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="469249509"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Train_Passing_By_1_3D" ID="{1CB0B204-E24B-40B6-94EC-80C511B78D92}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Train_Passing_By_2_3D" ID="{C3D44197-38C5-413A-8B48-354CE686AA71}" ShortID="566618464">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Generic_1m" ID="{9F2A091D-0F4E-4F62-8F8A-12206012EA60}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Train_Passing_By_2_3D" ID="{3E24C6C9-9791-4307-A2BB-FB01A4E4C3AE}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\Train_Passing_By_2_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="8138167"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Train_Passing_By_2_3D" ID="{3E24C6C9-9791-4307-A2BB-FB01A4E4C3AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="City_Traffic_From_Open_Window_3D" ID="{D4AF333E-12FB-4C44-8131-D5289C7F74A2}" ShortID="196876343">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Generic_1m" ID="{9F2A091D-0F4E-4F62-8F8A-12206012EA60}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="City_Traffic_From_Open_Window_3D" ID="{341A216D-E16E-4CF1-B1E0-96F1E29BA777}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\City_Traffic_From_Open_Window_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="376465642"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="City_Traffic_From_Open_Window_3D" ID="{341A216D-E16E-4CF1-B1E0-96F1E29BA777}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
