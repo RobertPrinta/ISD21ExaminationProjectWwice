@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SwitchButtons" ID="{287178B6-F4F7-4A89-B558-2A5ECEEC8142}">
+					<ChildrenList>
+						<Action Name="" ID="{81CC1551-A49F-490B-9B26-90109617D4E0}" ShortID="682832441">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwitchButtons" ID="{7B3AD65D-27BF-4D17-8A1F-BEDCB542CA77}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

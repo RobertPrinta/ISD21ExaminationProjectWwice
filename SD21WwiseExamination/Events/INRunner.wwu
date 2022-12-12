@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AFD28495-093E-4F21-BC91-9F7430535023}" SchemaVersion="103" RootDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" ParentDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}">
 	<Events>
-		<WorkUnit Name="INRunner" ID="{AFD28495-093E-4F21-BC91-9F7430535023}" OwnerID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" PersistMode="Nested"/>
+		<WorkUnit Name="INRunner" ID="{AFD28495-093E-4F21-BC91-9F7430535023}" OwnerID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Seesaw" ID="{3FBFAE9D-4444-44B1-90C8-316A1176AD23}">
+					<ChildrenList>
+						<Action Name="" ID="{8CBEF3B1-FF77-4BC1-8C38-FD79A9BE7BA4}" ShortID="845530866">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Seesaw" ID="{E309D711-6700-42D5-BB73-322A5F814011}" WorkUnitID="{890B7C4F-7E06-4CF2-BC08-88715BB3FD08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

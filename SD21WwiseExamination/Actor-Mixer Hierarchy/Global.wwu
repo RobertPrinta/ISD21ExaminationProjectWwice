@@ -341,6 +341,318 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SwitchButtons" ID="{7B3AD65D-27BF-4D17-8A1F-BEDCB542CA77}" ShortID="987703473">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SwitchButtons 1" ID="{EA6D0802-BE13-4ED6-8AD9-C8C264A73305}" ShortID="863524145">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 1" ID="{9B0EB293-E9B5-4E0D-AD41-AAD5E2F2E17E}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="619548363"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 1" ID="{9B0EB293-E9B5-4E0D-AD41-AAD5E2F2E17E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 2" ID="{B4E0F3E3-973F-4269-8064-8577CADDB5B4}" ShortID="849419629">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 2" ID="{227DB660-84D7-471C-AC82-0381A8F98464}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="488826659"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 2" ID="{227DB660-84D7-471C-AC82-0381A8F98464}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 3" ID="{85ED8AD9-58B8-4B13-9294-7D4B4CB36F23}" ShortID="716574062">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 3" ID="{B571FE92-F570-43A1-B6DC-DF4AABCD8E7C}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="278536048"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 3" ID="{B571FE92-F570-43A1-B6DC-DF4AABCD8E7C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 4" ID="{F734C644-7D25-43C6-9052-893075F27106}" ShortID="259102229">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 4" ID="{72115164-1F9D-49CB-B1B7-21066BB17C1C}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="620835725"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 4" ID="{72115164-1F9D-49CB-B1B7-21066BB17C1C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 5" ID="{46561E38-0100-4452-9723-5090C3AD05BB}" ShortID="765176964">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 5" ID="{8E6D8B8F-228C-450C-BF66-1FC4DF3D7D02}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318262210"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 5" ID="{8E6D8B8F-228C-450C-BF66-1FC4DF3D7D02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 6" ID="{897438E9-5B82-42A2-AE53-2F5855A35643}" ShortID="738008339">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 6" ID="{75D70027-FBA3-4146-B874-F0679EB2502B}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="525222098"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 6" ID="{75D70027-FBA3-4146-B874-F0679EB2502B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 7" ID="{3ECF082E-8D17-4BD2-9022-EE8B7163C544}" ShortID="165619470">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 7" ID="{79FFC5F2-C309-42E7-85B2-7D42531E87E2}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493295727"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 7" ID="{79FFC5F2-C309-42E7-85B2-7D42531E87E2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 8" ID="{C39D03A6-8619-460C-9B54-CCB535078E2A}" ShortID="791062942">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 8" ID="{AC60D45A-5894-49F5-B6DE-9F6E8280BD80}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="549493716"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 8" ID="{AC60D45A-5894-49F5-B6DE-9F6E8280BD80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 9" ID="{13772BEE-2012-4CBD-8984-9387A45D82DE}" ShortID="915683533">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 9" ID="{4DF90096-5C67-4004-85E5-DF4377C23C44}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="370765828"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 9" ID="{4DF90096-5C67-4004-85E5-DF4377C23C44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 10" ID="{761DAAD3-CB3E-4CAE-958B-2C74E9569B77}" ShortID="952876055">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 10" ID="{0FF746B8-9853-4E6C-AF3B-40949BFCA4CE}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296634542"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 10" ID="{0FF746B8-9853-4E6C-AF3B-40949BFCA4CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 11" ID="{ACBC66F8-8F5D-4FC9-B77A-661BB97A1372}" ShortID="421987619">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 11" ID="{03E24DA0-0201-49BD-B7B2-CD8E4DCAC9A7}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="259073582"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 11" ID="{03E24DA0-0201-49BD-B7B2-CD8E4DCAC9A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 12" ID="{907A1B59-4F36-4A8F-9E81-D49AB978B0B3}" ShortID="300001105">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 12" ID="{70168980-E4A6-44FC-AC6A-CC5807BF9D9B}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="173391898"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 12" ID="{70168980-E4A6-44FC-AC6A-CC5807BF9D9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SwitchButtons 13" ID="{31C1F0C5-5848-4158-8113-41368CBA366D}" ShortID="1052669444">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SwitchButtons 13" ID="{0836661E-52F2-46AF-96FA-13DF3844E854}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\SwitchButtons\SwitchButtons 13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="846880947"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SwitchButtons 13" ID="{0836661E-52F2-46AF-96FA-13DF3844E854}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
