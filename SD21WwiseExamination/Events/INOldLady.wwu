@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C856504A-FF71-41AC-858B-46CBEEF44807}" SchemaVersion="103" RootDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" ParentDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}">
 	<Events>
-		<WorkUnit Name="INOldLady" ID="{C856504A-FF71-41AC-858B-46CBEEF44807}" OwnerID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" PersistMode="Nested"/>
+		<WorkUnit Name="INOldLady" ID="{C856504A-FF71-41AC-858B-46CBEEF44807}" OwnerID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_AB_Rain_From_Closed_Window_3D" ID="{CBFFB80A-EAE9-40B9-ACE5-CC80F10A6AEA}">
+					<ChildrenList>
+						<Action Name="" ID="{D91CAB04-2074-4C14-9041-21B3926216C6}" ShortID="283773039">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_City_Traffic_From_Closed_Window_3D" ID="{B1B873A3-6679-4E18-BE9E-77F8D48FD83C}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AB_Start_Fire" ID="{B01FBE79-94B5-41E9-A1B0-92F53C071D59}">
+					<ChildrenList>
+						<Action Name="" ID="{AEEB9081-9955-4D46-A935-CC267194E077}" ShortID="615233559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_Start" ID="{E8E99A77-83DC-42BC-8D81-56051A10EF78}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{89DC4C47-DC62-443C-9344-B62DFA1262A9}" ShortID="536791323">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6962628B-B7DE-4B08-AFAB-4C867C11B844}" ShortID="100235361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_Crackle_3D" ID="{C45AA3E0-6302-4959-B53C-6BE40F10E80C}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AB_Fire" ID="{67632323-665F-4B3B-A023-2D9BDF3EA65D}">
+					<ChildrenList>
+						<Action Name="" ID="{3954E163-D0A4-4361-9DB8-021C516A125B}" ShortID="667244527">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E2EC198-1939-42F5-94EA-D5C041684949}" ShortID="795874437">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_Crackle_3D" ID="{C45AA3E0-6302-4959-B53C-6BE40F10E80C}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
