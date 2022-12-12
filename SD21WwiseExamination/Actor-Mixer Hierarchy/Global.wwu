@@ -757,7 +757,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="KeyUp" ID="{8A5C9738-F5EA-46E7-A76F-8AAEB49C9921}" ShortID="996998532">
+						<RandomSequenceContainer Name="KeyPickUp" ID="{8A5C9738-F5EA-46E7-A76F-8AAEB49C9921}" ShortID="996998532">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
