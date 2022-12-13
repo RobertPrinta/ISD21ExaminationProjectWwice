@@ -1,7 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
+	764393601	Play_Faulty_Socket_Electricity_Buzz_3D			\Ambience\Play_Faulty_Socket_Electricity_Buzz_3D	
+	1346453913	Play_AB_Rain_From_Closed_Window_3D			\Ambience\AB_Global\Play_AB_Rain_From_Closed_Window_3D	
 	1942000015	Play_Dream_Machine_Heart_Monitor_3D			\Ambience\AB_Hub_Specific\Play_Dream_Machine_Heart_Monitor_3D	
+	2130144733	Play_Low_Electricity_Hum_3D			\Ambience\Play_Low_Electricity_Hum_3D	
 	2189000874	Play_Dream_Machine_Ambience_3D			\Ambience\AB_Hub_Specific\Play_Dream_Machine_Ambience_3D	
+	2649588192	Play_Waterpipes_3D			\Ambience\AB_Thug_Specific\Play_Waterpipes_3D	
 	3354322557	Play_Headlocked_Ambience			\Ambience\Play_Headlocked_Ambience	
+	3880068576	Play_AB_City_Traffic_From_Closed_Window_3D			\Ambience\AB_Global\Play_AB_City_Traffic_From_Closed_Window_3D	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	835576787	Biome			\Default Work Unit\Biome	
@@ -9,13 +14,10 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	2782712965	Level			\Default Work Unit\Level	
 
 Switch	ID	Name	Switch Group			Notes
-	1413413702	Basement	Biome			
 	2730119150	Outdoors	Biome			
 	4103860031	Indoors	Biome			
 	92673186	RoomBig	RoomType			
-	1289942167	Stairs	RoomType			
 	3205342581	RoomSmall	RoomType			
-	3671013188	Laundromat	RoomType			
 	408753320	OldLady	Level			
 	646625282	Hub	Level			
 	3124286477	Thug	Level			
@@ -25,12 +27,19 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5444127	Dream_Machine_Working5_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Dream_Machine_Working5_3D_3F75BDB9.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Dream_Machine\AB_Dream_Machine_Working_3D\Dream_Machine_Working5_3D		9647
 	60940898	Dream_Machine_Working1_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Dream_Machine_Working1_3D_3F75BDB9.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Dream_Machine\AB_Dream_Machine_Working_3D\Dream_Machine_Working1_3D		10206
 	71120849	Dream_Machine_Heart_Monitor1_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Dream_Machine_Heart_Monitor1_3D_3F75BDB9.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Dream_Machine\AB_Dream_Machine_Heart_Monitor_3D\Dream_Machine_Heart_Monitor1_3D		9255
-	87600754	AB_Laundromat_Ambience	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\Headlocked\AB_Laundromat_Ambience_9EDFC787.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\AB_Headlockt_Ambient\AB_Level\AB_Thug\AB_RoomType\AB_Laundromat_Ambience		147354
 	340444638	Dream_Machine_Heart_Monitor3_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Dream_Machine_Heart_Monitor3_3D_3F75BDB9.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Dream_Machine\AB_Dream_Machine_Heart_Monitor_3D\Dream_Machine_Heart_Monitor3_3D		8055
 	357629459	Dream_Machine_Working3_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Dream_Machine_Working3_3D_3F75BDB9.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Dream_Machine\AB_Dream_Machine_Working_3D\Dream_Machine_Working3_3D		5188
+	366061825	AB_Electricity_Buzz_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Electricity_Buzz_3D_9EDFC787.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Indoors\AB_Electricity_Buzz_3D		9273
+	499956017	AB_City_Traffic_From_Closed_Window_2_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D_9EDFC787.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Indoors\AB_Closed_Window\AB_City_Traffic_From_Closed_Window_3D\AB_City_Traffic_From_Closed_Window_2_3D		161173
+	727441782	AB_Electricity_Hum_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Electricity_Hum_3D_9EDFC787.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Indoors\AB_Electricity_Hum_3D		4243
 	808862803	Dream_Machine_Heart_Monitor4_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Dream_Machine_Heart_Monitor4_3D_3F75BDB9.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Dream_Machine\AB_Dream_Machine_Heart_Monitor_3D\Dream_Machine_Heart_Monitor4_3D		9193
-	812702739	AB_Small_Room_Headlocked	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\Headlocked\AB_Small_Room_Headlocked_9EDFC787.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\AB_Headlockt_Ambient\AB_Level\AB_Hub\AB_RoomType\AB_Small_Room_Headlocked		51587
+	812702739	AB_Small_Room_HeadlockedLP	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\Headlocked\AB_Small_Room_Headlocked_9EDFC787.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\AB_Headlockt_Ambient\AB_Level\AB_Hub\AB_RoomType\AB_Small_Room_HeadlockedLP		51587
 	851081858	Dream_Machine_Working4_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Dream_Machine_Working4_3D_3F75BDB9.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Dream_Machine\AB_Dream_Machine_Working_3D\Dream_Machine_Working4_3D		8962
+	869859257	AB_City_Traffic_From_Closed_Window_1_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\AB_City_Traffic_From_Closed_Window_1_3D_9EDFC787.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Indoors\AB_Closed_Window\AB_City_Traffic_From_Closed_Window_3D\AB_City_Traffic_From_Closed_Window_1_3D		145667
+	882470511	AB_City_Traffic_From_Closed_Window_3_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\AB_City_Traffic_From_Closed_Window_3_3D_9EDFC787.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Indoors\AB_Closed_Window\AB_City_Traffic_From_Closed_Window_3D\AB_City_Traffic_From_Closed_Window_3_3D		83020
 	963938858	Dream_Machine_Working2_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Dream_Machine_Working2_3D_3F75BDB9.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Dream_Machine\AB_Dream_Machine_Working_3D\Dream_Machine_Working2_3D		4287
 	979497733	Dream_Machine_Heart_Monitor2_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Dream_Machine_Heart_Monitor2_3D_3F75BDB9.wem		\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Dream_Machine\AB_Dream_Machine_Heart_Monitor_3D\Dream_Machine_Heart_Monitor2_3D		9130
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	609642351	AB_Waterpipes_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Waterpipes_3D_9EDFC787.wem	609642351.wem	\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Indoors\AB_Waterpipes_3D	
 

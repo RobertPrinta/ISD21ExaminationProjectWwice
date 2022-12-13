@@ -8,11 +8,43 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="3632731369">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="4216378068">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3880068576" Name="Play_AB_City_Traffic_From_Closed_Window_3D" ObjectPath="\Events\Ambience\AB_Global\Play_AB_City_Traffic_From_Closed_Window_3D" GUID="{14328778-62E0-4BD3-B385-6A8D1E92DE23}" MaxAttenuation="500." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="499956017" Language="SFX">
+							<ShortName>Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D_9EDFC787.wem</Path>
+						</File>
+						<File Id="869859257" Language="SFX">
+							<ShortName>Ambience\3D\AB_City_Traffic_From_Closed_Window_1_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\AB_City_Traffic_From_Closed_Window_1_3D_9EDFC787.wem</Path>
+						</File>
+						<File Id="882470511" Language="SFX">
+							<ShortName>Ambience\3D\AB_City_Traffic_From_Closed_Window_3_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\AB_City_Traffic_From_Closed_Window_3_3D_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1346453913" Name="Play_AB_Rain_From_Closed_Window_3D" ObjectPath="\Events\Ambience\AB_Global\Play_AB_Rain_From_Closed_Window_3D" GUID="{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}" MaxAttenuation="500." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="499956017" Language="SFX">
+							<ShortName>Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D_9EDFC787.wem</Path>
+						</File>
+						<File Id="869859257" Language="SFX">
+							<ShortName>Ambience\3D\AB_City_Traffic_From_Closed_Window_1_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\AB_City_Traffic_From_Closed_Window_1_3D_9EDFC787.wem</Path>
+						</File>
+						<File Id="882470511" Language="SFX">
+							<ShortName>Ambience\3D\AB_City_Traffic_From_Closed_Window_3_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\AB_City_Traffic_From_Closed_Window_3_3D_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2189000874" Name="Play_Dream_Machine_Ambience_3D" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_Dream_Machine_Ambience_3D" GUID="{CBBDF146-BD8D-42E1-8EA9-B2613361CE47}" MaxAttenuation="25000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="5444127" Language="SFX">
@@ -57,12 +89,16 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="764393601" Name="Play_Faulty_Socket_Electricity_Buzz_3D" ObjectPath="\Events\Ambience\Play_Faulty_Socket_Electricity_Buzz_3D" GUID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" MaxAttenuation="500." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="366061825" Language="SFX">
+							<ShortName>Ambience\3D\Electricity_Buzz_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Electricity_Buzz_3D_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3354322557" Name="Play_Headlocked_Ambience" ObjectPath="\Events\Ambience\Play_Headlocked_Ambience" GUID="{75515714-049D-48B2-9FA0-6190615A2562}" DurationType="Mixed" DurationMin="0." DurationMax="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="87600754" Language="SFX">
-							<ShortName>Ambience\Headlocked\AB_Laundromat_Ambience.wav</ShortName>
-							<Path>SFX\Ambience\Headlocked\AB_Laundromat_Ambience_9EDFC787.wem</Path>
-						</File>
 						<File Id="812702739" Language="SFX">
 							<ShortName>Ambience\Headlocked\AB_Small_Room_Headlocked.wav</ShortName>
 							<Path>SFX\Ambience\Headlocked\AB_Small_Room_Headlocked_9EDFC787.wem</Path>
@@ -83,19 +119,25 @@
 							</Children>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{83FE05CB-9116-42B1-B40D-1AB2CA42725D}">
-							<Children>
-								<SwitchContainer SwitchValue="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}">
-									<Children>
-										<SwitchContainer SwitchValue="{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}">
-											<Media>
-												<File Id="87600754"/>
-											</Media>
-										</SwitchContainer>
-									</Children>
-								</SwitchContainer>
-							</Children>
+							<Children/>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="2130144733" Name="Play_Low_Electricity_Hum_3D" ObjectPath="\Events\Ambience\Play_Low_Electricity_Hum_3D" GUID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}" MaxAttenuation="500." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="727441782" Language="SFX">
+							<ShortName>Ambience\3D\Electricity_Hum_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Electricity_Hum_3D_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2649588192" Name="Play_Waterpipes_3D" ObjectPath="\Events\Ambience\AB_Thug_Specific\Play_Waterpipes_3D" GUID="{7D19E042-BFE0-4482-A59C-540C8947AD60}" MaxAttenuation="500." DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="609642351" Language="SFX">
+							<ShortName>Ambience\3D\Waterpipes_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Waterpipes_3D_9EDFC787.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
 				</Event>
 			</IncludedEvents>
 			<SwitchGroups>
@@ -103,15 +145,12 @@
 					<Switches>
 						<Switch Id="4103860031" Name="Indoors" ObjectPath="\Switches\Default Work Unit\Biome\Indoors" GUID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
 						<Switch Id="2730119150" Name="Outdoors" ObjectPath="\Switches\Default Work Unit\Biome\Outdoors" GUID="{10680EB0-6A13-4457-AA70-FF5A98FCF9BD}"/>
-						<Switch Id="1413413702" Name="Basement" ObjectPath="\Switches\Default Work Unit\Biome\Basement" GUID="{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="1992536912" Name="RoomType" ObjectPath="\Switches\Default Work Unit\RoomType" GUID="{B1B8C0B5-EE57-4944-8C49-ACE362DDF898}">
 					<Switches>
 						<Switch Id="3205342581" Name="RoomSmall" ObjectPath="\Switches\Default Work Unit\RoomType\RoomSmall" GUID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 						<Switch Id="92673186" Name="RoomBig" ObjectPath="\Switches\Default Work Unit\RoomType\RoomBig" GUID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
-						<Switch Id="1289942167" Name="Stairs" ObjectPath="\Switches\Default Work Unit\RoomType\Stairs" GUID="{A89AAE5E-7A9C-43E0-B073-A250A0614F6C}"/>
-						<Switch Id="3671013188" Name="Laundromat" ObjectPath="\Switches\Default Work Unit\RoomType\Laundromat" GUID="{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="2782712965" Name="Level" ObjectPath="\Switches\Default Work Unit\Level" GUID="{97899AB1-0F8B-4889-924C-6FE368722935}">

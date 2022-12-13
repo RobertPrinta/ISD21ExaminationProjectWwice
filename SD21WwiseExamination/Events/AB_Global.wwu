@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_AB_Rain_From_Closed_Window_3D" ID="{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}">
+					<ChildrenList>
+						<Action Name="" ID="{98500EF1-F045-4C6C-8188-AD0E3EE9CFF0}" ShortID="283773040">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_City_Traffic_From_Closed_Window_3D" ID="{B1B873A3-6679-4E18-BE9E-77F8D48FD83C}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

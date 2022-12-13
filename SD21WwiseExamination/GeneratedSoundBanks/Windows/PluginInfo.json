@@ -5,6 +5,12 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Silence",
+    "ID": "6619138",
+    "DLL": "AkSilenceGenerator",
+    "StaticLib": "AkSilenceSource"
+   },
+   {
     "Name": "Wwise Delay",
     "ID": "6946819",
     "DLL": "AkDelay",

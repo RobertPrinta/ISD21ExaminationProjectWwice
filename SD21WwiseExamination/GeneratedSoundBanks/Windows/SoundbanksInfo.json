@@ -14,6 +14,12 @@
   "DialogueEvents": [],
   "StreamedFiles": [
    {
+    "Id": "609642351",
+    "Language": "SFX",
+    "ShortName": "Ambience\\3D\\Waterpipes_3D.wav",
+    "Path": "SFX\\Ambience\\3D\\Waterpipes_3D_9EDFC787.wem"
+   },
+   {
     "Id": "754351447",
     "Language": "SFX",
     "ShortName": "Test\\Bantam.wav",
@@ -32,11 +38,67 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "3632731369",
+    "Hash": "4216378068",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3880068576",
+      "Name": "Play_AB_City_Traffic_From_Closed_Window_3D",
+      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_City_Traffic_From_Closed_Window_3D",
+      "GUID": "{14328778-62E0-4BD3-B385-6A8D1E92DE23}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "499956017",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "869859257",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "882470511",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1346453913",
+      "Name": "Play_AB_Rain_From_Closed_Window_3D",
+      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_Rain_From_Closed_Window_3D",
+      "GUID": "{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "499956017",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "869859257",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "882470511",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D_9EDFC787.wem"
+       }
+      ]
+     },
      {
       "Id": "2189000874",
       "Name": "Play_Dream_Machine_Ambience_3D",
@@ -114,6 +176,22 @@
       ]
      },
      {
+      "Id": "764393601",
+      "Name": "Play_Faulty_Socket_Electricity_Buzz_3D",
+      "ObjectPath": "\\Events\\Ambience\\Play_Faulty_Socket_Electricity_Buzz_3D",
+      "GUID": "{0325B0EB-0CC8-4805-AA3E-974BEE89C348}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "366061825",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Electricity_Buzz_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Electricity_Buzz_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
       "Id": "3354322557",
       "Name": "Play_Headlocked_Ambience",
       "ObjectPath": "\\Events\\Ambience\\Play_Headlocked_Ambience",
@@ -122,12 +200,6 @@
       "DurationMin": "0.",
       "DurationMax": "Infinite",
       "IncludedMemoryFiles": [
-       {
-        "Id": "87600754",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Laundromat_Ambience.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Laundromat_Ambience_9EDFC787.wem"
-       },
        {
         "Id": "812702739",
         "Language": "SFX",
@@ -156,21 +228,39 @@
        },
        {
         "SwitchValue": "{83FE05CB-9116-42B1-B40D-1AB2CA42725D}",
-        "Children": [
-         {
-          "SwitchValue": "{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}",
-          "Children": [
-           {
-            "SwitchValue": "{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}",
-            "Media": [
-             {
-              "Id": "87600754"
-             }
-            ]
-           }
-          ]
-         }
-        ]
+        "Children": []
+       }
+      ]
+     },
+     {
+      "Id": "2130144733",
+      "Name": "Play_Low_Electricity_Hum_3D",
+      "ObjectPath": "\\Events\\Ambience\\Play_Low_Electricity_Hum_3D",
+      "GUID": "{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "727441782",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Electricity_Hum_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Electricity_Hum_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2649588192",
+      "Name": "Play_Waterpipes_3D",
+      "ObjectPath": "\\Events\\Ambience\\AB_Thug_Specific\\Play_Waterpipes_3D",
+      "GUID": "{7D19E042-BFE0-4482-A59C-540C8947AD60}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "609642351",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Waterpipes_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Waterpipes_3D_9EDFC787.wem"
        }
       ]
      }
@@ -193,12 +283,6 @@
         "Name": "Outdoors",
         "ObjectPath": "\\Switches\\Default Work Unit\\Biome\\Outdoors",
         "GUID": "{10680EB0-6A13-4457-AA70-FF5A98FCF9BD}"
-       },
-       {
-        "Id": "1413413702",
-        "Name": "Basement",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Biome\\Basement",
-        "GUID": "{C7C8CA1D-EC80-4EC5-B09D-A7424824BAF8}"
        }
       ]
      },
@@ -219,18 +303,6 @@
         "Name": "RoomBig",
         "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\RoomBig",
         "GUID": "{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"
-       },
-       {
-        "Id": "1289942167",
-        "Name": "Stairs",
-        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\Stairs",
-        "GUID": "{A89AAE5E-7A9C-43E0-B073-A250A0614F6C}"
-       },
-       {
-        "Id": "3671013188",
-        "Name": "Laundromat",
-        "ObjectPath": "\\Switches\\Default Work Unit\\RoomType\\Laundromat",
-        "GUID": "{81CC3C84-923B-45FD-89AB-25EB1C02AFD2}"
        }
       ]
      },
@@ -424,7 +496,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3609517002",
+    "Hash": "4292814796",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -2576,7 +2648,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "1445084874",
+    "Hash": "599042490",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -3278,11 +3350,412 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "1162628971",
+    "Hash": "4248610037",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
     "IncludedEvents": [
+     {
+      "Id": "754001494",
+      "Name": "Play_AB_Fire",
+      "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_AB_Fire",
+      "GUID": "{46A5130E-C679-4A71-94C1-0EE5F8681C62}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "441282140",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Fire_Crackle_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Fire_Crackle_1_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "693561549",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Fire_Crackle_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Fire_Crackle_3_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "808941281",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Fire_Crackle_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Fire_Crackle_2_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "887081129",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\FireLoop_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\FireLoop_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "424593333",
+      "Name": "Play_AB_Start_Fire",
+      "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_AB_Start_Fire",
+      "GUID": "{3B99ED3E-979C-4918-BF6E-2DA4BDC1B417}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "441282140",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Fire_Crackle_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Fire_Crackle_1_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "453045818",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Interactables\\Fire_Start.wav",
+        "Path": "SFX\\Ambience\\Interactables\\Fire_Start_3F75BDB9.wem"
+       },
+       {
+        "Id": "693561549",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Fire_Crackle_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Fire_Crackle_3_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "808941281",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\Fire_Crackle_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\Fire_Crackle_2_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "887081129",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\FireLoop_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\FireLoop_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "956167245",
+      "Name": "Play_Drawer",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_Drawer",
+      "GUID": "{776FED0A-8D09-438D-AF2A-93D11E06229A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.397324",
+      "DurationMax": "1.419637",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "93987402",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 1.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 1_1827270A.wem"
+       },
+       {
+        "Id": "125695294",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 12.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 12_1827270A.wem"
+       },
+       {
+        "Id": "145761966",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 7.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 7_1827270A.wem"
+       },
+       {
+        "Id": "151873787",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 11.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 11_1827270A.wem"
+       },
+       {
+        "Id": "220303944",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 5.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 5_1827270A.wem"
+       },
+       {
+        "Id": "243506168",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 6.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 6_1827270A.wem"
+       },
+       {
+        "Id": "564016559",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 2.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 2_1827270A.wem"
+       },
+       {
+        "Id": "656839362",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 4.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 4_1827270A.wem"
+       },
+       {
+        "Id": "693256133",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 9.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 9_1827270A.wem"
+       },
+       {
+        "Id": "752403322",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 3.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 3_1827270A.wem"
+       },
+       {
+        "Id": "754801247",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 10.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 10_1827270A.wem"
+       },
+       {
+        "Id": "837750665",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 13.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 13_1827270A.wem"
+       },
+       {
+        "Id": "1039474416",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 8.wav",
+        "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 8_1827270A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3748968909",
+      "Name": "Play_KeyPad_Button",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\KeyPad\\Play_KeyPad_Button",
+      "GUID": "{ECA41777-D9C6-4668-B65C-AC0E495D60D8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.911477",
+      "DurationMax": "0.918878",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "571525980",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\KeyPad\\KeyPad_Button.wav",
+        "Path": "SFX\\Interactables\\Global\\KeyPad\\KeyPad_Button_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2660246561",
+      "Name": "Play_KeyPad_Correct",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\KeyPad\\Play_KeyPad_Correct",
+      "GUID": "{FDACEF61-D2FA-49C4-A23F-8E8ABB9C3F47}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.91517",
+      "DurationMax": "0.91517",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "222703323",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\KeyPad\\KeyPad_Correct.wav",
+        "Path": "SFX\\Interactables\\Global\\KeyPad\\KeyPad_Correct_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "431971085",
+      "Name": "Play_KeyPad_Error",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\KeyPad\\Play_KeyPad_Error",
+      "GUID": "{E326516C-53DC-4690-AAF8-0C65B0C97134}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.91517",
+      "DurationMax": "0.91517",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "648731874",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\KeyPad\\KeyPad_Error.wav",
+        "Path": "SFX\\Interactables\\Global\\KeyPad\\KeyPad_Error_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3865672063",
+      "Name": "Play_Moving_a_painting",
+      "ObjectPath": "\\Events\\Interactables\\INRunner\\Play_Moving_a_painting",
+      "GUID": "{D4279477-ABD4-41C0-B33D-F33245318570}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.116077",
+      "DurationMax": "3.209819",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "232160825",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (9).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (9)_3CADDE39.wem"
+       },
+       {
+        "Id": "249437892",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (4).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (4)_3CADDE39.wem"
+       },
+       {
+        "Id": "282396835",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (3).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (3)_3CADDE39.wem"
+       },
+       {
+        "Id": "373414315",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (8).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (8)_3CADDE39.wem"
+       },
+       {
+        "Id": "410205664",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (2).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (2)_3CADDE39.wem"
+       },
+       {
+        "Id": "782403885",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (6).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (6)_3CADDE39.wem"
+       },
+       {
+        "Id": "837272195",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (1).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (1)_3CADDE39.wem"
+       },
+       {
+        "Id": "854511259",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (7).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (7)_3CADDE39.wem"
+       },
+       {
+        "Id": "973438950",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (5).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (5)_3CADDE39.wem"
+       },
+       {
+        "Id": "1068175776",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (10).wav",
+        "Path": "SFX\\Interactables\\Runner\\Moving A Painting\\Hidden_Painting_Slide (10)_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1457025123",
+      "Name": "Play_PickUpPapper_Close",
+      "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_PickUpPapper_Close",
+      "GUID": "{CC2BA108-7600-4A2B-B575-A53C26A8C27F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.642857",
+      "DurationMax": "0.642857",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "110249580",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\PickUpPapper\\Book_Close.wav",
+        "Path": "SFX\\Interactables\\OldLady\\PickUpPapper\\Book_Close_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3589188693",
+      "Name": "Play_PickUpPapper_Open",
+      "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_PickUpPapper_Open",
+      "GUID": "{8153235C-6BAA-4755-BF64-B6D2FDF8EE1A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.75",
+      "DurationMax": "0.75",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "483252778",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\PickUpPapper\\Book_Open.wav",
+        "Path": "SFX\\Interactables\\OldLady\\PickUpPapper\\Book_Open_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3874421453",
+      "Name": "Play_PickUpPapper_Read",
+      "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_PickUpPapper_Read",
+      "GUID": "{6C5C7938-1B53-43D5-B9C3-51A62DE72FD1}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.392857",
+      "DurationMax": "1.392857",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "224761974",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\PickUpPapper\\Book_Read.wav",
+        "Path": "SFX\\Interactables\\OldLady\\PickUpPapper\\Book_Read_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3951709170",
+      "Name": "Play_Seesaw",
+      "ObjectPath": "\\Events\\Interactables\\INRunner\\Play_Seesaw",
+      "GUID": "{3FBFAE9D-4444-44B1-90C8-316A1176AD23}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.213881",
+      "DurationMax": "4.324967",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "38913390",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Seesaw\\Seesaw_Squeak (1).wav",
+        "Path": "SFX\\Interactables\\Runner\\Seesaw\\Seesaw_Squeak (1)_1827270A.wem"
+       },
+       {
+        "Id": "121605094",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Seesaw\\Seesaw_Squeak (5).wav",
+        "Path": "SFX\\Interactables\\Runner\\Seesaw\\Seesaw_Squeak (5)_1827270A.wem"
+       },
+       {
+        "Id": "268676960",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Seesaw\\Seesaw_Squeak (8).wav",
+        "Path": "SFX\\Interactables\\Runner\\Seesaw\\Seesaw_Squeak (8)_1827270A.wem"
+       },
+       {
+        "Id": "275805109",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Seesaw\\Seesaw_Squeak (3).wav",
+        "Path": "SFX\\Interactables\\Runner\\Seesaw\\Seesaw_Squeak (3)_1827270A.wem"
+       },
+       {
+        "Id": "570785744",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Seesaw\\Seesaw_Squeak (4).wav",
+        "Path": "SFX\\Interactables\\Runner\\Seesaw\\Seesaw_Squeak (4)_1827270A.wem"
+       },
+       {
+        "Id": "649998780",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Seesaw\\Seesaw_Squeak (9).wav",
+        "Path": "SFX\\Interactables\\Runner\\Seesaw\\Seesaw_Squeak (9)_1827270A.wem"
+       },
+       {
+        "Id": "763968488",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Seesaw\\Seesaw_Squeak (7).wav",
+        "Path": "SFX\\Interactables\\Runner\\Seesaw\\Seesaw_Squeak (7)_1827270A.wem"
+       },
+       {
+        "Id": "971535121",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Seesaw\\Seesaw_Squeak (6).wav",
+        "Path": "SFX\\Interactables\\Runner\\Seesaw\\Seesaw_Squeak (6)_1827270A.wem"
+       },
+       {
+        "Id": "1020617454",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Seesaw\\Seesaw_Squeak (2).wav",
+        "Path": "SFX\\Interactables\\Runner\\Seesaw\\Seesaw_Squeak (2)_1827270A.wem"
+       }
+      ]
+     },
      {
       "Id": "3581348024",
       "Name": "Play_Smal_Washing_Machine_Door",
@@ -3321,6 +3794,112 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door5.wav",
         "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door5_C6EEFF0F.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1456827477",
+      "Name": "Play_Smal_Washing_Machine_Door_Hinch",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\Play_Smal_Washing_Machine_Door_Hinch",
+      "GUID": "{5E658B3D-89FA-43D8-B126-AB9CB5F89208}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.053962",
+      "DurationMax": "4.68181",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "214161566",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door hinch.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WasherDoor\\whasher Door hinch_298A29C8.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2830557549",
+      "Name": "Play_SwitchButtons",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_SwitchButtons",
+      "GUID": "{287178B6-F4F7-4A89-B558-2A5ECEEC8142}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.352269",
+      "DurationMax": "0.353083",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "173391898",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 12.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 12_1827270A.wem"
+       },
+       {
+        "Id": "259073582",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 11.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 11_1827270A.wem"
+       },
+       {
+        "Id": "278536048",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 3.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 3_1827270A.wem"
+       },
+       {
+        "Id": "296634542",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 10.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 10_1827270A.wem"
+       },
+       {
+        "Id": "318262210",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 5.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 5_1827270A.wem"
+       },
+       {
+        "Id": "370765828",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 9.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 9_1827270A.wem"
+       },
+       {
+        "Id": "488826659",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 2.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 2_1827270A.wem"
+       },
+       {
+        "Id": "493295727",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 7.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 7_1827270A.wem"
+       },
+       {
+        "Id": "525222098",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 6.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 6_1827270A.wem"
+       },
+       {
+        "Id": "549493716",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 8.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 8_1827270A.wem"
+       },
+       {
+        "Id": "619548363",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 1.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 1_1827270A.wem"
+       },
+       {
+        "Id": "620835725",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 4.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 4_1827270A.wem"
+       },
+       {
+        "Id": "846880947",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 13.wav",
+        "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 13_1827270A.wem"
        }
       ]
      },
