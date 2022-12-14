@@ -1666,7 +1666,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="4248610037">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="1393407345">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
@@ -1712,6 +1712,30 @@
 						<File Id="887081129" Language="SFX">
 							<ShortName>Ambience\3D\FireLoop_3D.wav</ShortName>
 							<Path>SFX\Ambience\3D\FireLoop_3D_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3824929594" Name="Play_DoorKnob" ObjectPath="\Events\Interactables\INGlobal\Play_DoorKnob" GUID="{6CA41CA2-2575-4273-954D-7FF26EFAD443}" DurationType="OneShot" DurationMin="0.433039" DurationMax="0.86161">
+					<IncludedMemoryFiles>
+						<File Id="104490617" Language="SFX">
+							<ShortName>Interactables\Global\DoorKnob\DoorKnob (1).wav</ShortName>
+							<Path>SFX\Interactables\Global\DoorKnob\DoorKnob (1)_3CADDE39.wem</Path>
+						</File>
+						<File Id="273439190" Language="SFX">
+							<ShortName>Interactables\Global\DoorKnob\DoorKnob (2).wav</ShortName>
+							<Path>SFX\Interactables\Global\DoorKnob\DoorKnob (2)_3CADDE39.wem</Path>
+						</File>
+						<File Id="384578781" Language="SFX">
+							<ShortName>Interactables\Global\DoorKnob\DoorKnob (3).wav</ShortName>
+							<Path>SFX\Interactables\Global\DoorKnob\DoorKnob (3)_3CADDE39.wem</Path>
+						</File>
+						<File Id="622075419" Language="SFX">
+							<ShortName>Interactables\Global\DoorKnob\DoorKnob (4).wav</ShortName>
+							<Path>SFX\Interactables\Global\DoorKnob\DoorKnob (4)_3CADDE39.wem</Path>
+						</File>
+						<File Id="951310081" Language="SFX">
+							<ShortName>Interactables\Global\DoorKnob\DoorKnob (5).wav</ShortName>
+							<Path>SFX\Interactables\Global\DoorKnob\DoorKnob (5)_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

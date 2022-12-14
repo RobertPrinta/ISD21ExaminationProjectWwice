@@ -26,6 +26,17 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="KeyPad" ID="{65509D48-69BB-45C1-BBA0-0E516FDACDD1}" PersistMode="Reference"/>
+				<Event Name="Play_DoorKnob" ID="{6CA41CA2-2575-4273-954D-7FF26EFAD443}">
+					<ChildrenList>
+						<Action Name="" ID="{97F3E0F4-1A16-4E33-B461-DFEB4326DFBC}" ShortID="434880571">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorKnob" ID="{CF20725C-DE55-4C61-A0D3-C1795D2D1590}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
