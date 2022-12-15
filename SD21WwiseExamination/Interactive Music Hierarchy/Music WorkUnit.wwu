@@ -8,7 +8,7 @@
 						<Property Name="Tempo" Type="Real64" Value="100"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -21,7 +21,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="OldLadyMusicAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" ShortID="559789851">
+						<MusicPlaylistContainer Name="1OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" ShortID="559789851">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -31,346 +31,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="AmbiPianoStinger-002" ID="{A3CA4757-760D-4D90-B165-CDE0B5AF968A}" ShortID="72152860">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="20200"/>
-										<Property Name="Tempo" Type="Real64" Value="100"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="AmbiPianoStinger-002" ID="{E97564DC-A52C-47EC-A45D-C138B63A6846}" ShortID="768614829">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="AmbiPianoStinger-002" ID="{F530AC95-5472-4EBB-9B50-B6D2EACB36D6}">
-													<Language>SFX</Language>
-													<AudioFile>Music\OldLady\AmbiPianoStinger-002.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="173370905"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{E25816A6-0C3D-474C-AC63-079C5C4B8E75}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{ECB9792B-8AD2-44C7-AD42-9C8D23EE6DE2}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="AmbiPianoStinger-002" ID="{FCDFFE57-7863-48A3-B705-D981C2956F99}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="20200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="AmbiPianoStinger-002" ID="{F530AC95-5472-4EBB-9B50-B6D2EACB36D6}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{D36C8FA6-133B-45F9-AF10-F2E8CC22D1D3}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{BFFBBC72-38D6-44AF-891B-18CBD04B7527}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="20200"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-								<MusicSegment Name="AmbiPianoStinger-004" ID="{9A1764EE-DDB1-447A-B03F-4B16E1166387}" ShortID="49023623">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="8200"/>
-										<Property Name="Tempo" Type="Real64" Value="100"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="AmbiPianoStinger-004" ID="{A90CB95E-B58B-4AAB-A4F2-A6E3650E762D}" ShortID="431692042">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="AmbiPianoStinger-004" ID="{9DEB7A79-F5E1-44B7-AED2-F068C6BF4F77}">
-													<Language>SFX</Language>
-													<AudioFile>Music\OldLady\AmbiPianoStinger-004.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="776105822"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{EB4E04FC-8FDF-44EE-9887-A855E5E6E93A}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{9AC073B6-6A43-4A89-858A-3AF386A9E4DC}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="AmbiPianoStinger-004" ID="{33EB1953-A284-4E65-A88A-F1A7BD7F8C8B}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="8200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="AmbiPianoStinger-004" ID="{9DEB7A79-F5E1-44B7-AED2-F068C6BF4F77}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{16FCAF45-7203-41F5-9DA2-99C9F143CA2D}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{F374CDE1-3684-4374-825A-0C3570642CD2}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="8200"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-								<MusicSegment Name="AmbiPianoStinger-003" ID="{52381DDA-2A72-40DA-BD74-EE6ABD8DC822}" ShortID="56880076">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="9400"/>
-										<Property Name="Tempo" Type="Real64" Value="100"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="AmbiPianoStinger-003" ID="{2E47AF8C-C10F-45FA-8BD3-FFD3B424A211}" ShortID="109738318">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="AmbiPianoStinger-003" ID="{CF3651C4-B102-449E-A1F5-0EC44325DDD2}">
-													<Language>SFX</Language>
-													<AudioFile>Music\OldLady\AmbiPianoStinger-003.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="462796641"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{7FC65A9F-83A5-4D25-BBF9-9A432973C4D0}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{DB8BD5CF-3D32-4E41-BD29-7888BEE5C3C8}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="AmbiPianoStinger-003" ID="{AC6EF885-D8B7-48D7-BDC0-CFBDABAF27A9}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="9400"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="AmbiPianoStinger-003" ID="{CF3651C4-B102-449E-A1F5-0EC44325DDD2}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{6BB2288C-E9AA-46BB-A142-FBC5D59B5E85}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{FB553753-B145-4D44-8BFA-B0289E0B9C5F}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="9400"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-								<MusicSegment Name="AmbiPianoStinger-001" ID="{B866A0F8-5EEF-4757-AAD1-04B4A2E7CF0F}" ShortID="582008406">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="17800"/>
-										<Property Name="Tempo" Type="Real64" Value="100"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="AmbiPianoStinger-001" ID="{CB0C16ED-DA19-437A-B4CF-9202F234A8BB}" ShortID="89267772">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="AmbiPianoStinger-001" ID="{FFBACD4D-4137-43C4-B39C-1062618BB167}">
-													<Language>SFX</Language>
-													<AudioFile>Music\OldLady\AmbiPianoStinger-001.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="925984506"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{7EA91611-C4BA-41FF-A9F7-1BA44CB67FCE}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{E5EFE716-1F69-460C-B160-82971D80D00E}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="AmbiPianoStinger-001" ID="{87E30E23-9573-4A1C-8528-6FCF9F1E1DB6}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="17800"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="AmbiPianoStinger-001" ID="{FFBACD4D-4137-43C4-B39C-1062618BB167}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{F2711A76-4D37-489C-8677-3E9C7A137860}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{1BFB73FA-C72C-4204-86C3-A25EDF77D075}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="17800"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
 								<MusicSegment Name="AmbiGhostStinger-002" ID="{5E2DF571-CF74-42E8-A602-505779E5EE04}" ShortID="363361079">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="10600"/>
@@ -675,7 +335,6 @@
 																				<MusicClip Name="AmbiGhostStinger-001" ID="{04E80EDC-88F4-48D3-BA2C-B81C71A55E0D}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="20200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="AmbiGhostStinger-001" ID="{C1FF7AAD-3861-4569-8F6F-46FC3523FA20}"/>
@@ -951,6 +610,90 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
+								<MusicSegment Name="KeyItemStinger" ID="{CA9BB9B8-3792-4977-BD18-16A9E9BEEAA9}" ShortID="368619663">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KeyItemStinger" ID="{F01C5F0D-EB99-4D4E-95CD-9BFAB2674D8D}" ShortID="1069560439">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KeyItemStinger" ID="{CF8038AC-FDC1-4A6C-8524-C7E47C781623}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KeyItemStinger.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1506673"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C9F87E34-0C50-4EC6-B2B4-E8FEBD1F8B1E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5A72E4C7-1C53-45F0-B710-F5804246C011}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KeyItemStinger" ID="{0DBE2E89-9A0A-4763-8DA4-83C4EA6298B0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="17000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KeyItemStinger" ID="{CF8038AC-FDC1-4A6C-8524-C7E47C781623}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1AC74BE1-2A68-460F-82EC-8B71C3AB564B}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{C7927717-A0E9-4F70-8B84-785A8293E487}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="17000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{3347DA1F-DFE9-4909-85FA-E798A9643EB1}">
@@ -976,93 +719,40 @@
 										<Property Name="PlayMode" Type="int16" Value="2"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{1B3D1932-02CA-4425-8462-DCF970872DAA}" ShortID="494848075">
+										<MusicPlaylistItem Name="" ID="{3734CAEA-7984-4BF2-9B10-5BC2FB9B065E}" ShortID="911686364">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>10</Value>
+														<Value>75</Value>
 													</ValueList>
 												</Property>
+											</PropertyList>
+											<SegmentRef Name="KeyItemStinger" ID="{CA9BB9B8-3792-4977-BD18-16A9E9BEEAA9}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{1B3D1932-02CA-4425-8462-DCF970872DAA}" ShortID="494848075">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="AmbiGhostStinger-001" ID="{859CCA15-D4E5-4BAF-8BBD-E609D04E98B0}"/>
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{5A1555EE-E322-4918-8CBF-D39DBA2BD49E}" ShortID="794118631">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<SegmentRef Name="AmbiGhostStinger-002" ID="{5E2DF571-CF74-42E8-A602-505779E5EE04}"/>
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{3BE30081-450B-4C0C-A376-84563E54ECC3}" ShortID="537852913">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<SegmentRef Name="AmbiGhostStinger-003" ID="{BF1DFBDE-FD7D-48E5-93D8-D8AF50384CD5}"/>
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{F72B5250-7CD5-4B37-987C-AA570A777465}" ShortID="826825369">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<SegmentRef Name="AmbiGhostStinger-004" ID="{8A00C60F-8090-4251-81F1-910B4D3DF720}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{EEE53BFF-7107-4F37-AA56-E337F4696028}" ShortID="601028927">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<SegmentRef Name="AmbiPianoStinger-001" ID="{B866A0F8-5EEF-4757-AAD1-04B4A2E7CF0F}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{6F35195B-E631-48FB-ADF0-37C85D76D9F2}" ShortID="596654092">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<SegmentRef Name="AmbiPianoStinger-002" ID="{A3CA4757-760D-4D90-B165-CDE0B5AF968A}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{444A5DC2-5B91-4090-84AA-C761B57B6AA3}" ShortID="309556698">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<SegmentRef Name="AmbiPianoStinger-003" ID="{52381DDA-2A72-40DA-BD74-EE6ABD8DC822}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{8D2A345F-C9A5-4F64-8160-AEEB04D37187}" ShortID="392603152">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<SegmentRef Name="AmbiPianoStinger-004" ID="{9A1764EE-DDB1-447A-B03F-4B16E1166387}"/>
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{582D85C1-3B14-43AD-8482-506E1E15D2AE}" ShortID="973528203">
 											<PropertyList>
@@ -1092,61 +782,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="OldLadyMusicAct2" ID="{56A63A92-F098-4975-BA64-D574058D2AC3}" ShortID="1026619196">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<TransitionList>
-								<MusicTransition Name="Root" ID="{BDB29316-83D0-4083-90F2-09BA13C8A99A}">
-									<PropertyList>
-										<Property Name="IsFolder" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<MusicTransition Name="Transition" ID="{53ECF101-CF49-4089-80B1-7BDB49888306}">
-											<TransitionInfo/>
-										</MusicTransition>
-									</ChildrenList>
-									<TransitionInfo/>
-								</MusicTransition>
-							</TransitionList>
-							<ObjectLists/>
-							<Playlist>
-								<MusicPlaylistItem Name="" ID="{59C09415-C042-4D0A-999C-263BE36DCB61}" ShortID="830303581"/>
-							</Playlist>
-						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="OldLadyMusicAct3" ID="{D9941E38-7BC5-4883-9B5F-2F73E314799E}" ShortID="363033158">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<TransitionList>
-								<MusicTransition Name="Root" ID="{CF5D1F8D-0115-41F4-BFF7-E95D3F1AC170}">
-									<PropertyList>
-										<Property Name="IsFolder" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<MusicTransition Name="Transition" ID="{EAFCD147-BF85-4F26-9EB5-2C9C3727C4CE}">
-											<TransitionInfo/>
-										</MusicTransition>
-									</ChildrenList>
-									<TransitionInfo/>
-								</MusicTransition>
-							</TransitionList>
-							<ObjectLists/>
-							<Playlist>
-								<MusicPlaylistItem Name="" ID="{935A6DD3-5CA8-4A10-BF6A-479844CC9E9B}" ShortID="74109203"/>
-							</Playlist>
-						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="OldladyGrundAmbi" ID="{1F18BCD9-1786-47AB-B348-AABC8BAC9274}" ShortID="871098378">
+						<MusicPlaylistContainer Name="1OldladyGrundAmbi" ID="{1F18BCD9-1786-47AB-B348-AABC8BAC9274}" ShortID="871098378">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1171,13 +807,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="OldLady Ambi3 100bpm" ID="{B9FE525D-F31F-4567-BA21-0F62CB1F14EA}" ShortID="343560239">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-10</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
@@ -1263,13 +892,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="OldLady Ambi1 100bpm" ID="{37E4321A-912D-424F-AEA6-C728DEB3C2CD}" ShortID="862890540">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-10</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
@@ -1360,7 +982,7 @@
 																									</Point>
 																									<Point>
 																										<XPos>15.09756</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
 																								</PointList>
@@ -1414,13 +1036,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="OldLady Ambi2 100bpm" ID="{43400664-3D62-404B-B1AB-F7FA08CA0A63}" ShortID="57355310">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-10</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
@@ -1517,11 +1132,6 @@
 										<MusicPlaylistItem Name="" ID="{B4B14A44-B521-4305-8822-0C0B0987663E}" ShortID="588694619">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<SegmentRef Name="OldLady Ambi1 100bpm" ID="{8BA47879-8DEA-4F40-BF9C-A3113011D635}"/>
 										</MusicPlaylistItem>
@@ -1541,7 +1151,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="OldLadyKontraStingers1" ID="{33B9A644-D537-418A-9119-4D7B1D506674}" ShortID="107515313">
+						<MusicPlaylistContainer Name="1OldLadyKontraStingers1" ID="{33B9A644-D537-418A-9119-4D7B1D506674}" ShortID="107515313">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1550,6 +1160,556 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="kontrabas master-001" ID="{51551675-2BE0-4F8B-9EA8-37CAF6C729CB}" ShortID="205418175">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="19000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-001" ID="{438FBCB2-772E-4AAB-B61E-D5628D146E9D}" ShortID="978784867">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-001" ID="{AF9137C4-6044-4947-8B6E-E5A8C2DAB2AF}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53033174"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E76302DB-DAD4-453D-AAE0-F65A418F248D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9FB0E136-C7F3-4978-A6E1-2E76DCAD07A7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-001" ID="{E33A4264-1394-4DC0-869E-1453AC97CD69}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="19000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-001" ID="{AF9137C4-6044-4947-8B6E-E5A8C2DAB2AF}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E07AA54C-2DF3-4EC1-970D-092269548450}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E8706325-D837-4DAA-B16D-BB4CAA27DAA4}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="19000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-002" ID="{3DF8EF08-FA7C-44A5-BD65-FA7FBBF58A2C}" ShortID="283069112">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="27000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-002" ID="{2F3F257B-1689-4670-AC92-140DA4B359C9}" ShortID="1003357256">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-002" ID="{BE859129-1C45-4D1E-B5C7-5D98C7276E11}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="461225173"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{20FDACA7-20DE-4FBF-A2F3-03292F82A136}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4B835640-9C91-4A48-AD63-DBD88FB40B2C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-002" ID="{9EBB22E1-8488-42C3-A914-4393F003BE0E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="27000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-002" ID="{BE859129-1C45-4D1E-B5C7-5D98C7276E11}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E53FE238-D731-47E4-913E-DFF45DFAEAF0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6E0B0AAD-9888-4FEA-A1D3-393A4E337D9A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="27000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-003" ID="{FBFEEE91-8A5A-48F0-A581-39E08340DFCE}" ShortID="670929846">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="14000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-003" ID="{4A6EEC2C-1CAC-4309-B52E-89A5FEBAB1DC}" ShortID="557378918">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-003" ID="{A3334314-3C4D-4177-AA5C-F8ECD6D38CFE}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="586083000"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FE067689-CACC-42FB-A213-546F90B21791}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B52B73C5-7B93-44C8-954E-B6E5552498C8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-003" ID="{2339A192-93F5-43AA-85E5-A38C74C3E22F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="14000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-003" ID="{A3334314-3C4D-4177-AA5C-F8ECD6D38CFE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FBF8B7D6-6AC6-485F-A551-A6E0B9D25B21}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{4C742030-E0D8-48D9-97FA-DE97DAA61FBA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="14000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-004" ID="{7F59173C-3C90-4510-BAEB-81825A176023}" ShortID="969027310">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="10000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-004" ID="{05E158CF-CF47-4D81-B4F1-BB5E5D83E1C1}" ShortID="289695789">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-004" ID="{1772B7C8-CF40-491F-9A16-79F1D59954CB}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="436433310"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1A7E4265-DBD4-4D47-881D-2D122FBDFA7C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9E0C784F-5FE4-4F32-BE05-0AF23B67943F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-004" ID="{A7F53D0F-2A0E-4CFC-82F6-F1EFFE76D53F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-004" ID="{1772B7C8-CF40-491F-9A16-79F1D59954CB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1999C2E6-2C68-4673-90B9-43E68EC2F9AF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B7E775D6-3543-4EE7-889F-1D97B86C43BC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-005" ID="{12FC5D7F-62F6-4204-94EE-2F6EB46DC928}" ShortID="25635795">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16341.2925170068"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-005" ID="{2A15C02F-59CD-4D11-9C5E-CB179959580E}" ShortID="788746035">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-005" ID="{EE9AFB8D-A125-408C-ABBF-D75232E82E9A}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="891722214"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5749BC30-7532-4B32-8D93-AB8827BD5C8E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0C1B4619-C97E-4654-B118-4F2DFC86FD58}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-005" ID="{BAE88C15-1A81-4E8F-A21B-6BB08BC1EE01}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="16341.2925170068"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-005" ID="{EE9AFB8D-A125-408C-ABBF-D75232E82E9A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{196E18E1-6D9A-44DB-B7E3-72E9E7C370D6}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{08C6E487-69A1-4417-AFD3-5FB7B93B839D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="16341.2925170068"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence1" ID="{BEDA45A9-4EF6-4C7C-A2AC-DF4A7171E785}" ShortID="462394709">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="6096.8992248062"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7280D468-CE7F-4DFA-A508-F1743B4B68A2}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6E16CF58-B719-442B-A1D8-E1CC60063BB1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5003.87596899225"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence2" ID="{A72A87DE-5ECF-44AE-92CB-3506A4000CD6}" ShortID="487565959">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="13996.1240310078"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D7F80B79-AF5A-4551-A144-F06DD80A6F1C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{030E2642-CF96-46C9-B249-7D8EB3C426AC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10003.8759689922"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence3" ID="{C29FF044-A836-4781-BEF8-2A28626AAA08}" ShortID="639626701">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17616.2790697674"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{CD3E46F8-3C24-4750-ACB7-8CEF87771108}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8A9B9042-1BF3-4859-BC88-32DC2C5A6591}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="15000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence4" ID="{6640563F-585C-4188-BFB0-0CE94EB69751}" ShortID="1014802787">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="21674.4186046512"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{DC1BAC9C-699A-47F0-87F2-AB93206E4BE1}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{C75003C7-114C-412E-8F7A-A9886620F8AE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="20011.6279069767"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{CAD1BD37-505C-41DB-995A-86DD59B1B70C}">
 									<PropertyList>
@@ -1565,7 +1725,2891 @@
 							</TransitionList>
 							<ObjectLists/>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{1FA97DDD-F94B-4C53-8182-D7B11B53DDA0}" ShortID="441020161"/>
+								<MusicPlaylistItem Name="" ID="{1FA97DDD-F94B-4C53-8182-D7B11B53DDA0}" ShortID="441020161">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{8360911C-2DBA-4F1C-816F-05279D604514}" ShortID="350344676">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-001" ID="{51551675-2BE0-4F8B-9EA8-37CAF6C729CB}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5DC11A58-C0C2-4943-9CBF-CECFDD1BF0C9}" ShortID="398269457">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-002" ID="{3DF8EF08-FA7C-44A5-BD65-FA7FBBF58A2C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A16A996E-0522-4087-9388-7BB601506DD9}" ShortID="71976530">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-003" ID="{FBFEEE91-8A5A-48F0-A581-39E08340DFCE}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D5D53897-AA37-4D9A-A419-4F6C49575088}" ShortID="251633550">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-004" ID="{7F59173C-3C90-4510-BAEB-81825A176023}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5303800C-8049-40A3-BB90-1DBF3EEE720D}" ShortID="872235462">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-005" ID="{12FC5D7F-62F6-4204-94EE-2F6EB46DC928}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{EAF47F26-98EE-44CB-B687-2A471F84FDCE}" ShortID="670398167">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence2" ID="{A72A87DE-5ECF-44AE-92CB-3506A4000CD6}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C135D96A-DDE7-4D79-9D7C-05587E84E030}" ShortID="978732210">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence4" ID="{6640563F-585C-4188-BFB0-0CE94EB69751}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{06D6D175-7BF2-4544-A512-AC6440EB5807}" ShortID="664990383">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence1" ID="{BEDA45A9-4EF6-4C7C-A2AC-DF4A7171E785}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{515682D0-A889-486E-AEC7-40F6D73727D1}" ShortID="415066233">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence3" ID="{C29FF044-A836-4781-BEF8-2A28626AAA08}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="1OldLadyKlarinettStingers1" ID="{21BAC3FA-3512-43E2-A4DC-BE9F8B8CC807}" ShortID="445362363">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="KlarinettStingers-001" ID="{FCB980B5-71F4-4AFE-AFBD-760A87CA1A45}" ShortID="481784696">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="35145.3828068695"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-001" ID="{A8F29370-E97C-4EE6-B339-989D66F158C9}" ShortID="272344115">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-001" ID="{9CCEB673-F55B-400A-9AD7-36F9F917764D}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="259785673"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{ACAA155F-6F4D-4433-B13E-706CF910BEBB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7A13881E-A8E8-4DF1-BC83-E05A8BC658CF}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-001" ID="{AD01E671-5ECF-4482-9C15-FE69CD4EB896}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="19939.5464852608"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-001" ID="{9CCEB673-F55B-400A-9AD7-36F9F917764D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B3A612BE-E19D-4C60-A674-B2524056779F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6B0EF08A-36A3-49DE-BBEB-EE0E1F7DBBB1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="23011.6277751411"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-002" ID="{E1E9841B-0E0B-4C13-8104-AC772AF17F64}" ShortID="860497753">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="19187.4299073635"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-002" ID="{D656B223-893E-478D-A255-E78D8A6FA44A}" ShortID="435115025">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-002" ID="{BC88F48D-89B6-4C69-AF8C-D022F18F4EED}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="948744776"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E8C34871-078E-40E0-B982-99C971F42360}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1185DE95-CED3-4A8B-99BA-8D6C02F7BF01}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-002" ID="{9409B1F5-44AB-4535-8050-1F516C573069}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="15302.4943310658"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-002" ID="{BC88F48D-89B6-4C69-AF8C-D022F18F4EED}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{EF8FCD9F-7DF1-44EF-81E8-884CE863B5FC}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{06534E4F-E80C-48D4-8A59-C5BA28C93A72}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="17408.0701014256"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-003" ID="{8911DA1C-E7B8-4F80-8218-7B0B7E7F11F7}" ShortID="730969058">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="33675.9689922481"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-003" ID="{B9F90402-7889-42A2-80E0-B182FFC66F22}" ShortID="691847567">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-003" ID="{CF0EB26E-B7D3-40E2-AD2C-F6E51E8B08CF}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1050294060"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{70DFA947-7EAE-4DBF-843C-FAA070AFEB3F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{627CB739-20F5-4F70-BB57-F52A2507A660}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-003" ID="{5EBD60FF-4506-4D77-A349-CB7CDA5A30CD}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="21400"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-003" ID="{CF0EB26E-B7D3-40E2-AD2C-F6E51E8B08CF}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D4B2228A-6C8E-46AF-8568-CBEBA0DFF292}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{68E19E3C-0B5D-4602-ACE8-371F6DE77A34}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="24531.2015503876"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-004" ID="{779622A1-6E2D-49D4-9917-7C694750B1BF}" ShortID="106243365">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="33455.4263565892"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-004" ID="{85A5EF49-6C3D-4C5D-96C7-ED3841C119FB}" ShortID="325522036">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-004" ID="{FD53DF05-D382-4C13-AA04-34DC08C413D2}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="964639863"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2A033E27-75EB-4DE3-8CC6-1B6CAECD909F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3884FDC7-0BFB-4445-BE5F-7F233DAC56B0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-004" ID="{EB1E6B30-03EE-460F-8557-BABB7EBDB8E2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="24400"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-004" ID="{FD53DF05-D382-4C13-AA04-34DC08C413D2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E2D210E9-9F4A-4FD2-ABEA-BA8C1CA20A03}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{28C908B2-BB12-49D1-8F1F-BB84D81E84DC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="27993.7984496124"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-005" ID="{9FB646AD-DBB8-4B52-9DCD-59D789CBC1AB}" ShortID="461061712">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="18391.4728682171"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-005" ID="{D1FC2099-6B68-4EC1-8BBB-81A4F14CD365}" ShortID="398452019">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-005" ID="{9F171EE4-7BB1-49BF-90E0-F2F1492FD39B}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338010396"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{296BCD7C-4E68-4014-821B-215F93A5C8B2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{44F59C2D-7323-4422-A5F6-37F05A2099A2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-005" ID="{851AC07B-6CFF-4455-91C0-16E535E7BCFA}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="13000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-005" ID="{9F171EE4-7BB1-49BF-90E0-F2F1492FD39B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{718F7518-A5A7-46AA-8CAE-9DDB735073BE}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{2EF143C6-4281-4D21-A3D5-ADD2EDF88E9C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="15821.7054263566"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence1" ID="{EFDCC238-E208-498D-BBD2-C1536EC2B28D}" ShortID="812724334">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11034.8837209302"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{AE65A424-F26B-48F1-8E60-ECE51D2913A7}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9F845330-DF01-4E82-A59F-41B4BD39C28A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5007.7519379845"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence2" ID="{45D18CDD-5EEC-4E22-ADD3-7C69AB186C59}" ShortID="556819620">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="14468.992248062"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{565FA5AD-8A4A-46AD-AB0E-73C86147AE4A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{403CD43B-9CAF-448A-9414-4ED56449D79E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10011.6279069767"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence3" ID="{93374378-572E-401E-8B43-BAC5CC224945}" ShortID="138041982">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16131.7829457364"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B5848D45-076D-4AF6-85E0-FAB4B7D7EAE9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FAF399CF-3E10-4184-BE54-68016254F626}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="15011.6279069767"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence4" ID="{B87AF7AE-7414-462E-8003-81C2D7D9032E}" ShortID="134125985">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="26624.0310077519"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{18ED5733-C203-4A30-AEDF-3C8A86E67CE3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{EDD0E72E-5D34-41DF-9E25-0803936508C8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="20007.7519379845"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{7CE2EAA2-B75A-4401-8D61-CEB861C83561}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{88BE6FC0-6C1F-4C9C-AC41-90FB6565B45C}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2DAFFBCC-453D-40AE-B159-DEDE7C1DA06F}" ShortID="381433165">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{677D7A5E-5F94-4D72-A498-E358FAF605ED}" ShortID="344889162">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-003" ID="{8911DA1C-E7B8-4F80-8218-7B0B7E7F11F7}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{41F70F36-8DE6-4ABE-AE8B-33CAE01B4B24}" ShortID="1037080992">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-001" ID="{FCB980B5-71F4-4AFE-AFBD-760A87CA1A45}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{2750EBFE-B350-4FC0-920A-0AE4BB71272F}" ShortID="531998948">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-002" ID="{E1E9841B-0E0B-4C13-8104-AC772AF17F64}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6C1FE87C-ED15-488F-9553-94F330995B0B}" ShortID="1059319154">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-004" ID="{779622A1-6E2D-49D4-9917-7C694750B1BF}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C9D9C6F8-6F70-4A88-A9F6-162EE88F3FF3}" ShortID="231019374">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-005" ID="{9FB646AD-DBB8-4B52-9DCD-59D789CBC1AB}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{ABC35573-2AD3-492C-8798-62872200950F}" ShortID="466239238">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence2" ID="{45D18CDD-5EEC-4E22-ADD3-7C69AB186C59}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A7D2B263-CD89-4F1A-BD4A-546B8436106F}" ShortID="378277778">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence4" ID="{B87AF7AE-7414-462E-8003-81C2D7D9032E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{8A4EA04B-F617-4757-B382-3B374B0BC3A2}" ShortID="587864295">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence1" ID="{EFDCC238-E208-498D-BBD2-C1536EC2B28D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{7557ADC6-1CA9-4EA6-9694-78806C2711E2}" ShortID="795766283">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence3" ID="{93374378-572E-401E-8B43-BAC5CC224945}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="2OldLadyKlarinettStingers2" ID="{42E117C7-3080-4B37-963E-4BC37CDB4A5A}" ShortID="185394677">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="KlarinettStingers-006" ID="{A398DE69-E1E8-404C-954C-CFEA3A05E724}" ShortID="709019224">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="20930.8390022676"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-006" ID="{7551E8A0-ADD2-4457-B4B0-E3238289300B}" ShortID="379490854">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-006" ID="{96DCA1A7-E8FD-4C36-AC04-4BB7AEEAD30B}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="810031289"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4CF027A5-75AD-40CA-81A6-E552B2A0E30E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{211BEB4C-8DC0-43E6-AA44-C64A1AFF6632}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-006" ID="{5CBAB686-8176-483A-ADB1-0D904DB47855}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="20930.8390022676"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-006" ID="{96DCA1A7-E8FD-4C36-AC04-4BB7AEEAD30B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{78210B6F-E942-4BCE-A83B-2AA3FA5FBAA3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8A02F9DF-9C9B-49C8-AB4C-B42FF710EE16}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="20930.8390022676"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-007" ID="{52C783C2-8512-4B1B-8CED-F1E1C86714B9}" ShortID="459475085">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17658.3446712018"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-007" ID="{B218416E-75AF-4E9E-BC03-14B91D7B5B0C}" ShortID="353555823">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-007" ID="{438CD267-78B0-4495-BE0B-35384A3C0CA1}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="941777263"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8B7FA937-4013-4307-BD06-B0181286DBE8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8F93D1FE-4173-4202-AAB4-FE349EA7C3A2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-007" ID="{1A3B60C5-8BA4-4C50-A721-4BE8BD6911D7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="17658.3446712018"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-007" ID="{438CD267-78B0-4495-BE0B-35384A3C0CA1}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{0339AAD3-976C-4CD2-9557-B1BF58A3AFA7}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{37E566CC-C05C-445E-8CD3-8842CF7E91DD}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="17658.3446712018"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-008" ID="{824E6969-5F4B-4109-AF32-6F35D887BB73}" ShortID="535268481">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16825.5328798186"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-008" ID="{034045E8-184A-4E37-919F-903F28802CA5}" ShortID="423166703">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-008" ID="{F08C36F7-4E11-445C-8491-9B91817304DE}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="209565762"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2A5C946B-CE71-4483-9536-1BD64B2BF276}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{614D94DF-92BA-4A25-AE47-58B6F4E5F4A9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-008" ID="{FB467F8E-C9DF-4BFF-BE4A-804134BAB345}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="16825.5328798186"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-008" ID="{F08C36F7-4E11-445C-8491-9B91817304DE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{87751848-0E3E-4F21-A1EC-91AEF1ECDA4A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CE75A37A-7A76-44FB-B7CB-0D1F53A33148}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="16825.5328798186"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-009" ID="{C3EE0260-E089-43C8-AC7C-DF2693A4A283}" ShortID="654351130">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="9504.89795918367"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-009" ID="{2B777769-1046-4D0F-A576-4D6CED6FAAC9}" ShortID="693397649">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-009" ID="{314649ED-4FA1-41C2-B88E-60BB2AC3336B}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="229216676"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{68BABF3E-F018-4DB6-8AB5-4DA9D8ABEE9E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{14F46162-40A8-4C55-8C58-72C822AE43C5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-009" ID="{5D4A050B-509C-4215-813E-4C2BB80BEC23}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="9504.89795918367"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-009" ID="{314649ED-4FA1-41C2-B88E-60BB2AC3336B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{8FE9E4F9-B00D-4C2F-B6C8-6FD63E60AE19}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F62E6E3B-EA06-4A04-B595-0EE9C8EA739F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="9504.89795918367"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence4" ID="{631DB3A1-8A66-4863-B2A7-5A43A1F96DD6}" ShortID="513334555">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="26624.0310077519"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C0C177E6-D4A1-4C5B-8DAA-DD1069D12EE3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{471F57FC-81DC-48D7-81A9-3F9D0A72AE1D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="20007.7519379845"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence3" ID="{35F73C83-6A61-4EB2-B131-98A4616FD4F1}" ShortID="764224885">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16131.7829457364"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4C08A333-1D74-4A72-BA11-01CAA0082632}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8AEEC9B9-74A3-40B9-8ECC-403C2ED1B3BE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="15011.6279069767"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence2" ID="{F6DE18EC-ED50-4562-8F86-B587920F4A7F}" ShortID="14626086">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="14468.992248062"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C62CCC8C-AD77-4DD9-871E-42E130ABC292}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{21FB68BE-7D3A-4E9F-86D2-B6878FB7AA2B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10011.6279069767"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence1" ID="{FF4A0D40-AD77-4DE8-BE80-0682E7501E67}" ShortID="546682093">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11034.8837209302"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{9D3FA051-B4CC-4C74-9AB6-EEDFAF3FBA7F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5A20AE05-2107-4F00-B1C1-F47DD5D38799}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5007.7519379845"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-002" ID="{AB0768A7-5D07-420F-94C3-68DD6B768CA4}" ShortID="1041459089">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="19291.2258960432"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-002" ID="{A0889C6E-5D4C-4AD7-AEF8-78CEA70B131C}" ShortID="471876984">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-002" ID="{E53F56F2-428E-43DC-886D-B3311419A7A9}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="948744776"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5163B23D-EFFC-4FDD-AB90-319F3E9234DB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9721EBA9-DF40-4DFF-91FD-37C865309F6C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-002" ID="{7B734E8B-52FD-4941-93EC-A9E416807BB4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="15302.4943310658"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-002" ID="{E53F56F2-428E-43DC-886D-B3311419A7A9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D68F2F44-EF5C-4923-AFD6-96950AEA1BEB}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8232D435-A762-46E5-B4FC-AB7F9ADBD206}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="18119.8140238007"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-004" ID="{263A922F-2700-4164-8C23-7AB4657B5056}" ShortID="1059963661">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="24400"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-004" ID="{4CC8EB3C-EB52-42D5-A6A2-157A8EE3DA29}" ShortID="993098564">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-004" ID="{681F0739-7100-4F12-8ABB-A6DAE10069E6}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="964639863"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8E4EC03E-4AC9-4675-9646-6705FB606097}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8F6AFCB2-5539-4F0A-97AD-F88DAD8BC77A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-004" ID="{89232CE5-24E0-45B1-9F6C-635E9F525E39}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="24400"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-004" ID="{681F0739-7100-4F12-8ABB-A6DAE10069E6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{DBD6482D-7168-44DF-AE5A-9EF0C963AEBF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{84F1CB40-6AB6-4872-9C69-3BCA27F5B8AF}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="24400"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-001" ID="{9D4D1D1E-67C0-47E6-ABEF-E12BCD946A12}" ShortID="710286565">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="24905.1118406019"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-001" ID="{B115E0C2-553B-4EC9-9A21-0943994C3700}" ShortID="125116905">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-001" ID="{5D147B30-1835-4BE1-99DD-E24911DBF214}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="259785673"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{285A9BAA-9A8B-48FF-A1CF-D0DBD2E43F2D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{01E18B17-D0D4-485C-969B-D3B6F1B09D7A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-001" ID="{DB74505F-F192-4B43-AFEE-9711B98289AD}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="19939.5464852608"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-001" ID="{5D147B30-1835-4BE1-99DD-E24911DBF214}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3540C925-12ED-489F-9815-243B3EE4D842}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{89DF14D9-C3B1-4D08-A99E-207BD111C9BA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="22934.3427112447"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-003" ID="{770CC956-7E2C-4E0C-A8C0-390E501F1276}" ShortID="1019211537">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="21400"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-003" ID="{8DE3597E-FB1A-4506-9861-05E751548563}" ShortID="765722977">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-003" ID="{253636D9-5D86-444B-9491-B9302327138E}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1050294060"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{93B89599-9922-4E08-8CE9-AD687BBD6AEF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{495B9E5C-12CD-467F-9E39-AAF8D80A907C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-003" ID="{02FCAEDE-526D-4E79-8FF5-CF1B505DA0B7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="21400"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-003" ID="{253636D9-5D86-444B-9491-B9302327138E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A13A9897-BC2D-4963-99BD-C796BCDCF339}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D0E5BAE8-5DBA-4B15-B8D1-A8900A5D8CFC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="21400"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="KlarinettStingers-005" ID="{0D672682-235C-440E-91D1-CF5C2CA2D3E8}" ShortID="747301961">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="13000"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KlarinettStingers-005" ID="{743AA51C-236E-45EA-846F-F2B60EA43ABA}" ShortID="809625239">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KlarinettStingers-005" ID="{8F026B61-3790-4983-B164-8B2C34C7477C}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\KlarinettStingers-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338010396"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7148B851-B045-4749-9EA9-877F18DF0FCC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5A87D18C-0D94-405D-8D8C-27453F6C746F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KlarinettStingers-005" ID="{497C8865-D3BC-4EA1-8931-7E95CAF20CE4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="13000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KlarinettStingers-005" ID="{8F026B61-3790-4983-B164-8B2C34C7477C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{5504B4B6-51A9-4DE2-9F11-6AE706CF6D16}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{130EDEBC-05A7-4E1F-B62D-01504B0FCC35}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="13000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8519CBBD-DF00-4929-89A1-17F0D3AFACD2}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{93DE453C-307F-42F2-B9B5-2B4B6C1D4B7A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{6BD03B23-970F-4B28-A4DB-75B161802724}" ShortID="783793389">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{CC88AB8A-A333-41A4-94ED-981511E609ED}" ShortID="262875596">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-003" ID="{770CC956-7E2C-4E0C-A8C0-390E501F1276}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{073A2277-18EE-4E82-B07C-6EAABC0A3410}" ShortID="673837792">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-001" ID="{9D4D1D1E-67C0-47E6-ABEF-E12BCD946A12}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CDA08F69-3C25-4DB9-89EE-1F13CCDFD8A7}" ShortID="252532055">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-002" ID="{AB0768A7-5D07-420F-94C3-68DD6B768CA4}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{E9A7294C-D117-426A-9974-51F14D172A4C}" ShortID="70719208">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-004" ID="{263A922F-2700-4164-8C23-7AB4657B5056}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{87FB3B5A-D315-44CC-8C93-12F4C56A1453}" ShortID="901364705">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-005" ID="{0D672682-235C-440E-91D1-CF5C2CA2D3E8}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C433A609-9946-453B-88C0-528F9A275B9F}" ShortID="291510081">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-007" ID="{52C783C2-8512-4B1B-8CED-F1E1C86714B9}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{593944EC-BAC6-43D1-BC6E-BAB39626D90B}" ShortID="554537209">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-006" ID="{A398DE69-E1E8-404C-954C-CFEA3A05E724}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{02B60636-63EB-4446-B8FA-A26172742848}" ShortID="51645418">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-008" ID="{824E6969-5F4B-4109-AF32-6F35D887BB73}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5BF6EEBE-47CE-4F67-B5CF-C94D42ED38B3}" ShortID="382460501">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="KlarinettStingers-009" ID="{C3EE0260-E089-43C8-AC7C-DF2693A4A283}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{89029CC6-DEA9-4408-9DAE-26AF52673F4A}" ShortID="399722124">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence2" ID="{F6DE18EC-ED50-4562-8F86-B587920F4A7F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D97289BE-CB95-4B66-8296-D98BBE25D586}" ShortID="231955524">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence1" ID="{FF4A0D40-AD77-4DE8-BE80-0682E7501E67}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{E218A0E4-BA34-43A2-B379-D3CD04C899D3}" ShortID="219267461">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence3" ID="{35F73C83-6A61-4EB2-B131-98A4616FD4F1}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{2B45D404-86D0-4FAB-822C-E66FA22F92F7}" ShortID="278432624">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence4" ID="{631DB3A1-8A66-4863-B2A7-5A43A1F96DD6}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="2OldLadyKontraStingers2" ID="{0DBB57DD-E05F-4FDC-A7FF-E091E24D591E}" ShortID="882121738">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="kontrabas master-006" ID="{1E79B3F4-37FC-488F-A642-72E97B800C04}" ShortID="769169572">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="21000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-006" ID="{30E90502-7263-4F11-A5FF-1FC6EECEA89B}" ShortID="398595148">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-006" ID="{2A20FE76-4998-470D-BF8F-C2EC277496BD}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="994930859"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E54CF7DC-0E3A-4404-B775-207153451E0F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{21031D6F-C6DF-42CA-A6A4-42E0572ECA5E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-006" ID="{9A43C82C-AB57-4C07-99FC-8014098A7734}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="21000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-006" ID="{2A20FE76-4998-470D-BF8F-C2EC277496BD}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1B5A661F-6ECE-463C-AFF7-0FF2130323DB}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{C59E92C7-DD0E-47AD-B3B1-68D61419CC15}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="21000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-007" ID="{68D4A0EA-F809-4E81-9ADA-B10CC0C1C892}" ShortID="685073285">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="26552.2675736961"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-007" ID="{52FB9683-CC5E-4C62-B9C1-386477D8CE25}" ShortID="1018703412">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-007" ID="{02AE3CDA-2F90-4C9E-8C0A-59D31693B6CD}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="29784233"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{26DD3F09-FDEE-4F6D-B73C-4031E327A03B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{423A57A6-89B0-4328-969B-81348874C2AF}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-007" ID="{E5946788-278D-4406-9FD7-33B6852AD1ED}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="26552.2675736961"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-007" ID="{02AE3CDA-2F90-4C9E-8C0A-59D31693B6CD}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1339D3D4-14F2-4A28-A894-6006B8F73173}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{AA2695DA-73E9-4426-A458-C46393F5A3DE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="26552.2675736961"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-008" ID="{7F24995D-EA43-4F64-A810-C67E1627B29A}" ShortID="885535887">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16069.9092970522"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-008" ID="{046694D9-AB6C-40F0-9A69-EEA8611091AC}" ShortID="633393731">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-008" ID="{0EE0C575-3D42-4585-B253-83E85BD38BA6}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="108351385"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0BE7F402-8454-4ADB-8728-FD7D36121BBA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D041A834-C7AC-4700-AF24-6497D16B778D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-008" ID="{858CE930-985A-485A-B447-68689D108857}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="16069.9092970522"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-008" ID="{0EE0C575-3D42-4585-B253-83E85BD38BA6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{AF8644A3-3FC6-44EC-BEEC-6019C9FA5D8D}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{285ED460-C714-4647-9BA1-D1DE456A11AA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="16069.9092970522"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-009" ID="{63C3A1B1-595B-4D20-94BF-BEE1AAE834C1}" ShortID="152046541">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="21000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-009" ID="{5A4599C4-FCC8-4A4E-B34D-F95D403D9D02}" ShortID="624983149">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-009" ID="{2ECF46B6-350D-4E85-B01A-07AB5D03252A}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1031073834"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A12E5C76-6A63-45B2-B8FA-F01EF1976500}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{439A1E64-6FA1-4CF6-8E45-61E4FDFDB8B6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-009" ID="{7E4BE984-B775-4A8E-B672-32D0BB169B7D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="21000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-009" ID="{2ECF46B6-350D-4E85-B01A-07AB5D03252A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{68971B62-F92B-4EBA-A895-53645D9FBA09}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9E691F93-CBBB-4913-B739-EB6D297D76DC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="21000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-010" ID="{C8C15E9B-B144-4C02-B3D6-D6B2690F4A96}" ShortID="250650610">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="12949.0702947846"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-010" ID="{00DCC508-855A-428F-AAC1-83DAAF8BD882}" ShortID="392859955">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-010" ID="{A6553035-E7DD-4EA1-829B-5D772B351A8E}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="208903557"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1B114671-7A13-4F5F-92A0-F0D6ACC26BAD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{382E6829-EB62-4CBC-98F9-6903F7926D6A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-010" ID="{8F8C5F1E-74B9-4E85-9FA4-C615559F2ED3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="12949.0702947846"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-010" ID="{A6553035-E7DD-4EA1-829B-5D772B351A8E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{62A394D4-2CD5-4DBE-8F67-5784F8C5AC91}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{A06A258A-E5CE-4FB9-ABB2-64452DD15E5F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12949.0702947846"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence3" ID="{7B408951-B88A-488B-89E3-5413BDC59D8E}" ShortID="641242608">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17616.2790697674"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7D072124-C59C-4227-8CCE-12920F57884C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1C8F0EFA-CEA2-45C2-BE99-44FD42BA8544}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="15000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence4" ID="{E689FE45-51CA-469F-BF48-5235D0A6E9A0}" ShortID="277003270">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="21674.4186046512"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{EF024D7C-9837-4011-A34F-503531B029A5}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{55D7A6A4-482F-4BC2-B226-E7890F118856}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="20011.6279069767"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence1" ID="{62B9BA83-D03C-4DA9-9AF1-32F95E399294}" ShortID="963952515">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="6096.8992248062"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2E6AF33E-936D-4496-BBA3-D39A63D662C9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F709C44D-82D0-4753-9C6C-B1070FA65E33}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5003.87596899225"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence2" ID="{DBC533E5-1E11-4605-9869-62C540C88555}" ShortID="897572052">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="13996.1240310078"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E576CC1E-F4EA-4568-8337-42A36A3A740A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B9B1363E-734E-49AB-86C6-B7333195864D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10003.8759689922"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-001" ID="{F7507CC3-7EEB-4FB2-85D0-2B02A00D1A61}" ShortID="101295530">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="19000"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-001" ID="{36D987DB-766B-49F0-9C0A-EC5991F0915A}" ShortID="373835756">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-001" ID="{165FC7CB-6229-4C4D-9401-285D9E624110}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53033174"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{ED52EBC0-26A3-4F51-9E8F-BE9388960822}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A454F5BF-9C70-4F42-B925-55E0531E1EC6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-001" ID="{302F9436-0F72-48A4-A7B7-BF08C6A169BC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="19000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-001" ID="{165FC7CB-6229-4C4D-9401-285D9E624110}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{AE2B1DE9-7790-492D-B4DE-0DFFBDA35758}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{78C59428-F795-47F6-87AF-8602D1C5BE0B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="19000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-004" ID="{4A9B9E48-D0B5-40BE-A82F-F5D734166EB1}" ShortID="393573567">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="10000"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-004" ID="{9715B90D-5507-46BC-8300-22EF14498505}" ShortID="1069163263">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-004" ID="{8A6B7057-93EA-427E-8A24-4D50C011CC94}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="436433310"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7D9F4E17-3AB1-469B-868F-85726D9E51D6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{07A9B803-636E-41F5-B528-811C6947AF1D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-004" ID="{A9304276-7EFE-431B-B19A-DAD1EF7F919B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-004" ID="{8A6B7057-93EA-427E-8A24-4D50C011CC94}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{14261455-FB1A-4265-8249-935D482C1122}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{03B22951-56E8-4622-A74D-396EDB8C4558}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-003" ID="{B6E6161E-4099-44A3-9544-484490C1E7EA}" ShortID="1036403416">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="14000"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-003" ID="{BC63EF75-AFC6-4373-B10D-790A93E9FF21}" ShortID="836307486">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-003" ID="{10322008-0C1A-4DC3-B77A-FB7836EF456E}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="586083000"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0B7FA7A1-7C59-48BE-BBF2-3F72A999BC68}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{15F07017-1476-4F30-B661-0BD1B2AB043C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-003" ID="{B1EB5D52-CDD5-4294-99A8-1EB651AD2452}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="14000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-003" ID="{10322008-0C1A-4DC3-B77A-FB7836EF456E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E5714C43-54E8-4C39-AD2D-59E93E134FBE}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B12A40CE-1A74-473F-8DF1-0B88D012A6D6}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="14000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-005" ID="{028DA33E-D254-4A64-80E0-1C74396EE4DC}" ShortID="380055701">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16341.2925170068"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-005" ID="{95154837-D243-4516-ABA1-80FF92257331}" ShortID="111799381">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-005" ID="{A403DAE4-3795-49E7-ADC1-B8CACB08BBE6}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="891722214"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{39FDF2A4-DC60-49E1-A12D-3A9B789F2380}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4453281C-8700-4A22-A98E-3204BFBA0025}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-005" ID="{B4F84C31-13FD-4F2B-A25F-82C80C49E434}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="16341.2925170068"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-005" ID="{A403DAE4-3795-49E7-ADC1-B8CACB08BBE6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{338E9501-7C7B-4727-92EA-30486898244B}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E62CB851-70BA-46DA-85F3-E2989CE43CA3}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="16341.2925170068"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="kontrabas master-002" ID="{72AC1193-069A-466F-8345-EB549F64719F}" ShortID="660384239">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="27000"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="kontrabas master-002" ID="{AD5F1D21-92DB-48BC-9A1F-EB2453F0BDA8}" ShortID="195903318">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="kontrabas master-002" ID="{FF04DBD5-9D58-44AE-B0B8-C0F4FB70C554}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OldLady\kontrabas master-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="461225173"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C4CD69ED-5ED9-4B40-927D-78EE8F50F7AA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0B59D1E3-3F68-416E-B777-2FFF70F9CD6D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="kontrabas master-002" ID="{9C07EE06-0262-4562-B3EE-DB8300A01867}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="27000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="kontrabas master-002" ID="{FF04DBD5-9D58-44AE-B0B8-C0F4FB70C554}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{373F6157-83E4-4C93-946B-5B2358E16A16}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D2A1C4E0-F0C7-431E-9F7D-EA6CDE84EAA9}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="27000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8AD99EFB-30BF-408B-893C-7023B4601E05}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{954C6EBD-3E27-433A-97F2-9EA5139ADC6A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{EDA183C4-8AED-440F-857C-3102F4FC68CA}" ShortID="773259959">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{FCDDB1BE-AAFB-4B88-A454-DD68A6EC6A48}" ShortID="514829623">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-008" ID="{7F24995D-EA43-4F64-A810-C67E1627B29A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6A39068E-0870-440C-8FF8-8DD89F21F894}" ShortID="1032730050">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-006" ID="{1E79B3F4-37FC-488F-A642-72E97B800C04}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{2B60673E-8519-4A81-9683-93FE24F42264}" ShortID="612872299">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-007" ID="{68D4A0EA-F809-4E81-9ADA-B10CC0C1C892}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{50E773AB-9B0F-4346-B65A-B24B71C742E8}" ShortID="73973107">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-009" ID="{63C3A1B1-595B-4D20-94BF-BEE1AAE834C1}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{EFE5B85C-EC94-4962-9CC0-FAFA9E32DBB5}" ShortID="751146405">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="kontrabas master-010" ID="{C8C15E9B-B144-4C02-B3D6-D6B2690F4A96}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{595196F4-ED2B-4EC3-B503-9825F3B62AFD}" ShortID="371658009">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence3" ID="{7B408951-B88A-488B-89E3-5413BDC59D8E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{40351AA5-6B3B-4CB4-B401-7C497BA8F8BD}" ShortID="14866001">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence1" ID="{62B9BA83-D03C-4DA9-9AF1-32F95E399294}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{4B72F3AB-F497-4551-849A-EE54484E46A2}" ShortID="226004090">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence2" ID="{DBC533E5-1E11-4605-9869-62C540C88555}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{08EAA619-0044-466C-89BD-AD34A651300C}" ShortID="734925396">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence4" ID="{E689FE45-51CA-469F-BF48-5235D0A6E9A0}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="3OldLadyKlarinettStingers3" ID="{64BF1D8F-6CBA-4E88-B33E-D6395E875829}" ShortID="547738725">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E4F0DD5A-E224-4375-A89E-9EDA6C29D731}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{BC38576E-6000-4D7A-A3D0-C6F5963D3C9F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2827C151-CAAA-4D4E-84E5-4C7997239C96}" ShortID="795939041"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="3OldLadyKontraStingers3" ID="{BBAF1FF8-C5FA-47C0-9371-B94F80C2677A}" ShortID="45550105">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{0589560C-837F-4EE6-BE6C-F19115F52E53}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{4115F74F-CE67-4394-9794-8EC6E49782B2}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{3F5A961E-438B-408A-8EA2-EAF38A425051}" ShortID="1009537586"/>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
@@ -1613,7 +4657,7 @@
 								<PathElementRef Name="OldLady_Act1" ID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="OldLadyMusicAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="1OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>

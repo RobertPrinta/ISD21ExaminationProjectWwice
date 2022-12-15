@@ -61,6 +61,34 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{D2DECF13-C44B-480A-9907-A9095AC9975A}" ShortID="513648828">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1OldladyGrundAmbi" ID="{1F18BCD9-1786-47AB-B348-AABC8BAC9274}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7D5088E4-D9B1-46EE-87B4-71473403B9E6}" ShortID="390331377">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{42C94C56-6B1E-43D8-AF52-E334450A126D}" ShortID="94474615">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1OldLadyKontraStingers1" ID="{33B9A644-D537-418A-9119-4D7B1D506674}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5E0EF4E5-CE79-43E1-BE2E-8C2C0BBDA996}" ShortID="640974273">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1OldLadyKlarinettStingers1" ID="{21BAC3FA-3512-43E2-A4DC-BE9F8B8CC807}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Stop_Thug" ID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}">
@@ -104,14 +132,14 @@
 						<Action Name="" ID="{43F09146-A8C8-401C-A456-F22AD0B3DACF}" ShortID="182661285">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="OldladyGrundAmbi" ID="{1F18BCD9-1786-47AB-B348-AABC8BAC9274}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+									<ObjectRef Name="1OldladyGrundAmbi" ID="{1F18BCD9-1786-47AB-B348-AABC8BAC9274}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{FBBE966A-87CF-4407-AC78-C27FA7130FDB}" ShortID="471409388">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="OldLadyMusicAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+									<ObjectRef Name="1OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
