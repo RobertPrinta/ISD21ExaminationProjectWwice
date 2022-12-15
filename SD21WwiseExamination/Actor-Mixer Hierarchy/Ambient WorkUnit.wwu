@@ -1538,7 +1538,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
-								<ActorMixer Name="AB_Open_Window" ID="{30250CD1-5B6D-4704-83ED-D25B97437296}" ShortID="303415813">
+								<ActorMixer Name="AB_Open_Window_3D" ID="{30250CD1-5B6D-4704-83ED-D25B97437296}" ShortID="303415813">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -2059,6 +2059,194 @@
 												<ActiveSource Name="Laundry_Machine_Filling_Up_3D" ID="{54AEC74D-DD02-4B8D-9D30-0FD494A52E9A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="AB_Watercooler_3D" ID="{53837C0D-BC57-4608-A297-6B8AD82B32E4}" ShortID="690381051">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AB_Watercooler_Buzz_3D" ID="{90FDCAD2-9F3F-4597-9947-E04F2DD879C5}" ShortID="677674472">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AB_Watercooler_Buzz_3D" ID="{E0EA4951-CBAB-48A9-BAC0-C155D5F93AD4}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\3D\AB_Watercooler_Buzz_3D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="507308995"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AB_Watercooler_Buzz_3D" ID="{E0EA4951-CBAB-48A9-BAC0-C155D5F93AD4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="AB_Watercooler_Bubble_Sequence" ID="{0F473D1A-B534-45D0-9A46-CD7A95F32E42}" ShortID="901071347">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="AB_Watercooler_Bubbles_3D" ID="{171B0D56-DA44-4F5F-8F77-D964B9A6FF6A}" ShortID="951661040">
+													<PropertyList>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AB_Watercooler_Bubbles_3_3D" ID="{A3712B4E-28A0-49B7-9D20-3F186BA1A54C}" ShortID="408248122">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AB_Watercooler_Bubbles_3_3D" ID="{8883D7FB-35D0-4CA6-9F09-338C9FD2A6B2}">
+																	<Language>SFX</Language>
+																	<AudioFile>Ambience\3D\AB_Watercooler_Bubbles_3_3D.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="439760649"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="AB_Watercooler_Bubbles_3_3D" ID="{8883D7FB-35D0-4CA6-9F09-338C9FD2A6B2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AB_Watercooler_Bubbles_2_3D" ID="{3EBE75C4-5FF6-4423-8920-10B55A053554}" ShortID="6636146">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AB_Watercooler_Bubbles_2_3D" ID="{042548F6-3A01-4C0D-B253-774609800AB1}">
+																	<Language>SFX</Language>
+																	<AudioFile>Ambience\3D\AB_Watercooler_Bubbles_2_3D.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="399847477"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="AB_Watercooler_Bubbles_2_3D" ID="{042548F6-3A01-4C0D-B253-774609800AB1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AB_Watercooler_Bubbles_1_3D" ID="{7D41533A-4243-49F1-9428-106750BEFC97}" ShortID="822542031">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AB_Watercooler_Bubbles_1" ID="{01C26761-C142-4F15-B4FC-D648D99FE82E}">
+																	<Language>SFX</Language>
+																	<AudioFile>Ambience\3D\AB_Watercooler_Bubbles_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="737967928"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="AB_Watercooler_Bubbles_1" ID="{01C26761-C142-4F15-B4FC-D648D99FE82E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+												</RandomSequenceContainer>
+												<Sound Name="AB_Random_Silence" ID="{1529A4C0-F922-494C-816C-A084A9C21B51}" ShortID="181647714">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="AmbientHeadLockt" ID="{D6E0A904-CAC0-47DA-AB88-04FF3204BD6A}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Wwise Silence" ID="{02E3C406-BE7E-42E6-872C-D7979DE92C7C}" ShortID="105451633" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+															<PropertyList>
+																<Property Name="Length" Type="Real32" Value="10"/>
+																<Property Name="LengthMax" Type="Real32" Value="10"/>
+																<Property Name="LengthMin" Type="Real32" Value="-5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Wwise Silence" ID="{02E3C406-BE7E-42E6-872C-D7979DE92C7C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+											<Playlist>
+												<ItemRef Name="AB_Random_Silence" ID="{1529A4C0-F922-494C-816C-A084A9C21B51}"/>
+												<ItemRef Name="AB_Watercooler_Bubbles_3D" ID="{171B0D56-DA44-4F5F-8F77-D964B9A6FF6A}"/>
+											</Playlist>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
