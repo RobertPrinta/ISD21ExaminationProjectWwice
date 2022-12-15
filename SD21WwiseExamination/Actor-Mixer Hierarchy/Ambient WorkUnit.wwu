@@ -732,7 +732,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Att_Generic_1m" ID="{9F2A091D-0F4E-4F62-8F8A-12206012EA60}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+							<ObjectRef Name="Att_Generic_5m" ID="{2BF579EA-2C55-44C7-BFA1-35BDB9A2F5A9}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
