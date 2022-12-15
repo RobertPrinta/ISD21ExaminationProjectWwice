@@ -47,6 +47,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Muffled_Conversation_3D" ID="{DFE0F374-3A9C-44F4-B823-8550FF58D6F8}">
+					<ChildrenList>
+						<Action Name="" ID="{F5E389C0-457A-44AB-AFAB-818DC8E9093D}" ShortID="215980706">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Muffled_Conversation_Behind_Door_3D" ID="{17E1AA33-795B-4B57-97AF-FD2A296A9661}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

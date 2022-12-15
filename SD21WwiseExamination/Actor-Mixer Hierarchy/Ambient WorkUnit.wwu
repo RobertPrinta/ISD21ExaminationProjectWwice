@@ -2250,6 +2250,37 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
+								<Sound Name="AB_Muffled_Conversation_Behind_Door_3D" ID="{17E1AA33-795B-4B57-97AF-FD2A296A9661}" ShortID="917410066">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AB_Muffled_Conversation_Behind_Door_3D" ID="{F78087F1-8B9A-436E-BF9D-F5A74469EE16}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\3D\AB_Muffled_Conversation_Behind_Door_3D.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="243268854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AB_Muffled_Conversation_Behind_Door_3D" ID="{F78087F1-8B9A-436E-BF9D-F5A74469EE16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
