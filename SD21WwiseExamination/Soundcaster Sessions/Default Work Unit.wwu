@@ -117,10 +117,11 @@
 						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
+						<CurrentSwitchRef Name="Outdoors" ID="{10680EB0-6A13-4457-AA70-FF5A98FCF9BD}"/>
 						<CurrentSwitchRef Name="Cobblestone" ID="{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
-						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
+						<CurrentSwitchRef Name="Runner" ID="{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"/>
+						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Event fotsteps and music" ID="{BF940280-887A-4CC3-B586-64D539219D00}">
