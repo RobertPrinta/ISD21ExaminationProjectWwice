@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D1104918-41A3-4BA9-AE82-B8911D50831E}" SchemaVersion="103" RootDocumentID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" ParentDocumentID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}">
+	<Events>
+		<WorkUnit Name="AB_Outdoors" ID="{D1104918-41A3-4BA9-AE82-B8911D50831E}" OwnerID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Wind_3D" ID="{B6944C11-A739-4A98-9152-173C0E55C5DF}">
+					<ChildrenList>
+						<Action Name="" ID="{3ABDC533-3A89-4FD4-9133-5BD8326ABA07}" ShortID="312206813">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Wind_3D" ID="{73F35C69-CF8B-4C4F-8CF7-553783C1DE6B}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
