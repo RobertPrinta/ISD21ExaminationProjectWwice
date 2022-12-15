@@ -20,7 +20,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="BigThug_A1_S12" ID="{3E586502-9AEA-45F0-BC4B-0BDE5DA3504D}" ShortID="311939964">
+						<Sound Name="BigThug_A1_S6" ID="{B9C7A0B2-ED31-4EA8-9A2A-606DA02AFE9F}" ShortID="1018819423">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -30,99 +30,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="BigThug_A1_S12" ID="{7514F0AF-7F54-4123-9D94-A04BA02ADF44}">
-									<Language>SFX</Language>
-									<AudioFile>Dialogue\Thug\BigThug_A1_S12.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="744168595"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BigThug_A1_S12" ID="{7514F0AF-7F54-4123-9D94-A04BA02ADF44}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="BigThug_A1_S11" ID="{0F699B9F-E325-45A1-AA36-FCBDA38C8B86}" ShortID="759857897">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BigThug_A1_S11" ID="{1238FB69-681F-4ED5-8A2A-A407827A398D}">
-									<Language>SFX</Language>
-									<AudioFile>Dialogue\Thug\BigThug_A1_S11.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="63124836"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BigThug_A1_S11" ID="{1238FB69-681F-4ED5-8A2A-A407827A398D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="BigThug_A1_S11_5" ID="{2F45C11F-5538-4C2E-8D7F-73B69A2CA1C3}" ShortID="218536381">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BigThug_A1_S11_5" ID="{DC787AC1-A395-4AEF-BAB0-4771A804937A}">
-									<Language>SFX</Language>
-									<AudioFile>Dialogue\Thug\BigThug_A1_S11.5.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="827356823"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BigThug_A1_S11_5" ID="{DC787AC1-A395-4AEF-BAB0-4771A804937A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="BigThug_A1_S10" ID="{B3301060-5C94-4EA9-B740-70F2716D93F8}" ShortID="740472253">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BigThug_A1_S10" ID="{5E8B90F6-FD2B-4A39-893A-33B32E3ED6AB}">
-									<Language>SFX</Language>
-									<AudioFile>Dialogue\Thug\BigThug_A1_S10.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="302741454"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BigThug_A1_S10" ID="{5E8B90F6-FD2B-4A39-893A-33B32E3ED6AB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="BigThug_A1_S6" ID="{6627F97B-B1A6-4FB2-9354-15AF0684EB43}" ShortID="280370158">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BigThug_A1_S6" ID="{2CE8280B-056D-49CE-8255-F65097342451}">
+								<AudioFileSource Name="BigThug_A1_S6" ID="{AF79F3FE-AF6E-4109-9231-39359B16AB2B}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\Thug\BigThug_A1_S6.wav</AudioFile>
 									<MediaIDList>
@@ -132,10 +40,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="BigThug_A1_S6" ID="{2CE8280B-056D-49CE-8255-F65097342451}" Platform="Linked"/>
+								<ActiveSource Name="BigThug_A1_S6" ID="{AF79F3FE-AF6E-4109-9231-39359B16AB2B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BigThug_A1_S9" ID="{4087D776-7DD9-41D9-8835-7F8396A72A44}" ShortID="129669721">
+						<Sound Name="BigThug_A1_S9" ID="{DC85DDEE-EF13-4272-855A-43E178DBF8DB}" ShortID="643853220">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -145,7 +53,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="BigThug_A1_S9" ID="{316E785F-A209-47C5-A4F1-1577E1FC8C47}">
+								<AudioFileSource Name="BigThug_A1_S9" ID="{03EBE4EA-246C-4D10-95EF-36E206C8F49F}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\Thug\BigThug_A1_S9.wav</AudioFile>
 									<MediaIDList>
@@ -155,7 +63,329 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="BigThug_A1_S9" ID="{316E785F-A209-47C5-A4F1-1577E1FC8C47}" Platform="Linked"/>
+								<ActiveSource Name="BigThug_A1_S9" ID="{03EBE4EA-246C-4D10-95EF-36E206C8F49F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A1_S10" ID="{6F07E2C0-CE83-4017-8C28-7BA13478296D}" ShortID="961606854">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A1_S10" ID="{D4FEE0DB-0017-4488-8655-A7AECD062B9A}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A1_S10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="302741454"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A1_S10" ID="{D4FEE0DB-0017-4488-8655-A7AECD062B9A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A1_S11_5" ID="{738FE9BF-DBE5-4C5E-8CED-46FC685A8BD8}" ShortID="326672623">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A1_S11_5" ID="{374BBC21-7DE0-4A16-BA59-558CC42F5DCD}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A1_S11.5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="827356823"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A1_S11_5" ID="{374BBC21-7DE0-4A16-BA59-558CC42F5DCD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A1_S11" ID="{0682E8D5-81D5-48F6-9D23-1E882E83CCA2}" ShortID="788380521">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A1_S11" ID="{01E5B05B-67F1-4F81-A20F-0C4795DB5C8D}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A1_S11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="63124836"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A1_S11" ID="{01E5B05B-67F1-4F81-A20F-0C4795DB5C8D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A1_S12" ID="{441EB7DF-A718-4052-925A-68E5079D00E5}" ShortID="448712634">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A1_S12" ID="{28E335AD-A55E-4EE3-B567-4F37C3C7FDEF}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A1_S12.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="744168595"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A1_S12" ID="{28E335AD-A55E-4EE3-B567-4F37C3C7FDEF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A2_S19_5" ID="{7E414C5F-F7A6-4CCE-A5FF-EAE4156D1C6C}" ShortID="153876561">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A2_S19_5" ID="{9A51935D-5C50-4C7E-B85B-8D79C558CCEC}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A2_S19.5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067974549"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A2_S19_5" ID="{9A51935D-5C50-4C7E-B85B-8D79C558CCEC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A2_S19" ID="{A40B54CC-ACDC-46A6-BD43-8AEF652D9DEE}" ShortID="691547398">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A2_S19" ID="{548202FB-8B3B-40D4-B059-BB33DE221BDC}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A2_S19.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="950371119"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A2_S19" ID="{548202FB-8B3B-40D4-B059-BB33DE221BDC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A2_S20" ID="{B198F890-DEC5-4775-BE16-8F9958DADCF1}" ShortID="429674208">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A2_S20" ID="{39705F60-82D7-46D9-AFB1-DB3C062F2677}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A2_S20.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="247822323"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A2_S20" ID="{39705F60-82D7-46D9-AFB1-DB3C062F2677}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A2_S21_5(Hammertime)" ID="{EEB9245B-D20D-46F3-A612-FA7E0832F131}" ShortID="20830639">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A2_S21_5(Hammertime)" ID="{80B22C95-5DB2-42EC-A09D-FEA3D0862ACD}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A2_S21.5(Hammertime).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="599699598"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A2_S21_5(Hammertime)" ID="{80B22C95-5DB2-42EC-A09D-FEA3D0862ACD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A2_S21" ID="{247DFBA3-85F2-4910-99CF-321DED40BA1F}" ShortID="209903868">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A2_S21" ID="{FEC2EDF7-0134-4BFF-9144-B7E0091E3E7F}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A2_S21.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="862454697"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A2_S21" ID="{FEC2EDF7-0134-4BFF-9144-B7E0091E3E7F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A2_S22" ID="{D212DAD8-371B-47B9-8F18-642A09954E84}" ShortID="349386251">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A2_S22" ID="{E24EFD63-B5F9-49B4-8E61-03425E7BD8FF}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A2_S22.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="539021221"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A2_S22" ID="{E24EFD63-B5F9-49B4-8E61-03425E7BD8FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A2_S23" ID="{AA0AF63C-3D14-42D5-B0C3-83F2B9D56779}" ShortID="448245685">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A2_S23" ID="{3BCC4B84-1D7F-452D-8AB0-F820078FDEB2}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A2_S23.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="794230063"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A2_S23" ID="{3BCC4B84-1D7F-452D-8AB0-F820078FDEB2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A2_S24" ID="{E1B72DDE-8A6E-4B12-8B02-C00D2D30488C}" ShortID="768140373">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A2_S24" ID="{3FD48332-9B0F-47CD-8F2F-C866102F7F64}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A2_S24.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="201497735"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A2_S24" ID="{3FD48332-9B0F-47CD-8F2F-C866102F7F64}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A3_S35" ID="{0DD4BBD7-0320-4398-A45F-0917F4EF9FF5}" ShortID="312202447">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A3_S35" ID="{D3190642-FCF3-41DA-B223-EC4D0760D923}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A3_S35.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="429133083"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A3_S35" ID="{D3190642-FCF3-41DA-B223-EC4D0760D923}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A3_S36" ID="{AA6E3372-7AD5-4FCD-B9B7-AE9409647699}" ShortID="101110579">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A3_S36" ID="{5B3A7FC1-847A-4CC0-9AA6-ACA9C65BFDF7}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A3_S36.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="960655934"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A3_S36" ID="{5B3A7FC1-847A-4CC0-9AA6-ACA9C65BFDF7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

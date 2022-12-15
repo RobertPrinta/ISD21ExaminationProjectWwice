@@ -20,7 +20,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="PoliceHub_A1_S3" ID="{03688060-2046-4A16-ACE7-835E0B812E5D}" ShortID="1048946835">
+						<Sound Name="PoliceHub_A1_S3" ID="{76B02E85-8D1E-4F71-A109-4CD1C1B3339E}" ShortID="29079036">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -30,7 +30,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="PoliceHub_A1_S3" ID="{F8A38E5D-D963-4FD8-8ABC-C689888EB085}">
+								<AudioFileSource Name="PoliceHub_A1_S3" ID="{15EB9205-2E13-4902-A13A-27E615455D8E}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\Hub\PoliceHub_A1_S3.wav</AudioFile>
 									<MediaIDList>
@@ -40,10 +40,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="PoliceHub_A1_S3" ID="{F8A38E5D-D963-4FD8-8ABC-C689888EB085}" Platform="Linked"/>
+								<ActiveSource Name="PoliceHub_A1_S3" ID="{15EB9205-2E13-4902-A13A-27E615455D8E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PoliceHub_A1_S6" ID="{E005E780-AA84-4551-98CA-A625EF7EC04E}" ShortID="438901221">
+						<Sound Name="PoliceHub_A1_S4" ID="{BD1BF655-4AB3-47F1-B409-EC1D104DE226}" ShortID="218132554">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -53,30 +53,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="PoliceHub_A1_S6" ID="{02A75B78-ACD4-45F2-B2CA-CD1DB7988A99}">
-									<Language>SFX</Language>
-									<AudioFile>Dialogue\Hub\PoliceHub_A1_S6.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="493278628"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="PoliceHub_A1_S6" ID="{02A75B78-ACD4-45F2-B2CA-CD1DB7988A99}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="PoliceHub_A1_S4" ID="{0A8F4298-D796-48FE-8F48-9FDE67340166}" ShortID="977766260">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="PoliceHub_A1_S4" ID="{C400709E-AD08-4456-B234-40DDD1FBB73F}">
+								<AudioFileSource Name="PoliceHub_A1_S4" ID="{395E3C25-7F72-457B-9F1A-AC4A8670785F}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\Hub\PoliceHub_A1_S4.wav</AudioFile>
 									<MediaIDList>
@@ -86,10 +63,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="PoliceHub_A1_S4" ID="{C400709E-AD08-4456-B234-40DDD1FBB73F}" Platform="Linked"/>
+								<ActiveSource Name="PoliceHub_A1_S4" ID="{395E3C25-7F72-457B-9F1A-AC4A8670785F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PoliceHub_A1_S5" ID="{92BB32E1-72D3-4F88-B516-76825BFFDB47}" ShortID="947933372">
+						<Sound Name="PoliceHub_A1_S5" ID="{C9650ADC-0AA8-4F8B-98A7-A1719AE65EB5}" ShortID="800695954">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -99,7 +76,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="PoliceHub_A1_S5" ID="{6C786CD3-4604-40DE-AE2E-0C912B44EFC8}">
+								<AudioFileSource Name="PoliceHub_A1_S5" ID="{11938D3F-6863-4F5A-B114-30BFE8303F10}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\Hub\PoliceHub_A1_S5.wav</AudioFile>
 									<MediaIDList>
@@ -109,10 +86,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="PoliceHub_A1_S5" ID="{6C786CD3-4604-40DE-AE2E-0C912B44EFC8}" Platform="Linked"/>
+								<ActiveSource Name="PoliceHub_A1_S5" ID="{11938D3F-6863-4F5A-B114-30BFE8303F10}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="PoliceHub_A1_S7" ID="{C60BD410-E180-4ED1-9D04-B1C61A6FE187}" ShortID="595844047">
+						<Sound Name="PoliceHub_A1_S6" ID="{5E8B1E3D-AA2C-41C4-B9EE-E7202AD7D9A0}" ShortID="287230521">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -122,7 +99,30 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="PoliceHub_A1_S7" ID="{B3663B73-83AE-46FF-B38D-D3197CD51F2F}">
+								<AudioFileSource Name="PoliceHub_A1_S6" ID="{63A886B2-DB98-4E97-AA1B-7D924E32CBE2}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Hub\PoliceHub_A1_S6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="493278628"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PoliceHub_A1_S6" ID="{63A886B2-DB98-4E97-AA1B-7D924E32CBE2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoliceHub_A1_S7" ID="{BF0D6294-F699-4B09-A290-0598E0490D0F}" ShortID="539474974">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoliceHub_A1_S7" ID="{92AE22C9-CADB-4665-B029-111681F0D485}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\Hub\PoliceHub_A1_S7.wav</AudioFile>
 									<MediaIDList>
@@ -132,7 +132,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="PoliceHub_A1_S7" ID="{B3663B73-83AE-46FF-B38D-D3197CD51F2F}" Platform="Linked"/>
+								<ActiveSource Name="PoliceHub_A1_S7" ID="{92AE22C9-CADB-4665-B029-111681F0D485}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -3,9 +3,9 @@
 	<Events>
 		<WorkUnit Name="DiRunner" ID="{46C32E38-5F9A-467E-83E7-1E47CC3AFF7D}" OwnerID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Play_DiRunner_A1_S13" ID="{8A72B67B-B823-4A4C-A208-95B124532FF5}">
+				<Event Name="Play_Emilia_A2_S29" ID="{4F2D6379-B41C-4847-93AD-3ABB85AD5528}">
 					<ChildrenList>
-						<Action Name="" ID="{620D0798-57EE-440D-A59F-BEAB35C8EF9B}" ShortID="578653091">
+						<Action Name="" ID="{D7CD755F-30DB-4AAC-BF0F-7D9AC7217C1B}" ShortID="177093213">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
 							</PropertyList>
@@ -15,18 +15,18 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{3C39B0F2-C126-4826-9954-815189F9B36A}" ShortID="249553639">
+						<Action Name="" ID="{893C60BF-A0FA-46CC-8B2B-C409A876B328}" ShortID="52510479">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Emilia_A1_S13" ID="{83095ECD-E5CB-4CD3-97D3-6FB9A0CAD29B}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+									<ObjectRef Name="Emilia_A2_S29" ID="{DD929D1C-18F2-4404-9E43-B8FD6BF6F692}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_DiRunner_A1_S14" ID="{0C801580-269B-4BD7-8CB8-83E93BA0241E}">
+				<Event Name="Play_Emilia_A3_S38" ID="{BABAC9F8-D718-4108-8D32-5F9467989BFA}">
 					<ChildrenList>
-						<Action Name="" ID="{42E7C490-1B58-4F95-A893-AFFD2BF45D68}" ShortID="808246632">
+						<Action Name="" ID="{28D967B5-D67F-432A-998B-CDE4AFF0AF74}" ShortID="309893197">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
 							</PropertyList>
@@ -36,10 +36,241 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{24C0C99B-E4D8-4962-969C-078FC9D88203}" ShortID="8635647">
+						<Action Name="" ID="{530F71D7-1FD8-4722-813A-D4DA146BA1B4}" ShortID="528735375">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Emilia_A1_S14" ID="{FD613FA7-DEA9-419A-80BA-836A21AAEC55}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+									<ObjectRef Name="Emilia_A3_S38" ID="{BDDC16A1-5888-4304-90F0-E1D0F299DB73}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A2_S27" ID="{DC7F9783-5A88-413C-BBCF-598ED9E5D449}">
+					<ChildrenList>
+						<Action Name="" ID="{58B9950E-415E-4A7C-AD7E-511F790FD207}" ShortID="913315773">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4DB010C5-77F2-4EBA-A030-216BDAA74433}" ShortID="21100583">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A2_S27" ID="{B9C45A52-4D28-454D-8773-615624CACCD2}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A2_S26" ID="{448BD9A8-486B-4CC9-8358-42ACF03F9950}">
+					<ChildrenList>
+						<Action Name="" ID="{67FB9E80-E770-45FD-BA0A-E457548DF313}" ShortID="652333170">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6B788533-B0EC-46FF-BFBA-3C8C984DE14D}" ShortID="415967997">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A2_S26" ID="{AA229908-BBA6-4CD3-A824-23AADE3266F9}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A2_S25" ID="{06CA60DD-4A53-4301-9CEC-3B9AD9F5AB9F}">
+					<ChildrenList>
+						<Action Name="" ID="{175EE6C3-272E-4970-BC3D-42BA752785C8}" ShortID="115984303">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DE96CC79-4AAF-4CB9-B081-E59F55D93F24}" ShortID="577470383">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A2_S25" ID="{BDE23E38-A5AB-4021-AD85-81F8030B1D21}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A1_S14" ID="{3B023180-ECE7-42E8-BD9E-2EC606FEACF7}">
+					<ChildrenList>
+						<Action Name="" ID="{31013AB9-1D2B-4511-9732-E27D6852B375}" ShortID="894873834">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0A71E7E3-168A-44C8-B19C-4F4757CCDFF1}" ShortID="455961915">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A1_S14" ID="{B4893AD5-00B6-4C95-93FE-880F09617F68}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_S2_A30" ID="{A55260CD-6329-4977-A10F-A3826D425B8E}">
+					<ChildrenList>
+						<Action Name="" ID="{7516677D-18A2-4F65-8F29-FBD53B73E106}" ShortID="595336646">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{13F34AD1-DF16-4D5F-9C78-83EC3FF42896}" ShortID="329832543">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_S2_A30" ID="{3447521A-BD62-44B6-AAFA-4892246D7D38}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A2_S31" ID="{6B9A0AE0-CBC4-410D-9655-6EF54E77E91F}">
+					<ChildrenList>
+						<Action Name="" ID="{DD3C6DD4-CAF3-4682-A109-C12FC23D88A2}" ShortID="63001941">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A00431A7-61EF-4004-BAD6-3973E95414E9}" ShortID="755584097">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A2_S31" ID="{1B1EB07C-64A6-4297-8E1F-BA8486243CA1}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A3_S39" ID="{D36528E8-FE65-48E6-B3DE-24488D27A24E}">
+					<ChildrenList>
+						<Action Name="" ID="{2557D03F-A195-4467-8D1E-187FF9B23A7E}" ShortID="837007585">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{210D2191-7803-405A-A749-906FB9CB0DA1}" ShortID="1037502475">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A3_S39" ID="{79CE0478-538B-438D-99D2-F45B32D4080E}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A2_S28" ID="{4D1ACA91-CDAA-4458-BDE9-271D3864F79D}">
+					<ChildrenList>
+						<Action Name="" ID="{6CBCFB9A-2E67-4CE9-970B-4C3A06ED79B4}" ShortID="526159003">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F8CFA35C-6935-4EB0-A12C-EC26990AB266}" ShortID="412121116">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A2_S28" ID="{C2C12A6D-9B95-4954-9745-450E1275D76A}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A3_S40" ID="{272AB06C-1DAB-4497-ABDA-84A9883634A5}">
+					<ChildrenList>
+						<Action Name="" ID="{40412C9B-8A7A-43EF-8E73-8ED0636F1130}" ShortID="292684863">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B4527EE6-4DEE-4C6A-A3AD-FB829CF52200}" ShortID="1052480922">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A3_S40" ID="{2D540891-F2AC-4D44-9155-995E460A5B39}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A1_S15" ID="{704A8FD9-BEDD-4377-B2F2-A7294C274444}">
+					<ChildrenList>
+						<Action Name="" ID="{9D46EB14-797B-48B8-A101-7622E984FA08}" ShortID="613373950">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{51E9E162-7865-4C72-BF0A-4B70B6622272}" ShortID="217464487">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A1_S15" ID="{5A058534-CCE1-4317-8184-79026299470B}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A1_S13" ID="{61A424C8-8DFA-4DBC-87B5-AB8910CF4915}">
+					<ChildrenList>
+						<Action Name="" ID="{31B3B37D-A8D8-45FD-A048-70DDC3ABC53A}" ShortID="565853367">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A53CCB9F-DD8F-4894-A84F-42A0D6E41AFB}" ShortID="171702469">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A1_S13" ID="{2ECEEAE4-B306-439A-B0C1-3762143EA53D}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
