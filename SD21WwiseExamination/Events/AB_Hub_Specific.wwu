@@ -25,6 +25,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Watercooler_3D" ID="{7A7F0205-6F60-4A4F-959F-B3636D4A5282}">
+					<ChildrenList>
+						<Action Name="" ID="{D5272FA0-9094-4424-AD1F-9F55D58B7679}" ShortID="352046563">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Watercooler_Bubble_Sequence" ID="{0F473D1A-B534-45D0-9A46-CD7A95F32E42}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{368B0B51-C6B1-419D-96F4-5D7EBCDE86EA}" ShortID="577625690">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Watercooler_Buzz_3D" ID="{90FDCAD2-9F3F-4597-9947-E04F2DD879C5}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
