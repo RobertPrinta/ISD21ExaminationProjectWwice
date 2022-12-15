@@ -2281,6 +2281,163 @@
 										<ActiveSource Name="AB_Muffled_Conversation_Behind_Door_3D" ID="{F78087F1-8B9A-436E-BF9D-F5A74469EE16}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<ActorMixer Name="AB_Police_Radio_3D" ID="{DDC09985-43DC-4B72-84DE-0ECCE3982FD4}" ShortID="184965050">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="AB_Police_Radio_Event_3D" ID="{459DC760-924B-41D3-B409-B8601F0CCC5F}" ShortID="116708129">
+											<PropertyList>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AB_Police_Radio_Event_1_3D" ID="{3CFC4C2B-9360-4FA7-83BE-133866AB4045}" ShortID="8296086">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Police_Radio_Event_1_3D" ID="{F033D410-82A8-401A-B513-555AA9792BDD}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_Police_Radio_Event_1_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="65348091"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Police_Radio_Event_1_3D" ID="{F033D410-82A8-401A-B513-555AA9792BDD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_Police_Radio_Event_2_3D" ID="{F63F3068-02E7-45B4-8577-7321E29B3675}" ShortID="786103858">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Police_Radio_Event_2_3D" ID="{D641EA05-3F48-4964-B86F-C5B5C138F4C3}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_Police_Radio_Event_2_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="972828149"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Police_Radio_Event_2_3D" ID="{D641EA05-3F48-4964-B86F-C5B5C138F4C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_Police_Radio_Event_3_3D" ID="{8119DF0A-1FF8-4AD8-9EE1-9DD423F0B76F}" ShortID="421476570">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Police_Radio_Event_3_3D" ID="{F1E1BD34-76D1-4F9A-85E8-9AA5850C6D8C}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_Police_Radio_Event_3_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="384089860"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Police_Radio_Event_3_3D" ID="{F1E1BD34-76D1-4F9A-85E8-9AA5850C6D8C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_Police_Radio_Event_4_3D" ID="{8A0781D1-D56E-4A8A-AD91-368C5F77F1B3}" ShortID="915243442">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Police_Radio_Event_4_3D" ID="{171AA236-E845-4667-B1A3-B23FD366CA5E}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_Police_Radio_Event_4_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="369695601"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Police_Radio_Event_4_3D" ID="{171AA236-E845-4667-B1A3-B23FD366CA5E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}" ShortID="344013760">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Wwise Silence" ID="{158D53F5-CD78-451F-9F10-421557DBC805}" ShortID="574153391" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+															<PropertyList>
+																<Property Name="Length" Type="Real32" Value="40"/>
+																<Property Name="LengthMin" Type="Real32" Value="-30"/>
+															</PropertyList>
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Wwise Silence" ID="{158D53F5-CD78-451F-9F10-421557DBC805}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+											<Playlist>
+												<ItemRef Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}"/>
+												<ItemRef Name="AB_Police_Radio_Event_1_3D" ID="{3CFC4C2B-9360-4FA7-83BE-133866AB4045}"/>
+												<ItemRef Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}"/>
+												<ItemRef Name="AB_Police_Radio_Event_2_3D" ID="{F63F3068-02E7-45B4-8577-7321E29B3675}"/>
+												<ItemRef Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}"/>
+												<ItemRef Name="AB_Police_Radio_Event_3_3D" ID="{8119DF0A-1FF8-4AD8-9EE1-9DD423F0B76F}"/>
+												<ItemRef Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}"/>
+												<ItemRef Name="AB_Police_Radio_Event_4_3D" ID="{8A0781D1-D56E-4A8A-AD91-368C5F77F1B3}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>

@@ -62,6 +62,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Police_Radio_3D" ID="{0D7B7959-970D-4117-B167-E6B1F5C5EF68}">
+					<ChildrenList>
+						<Action Name="" ID="{FE125FCE-1F50-4417-940B-D1FE0C73672F}" ShortID="888875458">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Police_Radio_Event_3D" ID="{459DC760-924B-41D3-B409-B8601F0CCC5F}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
