@@ -160,6 +160,42 @@
 										<Bus Name="PlayerMaster" ID="{7AF732C7-47D3-44A2-9848-0E166421A91C}">
 											<ChildrenList>
 												<Bus Name="PlayerLocomotion" ID="{4BE82FA6-C33E-43AE-B4CC-830081ED5379}">
+													<PropertyList>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UserAuxSendVolume1" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UserAuxSendVolume2" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UserAuxSendVolume3" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="DreamRoom" ID="{400F7CF9-0318-4A62-925F-D787F3F9BB6E}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="LargeRoom" ID="{AFFD7AA1-69B7-468B-873E-C21A590E8C74}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="MediumRoom" ID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+														<Reference Name="UserAuxSend3">
+															<ObjectRef Name="SmallRoom" ID="{52EE55A3-806A-4149-BA6D-10AEC2CB1286}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
 													<ChildrenList>
 														<Bus Name="PlayerFootsteps" ID="{FD96472E-B142-45CE-84F1-407F22BC478F}">
 															<ObjectLists/>
@@ -184,74 +220,67 @@
 											</ChildrenList>
 											<ObjectLists/>
 										</Bus>
+										<Bus Name="Rooms" ID="{B7FA9C9C-471D-44E7-A1AC-46357E7EB3A5}">
+											<ChildrenList>
+												<AuxBus Name="SmallRoom" ID="{52EE55A3-806A-4149-BA6D-10AEC2CB1286}">
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+													<ObjectLists/>
+												</AuxBus>
+												<AuxBus Name="MediumRoom" ID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}">
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+													<ObjectLists/>
+												</AuxBus>
+												<AuxBus Name="LargeRoom" ID="{AFFD7AA1-69B7-468B-873E-C21A590E8C74}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+													<ObjectLists/>
+												</AuxBus>
+												<AuxBus Name="DreamRoom" ID="{400F7CF9-0318-4A62-925F-D787F3F9BB6E}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Metal_Hangar" ID="{C4A4605C-42EF-476A-B53C-E31C7A442C24}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+														<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+															<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+														<Reference Name="Effect2" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+															<ObjectRef Name="Three_Voices" ID="{71CA20BE-8C1D-4A0C-92AF-BFCE183D5651}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+													<ObjectLists/>
+												</AuxBus>
+											</ChildrenList>
+											<ObjectLists/>
+										</Bus>
 									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Ui" ID="{BB111FFF-69DF-4913-B75A-A1FF178A6F8B}">
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="Rooms" ID="{B7FA9C9C-471D-44E7-A1AC-46357E7EB3A5}">
-									<ChildrenList>
-										<AuxBus Name="SmallRoom" ID="{52EE55A3-806A-4149-BA6D-10AEC2CB1286}">
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</AuxBus>
-										<AuxBus Name="MediumRoom" ID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}">
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</AuxBus>
-										<AuxBus Name="LargeRoom" ID="{AFFD7AA1-69B7-468B-873E-C21A590E8C74}">
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</AuxBus>
-										<AuxBus Name="Corridor" ID="{30F3C25B-ACE9-445B-9F67-D66EBF845097}">
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
-													<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-												<Reference Name="Effect1" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<ObjectRef Name="Plate_Small" ID="{5681977F-CD7F-4D09-AA58-118BEFA48C8C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</AuxBus>
-										<AuxBus Name="DreamRoom" ID="{400F7CF9-0318-4A62-925F-D787F3F9BB6E}">
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<ObjectRef Name="Metal_Hangar" ID="{C4A4605C-42EF-476A-B53C-E31C7A442C24}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</AuxBus>
-										<AuxBus Name="MediumRoomAbs" ID="{61528CA2-A5C6-44B7-A747-0BBB3803A023}">
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-													<ObjectRef Name="Room_Medium_High_Absorbtion" ID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</AuxBus>
-										<AuxBus Name="StairCase" ID="{5AE598B5-A1D8-4B29-B452-C00FE7D54256}">
-											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-													<ObjectRef Name="Bathroom1" ID="{1969D30F-C165-45C0-B290-DE3ED07A7AA3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-												</Reference>
-											</ReferenceList>
-											<ObjectLists/>
-										</AuxBus>
-									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>

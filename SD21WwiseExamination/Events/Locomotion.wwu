@@ -8,14 +8,14 @@
 						<Action Name="" ID="{10F548FD-C91F-4B05-B45F-F6F46EAE847E}" ShortID="743011995">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{FB983F4B-6273-4EC4-B008-4F11158F2762}" WorkUnitID="{0717E4F1-805E-4CCE-BE0B-42986EE979AA}"/>
+									<ObjectRef Name="Footsteps" ID="{FB983F4B-6273-4EC4-B008-4F11158F2762}" WorkUnitID="{49D19C03-59A5-4898-9F51-3205F3BC1F24}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{12E5522E-D3C3-46ED-88DE-9F73B3A25597}" ShortID="266802936">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Clothing" ID="{9F50AE32-4A1A-4396-8FC8-8E6897259CFE}" WorkUnitID="{442DBE27-6D15-4C8D-8B88-D252A59660A6}"/>
+									<ObjectRef Name="Clothing" ID="{9F50AE32-4A1A-4396-8FC8-8E6897259CFE}" WorkUnitID="{49D19C03-59A5-4898-9F51-3205F3BC1F24}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
