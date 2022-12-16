@@ -14,6 +14,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<SwitchContainer Name="AB_Level" ID="{9200AB4E-57EA-4165-A465-FD561AE42284}" ShortID="396631157">
+							<PropertyList>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -27,6 +30,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<SwitchContainer Name="AB_Hub" ID="{9D4DC263-C7C4-4F3A-9D9A-DEB5D83DDF71}" ShortID="160035260">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -144,12 +150,41 @@
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="AB_Big_Room_HeadlockedLP" ID="{FC23CF8F-72D2-4656-9335-3D42C1BC76A4}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Basement" ID="{359EC2F6-61D9-46E2-B9FD-A05AE59DAC05}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+												</PropertyList>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
@@ -169,9 +204,15 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="AB_OldLady" ID="{093C537C-981D-423B-891C-FBF60141BED0}" ShortID="40250316">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
@@ -239,9 +280,35 @@
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="AB_Big_Room_HeadlockedLP" ID="{2AB91F5A-7913-4BDE-BCB9-3E8188E7E879}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{021A2C96-FD58-416A-B8D5-9E323E511240}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
@@ -261,6 +328,9 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="AB_Runner" ID="{4813C0F0-BC5C-4B46-A6D8-5963D88AB27C}" ShortID="581511260">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -653,6 +723,9 @@
 											</Playlist>
 										</RandomSequenceContainer>
 										<SwitchContainer Name="AB_RoomType" ID="{80F72CB5-9909-49A5-AA10-98987237C684}" ShortID="11977546">
+											<PropertyList>
+												<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -723,9 +796,35 @@
 												<GroupingBehaviorList>
 													<GroupingBehavior>
 														<ItemRef Name="AB_Big_Room_HeadlockedLP" ID="{19547E7D-46F1-4D77-A2D5-F3415CC0471B}"/>
+														<PropertyList>
+															<Property Name="ContinuePlay" Type="bool" Value="True"/>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>3</Value>
+																</ValueList>
+															</Property>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>3</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{33E9FE7E-C409-4AE4-916A-DE71A6639806}"/>
+														<PropertyList>
+															<Property Name="ContinuePlay" Type="bool" Value="True"/>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>3</Value>
+																</ValueList>
+															</Property>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>3</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
@@ -750,12 +849,51 @@
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="AB_Outdoors" ID="{170B1B1B-91F9-4499-BE95-C00535DAC470}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="AB_Bumblebee_Sequence" ID="{8C483028-B597-4691-96FB-6F9F8F0D0A58}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="AB_RoomType" ID="{80F72CB5-9909-49A5-AA10-98987237C684}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
@@ -770,6 +908,9 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="AB_Thug" ID="{6B46AC5B-E732-4D6F-A99F-7972B2CB025E}" ShortID="957419090">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -783,6 +924,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<SwitchContainer Name="AB_RoomType" ID="{FB3A8465-121A-411B-A7ED-73C568C31AE2}" ShortID="517440499">
+											<PropertyList>
+												<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -794,8 +938,111 @@
 													<ObjectRef Name="RoomType" ID="{B1B8C0B5-EE57-4944-8C49-ACE362DDF898}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AB_Small_Room_HeadlockedLP" ID="{7B45405F-32DA-4CAE-9865-7CCCB8713926}" ShortID="190023297">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="AmbientHeadLockt" ID="{D6E0A904-CAC0-47DA-AB88-04FF3204BD6A}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Small_Room_Headlocked" ID="{3CD6F910-6ACE-4C97-8074-E89CD8F357EF}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Headlocked\AB_Small_Room_Headlocked.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="812702739"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Small_Room_Headlocked" ID="{3CD6F910-6ACE-4C97-8074-E89CD8F357EF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_Big_Room_HeadlockedLP" ID="{86DD4BB9-75F3-4965-9241-6AFA138C1D83}" ShortID="651009922">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="AmbientHeadLockt" ID="{D6E0A904-CAC0-47DA-AB88-04FF3204BD6A}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Big_Room_HeadlockedLP" ID="{AAE0A87E-8B65-445B-85D8-177ADD538891}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Headlocked\AB_Big_Room_HeadlockedLP.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="715327901"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Big_Room_HeadlockedLP" ID="{AAE0A87E-8B65-445B-85D8-177ADD538891}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<ObjectLists/>
-											<GroupingInfo/>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{7B45405F-32DA-4CAE-9865-7CCCB8713926}"/>
+														<PropertyList>
+															<Property Name="ContinuePlay" Type="bool" Value="True"/>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>3</Value>
+																</ValueList>
+															</Property>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>3</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="AB_Big_Room_HeadlockedLP" ID="{86DD4BB9-75F3-4965-9241-6AFA138C1D83}"/>
+														<PropertyList>
+															<Property Name="ContinuePlay" Type="bool" Value="True"/>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>3</Value>
+																</ValueList>
+															</Property>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>3</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
+														<ItemList>
+															<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{7B45405F-32DA-4CAE-9865-7CCCB8713926}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+														<ItemList>
+															<ItemRef Name="AB_Big_Room_HeadlockedLP" ID="{86DD4BB9-75F3-4965-9241-6AFA138C1D83}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
 										</SwitchContainer>
 										<Sound Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}" ShortID="1073636791">
 											<PropertyList>
@@ -834,9 +1081,35 @@
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="AB_RoomType" ID="{FB3A8465-121A-411B-A7ED-73C568C31AE2}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
@@ -855,15 +1128,67 @@
 								<GroupingBehaviorList>
 									<GroupingBehavior>
 										<ItemRef Name="AB_Thug" ID="{6B46AC5B-E732-4D6F-A99F-7972B2CB025E}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="AB_Hub" ID="{9D4DC263-C7C4-4F3A-9D9A-DEB5D83DDF71}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="AB_OldLady" ID="{093C537C-981D-423B-891C-FBF60141BED0}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="AB_Runner" ID="{4813C0F0-BC5C-4B46-A6D8-5963D88AB27C}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
