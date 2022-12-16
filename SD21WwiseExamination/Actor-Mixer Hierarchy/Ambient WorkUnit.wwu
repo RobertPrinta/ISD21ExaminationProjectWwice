@@ -78,10 +78,36 @@
 														<ActiveSource Name="AB_Small_Room_Headlocked" ID="{6B440C61-E35A-4C69-932B-21E9745321EC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="AB_Big_Room_HeadlockedLP" ID="{FC23CF8F-72D2-4656-9335-3D42C1BC76A4}" ShortID="314059373">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Big_Room_HeadlockedLP" ID="{77D9C53C-7431-4F1A-AC61-974E583BED02}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Headlocked\AB_Big_Room_HeadlockedLP.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="621555548"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Big_Room_HeadlockedLP" ID="{77D9C53C-7431-4F1A-AC61-974E583BED02}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 											<ObjectLists/>
 											<GroupingInfo>
 												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="AB_Big_Room_HeadlockedLP" ID="{FC23CF8F-72D2-4656-9335-3D42C1BC76A4}"/>
+													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}"/>
 													</GroupingBehavior>
@@ -91,6 +117,12 @@
 														<SwitchRef Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 														<ItemList>
 															<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+														<ItemList>
+															<ItemRef Name="AB_Big_Room_HeadlockedLP" ID="{FC23CF8F-72D2-4656-9335-3D42C1BC76A4}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>
