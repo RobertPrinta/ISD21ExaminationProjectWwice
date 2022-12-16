@@ -97,7 +97,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
+							<GameParameterRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -105,7 +105,7 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}"/>
+							<GameParameterRef Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -133,31 +133,9 @@
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Event fotsteps and music" ID="{BF940280-887A-4CC3-B586-64D539219D00}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="PlayLarge_washing_machine" ID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" WorkUnitID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="PlayLarge_washing_machineDoor" ID="{23842A14-CFB7-4BA3-B690-5B87E0D8BFF0}" WorkUnitID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}"/>
-							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="PlayLarge_washing_machineEnd" ID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" WorkUnitID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}"/>
-							<Position X="1" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="PlayerFootstepsEvent" ID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" WorkUnitID="{C5A83140-F17F-4361-A957-F5569C8CB4DB}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
+							<GameParameterRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -165,7 +143,7 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}"/>
+							<GameParameterRef Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -173,11 +151,11 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}"/>
+							<GameParameterRef Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}"/>
+							<GameParameterRef Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -200,6 +178,70 @@
 						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Room Rtpc" ID="{4174E52A-FEBC-416C-80C1-2092AEEFC064}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayerFootstepsEvent" ID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" WorkUnitID="{C5A83140-F17F-4361-A957-F5569C8CB4DB}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AB_Rain_From_Closed_Window_3D_LP" ID="{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}" WorkUnitID="{A474B2D6-9874-4E8E-A5EB-0C0F445AF468}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AB_Dream_Machine_Ambience_3D_LP" ID="{CBBDF146-BD8D-42E1-8EA9-B2613361CE47}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ambi_Vol" ID="{CD020137-2BA1-4350-8904-0D80EDF0B94F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Master_Vol" ID="{31CFA690-A887-4407-BD42-0952ABFBF319}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Dialogue_Vol" ID="{E22BE48E-07DA-46F6-9D5A-317D36877DDE}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Vol" ID="{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
+						<CurrentStateRef Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
+						<CurrentStateRef Name="None" ID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
+						<CurrentStateRef Name="None" ID="{8B77F188-B864-4A48-A88B-A13BCA72DB36}"/>
+						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
+						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
+						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
+						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

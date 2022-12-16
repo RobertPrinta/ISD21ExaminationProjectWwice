@@ -3,25 +3,25 @@
 	<GameParameters>
 		<WorkUnit Name="ReverbRoom" ID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}">
+				<GameParameter Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}">
+				<GameParameter Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}">
+				<GameParameter Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}">
+				<GameParameter Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>

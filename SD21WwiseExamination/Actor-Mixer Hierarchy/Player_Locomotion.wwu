@@ -12,7 +12,7 @@
 								<RTPC Name="" ID="{57B781C9-0C18-4912-A16F-006A82EE0F96}" ShortID="923594986">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+											<ObjectRef Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
 										</Reference>
 									</ReferenceList>
 									<Curve Name="" ID="{C69E673B-A866-4E3B-AA8E-ACED9084C105}">
@@ -40,7 +40,7 @@
 								<RTPC Name="" ID="{8B2DD76D-9133-422A-AFCD-B6F8449DCD0B}" ShortID="101548991">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+											<ObjectRef Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
 										</Reference>
 									</ReferenceList>
 									<Curve Name="" ID="{685D9766-E0D8-4EF9-B479-03210D396B6B}">
@@ -68,7 +68,7 @@
 								<RTPC Name="" ID="{D8D7A1CB-3B73-4684-96A2-BD4F0B4F22F3}" ShortID="167888808">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+											<ObjectRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
 										</Reference>
 									</ReferenceList>
 									<Curve Name="" ID="{9E7A28B9-3ACF-4E10-8D18-88E124EE8FD0}">
@@ -96,7 +96,7 @@
 								<RTPC Name="" ID="{B68A33E3-B36B-4732-853C-436F88576F08}" ShortID="924731382">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+											<ObjectRef Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
 										</Reference>
 									</ReferenceList>
 									<Curve Name="" ID="{0E3E602F-0B60-481E-A798-A071093C7E68}">

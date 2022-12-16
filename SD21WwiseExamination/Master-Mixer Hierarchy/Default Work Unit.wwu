@@ -148,7 +148,133 @@
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
 														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{711E2292-951A-4A78-8753-840730E64912}" ShortID="714684812">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{E8CF2827-2AB7-4264-9B87-8B505B8F147B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="UserAuxSendVolume1" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{6E41C344-35D1-4361-AB70-501C7128348A}" ShortID="804301402">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{DFAC58E4-D881-4BBC-B0B5-10C0633979CA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="UserAuxSendVolume2" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{D3726E87-42B2-42D3-B085-1511F77C3782}" ShortID="153676069">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{41C03518-63CC-485C-B098-E4F8300F411A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="UserAuxSendVolume3" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{BE3E1626-843B-4851-86F5-6107C920DD60}" ShortID="779703083">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{76A38355-C417-4E5E-97C0-41A3A9BBF1EE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
 													</PropertyList>
+													<ReferenceList>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="DreamRoom" ID="{400F7CF9-0318-4A62-925F-D787F3F9BB6E}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="LargeRoom" ID="{AFFD7AA1-69B7-468B-873E-C21A590E8C74}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="MediumRoom" ID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+														<Reference Name="UserAuxSend3">
+															<ObjectRef Name="SmallRoom" ID="{52EE55A3-806A-4149-BA6D-10AEC2CB1286}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
 													<ObjectLists/>
 												</Bus>
 												<Bus Name="AmbientHeadLockt" ID="{D6E0A904-CAC0-47DA-AB88-04FF3204BD6A}">
@@ -162,24 +288,116 @@
 												<Bus Name="PlayerLocomotion" ID="{4BE82FA6-C33E-43AE-B4CC-830081ED5379}">
 													<PropertyList>
 														<Property Name="UserAuxSendVolume0" Type="Real64">
-															<ValueList>
-																<Value>-96</Value>
-															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{022997DB-F8D0-4526-8CDD-9F2E6D2C1F22}" ShortID="741720746">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{906D6450-1510-4ED1-96B2-15377FCFB8F9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
 														</Property>
 														<Property Name="UserAuxSendVolume1" Type="Real64">
-															<ValueList>
-																<Value>-96</Value>
-															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{87E31151-8248-4888-BCD6-D36B7CA6B095}" ShortID="790122942">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{EA6B2D91-83D9-4705-9BD2-290674FB77EE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
 														</Property>
 														<Property Name="UserAuxSendVolume2" Type="Real64">
-															<ValueList>
-																<Value>-96</Value>
-															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{676C4531-85EF-45A7-85BA-EB92E0A9CB1C}" ShortID="757004146">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{7841B045-26BE-4121-8468-0C20548F4452}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
 														</Property>
 														<Property Name="UserAuxSendVolume3" Type="Real64">
-															<ValueList>
-																<Value>-96</Value>
-															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{12332676-34CC-417D-BB3A-D27A62A533C0}" ShortID="918079232">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{46D2A18C-FDC9-4FBB-903F-94B49AE3DEBD}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
 														</Property>
 													</PropertyList>
 													<ReferenceList>
@@ -210,8 +428,166 @@
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="DialogueMaster" ID="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{62C73028-5F58-4DCE-BE44-DCAF03692F12}" ShortID="568527348">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Dialogue_Vol" ID="{E22BE48E-07DA-46F6-9D5A-317D36877DDE}" WorkUnitID="{DD25DA00-17E1-4130-AA69-A2FA8BBD3860}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{8F15C78C-4EB5-4851-A058-A4D98B4ECCCB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ChildrenList>
 												<Bus Name="Dialogue3D" ID="{D60E940E-50D9-4A9A-A3AD-BA82FF090F7A}">
+													<PropertyList>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{85BA7027-2E90-47F1-93DF-023D66D41584}" ShortID="250667916">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{9F5B3B62-CF06-43F3-A0B3-FCF62EDF6C75}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="UserAuxSendVolume1" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{1E796AEE-DE06-4DDE-8567-5BE7DFBD3E33}" ShortID="777689046">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{4130CEA1-DD93-425C-A1F1-C9D97DC062E5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="UserAuxSendVolume2" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{3084ED0B-9DEE-4CF3-8A21-33FA88767470}" ShortID="161625548">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{0A343A22-05EC-4E5E-839D-725F91633E49}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="UserAuxSendVolume3" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{0B5FB67A-0940-4E7F-81E4-80DB61FBC73F}" ShortID="365538543">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}" WorkUnitID="{1950BF20-E2A8-4B00-8D9E-4E6F1EC845C0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{40A78990-5A3D-48C4-9A9D-85E04DB9F62B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="DreamRoom" ID="{400F7CF9-0318-4A62-925F-D787F3F9BB6E}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+														<Reference Name="UserAuxSend1">
+															<ObjectRef Name="LargeRoom" ID="{AFFD7AA1-69B7-468B-873E-C21A590E8C74}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+														<Reference Name="UserAuxSend2">
+															<ObjectRef Name="MediumRoom" ID="{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+														<Reference Name="UserAuxSend3">
+															<ObjectRef Name="SmallRoom" ID="{52EE55A3-806A-4149-BA6D-10AEC2CB1286}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
 													<ObjectLists/>
 												</Bus>
 												<Bus Name="DialogueHeadLockt" ID="{B1C43746-F551-4B72-8B9A-FA01BCAE509C}">
