@@ -147,6 +147,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="UI_Play_Screen_Flicker" ID="{6FCD7E0E-9E5F-4839-83B1-EC2049B744BD}">
+					<ChildrenList>
+						<Action Name="" ID="{468EF7EE-D09A-468A-B262-9278770E7BF1}" ShortID="494134624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Radio_Interference" ID="{62439F90-81D4-40A1-8EBB-FD066D7E6C05}" WorkUnitID="{11478EB5-3BE0-46CC-B5D5-A5C47104A96A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
