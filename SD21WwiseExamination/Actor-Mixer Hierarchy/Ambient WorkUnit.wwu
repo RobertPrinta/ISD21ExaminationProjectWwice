@@ -113,6 +113,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="AB_Big_Room_HeadlockedLP" ID="{FC23CF8F-72D2-4656-9335-3D42C1BC76A4}" ShortID="314059373">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -126,7 +129,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Ambience\Headlocked\AB_Big_Room_HeadlockedLP.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="621555548"/>
+														<MediaID ID="715327901"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -205,6 +208,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="AB_Big_Room_HeadlockedLP" ID="{2AB91F5A-7913-4BDE-BCB9-3E8188E7E879}" ShortID="720958938">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -218,7 +224,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Ambience\Headlocked\AB_Big_Room_HeadlockedLP.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="621555548"/>
+														<MediaID ID="715327901"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -686,6 +692,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="AB_Big_Room_HeadlockedLP" ID="{19547E7D-46F1-4D77-A2D5-F3415CC0471B}" ShortID="949293301">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -699,7 +708,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Ambience\Headlocked\AB_Big_Room_HeadlockedLP.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="621555548"/>
+																<MediaID ID="715327901"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -785,54 +794,49 @@
 													<ObjectRef Name="RoomType" ID="{B1B8C0B5-EE57-4944-8C49-ACE362DDF898}" WorkUnitID="{ADED9BD8-0375-4915-999F-960372BC50AD}"/>
 												</Reference>
 											</ReferenceList>
+											<ObjectLists/>
+											<GroupingInfo/>
+										</SwitchContainer>
+										<Sound Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}" ShortID="1073636791">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>21</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AmbientHeadLockt" ID="{D6E0A904-CAC0-47DA-AB88-04FF3204BD6A}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}" ShortID="1073636791">
-													<PropertyList>
-														<Property Name="Highpass" Type="int16">
-															<ValueList>
-																<Value>21</Value>
-															</ValueList>
-														</Property>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="AB_Laundromat_Ambience" ID="{B77FEC85-BA76-408D-A3F7-4586226A5767}">
-															<Language>SFX</Language>
-															<AudioFile>Ambience\Headlocked\AB_Laundromat_Ambience.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="87600754"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="AB_Laundromat_Ambience" ID="{B77FEC85-BA76-408D-A3F7-4586226A5767}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												<AudioFileSource Name="AB_Laundromat_Ambience" ID="{B77FEC85-BA76-408D-A3F7-4586226A5767}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Headlocked\AB_Laundromat_Ambience.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="87600754"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
-											<GroupingInfo>
-												<GroupingBehaviorList>
-													<GroupingBehavior>
-														<ItemRef Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
-													</GroupingBehavior>
-												</GroupingBehaviorList>
-											</GroupingInfo>
-										</SwitchContainer>
+											<ActiveSourceList>
+												<ActiveSource Name="AB_Laundromat_Ambience" ID="{B77FEC85-BA76-408D-A3F7-4586226A5767}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="AB_RoomType" ID="{FB3A8465-121A-411B-A7ED-73C568C31AE2}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="AB_Laundromat_AmbienceLP" ID="{391525D1-3FDF-4A6F-9FCB-07B74AF7903C}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>

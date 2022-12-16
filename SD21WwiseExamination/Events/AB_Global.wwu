@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="AB_Global" ID="{A474B2D6-9874-4E8E-A5EB-0C0F445AF468}" OwnerID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Play_AB_City_Traffic_From_Closed_Window_3D" ID="{14328778-62E0-4BD3-B385-6A8D1E92DE23}">
+				<Event Name="Play_AB_City_Traffic_From_Closed_Window_3D_LP" ID="{14328778-62E0-4BD3-B385-6A8D1E92DE23}">
 					<ChildrenList>
 						<Action Name="" ID="{56FE4A2A-FA50-4CD2-9DAE-6FE70FAE0232}" ShortID="283736216">
 							<ReferenceList>
@@ -14,12 +14,26 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_AB_Rain_From_Closed_Window_3D" ID="{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}">
+				<Event Name="Play_AB_Rain_From_Closed_Window_3D_LP" ID="{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}">
 					<ChildrenList>
 						<Action Name="" ID="{98500EF1-F045-4C6C-8188-AD0E3EE9CFF0}" ShortID="283773040">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AB_City_Traffic_From_Closed_Window_3D" ID="{B1B873A3-6679-4E18-BE9E-77F8D48FD83C}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Headlocked_Ambience_LP" ID="{75515714-049D-48B2-9FA0-6190615A2562}">
+					<ChildrenList>
+						<Action Name="" ID="{5878A0D9-5605-43D7-B837-59D08259B4A0}" ShortID="734126394">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Level" ID="{9200AB4E-57EA-4165-A465-FD561AE42284}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

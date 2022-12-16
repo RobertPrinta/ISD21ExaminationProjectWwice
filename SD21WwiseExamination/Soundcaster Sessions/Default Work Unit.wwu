@@ -34,7 +34,7 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Headlocked_Ambience" ID="{75515714-049D-48B2-9FA0-6190615A2562}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<ObjectRef Name="Play_Headlocked_Ambience_LP" ID="{75515714-049D-48B2-9FA0-6190615A2562}" WorkUnitID="{A474B2D6-9874-4E8E-A5EB-0C0F445AF468}"/>
 							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
@@ -87,18 +87,26 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Low_Electricity_Hum_3D" ID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<ObjectRef Name="Play_AB_Low_Electricity_Hum_3D_LP" ID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Faulty_Socket_Electricity_Buzz_3D" ID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<ObjectRef Name="Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP" ID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Ambi_Vol" ID="{CD020137-2BA1-4350-8904-0D80EDF0B94F}"/>
 							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Master_Vol" ID="{31CFA690-A887-4407-BD42-0952ABFBF319}"/>
@@ -118,10 +126,10 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
-						<CurrentSwitchRef Name="Cobblestone" ID="{878D3574-13F8-4EF5-9F9F-BB293C6903AD}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
-						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+						<CurrentSwitchRef Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Event fotsteps and music" ID="{BF940280-887A-4CC3-B586-64D539219D00}">
