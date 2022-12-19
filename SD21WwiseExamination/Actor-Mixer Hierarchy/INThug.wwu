@@ -353,6 +353,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="WashingMachine_FloorScraping" ID="{87945B27-ED4F-4747-A310-7C7D14835A42}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.12064556802421"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping.wav</AudioFile>
 											<MediaIDList>
@@ -386,6 +390,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Washing Door" ID="{1F50BD2A-733F-4130-9675-DC2CEAFF97D5}" ShortID="386960051">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>

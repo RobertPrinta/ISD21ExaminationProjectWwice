@@ -28,7 +28,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="509067582">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="1775309052">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
@@ -2177,7 +2177,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="92471075">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="2327251085">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
@@ -2622,7 +2622,7 @@
 					<IncludedMemoryFiles>
 						<File Id="653913186" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping_3CADDE39.wem</Path>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping_BEBC2F54.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
