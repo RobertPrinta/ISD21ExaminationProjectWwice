@@ -7,6 +7,7 @@
 				<WorkUnit Name="INOldLady" ID="{C856504A-FF71-41AC-858B-46CBEEF44807}" PersistMode="Reference"/>
 				<WorkUnit Name="INRunner" ID="{AFD28495-093E-4F21-BC91-9F7430535023}" PersistMode="Reference"/>
 				<WorkUnit Name="INGlobal" ID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}" PersistMode="Reference"/>
+				<WorkUnit Name="INHub" ID="{BD33779C-A8CB-4737-9749-66D4F3E40180}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
