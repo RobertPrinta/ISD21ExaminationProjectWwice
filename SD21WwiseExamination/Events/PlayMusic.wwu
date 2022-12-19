@@ -61,34 +61,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{D2DECF13-C44B-480A-9907-A9095AC9975A}" ShortID="513648828">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="1OldladyGrundAmbi" ID="{1F18BCD9-1786-47AB-B348-AABC8BAC9274}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{7D5088E4-D9B1-46EE-87B4-71473403B9E6}" ShortID="390331377">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{42C94C56-6B1E-43D8-AF52-E334450A126D}" ShortID="94474615">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="1OldLadyKontraStingers1" ID="{33B9A644-D537-418A-9119-4D7B1D506674}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{5E0EF4E5-CE79-43E1-BE2E-8C2C0BBDA996}" ShortID="640974273">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="1OldLadyKlarinettStingers1" ID="{21BAC3FA-3512-43E2-A4DC-BE9F8B8CC807}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Stop_Thug" ID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}">
@@ -132,14 +104,84 @@
 						<Action Name="" ID="{43F09146-A8C8-401C-A456-F22AD0B3DACF}" ShortID="182661285">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="1OldladyGrundAmbi" ID="{1F18BCD9-1786-47AB-B348-AABC8BAC9274}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+									<ObjectRef Name="OldladyGrundAmbi" ID="{1F18BCD9-1786-47AB-B348-AABC8BAC9274}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{FBBE966A-87CF-4407-AC78-C27FA7130FDB}" ShortID="471409388">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+									<ObjectRef Name="OldLadyAmbiStingers" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EDCA07FC-E6EC-4B38-843F-C648B69D583A}" ShortID="620192314">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1OldLadyKontraStingers1" ID="{33B9A644-D537-418A-9119-4D7B1D506674}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7FC964DB-7137-4094-9F86-B6A573C569B3}" ShortID="338044003">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1OldLadyKlarinettStingers1" ID="{21BAC3FA-3512-43E2-A4DC-BE9F8B8CC807}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3001FC76-97E8-4598-9D2F-61C854B658A6}" ShortID="399335945">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="2OldLadyKontraStingers2" ID="{0DBB57DD-E05F-4FDC-A7FF-E091E24D591E}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0699CAB7-072F-4C3B-A04D-0D215710E59B}" ShortID="594706940">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="2OldLadyKlarinettStingers2" ID="{42E117C7-3080-4B37-963E-4BC37CDB4A5A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{94D9072A-CF35-480B-BED6-E5D16D21268A}" ShortID="362887642">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3OldLadyKontraStingers3" ID="{BBAF1FF8-C5FA-47C0-9371-B94F80C2677A}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{39BAB277-5C65-4D85-B725-D265518114AF}" ShortID="728508957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3OldLadyKlarinettStingers3" ID="{64BF1D8F-6CBA-4E88-B33E-D6395E875829}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
