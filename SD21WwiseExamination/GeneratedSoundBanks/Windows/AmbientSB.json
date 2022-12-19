@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "3496517757",
+    "Hash": "1016220837",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -41,7 +41,7 @@
       "Name": "Play_AB_City_Traffic_From_Closed_Window_3D_LP",
       "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_City_Traffic_From_Closed_Window_3D_LP",
       "GUID": "{14328778-62E0-4BD3-B385-6A8D1E92DE23}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -109,7 +109,7 @@
       "Name": "Play_AB_Dream_Machine_Heart_Monitor_3D_LP",
       "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Dream_Machine_Heart_Monitor_3D_LP",
       "GUID": "{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "OneShot",
       "DurationMin": "23.711632",
       "DurationMax": "23.711632",
@@ -145,7 +145,7 @@
       "Name": "Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP",
       "ObjectPath": "\\Events\\Ambience\\Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP",
       "GUID": "{0325B0EB-0CC8-4805-AA3E-974BEE89C348}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -161,7 +161,7 @@
       "Name": "Play_AB_Low_Electricity_Hum_3D_LP",
       "ObjectPath": "\\Events\\Ambience\\Play_AB_Low_Electricity_Hum_3D_LP",
       "GUID": "{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -177,7 +177,7 @@
       "Name": "Play_AB_Muffled_Conversation_3D_LP",
       "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Muffled_Conversation_3D_LP",
       "GUID": "{DFE0F374-3A9C-44F4-B823-8550FF58D6F8}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "ReferencedStreamedFiles": [
        {
@@ -193,7 +193,7 @@
       "Name": "Play_AB_Police_Radio_3D_LP",
       "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Police_Radio_3D_LP",
       "GUID": "{0D7B7959-970D-4117-B167-E6B1F5C5EF68}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -227,7 +227,7 @@
       "Name": "Play_AB_Rain_From_Closed_Window_3D_LP",
       "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_Rain_From_Closed_Window_3D_LP",
       "GUID": "{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -255,7 +255,7 @@
       "Name": "Play_AB_Watercooler_3D_LP",
       "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Watercooler_3D_LP",
       "GUID": "{7A7F0205-6F60-4A4F-959F-B3636D4A5282}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -403,7 +403,7 @@
       "Name": "Play_Waterpipes_3D_LP",
       "ObjectPath": "\\Events\\Ambience\\AB_Thug_Specific\\Play_Waterpipes_3D_LP",
       "GUID": "{7D19E042-BFE0-4482-A59C-540C8947AD60}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "ReferencedStreamedFiles": [
        {

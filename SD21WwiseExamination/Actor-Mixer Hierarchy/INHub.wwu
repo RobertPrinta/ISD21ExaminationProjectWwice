@@ -41,7 +41,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="WashingMachine_FloorScraping" ID="{B79F54D1-8CE4-4A0D-A000-72E3A72D638C}" ShortID="396448738">
+								<Sound Name="WashingMachine_FloorScraping" ID="{60A4B9BD-7696-4A2A-B8D2-1859F0686629}" ShortID="396448739">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Highpass" Type="int16">
@@ -55,7 +55,7 @@
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
-													<Modifier Name="" ID="{66F115B3-2974-4CC6-89C9-5C46798BE7F1}">
+													<Modifier Name="" ID="{C1860CDD-5727-434D-B2BC-20ECBCB93F4A}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="2"/>
@@ -81,7 +81,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_FloorScraping" ID="{87945B27-ED4F-4747-A310-7C7D14835A42}">
+										<AudioFileSource Name="WashingMachine_FloorScraping" ID="{C7DF3D0A-C7A0-4075-A4E0-540702C737B2}">
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="1.12064556802421"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -90,13 +90,13 @@
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="653913186"/>
+												<MediaID ID="506679687"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_FloorScraping" ID="{87945B27-ED4F-4747-A310-7C7D14835A42}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_FloorScraping" ID="{C7DF3D0A-C7A0-4075-A4E0-540702C737B2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -142,7 +142,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="WashingMachine_Hit_V4" ID="{5D802615-5DCE-4917-B22B-FB16F8AE7D10}" ShortID="1036757551">
+								<Sound Name="WashingMachine_Hit_V4" ID="{AD2C4F2E-2752-428B-BF02-586A2E760C77}" ShortID="1036757552">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -156,7 +156,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_Hit_V4" ID="{C001B2DF-98A1-40D2-9DAD-9BB4E21BE7E7}">
+										<AudioFileSource Name="WashingMachine_Hit_V4" ID="{A154814C-E2F2-4B1F-BC6C-4EE4ACC38699}">
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V4.wav</AudioFile>
 											<MediaIDList>
@@ -166,10 +166,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_Hit_V4" ID="{C001B2DF-98A1-40D2-9DAD-9BB4E21BE7E7}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_Hit_V4" ID="{A154814C-E2F2-4B1F-BC6C-4EE4ACC38699}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="WashingMachine_Hit_V2" ID="{07033211-F5BA-4BD7-8C98-95A7CD921FFB}" ShortID="256188947">
+								<Sound Name="WashingMachine_Hit_V2" ID="{8E04786B-74EE-4FF9-A90B-09D0D0A70DA8}" ShortID="256188948">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -183,7 +183,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_Hit_V2" ID="{69F1429E-859E-4B91-9AC7-3CFA4E255762}">
+										<AudioFileSource Name="WashingMachine_Hit_V2" ID="{DB88838B-0D34-4647-8E47-9F1E4158A37D}">
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V2.wav</AudioFile>
 											<MediaIDList>
@@ -193,10 +193,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_Hit_V2" ID="{69F1429E-859E-4B91-9AC7-3CFA4E255762}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_Hit_V2" ID="{DB88838B-0D34-4647-8E47-9F1E4158A37D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="WashingMachine_Hit_V5" ID="{BD5F72EC-756E-403A-A00A-CE89B92A50DB}" ShortID="81213755">
+								<Sound Name="WashingMachine_Hit_V5" ID="{0A2A7239-9344-49F0-BD4F-E112BD4FE2FB}" ShortID="81213756">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -210,7 +210,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_Hit_V5" ID="{51A7E303-6A74-4BFC-91FF-3A9126EC640E}">
+										<AudioFileSource Name="WashingMachine_Hit_V5" ID="{25BF75A0-8FF4-4AD9-AEA5-20DE9365C7CF}">
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V5.wav</AudioFile>
 											<MediaIDList>
@@ -220,10 +220,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_Hit_V5" ID="{51A7E303-6A74-4BFC-91FF-3A9126EC640E}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_Hit_V5" ID="{25BF75A0-8FF4-4AD9-AEA5-20DE9365C7CF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="WashingMachine_Hit_V3" ID="{56BFB799-3CA2-41FF-B770-67FEF6063164}" ShortID="277405880">
+								<Sound Name="WashingMachine_Hit_V3" ID="{68B8BE93-D8E4-4DFF-82EE-63FD43DF0E89}" ShortID="277405881">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -237,7 +237,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_Hit_V3" ID="{C981A2DA-F7B2-4567-A6F3-E9FD2F538A4E}">
+										<AudioFileSource Name="WashingMachine_Hit_V3" ID="{5905C5E5-9D5C-4AD5-BDFB-C3A2276A5008}">
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V3.wav</AudioFile>
 											<MediaIDList>
@@ -247,10 +247,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_Hit_V3" ID="{C981A2DA-F7B2-4567-A6F3-E9FD2F538A4E}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_Hit_V3" ID="{5905C5E5-9D5C-4AD5-BDFB-C3A2276A5008}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="WashingMachine_Hit_V7" ID="{5B78F795-4844-4899-BD92-DAB2826F350E}" ShortID="121017475">
+								<Sound Name="WashingMachine_Hit_V7" ID="{9CB9B290-7D1A-4685-B362-37D14BC19AD1}" ShortID="121017476">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -264,7 +264,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_Hit_V7" ID="{A89FB50F-E39E-4236-8237-A4EF36BC2E71}">
+										<AudioFileSource Name="WashingMachine_Hit_V7" ID="{76C33B9F-BA6D-4300-9221-CD47776050C9}">
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V7.wav</AudioFile>
 											<MediaIDList>
@@ -274,10 +274,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_Hit_V7" ID="{A89FB50F-E39E-4236-8237-A4EF36BC2E71}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_Hit_V7" ID="{76C33B9F-BA6D-4300-9221-CD47776050C9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="WashingMachine_Hit_V6" ID="{F89629E1-D56E-47D8-BF3E-030ABA1885CB}" ShortID="636125992">
+								<Sound Name="WashingMachine_Hit_V6" ID="{895D7C5E-0E61-4123-8595-D8D386D682E9}" ShortID="636125993">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -291,7 +291,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_Hit_V6" ID="{4BC664BB-58F5-439C-827C-4251EF9C74F6}">
+										<AudioFileSource Name="WashingMachine_Hit_V6" ID="{2825080A-CB65-40B2-8907-4E189A88F6C0}">
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V6.wav</AudioFile>
 											<MediaIDList>
@@ -301,10 +301,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_Hit_V6" ID="{4BC664BB-58F5-439C-827C-4251EF9C74F6}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_Hit_V6" ID="{2825080A-CB65-40B2-8907-4E189A88F6C0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="WashingMachine_Hit_V8" ID="{5E9A2DCE-0D03-4497-B882-088DE8744750}" ShortID="260866574">
+								<Sound Name="WashingMachine_Hit_V8" ID="{1062A40D-0A25-4553-8767-076361E286D0}" ShortID="260866575">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -318,7 +318,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_Hit_V8" ID="{24E61020-2FC6-469D-8CCF-50E8FB2E0C6B}">
+										<AudioFileSource Name="WashingMachine_Hit_V8" ID="{463373AD-834A-44EA-9FCD-790627F46535}">
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V8.wav</AudioFile>
 											<MediaIDList>
@@ -328,10 +328,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_Hit_V8" ID="{24E61020-2FC6-469D-8CCF-50E8FB2E0C6B}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_Hit_V8" ID="{463373AD-834A-44EA-9FCD-790627F46535}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="WashingMachine_Hit_V1" ID="{EAE1E4FD-F743-498E-8083-7F448D469E35}" ShortID="105072305">
+								<Sound Name="WashingMachine_Hit_V1" ID="{8FC9D362-F772-40B9-9E54-54AB0AFFDA16}" ShortID="105072306">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -345,7 +345,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_Hit_V1" ID="{93B3DCAF-2179-478D-B4D8-BDC9FC9324BF}">
+										<AudioFileSource Name="WashingMachine_Hit_V1" ID="{AA9D2E5A-3592-4A70-8327-E3A8B82C0A1B}">
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V1.wav</AudioFile>
 											<MediaIDList>
@@ -355,10 +355,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_Hit_V1" ID="{93B3DCAF-2179-478D-B4D8-BDC9FC9324BF}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_Hit_V1" ID="{AA9D2E5A-3592-4A70-8327-E3A8B82C0A1B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="WashingMachine_Hit_V9" ID="{53B3A792-1B91-40E2-AD58-53F1653FEC11}" ShortID="263511999">
+								<Sound Name="WashingMachine_Hit_V9" ID="{08D93B1B-3864-44FB-B3C1-9874494AAF24}" ShortID="263512000">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -372,7 +372,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="WashingMachine_Hit_V9" ID="{2C65696E-4FD3-4228-B887-65A8F3710971}">
+										<AudioFileSource Name="WashingMachine_Hit_V9" ID="{2B97C03E-3626-48DC-B7E6-B860886674E9}">
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V9.wav</AudioFile>
 											<MediaIDList>
@@ -382,7 +382,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="WashingMachine_Hit_V9" ID="{2C65696E-4FD3-4228-B887-65A8F3710971}" Platform="Linked"/>
+										<ActiveSource Name="WashingMachine_Hit_V9" ID="{2B97C03E-3626-48DC-B7E6-B860886674E9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

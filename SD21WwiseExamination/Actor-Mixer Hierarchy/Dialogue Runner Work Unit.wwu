@@ -319,6 +319,29 @@
 								<ActiveSource Name="Emilia_S2_A30" ID="{F22B4B79-DDF8-4D18-A196-4E1CB461CE85}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Emilia_A1_S49_BG" ID="{E44D6D26-460A-4B2F-A58A-6E10B0783AB2}" ShortID="551472043">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Emilia_A1_S49_BG" ID="{400DD356-B4BE-4CBB-901E-7F721D21C98A}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Runner\Emilia_A1_S49_BG.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1028776668"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Emilia_A1_S49_BG" ID="{400DD356-B4BE-4CBB-901E-7F721D21C98A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
