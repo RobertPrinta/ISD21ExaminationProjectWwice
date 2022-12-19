@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BD33779C-A8CB-4737-9749-66D4F3E40180}" SchemaVersion="103" RootDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" ParentDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}">
+	<Events>
+		<WorkUnit Name="INHub" ID="{BD33779C-A8CB-4737-9749-66D4F3E40180}" OwnerID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_ShelvsSliding" ID="{473BFB67-B3B1-4454-80A0-CDEFE58F23B0}">
+					<ChildrenList>
+						<Action Name="" ID="{D088D670-9DF3-4A62-8920-F589C68BC4B3}" ShortID="979410771">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShelvsSliding" ID="{341C8738-2047-42D6-A822-8CB19B80B670}" WorkUnitID="{7A024D06-C2DE-4684-A661-2007B6248F6C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ShelvsClicking" ID="{CA233233-7AB5-41D3-8179-F414834275B1}">
+					<ChildrenList>
+						<Action Name="" ID="{7D9B3B8B-BA29-4E8B-9BB8-C2748F1BB7AD}" ShortID="447620710">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShelvsClicking" ID="{6BC0CF5F-43C6-4A98-AC51-2F5789F7BFD5}" WorkUnitID="{7A024D06-C2DE-4684-A661-2007B6248F6C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

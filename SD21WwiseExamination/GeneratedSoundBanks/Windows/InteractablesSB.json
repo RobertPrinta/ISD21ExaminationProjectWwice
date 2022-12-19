@@ -16,7 +16,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "2327251085",
+    "Hash": "1063548654",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -627,6 +627,88 @@
       ]
      },
      {
+      "Id": "4014453461",
+      "Name": "Play_ShelvsClicking",
+      "ObjectPath": "\\Events\\Interactables\\INHub\\Play_ShelvsClicking",
+      "GUID": "{CA233233-7AB5-41D3-8179-F414834275B1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.513893",
+      "DurationMax": "1.186692",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "152970793",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V5.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V5_3CADDE39.wem"
+       },
+       {
+        "Id": "234822014",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V7.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V7_3CADDE39.wem"
+       },
+       {
+        "Id": "474926511",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V3.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V3_3CADDE39.wem"
+       },
+       {
+        "Id": "635716665",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V9.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V9_3CADDE39.wem"
+       },
+       {
+        "Id": "643357370",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V4.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V4_3CADDE39.wem"
+       },
+       {
+        "Id": "689859656",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V6.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V6_3CADDE39.wem"
+       },
+       {
+        "Id": "758545831",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V2.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V2_3CADDE39.wem"
+       },
+       {
+        "Id": "793873194",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V8.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V8_3CADDE39.wem"
+       },
+       {
+        "Id": "927392652",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V1.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V1_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "936061481",
+      "Name": "Play_ShelvsSliding",
+      "ObjectPath": "\\Events\\Interactables\\INHub\\Play_ShelvsSliding",
+      "GUID": "{473BFB67-B3B1-4454-80A0-CDEFE58F23B0}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.485007",
+      "DurationMax": "3.574714",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "653913186",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping_4FA0C84E.wem"
+       }
+      ]
+     },
+     {
       "Id": "3581348024",
       "Name": "Play_Smal_Washing_Machine_Door",
       "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\Play_Smal_Washing_Machine_Door",
@@ -779,16 +861,8 @@
       "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machine",
       "GUID": "{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}",
       "DurationType": "OneShot",
-      "DurationMin": "3.925788",
-      "DurationMax": "6.188754",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "653913186",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping_BEBC2F54.wem"
-       }
-      ]
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "2929248152",
@@ -813,64 +887,8 @@
       "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machineEnd",
       "GUID": "{082C3432-7D34-4845-8FDB-BA04457ECE7B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.504773",
-      "DurationMax": "1.225705",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "152970793",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V5.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V5_3CADDE39.wem"
-       },
-       {
-        "Id": "234822014",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V7.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V7_3CADDE39.wem"
-       },
-       {
-        "Id": "474926511",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V3.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V3_3CADDE39.wem"
-       },
-       {
-        "Id": "635716665",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V9.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V9_3CADDE39.wem"
-       },
-       {
-        "Id": "643357370",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V4.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V4_3CADDE39.wem"
-       },
-       {
-        "Id": "689859656",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V6.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V6_3CADDE39.wem"
-       },
-       {
-        "Id": "758545831",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V2.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V2_3CADDE39.wem"
-       },
-       {
-        "Id": "793873194",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V8.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V8_3CADDE39.wem"
-       },
-       {
-        "Id": "927392652",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V1.wav",
-        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V1_3CADDE39.wem"
-       }
-      ]
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ]
    }
