@@ -276,6 +276,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Emilia_A1_S49_BG" ID="{5C5441BE-AAC8-4F99-8FBD-700FCAA62B39}">
+					<ChildrenList>
+						<Action Name="" ID="{3EB88C55-D65A-4E66-9955-DB8C51D2334B}" ShortID="195421465">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6419E667-9ED8-4EF7-B8F9-F02A38D7402B}" ShortID="404147720">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A1_S49_BG" ID="{E44D6D26-460A-4B2F-A58A-6E10B0783AB2}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
