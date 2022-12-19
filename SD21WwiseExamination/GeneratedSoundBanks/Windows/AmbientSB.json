@@ -16,7 +16,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "1304417238",
+    "Hash": "3176024048",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -33,6 +33,22 @@
         "Language": "SFX",
         "ShortName": "Ambience\\Headlocked\\Basement.wav",
         "Path": "SFX\\Ambience\\Headlocked\\Basement_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "697630604",
+      "Name": "Play_AB_Ceiling_Fan_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Ceiling_Fan_3D_LP",
+      "GUID": "{8B2D1B84-B8B5-4AD4-A56D-1A6C03975E20}",
+      "MaxAttenuation": "1500.",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "565778425",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Ceiling_Fan_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Ceiling_Fan_3D_9EDFC787.wem"
        }
       ]
      },

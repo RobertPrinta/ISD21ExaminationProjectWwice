@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	283671523	Play_AB_City_Traffic_From_Closed_Window_3D_LP			\Ambience\AB_Global\Play_AB_City_Traffic_From_Closed_Window_3D_LP	
 	357140778	Play_Laundromat_AmbienceLP			\Ambience\AB_Thug_Specific\Play_Laundromat_AmbienceLP	
 	551936010	Play_AB_Muffled_Conversation_3D_LP			\Ambience\AB_Hub_Specific\Play_AB_Muffled_Conversation_3D_LP	
+	697630604	Play_AB_Ceiling_Fan_3D_LP			\Ambience\AB_Hub_Specific\Play_AB_Ceiling_Fan_3D_LP	
 	704208741	Play_AB_Dream_Machine_Ambience_3D_LP			\Ambience\AB_Hub_Specific\Play_AB_Dream_Machine_Ambience_3D_LP	
 	2045602548	Play_AB_Low_Electricity_Hum_3D_LP			\Ambience\Play_AB_Low_Electricity_Hum_3D_LP	
 	2665610752	Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP			\Ambience\Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP	
@@ -79,5 +80,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	243268854	AB_Muffled_Conversation_Behind_Door_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\AB_Muffled_Conversation_Behind_Door_3D_9EDFC787.wem	243268854.wem	\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Indoors\AB_Muffled_Conversation_Behind_Door_3D	
+	565778425	AB_Ceiling_Fan_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\AB_Ceiling_Fan_3D_9EDFC787.wem	565778425.wem	\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Indoors\AB_Ceiling_Fan_3D	
 	609642351	AB_Waterpipes_3D	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Ambience\3D\Waterpipes_3D_9EDFC787.wem	609642351.wem	\Actor-Mixer Hierarchy\Ambient WorkUnit\3DAmbient\AB_Indoors\AB_Waterpipes_3D	
 
