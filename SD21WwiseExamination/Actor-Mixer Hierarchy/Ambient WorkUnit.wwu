@@ -3048,6 +3048,29 @@
 										<ActiveSource Name="AB_Fridge_Tone_3D" ID="{C7EBA65F-0B1D-4568-86BE-F50D4184F65B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="AB_Desk_Fan_3D" ID="{8067A4E3-C19B-42A5-BE35-0BCBA3AAC883}" ShortID="158414639">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AB_Desk_Fan_3D" ID="{BBF4F43F-CE31-4C50-A2C5-E9B999C82145}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\3D\AB_Desk_Fan_3D.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="315448986"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AB_Desk_Fan_3D" ID="{BBF4F43F-CE31-4C50-A2C5-E9B999C82145}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
