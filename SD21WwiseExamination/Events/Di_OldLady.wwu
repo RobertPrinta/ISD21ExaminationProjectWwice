@@ -150,6 +150,69 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Sigifrit_A1_S54_BG" ID="{30875B80-D1BF-46E4-AD9D-D545A19A1A46}">
+					<ChildrenList>
+						<Action Name="" ID="{C11BAB16-E18C-403A-A8FC-27C93FC03CEE}" ShortID="536639011">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5A88B0C3-3934-4071-8419-C379DCE3A172}" ShortID="801999652">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sigifrit_A1_S54_BG" ID="{9687FC10-5A04-4CC3-9E77-7714A7760857}" WorkUnitID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sigifrit_A1_S50_BG" ID="{D8C2B918-30D3-4E8E-9324-7CDFDC6FE63D}">
+					<ChildrenList>
+						<Action Name="" ID="{B869D7F6-5B2C-486D-9442-322D22D48A13}" ShortID="442674315">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DC4F6B2F-30F7-4A1B-8A16-6769F22F644F}" ShortID="1003343046">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sigifrit_A1_S50_BG" ID="{486D36E7-8700-49E0-AED8-0E66636473B3}" WorkUnitID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sigifrit_A1_S52_BG" ID="{36219D41-B950-4904-B295-2362C0C5022E}">
+					<ChildrenList>
+						<Action Name="" ID="{86E8A77C-5846-4FA4-B2A5-D809B8EF50EC}" ShortID="780014438">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C1DDE457-F89F-4EA5-88ED-4E7055032E88}" ShortID="497719724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sigifrit_A1_S52_BG" ID="{6AC74A48-43C0-4E2C-828F-2C484A5B445B}" WorkUnitID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
