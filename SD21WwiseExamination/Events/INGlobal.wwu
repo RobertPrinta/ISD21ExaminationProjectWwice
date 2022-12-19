@@ -37,6 +37,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DoorLocked" ID="{F8FEBE59-66D8-45F5-A5F2-0C4551D1DCD0}">
+					<ChildrenList>
+						<Action Name="" ID="{E8543A0D-E20A-492A-8164-58A3764691B3}" ShortID="988872654">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorLocked" ID="{323715FE-49A2-4E4E-9080-DD7185D3D842}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Coin" ID="{485602A8-3A3A-42FB-8619-618456F906CF}">
+					<ChildrenList>
+						<Action Name="" ID="{094EE341-CB2F-41CE-9F17-F44FC66F7598}" ShortID="550853194">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coin" ID="{B93C80AB-9519-4954-9551-2DFEA09E86C5}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

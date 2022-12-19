@@ -16,7 +16,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "599042490",
+    "Hash": "2740476456",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -481,22 +481,16 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
+        "Id": "1506673",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KeyItemStinger.wav",
+        "Path": "SFX\\Music\\OldLady\\KeyItemStinger_9EDFC787.wem"
+       },
+       {
         "Id": "112581485",
         "Language": "SFX",
         "ShortName": "Music\\OldLady\\AmbiGhostStinger-003.wav",
         "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-003_9EDFC787.wem"
-       },
-       {
-        "Id": "173370905",
-        "Language": "SFX",
-        "ShortName": "Music\\OldLady\\AmbiPianoStinger-002.wav",
-        "Path": "SFX\\Music\\OldLady\\AmbiPianoStinger-002_9EDFC787.wem"
-       },
-       {
-        "Id": "462796641",
-        "Language": "SFX",
-        "ShortName": "Music\\OldLady\\AmbiPianoStinger-003.wav",
-        "Path": "SFX\\Music\\OldLady\\AmbiPianoStinger-003_9EDFC787.wem"
        },
        {
         "Id": "630468742",
@@ -505,22 +499,10 @@
         "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-001_9EDFC787.wem"
        },
        {
-        "Id": "776105822",
-        "Language": "SFX",
-        "ShortName": "Music\\OldLady\\AmbiPianoStinger-004.wav",
-        "Path": "SFX\\Music\\OldLady\\AmbiPianoStinger-004_9EDFC787.wem"
-       },
-       {
         "Id": "831688287",
         "Language": "SFX",
         "ShortName": "Music\\OldLady\\AmbiGhostStinger-002.wav",
         "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-002_9EDFC787.wem"
-       },
-       {
-        "Id": "925984506",
-        "Language": "SFX",
-        "ShortName": "Music\\OldLady\\AmbiPianoStinger-001.wav",
-        "Path": "SFX\\Music\\OldLady\\AmbiPianoStinger-001_9EDFC787.wem"
        },
        {
         "Id": "929162355",
@@ -581,10 +563,117 @@
       "Name": "Play_Stop_OldLady",
       "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_OldLady",
       "GUID": "{278243EB-BD65-4307-BCA0-02B61869922A}",
-      "MaxAttenuation": "0.",
-      "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1506673",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KeyItemStinger.wav",
+        "Path": "SFX\\Music\\OldLady\\KeyItemStinger_9EDFC787.wem"
+       },
+       {
+        "Id": "53033174",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-001.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-001_9EDFC787.wem"
+       },
+       {
+        "Id": "112581485",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\AmbiGhostStinger-003.wav",
+        "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-003_9EDFC787.wem"
+       },
+       {
+        "Id": "259785673",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-001.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-001_9EDFC787.wem"
+       },
+       {
+        "Id": "338010396",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-005.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-005_9EDFC787.wem"
+       },
+       {
+        "Id": "436433310",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-004.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-004_9EDFC787.wem"
+       },
+       {
+        "Id": "461225173",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-002.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-002_9EDFC787.wem"
+       },
+       {
+        "Id": "586083000",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-003.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-003_9EDFC787.wem"
+       },
+       {
+        "Id": "630468742",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\AmbiGhostStinger-001.wav",
+        "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-001_9EDFC787.wem"
+       },
+       {
+        "Id": "831688287",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\AmbiGhostStinger-002.wav",
+        "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-002_9EDFC787.wem"
+       },
+       {
+        "Id": "891722214",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-005.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-005_9EDFC787.wem"
+       },
+       {
+        "Id": "929162355",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\OldLady Ambi2 100bpm.wav",
+        "Path": "SFX\\Music\\OldLady\\OldLady Ambi2 100bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "934320070",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\OldLady Ambi1 100bpm.wav",
+        "Path": "SFX\\Music\\OldLady\\OldLady Ambi1 100bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "948744776",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-002.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-002_9EDFC787.wem"
+       },
+       {
+        "Id": "964639863",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-004.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-004_9EDFC787.wem"
+       },
+       {
+        "Id": "1050294060",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-003.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-003_9EDFC787.wem"
+       },
+       {
+        "Id": "1051834861",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\AmbiGhostStinger-004.wav",
+        "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-004_9EDFC787.wem"
+       },
+       {
+        "Id": "1067109446",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\OldLady Ambi3 100bpm.wav",
+        "Path": "SFX\\Music\\OldLady\\OldLady Ambi3 100bpm_9EDFC787.wem"
+       }
+      ]
      },
      {
       "Id": "75935907",

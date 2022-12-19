@@ -16,7 +16,7 @@
     "Id": "1070355952",
     "GUID": "{A646F937-A3B8-467A-82D6-7A999570C91A}",
     "Language": "SFX",
-    "Hash": "1301373312",
+    "Hash": "3650658212",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UiSB",
     "ShortName": "UiSB",
     "Path": "UiSB.bnk",
@@ -143,6 +143,29 @@
         "Language": "SFX",
         "ShortName": "UI\\Incoming_Call.wav",
         "Path": "SFX\\UI\\Incoming_Call_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1880282502",
+      "Name": "UI_Play_Screen_Flicker",
+      "ObjectPath": "\\Events\\UI\\UI_Play_Screen_Flicker",
+      "GUID": "{6FCD7E0E-9E5F-4839-83B1-EC2049B744BD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.116281",
+      "DurationMax": "0.203243",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "296512588",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Radio_Interference1.wav",
+        "Path": "SFX\\UI\\UI_Radio_Interference1_3CADDE39.wem"
+       },
+       {
+        "Id": "802825343",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Radio_Interference2.wav",
+        "Path": "SFX\\UI\\UI_Radio_Interference2_3CADDE39.wem"
        }
       ]
      }

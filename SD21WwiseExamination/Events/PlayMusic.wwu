@@ -71,7 +71,7 @@
 						<Action Name="" ID="{7D5088E4-D9B1-46EE-87B4-71473403B9E6}" ShortID="390331377">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="1OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+									<ObjectRef Name="OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -139,7 +139,7 @@
 						<Action Name="" ID="{FBBE966A-87CF-4407-AC78-C27FA7130FDB}" ShortID="471409388">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="1OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+									<ObjectRef Name="OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

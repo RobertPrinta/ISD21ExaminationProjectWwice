@@ -21,7 +21,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="1OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" ShortID="559789851">
+						<MusicPlaylistContainer Name="OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" ShortID="559789851">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -4657,7 +4657,7 @@
 								<PathElementRef Name="OldLady_Act1" ID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="1OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+								<AudioNodeRef Name="OldLadyAmbiStingersAct1" ID="{CEA12566-9FFD-451C-9291-227E57298104}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>

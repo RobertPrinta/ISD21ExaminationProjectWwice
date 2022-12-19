@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="1301373312">
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="3650658212">
 			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
 			<ShortName>UiSB</ShortName>
 			<Path>UiSB.bnk</Path>
@@ -74,6 +74,18 @@
 						<File Id="910700981" Language="SFX">
 							<ShortName>UI\Incoming_Call.wav</ShortName>
 							<Path>SFX\UI\Incoming_Call_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1880282502" Name="UI_Play_Screen_Flicker" ObjectPath="\Events\UI\UI_Play_Screen_Flicker" GUID="{6FCD7E0E-9E5F-4839-83B1-EC2049B744BD}" DurationType="OneShot" DurationMin="0.116281" DurationMax="0.203243">
+					<IncludedMemoryFiles>
+						<File Id="296512588" Language="SFX">
+							<ShortName>UI\UI_Radio_Interference1.wav</ShortName>
+							<Path>SFX\UI\UI_Radio_Interference1_3CADDE39.wem</Path>
+						</File>
+						<File Id="802825343" Language="SFX">
+							<ShortName>UI\UI_Radio_Interference2.wav</ShortName>
+							<Path>SFX\UI\UI_Radio_Interference2_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

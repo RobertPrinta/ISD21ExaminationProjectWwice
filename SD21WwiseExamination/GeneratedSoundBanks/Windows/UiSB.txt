@@ -2,16 +2,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	409665737	UI_Click_Button			\UI\UI_Click_Button	
 	739981572	UI_Hover_Over_Button			\UI\UI_Hover_Over_Button	
 	1781508224	UI_Close_Menu			\UI\UI_Close_Menu	
+	1880282502	UI_Play_Screen_Flicker			\UI\UI_Play_Screen_Flicker	
 	1997076556	UI_Open_Menu			\UI\UI_Open_Menu	
 	3406913002	UI_Play_Incoming_Call			\UI\UI_Play_Incoming_Call	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	197508550	UI_VCR_Noise	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_VCR_Noise_696A9007.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_VCR_Noise		17720
+	296512588	UI_Radio_Interference1	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Radio_Interference1_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Radio_Interference\UI_Radio_Interference1		1381
 	409769837	UI_Button_Hover	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Hover_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Hover		1835
 	476123600	UI_Button_Click	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Click_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Click		8599
 	515792353	UI_VCR_Noise_Stop	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_VCR_Noise_Stop_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_VCR_Noise_Stop		4031
 	598926904	UI_Turn_On_Sine	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Turn_On_Sine_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Turn_On_Sine		1296
 	685597690	UI_Button_Press_Heavy	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Button_Press_Heavy_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Button_Press_Heavy		4464
+	802825343	UI_Radio_Interference2	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Radio_Interference2_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Radio_Interference\UI_Radio_Interference2		2041
 	819179302	UI_Return_To_Game_Noise	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\UI_Return_To_Game_Noise_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_Menu\UI_Return_To_Game_Noise		2658
 	910700981	Incoming_Call	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\UI\Incoming_Call_3CADDE39.wem		\Actor-Mixer Hierarchy\Ui Work Unit\UI_InGame\Incoming_Call		38611
 

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="599042490">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2740476456">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -285,33 +285,21 @@
 				</Event>
 				<Event Id="2480479241" Name="Play_OldLady" ObjectPath="\Events\PlayMusic\Play_OldLady" GUID="{01F2B377-D584-4E43-A03D-50015A4F0E78}" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="1506673" Language="SFX">
+							<ShortName>Music\OldLady\KeyItemStinger.wav</ShortName>
+							<Path>SFX\Music\OldLady\KeyItemStinger_9EDFC787.wem</Path>
+						</File>
 						<File Id="112581485" Language="SFX">
 							<ShortName>Music\OldLady\AmbiGhostStinger-003.wav</ShortName>
 							<Path>SFX\Music\OldLady\AmbiGhostStinger-003_9EDFC787.wem</Path>
-						</File>
-						<File Id="173370905" Language="SFX">
-							<ShortName>Music\OldLady\AmbiPianoStinger-002.wav</ShortName>
-							<Path>SFX\Music\OldLady\AmbiPianoStinger-002_9EDFC787.wem</Path>
-						</File>
-						<File Id="462796641" Language="SFX">
-							<ShortName>Music\OldLady\AmbiPianoStinger-003.wav</ShortName>
-							<Path>SFX\Music\OldLady\AmbiPianoStinger-003_9EDFC787.wem</Path>
 						</File>
 						<File Id="630468742" Language="SFX">
 							<ShortName>Music\OldLady\AmbiGhostStinger-001.wav</ShortName>
 							<Path>SFX\Music\OldLady\AmbiGhostStinger-001_9EDFC787.wem</Path>
 						</File>
-						<File Id="776105822" Language="SFX">
-							<ShortName>Music\OldLady\AmbiPianoStinger-004.wav</ShortName>
-							<Path>SFX\Music\OldLady\AmbiPianoStinger-004_9EDFC787.wem</Path>
-						</File>
 						<File Id="831688287" Language="SFX">
 							<ShortName>Music\OldLady\AmbiGhostStinger-002.wav</ShortName>
 							<Path>SFX\Music\OldLady\AmbiGhostStinger-002_9EDFC787.wem</Path>
-						</File>
-						<File Id="925984506" Language="SFX">
-							<ShortName>Music\OldLady\AmbiPianoStinger-001.wav</ShortName>
-							<Path>SFX\Music\OldLady\AmbiPianoStinger-001_9EDFC787.wem</Path>
 						</File>
 						<File Id="929162355" Language="SFX">
 							<ShortName>Music\OldLady\OldLady Ambi2 100bpm.wav</ShortName>
@@ -336,7 +324,82 @@
 				</Event>
 				<Event Id="1789806177" Name="Play_Stop_MainTheme" ObjectPath="\Events\PlayMusic\Play_Stop_MainTheme" GUID="{3C5E178D-70B8-48BC-A158-DD317939869A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3569629287" Name="Play_Stop_MusicHub" ObjectPath="\Events\PlayMusic\Play_Stop_MusicHub" GUID="{202F35BD-36A3-458B-8A69-8CB4B84260A4}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2607843828" Name="Play_Stop_OldLady" ObjectPath="\Events\PlayMusic\Play_Stop_OldLady" GUID="{278243EB-BD65-4307-BCA0-02B61869922A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2607843828" Name="Play_Stop_OldLady" ObjectPath="\Events\PlayMusic\Play_Stop_OldLady" GUID="{278243EB-BD65-4307-BCA0-02B61869922A}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1506673" Language="SFX">
+							<ShortName>Music\OldLady\KeyItemStinger.wav</ShortName>
+							<Path>SFX\Music\OldLady\KeyItemStinger_9EDFC787.wem</Path>
+						</File>
+						<File Id="53033174" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-001.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-001_9EDFC787.wem</Path>
+						</File>
+						<File Id="112581485" Language="SFX">
+							<ShortName>Music\OldLady\AmbiGhostStinger-003.wav</ShortName>
+							<Path>SFX\Music\OldLady\AmbiGhostStinger-003_9EDFC787.wem</Path>
+						</File>
+						<File Id="259785673" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-001.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-001_9EDFC787.wem</Path>
+						</File>
+						<File Id="338010396" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-005.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-005_9EDFC787.wem</Path>
+						</File>
+						<File Id="436433310" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-004.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-004_9EDFC787.wem</Path>
+						</File>
+						<File Id="461225173" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-002.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-002_9EDFC787.wem</Path>
+						</File>
+						<File Id="586083000" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-003.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-003_9EDFC787.wem</Path>
+						</File>
+						<File Id="630468742" Language="SFX">
+							<ShortName>Music\OldLady\AmbiGhostStinger-001.wav</ShortName>
+							<Path>SFX\Music\OldLady\AmbiGhostStinger-001_9EDFC787.wem</Path>
+						</File>
+						<File Id="831688287" Language="SFX">
+							<ShortName>Music\OldLady\AmbiGhostStinger-002.wav</ShortName>
+							<Path>SFX\Music\OldLady\AmbiGhostStinger-002_9EDFC787.wem</Path>
+						</File>
+						<File Id="891722214" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-005.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-005_9EDFC787.wem</Path>
+						</File>
+						<File Id="929162355" Language="SFX">
+							<ShortName>Music\OldLady\OldLady Ambi2 100bpm.wav</ShortName>
+							<Path>SFX\Music\OldLady\OldLady Ambi2 100bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="934320070" Language="SFX">
+							<ShortName>Music\OldLady\OldLady Ambi1 100bpm.wav</ShortName>
+							<Path>SFX\Music\OldLady\OldLady Ambi1 100bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="948744776" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-002.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-002_9EDFC787.wem</Path>
+						</File>
+						<File Id="964639863" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-004.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-004_9EDFC787.wem</Path>
+						</File>
+						<File Id="1050294060" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-003.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-003_9EDFC787.wem</Path>
+						</File>
+						<File Id="1051834861" Language="SFX">
+							<ShortName>Music\OldLady\AmbiGhostStinger-004.wav</ShortName>
+							<Path>SFX\Music\OldLady\AmbiGhostStinger-004_9EDFC787.wem</Path>
+						</File>
+						<File Id="1067109446" Language="SFX">
+							<ShortName>Music\OldLady\OldLady Ambi3 100bpm.wav</ShortName>
+							<Path>SFX\Music\OldLady\OldLady Ambi3 100bpm_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="75935907" Name="Play_Stop_Runner" ObjectPath="\Events\PlayMusic\Play_Stop_Runner" GUID="{5F2696C4-D0CB-4B43-B5D1-6B817172CFE1}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3466869857" Name="Play_Stop_Thug" ObjectPath="\Events\PlayMusic\Play_Stop_Thug" GUID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3289997258" Name="Play_Thug" ObjectPath="\Events\PlayMusic\Play_Thug" GUID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" DurationType="Infinite">

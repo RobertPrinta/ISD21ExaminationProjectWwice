@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "1705915393",
+    "Hash": "1666175392",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -118,7 +118,7 @@
         "Id": "155546",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2)_3CADDE39.wem"
        },
        {
         "Id": "7454451",
@@ -130,67 +130,67 @@
         "Id": "14426411",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (4)_3CADDE39.wem"
        },
        {
         "Id": "25681619",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (10)_3CADDE39.wem"
        },
        {
         "Id": "39041516",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-001_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-001_3CADDE39.wem"
        },
        {
         "Id": "40051922",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-003_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-003_3CADDE39.wem"
        },
        {
         "Id": "46418895",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (6)_3CADDE39.wem"
        },
        {
         "Id": "46486128",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (4)_3CADDE39.wem"
        },
        {
         "Id": "60252650",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (6)_3CADDE39.wem"
        },
        {
         "Id": "76485917",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-003_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-003_3CADDE39.wem"
        },
        {
         "Id": "86550860",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (1)_3CADDE39.wem"
        },
        {
         "Id": "92551525",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-005.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-005_78FCE5D1.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-005_53885251.wem"
        },
        {
         "Id": "95114931",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (7)_3CADDE39.wem"
        },
        {
         "Id": "106582159",
@@ -202,13 +202,13 @@
         "Id": "114343297",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (4)_3CADDE39.wem"
        },
        {
         "Id": "160831234",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7)_3CADDE39.wem"
        },
        {
         "Id": "185152910",
@@ -220,25 +220,25 @@
         "Id": "187162118",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (13).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (13)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (13)_3CADDE39.wem"
        },
        {
         "Id": "204244423",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (3)_3CADDE39.wem"
        },
        {
         "Id": "211684024",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (9)_3CADDE39.wem"
        },
        {
         "Id": "218680643",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (2)_3CADDE39.wem"
        },
        {
         "Id": "242964610",
@@ -250,25 +250,25 @@
         "Id": "245576160",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (15).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (15)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (15)_3CADDE39.wem"
        },
        {
         "Id": "259193070",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (9)_3CADDE39.wem"
        },
        {
         "Id": "286724631",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (3)_3CADDE39.wem"
        },
        {
         "Id": "289172952",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (7)_3CADDE39.wem"
        },
        {
         "Id": "299543608",
@@ -280,25 +280,25 @@
         "Id": "303691176",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005_3CADDE39.wem"
        },
        {
         "Id": "309497971",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (6)_3CADDE39.wem"
        },
        {
         "Id": "315402098",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (11).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (11)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (11)_3CADDE39.wem"
        },
        {
         "Id": "317756079",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V8.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V8_1C34A93A.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V8_AC4745BA.wem"
        },
        {
         "Id": "321638850",
@@ -310,61 +310,61 @@
         "Id": "323248795",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V5.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V5_E6FBB2F2.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V5_7033C672.wem"
        },
        {
         "Id": "357378576",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (3)_3CADDE39.wem"
        },
        {
         "Id": "368875552",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (5)_3CADDE39.wem"
        },
        {
         "Id": "381794049",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (3)_3CADDE39.wem"
        },
        {
         "Id": "392056541",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (10)_3CADDE39.wem"
        },
        {
         "Id": "394750744",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V6.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V6_8A73E813.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V6_444E5093.wem"
        },
        {
         "Id": "396510711",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (9)_3CADDE39.wem"
        },
        {
         "Id": "397077059",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V4.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V4_D39351EB.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V4_E56F446B.wem"
        },
        {
         "Id": "400690694",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (9)_3CADDE39.wem"
        },
        {
         "Id": "400957550",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (5)_3CADDE39.wem"
        },
        {
         "Id": "406659476",
@@ -376,7 +376,7 @@
         "Id": "419638209",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10)_3CADDE39.wem"
        },
        {
         "Id": "435083447",
@@ -388,37 +388,37 @@
         "Id": "472381021",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (7)_3CADDE39.wem"
        },
        {
         "Id": "483251091",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (1)_3CADDE39.wem"
        },
        {
         "Id": "483343697",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (12).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (12)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (12)_3CADDE39.wem"
        },
        {
         "Id": "493493550",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (4)_3CADDE39.wem"
        },
        {
         "Id": "495785041",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (8)_3CADDE39.wem"
        },
        {
         "Id": "502883752",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3)_3CADDE39.wem"
        },
        {
         "Id": "516627021",
@@ -430,85 +430,85 @@
         "Id": "527822694",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (10)_3CADDE39.wem"
        },
        {
         "Id": "560405707",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (2)_3CADDE39.wem"
        },
        {
         "Id": "565915097",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-004_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-004_3CADDE39.wem"
        },
        {
         "Id": "567508407",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (2)_3CADDE39.wem"
        },
        {
         "Id": "611187007",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (5)_3CADDE39.wem"
        },
        {
         "Id": "611434053",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V7.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V7_6F7BF93D.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V7_A55967BD.wem"
        },
        {
         "Id": "629590085",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (2)_3CADDE39.wem"
        },
        {
         "Id": "637113967",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (7)_3CADDE39.wem"
        },
        {
         "Id": "638084390",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (4)_3CADDE39.wem"
        },
        {
         "Id": "643628042",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (14).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (14)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (14)_3CADDE39.wem"
        },
        {
         "Id": "651968240",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (1)_3CADDE39.wem"
        },
        {
         "Id": "670291807",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V1.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V1_871406A8.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V1_981D4328.wem"
        },
        {
         "Id": "671219025",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-002_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-002_3CADDE39.wem"
        },
        {
         "Id": "677653142",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V2.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V2_702A0B85.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V2_267EA105.wem"
        },
        {
         "Id": "713070512",
@@ -520,25 +520,25 @@
         "Id": "731619016",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (9)_3CADDE39.wem"
        },
        {
         "Id": "760955899",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (11).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (11)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (11)_3CADDE39.wem"
        },
        {
         "Id": "767241144",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (13).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (13)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (13)_3CADDE39.wem"
        },
        {
         "Id": "768941977",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12)_3CADDE39.wem"
        },
        {
         "Id": "771841038",
@@ -556,43 +556,43 @@
         "Id": "801546593",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (1)_3CADDE39.wem"
        },
        {
         "Id": "802115035",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (1)_3CADDE39.wem"
        },
        {
         "Id": "803622530",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-001_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-001_3CADDE39.wem"
        },
        {
         "Id": "809246288",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (13).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (13)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (13)_3CADDE39.wem"
        },
        {
         "Id": "829024909",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (8)_3CADDE39.wem"
        },
        {
         "Id": "831307933",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (11).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (11)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (11)_3CADDE39.wem"
        },
        {
         "Id": "836697362",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (4)_3CADDE39.wem"
        },
        {
         "Id": "848995407",
@@ -604,7 +604,7 @@
         "Id": "881700537",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-002_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-002_3CADDE39.wem"
        },
        {
         "Id": "884468684",
@@ -616,7 +616,7 @@
         "Id": "891774448",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1)_3CADDE39.wem"
        },
        {
         "Id": "897082184",
@@ -628,61 +628,61 @@
         "Id": "897478884",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (10)_3CADDE39.wem"
        },
        {
         "Id": "901178590",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (5)_3CADDE39.wem"
        },
        {
         "Id": "905628142",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (8)_3CADDE39.wem"
        },
        {
         "Id": "910132436",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (3)_3CADDE39.wem"
        },
        {
         "Id": "910780196",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (6)_3CADDE39.wem"
        },
        {
         "Id": "919183340",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (8)_3CADDE39.wem"
        },
        {
         "Id": "928131967",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (6)_3CADDE39.wem"
        },
        {
         "Id": "932216627",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (5)_3CADDE39.wem"
        },
        {
         "Id": "935059864",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (6)_3CADDE39.wem"
        },
        {
         "Id": "954308477",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (3)_3CADDE39.wem"
        },
        {
         "Id": "955253757",
@@ -694,7 +694,7 @@
         "Id": "967295816",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V3.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V3_B69E3A4A.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V3_713C99CA.wem"
        },
        {
         "Id": "972690154",
@@ -712,7 +712,7 @@
         "Id": "985951034",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12)_3CADDE39.wem"
        },
        {
         "Id": "998668263",
@@ -724,49 +724,49 @@
         "Id": "999318475",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (2)_3CADDE39.wem"
        },
        {
         "Id": "1000609632",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (1)_3CADDE39.wem"
        },
        {
         "Id": "1003942439",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (8)_3CADDE39.wem"
        },
        {
         "Id": "1026889357",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-004_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-004_3CADDE39.wem"
        },
        {
         "Id": "1027573991",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (5)_3CADDE39.wem"
        },
        {
         "Id": "1031094404",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (7)_3CADDE39.wem"
        },
        {
         "Id": "1038672744",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (4)_3CADDE39.wem"
        },
        {
         "Id": "1046232197",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (2)_3CADDE39.wem"
        }
       ],
       "DefaultSwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
@@ -1565,10 +1565,28 @@
       ],
       "AuxBusSends": [
        {
-        "Id": "1756167208",
-        "Name": "StairCase",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\StairCase",
-        "GUID": "{5AE598B5-A1D8-4B29-B452-C00FE7D54256}"
+        "Id": "187046019",
+        "Name": "LargeRoom",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\LargeRoom",
+        "GUID": "{AFFD7AA1-69B7-468B-873E-C21A590E8C74}"
+       },
+       {
+        "Id": "1245295233",
+        "Name": "MediumRoom",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\MediumRoom",
+        "GUID": "{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"
+       },
+       {
+        "Id": "1847104687",
+        "Name": "DreamRoom",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\DreamRoom",
+        "GUID": "{400F7CF9-0318-4A62-925F-D787F3F9BB6E}"
+       },
+       {
+        "Id": "2933838247",
+        "Name": "SmallRoom",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\SmallRoom",
+        "GUID": "{52EE55A3-806A-4149-BA6D-10AEC2CB1286}"
        }
       ]
      },
@@ -1588,6 +1606,32 @@
         "Path": "SFX\\Test\\Bantam_3F75BDB9.wem"
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "47720232",
+      "Name": "RevAux_Dream_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Dream_Room",
+      "GUID": "{B555B2A2-2041-442E-935A-11E6391D929A}"
+     },
+     {
+      "Id": "2342113436",
+      "Name": "RevAux_Large_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Large_Room",
+      "GUID": "{DBE2056E-0847-43EE-A528-2254377444F4}"
+     },
+     {
+      "Id": "2971952786",
+      "Name": "RevAux_Medium_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Medium_Room",
+      "GUID": "{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"
+     },
+     {
+      "Id": "2987812640",
+      "Name": "RevAux_Small_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Small_Room",
+      "GUID": "{3942A380-EAAD-450A-8833-6DC605F2422A}"
      }
     ],
     "SwitchGroups": [

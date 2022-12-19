@@ -997,6 +997,262 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DoorLocked" ID="{323715FE-49A2-4E4E-9080-DD7185D3D842}" ShortID="604283932">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Door_Locked - Track 1" ID="{4F164327-C041-4CDE-ACA0-CFA1FD734E70}" ShortID="70945153">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_Locked - Track 1" ID="{23B9D1C7-09D5-4916-A03C-CE2A4B7162EA}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\DoorLocked\Door_Locked - Track 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="349892675"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_Locked - Track 1" ID="{23B9D1C7-09D5-4916-A03C-CE2A4B7162EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door_Locked - Track 2" ID="{90923AD2-E6E9-4A6C-94BC-49D78E18263C}" ShortID="915350958">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_Locked - Track 2" ID="{BFEDB271-4ED7-4630-B6EB-74ADBB4BBEB7}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\DoorLocked\Door_Locked - Track 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1072373072"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_Locked - Track 2" ID="{BFEDB271-4ED7-4630-B6EB-74ADBB4BBEB7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door_Locked - Track 3" ID="{1D05552E-577E-4174-84AD-48B87203E123}" ShortID="580100472">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_Locked - Track 3" ID="{D47E849E-6FAA-4411-959A-F9A85998C480}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\DoorLocked\Door_Locked - Track 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="990849716"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_Locked - Track 3" ID="{D47E849E-6FAA-4411-959A-F9A85998C480}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door_Locked - Track 4" ID="{3E1EF8F3-E2B9-428F-A939-DB687383D9CB}" ShortID="897096994">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_Locked - Track 4" ID="{AD60C897-9767-464D-9477-B1BA9E3E2C30}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\DoorLocked\Door_Locked - Track 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="878224585"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_Locked - Track 4" ID="{AD60C897-9767-464D-9477-B1BA9E3E2C30}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Coin" ID="{B93C80AB-9519-4954-9551-2DFEA09E86C5}" ShortID="918946417">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Coin (1)" ID="{43EDAF0E-09E2-49FA-BC9B-34E25FE39B0B}" ShortID="296730071">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin (1)" ID="{A502C811-D6C9-4707-8237-2B394591E9D9}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\Coin\Coin (1).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="328923765"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin (1)" ID="{A502C811-D6C9-4707-8237-2B394591E9D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coin (2)" ID="{EAD3BE13-4445-4FF4-A683-39C1C17EE608}" ShortID="890383129">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin (2)" ID="{9422AF85-DA25-42E0-9D99-A9BE703CA4E3}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\Coin\Coin (2).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="193894447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin (2)" ID="{9422AF85-DA25-42E0-9D99-A9BE703CA4E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coin (3)" ID="{C64C542A-9471-4BC8-8F33-F3264FA8781B}" ShortID="115504888">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin (3)" ID="{179A9584-DAFE-415D-8A61-39803672F86D}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\Coin\Coin (3).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="242004418"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin (3)" ID="{179A9584-DAFE-415D-8A61-39803672F86D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coin (4)" ID="{C48C0AE6-01A3-4726-B8E9-0961CF5706EF}" ShortID="58307984">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin (4)" ID="{AC6E7B05-D52C-477E-A35D-49AB5DF3B623}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\Coin\Coin (4).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="397894969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin (4)" ID="{AC6E7B05-D52C-477E-A35D-49AB5DF3B623}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coin (5)" ID="{C28300BE-07BE-4BFD-A2FC-F72FA24FC584}" ShortID="500008127">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin (5)" ID="{ECAD9B93-10C2-449D-91F9-0D96CFAA6340}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\Coin\Coin (5).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="736243371"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin (5)" ID="{ECAD9B93-10C2-449D-91F9-0D96CFAA6340}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coin (6)" ID="{416ACC04-9AE3-4883-8287-E2EB2AE44D92}" ShortID="87236947">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin (6)" ID="{60BFFB1A-DEAF-4516-9BC0-25665D5D4294}">
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\Coin\Coin (6).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="95709854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin (6)" ID="{60BFFB1A-DEAF-4516-9BC0-25665D5D4294}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

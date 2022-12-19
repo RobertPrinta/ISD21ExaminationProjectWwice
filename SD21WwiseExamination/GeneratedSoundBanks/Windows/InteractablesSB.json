@@ -16,11 +16,46 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "1393407345",
+    "Hash": "92471075",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
     "IncludedEvents": [
+     {
+      "Id": "235917819",
+      "Name": "Metal_Lever",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Metal_Lever",
+      "GUID": "{FEF52EB0-33FD-4C5D-B8A1-F862A93E1A9C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.464286",
+      "DurationMax": "1.950884",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "295671336",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever3.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever3_3CADDE39.wem"
+       },
+       {
+        "Id": "426273947",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever4.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever4_3CADDE39.wem"
+       },
+       {
+        "Id": "715212057",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever2.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever2_3CADDE39.wem"
+       },
+       {
+        "Id": "1066064421",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever_3CADDE39.wem"
+       }
+      ]
+     },
      {
       "Id": "754001494",
       "Name": "Play_AB_Fire",
@@ -96,6 +131,53 @@
       ]
      },
      {
+      "Id": "3114179205",
+      "Name": "Play_Coin",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_Coin",
+      "GUID": "{485602A8-3A3A-42FB-8619-618456F906CF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.308027",
+      "DurationMax": "0.91517",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "95709854",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (6).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (6)_3CADDE39.wem"
+       },
+       {
+        "Id": "193894447",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (2).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (2)_3CADDE39.wem"
+       },
+       {
+        "Id": "242004418",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (3).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (3)_3CADDE39.wem"
+       },
+       {
+        "Id": "328923765",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (1).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (1)_3CADDE39.wem"
+       },
+       {
+        "Id": "397894969",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (4).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (4)_3CADDE39.wem"
+       },
+       {
+        "Id": "736243371",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (5).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (5)_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "3824929594",
       "Name": "Play_DoorKnob",
       "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_DoorKnob",
@@ -133,6 +215,41 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Global\\DoorKnob\\DoorKnob (5).wav",
         "Path": "SFX\\Interactables\\Global\\DoorKnob\\DoorKnob (5)_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4269214404",
+      "Name": "Play_DoorLocked",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_DoorLocked",
+      "GUID": "{F8FEBE59-66D8-45F5-A5F2-0C4551D1DCD0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.375011",
+      "DurationMax": "5.160726",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "349892675",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorLocked\\Door_Locked - Track 1.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorLocked\\Door_Locked - Track 1_3CADDE39.wem"
+       },
+       {
+        "Id": "878224585",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorLocked\\Door_Locked - Track 4.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorLocked\\Door_Locked - Track 4_3CADDE39.wem"
+       },
+       {
+        "Id": "990849716",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorLocked\\Door_Locked - Track 3.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorLocked\\Door_Locked - Track 3_3CADDE39.wem"
+       },
+       {
+        "Id": "1072373072",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorLocked\\Door_Locked - Track 2.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorLocked\\Door_Locked - Track 2_3CADDE39.wem"
        }
       ]
      },
@@ -348,6 +465,35 @@
       ]
      },
      {
+      "Id": "1301152502",
+      "Name": "Play_Pick_Up_Puzzle",
+      "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_Pick_Up_Puzzle",
+      "GUID": "{12E826DD-7A96-40EE-9D1E-7BCEA37C8A47}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.486599",
+      "DurationMax": "0.491066",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "12088662",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle2.wav",
+        "Path": "SFX\\Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle2_3CADDE39.wem"
+       },
+       {
+        "Id": "41336121",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle3.wav",
+        "Path": "SFX\\Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle3_3CADDE39.wem"
+       },
+       {
+        "Id": "589598096",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle.wav",
+        "Path": "SFX\\Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "1457025123",
       "Name": "Play_PickUpPapper_Close",
       "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_PickUpPapper_Close",
@@ -395,6 +541,23 @@
         "Language": "SFX",
         "ShortName": "Interactables\\OldLady\\PickUpPapper\\Book_Read.wav",
         "Path": "SFX\\Interactables\\OldLady\\PickUpPapper\\Book_Read_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "113756532",
+      "Name": "Play_Power_house",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Play_Power_house",
+      "GUID": "{6409EE72-4377-4D85-8CA3-89F22A0264AC}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.866077",
+      "DurationMax": "6.866077",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "600265671",
+        "Language": "SFX",
+        "ShortName": "Electric_Powerhouse.wav",
+        "Path": "SFX\\Electric_Powerhouse_3CADDE39.wem"
        }
       ]
      },

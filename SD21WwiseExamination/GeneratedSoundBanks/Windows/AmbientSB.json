@@ -16,15 +16,30 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "4216378068",
+    "Hash": "509067582",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
     "IncludedEvents": [
      {
-      "Id": "3880068576",
-      "Name": "Play_AB_City_Traffic_From_Closed_Window_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_City_Traffic_From_Closed_Window_3D",
+      "Id": "2800786047",
+      "Name": "Play_AB_Basement_Headlocked_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Basement_Headlocked_LP",
+      "GUID": "{CD9C85E7-42D8-4C7E-A909-EF17BD0967EE}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "105010681",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\Basement.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\Basement_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "283671523",
+      "Name": "Play_AB_City_Traffic_From_Closed_Window_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_City_Traffic_From_Closed_Window_3D_LP",
       "GUID": "{14328778-62E0-4BD3-B385-6A8D1E92DE23}",
       "MaxAttenuation": "500.",
       "DurationType": "Infinite",
@@ -50,37 +65,9 @@
       ]
      },
      {
-      "Id": "1346453913",
-      "Name": "Play_AB_Rain_From_Closed_Window_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_Rain_From_Closed_Window_3D",
-      "GUID": "{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}",
-      "MaxAttenuation": "500.",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "499956017",
-        "Language": "SFX",
-        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D.wav",
-        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D_9EDFC787.wem"
-       },
-       {
-        "Id": "869859257",
-        "Language": "SFX",
-        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D.wav",
-        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D_9EDFC787.wem"
-       },
-       {
-        "Id": "882470511",
-        "Language": "SFX",
-        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D.wav",
-        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D_9EDFC787.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2189000874",
-      "Name": "Play_Dream_Machine_Ambience_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_Dream_Machine_Ambience_3D",
+      "Id": "704208741",
+      "Name": "Play_AB_Dream_Machine_Ambience_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Dream_Machine_Ambience_3D_LP",
       "GUID": "{CBBDF146-BD8D-42E1-8EA9-B2613361CE47}",
       "MaxAttenuation": "25000.",
       "DurationType": "Infinite",
@@ -118,11 +105,11 @@
       ]
      },
      {
-      "Id": "1942000015",
-      "Name": "Play_Dream_Machine_Heart_Monitor_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_Dream_Machine_Heart_Monitor_3D",
+      "Id": "4164283174",
+      "Name": "Play_AB_Dream_Machine_Heart_Monitor_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Dream_Machine_Heart_Monitor_3D_LP",
       "GUID": "{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}",
-      "MaxAttenuation": "100.",
+      "MaxAttenuation": "500.",
       "DurationType": "OneShot",
       "DurationMin": "23.711632",
       "DurationMax": "23.711632",
@@ -154,9 +141,9 @@
       ]
      },
      {
-      "Id": "764393601",
-      "Name": "Play_Faulty_Socket_Electricity_Buzz_3D",
-      "ObjectPath": "\\Events\\Ambience\\Play_Faulty_Socket_Electricity_Buzz_3D",
+      "Id": "2665610752",
+      "Name": "Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP",
       "GUID": "{0325B0EB-0CC8-4805-AA3E-974BEE89C348}",
       "MaxAttenuation": "500.",
       "DurationType": "Infinite",
@@ -170,50 +157,9 @@
       ]
      },
      {
-      "Id": "3354322557",
-      "Name": "Play_Headlocked_Ambience",
-      "ObjectPath": "\\Events\\Ambience\\Play_Headlocked_Ambience",
-      "GUID": "{75515714-049D-48B2-9FA0-6190615A2562}",
-      "DurationType": "Mixed",
-      "DurationMin": "0.",
-      "DurationMax": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "812702739",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Small_Room_Headlocked.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Small_Room_Headlocked_9EDFC787.wem"
-       }
-      ],
-      "SwitchContainers": [
-       {
-        "SwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
-        "Children": [
-         {
-          "SwitchValue": "{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}",
-          "Children": [
-           {
-            "SwitchValue": "{5D010B08-4CCE-4BE9-8095-9D5446797640}",
-            "Media": [
-             {
-              "Id": "812702739"
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{83FE05CB-9116-42B1-B40D-1AB2CA42725D}",
-        "Children": []
-       }
-      ]
-     },
-     {
-      "Id": "2130144733",
-      "Name": "Play_Low_Electricity_Hum_3D",
-      "ObjectPath": "\\Events\\Ambience\\Play_Low_Electricity_Hum_3D",
+      "Id": "2045602548",
+      "Name": "Play_AB_Low_Electricity_Hum_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\Play_AB_Low_Electricity_Hum_3D_LP",
       "GUID": "{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}",
       "MaxAttenuation": "500.",
       "DurationType": "Infinite",
@@ -227,9 +173,235 @@
       ]
      },
      {
-      "Id": "2649588192",
-      "Name": "Play_Waterpipes_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Thug_Specific\\Play_Waterpipes_3D",
+      "Id": "551936010",
+      "Name": "Play_AB_Muffled_Conversation_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Muffled_Conversation_3D_LP",
+      "GUID": "{DFE0F374-3A9C-44F4-B823-8550FF58D6F8}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "243268854",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Muffled_Conversation_Behind_Door_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Muffled_Conversation_Behind_Door_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3091111681",
+      "Name": "Play_AB_Police_Radio_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Police_Radio_3D_LP",
+      "GUID": "{0D7B7959-970D-4117-B167-E6B1F5C5EF68}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "65348091",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Police_Radio_Event_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Police_Radio_Event_1_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "369695601",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Police_Radio_Event_4_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Police_Radio_Event_4_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "384089860",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Police_Radio_Event_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Police_Radio_Event_3_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "972828149",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Police_Radio_Event_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Police_Radio_Event_2_3D_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "177886096",
+      "Name": "Play_AB_Rain_From_Closed_Window_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_Rain_From_Closed_Window_3D_LP",
+      "GUID": "{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "499956017",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "869859257",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "882470511",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2669816892",
+      "Name": "Play_AB_Watercooler_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Watercooler_3D_LP",
+      "GUID": "{7A7F0205-6F60-4A4F-959F-B3636D4A5282}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "399847477",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Watercooler_Bubbles_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Watercooler_Bubbles_2_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "439760649",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Watercooler_Bubbles_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Watercooler_Bubbles_3_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "507308995",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Watercooler_Buzz_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Watercooler_Buzz_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "737967928",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Watercooler_Bubbles_1.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Watercooler_Bubbles_1_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3657448412",
+      "Name": "Play_Headlocked_Ambience_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_Headlocked_Ambience_LP",
+      "GUID": "{75515714-049D-48B2-9FA0-6190615A2562}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "53760322",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee4.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee4_3F75BDB9.wem"
+       },
+       {
+        "Id": "219103676",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee7.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee7_3F75BDB9.wem"
+       },
+       {
+        "Id": "227030349",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Outdoors.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Outdoors_9EDFC787.wem"
+       },
+       {
+        "Id": "255528574",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee9.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee9_3F75BDB9.wem"
+       },
+       {
+        "Id": "285835734",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee6.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee6_3F75BDB9.wem"
+       },
+       {
+        "Id": "385019460",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee8.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee8_3F75BDB9.wem"
+       },
+       {
+        "Id": "709406548",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee11.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee11_3F75BDB9.wem"
+       },
+       {
+        "Id": "709892299",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee2.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee2_3F75BDB9.wem"
+       },
+       {
+        "Id": "715327901",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Big_Room_HeadlockedLP.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Big_Room_HeadlockedLP_9EDFC787.wem"
+       },
+       {
+        "Id": "812702739",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Small_Room_Headlocked.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Small_Room_Headlocked_9EDFC787.wem"
+       },
+       {
+        "Id": "923033233",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee3.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee3_3F75BDB9.wem"
+       },
+       {
+        "Id": "939689681",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee12.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee12_3F75BDB9.wem"
+       },
+       {
+        "Id": "947276510",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee1.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee1_3F75BDB9.wem"
+       },
+       {
+        "Id": "952965985",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee5.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee5_3F75BDB9.wem"
+       },
+       {
+        "Id": "1010535661",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee10.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee10_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "357140778",
+      "Name": "Play_Laundromat_AmbienceLP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Thug_Specific\\Play_Laundromat_AmbienceLP",
+      "GUID": "{B14759CD-1A78-4288-BF5F-43A9FB9FD6D1}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "87600754",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Laundromat_Ambience.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Laundromat_Ambience_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4103040995",
+      "Name": "Play_Waterpipes_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Thug_Specific\\Play_Waterpipes_3D_LP",
       "GUID": "{7D19E042-BFE0-4482-A59C-540C8947AD60}",
       "MaxAttenuation": "500.",
       "DurationType": "Infinite",
@@ -239,6 +411,28 @@
         "Language": "SFX",
         "ShortName": "Ambience\\3D\\Waterpipes_3D.wav",
         "Path": "SFX\\Ambience\\3D\\Waterpipes_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3888884362",
+      "Name": "Play_Wind_3D",
+      "ObjectPath": "\\Events\\Ambience\\AB_Outdoors\\Play_Wind_3D",
+      "GUID": "{B6944C11-A739-4A98-9152-173C0E55C5DF}",
+      "MaxAttenuation": "25000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "460082866",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Windloop_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Windloop_1_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "560725150",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Windloop_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Windloop_2_3D_9EDFC787.wem"
        }
       ]
      }

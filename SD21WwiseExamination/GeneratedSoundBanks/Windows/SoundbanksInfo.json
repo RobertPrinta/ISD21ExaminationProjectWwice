@@ -14,6 +14,12 @@
   "DialogueEvents": [],
   "StreamedFiles": [
    {
+    "Id": "243268854",
+    "Language": "SFX",
+    "ShortName": "Ambience\\3D\\AB_Muffled_Conversation_Behind_Door_3D.wav",
+    "Path": "SFX\\Ambience\\3D\\AB_Muffled_Conversation_Behind_Door_3D_9EDFC787.wem"
+   },
+   {
     "Id": "609642351",
     "Language": "SFX",
     "ShortName": "Ambience\\3D\\Waterpipes_3D.wav",
@@ -38,15 +44,30 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "4216378068",
+    "Hash": "509067582",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
     "IncludedEvents": [
      {
-      "Id": "3880068576",
-      "Name": "Play_AB_City_Traffic_From_Closed_Window_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_City_Traffic_From_Closed_Window_3D",
+      "Id": "2800786047",
+      "Name": "Play_AB_Basement_Headlocked_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Basement_Headlocked_LP",
+      "GUID": "{CD9C85E7-42D8-4C7E-A909-EF17BD0967EE}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "105010681",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\Basement.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\Basement_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "283671523",
+      "Name": "Play_AB_City_Traffic_From_Closed_Window_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_City_Traffic_From_Closed_Window_3D_LP",
       "GUID": "{14328778-62E0-4BD3-B385-6A8D1E92DE23}",
       "MaxAttenuation": "500.",
       "DurationType": "Infinite",
@@ -72,37 +93,9 @@
       ]
      },
      {
-      "Id": "1346453913",
-      "Name": "Play_AB_Rain_From_Closed_Window_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_Rain_From_Closed_Window_3D",
-      "GUID": "{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}",
-      "MaxAttenuation": "500.",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "499956017",
-        "Language": "SFX",
-        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D.wav",
-        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D_9EDFC787.wem"
-       },
-       {
-        "Id": "869859257",
-        "Language": "SFX",
-        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D.wav",
-        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D_9EDFC787.wem"
-       },
-       {
-        "Id": "882470511",
-        "Language": "SFX",
-        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D.wav",
-        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D_9EDFC787.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2189000874",
-      "Name": "Play_Dream_Machine_Ambience_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_Dream_Machine_Ambience_3D",
+      "Id": "704208741",
+      "Name": "Play_AB_Dream_Machine_Ambience_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Dream_Machine_Ambience_3D_LP",
       "GUID": "{CBBDF146-BD8D-42E1-8EA9-B2613361CE47}",
       "MaxAttenuation": "25000.",
       "DurationType": "Infinite",
@@ -140,11 +133,11 @@
       ]
      },
      {
-      "Id": "1942000015",
-      "Name": "Play_Dream_Machine_Heart_Monitor_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_Dream_Machine_Heart_Monitor_3D",
+      "Id": "4164283174",
+      "Name": "Play_AB_Dream_Machine_Heart_Monitor_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Dream_Machine_Heart_Monitor_3D_LP",
       "GUID": "{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}",
-      "MaxAttenuation": "100.",
+      "MaxAttenuation": "500.",
       "DurationType": "OneShot",
       "DurationMin": "23.711632",
       "DurationMax": "23.711632",
@@ -176,9 +169,9 @@
       ]
      },
      {
-      "Id": "764393601",
-      "Name": "Play_Faulty_Socket_Electricity_Buzz_3D",
-      "ObjectPath": "\\Events\\Ambience\\Play_Faulty_Socket_Electricity_Buzz_3D",
+      "Id": "2665610752",
+      "Name": "Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP",
       "GUID": "{0325B0EB-0CC8-4805-AA3E-974BEE89C348}",
       "MaxAttenuation": "500.",
       "DurationType": "Infinite",
@@ -192,50 +185,9 @@
       ]
      },
      {
-      "Id": "3354322557",
-      "Name": "Play_Headlocked_Ambience",
-      "ObjectPath": "\\Events\\Ambience\\Play_Headlocked_Ambience",
-      "GUID": "{75515714-049D-48B2-9FA0-6190615A2562}",
-      "DurationType": "Mixed",
-      "DurationMin": "0.",
-      "DurationMax": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "812702739",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Small_Room_Headlocked.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Small_Room_Headlocked_9EDFC787.wem"
-       }
-      ],
-      "SwitchContainers": [
-       {
-        "SwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
-        "Children": [
-         {
-          "SwitchValue": "{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}",
-          "Children": [
-           {
-            "SwitchValue": "{5D010B08-4CCE-4BE9-8095-9D5446797640}",
-            "Media": [
-             {
-              "Id": "812702739"
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{83FE05CB-9116-42B1-B40D-1AB2CA42725D}",
-        "Children": []
-       }
-      ]
-     },
-     {
-      "Id": "2130144733",
-      "Name": "Play_Low_Electricity_Hum_3D",
-      "ObjectPath": "\\Events\\Ambience\\Play_Low_Electricity_Hum_3D",
+      "Id": "2045602548",
+      "Name": "Play_AB_Low_Electricity_Hum_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\Play_AB_Low_Electricity_Hum_3D_LP",
       "GUID": "{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}",
       "MaxAttenuation": "500.",
       "DurationType": "Infinite",
@@ -249,9 +201,235 @@
       ]
      },
      {
-      "Id": "2649588192",
-      "Name": "Play_Waterpipes_3D",
-      "ObjectPath": "\\Events\\Ambience\\AB_Thug_Specific\\Play_Waterpipes_3D",
+      "Id": "551936010",
+      "Name": "Play_AB_Muffled_Conversation_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Muffled_Conversation_3D_LP",
+      "GUID": "{DFE0F374-3A9C-44F4-B823-8550FF58D6F8}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "243268854",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Muffled_Conversation_Behind_Door_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Muffled_Conversation_Behind_Door_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3091111681",
+      "Name": "Play_AB_Police_Radio_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Police_Radio_3D_LP",
+      "GUID": "{0D7B7959-970D-4117-B167-E6B1F5C5EF68}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "65348091",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Police_Radio_Event_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Police_Radio_Event_1_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "369695601",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Police_Radio_Event_4_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Police_Radio_Event_4_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "384089860",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Police_Radio_Event_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Police_Radio_Event_3_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "972828149",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Police_Radio_Event_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Police_Radio_Event_2_3D_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "177886096",
+      "Name": "Play_AB_Rain_From_Closed_Window_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_Rain_From_Closed_Window_3D_LP",
+      "GUID": "{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "499956017",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_2_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "869859257",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_1_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "882470511",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_City_Traffic_From_Closed_Window_3_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2669816892",
+      "Name": "Play_AB_Watercooler_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Hub_Specific\\Play_AB_Watercooler_3D_LP",
+      "GUID": "{7A7F0205-6F60-4A4F-959F-B3636D4A5282}",
+      "MaxAttenuation": "500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "399847477",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Watercooler_Bubbles_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Watercooler_Bubbles_2_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "439760649",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Watercooler_Bubbles_3_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Watercooler_Bubbles_3_3D_3F75BDB9.wem"
+       },
+       {
+        "Id": "507308995",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Watercooler_Buzz_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Watercooler_Buzz_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "737967928",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Watercooler_Bubbles_1.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Watercooler_Bubbles_1_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3657448412",
+      "Name": "Play_Headlocked_Ambience_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_Headlocked_Ambience_LP",
+      "GUID": "{75515714-049D-48B2-9FA0-6190615A2562}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "53760322",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee4.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee4_3F75BDB9.wem"
+       },
+       {
+        "Id": "219103676",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee7.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee7_3F75BDB9.wem"
+       },
+       {
+        "Id": "227030349",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Outdoors.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Outdoors_9EDFC787.wem"
+       },
+       {
+        "Id": "255528574",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee9.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee9_3F75BDB9.wem"
+       },
+       {
+        "Id": "285835734",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee6.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee6_3F75BDB9.wem"
+       },
+       {
+        "Id": "385019460",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee8.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee8_3F75BDB9.wem"
+       },
+       {
+        "Id": "709406548",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee11.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee11_3F75BDB9.wem"
+       },
+       {
+        "Id": "709892299",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee2.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee2_3F75BDB9.wem"
+       },
+       {
+        "Id": "715327901",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Big_Room_HeadlockedLP.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Big_Room_HeadlockedLP_9EDFC787.wem"
+       },
+       {
+        "Id": "812702739",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Small_Room_Headlocked.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Small_Room_Headlocked_9EDFC787.wem"
+       },
+       {
+        "Id": "923033233",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee3.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee3_3F75BDB9.wem"
+       },
+       {
+        "Id": "939689681",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee12.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee12_3F75BDB9.wem"
+       },
+       {
+        "Id": "947276510",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee1.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee1_3F75BDB9.wem"
+       },
+       {
+        "Id": "952965985",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee5.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee5_3F75BDB9.wem"
+       },
+       {
+        "Id": "1010535661",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee10.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee10_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "357140778",
+      "Name": "Play_Laundromat_AmbienceLP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Thug_Specific\\Play_Laundromat_AmbienceLP",
+      "GUID": "{B14759CD-1A78-4288-BF5F-43A9FB9FD6D1}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "87600754",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Headlocked\\AB_Laundromat_Ambience.wav",
+        "Path": "SFX\\Ambience\\Headlocked\\AB_Laundromat_Ambience_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4103040995",
+      "Name": "Play_Waterpipes_3D_LP",
+      "ObjectPath": "\\Events\\Ambience\\AB_Thug_Specific\\Play_Waterpipes_3D_LP",
       "GUID": "{7D19E042-BFE0-4482-A59C-540C8947AD60}",
       "MaxAttenuation": "500.",
       "DurationType": "Infinite",
@@ -261,6 +439,28 @@
         "Language": "SFX",
         "ShortName": "Ambience\\3D\\Waterpipes_3D.wav",
         "Path": "SFX\\Ambience\\3D\\Waterpipes_3D_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3888884362",
+      "Name": "Play_Wind_3D",
+      "ObjectPath": "\\Events\\Ambience\\AB_Outdoors\\Play_Wind_3D",
+      "GUID": "{B6944C11-A739-4A98-9152-173C0E55C5DF}",
+      "MaxAttenuation": "25000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "460082866",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Windloop_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Windloop_1_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "560725150",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Windloop_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Windloop_2_3D_9EDFC787.wem"
        }
       ]
      }
@@ -344,7 +544,7 @@
     "Id": "1070355952",
     "GUID": "{A646F937-A3B8-467A-82D6-7A999570C91A}",
     "Language": "SFX",
-    "Hash": "1301373312",
+    "Hash": "3650658212",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UiSB",
     "ShortName": "UiSB",
     "Path": "UiSB.bnk",
@@ -473,6 +673,29 @@
         "Path": "SFX\\UI\\Incoming_Call_3CADDE39.wem"
        }
       ]
+     },
+     {
+      "Id": "1880282502",
+      "Name": "UI_Play_Screen_Flicker",
+      "ObjectPath": "\\Events\\UI\\UI_Play_Screen_Flicker",
+      "GUID": "{6FCD7E0E-9E5F-4839-83B1-EC2049B744BD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.116281",
+      "DurationMax": "0.203243",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "296512588",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Radio_Interference1.wav",
+        "Path": "SFX\\UI\\UI_Radio_Interference1_3CADDE39.wem"
+       },
+       {
+        "Id": "802825343",
+        "Language": "SFX",
+        "ShortName": "UI\\UI_Radio_Interference2.wav",
+        "Path": "SFX\\UI\\UI_Radio_Interference2_3CADDE39.wem"
+       }
+      ]
      }
     ],
     "StateGroups": [
@@ -496,7 +719,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "4292814796",
+    "Hash": "701042546",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -504,52 +727,64 @@
      {
       "Id": "187046019",
       "Name": "LargeRoom",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\LargeRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\LargeRoom",
       "GUID": "{AFFD7AA1-69B7-468B-873E-C21A590E8C74}"
      },
      {
       "Id": "1245295233",
       "Name": "MediumRoom",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\MediumRoom",
       "GUID": "{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"
-     },
-     {
-      "Id": "1756167208",
-      "Name": "StairCase",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\StairCase",
-      "GUID": "{5AE598B5-A1D8-4B29-B452-C00FE7D54256}"
-     },
-     {
-      "Id": "1837650191",
-      "Name": "MediumRoomAbs",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\MediumRoomAbs",
-      "GUID": "{61528CA2-A5C6-44B7-A747-0BBB3803A023}"
      },
      {
       "Id": "1847104687",
       "Name": "DreamRoom",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\DreamRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\DreamRoom",
       "GUID": "{400F7CF9-0318-4A62-925F-D787F3F9BB6E}"
      },
      {
       "Id": "2933838247",
       "Name": "SmallRoom",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\SmallRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\SmallRoom",
       "GUID": "{52EE55A3-806A-4149-BA6D-10AEC2CB1286}"
-     },
-     {
-      "Id": "4063189299",
-      "Name": "Corridor",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\Corridor",
-      "GUID": "{30F3C25B-ACE9-445B-9F67-D66EBF845097}"
      }
     ],
     "GameParameters": [
+     {
+      "Id": "47720232",
+      "Name": "RevAux_Dream_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Dream_Room",
+      "GUID": "{B555B2A2-2041-442E-935A-11E6391D929A}"
+     },
+     {
+      "Id": "201107441",
+      "Name": "Dialogue_Vol",
+      "ObjectPath": "\\Game Parameters\\System Vol Sliders\\Dialogue_Vol",
+      "GUID": "{E22BE48E-07DA-46F6-9D5A-317D36877DDE}"
+     },
      {
       "Id": "2246609544",
       "Name": "Music_Vol",
       "ObjectPath": "\\Game Parameters\\System Vol Sliders\\Music_Vol",
       "GUID": "{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}"
+     },
+     {
+      "Id": "2342113436",
+      "Name": "RevAux_Large_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Large_Room",
+      "GUID": "{DBE2056E-0847-43EE-A528-2254377444F4}"
+     },
+     {
+      "Id": "2971952786",
+      "Name": "RevAux_Medium_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Medium_Room",
+      "GUID": "{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"
+     },
+     {
+      "Id": "2987812640",
+      "Name": "RevAux_Small_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Small_Room",
+      "GUID": "{3942A380-EAAD-450A-8833-6DC605F2422A}"
      },
      {
       "Id": "3578718921",
@@ -597,7 +832,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "1705915393",
+    "Hash": "1666175392",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -699,7 +934,7 @@
         "Id": "155546",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (2)_3CADDE39.wem"
        },
        {
         "Id": "7454451",
@@ -711,67 +946,67 @@
         "Id": "14426411",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (4)_3CADDE39.wem"
        },
        {
         "Id": "25681619",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (10)_3CADDE39.wem"
        },
        {
         "Id": "39041516",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-001_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-001_3CADDE39.wem"
        },
        {
         "Id": "40051922",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-003_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-003_3CADDE39.wem"
        },
        {
         "Id": "46418895",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (6)_3CADDE39.wem"
        },
        {
         "Id": "46486128",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (4)_3CADDE39.wem"
        },
        {
         "Id": "60252650",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (6)_3CADDE39.wem"
        },
        {
         "Id": "76485917",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-003.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-003_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-003_3CADDE39.wem"
        },
        {
         "Id": "86550860",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (1)_3CADDE39.wem"
        },
        {
         "Id": "92551525",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-005.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-005_78FCE5D1.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-005_53885251.wem"
        },
        {
         "Id": "95114931",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (7)_3CADDE39.wem"
        },
        {
         "Id": "106582159",
@@ -783,13 +1018,13 @@
         "Id": "114343297",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (4)_3CADDE39.wem"
        },
        {
         "Id": "160831234",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (7)_3CADDE39.wem"
        },
        {
         "Id": "185152910",
@@ -801,25 +1036,25 @@
         "Id": "187162118",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (13).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (13)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (13)_3CADDE39.wem"
        },
        {
         "Id": "204244423",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (3)_3CADDE39.wem"
        },
        {
         "Id": "211684024",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (9)_3CADDE39.wem"
        },
        {
         "Id": "218680643",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (2)_3CADDE39.wem"
        },
        {
         "Id": "242964610",
@@ -831,25 +1066,25 @@
         "Id": "245576160",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (15).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (15)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (15)_3CADDE39.wem"
        },
        {
         "Id": "259193070",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (9)_3CADDE39.wem"
        },
        {
         "Id": "286724631",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (3)_3CADDE39.wem"
        },
        {
         "Id": "289172952",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (7)_3CADDE39.wem"
        },
        {
         "Id": "299543608",
@@ -861,25 +1096,25 @@
         "Id": "303691176",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-005_3CADDE39.wem"
        },
        {
         "Id": "309497971",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (6)_3CADDE39.wem"
        },
        {
         "Id": "315402098",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (11).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (11)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (11)_3CADDE39.wem"
        },
        {
         "Id": "317756079",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V8.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V8_1C34A93A.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V8_AC4745BA.wem"
        },
        {
         "Id": "321638850",
@@ -891,61 +1126,61 @@
         "Id": "323248795",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V5.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V5_E6FBB2F2.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V5_7033C672.wem"
        },
        {
         "Id": "357378576",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (3)_3CADDE39.wem"
        },
        {
         "Id": "368875552",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (5)_3CADDE39.wem"
        },
        {
         "Id": "381794049",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (3)_3CADDE39.wem"
        },
        {
         "Id": "392056541",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (10)_3CADDE39.wem"
        },
        {
         "Id": "394750744",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V6.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V6_8A73E813.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V6_444E5093.wem"
        },
        {
         "Id": "396510711",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (9)_3CADDE39.wem"
        },
        {
         "Id": "397077059",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V4.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V4_D39351EB.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V4_E56F446B.wem"
        },
        {
         "Id": "400690694",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (9)_3CADDE39.wem"
        },
        {
         "Id": "400957550",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (5)_3CADDE39.wem"
        },
        {
         "Id": "406659476",
@@ -957,7 +1192,7 @@
         "Id": "419638209",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (10)_3CADDE39.wem"
        },
        {
         "Id": "435083447",
@@ -969,37 +1204,37 @@
         "Id": "472381021",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (7)_3CADDE39.wem"
        },
        {
         "Id": "483251091",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (1)_3CADDE39.wem"
        },
        {
         "Id": "483343697",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (12).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (12)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (12)_3CADDE39.wem"
        },
        {
         "Id": "493493550",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (4)_3CADDE39.wem"
        },
        {
         "Id": "495785041",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (8)_3CADDE39.wem"
        },
        {
         "Id": "502883752",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (3)_3CADDE39.wem"
        },
        {
         "Id": "516627021",
@@ -1011,85 +1246,85 @@
         "Id": "527822694",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (10)_3CADDE39.wem"
        },
        {
         "Id": "560405707",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (2)_3CADDE39.wem"
        },
        {
         "Id": "565915097",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-004_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-004_3CADDE39.wem"
        },
        {
         "Id": "567508407",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (2)_3CADDE39.wem"
        },
        {
         "Id": "611187007",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (5)_3CADDE39.wem"
        },
        {
         "Id": "611434053",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V7.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V7_6F7BF93D.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V7_A55967BD.wem"
        },
        {
         "Id": "629590085",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (2)_3CADDE39.wem"
        },
        {
         "Id": "637113967",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (7)_3CADDE39.wem"
        },
        {
         "Id": "638084390",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (4)_3CADDE39.wem"
        },
        {
         "Id": "643628042",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (14).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (14)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (14)_3CADDE39.wem"
        },
        {
         "Id": "651968240",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (1)_3CADDE39.wem"
        },
        {
         "Id": "670291807",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V1.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V1_871406A8.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V1_981D4328.wem"
        },
        {
         "Id": "671219025",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-002_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-002_3CADDE39.wem"
        },
        {
         "Id": "677653142",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V2.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V2_702A0B85.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V2_267EA105.wem"
        },
        {
         "Id": "713070512",
@@ -1101,25 +1336,25 @@
         "Id": "731619016",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (9).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (9)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (9)_3CADDE39.wem"
        },
        {
         "Id": "760955899",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (11).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (11)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (11)_3CADDE39.wem"
        },
        {
         "Id": "767241144",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (13).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (13)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (13)_3CADDE39.wem"
        },
        {
         "Id": "768941977",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (12)_3CADDE39.wem"
        },
        {
         "Id": "771841038",
@@ -1137,43 +1372,43 @@
         "Id": "801546593",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (1)_3CADDE39.wem"
        },
        {
         "Id": "802115035",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (1)_3CADDE39.wem"
        },
        {
         "Id": "803622530",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug_Run-001.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-001_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug_Run-001_3CADDE39.wem"
        },
        {
         "Id": "809246288",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (13).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (13)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (13)_3CADDE39.wem"
        },
        {
         "Id": "829024909",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (8)_3CADDE39.wem"
        },
        {
         "Id": "831307933",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (11).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (11)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (11)_3CADDE39.wem"
        },
        {
         "Id": "836697362",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (4)_3CADDE39.wem"
        },
        {
         "Id": "848995407",
@@ -1185,7 +1420,7 @@
         "Id": "881700537",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-002.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-002_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-002_3CADDE39.wem"
        },
        {
         "Id": "884468684",
@@ -1197,7 +1432,7 @@
         "Id": "891774448",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (1)_3CADDE39.wem"
        },
        {
         "Id": "897082184",
@@ -1209,61 +1444,61 @@
         "Id": "897478884",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (10).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (10)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (10)_3CADDE39.wem"
        },
        {
         "Id": "901178590",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (5)_3CADDE39.wem"
        },
        {
         "Id": "905628142",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (8)_3CADDE39.wem"
        },
        {
         "Id": "910132436",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (3)_3CADDE39.wem"
        },
        {
         "Id": "910780196",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (6)_3CADDE39.wem"
        },
        {
         "Id": "919183340",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (8)_3CADDE39.wem"
        },
        {
         "Id": "928131967",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Carpet\\Footsteps_Carpet (6)_3CADDE39.wem"
        },
        {
         "Id": "932216627",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Grass\\Footsteps_Grass (5)_3CADDE39.wem"
        },
        {
         "Id": "935059864",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (6).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (6)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (6)_3CADDE39.wem"
        },
        {
         "Id": "954308477",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (3).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (3)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (3)_3CADDE39.wem"
        },
        {
         "Id": "955253757",
@@ -1275,7 +1510,7 @@
         "Id": "967295816",
         "Language": "SFX",
         "ShortName": "Test\\FootstepsCon_V3.wav",
-        "Path": "SFX\\Test\\FootstepsCon_V3_B69E3A4A.wem"
+        "Path": "SFX\\Test\\FootstepsCon_V3_713C99CA.wem"
        },
        {
         "Id": "972690154",
@@ -1293,7 +1528,7 @@
         "Id": "985951034",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Cobblestone\\Footsteps_Cobblestone (12)_3CADDE39.wem"
        },
        {
         "Id": "998668263",
@@ -1305,49 +1540,49 @@
         "Id": "999318475",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Stonetiles\\Footsteps_Tiles (2)_3CADDE39.wem"
        },
        {
         "Id": "1000609632",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (1).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (1)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (1)_3CADDE39.wem"
        },
        {
         "Id": "1003942439",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (8).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (8)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (8)_3CADDE39.wem"
        },
        {
         "Id": "1026889357",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\Rug\\Footsteps_Rug-004.wav",
-        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-004_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\Rug\\Footsteps_Rug-004_3CADDE39.wem"
        },
        {
         "Id": "1027573991",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (5).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (5)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Rubber\\Footsteps_Rubber (5)_3CADDE39.wem"
        },
        {
         "Id": "1031094404",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (7).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (7)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (7)_3CADDE39.wem"
        },
        {
         "Id": "1038672744",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (4).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (4)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Wood\\Footsteps_Wood (4)_3CADDE39.wem"
        },
        {
         "Id": "1046232197",
         "Language": "SFX",
         "ShortName": "Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (2).wav",
-        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (2)_3F75BDB9.wem"
+        "Path": "SFX\\Player\\Footsteps\\LuddesFotsteg\\Lino\\Footsteps_Linoleum (2)_3CADDE39.wem"
        }
       ],
       "DefaultSwitchValue": "{9A83165F-A0DD-47EB-9147-626FAE542D5E}",
@@ -2146,10 +2381,28 @@
       ],
       "AuxBusSends": [
        {
-        "Id": "1756167208",
-        "Name": "StairCase",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\Rooms\\StairCase",
-        "GUID": "{5AE598B5-A1D8-4B29-B452-C00FE7D54256}"
+        "Id": "187046019",
+        "Name": "LargeRoom",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\LargeRoom",
+        "GUID": "{AFFD7AA1-69B7-468B-873E-C21A590E8C74}"
+       },
+       {
+        "Id": "1245295233",
+        "Name": "MediumRoom",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\MediumRoom",
+        "GUID": "{F1E9EC70-6AF6-4C4A-9BD0-BE183FE61FC7}"
+       },
+       {
+        "Id": "1847104687",
+        "Name": "DreamRoom",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\DreamRoom",
+        "GUID": "{400F7CF9-0318-4A62-925F-D787F3F9BB6E}"
+       },
+       {
+        "Id": "2933838247",
+        "Name": "SmallRoom",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Master\\MainINgame\\Rooms\\SmallRoom",
+        "GUID": "{52EE55A3-806A-4149-BA6D-10AEC2CB1286}"
        }
       ]
      },
@@ -2169,6 +2422,32 @@
         "Path": "SFX\\Test\\Bantam_3F75BDB9.wem"
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "47720232",
+      "Name": "RevAux_Dream_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Dream_Room",
+      "GUID": "{B555B2A2-2041-442E-935A-11E6391D929A}"
+     },
+     {
+      "Id": "2342113436",
+      "Name": "RevAux_Large_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Large_Room",
+      "GUID": "{DBE2056E-0847-43EE-A528-2254377444F4}"
+     },
+     {
+      "Id": "2971952786",
+      "Name": "RevAux_Medium_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Medium_Room",
+      "GUID": "{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"
+     },
+     {
+      "Id": "2987812640",
+      "Name": "RevAux_Small_Room",
+      "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Small_Room",
+      "GUID": "{3942A380-EAAD-450A-8833-6DC605F2422A}"
      }
     ],
     "SwitchGroups": [
@@ -2292,201 +2571,16 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "1134249060",
+    "Hash": "762103639",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
     "IncludedEvents": [
      {
-      "Id": "3995126365",
-      "Name": "Play_Di_Hub_A1_S3",
-      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S3",
-      "GUID": "{A449762F-D754-4A12-B2DE-753FD87FF80E}",
-      "DurationType": "OneShot",
-      "DurationMin": "7.49",
-      "DurationMax": "7.49",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "191906222",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S3.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S3_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
-      ]
-     },
-     {
-      "Id": "3995126362",
-      "Name": "Play_Di_Hub_A1_S4",
-      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S4",
-      "GUID": "{805019BB-7ECD-4636-9685-7D5F8FFF841C}",
-      "DurationType": "OneShot",
-      "DurationMin": "5.879047",
-      "DurationMax": "5.879047",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "671378646",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S4.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S4_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
-      ]
-     },
-     {
-      "Id": "3995126363",
-      "Name": "Play_Di_Hub_A1_S5",
-      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S5",
-      "GUID": "{7C3147BA-3065-4A30-B4C8-CC56CD66DCDC}",
-      "DurationType": "OneShot",
-      "DurationMin": "3.901678",
-      "DurationMax": "3.901678",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "121317476",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S5.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S5_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
-      ]
-     },
-     {
-      "Id": "3995126360",
-      "Name": "Play_Di_Hub_A1_S6",
-      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S6",
-      "GUID": "{68D9E7AA-5CE2-4FD7-B96A-CED1BF820E22}",
-      "DurationType": "OneShot",
-      "DurationMin": "2.729887",
-      "DurationMax": "2.729887",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "493278628",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S6.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S6_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
-      ]
-     },
-     {
-      "Id": "3995126361",
-      "Name": "Play_Di_Hub_A1_S7",
-      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_Di_Hub_A1_S7",
-      "GUID": "{CB468FB4-F07D-495B-8B44-00AF170DBF26}",
-      "DurationType": "OneShot",
-      "DurationMin": "2.465896",
-      "DurationMax": "2.465896",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "546768705",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S7.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S7_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
-      ]
-     },
-     {
-      "Id": "495780877",
-      "Name": "Play_Di_OldLady_A1_S1",
-      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Di_OldLady_A1_S1",
-      "GUID": "{37EFD383-BAD0-4DF3-B80D-B7263791437C}",
-      "MaxAttenuation": "0.",
-      "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
-     },
-     {
-      "Id": "1763705084",
-      "Name": "Play_DiRunner_A1_S13",
-      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_DiRunner_A1_S13",
-      "GUID": "{8A72B67B-B823-4A4C-A208-95B124532FF5}",
-      "DurationType": "OneShot",
-      "DurationMin": "4.57619",
-      "DurationMax": "4.57619",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "106776280",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Runner\\Emilia_A1_S13.wav",
-        "Path": "SFX\\Dialogue\\Runner\\Emilia_A1_S13_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
-      ]
-     },
-     {
-      "Id": "1763705083",
-      "Name": "Play_DiRunner_A1_S14",
-      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_DiRunner_A1_S14",
-      "GUID": "{0C801580-269B-4BD7-8CB8-83E93BA0241E}",
-      "DurationType": "OneShot",
-      "DurationMin": "4.229932",
-      "DurationMax": "4.229932",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "1049815376",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Runner\\Emilia_A1_S14.wav",
-        "Path": "SFX\\Dialogue\\Runner\\Emilia_A1_S14_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
-      ]
-     },
-     {
-      "Id": "3983170265",
-      "Name": "Play_DiThug_A1_S10",
-      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S10",
-      "GUID": "{0DD69659-3019-4F8B-B558-77BD720DC26A}",
+      "Id": "2055928980",
+      "Name": "Play_BigThug_A1_S10",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A1_S10",
+      "GUID": "{1BDDF934-A5AB-4A11-B556-5C36678951DD}",
       "DurationType": "OneShot",
       "DurationMin": "1.989138",
       "DurationMax": "1.989138",
@@ -2508,10 +2602,10 @@
       ]
      },
      {
-      "Id": "3983170264",
-      "Name": "Play_DiThug_A1_S11",
-      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S11",
-      "GUID": "{BC3C0884-2F58-4568-88FF-5F2FA1D729F0}",
+      "Id": "2055928981",
+      "Name": "Play_BigThug_A1_S11",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A1_S11",
+      "GUID": "{2E39E0EC-50E4-4E2C-9CC8-965EF89455CF}",
       "DurationType": "OneShot",
       "DurationMin": "2.269955",
       "DurationMax": "2.269955",
@@ -2533,10 +2627,10 @@
       ]
      },
      {
-      "Id": "614117056",
-      "Name": "Play_DiThug_A1_S11_5",
-      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S11_5",
-      "GUID": "{EB9A3224-4F96-470C-86B7-9F9FA084C662}",
+      "Id": "3616211269",
+      "Name": "Play_BigThug_A1_S11_5",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A1_S11_5",
+      "GUID": "{D38494B5-8C1A-418C-9D4C-F55DFECD9868}",
       "DurationType": "OneShot",
       "DurationMin": "3.28483",
       "DurationMax": "3.28483",
@@ -2558,10 +2652,10 @@
       ]
      },
      {
-      "Id": "3983170267",
-      "Name": "Play_DiThug_A1_S12",
-      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S12",
-      "GUID": "{2DED3D4A-B42A-4CD4-BD5C-B4A9A865D21B}",
+      "Id": "2055928982",
+      "Name": "Play_BigThug_A1_S12",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A1_S12",
+      "GUID": "{3AAB43D9-3281-45DF-87DF-29411F6B7946}",
       "DurationType": "OneShot",
       "DurationMin": "4.408549",
       "DurationMax": "4.408549",
@@ -2583,10 +2677,10 @@
       ]
      },
      {
-      "Id": "2726752020",
-      "Name": "Play_DiThug_A1_S6",
-      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S6",
-      "GUID": "{F8376DDB-EBE1-4F11-8719-E09F34364255}",
+      "Id": "87197515",
+      "Name": "Play_BigThug_A1_S6",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A1_S6",
+      "GUID": "{27199B46-0EFA-40F8-811C-8F9DFC002D13}",
       "DurationType": "OneShot",
       "DurationMin": "10.19839",
       "DurationMax": "10.19839",
@@ -2608,10 +2702,10 @@
       ]
      },
      {
-      "Id": "2726752027",
-      "Name": "Play_DiThug_A1_S9",
-      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_DiThug_A1_S9",
-      "GUID": "{A66215B7-5BEA-4929-A283-796AD8676D2C}",
+      "Id": "87197508",
+      "Name": "Play_BigThug_A1_S9",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A1_S9",
+      "GUID": "{CB44CA0B-F9ED-4113-8AD1-86F876E2A1F9}",
       "DurationType": "OneShot",
       "DurationMin": "2.492041",
       "DurationMax": "2.492041",
@@ -2621,6 +2715,881 @@
         "Language": "SFX",
         "ShortName": "Dialogue\\Thug\\BigThug_A1_S9.wav",
         "Path": "SFX\\Dialogue\\Thug\\BigThug_A1_S9_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1909178394",
+      "Name": "Play_BigThug_A2_S19",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A2_S19",
+      "GUID": "{E1201187-FABE-4A08-AAA0-8259E14E32F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.998526",
+      "DurationMax": "3.998526",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "950371119",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A2_S19.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S19_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "3847343766",
+      "Name": "Play_BigThug_A2_S19_5",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A2_S19_5",
+      "GUID": "{D59C8491-E91A-4462-97E5-CBB310303BCC}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.425692",
+      "DurationMax": "2.425692",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1067974549",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A2_S19.5.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S19.5_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1925955974",
+      "Name": "Play_BigThug_A2_S20",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A2_S20",
+      "GUID": "{6067DCB1-204A-4C8F-8F8B-28B9822F0E16}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.551315",
+      "DurationMax": "4.551315",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "247822323",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A2_S20.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S20_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1925955975",
+      "Name": "Play_BigThug_A2_S21",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A2_S21",
+      "GUID": "{22CDC92C-B998-4F61-A5DE-F71CA408D52D}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.845669",
+      "DurationMax": "3.845669",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "862454697",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A2_S21.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S21_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "2466603978",
+      "Name": "Play_BigThug_A2_S21_5_Hammertime_",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A2_S21_5_Hammertime_",
+      "GUID": "{5F0C3C07-0A0A-4211-8869-8C3F4B19DB9F}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.888889",
+      "DurationMax": "1.888889",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "599699598",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A2_S21.5(Hammertime).wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S21.5(Hammertime)_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1925955972",
+      "Name": "Play_BigThug_A2_S22",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A2_S22",
+      "GUID": "{FC8B3CD0-F3FC-4FC5-A3C7-5CEB52F1A040}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.890771",
+      "DurationMax": "4.890771",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "539021221",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A2_S22.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S22_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1925955973",
+      "Name": "Play_BigThug_A2_S23",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A2_S23",
+      "GUID": "{5E04A8CC-4026-4481-9B15-92896A186697}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.601315",
+      "DurationMax": "6.601315",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "794230063",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A2_S23.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S23_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1925955970",
+      "Name": "Play_BigThug_A2_S24",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A2_S24",
+      "GUID": "{B89082CB-563B-4F70-A2A7-DED49B81A742}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.248753",
+      "DurationMax": "6.248753",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "201497735",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A2_S24.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S24_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "3249674541",
+      "Name": "Play_BigThug_A3_S35",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A3_S35",
+      "GUID": "{00E8E351-0B14-4B33-8A69-D2AD5124F285}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.787597",
+      "DurationMax": "8.787597",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "429133083",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A3_S35.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A3_S35_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "3249674542",
+      "Name": "Play_BigThug_A3_S36",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A3_S36",
+      "GUID": "{0A4FB3AE-30AA-4342-986D-1759A97ABF3D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.209184",
+      "DurationMax": "2.209184",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "960655934",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A3_S36.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A3_S36_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "3765636396",
+      "Name": "Play_Emilia_A1_S13",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A1_S13",
+      "GUID": "{61A424C8-8DFA-4DBC-87B5-AB8910CF4915}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.57619",
+      "DurationMax": "4.57619",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "106776280",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A1_S13.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A1_S13_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "3765636395",
+      "Name": "Play_Emilia_A1_S14",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A1_S14",
+      "GUID": "{3B023180-ECE7-42E8-BD9E-2EC606FEACF7}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.229932",
+      "DurationMax": "4.229932",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1049815376",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A1_S14.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A1_S14_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "3765636394",
+      "Name": "Play_Emilia_A1_S15",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A1_S15",
+      "GUID": "{704A8FD9-BEDD-4377-B2F2-A7294C274444}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.944331",
+      "DurationMax": "2.944331",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "221138493",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A1_S15.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A1_S15_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "2644529260",
+      "Name": "Play_Emilia_A2_S25",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A2_S25",
+      "GUID": "{06CA60DD-4A53-4301-9CEC-3B9AD9F5AB9F}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.072018",
+      "DurationMax": "11.072018",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "654457862",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A2_S25.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A2_S25_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "2644529263",
+      "Name": "Play_Emilia_A2_S26",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A2_S26",
+      "GUID": "{448BD9A8-486B-4CC9-8358-42ACF03F9950}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.860431",
+      "DurationMax": "10.860431",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "991790627",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A2_S26.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A2_S26_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "2644529262",
+      "Name": "Play_Emilia_A2_S27",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A2_S27",
+      "GUID": "{DC7F9783-5A88-413C-BBCF-598ED9E5D449}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.122018",
+      "DurationMax": "1.122018",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "814260606",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A2_S27.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A2_S27_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "2644529249",
+      "Name": "Play_Emilia_A2_S28",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A2_S28",
+      "GUID": "{4D1ACA91-CDAA-4458-BDE9-271D3864F79D}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.571315",
+      "DurationMax": "3.571315",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1012396417",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A2_S28.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A2_S28_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "2644529248",
+      "Name": "Play_Emilia_A2_S29",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A2_S29",
+      "GUID": "{4F2D6379-B41C-4847-93AD-3ABB85AD5528}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.127846",
+      "DurationMax": "2.127846",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "112523308",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A2_S29.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A2_S29_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "2627751671",
+      "Name": "Play_Emilia_A2_S31",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A2_S31",
+      "GUID": "{6B9A0AE0-CBC4-410D-9655-6EF54E77E91F}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.931156",
+      "DurationMax": "8.931156",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "463905607",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A2_S31.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A2_S31_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "352125383",
+      "Name": "Play_Emilia_A3_S38",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A3_S38",
+      "GUID": "{BABAC9F8-D718-4108-8D32-5F9467989BFA}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.307755",
+      "DurationMax": "5.307755",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "772320959",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A3_S38.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A3_S38_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "352125382",
+      "Name": "Play_Emilia_A3_S39",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A3_S39",
+      "GUID": "{D36528E8-FE65-48E6-B3DE-24488D27A24E}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.329842",
+      "DurationMax": "11.329842",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "65010175",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A3_S39.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A3_S39_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "301792630",
+      "Name": "Play_Emilia_A3_S40",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A3_S40",
+      "GUID": "{272AB06C-1DAB-4497-ABDA-84A9883634A5}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.461542",
+      "DurationMax": "2.461542",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "681065430",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A3_S40.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A3_S40_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "223754490",
+      "Name": "Play_Emilia_S2_A30",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_S2_A30",
+      "GUID": "{A55260CD-6329-4977-A10F-A3826D425B8E}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.956802",
+      "DurationMax": "11.956802",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "278447361",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_S2_A30.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_S2_A30_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1118411503",
+      "Name": "Play_PoliceHub_A1_S3",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A1_S3",
+      "GUID": "{DBDFB023-B576-473C-AC05-E745AFE0F0AE}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.49",
+      "DurationMax": "7.49",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "191906222",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S3.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S3_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1118411496",
+      "Name": "Play_PoliceHub_A1_S4",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A1_S4",
+      "GUID": "{2B197C8A-C155-41CA-9973-E44E3FA4172E}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.879047",
+      "DurationMax": "5.879047",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "671378646",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S4.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S4_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1118411497",
+      "Name": "Play_PoliceHub_A1_S5",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A1_S5",
+      "GUID": "{0B23316B-0C59-48AD-A217-77E066927931}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.901678",
+      "DurationMax": "3.901678",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "121317476",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S5.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S5_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1118411498",
+      "Name": "Play_PoliceHub_A1_S6",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A1_S6",
+      "GUID": "{0992D732-0BC3-475F-B33E-0FFE0182EAE8}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.729887",
+      "DurationMax": "2.729887",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "493278628",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S6.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S6_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1118411499",
+      "Name": "Play_PoliceHub_A1_S7",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A1_S7",
+      "GUID": "{3AC5F319-5670-489C-946B-BFC5D93A1C33}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.465896",
+      "DurationMax": "2.465896",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "546768705",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S7.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S7_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1783234309",
+      "Name": "Play_Sigifrit_A1_S16",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S16",
+      "GUID": "{7EE5EA54-1515-4A2F-87EF-8888907EAA33}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.488027",
+      "DurationMax": "4.488027",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "939100521",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A1_S16.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A1_S16_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1783234308",
+      "Name": "Play_Sigifrit_A1_S17",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S17",
+      "GUID": "{0348E77D-9379-41F0-A99F-5461A0CBD660}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.242199",
+      "DurationMax": "5.242199",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "706244558",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A1_S17.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A1_S17_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1155578380",
+      "Name": "Play_Sigifrit_A3_S32_",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A3_S32_",
+      "GUID": "{D126DF2F-5070-406B-982B-2DD76489B5E4}",
+      "DurationType": "OneShot",
+      "DurationMin": "14.818458",
+      "DurationMax": "14.818458",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "8756383",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A3_S32-.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A3_S32-_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "522378304",
+      "Name": "Play_Sigifrit_A3_S33",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A3_S33",
+      "GUID": "{6731769B-B151-49FD-AC01-9C762FC31C71}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.764626",
+      "DurationMax": "9.764626",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "993263354",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A3_S33.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A3_S33_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "606266467",
+      "Name": "Play_Sigifrit_A3_S41",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A3_S41",
+      "GUID": "{F23FE4FC-591D-4965-9AF9-8ABB3067D6CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.418481",
+      "DurationMax": "3.418481",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "579450600",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A3_S41.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A3_S41_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "606266464",
+      "Name": "Play_Sigifrit_A3_S42",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A3_S42",
+      "GUID": "{41D06A63-B5D2-44A7-AEFF-CB34445B2BD6}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.259116",
+      "DurationMax": "2.259116",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "162614556",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A3_S42.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A3_S42_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "606266470",
+      "Name": "Play_Sigifrit_A3_S44",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A3_S44",
+      "GUID": "{C6BC8AD8-B86A-4812-BB86-DD81B63554BD}",
+      "DurationType": "OneShot",
+      "DurationMin": "14.611632",
+      "DurationMax": "14.611632",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "253054154",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A3_S44.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A3_S44_3CADDE39.wem"
        }
       ],
       "ActionPostEvent": [
@@ -2648,7 +3617,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "599042490",
+    "Hash": "2740476456",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -3113,22 +4082,16 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
+        "Id": "1506673",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KeyItemStinger.wav",
+        "Path": "SFX\\Music\\OldLady\\KeyItemStinger_9EDFC787.wem"
+       },
+       {
         "Id": "112581485",
         "Language": "SFX",
         "ShortName": "Music\\OldLady\\AmbiGhostStinger-003.wav",
         "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-003_9EDFC787.wem"
-       },
-       {
-        "Id": "173370905",
-        "Language": "SFX",
-        "ShortName": "Music\\OldLady\\AmbiPianoStinger-002.wav",
-        "Path": "SFX\\Music\\OldLady\\AmbiPianoStinger-002_9EDFC787.wem"
-       },
-       {
-        "Id": "462796641",
-        "Language": "SFX",
-        "ShortName": "Music\\OldLady\\AmbiPianoStinger-003.wav",
-        "Path": "SFX\\Music\\OldLady\\AmbiPianoStinger-003_9EDFC787.wem"
        },
        {
         "Id": "630468742",
@@ -3137,22 +4100,10 @@
         "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-001_9EDFC787.wem"
        },
        {
-        "Id": "776105822",
-        "Language": "SFX",
-        "ShortName": "Music\\OldLady\\AmbiPianoStinger-004.wav",
-        "Path": "SFX\\Music\\OldLady\\AmbiPianoStinger-004_9EDFC787.wem"
-       },
-       {
         "Id": "831688287",
         "Language": "SFX",
         "ShortName": "Music\\OldLady\\AmbiGhostStinger-002.wav",
         "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-002_9EDFC787.wem"
-       },
-       {
-        "Id": "925984506",
-        "Language": "SFX",
-        "ShortName": "Music\\OldLady\\AmbiPianoStinger-001.wav",
-        "Path": "SFX\\Music\\OldLady\\AmbiPianoStinger-001_9EDFC787.wem"
        },
        {
         "Id": "929162355",
@@ -3213,10 +4164,117 @@
       "Name": "Play_Stop_OldLady",
       "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_OldLady",
       "GUID": "{278243EB-BD65-4307-BCA0-02B61869922A}",
-      "MaxAttenuation": "0.",
-      "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1506673",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KeyItemStinger.wav",
+        "Path": "SFX\\Music\\OldLady\\KeyItemStinger_9EDFC787.wem"
+       },
+       {
+        "Id": "53033174",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-001.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-001_9EDFC787.wem"
+       },
+       {
+        "Id": "112581485",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\AmbiGhostStinger-003.wav",
+        "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-003_9EDFC787.wem"
+       },
+       {
+        "Id": "259785673",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-001.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-001_9EDFC787.wem"
+       },
+       {
+        "Id": "338010396",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-005.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-005_9EDFC787.wem"
+       },
+       {
+        "Id": "436433310",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-004.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-004_9EDFC787.wem"
+       },
+       {
+        "Id": "461225173",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-002.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-002_9EDFC787.wem"
+       },
+       {
+        "Id": "586083000",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-003.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-003_9EDFC787.wem"
+       },
+       {
+        "Id": "630468742",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\AmbiGhostStinger-001.wav",
+        "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-001_9EDFC787.wem"
+       },
+       {
+        "Id": "831688287",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\AmbiGhostStinger-002.wav",
+        "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-002_9EDFC787.wem"
+       },
+       {
+        "Id": "891722214",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\kontrabas master-005.wav",
+        "Path": "SFX\\Music\\OldLady\\kontrabas master-005_9EDFC787.wem"
+       },
+       {
+        "Id": "929162355",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\OldLady Ambi2 100bpm.wav",
+        "Path": "SFX\\Music\\OldLady\\OldLady Ambi2 100bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "934320070",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\OldLady Ambi1 100bpm.wav",
+        "Path": "SFX\\Music\\OldLady\\OldLady Ambi1 100bpm_9EDFC787.wem"
+       },
+       {
+        "Id": "948744776",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-002.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-002_9EDFC787.wem"
+       },
+       {
+        "Id": "964639863",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-004.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-004_9EDFC787.wem"
+       },
+       {
+        "Id": "1050294060",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\KlarinettStingers-003.wav",
+        "Path": "SFX\\Music\\OldLady\\KlarinettStingers-003_9EDFC787.wem"
+       },
+       {
+        "Id": "1051834861",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\AmbiGhostStinger-004.wav",
+        "Path": "SFX\\Music\\OldLady\\AmbiGhostStinger-004_9EDFC787.wem"
+       },
+       {
+        "Id": "1067109446",
+        "Language": "SFX",
+        "ShortName": "Music\\OldLady\\OldLady Ambi3 100bpm.wav",
+        "Path": "SFX\\Music\\OldLady\\OldLady Ambi3 100bpm_9EDFC787.wem"
+       }
+      ]
      },
      {
       "Id": "75935907",
@@ -3350,11 +4408,46 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "1393407345",
+    "Hash": "92471075",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
     "IncludedEvents": [
+     {
+      "Id": "235917819",
+      "Name": "Metal_Lever",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Metal_Lever",
+      "GUID": "{FEF52EB0-33FD-4C5D-B8A1-F862A93E1A9C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.464286",
+      "DurationMax": "1.950884",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "295671336",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever3.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever3_3CADDE39.wem"
+       },
+       {
+        "Id": "426273947",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever4.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever4_3CADDE39.wem"
+       },
+       {
+        "Id": "715212057",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever2.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever2_3CADDE39.wem"
+       },
+       {
+        "Id": "1066064421",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever_3CADDE39.wem"
+       }
+      ]
+     },
      {
       "Id": "754001494",
       "Name": "Play_AB_Fire",
@@ -3430,6 +4523,53 @@
       ]
      },
      {
+      "Id": "3114179205",
+      "Name": "Play_Coin",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_Coin",
+      "GUID": "{485602A8-3A3A-42FB-8619-618456F906CF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.308027",
+      "DurationMax": "0.91517",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "95709854",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (6).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (6)_3CADDE39.wem"
+       },
+       {
+        "Id": "193894447",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (2).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (2)_3CADDE39.wem"
+       },
+       {
+        "Id": "242004418",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (3).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (3)_3CADDE39.wem"
+       },
+       {
+        "Id": "328923765",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (1).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (1)_3CADDE39.wem"
+       },
+       {
+        "Id": "397894969",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (4).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (4)_3CADDE39.wem"
+       },
+       {
+        "Id": "736243371",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\Coin\\Coin (5).wav",
+        "Path": "SFX\\Interactables\\Global\\Coin\\Coin (5)_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "3824929594",
       "Name": "Play_DoorKnob",
       "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_DoorKnob",
@@ -3467,6 +4607,41 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Global\\DoorKnob\\DoorKnob (5).wav",
         "Path": "SFX\\Interactables\\Global\\DoorKnob\\DoorKnob (5)_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4269214404",
+      "Name": "Play_DoorLocked",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_DoorLocked",
+      "GUID": "{F8FEBE59-66D8-45F5-A5F2-0C4551D1DCD0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.375011",
+      "DurationMax": "5.160726",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "349892675",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorLocked\\Door_Locked - Track 1.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorLocked\\Door_Locked - Track 1_3CADDE39.wem"
+       },
+       {
+        "Id": "878224585",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorLocked\\Door_Locked - Track 4.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorLocked\\Door_Locked - Track 4_3CADDE39.wem"
+       },
+       {
+        "Id": "990849716",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorLocked\\Door_Locked - Track 3.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorLocked\\Door_Locked - Track 3_3CADDE39.wem"
+       },
+       {
+        "Id": "1072373072",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorLocked\\Door_Locked - Track 2.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorLocked\\Door_Locked - Track 2_3CADDE39.wem"
        }
       ]
      },
@@ -3682,6 +4857,35 @@
       ]
      },
      {
+      "Id": "1301152502",
+      "Name": "Play_Pick_Up_Puzzle",
+      "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_Pick_Up_Puzzle",
+      "GUID": "{12E826DD-7A96-40EE-9D1E-7BCEA37C8A47}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.486599",
+      "DurationMax": "0.491066",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "12088662",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle2.wav",
+        "Path": "SFX\\Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle2_3CADDE39.wem"
+       },
+       {
+        "Id": "41336121",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle3.wav",
+        "Path": "SFX\\Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle3_3CADDE39.wem"
+       },
+       {
+        "Id": "589598096",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle.wav",
+        "Path": "SFX\\Interactables\\OldLady\\Pick_Up_Puzzle\\Pick_Up_Puzzle_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "1457025123",
       "Name": "Play_PickUpPapper_Close",
       "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_PickUpPapper_Close",
@@ -3729,6 +4933,23 @@
         "Language": "SFX",
         "ShortName": "Interactables\\OldLady\\PickUpPapper\\Book_Read.wav",
         "Path": "SFX\\Interactables\\OldLady\\PickUpPapper\\Book_Read_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "113756532",
+      "Name": "Play_Power_house",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Play_Power_house",
+      "GUID": "{6409EE72-4377-4D85-8CA3-89F22A0264AC}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.866077",
+      "DurationMax": "6.866077",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "600265671",
+        "Language": "SFX",
+        "ShortName": "Electric_Powerhouse.wav",
+        "Path": "SFX\\Electric_Powerhouse_3CADDE39.wem"
        }
       ]
      },

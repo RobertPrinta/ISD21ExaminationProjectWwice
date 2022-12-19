@@ -4,6 +4,28 @@
 		<WorkUnit Name="INThug" ID="{129698BD-B9BE-4213-8D70-198E7B034F6F}" OwnerID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" PersistMode="Nested">
 			<ChildrenList>
 				<WorkUnit Name="Large washing machine" ID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}" PersistMode="Reference"/>
+				<Event Name="Play_Power_house" ID="{6409EE72-4377-4D85-8CA3-89F22A0264AC}">
+					<ChildrenList>
+						<Action Name="" ID="{01948E04-54A4-462D-B99C-984F9A8089E4}" ShortID="160695711">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Power_house3D" ID="{9BE3F5D3-419D-4699-B6FC-C3F5EF99FA00}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Metal_Lever" ID="{FEF52EB0-33FD-4C5D-B8A1-F862A93E1A9C}">
+					<ChildrenList>
+						<Action Name="" ID="{8EC52078-A2A2-4848-82E9-89571411994F}" ShortID="60148914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal_Lever" ID="{196956C0-C7D7-4F12-8A3F-F95D2B88E6C9}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
