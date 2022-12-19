@@ -904,6 +904,12 @@
 													<ItemRef Name="AB_Bumblebee_Sequence" ID="{8C483028-B597-4691-96FB-6F9F8F0D0A58}"/>
 												</ItemList>
 											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
+												<ItemList>
+													<ItemRef Name="AB_RoomType" ID="{80F72CB5-9909-49A5-AA10-98987237C684}"/>
+												</ItemList>
+											</Grouping>
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>

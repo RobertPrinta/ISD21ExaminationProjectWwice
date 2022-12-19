@@ -129,7 +129,7 @@
 						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 						<CurrentSwitchRef Name="Runner" ID="{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"/>
-						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+						<CurrentSwitchRef Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Event fotsteps and music" ID="{BF940280-887A-4CC3-B586-64D539219D00}">
