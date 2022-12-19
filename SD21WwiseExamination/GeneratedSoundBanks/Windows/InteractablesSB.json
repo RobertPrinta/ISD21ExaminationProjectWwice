@@ -16,7 +16,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "1063548654",
+    "Hash": "793142346",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -61,7 +61,7 @@
       "Name": "Play_AB_Fire",
       "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_AB_Fire",
       "GUID": "{46A5130E-C679-4A71-94C1-0EE5F8681C62}",
-      "MaxAttenuation": "500.",
+      "MaxAttenuation": "800.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -95,7 +95,7 @@
       "Name": "Play_AB_Start_Fire",
       "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_AB_Start_Fire",
       "GUID": "{3B99ED3E-979C-4918-BF6E-2DA4BDC1B417}",
-      "MaxAttenuation": "500.",
+      "MaxAttenuation": "800.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
