@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -28,7 +28,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="1775309052">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="1016220837">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
@@ -41,7 +41,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="283671523" Name="Play_AB_City_Traffic_From_Closed_Window_3D_LP" ObjectPath="\Events\Ambience\AB_Global\Play_AB_City_Traffic_From_Closed_Window_3D_LP" GUID="{14328778-62E0-4BD3-B385-6A8D1E92DE23}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="283671523" Name="Play_AB_City_Traffic_From_Closed_Window_3D_LP" ObjectPath="\Events\Ambience\AB_Global\Play_AB_City_Traffic_From_Closed_Window_3D_LP" GUID="{14328778-62E0-4BD3-B385-6A8D1E92DE23}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="499956017" Language="SFX">
 							<ShortName>Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D.wav</ShortName>
@@ -81,7 +81,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4164283174" Name="Play_AB_Dream_Machine_Heart_Monitor_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Dream_Machine_Heart_Monitor_3D_LP" GUID="{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}" MaxAttenuation="500." DurationType="OneShot" DurationMin="23.711632" DurationMax="23.711632">
+				<Event Id="4164283174" Name="Play_AB_Dream_Machine_Heart_Monitor_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Dream_Machine_Heart_Monitor_3D_LP" GUID="{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="23.711632" DurationMax="23.711632">
 					<IncludedMemoryFiles>
 						<File Id="71120849" Language="SFX">
 							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor1_3D.wav</ShortName>
@@ -101,7 +101,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2665610752" Name="Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP" ObjectPath="\Events\Ambience\Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP" GUID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="2665610752" Name="Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP" ObjectPath="\Events\Ambience\Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP" GUID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="366061825" Language="SFX">
 							<ShortName>Ambience\3D\Electricity_Buzz_3D.wav</ShortName>
@@ -109,7 +109,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2045602548" Name="Play_AB_Low_Electricity_Hum_3D_LP" ObjectPath="\Events\Ambience\Play_AB_Low_Electricity_Hum_3D_LP" GUID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="2045602548" Name="Play_AB_Low_Electricity_Hum_3D_LP" ObjectPath="\Events\Ambience\Play_AB_Low_Electricity_Hum_3D_LP" GUID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="727441782" Language="SFX">
 							<ShortName>Ambience\3D\Electricity_Hum_3D.wav</ShortName>
@@ -117,7 +117,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="551936010" Name="Play_AB_Muffled_Conversation_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Muffled_Conversation_3D_LP" GUID="{DFE0F374-3A9C-44F4-B823-8550FF58D6F8}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="551936010" Name="Play_AB_Muffled_Conversation_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Muffled_Conversation_3D_LP" GUID="{DFE0F374-3A9C-44F4-B823-8550FF58D6F8}" MaxAttenuation="1500." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="243268854" Language="SFX">
 							<ShortName>Ambience\3D\AB_Muffled_Conversation_Behind_Door_3D.wav</ShortName>
@@ -125,7 +125,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="3091111681" Name="Play_AB_Police_Radio_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Police_Radio_3D_LP" GUID="{0D7B7959-970D-4117-B167-E6B1F5C5EF68}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="3091111681" Name="Play_AB_Police_Radio_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Police_Radio_3D_LP" GUID="{0D7B7959-970D-4117-B167-E6B1F5C5EF68}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="65348091" Language="SFX">
 							<ShortName>Ambience\3D\AB_Police_Radio_Event_1_3D.wav</ShortName>
@@ -145,7 +145,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="177886096" Name="Play_AB_Rain_From_Closed_Window_3D_LP" ObjectPath="\Events\Ambience\AB_Global\Play_AB_Rain_From_Closed_Window_3D_LP" GUID="{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="177886096" Name="Play_AB_Rain_From_Closed_Window_3D_LP" ObjectPath="\Events\Ambience\AB_Global\Play_AB_Rain_From_Closed_Window_3D_LP" GUID="{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="499956017" Language="SFX">
 							<ShortName>Ambience\3D\AB_City_Traffic_From_Closed_Window_2_3D.wav</ShortName>
@@ -161,7 +161,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2669816892" Name="Play_AB_Watercooler_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Watercooler_3D_LP" GUID="{7A7F0205-6F60-4A4F-959F-B3636D4A5282}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="2669816892" Name="Play_AB_Watercooler_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Watercooler_3D_LP" GUID="{7A7F0205-6F60-4A4F-959F-B3636D4A5282}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="399847477" Language="SFX">
 							<ShortName>Ambience\3D\AB_Watercooler_Bubbles_2_3D.wav</ShortName>
@@ -253,7 +253,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4103040995" Name="Play_Waterpipes_3D_LP" ObjectPath="\Events\Ambience\AB_Thug_Specific\Play_Waterpipes_3D_LP" GUID="{7D19E042-BFE0-4482-A59C-540C8947AD60}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="4103040995" Name="Play_Waterpipes_3D_LP" ObjectPath="\Events\Ambience\AB_Thug_Specific\Play_Waterpipes_3D_LP" GUID="{7D19E042-BFE0-4482-A59C-540C8947AD60}" MaxAttenuation="1500." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="609642351" Language="SFX">
 							<ShortName>Ambience\3D\Waterpipes_3D.wav</ShortName>
@@ -297,7 +297,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="3650658212">
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
 			<ShortName>UiSB</ShortName>
 			<Path>UiSB.bnk</Path>
@@ -418,7 +418,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="1666175392">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -1293,7 +1293,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="762103639">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -1752,7 +1752,7 @@
 				<Event Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2740476456">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -2177,7 +2177,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="1063548654">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
@@ -2202,7 +2202,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="754001494" Name="Play_AB_Fire" ObjectPath="\Events\Interactables\INOldLady\Play_AB_Fire" GUID="{46A5130E-C679-4A71-94C1-0EE5F8681C62}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="754001494" Name="Play_AB_Fire" ObjectPath="\Events\Interactables\INOldLady\Play_AB_Fire" GUID="{46A5130E-C679-4A71-94C1-0EE5F8681C62}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="441282140" Language="SFX">
 							<ShortName>Ambience\3D\Fire_Crackle_1_3D.wav</ShortName>
@@ -2222,7 +2222,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="424593333" Name="Play_AB_Start_Fire" ObjectPath="\Events\Interactables\INOldLady\Play_AB_Start_Fire" GUID="{3B99ED3E-979C-4918-BF6E-2DA4BDC1B417}" MaxAttenuation="500." DurationType="Infinite">
+				<Event Id="424593333" Name="Play_AB_Start_Fire" ObjectPath="\Events\Interactables\INOldLady\Play_AB_Start_Fire" GUID="{3B99ED3E-979C-4918-BF6E-2DA4BDC1B417}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="441282140" Language="SFX">
 							<ShortName>Ambience\3D\Fire_Crackle_1_3D.wav</ShortName>
@@ -2572,7 +2572,7 @@
 				</Event>
 				<Event Id="936061481" Name="Play_ShelvsSliding" ObjectPath="\Events\Interactables\INHub\Play_ShelvsSliding" GUID="{473BFB67-B3B1-4454-80A0-CDEFE58F23B0}" DurationType="OneShot" DurationMin="3.485007" DurationMax="3.574714">
 					<IncludedMemoryFiles>
-						<File Id="653913186" Language="SFX">
+						<File Id="506679687" Language="SFX">
 							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping.wav</ShortName>
 							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping_4FA0C84E.wem</Path>
 						</File>
