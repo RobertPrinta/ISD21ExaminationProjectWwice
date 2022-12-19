@@ -39,6 +39,54 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_AB_Fridge_3DLP" ID="{F8C3D1D6-E6E8-40ED-8349-7DF2B2CC3A93}">
+					<ChildrenList>
+						<Action Name="" ID="{B17E3AC4-A85D-4CD5-8062-82915DD1D99D}" ShortID="720160667">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Fridge_Dripping_3D" ID="{5FBF650C-920E-48FD-998A-BFE45B2C8640}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0FFA29A8-6702-4C91-9C05-78184058BB72}" ShortID="340806017">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Fridge_Tone_3D" ID="{BDB235D3-FABF-4FE3-A037-E7ACB7F20A7E}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{655C27C5-678E-458E-A630-494778CCB7B2}" ShortID="838501752">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Electricity_Buzz_3D" ID="{0082F8DA-ACD2-487F-9A1D-3F948C08CFFB}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A0D2CE7E-F1BC-456F-8834-4F3D5FD63646}" ShortID="359325464">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AB_Waterpipes_3D" ID="{C7352DAF-3270-451A-A4BE-F39388724763}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

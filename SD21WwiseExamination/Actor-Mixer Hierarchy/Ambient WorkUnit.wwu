@@ -1728,6 +1728,11 @@
 								<Sound Name="AB_Electricity_Buzz_3D" ID="{0082F8DA-ACD2-487F-9A1D-3F948C08CFFB}" ShortID="299246369">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2406,6 +2411,11 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2973,6 +2983,69 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="AB_Ceiling_Fan_3D" ID="{DFB58B60-EC3E-4E21-9619-3F1FFB55E6FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AB_Fridge_Dripping_3D" ID="{5FBF650C-920E-48FD-998A-BFE45B2C8640}" ShortID="805857028">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AB_Fridge_Dripping_3D" ID="{2D3C0B16-C6E8-4D46-90BC-1A0E116237E7}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\3D\AB_Fridge_Dripping_3D.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="857174793"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AB_Fridge_Dripping_3D" ID="{2D3C0B16-C6E8-4D46-90BC-1A0E116237E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AB_Fridge_Tone_3D" ID="{BDB235D3-FABF-4FE3-A037-E7ACB7F20A7E}" ShortID="922294265">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AB_Fridge_Tone_3D" ID="{C7EBA65F-0B1D-4568-86BE-F50D4184F65B}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\3D\AB_Fridge_Tone_3D.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="250477639"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AB_Fridge_Tone_3D" ID="{C7EBA65F-0B1D-4568-86BE-F50D4184F65B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
