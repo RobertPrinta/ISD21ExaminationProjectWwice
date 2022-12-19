@@ -26,6 +26,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Sledgehammer_Pickup" ID="{4D7D1925-6296-4DF1-AA85-F6A6244CD657}">
+					<ChildrenList>
+						<Action Name="" ID="{49A5F104-CE45-4DB0-B0B9-482F92338012}" ShortID="421845508">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sledgehammer_Pickup" ID="{F9A19D2D-ED3B-441E-B3CF-7B1348B159DF}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sledgehammer_Breakwall" ID="{66F8C72A-98C9-449A-8E20-029FC200C4D8}">
+					<ChildrenList>
+						<Action Name="" ID="{977BB928-D359-4583-ABAE-1D9A17FA9F0D}" ShortID="557885388">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sledgehammer_Breakwall" ID="{93ED0039-25C8-4C6D-BA62-9054836186E6}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fuse_Box" ID="{7480433D-9EA1-4881-A935-B49473B8E49F}">
+					<ChildrenList>
+						<Action Name="" ID="{DFB44A3E-4E7A-43EA-B6F8-871345408C97}" ShortID="647101473">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuse_Box" ID="{C9AD4E6C-F329-409D-99D7-17CABA42915A}" WorkUnitID="{B9E06489-E9A9-478B-BBFF-9F980BDFC6D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

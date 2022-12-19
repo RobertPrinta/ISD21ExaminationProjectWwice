@@ -16,7 +16,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "793142346",
+    "Hash": "430956911",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -57,11 +57,21 @@
       ]
      },
      {
+      "Id": "3050945240",
+      "Name": "New_Event",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\New_Event",
+      "GUID": "{D06C9E50-CD86-4BD5-A541-FB069F2EFC89}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
       "Id": "754001494",
       "Name": "Play_AB_Fire",
       "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_AB_Fire",
       "GUID": "{46A5130E-C679-4A71-94C1-0EE5F8681C62}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -95,7 +105,7 @@
       "Name": "Play_AB_Start_Fire",
       "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_AB_Start_Fire",
       "GUID": "{3B99ED3E-979C-4918-BF6E-2DA4BDC1B417}",
-      "MaxAttenuation": "800.",
+      "MaxAttenuation": "1500.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -180,7 +190,7 @@
      {
       "Id": "3824929594",
       "Name": "Play_DoorKnob",
-      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_DoorKnob",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Doors\\Play_DoorKnob",
       "GUID": "{6CA41CA2-2575-4273-954D-7FF26EFAD443}",
       "DurationType": "OneShot",
       "DurationMin": "0.433039",
@@ -221,7 +231,7 @@
      {
       "Id": "4269214404",
       "Name": "Play_DoorLocked",
-      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_DoorLocked",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Doors\\Play_DoorLocked",
       "GUID": "{F8FEBE59-66D8-45F5-A5F2-0C4551D1DCD0}",
       "DurationType": "OneShot",
       "DurationMin": "0.375011",
@@ -250,6 +260,74 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Global\\DoorLocked\\Door_Locked - Track 2.wav",
         "Path": "SFX\\Interactables\\Global\\DoorLocked\\Door_Locked - Track 2_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1172755365",
+      "Name": "Play_DoorMetalClose",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Doors\\Play_DoorMetalClose",
+      "GUID": "{6A3D9858-9F21-41B4-8783-08B3F3D82C3B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.058027",
+      "DurationMax": "1.058027",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "52745719",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorMetal\\Door_Metal_Close.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorMetal\\Door_Metal_Close_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2932074671",
+      "Name": "Play_DoorMetalOpen",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Doors\\Play_DoorMetalOpen",
+      "GUID": "{4AC301DB-C004-4A65-A200-9279468C349C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.709819",
+      "DurationMax": "0.709819",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "851408864",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorMetal\\Door_Metal_Open.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorMetal\\Door_Metal_Open_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1118103267",
+      "Name": "Play_DoorWoodClose",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Doors\\Play_DoorWoodClose",
+      "GUID": "{34DE19DB-0F34-4947-B5BB-D08F7A007994}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.674104",
+      "DurationMax": "0.674104",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "108331084",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorWood\\Door_Wood_Close.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorWood\\Door_Wood_Close_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2687790037",
+      "Name": "Play_DoorWoodOpen",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Doors\\Play_DoorWoodOpen",
+      "GUID": "{DF17025D-DC1A-4574-AE41-458C54CA4550}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.781247",
+      "DurationMax": "0.781247",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "795660808",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DoorWood\\Door_Wood_Open.wav",
+        "Path": "SFX\\Interactables\\Global\\DoorWood\\Door_Wood_Open_3CADDE39.wem"
        }
       ]
      },
@@ -339,6 +417,65 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Global\\Drawer\\Drawer - Track 8.wav",
         "Path": "SFX\\Interactables\\Global\\Drawer\\Drawer - Track 8_1827270A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1260757055",
+      "Name": "Play_Fuse_Box",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Play_Fuse_Box",
+      "GUID": "{7480433D-9EA1-4881-A935-B49473B8E49F}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.080363",
+      "DurationMax": "1.72322",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "54408551",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Fuse_Box\\Fuse_Item (7).wav",
+        "Path": "SFX\\Interactables\\Thug\\Fuse_Box\\Fuse_Item (7)_3CADDE39.wem"
+       },
+       {
+        "Id": "162730461",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Fuse_Box\\Fuse_Item (5).wav",
+        "Path": "SFX\\Interactables\\Thug\\Fuse_Box\\Fuse_Item (5)_3CADDE39.wem"
+       },
+       {
+        "Id": "296858031",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Fuse_Box\\Fuse_Item (1).wav",
+        "Path": "SFX\\Interactables\\Thug\\Fuse_Box\\Fuse_Item (1)_3CADDE39.wem"
+       },
+       {
+        "Id": "378558628",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Fuse_Box\\Fuse_Item (4).wav",
+        "Path": "SFX\\Interactables\\Thug\\Fuse_Box\\Fuse_Item (4)_3CADDE39.wem"
+       },
+       {
+        "Id": "422831750",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Fuse_Box\\Fuse_Item (8).wav",
+        "Path": "SFX\\Interactables\\Thug\\Fuse_Box\\Fuse_Item (8)_3CADDE39.wem"
+       },
+       {
+        "Id": "472850826",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Fuse_Box\\Fuse_Item (6).wav",
+        "Path": "SFX\\Interactables\\Thug\\Fuse_Box\\Fuse_Item (6)_3CADDE39.wem"
+       },
+       {
+        "Id": "566110505",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Fuse_Box\\Fuse_Item (2).wav",
+        "Path": "SFX\\Interactables\\Thug\\Fuse_Box\\Fuse_Item (2)_3CADDE39.wem"
+       },
+       {
+        "Id": "904801719",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Fuse_Box\\Fuse_Item (3).wav",
+        "Path": "SFX\\Interactables\\Thug\\Fuse_Box\\Fuse_Item (3)_3CADDE39.wem"
        }
       ]
      },
@@ -467,7 +604,7 @@
      {
       "Id": "1301152502",
       "Name": "Play_Pick_Up_Puzzle",
-      "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_Pick_Up_Puzzle",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_Pick_Up_Puzzle",
       "GUID": "{12E826DD-7A96-40EE-9D1E-7BCEA37C8A47}",
       "DurationType": "OneShot",
       "DurationMin": "0.486599",
@@ -558,6 +695,35 @@
         "Language": "SFX",
         "ShortName": "Electric_Powerhouse.wav",
         "Path": "SFX\\Electric_Powerhouse_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2178888527",
+      "Name": "Play_Puzzle_Toy_Roll",
+      "ObjectPath": "\\Events\\Interactables\\INRunner\\Play_Puzzle_Toy_Roll",
+      "GUID": "{8D6B0F2A-B629-4612-B6D7-F5C974E5318B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.075896",
+      "DurationMax": "1.397324",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "646756820",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Puzzle_Toy_Roll\\Puzzle_Toy_Roll (3).wav",
+        "Path": "SFX\\Interactables\\Runner\\Puzzle_Toy_Roll\\Puzzle_Toy_Roll (3)_3CADDE39.wem"
+       },
+       {
+        "Id": "647741886",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Puzzle_Toy_Roll\\Puzzle_Toy_Roll (2).wav",
+        "Path": "SFX\\Interactables\\Runner\\Puzzle_Toy_Roll\\Puzzle_Toy_Roll (2)_3CADDE39.wem"
+       },
+       {
+        "Id": "729990226",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Runner\\Puzzle_Toy_Roll\\Puzzle_Toy_Roll (1).wav",
+        "Path": "SFX\\Interactables\\Runner\\Puzzle_Toy_Roll\\Puzzle_Toy_Roll (1)_3CADDE39.wem"
        }
       ]
      },
@@ -701,10 +867,68 @@
       "DurationMax": "3.574714",
       "IncludedMemoryFiles": [
        {
-        "Id": "653913186",
+        "Id": "506679687",
         "Language": "SFX",
         "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping.wav",
         "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping_4FA0C84E.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2014654242",
+      "Name": "Play_Sledgehammer_Breakwall",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Play_Sledgehammer_Breakwall",
+      "GUID": "{66F8C72A-98C9-449A-8E20-029FC200C4D8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.767846",
+      "DurationMax": "1.379456",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "327934243",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Sledgehammer_Breakwall\\Sledgehammer_Break_Wall (1).wav",
+        "Path": "SFX\\Interactables\\Thug\\Sledgehammer_Breakwall\\Sledgehammer_Break_Wall (1)_3CADDE39.wem"
+       },
+       {
+        "Id": "513364171",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Sledgehammer_Breakwall\\Sledgehammer_Break_Wall (4).wav",
+        "Path": "SFX\\Interactables\\Thug\\Sledgehammer_Breakwall\\Sledgehammer_Break_Wall (4)_3CADDE39.wem"
+       },
+       {
+        "Id": "810355993",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Sledgehammer_Breakwall\\Sledgehammer_Break_Wall (2).wav",
+        "Path": "SFX\\Interactables\\Thug\\Sledgehammer_Breakwall\\Sledgehammer_Break_Wall (2)_3CADDE39.wem"
+       },
+       {
+        "Id": "1067125518",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Sledgehammer_Breakwall\\Sledgehammer_Break_Wall (3).wav",
+        "Path": "SFX\\Interactables\\Thug\\Sledgehammer_Breakwall\\Sledgehammer_Break_Wall (3)_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "357408841",
+      "Name": "Play_Sledgehammer_Pickup",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Play_Sledgehammer_Pickup",
+      "GUID": "{4D7D1925-6296-4DF1-AA85-F6A6244CD657}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.383923",
+      "DurationMax": "0.383923",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "711379512",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Sledgehammer_Pickup\\Sledgehammer_Pickup.wav",
+        "Path": "SFX\\Interactables\\Thug\\Sledgehammer_Pickup\\Sledgehammer_Pickup_3CADDE39.wem"
+       },
+       {
+        "Id": "904375434",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Sledgehammer_Pickup\\Sledgehammer_Pickup2.wav",
+        "Path": "SFX\\Interactables\\Thug\\Sledgehammer_Pickup\\Sledgehammer_Pickup2_3CADDE39.wem"
        }
       ]
      },
@@ -861,8 +1085,16 @@
       "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machine",
       "GUID": "{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "2.75012",
+      "DurationMax": "4.335389",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "506679687",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_FloorScraping_4FA0C84E.wem"
+       }
+      ]
      },
      {
       "Id": "2929248152",
@@ -887,8 +1119,64 @@
       "ObjectPath": "\\Events\\Interactables\\INThug\\Large washing machine\\PlayLarge_washing_machineEnd",
       "GUID": "{082C3432-7D34-4845-8FDB-BA04457ECE7B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "0.504773",
+      "DurationMax": "1.225705",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "152970793",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V5.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V5_3CADDE39.wem"
+       },
+       {
+        "Id": "234822014",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V7.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V7_3CADDE39.wem"
+       },
+       {
+        "Id": "474926511",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V3.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V3_3CADDE39.wem"
+       },
+       {
+        "Id": "635716665",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V9.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V9_3CADDE39.wem"
+       },
+       {
+        "Id": "643357370",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V4.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V4_3CADDE39.wem"
+       },
+       {
+        "Id": "689859656",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V6.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V6_3CADDE39.wem"
+       },
+       {
+        "Id": "758545831",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V2.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V2_3CADDE39.wem"
+       },
+       {
+        "Id": "793873194",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V8.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V8_3CADDE39.wem"
+       },
+       {
+        "Id": "927392652",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V1.wav",
+        "Path": "SFX\\Interactables\\Thug\\Large_washing_machine\\WashingMachine_Hit_V1_3CADDE39.wem"
+       }
+      ]
      }
     ]
    }

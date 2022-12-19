@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -28,7 +28,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="1016220837">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="1304417238">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
@@ -297,7 +297,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX">
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="3650658212">
 			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
 			<ShortName>UiSB</ShortName>
 			<Path>UiSB.bnk</Path>
@@ -418,7 +418,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="1666175392">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -1293,7 +1293,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="1703109491">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -1452,6 +1452,17 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
+				<Event Id="2110957523" Name="Play_BigThug_A2_S58_BG" ObjectPath="\Events\Dialogue\DiThug\Play_BigThug_A2_S58_BG" GUID="{F1BA2F35-782B-4203-BB1B-7D182A65C024}" DurationType="OneShot" DurationMin="22.835783" DurationMax="22.835783">
+					<IncludedMemoryFiles>
+						<File Id="744196729" Language="SFX">
+							<ShortName>Dialogue\Thug\BigThug_A2_S58_BG.wav</ShortName>
+							<Path>SFX\Dialogue\Thug\BigThug_A2_S58_BG_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="3249674541" Name="Play_BigThug_A3_S35" ObjectPath="\Events\Dialogue\DiThug\Play_BigThug_A3_S35" GUID="{00E8E351-0B14-4B33-8A69-D2AD5124F285}" DurationType="OneShot" DurationMin="8.787597" DurationMax="8.787597">
 					<IncludedMemoryFiles>
 						<File Id="429133083" Language="SFX">
@@ -1501,6 +1512,17 @@
 						<File Id="221138493" Language="SFX">
 							<ShortName>Dialogue\Runner\Emilia_A1_S15.wav</ShortName>
 							<Path>SFX\Dialogue\Runner\Emilia_A1_S15_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="660918573" Name="Play_Emilia_A1_S49_BG" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_A1_S49_BG" GUID="{5C5441BE-AAC8-4F99-8FBD-700FCAA62B39}" DurationType="OneShot" DurationMin="5.245805" DurationMax="5.245805">
+					<IncludedMemoryFiles>
+						<File Id="1028776668" Language="SFX">
+							<ShortName>Dialogue\Runner\Emilia_A1_S49_BG.wav</ShortName>
+							<Path>SFX\Dialogue\Runner\Emilia_A1_S49_BG_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionPostEvent>
@@ -1617,6 +1639,21 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
+				<Event Id="340744232" Name="Play_PoliceHub_A1_S2_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S2_Tut" GUID="{5BA03E90-B8DA-4757-9486-D9DA7BB4A34B}" DurationType="OneShot" DurationMin="44.252834" DurationMax="44.252834">
+					<IncludedMemoryFiles>
+						<File Id="514352675" Language="SFX">
+							<ShortName>Dialogue\Hub\PoliceHub_A1_S2_Perkins.wav</ShortName>
+							<Path>SFX\Dialogue\Hub\PoliceHub_A1_S2_Perkins_3CADDE39.wem</Path>
+						</File>
+						<File Id="678875290" Language="SFX">
+							<ShortName>Dialogue\Hub\PoliceHub_A1_S2_Connor.wav</ShortName>
+							<Path>SFX\Dialogue\Hub\PoliceHub_A1_S2_Connor_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="1118411503" Name="Play_PoliceHub_A1_S3" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S3" GUID="{DBDFB023-B576-473C-AC05-E745AFE0F0AE}" DurationType="OneShot" DurationMin="7.49" DurationMax="7.49">
 					<IncludedMemoryFiles>
 						<File Id="191906222" Language="SFX">
@@ -1672,6 +1709,21 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
+				<Event Id="1433380830" Name="Play_PoliceHub_A2_S18_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A2_S18_Tut" GUID="{650CE6D0-B545-42C3-9B9E-5465CDE9FDFE}" DurationType="OneShot" DurationMin="20.137959" DurationMax="20.137959">
+					<IncludedMemoryFiles>
+						<File Id="364697845" Language="SFX">
+							<ShortName>Dialogue\Hub\PoliceHub_A2_S18_Perkins.wav</ShortName>
+							<Path>SFX\Dialogue\Hub\PoliceHub_A2_S18_Perkins_3CADDE39.wem</Path>
+						</File>
+						<File Id="655152494" Language="SFX">
+							<ShortName>Dialogue\Hub\PoliceHub_A2_S18_Connor.wav</ShortName>
+							<Path>SFX\Dialogue\Hub\PoliceHub_A2_S18_Connor_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="1783234309" Name="Play_Sigifrit_A1_S16" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S16" GUID="{7EE5EA54-1515-4A2F-87EF-8888907EAA33}" DurationType="OneShot" DurationMin="4.488027" DurationMax="4.488027">
 					<IncludedMemoryFiles>
 						<File Id="939100521" Language="SFX">
@@ -1688,6 +1740,39 @@
 						<File Id="706244558" Language="SFX">
 							<ShortName>Dialogue\OldLady\Sigifrit_A1_S17.wav</ShortName>
 							<Path>SFX\Dialogue\OldLady\Sigifrit_A1_S17_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="2474538859" Name="Play_Sigifrit_A1_S50_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S50_BG" GUID="{D8C2B918-30D3-4E8E-9324-7CDFDC6FE63D}" DurationType="OneShot" DurationMin="3.346599" DurationMax="3.346599">
+					<IncludedMemoryFiles>
+						<File Id="1030535360" Language="SFX">
+							<ShortName>Dialogue\OldLady\Sigifrit_A1_S50_BG.wav</ShortName>
+							<Path>SFX\Dialogue\OldLady\Sigifrit_A1_S50_BG_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3809216585" Name="Play_Sigifrit_A1_S52_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S52_BG" GUID="{36219D41-B950-4904-B295-2362C0C5022E}" DurationType="OneShot" DurationMin="6.82712" DurationMax="6.82712">
+					<IncludedMemoryFiles>
+						<File Id="145908948" Language="SFX">
+							<ShortName>Dialogue\OldLady\Sigifrit_A1_S52_BG.wav</ShortName>
+							<Path>SFX\Dialogue\OldLady\Sigifrit_A1_S52_BG_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3915117343" Name="Play_Sigifrit_A1_S54_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S54_BG" GUID="{30875B80-D1BF-46E4-AD9D-D545A19A1A46}" DurationType="OneShot" DurationMin="3.4922" DurationMax="3.4922">
+					<IncludedMemoryFiles>
+						<File Id="271271517" Language="SFX">
+							<ShortName>Dialogue\OldLady\Sigifrit_A1_S54_BG.wav</ShortName>
+							<Path>SFX\Dialogue\OldLady\Sigifrit_A1_S54_BG_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionPostEvent>
@@ -1752,7 +1837,7 @@
 				<Event Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2740476456">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -2177,7 +2262,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="430956911">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
@@ -2202,6 +2287,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3050945240" Name="New_Event" ObjectPath="\Events\Interactables\INGlobal\New_Event" GUID="{D06C9E50-CD86-4BD5-A541-FB069F2EFC89}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="754001494" Name="Play_AB_Fire" ObjectPath="\Events\Interactables\INOldLady\Play_AB_Fire" GUID="{46A5130E-C679-4A71-94C1-0EE5F8681C62}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="441282140" Language="SFX">
@@ -2274,7 +2360,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3824929594" Name="Play_DoorKnob" ObjectPath="\Events\Interactables\INGlobal\Play_DoorKnob" GUID="{6CA41CA2-2575-4273-954D-7FF26EFAD443}" DurationType="OneShot" DurationMin="0.433039" DurationMax="0.86161">
+				<Event Id="3824929594" Name="Play_DoorKnob" ObjectPath="\Events\Interactables\INGlobal\Doors\Play_DoorKnob" GUID="{6CA41CA2-2575-4273-954D-7FF26EFAD443}" DurationType="OneShot" DurationMin="0.433039" DurationMax="0.86161">
 					<IncludedMemoryFiles>
 						<File Id="104490617" Language="SFX">
 							<ShortName>Interactables\Global\DoorKnob\DoorKnob (1).wav</ShortName>
@@ -2298,7 +2384,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4269214404" Name="Play_DoorLocked" ObjectPath="\Events\Interactables\INGlobal\Play_DoorLocked" GUID="{F8FEBE59-66D8-45F5-A5F2-0C4551D1DCD0}" DurationType="OneShot" DurationMin="0.375011" DurationMax="5.160726">
+				<Event Id="4269214404" Name="Play_DoorLocked" ObjectPath="\Events\Interactables\INGlobal\Doors\Play_DoorLocked" GUID="{F8FEBE59-66D8-45F5-A5F2-0C4551D1DCD0}" DurationType="OneShot" DurationMin="0.375011" DurationMax="5.160726">
 					<IncludedMemoryFiles>
 						<File Id="349892675" Language="SFX">
 							<ShortName>Interactables\Global\DoorLocked\Door_Locked - Track 1.wav</ShortName>
@@ -2315,6 +2401,38 @@
 						<File Id="1072373072" Language="SFX">
 							<ShortName>Interactables\Global\DoorLocked\Door_Locked - Track 2.wav</ShortName>
 							<Path>SFX\Interactables\Global\DoorLocked\Door_Locked - Track 2_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1172755365" Name="Play_DoorMetalClose" ObjectPath="\Events\Interactables\INGlobal\Doors\Play_DoorMetalClose" GUID="{6A3D9858-9F21-41B4-8783-08B3F3D82C3B}" DurationType="OneShot" DurationMin="1.058027" DurationMax="1.058027">
+					<IncludedMemoryFiles>
+						<File Id="52745719" Language="SFX">
+							<ShortName>Interactables\Global\DoorMetal\Door_Metal_Close.wav</ShortName>
+							<Path>SFX\Interactables\Global\DoorMetal\Door_Metal_Close_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932074671" Name="Play_DoorMetalOpen" ObjectPath="\Events\Interactables\INGlobal\Doors\Play_DoorMetalOpen" GUID="{4AC301DB-C004-4A65-A200-9279468C349C}" DurationType="OneShot" DurationMin="0.709819" DurationMax="0.709819">
+					<IncludedMemoryFiles>
+						<File Id="851408864" Language="SFX">
+							<ShortName>Interactables\Global\DoorMetal\Door_Metal_Open.wav</ShortName>
+							<Path>SFX\Interactables\Global\DoorMetal\Door_Metal_Open_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1118103267" Name="Play_DoorWoodClose" ObjectPath="\Events\Interactables\INGlobal\Doors\Play_DoorWoodClose" GUID="{34DE19DB-0F34-4947-B5BB-D08F7A007994}" DurationType="OneShot" DurationMin="0.674104" DurationMax="0.674104">
+					<IncludedMemoryFiles>
+						<File Id="108331084" Language="SFX">
+							<ShortName>Interactables\Global\DoorWood\Door_Wood_Close.wav</ShortName>
+							<Path>SFX\Interactables\Global\DoorWood\Door_Wood_Close_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2687790037" Name="Play_DoorWoodOpen" ObjectPath="\Events\Interactables\INGlobal\Doors\Play_DoorWoodOpen" GUID="{DF17025D-DC1A-4574-AE41-458C54CA4550}" DurationType="OneShot" DurationMin="0.781247" DurationMax="0.781247">
+					<IncludedMemoryFiles>
+						<File Id="795660808" Language="SFX">
+							<ShortName>Interactables\Global\DoorWood\Door_Wood_Open.wav</ShortName>
+							<Path>SFX\Interactables\Global\DoorWood\Door_Wood_Open_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2371,6 +2489,42 @@
 						<File Id="1039474416" Language="SFX">
 							<ShortName>Interactables\Global\Drawer\Drawer - Track 8.wav</ShortName>
 							<Path>SFX\Interactables\Global\Drawer\Drawer - Track 8_1827270A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1260757055" Name="Play_Fuse_Box" ObjectPath="\Events\Interactables\INThug\Play_Fuse_Box" GUID="{7480433D-9EA1-4881-A935-B49473B8E49F}" DurationType="OneShot" DurationMin="1.080363" DurationMax="1.72322">
+					<IncludedMemoryFiles>
+						<File Id="54408551" Language="SFX">
+							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (7).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (7)_3CADDE39.wem</Path>
+						</File>
+						<File Id="162730461" Language="SFX">
+							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (5).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (5)_3CADDE39.wem</Path>
+						</File>
+						<File Id="296858031" Language="SFX">
+							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (1).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (1)_3CADDE39.wem</Path>
+						</File>
+						<File Id="378558628" Language="SFX">
+							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (4).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (4)_3CADDE39.wem</Path>
+						</File>
+						<File Id="422831750" Language="SFX">
+							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (8).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (8)_3CADDE39.wem</Path>
+						</File>
+						<File Id="472850826" Language="SFX">
+							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (6).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (6)_3CADDE39.wem</Path>
+						</File>
+						<File Id="566110505" Language="SFX">
+							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (2).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (2)_3CADDE39.wem</Path>
+						</File>
+						<File Id="904801719" Language="SFX">
+							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (3).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (3)_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2442,7 +2596,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1301152502" Name="Play_Pick_Up_Puzzle" ObjectPath="\Events\Interactables\INOldLady\Play_Pick_Up_Puzzle" GUID="{12E826DD-7A96-40EE-9D1E-7BCEA37C8A47}" DurationType="OneShot" DurationMin="0.486599" DurationMax="0.491066">
+				<Event Id="1301152502" Name="Play_Pick_Up_Puzzle" ObjectPath="\Events\Interactables\INGlobal\Play_Pick_Up_Puzzle" GUID="{12E826DD-7A96-40EE-9D1E-7BCEA37C8A47}" DurationType="OneShot" DurationMin="0.486599" DurationMax="0.491066">
 					<IncludedMemoryFiles>
 						<File Id="12088662" Language="SFX">
 							<ShortName>Interactables\OldLady\Pick_Up_Puzzle\Pick_Up_Puzzle2.wav</ShortName>
@@ -2487,6 +2641,22 @@
 						<File Id="600265671" Language="SFX">
 							<ShortName>Electric_Powerhouse.wav</ShortName>
 							<Path>SFX\Electric_Powerhouse_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2178888527" Name="Play_Puzzle_Toy_Roll" ObjectPath="\Events\Interactables\INRunner\Play_Puzzle_Toy_Roll" GUID="{8D6B0F2A-B629-4612-B6D7-F5C974E5318B}" DurationType="OneShot" DurationMin="1.075896" DurationMax="1.397324">
+					<IncludedMemoryFiles>
+						<File Id="646756820" Language="SFX">
+							<ShortName>Interactables\Runner\Puzzle_Toy_Roll\Puzzle_Toy_Roll (3).wav</ShortName>
+							<Path>SFX\Interactables\Runner\Puzzle_Toy_Roll\Puzzle_Toy_Roll (3)_3CADDE39.wem</Path>
+						</File>
+						<File Id="647741886" Language="SFX">
+							<ShortName>Interactables\Runner\Puzzle_Toy_Roll\Puzzle_Toy_Roll (2).wav</ShortName>
+							<Path>SFX\Interactables\Runner\Puzzle_Toy_Roll\Puzzle_Toy_Roll (2)_3CADDE39.wem</Path>
+						</File>
+						<File Id="729990226" Language="SFX">
+							<ShortName>Interactables\Runner\Puzzle_Toy_Roll\Puzzle_Toy_Roll (1).wav</ShortName>
+							<Path>SFX\Interactables\Runner\Puzzle_Toy_Roll\Puzzle_Toy_Roll (1)_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2578,6 +2748,38 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2014654242" Name="Play_Sledgehammer_Breakwall" ObjectPath="\Events\Interactables\INThug\Play_Sledgehammer_Breakwall" GUID="{66F8C72A-98C9-449A-8E20-029FC200C4D8}" DurationType="OneShot" DurationMin="0.767846" DurationMax="1.379456">
+					<IncludedMemoryFiles>
+						<File Id="327934243" Language="SFX">
+							<ShortName>Interactables\Thug\Sledgehammer_Breakwall\Sledgehammer_Break_Wall (1).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Sledgehammer_Breakwall\Sledgehammer_Break_Wall (1)_3CADDE39.wem</Path>
+						</File>
+						<File Id="513364171" Language="SFX">
+							<ShortName>Interactables\Thug\Sledgehammer_Breakwall\Sledgehammer_Break_Wall (4).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Sledgehammer_Breakwall\Sledgehammer_Break_Wall (4)_3CADDE39.wem</Path>
+						</File>
+						<File Id="810355993" Language="SFX">
+							<ShortName>Interactables\Thug\Sledgehammer_Breakwall\Sledgehammer_Break_Wall (2).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Sledgehammer_Breakwall\Sledgehammer_Break_Wall (2)_3CADDE39.wem</Path>
+						</File>
+						<File Id="1067125518" Language="SFX">
+							<ShortName>Interactables\Thug\Sledgehammer_Breakwall\Sledgehammer_Break_Wall (3).wav</ShortName>
+							<Path>SFX\Interactables\Thug\Sledgehammer_Breakwall\Sledgehammer_Break_Wall (3)_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="357408841" Name="Play_Sledgehammer_Pickup" ObjectPath="\Events\Interactables\INThug\Play_Sledgehammer_Pickup" GUID="{4D7D1925-6296-4DF1-AA85-F6A6244CD657}" DurationType="OneShot" DurationMin="0.383923" DurationMax="0.383923">
+					<IncludedMemoryFiles>
+						<File Id="711379512" Language="SFX">
+							<ShortName>Interactables\Thug\Sledgehammer_Pickup\Sledgehammer_Pickup.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Sledgehammer_Pickup\Sledgehammer_Pickup_3CADDE39.wem</Path>
+						</File>
+						<File Id="904375434" Language="SFX">
+							<ShortName>Interactables\Thug\Sledgehammer_Pickup\Sledgehammer_Pickup2.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Sledgehammer_Pickup\Sledgehammer_Pickup2_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3581348024" Name="Play_Smal_Washing_Machine_Door" ObjectPath="\Events\Interactables\INThug\Large washing machine\Play_Smal_Washing_Machine_Door" GUID="{C0DF91E2-AD64-436C-ACCF-F2FE3CC34DC2}" DurationType="OneShot" DurationMin="2.767195" DurationMax="5.148709">
 					<IncludedMemoryFiles>
 						<File Id="130602357" Language="SFX">
@@ -2666,7 +2868,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2073058824" Name="PlayLarge_washing_machine" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machine" GUID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2073058824" Name="PlayLarge_washing_machine" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machine" GUID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" DurationType="OneShot" DurationMin="2.75012" DurationMax="4.335389">
+					<IncludedMemoryFiles>
+						<File Id="506679687" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_FloorScraping_4FA0C84E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2929248152" Name="PlayLarge_washing_machineDoor" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineDoor" GUID="{23842A14-CFB7-4BA3-B690-5B87E0D8BFF0}" DurationType="OneShot" DurationMin="4.603756" DurationMax="4.954175">
 					<IncludedMemoryFiles>
 						<File Id="365028018" Language="SFX">
@@ -2675,7 +2884,46 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1899315439" Name="PlayLarge_washing_machineEnd" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineEnd" GUID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1899315439" Name="PlayLarge_washing_machineEnd" ObjectPath="\Events\Interactables\INThug\Large washing machine\PlayLarge_washing_machineEnd" GUID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" DurationType="OneShot" DurationMin="0.504773" DurationMax="1.225705">
+					<IncludedMemoryFiles>
+						<File Id="152970793" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V5.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V5_3CADDE39.wem</Path>
+						</File>
+						<File Id="234822014" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V7.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V7_3CADDE39.wem</Path>
+						</File>
+						<File Id="474926511" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V3.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V3_3CADDE39.wem</Path>
+						</File>
+						<File Id="635716665" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V9.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V9_3CADDE39.wem</Path>
+						</File>
+						<File Id="643357370" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V4.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V4_3CADDE39.wem</Path>
+						</File>
+						<File Id="689859656" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V6.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V6_3CADDE39.wem</Path>
+						</File>
+						<File Id="758545831" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V2.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V2_3CADDE39.wem</Path>
+						</File>
+						<File Id="793873194" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V8.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V8_3CADDE39.wem</Path>
+						</File>
+						<File Id="927392652" Language="SFX">
+							<ShortName>Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V1.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Large_washing_machine\WashingMachine_Hit_V1_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

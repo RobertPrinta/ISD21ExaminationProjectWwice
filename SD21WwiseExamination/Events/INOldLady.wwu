@@ -91,17 +91,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Pick_Up_Puzzle" ID="{12E826DD-7A96-40EE-9D1E-7BCEA37C8A47}">
-					<ChildrenList>
-						<Action Name="" ID="{DA9885D5-9615-474A-9B9D-34186A45636F}" ShortID="1068044992">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Pick_Up_Puzzle" ID="{8B155CB1-5C56-4BC2-B109-88162F0F9A81}" WorkUnitID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

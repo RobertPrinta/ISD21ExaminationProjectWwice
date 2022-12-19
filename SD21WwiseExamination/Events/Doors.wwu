@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{592E9368-E6CA-4A68-BDFB-AF53FA7BA962}" SchemaVersion="103" RootDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" ParentDocumentID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}">
+	<Events>
+		<WorkUnit Name="Doors" ID="{592E9368-E6CA-4A68-BDFB-AF53FA7BA962}" OwnerID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_DoorMetalClose" ID="{6A3D9858-9F21-41B4-8783-08B3F3D82C3B}">
+					<ChildrenList>
+						<Action Name="" ID="{6AF172C4-5DD5-4E5F-88B3-9727CBE0EC18}" ShortID="337816798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorMetalClose" ID="{DF4CD540-44EF-460B-8C0B-5AF7639FE144}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorMetalOpen" ID="{4AC301DB-C004-4A65-A200-9279468C349C}">
+					<ChildrenList>
+						<Action Name="" ID="{32F9953A-089E-40B9-8C39-B05B7100D945}" ShortID="1026555573">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorMetalOpen" ID="{E673539A-7261-4A68-92D4-5C4A15DB4AA6}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorWoodClose" ID="{34DE19DB-0F34-4947-B5BB-D08F7A007994}">
+					<ChildrenList>
+						<Action Name="" ID="{176ECA6C-30E9-425F-B7CF-F000775577E2}" ShortID="351420689">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorWoodClose" ID="{3BE230E8-7D65-48F9-906D-2A7057623EDA}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorWoodOpen" ID="{DF17025D-DC1A-4574-AE41-458C54CA4550}">
+					<ChildrenList>
+						<Action Name="" ID="{66BBDC5E-7DA4-430C-AFD4-C8F7541A348B}" ShortID="550761339">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorWoodOpen" ID="{83219AF8-746D-4E66-994A-A91AFC49C5A3}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorLocked" ID="{F8FEBE59-66D8-45F5-A5F2-0C4551D1DCD0}">
+					<ChildrenList>
+						<Action Name="" ID="{E8543A0D-E20A-492A-8164-58A3764691B3}" ShortID="988872654">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorLocked" ID="{323715FE-49A2-4E4E-9080-DD7185D3D842}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorKnob" ID="{6CA41CA2-2575-4273-954D-7FF26EFAD443}">
+					<ChildrenList>
+						<Action Name="" ID="{97F3E0F4-1A16-4E33-B461-DFEB4326DFBC}" ShortID="434880571">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorKnob" ID="{CF20725C-DE55-4C61-A0D3-C1795D2D1590}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

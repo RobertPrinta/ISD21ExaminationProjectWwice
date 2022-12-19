@@ -4,6 +4,9 @@
 		<WorkUnit Name="INRunner" ID="{890B7C4F-7E06-4CF2-BC08-88715BB3FD08}" OwnerID="{4C01C850-0A01-4D2C-9087-CD58724179FC}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Seesaw3d" ID="{CBE51E84-37C2-41F1-8CF4-A6717E2AB698}" ShortID="221145586">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -550,6 +553,88 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<RandomSequenceContainer Name="Puzzle_Toy_Roll" ID="{6A7211E8-09DA-4C3D-9307-8F74AC7B343E}" ShortID="737304850">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Puzzle_Toy_Roll (1)" ID="{01D5E514-AF12-4235-8E63-A7FBD3B95B75}" ShortID="525592368">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Puzzle_Toy_Roll (1)" ID="{3F599CA5-577B-4D2B-8A30-6DA8D9803D65}">
+									<Language>SFX</Language>
+									<AudioFile>Interactables\Runner\Puzzle_Toy_Roll\Puzzle_Toy_Roll (1).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="729990226"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Puzzle_Toy_Roll (1)" ID="{3F599CA5-577B-4D2B-8A30-6DA8D9803D65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Puzzle_Toy_Roll (2)" ID="{117F8275-BEA6-4133-B986-D1505417ABF3}" ShortID="467117511">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Puzzle_Toy_Roll (2)" ID="{17CB13F7-F0E6-40E0-BF0A-30157139F687}">
+									<Language>SFX</Language>
+									<AudioFile>Interactables\Runner\Puzzle_Toy_Roll\Puzzle_Toy_Roll (2).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="647741886"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Puzzle_Toy_Roll (2)" ID="{17CB13F7-F0E6-40E0-BF0A-30157139F687}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Puzzle_Toy_Roll (3)" ID="{857E1855-899C-40D3-96D2-08374BAB7BC6}" ShortID="340628087">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Puzzle_Toy_Roll (3)" ID="{0390F173-A39B-459F-9A72-F4582225A905}">
+									<Language>SFX</Language>
+									<AudioFile>Interactables\Runner\Puzzle_Toy_Roll\Puzzle_Toy_Roll (3).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="646756820"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Puzzle_Toy_Roll (3)" ID="{0390F173-A39B-459F-9A72-F4582225A905}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
