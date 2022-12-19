@@ -2577,6 +2577,11 @@
 										<Sound Name="AB_Watercooler_Buzz_3D" ID="{90FDCAD2-9F3F-4597-9947-E04F2DD879C5}" ShortID="677674472">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
