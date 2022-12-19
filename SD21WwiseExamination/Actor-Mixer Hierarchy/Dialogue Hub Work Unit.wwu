@@ -135,6 +135,52 @@
 								<ActiveSource Name="PoliceHub_A1_S7" ID="{92AE22C9-CADB-4665-B029-111681F0D485}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="PoliceHub_A2_S18_Connor" ID="{68CD8E3C-CFE5-4B7F-831C-B6597F8D847D}" ShortID="758156267">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoliceHub_A2_S18_Connor" ID="{9CDCDC80-56CE-477A-ABEB-4854854BD81E}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Hub\PoliceHub_A2_S18_Connor.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="655152494"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PoliceHub_A2_S18_Connor" ID="{9CDCDC80-56CE-477A-ABEB-4854854BD81E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoliceHub_A2_S18_Perkins" ID="{D6106FE3-C913-4E27-90EA-C7A5BC0C106C}" ShortID="533827280">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoliceHub_A2_S18_Perkins" ID="{D272BE7B-D657-4469-99EB-3CA0DC3030AA}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Hub\PoliceHub_A2_S18_Perkins.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="364697845"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PoliceHub_A2_S18_Perkins" ID="{D272BE7B-D657-4469-99EB-3CA0DC3030AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
