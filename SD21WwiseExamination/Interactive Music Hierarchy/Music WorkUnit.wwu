@@ -5049,6 +5049,9 @@
 					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="RunnerMusic" ID="{E5BC8875-53C3-4915-BA91-84A148ABABCA}" ShortID="518029593">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="50"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -5059,6 +5062,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicPlaylistContainer Name="RunnerAct1" ID="{46CDFBE4-3F1D-4BB3-8151-3663C2DF757F}" ShortID="845746994">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="50"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
@@ -5067,6 +5074,464 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="the_girl_1_1_50bpm" ID="{C2E65F3E-E078-4849-B427-36A0A569C927}" ShortID="104673619">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="128250"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="the_girl_1_1_50bpm" ID="{18EDF5F0-25F2-4192-8D6D-D1DCFDCE8279}" ShortID="632437402">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="the_girl_1_1_50bpm" ID="{B035B65C-1EE2-4176-9ADC-9A98572E0370}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Runner\RunnerAct1\the_girl_1.1_50bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="730972721"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0A1B214E-69A3-49D2-8DB1-6211BF6EFD83}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{503C887A-D4C0-48E5-B70F-7768227975AD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="the_girl_1_1_50bpm" ID="{D45E8664-B3DA-43A6-916D-0FAD9E2C6F37}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="250"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="128250"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="the_girl_1_1_50bpm" ID="{B035B65C-1EE2-4176-9ADC-9A98572E0370}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{08975ECE-85D0-45E8-8CD3-32190DC4A0CC}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.25</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>128.25</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{E5A9C8E4-B55B-441B-80E2-D6B4B9871B7B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.25</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>128.25</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{C2123A55-2D8A-4948-A18A-6EAE91329F8B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.25</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>128.25</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B2F23496-D3B5-41D4-A32B-D55FEE773BB4}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="250"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{EED47878-B603-4199-9B0E-B6336D1EDBD9}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="126250"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="the_girl_1_2_50bpm" ID="{E5D80DDC-C701-43BC-85D7-1F4B8160613A}" ShortID="445790418">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="148800"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="the_girl_1_2_50bpm" ID="{EC12E323-6F0A-471D-9333-5F90908DA666}" ShortID="357602981">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="the_girl_1_2_50bpm" ID="{D64776E9-8B39-42F6-8EC2-C620BFF7B023}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Runner\RunnerAct1\the_girl_1.2_50bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="421102690"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0CE78EA4-3987-441A-8340-8334F0995395}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E5DBEBD1-9091-482C-9CD5-351ED0CE25C0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="the_girl_1_2_50bpm" ID="{42B4FF5F-D446-4295-A710-2FC0660E57C9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="148800"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="the_girl_1_2_50bpm" ID="{D64776E9-8B39-42F6-8EC2-C620BFF7B023}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FBADBF24-14D6-4E1C-80C7-2D9FCD424E13}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{EFA82DBD-93A6-45B6-8BD3-FE3CD922FF33}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="148000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="the_girl_1_3_50bpm" ID="{FB35BDF6-07BE-4DA3-9A70-0A5C72484057}" ShortID="501652147">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="120281.339312818"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="the_girl_1_3_50bpm" ID="{841C6DF0-5335-4B4E-8DE2-99F73AEE66BC}" ShortID="523436645">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="the_girl_1_3_50bpm" ID="{07FE8958-F210-458C-8B13-6B709978DCDD}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Runner\RunnerAct1\the_girl_1.3_50bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="207454562"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6149DA7E-5396-4ABC-AA74-C8B94D237E22}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8B688D29-7048-4924-8D23-C81D9331BEFC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="the_girl_1_3_50bpm" ID="{AC70CF37-6408-4651-B8AB-49AECA3BBF0A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="120000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="the_girl_1_3_50bpm" ID="{07FE8958-F210-458C-8B13-6B709978DCDD}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{0CC28D89-A935-4F8E-B00C-8B8ECA5DDC41}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>120</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{BAC83026-89C8-4B15-92F6-A789664FB0C6}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>120</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{629B0D84-5A6D-4076-AB37-91652ECACD80}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>120</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6A978142-9756-4896-BAB1-59A212D7C9A1}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{37F58B3C-B554-4914-A124-C083A46D611C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="115200"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="the_girl_1_4_50bpm" ID="{12FDB30D-B67B-42C5-92EF-58E047EB039F}" ShortID="133271514">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="91200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="the_girl_1_4_50bpm" ID="{B02C86F0-3859-4DA0-9954-1930748BAF77}" ShortID="672837845">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="the_girl_1_4_50bpm" ID="{21A65E5C-CCFA-4DF9-9509-93344B2193D0}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Runner\RunnerAct1\the_girl_1.4_50bpm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="475492684"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{06FABCF5-6C2D-4A1E-B134-B4F43180BA45}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5B29A285-9164-4F9D-9A09-BB958AE9D58C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="the_girl_1_4_50bpm" ID="{839D0D9E-F3D6-4523-9B65-AB2C28FDDF9D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="91200"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="the_girl_1_4_50bpm" ID="{21A65E5C-CCFA-4DF9-9509-93344B2193D0}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{103FEE05-C0BE-4B60-8659-8F5781E6ABC3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{423B335A-36E0-4E67-8D28-78BE2A6AC914}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="90000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{8AFA02AD-5880-483F-A52B-C9CB7A179AD2}">
 									<PropertyList>
@@ -5074,6 +5539,9 @@
 									</PropertyList>
 									<ChildrenList>
 										<MusicTransition Name="Transition" ID="{CD571AF4-2626-4CA2-AB0B-F2FEB6638D55}">
+											<PropertyList>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+											</PropertyList>
 											<TransitionInfo/>
 										</MusicTransition>
 									</ChildrenList>
@@ -5082,7 +5550,38 @@
 							</TransitionList>
 							<ObjectLists/>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{2E380711-944C-459C-B150-76A20860A39D}" ShortID="545271556"/>
+								<MusicPlaylistItem Name="" ID="{2E380711-944C-459C-B150-76A20860A39D}" ShortID="545271556">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{F1444502-5FE4-449F-A3B5-70AFF7A52829}" ShortID="889256121">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="the_girl_1_1_50bpm" ID="{C2E65F3E-E078-4849-B427-36A0A569C927}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{838545BF-AE1D-4F43-B8D6-DC1373837F2A}" ShortID="446976325">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="the_girl_1_2_50bpm" ID="{E5D80DDC-C701-43BC-85D7-1F4B8160613A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{483AB48C-45D2-4D8A-8E34-63CD16D609ED}" ShortID="385014630">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="the_girl_1_3_50bpm" ID="{FB35BDF6-07BE-4DA3-9A70-0A5C72484057}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D1129D57-3709-4096-936F-2AF480CE1F64}" ShortID="30273651">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="the_girl_1_4_50bpm" ID="{12FDB30D-B67B-42C5-92EF-58E047EB039F}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="RunnerAct2" ID="{19B52615-C773-4ED4-B495-0E1A25B874EA}" ShortID="219158843">
@@ -10691,6 +11190,9 @@
 							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{83F1EEDF-5F20-4753-8053-66A600EA758C}" ShortID="229393440">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{FB7B72D8-68D6-48E0-AFDC-7D9DC9B8E048}" ShortID="914418477">
 											<PropertyList>
@@ -10813,6 +11315,9 @@
 							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{B40F5AE3-08FB-4A5C-9368-5A180EC3F0F2}" ShortID="171316036">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{227A5306-0C64-465E-983E-0B5948C8B0B6}" ShortID="298659046">
 											<PropertyList>
@@ -10935,6 +11440,9 @@
 							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{A051D124-742E-4EE9-AB7F-054F1A9B9BBE}" ShortID="326731501">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{C1D78640-F5A1-4478-8FE7-C94D1A06AACC}" ShortID="785927708">
 											<PropertyList>
@@ -11404,6 +11912,7 @@
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{5FF831EE-516B-4C67-84AE-028673021F4B}" ShortID="895178550">
 									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlayMode" Type="int16" Value="2"/>
 									</PropertyList>
 									<ChildrenList>

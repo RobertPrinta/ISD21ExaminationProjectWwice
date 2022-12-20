@@ -196,6 +196,16 @@
 				</Event>
 				<Event Name="Play_MainTheme" ID="{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}">
 					<ChildrenList>
+						<Action Name="" ID="{E62CECB1-1C29-4615-B89B-A07CF67F1933}" ShortID="874758500">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_All_Music" ID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{6BBF057C-860C-43A7-83C3-B80AF74244B0}" ShortID="1051854884">
 							<ReferenceList>
 								<Reference Name="Target">
