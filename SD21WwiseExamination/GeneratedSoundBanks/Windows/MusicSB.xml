@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1788970896">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1318810061">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -20,6 +20,9 @@
 							<Path>SFX\Music\Theam\MAIN THEME (DEMO 2)_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="709266268" Name="Play_MusicHub" ObjectPath="\Events\PlayMusic\Play_MusicHub" GUID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -293,13 +296,25 @@
 							<ShortName>Music\OldLady\kontrabas master-011.wav</ShortName>
 							<Path>SFX\Music\OldLady\kontrabas master-011_9EDFC787.wem</Path>
 						</File>
+						<File Id="29784233" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-007.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-007_9EDFC787.wem</Path>
+						</File>
 						<File Id="40834639" Language="SFX">
 							<ShortName>Music\OldLady\KlarinettStingers-010.wav</ShortName>
 							<Path>SFX\Music\OldLady\KlarinettStingers-010_9EDFC787.wem</Path>
 						</File>
+						<File Id="53033174" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-001.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-001_9EDFC787.wem</Path>
+						</File>
 						<File Id="105373223" Language="SFX">
 							<ShortName>Music\OldLady\kontrabas master-012.wav</ShortName>
 							<Path>SFX\Music\OldLady\kontrabas master-012_9EDFC787.wem</Path>
+						</File>
+						<File Id="108351385" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-008.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-008_9EDFC787.wem</Path>
 						</File>
 						<File Id="112581485" Language="SFX">
 							<ShortName>Music\OldLady\AmbiGhostStinger-003.wav</ShortName>
@@ -317,9 +332,41 @@
 							<ShortName>Music\OldLady\KlarinettStingers-011.wav</ShortName>
 							<Path>SFX\Music\OldLady\KlarinettStingers-011_9EDFC787.wem</Path>
 						</File>
+						<File Id="208903557" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-010.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-010_9EDFC787.wem</Path>
+						</File>
+						<File Id="209565762" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-008.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-008_9EDFC787.wem</Path>
+						</File>
+						<File Id="229216676" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-009.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-009_9EDFC787.wem</Path>
+						</File>
 						<File Id="255003514" Language="SFX">
 							<ShortName>Music\OldLady\KlarinettStingers-013.wav</ShortName>
 							<Path>SFX\Music\OldLady\KlarinettStingers-013_9EDFC787.wem</Path>
+						</File>
+						<File Id="259785673" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-001.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-001_9EDFC787.wem</Path>
+						</File>
+						<File Id="338010396" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-005.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-005_9EDFC787.wem</Path>
+						</File>
+						<File Id="436433310" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-004.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-004_9EDFC787.wem</Path>
+						</File>
+						<File Id="461225173" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-002.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-002_9EDFC787.wem</Path>
+						</File>
+						<File Id="586083000" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-003.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-003_9EDFC787.wem</Path>
 						</File>
 						<File Id="630468742" Language="SFX">
 							<ShortName>Music\OldLady\AmbiGhostStinger-001.wav</ShortName>
@@ -329,9 +376,17 @@
 							<ShortName>Music\OldLady\kontrabas master-015.wav</ShortName>
 							<Path>SFX\Music\OldLady\kontrabas master-015_9EDFC787.wem</Path>
 						</File>
+						<File Id="810031289" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-006.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-006_9EDFC787.wem</Path>
+						</File>
 						<File Id="831688287" Language="SFX">
 							<ShortName>Music\OldLady\AmbiGhostStinger-002.wav</ShortName>
 							<Path>SFX\Music\OldLady\AmbiGhostStinger-002_9EDFC787.wem</Path>
+						</File>
+						<File Id="891722214" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-005.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-005_9EDFC787.wem</Path>
 						</File>
 						<File Id="929162355" Language="SFX">
 							<ShortName>Music\OldLady\OldLady Ambi2 100bpm.wav</ShortName>
@@ -340,6 +395,26 @@
 						<File Id="934320070" Language="SFX">
 							<ShortName>Music\OldLady\OldLady Ambi1 100bpm.wav</ShortName>
 							<Path>SFX\Music\OldLady\OldLady Ambi1 100bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="941777263" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-007.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-007_9EDFC787.wem</Path>
+						</File>
+						<File Id="948744776" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-002.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-002_9EDFC787.wem</Path>
+						</File>
+						<File Id="964639863" Language="SFX">
+							<ShortName>Music\OldLady\KlarinettStingers-004.wav</ShortName>
+							<Path>SFX\Music\OldLady\KlarinettStingers-004_9EDFC787.wem</Path>
+						</File>
+						<File Id="994930859" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-006.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-006_9EDFC787.wem</Path>
+						</File>
+						<File Id="1031073834" Language="SFX">
+							<ShortName>Music\OldLady\kontrabas master-009.wav</ShortName>
+							<Path>SFX\Music\OldLady\kontrabas master-009_9EDFC787.wem</Path>
 						</File>
 						<File Id="1040388360" Language="SFX">
 							<ShortName>Music\OldLady\kontrabas master-013.wav</ShortName>
@@ -358,20 +433,164 @@
 							<Path>SFX\Music\OldLady\OldLady Ambi3 100bpm_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{986CE454-595E-457B-A92A-89F99965AFA9}">
+							<Media>
+								<File Id="259785673"/>
+								<File Id="338010396"/>
+								<File Id="948744776"/>
+								<File Id="964639863"/>
+								<File Id="1050294060"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{508B344F-C35A-4116-9EB5-80E22DDCC24A}">
+							<Media>
+								<File Id="209565762"/>
+								<File Id="229216676"/>
+								<File Id="810031289"/>
+								<File Id="941777263"/>
+								<File Id="1050294060"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5411FB4F-64CF-4F8F-9B63-5562422834BE}">
+							<Media>
+								<File Id="40834639"/>
+								<File Id="145780498"/>
+								<File Id="145876006"/>
+								<File Id="255003514"/>
+								<File Id="1050294060"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{986CE454-595E-457B-A92A-89F99965AFA9}">
+							<Media>
+								<File Id="53033174"/>
+								<File Id="436433310"/>
+								<File Id="461225173"/>
+								<File Id="586083000"/>
+								<File Id="891722214"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{508B344F-C35A-4116-9EB5-80E22DDCC24A}">
+							<Media>
+								<File Id="29784233"/>
+								<File Id="108351385"/>
+								<File Id="208903557"/>
+								<File Id="994930859"/>
+								<File Id="1031073834"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5411FB4F-64CF-4F8F-9B63-5562422834BE}">
+							<Media>
+								<File Id="3373477"/>
+								<File Id="105373223"/>
+								<File Id="133558551"/>
+								<File Id="734774858"/>
+								<File Id="1040388360"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3965456208" Name="Play_Runner" ObjectPath="\Events\PlayMusic\Play_Runner" GUID="{7C574E14-4AE8-42DB-B631-328664FFED03}" DurationType="Infinite">
-					<SwitchContainers/>
+					<IncludedMemoryFiles>
+						<File Id="125976970" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct2\the_girl_level_2.3_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct2\the_girl_level_2.3_50bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="131802224" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct2\the_girl_level_2.1_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct2\the_girl_level_2.1_50bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="207454562" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct1\the_girl_1.3_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct1\the_girl_1.3_50bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="421102690" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct1\the_girl_1.2_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct1\the_girl_1.2_50bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="475492684" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct1\the_girl_1.4_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct1\the_girl_1.4_50bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="549256240" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct2\the_girl_level_2.2_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct2\the_girl_level_2.2_50bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="730972721" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct1\the_girl_1.1_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct1\the_girl_1.1_50bpm_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}">
+							<Media>
+								<File Id="207454562"/>
+								<File Id="421102690"/>
+								<File Id="475492684"/>
+								<File Id="730972721"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F15E7649-AC49-4703-834C-42299FE4C3AD}">
+							<Media>
+								<File Id="125976970"/>
+								<File Id="131802224"/>
+								<File Id="549256240"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
+				<Event Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1789806177" Name="Play_Stop_MainTheme" ObjectPath="\Events\PlayMusic\Play_Stop_MainTheme" GUID="{3C5E178D-70B8-48BC-A158-DD317939869A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3569629287" Name="Play_Stop_MusicHub" ObjectPath="\Events\PlayMusic\Play_Stop_MusicHub" GUID="{202F35BD-36A3-458B-8A69-8CB4B84260A4}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2607843828" Name="Play_Stop_OldLady" ObjectPath="\Events\PlayMusic\Play_Stop_OldLady" GUID="{278243EB-BD65-4307-BCA0-02B61869922A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="75935907" Name="Play_Stop_Runner" ObjectPath="\Events\PlayMusic\Play_Stop_Runner" GUID="{5F2696C4-D0CB-4B43-B5D1-6B817172CFE1}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3466869857" Name="Play_Stop_Thug" ObjectPath="\Events\PlayMusic\Play_Stop_Thug" GUID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3289997258" Name="Play_Thug" ObjectPath="\Events\PlayMusic\Play_Thug" GUID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" DurationType="Infinite">
-					<SwitchContainers/>
+					<IncludedMemoryFiles>
+						<File Id="189914427" Language="SFX">
+							<ShortName>Music\Thug\ThugDream Akt2 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\ThugDream Akt2 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+						<File Id="323457401" Language="SFX">
+							<ShortName>Music\Thug\ThugDream Klarinett3 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\ThugDream Klarinett3 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+						<File Id="499394862" Language="SFX">
+							<ShortName>Music\Thug\ThugDream Akt3 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\ThugDream Akt3 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+						<File Id="506154452" Language="SFX">
+							<ShortName>Music\Thug\ThugDream Klarinett5 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\ThugDream Klarinett5 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+						<File Id="552504328" Language="SFX">
+							<ShortName>Music\Thug\ThugDream Klarinett4 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\ThugDream Klarinett4 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+						<File Id="899918642" Language="SFX">
+							<ShortName>Music\Thug\ThugDream Klarinett2 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\ThugDream Klarinett2 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+						<File Id="912177680" Language="SFX">
+							<ShortName>Music\Thug\ThugDream Akt1 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\ThugDream Akt1 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+						<File Id="970544024" Language="SFX">
+							<ShortName>Music\Thug\ThugDream Klarinett1 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
+				<StateGroup Id="893472011" Name="OldLady_LVL" ObjectPath="\States\Act_State\OldLady_LVL" GUID="{568D98EA-22AC-4E25-AE13-513AD3F9A270}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Act_State\OldLady_LVL\None" GUID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
+						<State Id="3548830618" Name="OldLady_Act1" ObjectPath="\States\Act_State\OldLady_LVL\OldLady_Act1" GUID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
+						<State Id="3548830617" Name="OldLady_Act2" ObjectPath="\States\Act_State\OldLady_LVL\OldLady_Act2" GUID="{508B344F-C35A-4116-9EB5-80E22DDCC24A}"/>
+						<State Id="3548830616" Name="OldLady_Act3" ObjectPath="\States\Act_State\OldLady_LVL\OldLady_Act3" GUID="{5411FB4F-64CF-4F8F-9B63-5562422834BE}"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="1025315780" Name="Thug_LVL_State" ObjectPath="\States\Act_State\Thug_LVL_State" GUID="{CE361D83-0A5A-40ED-A09B-FB19152B38D8}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Act_State\Thug_LVL_State\None" GUID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
