@@ -4,52 +4,30 @@
 		<WorkUnit Name="Default Work Unit" ID="{A1653022-C35E-40C5-B995-DC31F4961CF9}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="FootSteps and Music" ID="{1250E8F0-90E1-4503-A488-3C38BF413A10}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_MainTheme" ID="{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
-							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="PlayerFootstepsEvent" ID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" WorkUnitID="{C5A83140-F17F-4361-A957-F5569C8CB4DB}"/>
-							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="UI_Click_Button" ID="{C08F3209-396D-4817-999D-BE74BB1000B4}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="UI_Close_Menu" ID="{7DF20592-A6A7-4C6A-A074-E8B61C3516E0}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="UI_Hover_Over_Button" ID="{66D5A7AD-02F3-4099-B00D-B23033411B16}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}"/>
-							<Position X="2" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="UI_Open_Menu" ID="{225F7E9D-6344-4D85-88CB-02814352E22D}" WorkUnitID="{0E5A646A-4C87-480D-BF89-291EC53FAA5A}"/>
-							<Position X="2" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Headlocked_Ambience_LP" ID="{75515714-049D-48B2-9FA0-6190615A2562}" WorkUnitID="{A474B2D6-9874-4E8E-A5EB-0C0F445AF468}"/>
-							<Position X="3" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="PlayLarge_washing_machine" ID="{B9617C64-B20D-4D4F-BADB-BEC51FC4BECF}" WorkUnitID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}"/>
-							<Position X="4" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="PlayLarge_washing_machineEnd" ID="{082C3432-7D34-4845-8FDB-BA04457ECE7B}" WorkUnitID="{98AE1E5B-DF0E-4663-9249-95BD3846A33B}"/>
-							<Position X="4" Y="1"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ambi_Vol" ID="{CD020137-2BA1-4350-8904-0D80EDF0B94F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}"/>
+							<Value>0</Value>
+						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Master_Vol" ID="{31CFA690-A887-4407-BD42-0952ABFBF319}"/>
 							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Dialogue_Vol" ID="{E22BE48E-07DA-46F6-9D5A-317D36877DDE}"/>
@@ -68,33 +46,14 @@
 						<CurrentStateRef Name="OldLady_Act1" ID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
 						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
+						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
+						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="UI Menu" ID="{D54B3266-E763-4F8A-90FC-E68C18147A57}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="OldLady Ambi1 100bpm" ID="{8BA47879-8DEA-4F40-BF9C-A3113011D635}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="AB_Small_Room_HeadlockedLP" ID="{15A9E598-A9AE-4FC0-B2F1-D7D5EF178C02}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
-							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Drawer" ID="{776FED0A-8D09-438D-AF2A-93D11E06229A}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_AB_Low_Electricity_Hum_3D_LP" ID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP" ID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
-							<Position X="3" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
@@ -110,6 +69,18 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Master_Vol" ID="{31CFA690-A887-4407-BD42-0952ABFBF319}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Dialogue_Vol" ID="{E22BE48E-07DA-46F6-9D5A-317D36877DDE}"/>
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -171,30 +142,18 @@
 						<CurrentStateRef Name="None" ID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
 						<CurrentStateRef Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
 						<CurrentStateRef Name="None" ID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
-						<CurrentStateRef Name="None" ID="{8B77F188-B864-4A48-A88B-A13BCA72DB36}"/>
+						<CurrentStateRef Name="Runner_Act3" ID="{879C6307-863E-48F2-993D-E12F4D4DFBAE}"/>
 						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
 						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
+						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Room Rtpc" ID="{4174E52A-FEBC-416C-80C1-2092AEEFC064}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="PlayerFootstepsEvent" ID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" WorkUnitID="{C5A83140-F17F-4361-A957-F5569C8CB4DB}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_AB_Rain_From_Closed_Window_3D_LP" ID="{88D1A423-DF15-4869-BDB2-4BBCDDEDE9B2}" WorkUnitID="{A474B2D6-9874-4E8E-A5EB-0C0F445AF468}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_AB_Dream_Machine_Ambience_3D_LP" ID="{CBBDF146-BD8D-42E1-8EA9-B2613361CE47}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>

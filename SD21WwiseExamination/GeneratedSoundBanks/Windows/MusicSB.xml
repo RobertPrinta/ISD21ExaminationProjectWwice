@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1318810061">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="3353489813">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -504,6 +504,14 @@
 							<ShortName>Music\Runner\RunnerAct1\the_girl_1.3_50bpm.wav</ShortName>
 							<Path>SFX\Music\Runner\RunnerAct1\the_girl_1.3_50bpm_9EDFC787.wem</Path>
 						</File>
+						<File Id="361406635" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct3\the_girl_level_3.2_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct3\the_girl_level_3.2_50bpm_9EDFC787.wem</Path>
+						</File>
+						<File Id="407815057" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct3\the_girl_level_3.1_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct3\the_girl_level_3.1_50bpm_9EDFC787.wem</Path>
+						</File>
 						<File Id="421102690" Language="SFX">
 							<ShortName>Music\Runner\RunnerAct1\the_girl_1.2_50bpm.wav</ShortName>
 							<Path>SFX\Music\Runner\RunnerAct1\the_girl_1.2_50bpm_9EDFC787.wem</Path>
@@ -520,6 +528,10 @@
 							<ShortName>Music\Runner\RunnerAct1\the_girl_1.1_50bpm.wav</ShortName>
 							<Path>SFX\Music\Runner\RunnerAct1\the_girl_1.1_50bpm_9EDFC787.wem</Path>
 						</File>
+						<File Id="1045753182" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct3\the_girl_level_3.3_50bpm.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct3\the_girl_level_3.3_50bpm_9EDFC787.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}">
@@ -535,6 +547,13 @@
 								<File Id="125976970"/>
 								<File Id="131802224"/>
 								<File Id="549256240"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{879C6307-863E-48F2-993D-E12F4D4DFBAE}">
+							<Media>
+								<File Id="361406635"/>
+								<File Id="407815057"/>
+								<File Id="1045753182"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>

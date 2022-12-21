@@ -313,7 +313,7 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>25</Value>
+										<Value>16</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
