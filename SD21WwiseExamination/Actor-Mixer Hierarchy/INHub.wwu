@@ -39,7 +39,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -63,6 +63,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Gears" ID="{90764323-A807-49EF-9E9C-38C9EF461FEA}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="3.52506192997941"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Hub\Gears.wav</AudioFile>
 											<MediaIDList>
