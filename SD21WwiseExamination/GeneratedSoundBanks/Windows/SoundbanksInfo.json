@@ -5061,7 +5061,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "35720194",
+    "Hash": "1892776812",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -5184,6 +5184,16 @@
         "Path": "SFX\\Ambience\\3D\\FireLoop_3D_9EDFC787.wem"
        }
       ]
+     },
+     {
+      "Id": "4070979672",
+      "Name": "Play_Clock",
+      "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_Clock",
+      "GUID": "{23A466A9-08FA-431D-ACB9-5CD810F95904}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3114179205",
@@ -5908,50 +5918,14 @@
       "ObjectPath": "\\Events\\Interactables\\INHub\\Play_ShelvsSliding",
       "GUID": "{473BFB67-B3B1-4454-80A0-CDEFE58F23B0}",
       "DurationType": "OneShot",
-      "DurationMin": "6.115857",
-      "DurationMax": "7.109228",
+      "DurationMin": "8.983876",
+      "DurationMax": "9.076995",
       "IncludedMemoryFiles": [
        {
-        "Id": "120985192",
+        "Id": "550325526",
         "Language": "SFX",
-        "ShortName": "Interactables\\Hub\\Manual Sliding.wav",
-        "Path": "SFX\\Interactables\\Hub\\Manual Sliding_2049CC85.wem"
-       },
-       {
-        "Id": "629133942",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Hub\\Manual Sliding.wav",
-        "Path": "SFX\\Interactables\\Hub\\Manual Sliding_7770C253.wem"
-       },
-       {
-        "Id": "677966712",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Hub\\Manual Sliding.wav",
-        "Path": "SFX\\Interactables\\Hub\\Manual Sliding_62E1D95A.wem"
-       },
-       {
-        "Id": "686017619",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Hub\\Manual Sliding.wav",
-        "Path": "SFX\\Interactables\\Hub\\Manual Sliding_180AB95D.wem"
-       },
-       {
-        "Id": "796706123",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Hub\\Manual Sliding.wav",
-        "Path": "SFX\\Interactables\\Hub\\Manual Sliding_76D27C96.wem"
-       },
-       {
-        "Id": "873822259",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Hub\\Manual Sliding.wav",
-        "Path": "SFX\\Interactables\\Hub\\Manual Sliding_353E4D6B.wem"
-       },
-       {
-        "Id": "896192385",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Hub\\Manual Sliding.wav",
-        "Path": "SFX\\Interactables\\Hub\\Manual Sliding_28D912B2.wem"
+        "ShortName": "Interactables\\Hub\\Gears.wav",
+        "Path": "SFX\\Interactables\\Hub\\Gears_3CADDE39.wem"
        }
       ]
      },

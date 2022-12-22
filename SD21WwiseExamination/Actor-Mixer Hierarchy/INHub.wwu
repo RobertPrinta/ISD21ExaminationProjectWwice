@@ -52,7 +52,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Manual Sliding" ID="{96C6D533-8405-48A3-8358-9360B1ACC768}" ShortID="545962059">
+								<Sound Name="Gears" ID="{E8B5C8B5-072F-4C15-8585-AE830D0E432A}" ShortID="130524850">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -62,240 +62,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Manual Sliding" ID="{1EE66B33-8497-41EB-96D4-EED1EF7BEFB2}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.358567188879082"/>
-												<Property Name="LoopEnd" Type="Real64" Value="1.71315434686673"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.305446123859959"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.77955567814063"/>
-											</PropertyList>
+										<AudioFileSource Name="Gears" ID="{90764323-A807-49EF-9E9C-38C9EF461FEA}">
 											<Language>SFX</Language>
-											<AudioFile>Interactables\Hub\Manual Sliding.wav</AudioFile>
+											<AudioFile>Interactables\Hub\Gears.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="629133942"/>
+												<MediaID ID="550325526"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Manual Sliding" ID="{1EE66B33-8497-41EB-96D4-EED1EF7BEFB2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Manual Sliding_01" ID="{1EEE9554-54A1-42C0-B6D1-BE781D9E29AC}" ShortID="942413650">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Manual Sliding" ID="{BF07BBC5-BEB1-4C2A-85D9-0598DBBFE7D2}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="2.37716765960577"/>
-												<Property Name="TrimEnd" Type="Real64" Value="3.90439827890556"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Interactables\Hub\Manual Sliding.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="796706123"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Manual Sliding" ID="{BF07BBC5-BEB1-4C2A-85D9-0598DBBFE7D2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Manual Sliding_02" ID="{5F44FD77-F11E-46C5-8885-982BF44B0C9C}" ShortID="997110600">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Manual Sliding" ID="{EFDD6C1C-DA22-4406-840E-45BD5D02554A}">
-											<PropertyList>
-												<Property Name="LoopEnd" Type="Real64" Value="6.17532380847308"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="4.13016280523684"/>
-												<Property Name="TrimEnd" Type="Real64" Value="6.21516460723742"/>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>-1.2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Interactables\Hub\Manual Sliding.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="686017619"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Manual Sliding" ID="{EFDD6C1C-DA22-4406-840E-45BD5D02554A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Manual Sliding_03" ID="{68E7D6B9-FA52-42BE-81AB-69880D25C085}" ShortID="1008550174">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Manual Sliding" ID="{5742DB9F-FFCA-427D-9CE6-67958E1B64D4}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="6.46748966607826"/>
-												<Property Name="LoopEnd" Type="Real64" Value="7.45022936893204"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="6.36124753604002"/>
-												<Property Name="TrimEnd" Type="Real64" Value="7.56975176522506"/>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>-1.2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Interactables\Hub\Manual Sliding.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="677966712"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Manual Sliding" ID="{5742DB9F-FFCA-427D-9CE6-67958E1B64D4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Manual Sliding_04" ID="{766558F5-F24A-428A-A89E-ACF21CAD6C2D}" ShortID="390382097">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Manual Sliding" ID="{6EDDD89C-B4F1-4ACA-AB3E-D540F36F087D}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="7.94159922035893"/>
-												<Property Name="LoopEnd" Type="Real64" Value="9.68131409973521"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="7.91503868784937"/>
-												<Property Name="TrimEnd" Type="Real64" Value="9.73443516475434"/>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>-1.2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Interactables\Hub\Manual Sliding.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="873822259"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Manual Sliding" ID="{6EDDD89C-B4F1-4ACA-AB3E-D540F36F087D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Manual Sliding_05" ID="{8BEAD665-389C-4467-9FE3-CC93B4436811}" ShortID="404918972">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Manual Sliding" ID="{56F9E3D1-E5AD-41E0-8506-99CDA6A3E043}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="10.6109327375699"/>
-												<Property Name="TrimEnd" Type="Real64" Value="12.3108068181818"/>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>-1.2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Interactables\Hub\Manual Sliding.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="120985192"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Manual Sliding" ID="{56F9E3D1-E5AD-41E0-8506-99CDA6A3E043}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Manual Sliding_06" ID="{123A9778-912A-4467-91E6-612EA689DE1C}" ShortID="1067642621">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Manual Sliding" ID="{142E3C08-076B-4912-B8A4-50C142CCEDD8}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="13.3732281185643"/>
-												<Property Name="TrimEnd" Type="Real64" Value="14.5020507502207"/>
-												<Property Name="VolumeOffset" Type="Real64">
-													<ValueList>
-														<Value>-1.2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Interactables\Hub\Manual Sliding.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="896192385"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Manual Sliding" ID="{142E3C08-076B-4912-B8A4-50C142CCEDD8}" Platform="Linked"/>
+										<ActiveSource Name="Gears" ID="{90764323-A807-49EF-9E9C-38C9EF461FEA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
