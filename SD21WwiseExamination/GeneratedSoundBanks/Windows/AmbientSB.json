@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "2651090482",
+    "Hash": "585860158",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -86,15 +86,13 @@
       "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_Desk_Fan_3D_LP",
       "GUID": "{B55939AC-2E8C-4215-A6AC-E402B9AAA3F4}",
       "MaxAttenuation": "1500.",
-      "DurationType": "OneShot",
-      "DurationMin": "3.409841",
-      "DurationMax": "3.409841",
-      "IncludedMemoryFiles": [
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
        {
         "Id": "315448986",
         "Language": "SFX",
         "ShortName": "Ambience\\3D\\AB_Desk_Fan_3D.wav",
-        "Path": "SFX\\Ambience\\3D\\AB_Desk_Fan_3D_3F75BDB9.wem"
+        "Path": "SFX\\Ambience\\3D\\AB_Desk_Fan_3D_9EDFC787.wem"
        }
       ]
      },
