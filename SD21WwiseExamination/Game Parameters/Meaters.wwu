@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<GameParameter Name="SidechaineMusicVolRTPC" ID="{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
 						<Property Name="Max" Type="Real64" Value="0"/>
 						<Property Name="Min" Type="Real64" Value="-48"/>
 					</PropertyList>

@@ -268,7 +268,7 @@
 						<CurrentStateRef Name="None" ID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
 						<CurrentStateRef Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
 						<CurrentStateRef Name="None" ID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
-						<CurrentStateRef Name="None" ID="{8B77F188-B864-4A48-A88B-A13BCA72DB36}"/>
+						<CurrentStateRef Name="Runner_Act1" ID="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}"/>
 						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

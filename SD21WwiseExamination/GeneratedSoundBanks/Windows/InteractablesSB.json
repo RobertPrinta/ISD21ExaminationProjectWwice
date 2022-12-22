@@ -16,7 +16,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "1892776812",
+    "Hash": "3777890043",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -145,10 +145,17 @@
       "Name": "Play_Clock",
       "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_Clock",
       "GUID": "{23A466A9-08FA-431D-ACB9-5CD810F95904}",
-      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "31.346958",
+      "DurationMax": "31.346958",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "196364746",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\Clock\\pendulum clock.wav",
+        "Path": "SFX\\Interactables\\OldLady\\Clock\\pendulum clock_3CADDE39.wem"
+       }
+      ]
      },
      {
       "Id": "3114179205",
@@ -873,8 +880,8 @@
       "ObjectPath": "\\Events\\Interactables\\INHub\\Play_ShelvsSliding",
       "GUID": "{473BFB67-B3B1-4454-80A0-CDEFE58F23B0}",
       "DurationType": "OneShot",
-      "DurationMin": "8.983876",
-      "DurationMax": "9.076995",
+      "DurationMin": "3.983876",
+      "DurationMax": "4.076995",
       "IncludedMemoryFiles": [
        {
         "Id": "550325526",

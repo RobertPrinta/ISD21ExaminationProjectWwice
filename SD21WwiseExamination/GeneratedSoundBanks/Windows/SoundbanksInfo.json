@@ -20,6 +20,12 @@
     "Path": "SFX\\Ambience\\3D\\AB_Muffled_Conversation_Behind_Door_3D_9EDFC787.wem"
    },
    {
+    "Id": "315448986",
+    "Language": "SFX",
+    "ShortName": "Ambience\\3D\\AB_Desk_Fan_3D.wav",
+    "Path": "SFX\\Ambience\\3D\\AB_Desk_Fan_3D_9EDFC787.wem"
+   },
+   {
     "Id": "565778425",
     "Language": "SFX",
     "ShortName": "Ambience\\3D\\AB_Ceiling_Fan_3D.wav",
@@ -50,7 +56,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "2651090482",
+    "Hash": "2788335107",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -120,15 +126,13 @@
       "ObjectPath": "\\Events\\Ambience\\AB_Global\\Play_AB_Desk_Fan_3D_LP",
       "GUID": "{B55939AC-2E8C-4215-A6AC-E402B9AAA3F4}",
       "MaxAttenuation": "1500.",
-      "DurationType": "OneShot",
-      "DurationMin": "3.409841",
-      "DurationMax": "3.409841",
-      "IncludedMemoryFiles": [
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
        {
         "Id": "315448986",
         "Language": "SFX",
         "ShortName": "Ambience\\3D\\AB_Desk_Fan_3D.wav",
-        "Path": "SFX\\Ambience\\3D\\AB_Desk_Fan_3D_3F75BDB9.wem"
+        "Path": "SFX\\Ambience\\3D\\AB_Desk_Fan_3D_9EDFC787.wem"
        }
       ]
      },
@@ -795,7 +799,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "701042546",
+    "Hash": "2989483719",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -861,6 +865,12 @@
       "Name": "RevAux_Small_Room",
       "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Small_Room",
       "GUID": "{3942A380-EAAD-450A-8833-6DC605F2422A}"
+     },
+     {
+      "Id": "3495552253",
+      "Name": "SidechaineMusicVolRTPC",
+      "ObjectPath": "\\Game Parameters\\Meaters\\SidechaineMusicVolRTPC",
+      "GUID": "{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}"
      },
      {
       "Id": "3578718921",
@@ -2647,7 +2657,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "1703109491",
+    "Hash": "2581086350",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -3880,7 +3890,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "1280630295",
+    "Hash": "1244226823",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -4343,6 +4353,14 @@
          }
         ]
        }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3529625474",
+        "Name": "Play_Stop_All_Music",
+        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
+        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
+       }
       ]
      },
      {
@@ -4690,6 +4708,14 @@
          }
         ]
        }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3529625474",
+        "Name": "Play_Stop_All_Music",
+        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
+        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
+       }
       ]
      },
      {
@@ -4805,6 +4831,14 @@
           "Id": "1045753182"
          }
         ]
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3529625474",
+        "Name": "Play_Stop_All_Music",
+        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
+        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
        }
       ]
      },
@@ -4922,6 +4956,14 @@
         "Language": "SFX",
         "ShortName": "Music\\Thug\\ThugDream Klarinett1 87bpm 3_4.wav",
         "Path": "SFX\\Music\\Thug\\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3529625474",
+        "Name": "Play_Stop_All_Music",
+        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
+        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
        }
       ]
      }
@@ -5061,7 +5103,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "1892776812",
+    "Hash": "3777890043",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -5190,10 +5232,17 @@
       "Name": "Play_Clock",
       "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_Clock",
       "GUID": "{23A466A9-08FA-431D-ACB9-5CD810F95904}",
-      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "31.346958",
+      "DurationMax": "31.346958",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "196364746",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\Clock\\pendulum clock.wav",
+        "Path": "SFX\\Interactables\\OldLady\\Clock\\pendulum clock_3CADDE39.wem"
+       }
+      ]
      },
      {
       "Id": "3114179205",
@@ -5918,8 +5967,8 @@
       "ObjectPath": "\\Events\\Interactables\\INHub\\Play_ShelvsSliding",
       "GUID": "{473BFB67-B3B1-4454-80A0-CDEFE58F23B0}",
       "DurationType": "OneShot",
-      "DurationMin": "8.983876",
-      "DurationMax": "9.076995",
+      "DurationMin": "3.983876",
+      "DurationMax": "4.076995",
       "IncludedMemoryFiles": [
        {
         "Id": "550325526",

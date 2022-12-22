@@ -16,7 +16,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "1280630295",
+    "Hash": "1244226823",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -479,6 +479,14 @@
          }
         ]
        }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3529625474",
+        "Name": "Play_Stop_All_Music",
+        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
+        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
+       }
       ]
      },
      {
@@ -826,6 +834,14 @@
          }
         ]
        }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3529625474",
+        "Name": "Play_Stop_All_Music",
+        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
+        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
+       }
       ]
      },
      {
@@ -941,6 +957,14 @@
           "Id": "1045753182"
          }
         ]
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3529625474",
+        "Name": "Play_Stop_All_Music",
+        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
+        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
        }
       ]
      },
@@ -1058,6 +1082,14 @@
         "Language": "SFX",
         "ShortName": "Music\\Thug\\ThugDream Klarinett1 87bpm 3_4.wav",
         "Path": "SFX\\Music\\Thug\\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3529625474",
+        "Name": "Play_Stop_All_Music",
+        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
+        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
        }
       ]
      }

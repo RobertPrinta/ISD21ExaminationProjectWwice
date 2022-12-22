@@ -23,6 +23,12 @@
     "StaticLib": "AkRoomVerbFX"
    },
    {
+    "Name": "Wwise Meter",
+    "ID": "8454147",
+    "DLL": "AkSoundEngineDLL",
+    "StaticLib": "AkMeterFX"
+   },
+   {
     "Name": "Wwise Harmonizer",
     "ID": "9043971",
     "DLL": "AkHarmonizer",

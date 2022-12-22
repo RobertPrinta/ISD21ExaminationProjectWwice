@@ -37,6 +37,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2342113436	RevAux_Large_Room			\ReverbRoom\RevAux_Large_Room	
 	2971952786	RevAux_Medium_Room			\ReverbRoom\RevAux_Medium_Room	
 	2987812640	RevAux_Small_Room			\ReverbRoom\RevAux_Small_Room	
+	3495552253	SidechaineMusicVolRTPC			\Meaters\SidechaineMusicVolRTPC	
 	3578718921	Master_Vol			\System Vol Sliders\Master_Vol	
 	4176647666	Ambi_Vol			\System Vol Sliders\Ambi_Vol	
 
@@ -70,6 +71,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	1990128658	Room_Medium	Wwise RoomVerb			
 	2653529179	Three_Voices	Wwise Harmonizer			
 	2995775460	Room_Small	Wwise RoomVerb			
+	3860050053	SideChineMeater	Wwise Meter			
 	3900114836	Metal_Hangar	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
