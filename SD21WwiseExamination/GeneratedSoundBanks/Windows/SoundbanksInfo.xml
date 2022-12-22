@@ -2507,7 +2507,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="770559101">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="35720194">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
@@ -2985,35 +2985,35 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="936061481" Name="Play_ShelvsSliding" ObjectPath="\Events\Interactables\INHub\Play_ShelvsSliding" GUID="{473BFB67-B3B1-4454-80A0-CDEFE58F23B0}" DurationType="OneShot" DurationMin="1.115857" DurationMax="2.109228">
+				<Event Id="936061481" Name="Play_ShelvsSliding" ObjectPath="\Events\Interactables\INHub\Play_ShelvsSliding" GUID="{473BFB67-B3B1-4454-80A0-CDEFE58F23B0}" DurationType="OneShot" DurationMin="6.115857" DurationMax="7.109228">
 					<IncludedMemoryFiles>
 						<File Id="120985192" Language="SFX">
 							<ShortName>Interactables\Hub\Manual Sliding.wav</ShortName>
-							<Path>SFX\Interactables\Hub\Manual Sliding_FFB32324.wem</Path>
+							<Path>SFX\Interactables\Hub\Manual Sliding_2049CC85.wem</Path>
 						</File>
 						<File Id="629133942" Language="SFX">
 							<ShortName>Interactables\Hub\Manual Sliding.wav</ShortName>
-							<Path>SFX\Interactables\Hub\Manual Sliding_B9FF9312.wem</Path>
+							<Path>SFX\Interactables\Hub\Manual Sliding_7770C253.wem</Path>
 						</File>
 						<File Id="677966712" Language="SFX">
 							<ShortName>Interactables\Hub\Manual Sliding.wav</ShortName>
-							<Path>SFX\Interactables\Hub\Manual Sliding_960C8CC3.wem</Path>
+							<Path>SFX\Interactables\Hub\Manual Sliding_62E1D95A.wem</Path>
 						</File>
 						<File Id="686017619" Language="SFX">
 							<ShortName>Interactables\Hub\Manual Sliding.wav</ShortName>
-							<Path>SFX\Interactables\Hub\Manual Sliding_1E39A197.wem</Path>
+							<Path>SFX\Interactables\Hub\Manual Sliding_180AB95D.wem</Path>
 						</File>
 						<File Id="796706123" Language="SFX">
 							<ShortName>Interactables\Hub\Manual Sliding.wav</ShortName>
-							<Path>SFX\Interactables\Hub\Manual Sliding_2BD83370.wem</Path>
+							<Path>SFX\Interactables\Hub\Manual Sliding_76D27C96.wem</Path>
 						</File>
 						<File Id="873822259" Language="SFX">
 							<ShortName>Interactables\Hub\Manual Sliding.wav</ShortName>
-							<Path>SFX\Interactables\Hub\Manual Sliding_E5FDBE8F.wem</Path>
+							<Path>SFX\Interactables\Hub\Manual Sliding_353E4D6B.wem</Path>
 						</File>
 						<File Id="896192385" Language="SFX">
 							<ShortName>Interactables\Hub\Manual Sliding.wav</ShortName>
-							<Path>SFX\Interactables\Hub\Manual Sliding_757B60A5.wem</Path>
+							<Path>SFX\Interactables\Hub\Manual Sliding_28D912B2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

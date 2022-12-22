@@ -18,6 +18,12 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="ShelvsSliding" ID="{341C8738-2047-42D6-A822-8CB19B80B670}" ShortID="474744004">
 							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -30,6 +36,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
