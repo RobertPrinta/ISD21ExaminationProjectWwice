@@ -182,6 +182,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Sigifrit_A1_S50_BG" ID="{486D36E7-8700-49E0-AED8-0E66636473B3}" ShortID="650839978">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
