@@ -12,6 +12,56 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{46DBB384-799A-46F9-8A27-72E2CD99687D}" ShortID="436722735">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShelvsSliding" ID="{341C8738-2047-42D6-A822-8CB19B80B670}" WorkUnitID="{7A024D06-C2DE-4684-A661-2007B6248F6C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3C02CCF8-67A1-4A5A-97C7-8D8B6643D89E}" ShortID="121535958">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShelvsSliding" ID="{341C8738-2047-42D6-A822-8CB19B80B670}" WorkUnitID="{7A024D06-C2DE-4684-A661-2007B6248F6C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F1567E2F-C796-4DEE-BA34-9876AEF7A709}" ShortID="992113683">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShelvsSliding" ID="{341C8738-2047-42D6-A822-8CB19B80B670}" WorkUnitID="{7A024D06-C2DE-4684-A661-2007B6248F6C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{88B49E3F-2ECA-49AA-93C1-9C924DF7FDFE}" ShortID="90988674">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShelvsSliding" ID="{341C8738-2047-42D6-A822-8CB19B80B670}" WorkUnitID="{7A024D06-C2DE-4684-A661-2007B6248F6C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6E3832CC-0228-4864-8C8B-35A0CDEDF034}" ShortID="1016065997">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShelvsSliding" ID="{341C8738-2047-42D6-A822-8CB19B80B670}" WorkUnitID="{7A024D06-C2DE-4684-A661-2007B6248F6C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_ShelvsClicking" ID="{CA233233-7AB5-41D3-8179-F414834275B1}">

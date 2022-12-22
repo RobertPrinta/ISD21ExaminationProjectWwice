@@ -5,9 +5,9 @@
 			<ChildrenList>
 				<ActorMixer Name="Di_Master_Actor-Mixer" ID="{3F614CAC-5081-4FBE-B05E-D7218A2CFCF8}" ShortID="75561430">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -16,7 +16,7 @@
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+							<ObjectRef Name="DialogueMaster" ID="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

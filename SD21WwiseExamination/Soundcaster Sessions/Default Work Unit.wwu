@@ -203,6 +203,82 @@
 						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Music And Di" ID="{CAB47C1B-1E23-4525-B9D3-3997726640D0}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_OldLady" ID="{01F2B377-D584-4E43-A03D-50015A4F0E78}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Runner" ID="{7C574E14-4AE8-42DB-B631-328664FFED03}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Thug" ID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PoliceHub_A1_S3" ID="{DBDFB023-B576-473C-AC05-E745AFE0F0AE}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Medium_Room" ID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ambi_Vol" ID="{CD020137-2BA1-4350-8904-0D80EDF0B94F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Large_Room" ID="{DBE2056E-0847-43EE-A528-2254377444F4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Master_Vol" ID="{31CFA690-A887-4407-BD42-0952ABFBF319}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Dream_Room" ID="{B555B2A2-2041-442E-935A-11E6391D929A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RevAux_Small_Room" ID="{3942A380-EAAD-450A-8833-6DC605F2422A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Dialogue_Vol" ID="{E22BE48E-07DA-46F6-9D5A-317D36877DDE}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SidechaineMusicVolRTPC" ID="{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Vol" ID="{17C1D6E1-5801-4D9D-AF9B-7FD127E1F17B}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
+						<CurrentStateRef Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
+						<CurrentStateRef Name="None" ID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
+						<CurrentStateRef Name="None" ID="{8B77F188-B864-4A48-A88B-A13BCA72DB36}"/>
+						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
+						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
+						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
+						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

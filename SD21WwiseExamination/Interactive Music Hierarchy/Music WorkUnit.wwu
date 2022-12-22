@@ -5,12 +5,12 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="OldLadyMusic1" ID="{D67909C7-5B3B-4E47-A34F-48168EC235FD}" ShortID="93409855">
 					<PropertyList>
-						<Property Name="Tempo" Type="Real64" Value="100"/>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>8</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Tempo" Type="Real64" Value="100"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -10380,12 +10380,12 @@
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="OldLadyMusic2" ID="{6E8DBF88-3B00-428B-89EA-646ED92BB5D8}" ShortID="894420355">
 					<PropertyList>
-						<Property Name="Tempo" Type="Real64" Value="100"/>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>8</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Tempo" Type="Real64" Value="100"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
