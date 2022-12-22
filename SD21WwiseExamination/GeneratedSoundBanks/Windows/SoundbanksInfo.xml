@@ -1884,7 +1884,7 @@
 				<Event Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1244226823">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="3919600917">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -2451,42 +2451,56 @@
 				<Event Id="3466869857" Name="Play_Stop_Thug" ObjectPath="\Events\PlayMusic\Play_Stop_Thug" GUID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3289997258" Name="Play_Thug" ObjectPath="\Events\PlayMusic\Play_Thug" GUID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="189914427" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Akt2 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Akt2 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="81627251" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett2 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett2 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
-						<File Id="323457401" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett3 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett3 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="295524207" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett4 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett4 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+						<File Id="315324335" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett1 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
 						<File Id="499394862" Language="SFX">
 							<ShortName>Music\Thug\ThugDream Akt3 87bpm 3_4.wav</ShortName>
 							<Path>SFX\Music\Thug\ThugDream Akt3 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
-						<File Id="506154452" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett5 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett5 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="508343578" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett5 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett5 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
-						<File Id="552504328" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett4 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett4 87bpm 3_4_9EDFC787.wem</Path>
-						</File>
-						<File Id="899918642" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett2 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett2 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="630989056" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett3 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett3 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
 						<File Id="912177680" Language="SFX">
 							<ShortName>Music\Thug\ThugDream Akt1 87bpm 3_4.wav</ShortName>
 							<Path>SFX\Music\Thug\ThugDream Akt1 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
-						<File Id="970544024" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett1 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="1023928592" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct2\ThugDream Akt2 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct2\ThugDream Akt2 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}"/>
-					</ActionPostEvent>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{41717F4D-89C2-4812-B173-6BE94CC1F3C1}">
+							<Media>
+								<File Id="912177680"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B603DFE1-B99E-447A-90E4-22039077C126}">
+							<Media>
+								<File Id="1023928592"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1389356E-9BA5-40DD-884D-83BC5081EF04}">
+							<Media>
+								<File Id="499394862"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
@@ -2524,7 +2538,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="3777890043">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="3511898550">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
@@ -2594,6 +2608,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="520927618" Name="Play_Blender" ObjectPath="\Events\Interactables\INGlobal\DrugPuzzel\Play_Blender" GUID="{4981ABF0-8F8A-4FCD-AB10-D4AA9C45B1ED}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="609035275" Language="SFX">
+							<ShortName>Interactables\Global\DrugPuzzel\Blender.wav</ShortName>
+							<Path>SFX\Interactables\Global\DrugPuzzel\Blender_0D8774C0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4070979672" Name="Play_Clock" ObjectPath="\Events\Interactables\INOldLady\Play_Clock" GUID="{23A466A9-08FA-431D-ACB9-5CD810F95904}" DurationType="OneShot" DurationMin="31.346958" DurationMax="31.346958">
 					<IncludedMemoryFiles>
 						<File Id="196364746" Language="SFX">
@@ -2627,6 +2649,14 @@
 						<File Id="736243371" Language="SFX">
 							<ShortName>Interactables\Global\Coin\Coin (5).wav</ShortName>
 							<Path>SFX\Interactables\Global\Coin\Coin (5)_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1560359826" Name="Play_Destiller" ObjectPath="\Events\Interactables\INGlobal\DrugPuzzel\Play_Destiller" GUID="{DD8775A8-90F9-4CEB-B8DF-CE9796EED318}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1021181188" Language="SFX">
+							<ShortName>Interactables\Global\DrugPuzzel\Destiller.wav</ShortName>
+							<Path>SFX\Interactables\Global\DrugPuzzel\Destiller_A410DEE1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -2795,6 +2825,14 @@
 						<File Id="904801719" Language="SFX">
 							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (3).wav</ShortName>
 							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (3)_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3065217693" Name="Play_Heater" ObjectPath="\Events\Interactables\INGlobal\DrugPuzzel\Play_Heater" GUID="{54A78131-9657-46CC-97FD-FAD80EF08AF7}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="794432808" Language="SFX">
+							<ShortName>Interactables\Global\DrugPuzzel\Heater.wav</ShortName>
+							<Path>SFX\Interactables\Global\DrugPuzzel\Heater_B352EA27.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -3135,6 +3173,14 @@
 						<File Id="846880947" Language="SFX">
 							<ShortName>Interactables\Global\SwitchButtons\SwitchButtons 13.wav</ShortName>
 							<Path>SFX\Interactables\Global\SwitchButtons\SwitchButtons 13_1827270A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4091122043" Name="Play_Valv" ObjectPath="\Events\Interactables\INGlobal\Play_Valv" GUID="{1164921E-57D7-4A0B-9649-8E00BE7CE8FF}" DurationType="OneShot" DurationMin="0.920987" DurationMax="0.964544">
+					<IncludedMemoryFiles>
+						<File Id="373648085" Language="SFX">
+							<ShortName>Interactables\OldLady\Valv\valv.wav</ShortName>
+							<Path>SFX\Interactables\OldLady\Valv\valv_8EC19227.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -1409,6 +1409,111 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<ActorMixer Name="DrugePuzzel" ID="{D01B326B-0E24-437B-BFCE-EB8BFB566D8F}" ShortID="596228979">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BlenderLP" ID="{B1F7B1DC-4D1F-42A3-97A4-2110375B282C}" ShortID="706580876">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Blender" ID="{C429144E-1AC8-4D04-A1A7-0D44697113AB}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="68.945"/>
+												<Property Name="LoopEnd" Type="Real64" Value="97.836"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\DrugPuzzel\Blender.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="609035275"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Blender" ID="{C429144E-1AC8-4D04-A1A7-0D44697113AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DestillerLP" ID="{CDEF2873-5A95-446E-AD74-59364E68A220}" ShortID="6732833">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Destiller" ID="{93EFCE81-3181-4643-8322-D0391EBE8C65}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="7.478"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\DrugPuzzel\Destiller.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1021181188"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Destiller" ID="{93EFCE81-3181-4643-8322-D0391EBE8C65}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HeaterLP" ID="{5FAB4D83-454E-4E07-8327-CCEC82700272}" ShortID="46950246">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Heater" ID="{86D440D7-DF35-4819-A9DB-3F079C1937F1}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="1.238"/>
+												<Property Name="LoopEnd" Type="Real64" Value="6.0108480285318"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interactables\Global\DrugPuzzel\Heater.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="794432808"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Heater" ID="{86D440D7-DF35-4819-A9DB-3F079C1937F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

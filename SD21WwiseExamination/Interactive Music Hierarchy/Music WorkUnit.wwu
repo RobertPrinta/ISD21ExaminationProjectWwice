@@ -9451,7 +9451,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="ThugDream Akt1 87bpm 3_4" ID="{6AE49390-6420-48E3-ADA9-5A8A95F1E3E1}" ShortID="579027290">
+								<MusicSegment Name="ThugDream Akt1 87bpm 3_4" ID="{698E649A-3899-4F79-BB6A-796255AAC78B}" ShortID="141195057">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="82758.625"/>
 									</PropertyList>
@@ -9464,14 +9464,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ThugDream Akt1 87bpm 3_4" ID="{D6568082-192D-4C7A-94FF-E0A3FC4D76FA}" ShortID="355354663">
+										<MusicTrack Name="ThugDream Akt1 87bpm 3_4" ID="{3BF0F9A9-C664-4C58-9785-1311319D6538}" ShortID="966530449">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ThugDream Akt1 87bpm 3_4" ID="{72D49086-2FC8-4D8F-86EC-7E3677241EE8}">
+												<AudioFileSource Name="ThugDream Akt1 87bpm 3_4" ID="{A130F2F3-91F2-48D9-A40C-230BFD3E3758}">
 													<Language>SFX</Language>
 													<AudioFile>Music\Thug\ThugDream Akt1 87bpm 3_4.wav</AudioFile>
 													<MediaIDList>
@@ -9480,7 +9480,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{26F95AC2-E789-43EA-B594-73B628DB51A7}">
+												<MusicTransition Name="Root" ID="{78A41D61-B168-4F56-AF9C-F2A32875E0A7}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -9491,18 +9491,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{24916F67-7104-46CF-9784-19EDF9EEB39B}">
+															<MusicTrackSequence Name="" ID="{8FAB309D-33DE-4ED9-B8B7-52EE2600AC55}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ThugDream Akt1 87bpm 3_4" ID="{261F46CA-DD7E-441B-81F9-C4DC8008906A}">
+																				<MusicClip Name="ThugDream Akt1 87bpm 3_4" ID="{29E78651-3078-4044-8672-1F3B3CA68DE9}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="82758.625"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ThugDream Akt1 87bpm 3_4" ID="{72D49086-2FC8-4D8F-86EC-7E3677241EE8}"/>
+																					<AudioSourceRef Name="ThugDream Akt1 87bpm 3_4" ID="{A130F2F3-91F2-48D9-A40C-230BFD3E3758}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -9519,12 +9519,12 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{70FEA66D-5AAC-4B38-B9B4-9737F8149C68}"/>
+													<MusicCue Name="Entry Cue" ID="{0DF46504-8F50-4E42-9CFF-6D5C965C8E5E}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{4324CAEB-2426-444D-9E56-2F04D15F30BF}">
+													<MusicCue Name="Exit Cue" ID="{DD0C406C-8624-4C23-A6C2-43FBA5D776B8}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="82758.625"/>
@@ -9556,11 +9556,11 @@
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{FB7B72D8-68D6-48E0-AFDC-7D9DC9B8E048}" ShortID="914418477">
+										<MusicPlaylistItem Name="" ID="{E2E9063B-6E77-4932-936A-711B475B49DB}" ShortID="464395889">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="ThugDream Akt1 87bpm 3_4" ID="{6AE49390-6420-48E3-ADA9-5A8A95F1E3E1}"/>
+											<SegmentRef Name="ThugDream Akt1 87bpm 3_4" ID="{698E649A-3899-4F79-BB6A-796255AAC78B}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -9576,7 +9576,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="ThugDream Akt2 87bpm 3_4" ID="{37A8D7C7-877A-46BB-9475-CDB53EB9D788}" ShortID="509091377">
+								<MusicSegment Name="ThugDream Akt2 87bpm 3_4" ID="{3067D0CE-029D-4DF4-A010-10149DF1B0F8}" ShortID="283220261">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="82758.625"/>
 									</PropertyList>
@@ -9589,23 +9589,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ThugDream Akt2 87bpm 3_4" ID="{D492B388-01A4-4223-A0C8-B29C94D94818}" ShortID="389539279">
+										<MusicTrack Name="ThugDream Akt2 87bpm 3_4" ID="{974D325B-A1E3-498A-A84C-851BB95F99B2}" ShortID="260978952">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ThugDream Akt2 87bpm 3_4" ID="{1CB38DD8-70A8-4A36-BD49-F9022C100EDC}">
+												<AudioFileSource Name="ThugDream Akt2 87bpm 3_4" ID="{57EE9756-4BF7-4F17-8AC3-51776EA75725}">
 													<Language>SFX</Language>
-													<AudioFile>Music\Thug\ThugDream Akt2 87bpm 3_4.wav</AudioFile>
+													<AudioFile>Music\Runner\RunnerAct2\ThugDream Akt2 87bpm 3_4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="189914427"/>
+														<MediaID ID="1023928592"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{BDE6FF82-87A8-4B6B-9EEF-934441D0170A}">
+												<MusicTransition Name="Root" ID="{1F4954F4-F413-40C0-A09D-2364C71B6E72}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -9616,18 +9616,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{C4116EA2-7078-4368-B0CC-F52E387F949A}">
+															<MusicTrackSequence Name="" ID="{EFD8451C-76D5-43E4-B102-3B4716067D60}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ThugDream Akt2 87bpm 3_4" ID="{823AE334-2D67-4260-B22B-4284B97D87E5}">
+																				<MusicClip Name="ThugDream Akt2 87bpm 3_4" ID="{34C1F842-9FDE-481F-9553-A593674D5139}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="82758.625"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ThugDream Akt2 87bpm 3_4" ID="{1CB38DD8-70A8-4A36-BD49-F9022C100EDC}"/>
+																					<AudioSourceRef Name="ThugDream Akt2 87bpm 3_4" ID="{57EE9756-4BF7-4F17-8AC3-51776EA75725}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -9644,12 +9644,12 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{6B9FED82-256D-44FE-9152-42F6FB978B75}"/>
+													<MusicCue Name="Entry Cue" ID="{72A4AF2E-49F1-471E-AFC4-31D267D51B0A}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{C2E1D0E1-A8A2-4EC5-B67F-810A68DA05E7}">
+													<MusicCue Name="Exit Cue" ID="{52E27295-E315-4790-906C-21978CC9ADF9}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="82758.625"/>
@@ -9681,11 +9681,11 @@
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{227A5306-0C64-465E-983E-0B5948C8B0B6}" ShortID="298659046">
+										<MusicPlaylistItem Name="" ID="{A05A7AC9-E503-461F-857A-A541F11A5EE6}" ShortID="958492467">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="ThugDream Akt2 87bpm 3_4" ID="{37A8D7C7-877A-46BB-9475-CDB53EB9D788}"/>
+											<SegmentRef Name="ThugDream Akt2 87bpm 3_4" ID="{3067D0CE-029D-4DF4-A010-10149DF1B0F8}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -9701,7 +9701,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="ThugDream Akt3 87bpm 3_4" ID="{927D9601-B658-4E6D-B35A-41BD2879DC46}" ShortID="321440936">
+								<MusicSegment Name="ThugDream Akt3 87bpm 3_4" ID="{60B93559-4EF9-4415-B56E-0E408655D7AB}" ShortID="830661477">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="165517.25"/>
 									</PropertyList>
@@ -9714,14 +9714,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ThugDream Akt3 87bpm 3_4" ID="{40B14B8E-7F47-43CD-95F1-081B1E22945B}" ShortID="642497546">
+										<MusicTrack Name="ThugDream Akt3 87bpm 3_4" ID="{71F802C8-0310-4E19-BDE9-85AF01125294}" ShortID="620104237">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ThugDream Akt3 87bpm 3_4" ID="{64DD40F3-D7F8-496C-9CEE-A7AF778E9C81}">
+												<AudioFileSource Name="ThugDream Akt3 87bpm 3_4" ID="{B9E299FD-9AB6-4713-AA8D-D2D537904F63}">
 													<Language>SFX</Language>
 													<AudioFile>Music\Thug\ThugDream Akt3 87bpm 3_4.wav</AudioFile>
 													<MediaIDList>
@@ -9730,7 +9730,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{00366D63-23ED-464B-A36B-A0EE929FA944}">
+												<MusicTransition Name="Root" ID="{E74FC8CE-9C1E-48D4-A7A6-C98B67EEA5BA}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -9741,18 +9741,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{485D0486-8CF2-424B-9C7B-A89B351D3FD2}">
+															<MusicTrackSequence Name="" ID="{40A8A83D-5D44-41DE-8F55-BC6A6DD9B194}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ThugDream Akt3 87bpm 3_4" ID="{E7FCEE52-2F79-4D8E-9B80-8061B73BD8E3}">
+																				<MusicClip Name="ThugDream Akt3 87bpm 3_4" ID="{B0E03355-069F-4023-B8B2-9C2382FA3341}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="165517.25"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ThugDream Akt3 87bpm 3_4" ID="{64DD40F3-D7F8-496C-9CEE-A7AF778E9C81}"/>
+																					<AudioSourceRef Name="ThugDream Akt3 87bpm 3_4" ID="{B9E299FD-9AB6-4713-AA8D-D2D537904F63}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -9769,12 +9769,12 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{7C0A541B-9B23-41F6-8AD2-350F8F5718C5}"/>
+													<MusicCue Name="Entry Cue" ID="{6F3ADEF0-670F-4D3D-B5BD-11DFD9239165}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{ABA747C6-CF8F-4B5C-8016-48527D3C302C}">
+													<MusicCue Name="Exit Cue" ID="{599D37C4-A06E-45E3-BF24-9AC124D7ECB1}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="165517.25"/>
@@ -9806,11 +9806,11 @@
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{C1D78640-F5A1-4478-8FE7-C94D1A06AACC}" ShortID="785927708">
+										<MusicPlaylistItem Name="" ID="{10553606-BEBD-4B10-81DA-81914B0B08D0}" ShortID="474836536">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="ThugDream Akt3 87bpm 3_4" ID="{927D9601-B658-4E6D-B35A-41BD2879DC46}"/>
+											<SegmentRef Name="ThugDream Akt3 87bpm 3_4" ID="{60B93559-4EF9-4415-B56E-0E408655D7AB}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -9826,124 +9826,36 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="ThugDream Klarinett5 87bpm 3_4" ID="{18B1D415-55BA-4ED1-8EA2-01EE1E728E2E}" ShortID="135497165">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="93103.4583333333"/>
-										<Property Name="Tempo" Type="Real64" Value="87"/>
-										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="ThugDream Klarinett5 87bpm 3_4" ID="{D7A5E15D-7594-4D8D-8E82-88AAD6104FCD}" ShortID="363331179">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="ThugDream Klarinett5 87bpm 3_4" ID="{EB9F634E-A476-4AB2-9979-F8CA0CD8B365}">
-													<Language>SFX</Language>
-													<AudioFile>Music\Thug\ThugDream Klarinett5 87bpm 3_4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="506154452"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{0509EE3E-DA6B-45CE-A1C6-84A0D2407A03}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{05C28D8E-C2AA-4973-BC49-62AA5A92163C}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="ThugDream Klarinett5 87bpm 3_4" ID="{63661F75-6685-4723-BE90-54BEC21AF32F}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="93103.4583333333"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="ThugDream Klarinett5 87bpm 3_4" ID="{EB9F634E-A476-4AB2-9979-F8CA0CD8B365}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{100A55A5-7B37-4302-9BE7-DE4BCD3F504F}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{48761E48-5AB3-4C78-BC70-639CE6D2198C}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="93103.4583333333"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-								<MusicSegment Name="ThugDream Klarinett1 87bpm 3_4" ID="{64D2BA21-5990-43A7-A5FE-EDBA44059701}" ShortID="315371335">
+								<MusicSegment Name="ThugDream Klarinett1 87bpm 3_4" ID="{D6DC2F58-7011-4389-BC38-2816158F68FF}" ShortID="123511155">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="91034.5"/>
-										<Property Name="Tempo" Type="Real64" Value="87"/>
-										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ThugDream Klarinett1 87bpm 3_4" ID="{B636E228-CE4E-4EC0-96DC-C3453D06CE8F}" ShortID="560083684">
+										<MusicTrack Name="ThugDream Klarinett1 87bpm 3_4" ID="{4B449B79-70BE-4B55-AC71-0FD547829BF4}" ShortID="657238859">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ThugDream Klarinett1 87bpm 3_4" ID="{FC0048E3-AD6B-4D26-8931-47D38981C96A}">
+												<AudioFileSource Name="ThugDream Klarinett1 87bpm 3_4" ID="{D48105D7-A252-4134-9769-028B7C9F6219}">
 													<Language>SFX</Language>
-													<AudioFile>Music\Thug\ThugDream Klarinett1 87bpm 3_4.wav</AudioFile>
+													<AudioFile>Music\Thug\Thugbass\ThugDream Klarinett1 87bpm 3_4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="970544024"/>
+														<MediaID ID="315324335"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{EFB30185-774D-4D85-B9D9-C3D1A42B6BAE}">
+												<MusicTransition Name="Root" ID="{2633E872-42BB-4BC3-B524-C39EE6BE89A3}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -9954,18 +9866,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{B4F70AE7-2E18-4F3F-AD87-33FB4B9ACC64}">
+															<MusicTrackSequence Name="" ID="{C501F81C-8E11-4B46-8CA1-3F8D83A755BB}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ThugDream Klarinett1 87bpm 3_4" ID="{7BB4AC17-35B1-404B-885A-5BEA4707E598}">
+																				<MusicClip Name="ThugDream Klarinett1 87bpm 3_4" ID="{62111596-E2D5-4A7E-9204-34AFC7DA7316}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="91034.5"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ThugDream Klarinett1 87bpm 3_4" ID="{FC0048E3-AD6B-4D26-8931-47D38981C96A}"/>
+																					<AudioSourceRef Name="ThugDream Klarinett1 87bpm 3_4" ID="{D48105D7-A252-4134-9769-028B7C9F6219}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -9982,12 +9894,12 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{A0766F79-78AF-4174-98F8-96B9931DDD7A}"/>
+													<MusicCue Name="Entry Cue" ID="{AA103F1F-851E-437C-8982-22618D6096CE}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{30EEC69E-A6A7-4417-8FCF-E6382149AA0C}">
+													<MusicCue Name="Exit Cue" ID="{CA8E9176-D36D-4C34-ADCA-43394E16FC48}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="91034.5"/>
@@ -9998,38 +9910,36 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="ThugDream Klarinett2 87bpm 3_4" ID="{704157E5-05E0-4989-8480-6266CFAF56B0}" ShortID="146750997">
+								<MusicSegment Name="ThugDream Klarinett2 87bpm 3_4" ID="{9E090C5C-63E1-4E97-92FD-3F31D7DACEE6}" ShortID="943162840">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="86896.5625"/>
-										<Property Name="Tempo" Type="Real64" Value="87"/>
-										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+										<Property Name="EndPosition" Type="Real64" Value="91034.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ThugDream Klarinett2 87bpm 3_4" ID="{78208447-B19A-4242-9B10-448C77E6099B}" ShortID="123216837">
+										<MusicTrack Name="ThugDream Klarinett2 87bpm 3_4" ID="{4C9BAB94-BA83-4916-AA13-211402315123}" ShortID="459802968">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ThugDream Klarinett2 87bpm 3_4" ID="{0CBB39AF-1A0A-43D8-80CE-87E78471AF0A}">
+												<AudioFileSource Name="ThugDream Klarinett2 87bpm 3_4" ID="{8D534FF9-6109-49AC-AF76-F7FB811A30C2}">
 													<Language>SFX</Language>
-													<AudioFile>Music\Thug\ThugDream Klarinett2 87bpm 3_4.wav</AudioFile>
+													<AudioFile>Music\Thug\Thugbass\ThugDream Klarinett2 87bpm 3_4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="899918642"/>
+														<MediaID ID="81627251"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{6C267392-B307-46D6-879C-B867BC4370B7}">
+												<MusicTransition Name="Root" ID="{6E6FA80D-A4CF-49BC-AA86-EF59FABE0A3E}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -10040,18 +9950,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{5D1AA9E7-CC4C-4212-9350-EF7DADE0C983}">
+															<MusicTrackSequence Name="" ID="{BAAEA4E6-B11E-4657-8374-E5BD64C9EA02}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ThugDream Klarinett2 87bpm 3_4" ID="{F57E31D2-9588-4380-A645-4C2C533F0729}">
+																				<MusicClip Name="ThugDream Klarinett2 87bpm 3_4" ID="{F2DC5468-E983-4FEF-A076-F33D7F0CCC5C}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="86896.5625"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="91034.5"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ThugDream Klarinett2 87bpm 3_4" ID="{0CBB39AF-1A0A-43D8-80CE-87E78471AF0A}"/>
+																					<AudioSourceRef Name="ThugDream Klarinett2 87bpm 3_4" ID="{8D534FF9-6109-49AC-AF76-F7FB811A30C2}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -10068,15 +9978,15 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{4CA97FFA-358B-4E68-9666-5082B5DDDF5E}"/>
+													<MusicCue Name="Entry Cue" ID="{DBF28D8F-8CFD-4EF8-8123-4E0DF4479557}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{AE684624-D339-4479-B7FE-109E2E9B31C8}">
+													<MusicCue Name="Exit Cue" ID="{0617DE27-C7F6-441E-871E-66243AA4EB0D}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="86896.5625"/>
+															<Property Name="TimeMs" Type="Real64" Value="91034.5"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -10084,38 +9994,36 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="ThugDream Klarinett3 87bpm 3_4" ID="{C6542F65-E110-41CA-B62C-5061584CC28F}" ShortID="390664323">
+								<MusicSegment Name="ThugDream Klarinett3 87bpm 3_4" ID="{E8C17874-C8D1-4C9B-AAFB-007D6030FD80}" ShortID="937387450">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="72413.8125"/>
-										<Property Name="Tempo" Type="Real64" Value="87"/>
-										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+										<Property Name="EndPosition" Type="Real64" Value="74482.7708333333"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ThugDream Klarinett3 87bpm 3_4" ID="{4BAE02AD-2709-46E4-A1C5-3F70A09D907A}" ShortID="584283849">
+										<MusicTrack Name="ThugDream Klarinett3 87bpm 3_4" ID="{0A376D3D-03E7-4693-8C8C-0E3DBE0CE4CE}" ShortID="455958778">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ThugDream Klarinett3 87bpm 3_4" ID="{6E886720-9B4D-4B46-ADF1-9E30013EF6C6}">
+												<AudioFileSource Name="ThugDream Klarinett3 87bpm 3_4" ID="{F198B584-3F62-44AC-9A7C-9BDD6930F7D9}">
 													<Language>SFX</Language>
-													<AudioFile>Music\Thug\ThugDream Klarinett3 87bpm 3_4.wav</AudioFile>
+													<AudioFile>Music\Thug\Thugbass\ThugDream Klarinett3 87bpm 3_4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="323457401"/>
+														<MediaID ID="630989056"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{324506CC-CC0C-4718-BBC7-244C00610DB7}">
+												<MusicTransition Name="Root" ID="{6E45A538-FD36-489F-95E0-9ED14DB21FD4}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -10126,18 +10034,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{7D5B777E-23FD-48EF-A56D-5674C2E9932E}">
+															<MusicTrackSequence Name="" ID="{0901BA2A-2291-424A-B05F-00A66944DC2A}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ThugDream Klarinett3 87bpm 3_4" ID="{1B4F8763-02D5-46B9-969C-1BC0A65F2326}">
+																				<MusicClip Name="ThugDream Klarinett3 87bpm 3_4" ID="{D71A5D9E-FFF7-42DD-B705-8BCDA383159D}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="72413.8125"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="74482.7708333333"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ThugDream Klarinett3 87bpm 3_4" ID="{6E886720-9B4D-4B46-ADF1-9E30013EF6C6}"/>
+																					<AudioSourceRef Name="ThugDream Klarinett3 87bpm 3_4" ID="{F198B584-3F62-44AC-9A7C-9BDD6930F7D9}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -10154,15 +10062,15 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{B074C5EA-E0A6-4C44-AB88-F582A7F8714F}"/>
+													<MusicCue Name="Entry Cue" ID="{A0BBF441-364A-43D1-A346-27138DEF633C}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{7E6B7E7C-00E9-4034-A7B3-AD13CE8BE31C}">
+													<MusicCue Name="Exit Cue" ID="{61D987B2-2FE4-493D-8F9B-4309724BC1F1}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="72413.8125"/>
+															<Property Name="TimeMs" Type="Real64" Value="74482.7708333333"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -10170,38 +10078,36 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="ThugDream Klarinett4 87bpm 3_4" ID="{E8EB8E24-90E4-4B6F-BB95-4EE70A5120FB}" ShortID="12590366">
+								<MusicSegment Name="ThugDream Klarinett4 87bpm 3_4" ID="{5E2C660B-3734-4BB1-B095-3921B7D9DD9E}" ShortID="937724989">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="51724.1458333333"/>
-										<Property Name="Tempo" Type="Real64" Value="87"/>
-										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+										<Property Name="EndPosition" Type="Real64" Value="52413.8125"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ThugDream Klarinett4 87bpm 3_4" ID="{956E4C56-C5C4-427D-AEF2-BF32A5C7AAAE}" ShortID="556710246">
+										<MusicTrack Name="ThugDream Klarinett4 87bpm 3_4" ID="{97C14440-921D-4BCA-ACDC-1545BBB9241F}" ShortID="325277932">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ThugDream Klarinett4 87bpm 3_4" ID="{DE9242EF-6EA1-4077-B8B5-224348C38A25}">
+												<AudioFileSource Name="ThugDream Klarinett4 87bpm 3_4" ID="{CD7F0A56-410C-4D1D-B56E-3A01565A5E16}">
 													<Language>SFX</Language>
-													<AudioFile>Music\Thug\ThugDream Klarinett4 87bpm 3_4.wav</AudioFile>
+													<AudioFile>Music\Thug\Thugbass\ThugDream Klarinett4 87bpm 3_4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="552504328"/>
+														<MediaID ID="295524207"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{A849B60E-ADCC-4340-BAFD-242D48C08D89}">
+												<MusicTransition Name="Root" ID="{3F54E89F-C9DB-46F8-8AA9-40DCB0512ECA}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -10212,18 +10118,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{2508A5AE-46E0-47AE-B5EA-EF81CA6635D2}">
+															<MusicTrackSequence Name="" ID="{253BD28D-77B7-4A73-9936-A6328C10C896}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ThugDream Klarinett4 87bpm 3_4" ID="{09C6C4B7-D2D7-4DA7-9453-E04891120770}">
+																				<MusicClip Name="ThugDream Klarinett4 87bpm 3_4" ID="{A25BE9BC-2458-4179-A56B-30B6CFB3D06E}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="51724.1458333333"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52413.8125"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ThugDream Klarinett4 87bpm 3_4" ID="{DE9242EF-6EA1-4077-B8B5-224348C38A25}"/>
+																					<AudioSourceRef Name="ThugDream Klarinett4 87bpm 3_4" ID="{CD7F0A56-410C-4D1D-B56E-3A01565A5E16}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -10240,15 +10146,99 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{78668DEB-BE9E-41D8-91DE-FA4AD14BA2EE}"/>
+													<MusicCue Name="Entry Cue" ID="{0A77AFD7-F2D6-4758-B109-145C0A560EEA}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{303ABF7F-E640-4A33-ADD7-78FB0E2EAB81}">
+													<MusicCue Name="Exit Cue" ID="{FDF96F30-894F-48F8-BEAD-6EADE0582B2B}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="51724.1458333333"/>
+															<Property Name="TimeMs" Type="Real64" Value="52413.8125"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="ThugDream Klarinett5 87bpm 3_4" ID="{94E72C43-BFDC-4B58-ADD5-7FD43B2018D0}" ShortID="955516093">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="93103.4583333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="ThugDream Klarinett5 87bpm 3_4" ID="{297C8E1A-6A76-434C-9C6A-65773A9A37ED}" ShortID="103003880">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ThugDream Klarinett5 87bpm 3_4" ID="{F07747DE-847B-4D3F-8257-C3845775C77D}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Thug\Thugbass\ThugDream Klarinett5 87bpm 3_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="508343578"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2E01628D-6B13-4D3B-8FDE-B04EC8B4FF01}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{868CD044-5B1D-4804-A0ED-F0048B603017}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ThugDream Klarinett5 87bpm 3_4" ID="{7D689161-EC8D-4BBC-BB2A-B0675BF712BF}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="93103.4583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ThugDream Klarinett5 87bpm 3_4" ID="{F07747DE-847B-4D3F-8257-C3845775C77D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{5CD46EDA-5DC6-43B7-AB1E-5F98D27690D1}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{EAECA0E8-5948-4A8D-A1C7-629BD10A15A3}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="93103.4583333333"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -10278,35 +10268,35 @@
 										<Property Name="PlayMode" Type="int16" Value="2"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{342AF8FB-F107-4EFE-9BF7-24588BBAF6BE}" ShortID="211480783">
+										<MusicPlaylistItem Name="" ID="{1D18AEDD-073B-4D5C-BAC1-86C8200DF6AF}" ShortID="815945234">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="ThugDream Klarinett1 87bpm 3_4" ID="{64D2BA21-5990-43A7-A5FE-EDBA44059701}"/>
+											<SegmentRef Name="ThugDream Klarinett1 87bpm 3_4" ID="{D6DC2F58-7011-4389-BC38-2816158F68FF}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{6F1E1945-09AE-4F36-B620-2EF178AAA53B}" ShortID="230069643">
+										<MusicPlaylistItem Name="" ID="{E34ECA12-5872-443C-B197-1D3DB249DEFA}" ShortID="829289154">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="ThugDream Klarinett2 87bpm 3_4" ID="{704157E5-05E0-4989-8480-6266CFAF56B0}"/>
+											<SegmentRef Name="ThugDream Klarinett2 87bpm 3_4" ID="{9E090C5C-63E1-4E97-92FD-3F31D7DACEE6}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{290ECD36-1C4D-4AFA-AB15-0F0418BB5305}" ShortID="479299527">
+										<MusicPlaylistItem Name="" ID="{C4824E0B-48FA-455D-96F3-CF06F0999174}" ShortID="256609734">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="ThugDream Klarinett3 87bpm 3_4" ID="{C6542F65-E110-41CA-B62C-5061584CC28F}"/>
+											<SegmentRef Name="ThugDream Klarinett3 87bpm 3_4" ID="{E8C17874-C8D1-4C9B-AAFB-007D6030FD80}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{903C724D-6145-4C59-90B6-1630D6225225}" ShortID="705262719">
+										<MusicPlaylistItem Name="" ID="{8F3017C2-920F-4ADF-AE17-171CFF82C478}" ShortID="671379442">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="ThugDream Klarinett4 87bpm 3_4" ID="{E8EB8E24-90E4-4B6F-BB95-4EE70A5120FB}"/>
+											<SegmentRef Name="ThugDream Klarinett4 87bpm 3_4" ID="{5E2C660B-3734-4BB1-B095-3921B7D9DD9E}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{6B8EA9DE-DA40-4A07-AAB6-91A452715267}" ShortID="122474909">
+										<MusicPlaylistItem Name="" ID="{2E7D3FF0-1797-4032-A4DA-030D0969D9C3}" ShortID="470625791">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="ThugDream Klarinett5 87bpm 3_4" ID="{18B1D415-55BA-4ED1-8EA2-01EE1E728E2E}"/>
+											<SegmentRef Name="ThugDream Klarinett5 87bpm 3_4" ID="{94E72C43-BFDC-4B58-ADD5-7FD43B2018D0}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>

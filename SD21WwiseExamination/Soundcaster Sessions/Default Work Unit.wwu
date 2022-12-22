@@ -265,7 +265,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
+						<CurrentStateRef Name="Thug_Act3" ID="{1389356E-9BA5-40DD-884D-83BC5081EF04}"/>
 						<CurrentStateRef Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
 						<CurrentStateRef Name="None" ID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
 						<CurrentStateRef Name="Runner_Act1" ID="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}"/>

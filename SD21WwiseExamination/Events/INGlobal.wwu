@@ -50,6 +50,18 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="DrugPuzzel" ID="{D0AA845B-3EDF-446E-B992-E1E259FB434F}" PersistMode="Reference"/>
+				<Event Name="Play_Valv" ID="{1164921E-57D7-4A0B-9649-8E00BE7CE8FF}">
+					<ChildrenList>
+						<Action Name="" ID="{9A835BA9-7FE1-4D63-87FF-6BA744BC35DA}" ShortID="1024967483">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="valv" ID="{15472438-5DE9-4772-8068-A43B114CBEF8}" WorkUnitID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

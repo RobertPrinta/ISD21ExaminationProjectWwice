@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D0AA845B-3EDF-446E-B992-E1E259FB434F}" SchemaVersion="103" RootDocumentID="{4A51F196-4F56-40A5-95EF-71EE0AC97ED8}" ParentDocumentID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}">
+	<Events>
+		<WorkUnit Name="DrugPuzzel" ID="{D0AA845B-3EDF-446E-B992-E1E259FB434F}" OwnerID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Blender" ID="{4981ABF0-8F8A-4FCD-AB10-D4AA9C45B1ED}">
+					<ChildrenList>
+						<Action Name="" ID="{B0A2F4E6-853E-4B84-887C-DED92A75B146}" ShortID="543700321">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BlenderLP" ID="{B1F7B1DC-4D1F-42A3-97A4-2110375B282C}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Destiller" ID="{DD8775A8-90F9-4CEB-B8DF-CE9796EED318}">
+					<ChildrenList>
+						<Action Name="" ID="{FBEB9756-2392-46D6-AC7E-67179D63F0E5}" ShortID="467793171">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DestillerLP" ID="{CDEF2873-5A95-446E-AD74-59364E68A220}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Heater" ID="{54A78131-9657-46CC-97FD-FAD80EF08AF7}">
+					<ChildrenList>
+						<Action Name="" ID="{57E3851D-95F7-4664-B3A5-26D166E22C91}" ShortID="681717067">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HeaterLP" ID="{5FAB4D83-454E-4E07-8327-CCEC82700272}" WorkUnitID="{40070B7D-6E77-43D1-83D7-8C4556317FE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -16,7 +16,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "1244226823",
+    "Hash": "3919600917",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -1036,16 +1036,22 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "189914427",
+        "Id": "81627251",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Akt2 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Akt2 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett2 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett2 87bpm 3_4_9EDFC787.wem"
        },
        {
-        "Id": "323457401",
+        "Id": "295524207",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett3 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett3 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett4 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett4 87bpm 3_4_9EDFC787.wem"
+       },
+       {
+        "Id": "315324335",
+        "Language": "SFX",
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett1 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem"
        },
        {
         "Id": "499394862",
@@ -1054,22 +1060,16 @@
         "Path": "SFX\\Music\\Thug\\ThugDream Akt3 87bpm 3_4_9EDFC787.wem"
        },
        {
-        "Id": "506154452",
+        "Id": "508343578",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett5 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett5 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett5 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett5 87bpm 3_4_9EDFC787.wem"
        },
        {
-        "Id": "552504328",
+        "Id": "630989056",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett4 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett4 87bpm 3_4_9EDFC787.wem"
-       },
-       {
-        "Id": "899918642",
-        "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett2 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett2 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett3 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett3 87bpm 3_4_9EDFC787.wem"
        },
        {
         "Id": "912177680",
@@ -1078,18 +1078,36 @@
         "Path": "SFX\\Music\\Thug\\ThugDream Akt1 87bpm 3_4_9EDFC787.wem"
        },
        {
-        "Id": "970544024",
+        "Id": "1023928592",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett1 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Runner\\RunnerAct2\\ThugDream Akt2 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Runner\\RunnerAct2\\ThugDream Akt2 87bpm 3_4_9EDFC787.wem"
        }
       ],
-      "ActionPostEvent": [
+      "SwitchContainers": [
        {
-        "Id": "3529625474",
-        "Name": "Play_Stop_All_Music",
-        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
-        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
+        "SwitchValue": "{41717F4D-89C2-4812-B173-6BE94CC1F3C1}",
+        "Media": [
+         {
+          "Id": "912177680"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B603DFE1-B99E-447A-90E4-22039077C126}",
+        "Media": [
+         {
+          "Id": "1023928592"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{1389356E-9BA5-40DD-884D-83BC5081EF04}",
+        "Media": [
+         {
+          "Id": "499394862"
+         }
+        ]
        }
       ]
      }

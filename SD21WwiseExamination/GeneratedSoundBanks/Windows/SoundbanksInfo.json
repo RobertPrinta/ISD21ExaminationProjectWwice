@@ -3890,7 +3890,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "1244226823",
+    "Hash": "3919600917",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -4910,16 +4910,22 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "189914427",
+        "Id": "81627251",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Akt2 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Akt2 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett2 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett2 87bpm 3_4_9EDFC787.wem"
        },
        {
-        "Id": "323457401",
+        "Id": "295524207",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett3 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett3 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett4 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett4 87bpm 3_4_9EDFC787.wem"
+       },
+       {
+        "Id": "315324335",
+        "Language": "SFX",
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett1 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem"
        },
        {
         "Id": "499394862",
@@ -4928,22 +4934,16 @@
         "Path": "SFX\\Music\\Thug\\ThugDream Akt3 87bpm 3_4_9EDFC787.wem"
        },
        {
-        "Id": "506154452",
+        "Id": "508343578",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett5 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett5 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett5 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett5 87bpm 3_4_9EDFC787.wem"
        },
        {
-        "Id": "552504328",
+        "Id": "630989056",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett4 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett4 87bpm 3_4_9EDFC787.wem"
-       },
-       {
-        "Id": "899918642",
-        "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett2 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett2 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Thug\\Thugbass\\ThugDream Klarinett3 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Thug\\Thugbass\\ThugDream Klarinett3 87bpm 3_4_9EDFC787.wem"
        },
        {
         "Id": "912177680",
@@ -4952,18 +4952,36 @@
         "Path": "SFX\\Music\\Thug\\ThugDream Akt1 87bpm 3_4_9EDFC787.wem"
        },
        {
-        "Id": "970544024",
+        "Id": "1023928592",
         "Language": "SFX",
-        "ShortName": "Music\\Thug\\ThugDream Klarinett1 87bpm 3_4.wav",
-        "Path": "SFX\\Music\\Thug\\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem"
+        "ShortName": "Music\\Runner\\RunnerAct2\\ThugDream Akt2 87bpm 3_4.wav",
+        "Path": "SFX\\Music\\Runner\\RunnerAct2\\ThugDream Akt2 87bpm 3_4_9EDFC787.wem"
        }
       ],
-      "ActionPostEvent": [
+      "SwitchContainers": [
        {
-        "Id": "3529625474",
-        "Name": "Play_Stop_All_Music",
-        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
-        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
+        "SwitchValue": "{41717F4D-89C2-4812-B173-6BE94CC1F3C1}",
+        "Media": [
+         {
+          "Id": "912177680"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B603DFE1-B99E-447A-90E4-22039077C126}",
+        "Media": [
+         {
+          "Id": "1023928592"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{1389356E-9BA5-40DD-884D-83BC5081EF04}",
+        "Media": [
+         {
+          "Id": "499394862"
+         }
+        ]
        }
       ]
      }
@@ -5103,7 +5121,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "3777890043",
+    "Hash": "3511898550",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -5228,6 +5246,21 @@
       ]
      },
      {
+      "Id": "520927618",
+      "Name": "Play_Blender",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\DrugPuzzel\\Play_Blender",
+      "GUID": "{4981ABF0-8F8A-4FCD-AB10-D4AA9C45B1ED}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "609035275",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DrugPuzzel\\Blender.wav",
+        "Path": "SFX\\Interactables\\Global\\DrugPuzzel\\Blender_0D8774C0.wem"
+       }
+      ]
+     },
+     {
       "Id": "4070979672",
       "Name": "Play_Clock",
       "ObjectPath": "\\Events\\Interactables\\INOldLady\\Play_Clock",
@@ -5288,6 +5321,21 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Global\\Coin\\Coin (5).wav",
         "Path": "SFX\\Interactables\\Global\\Coin\\Coin (5)_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1560359826",
+      "Name": "Play_Destiller",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\DrugPuzzel\\Play_Destiller",
+      "GUID": "{DD8775A8-90F9-4CEB-B8DF-CE9796EED318}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1021181188",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DrugPuzzel\\Destiller.wav",
+        "Path": "SFX\\Interactables\\Global\\DrugPuzzel\\Destiller_A410DEE1.wem"
        }
       ]
      },
@@ -5580,6 +5628,21 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Thug\\Fuse_Box\\Fuse_Item (3).wav",
         "Path": "SFX\\Interactables\\Thug\\Fuse_Box\\Fuse_Item (3)_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3065217693",
+      "Name": "Play_Heater",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\DrugPuzzel\\Play_Heater",
+      "GUID": "{54A78131-9657-46CC-97FD-FAD80EF08AF7}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "794432808",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Global\\DrugPuzzel\\Heater.wav",
+        "Path": "SFX\\Interactables\\Global\\DrugPuzzel\\Heater_B352EA27.wem"
        }
       ]
      },
@@ -6180,6 +6243,23 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Global\\SwitchButtons\\SwitchButtons 13.wav",
         "Path": "SFX\\Interactables\\Global\\SwitchButtons\\SwitchButtons 13_1827270A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4091122043",
+      "Name": "Play_Valv",
+      "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_Valv",
+      "GUID": "{1164921E-57D7-4A0B-9649-8E00BE7CE8FF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.920987",
+      "DurationMax": "0.964544",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "373648085",
+        "Language": "SFX",
+        "ShortName": "Interactables\\OldLady\\Valv\\valv.wav",
+        "Path": "SFX\\Interactables\\OldLady\\Valv\\valv_8EC19227.wem"
        }
       ]
      },

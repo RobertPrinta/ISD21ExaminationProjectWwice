@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="3777890043">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="3511898550">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
@@ -78,6 +78,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="520927618" Name="Play_Blender" ObjectPath="\Events\Interactables\INGlobal\DrugPuzzel\Play_Blender" GUID="{4981ABF0-8F8A-4FCD-AB10-D4AA9C45B1ED}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="609035275" Language="SFX">
+							<ShortName>Interactables\Global\DrugPuzzel\Blender.wav</ShortName>
+							<Path>SFX\Interactables\Global\DrugPuzzel\Blender_0D8774C0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4070979672" Name="Play_Clock" ObjectPath="\Events\Interactables\INOldLady\Play_Clock" GUID="{23A466A9-08FA-431D-ACB9-5CD810F95904}" DurationType="OneShot" DurationMin="31.346958" DurationMax="31.346958">
 					<IncludedMemoryFiles>
 						<File Id="196364746" Language="SFX">
@@ -111,6 +119,14 @@
 						<File Id="736243371" Language="SFX">
 							<ShortName>Interactables\Global\Coin\Coin (5).wav</ShortName>
 							<Path>SFX\Interactables\Global\Coin\Coin (5)_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1560359826" Name="Play_Destiller" ObjectPath="\Events\Interactables\INGlobal\DrugPuzzel\Play_Destiller" GUID="{DD8775A8-90F9-4CEB-B8DF-CE9796EED318}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1021181188" Language="SFX">
+							<ShortName>Interactables\Global\DrugPuzzel\Destiller.wav</ShortName>
+							<Path>SFX\Interactables\Global\DrugPuzzel\Destiller_A410DEE1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -279,6 +295,14 @@
 						<File Id="904801719" Language="SFX">
 							<ShortName>Interactables\Thug\Fuse_Box\Fuse_Item (3).wav</ShortName>
 							<Path>SFX\Interactables\Thug\Fuse_Box\Fuse_Item (3)_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3065217693" Name="Play_Heater" ObjectPath="\Events\Interactables\INGlobal\DrugPuzzel\Play_Heater" GUID="{54A78131-9657-46CC-97FD-FAD80EF08AF7}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="794432808" Language="SFX">
+							<ShortName>Interactables\Global\DrugPuzzel\Heater.wav</ShortName>
+							<Path>SFX\Interactables\Global\DrugPuzzel\Heater_B352EA27.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -619,6 +643,14 @@
 						<File Id="846880947" Language="SFX">
 							<ShortName>Interactables\Global\SwitchButtons\SwitchButtons 13.wav</ShortName>
 							<Path>SFX\Interactables\Global\SwitchButtons\SwitchButtons 13_1827270A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4091122043" Name="Play_Valv" ObjectPath="\Events\Interactables\INGlobal\Play_Valv" GUID="{1164921E-57D7-4A0B-9649-8E00BE7CE8FF}" DurationType="OneShot" DurationMin="0.920987" DurationMax="0.964544">
+					<IncludedMemoryFiles>
+						<File Id="373648085" Language="SFX">
+							<ShortName>Interactables\OldLady\Valv\valv.wav</ShortName>
+							<Path>SFX\Interactables\OldLady\Valv\valv_8EC19227.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

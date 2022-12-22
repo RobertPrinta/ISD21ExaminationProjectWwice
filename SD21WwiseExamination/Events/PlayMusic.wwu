@@ -89,27 +89,17 @@
 				</Event>
 				<Event Name="Play_Thug" ID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}">
 					<ChildrenList>
-						<Action Name="" ID="{3BC09BFC-95BD-4D6A-968C-1E3584542820}" ShortID="69394136">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Play_Stop_All_Music" ID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{4E7C72D9-70B2-436D-AE1F-78C75FEC53F2}" ShortID="263978563">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ThugMusic_Bas" ID="{70399908-ED81-40D5-9D8F-47442412F292}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+									<ObjectRef Name="ThugMusic" ID="{5AD2F3BA-10BC-41E2-94A1-63420B7CE0BE}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{D5141F4C-C70D-402D-B71C-8313E9F8A133}" ShortID="1055784576">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ThugMusic" ID="{5AD2F3BA-10BC-41E2-94A1-63420B7CE0BE}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
+									<ObjectRef Name="ThugMusic_Bas" ID="{70399908-ED81-40D5-9D8F-47442412F292}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

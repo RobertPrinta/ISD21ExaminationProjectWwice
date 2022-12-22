@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1244226823">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="3919600917">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -575,42 +575,56 @@
 				<Event Id="3466869857" Name="Play_Stop_Thug" ObjectPath="\Events\PlayMusic\Play_Stop_Thug" GUID="{D61B2A7B-5D20-447A-9F9A-7D30DCA8663B}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3289997258" Name="Play_Thug" ObjectPath="\Events\PlayMusic\Play_Thug" GUID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="189914427" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Akt2 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Akt2 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="81627251" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett2 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett2 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
-						<File Id="323457401" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett3 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett3 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="295524207" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett4 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett4 87bpm 3_4_9EDFC787.wem</Path>
+						</File>
+						<File Id="315324335" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett1 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
 						<File Id="499394862" Language="SFX">
 							<ShortName>Music\Thug\ThugDream Akt3 87bpm 3_4.wav</ShortName>
 							<Path>SFX\Music\Thug\ThugDream Akt3 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
-						<File Id="506154452" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett5 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett5 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="508343578" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett5 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett5 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
-						<File Id="552504328" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett4 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett4 87bpm 3_4_9EDFC787.wem</Path>
-						</File>
-						<File Id="899918642" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett2 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett2 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="630989056" Language="SFX">
+							<ShortName>Music\Thug\Thugbass\ThugDream Klarinett3 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Thug\Thugbass\ThugDream Klarinett3 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
 						<File Id="912177680" Language="SFX">
 							<ShortName>Music\Thug\ThugDream Akt1 87bpm 3_4.wav</ShortName>
 							<Path>SFX\Music\Thug\ThugDream Akt1 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
-						<File Id="970544024" Language="SFX">
-							<ShortName>Music\Thug\ThugDream Klarinett1 87bpm 3_4.wav</ShortName>
-							<Path>SFX\Music\Thug\ThugDream Klarinett1 87bpm 3_4_9EDFC787.wem</Path>
+						<File Id="1023928592" Language="SFX">
+							<ShortName>Music\Runner\RunnerAct2\ThugDream Akt2 87bpm 3_4.wav</ShortName>
+							<Path>SFX\Music\Runner\RunnerAct2\ThugDream Akt2 87bpm 3_4_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}"/>
-					</ActionPostEvent>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{41717F4D-89C2-4812-B173-6BE94CC1F3C1}">
+							<Media>
+								<File Id="912177680"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B603DFE1-B99E-447A-90E4-22039077C126}">
+							<Media>
+								<File Id="1023928592"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1389356E-9BA5-40DD-884D-83BC5081EF04}">
+							<Media>
+								<File Id="499394862"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
