@@ -94,9 +94,6 @@
 				<Event Name="Play_Clock" ID="{23A466A9-08FA-431D-ACB9-5CD810F95904}">
 					<ChildrenList>
 						<Action Name="" ID="{48B784A4-A220-411C-A7B2-A1D29172E132}" ShortID="977436321">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="pendulum clock" ID="{2E7A8E17-240D-4E0B-B735-FD4AE824C01F}" WorkUnitID="{C7F7E918-3B64-49FC-B82C-557899EE2D61}"/>

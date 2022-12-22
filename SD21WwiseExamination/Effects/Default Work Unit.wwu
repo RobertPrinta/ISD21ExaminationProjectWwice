@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2A8558B7-AC5C-4B41-9D30-AB8BC48DA910}" SchemaVersion="103">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{2A8558B7-AC5C-4B41-9D30-AB8BC48DA910}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2A8558B7-AC5C-4B41-9D30-AB8BC48DA910}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="SideChineMeater" ID="{F497230F-89E8-4AA6-8ADB-41B0D88A5F98}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ApplyDownstreamVolume" Type="bool" Value="True"/>
+						<Property Name="AttackTime" Type="Real32" Value="0.5"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="1.2"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="SidechaineMusicVolRTPC" ID="{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C73D5600-EFDA-4643-80D3-1A2B64AC8EE1}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Meaters" ID="{C73D5600-EFDA-4643-80D3-1A2B64AC8EE1}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="SidechaineMusicVolRTPC" ID="{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

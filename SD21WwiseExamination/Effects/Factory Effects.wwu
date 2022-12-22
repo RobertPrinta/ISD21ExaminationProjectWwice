@@ -37,9 +37,42 @@
 						</Effect>
 						<Effect Name="Dialog_Too_Quiet" ID="{F9C77BF1-1CCC-415B-B93F-B048979CA620}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
-								<Property Name="OutputGain" Type="Real32" Value="6"/>
+								<Property Name="OutputGain" Type="Real32" Value="6">
+									<RTPCList>
+										<RTPC Name="" ID="{522DFC01-10CB-47CB-959C-7624D60C0EE7}" ShortID="221176185">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SidechaineMusicVolRTPC" ID="{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}" WorkUnitID="{C73D5600-EFDA-4643-80D3-1A2B64AC8EE1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{72B30271-7052-4EA6-B514-693D82620B6F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-27.23632</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>SCurve</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-47.9999984788747</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Ratio" Type="Real32" Value="3"/>
-								<Property Name="Threshold" Type="Real32" Value="-30"/>
+								<Property Name="Threshold" Type="Real32" Value="-36.5"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="High_Impact" ID="{2AFD6FB0-C906-4683-A377-FEEEF72967B0}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
