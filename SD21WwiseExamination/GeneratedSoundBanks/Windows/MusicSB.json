@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "3919600917",
+    "Hash": "1476840944",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",

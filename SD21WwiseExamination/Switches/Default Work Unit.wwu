@@ -40,6 +40,7 @@
 					<ChildrenList>
 						<Switch Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 						<Switch Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+						<Switch Name="Default" ID="{5FB87FA5-08A2-48E9-958B-5E78B4A267D1}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

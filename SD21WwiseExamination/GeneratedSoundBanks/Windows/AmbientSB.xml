@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="2788335107">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="1255859495">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
@@ -303,6 +303,7 @@
 					<Switches>
 						<Switch Id="3205342581" Name="RoomSmall" ObjectPath="\Switches\Default Work Unit\RoomType\RoomSmall" GUID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 						<Switch Id="92673186" Name="RoomBig" ObjectPath="\Switches\Default Work Unit\RoomType\RoomBig" GUID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+						<Switch Id="782826392" Name="Default" ObjectPath="\Switches\Default Work Unit\RoomType\Default" GUID="{5FB87FA5-08A2-48E9-958B-5E78B4A267D1}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="2782712965" Name="Level" ObjectPath="\Switches\Default Work Unit\Level" GUID="{97899AB1-0F8B-4889-924C-6FE368722935}">

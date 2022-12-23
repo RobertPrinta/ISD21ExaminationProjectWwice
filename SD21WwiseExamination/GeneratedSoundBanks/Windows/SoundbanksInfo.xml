@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -36,7 +36,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="2788335107">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="1255859495">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
@@ -331,6 +331,7 @@
 					<Switches>
 						<Switch Id="3205342581" Name="RoomSmall" ObjectPath="\Switches\Default Work Unit\RoomType\RoomSmall" GUID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 						<Switch Id="92673186" Name="RoomBig" ObjectPath="\Switches\Default Work Unit\RoomType\RoomBig" GUID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+						<Switch Id="782826392" Name="Default" ObjectPath="\Switches\Default Work Unit\RoomType\Default" GUID="{5FB87FA5-08A2-48E9-958B-5E78B4A267D1}"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="2782712965" Name="Level" ObjectPath="\Switches\Default Work Unit\Level" GUID="{97899AB1-0F8B-4889-924C-6FE368722935}">
@@ -343,7 +344,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="3650658212">
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="3068209323">
 			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
 			<ShortName>UiSB</ShortName>
 			<Path>UiSB.bnk</Path>
@@ -465,7 +466,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="1666175392">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="61204490">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -1340,7 +1341,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="2581086350">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="846446268">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -1884,7 +1885,7 @@
 				<Event Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="3919600917">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1476840944">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -2538,7 +2539,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="3511898550">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="324133685">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
