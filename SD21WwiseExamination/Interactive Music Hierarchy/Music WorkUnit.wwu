@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>8</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
@@ -10372,7 +10372,7 @@
 					<PropertyList>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>8</Value>
+								<Value>2</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
