@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1070355952",
     "GUID": "{A646F937-A3B8-467A-82D6-7A999570C91A}",
     "Language": "SFX",
-    "Hash": "3068209323",
+    "Hash": "2286486388",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UiSB",
     "ShortName": "UiSB",
     "Path": "UiSB.bnk",
@@ -27,14 +27,14 @@
       "ObjectPath": "\\Events\\UI\\UI_Click_Button",
       "GUID": "{C08F3209-396D-4817-999D-BE74BB1000B4}",
       "DurationType": "OneShot",
-      "DurationMin": "1.013039",
-      "DurationMax": "1.013039",
+      "DurationMin": "0.215657",
+      "DurationMax": "0.215657",
       "IncludedMemoryFiles": [
        {
         "Id": "476123600",
         "Language": "SFX",
         "ShortName": "UI\\UI_Button_Click.wav",
-        "Path": "SFX\\UI\\UI_Button_Click_3CADDE39.wem"
+        "Path": "SFX\\UI\\UI_Button_Click_921E9EDC.wem"
        }
       ]
      },

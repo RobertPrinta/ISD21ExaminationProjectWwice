@@ -1,38 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="324133685">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="1357569218">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
 			<IncludedEvents>
-				<Event Id="235917819" Name="Metal_Lever" ObjectPath="\Events\Interactables\INThug\Metal_Lever" GUID="{FEF52EB0-33FD-4C5D-B8A1-F862A93E1A9C}" DurationType="OneShot" DurationMin="0.464286" DurationMax="1.950884">
-					<IncludedMemoryFiles>
-						<File Id="295671336" Language="SFX">
-							<ShortName>Interactables\Thug\Metal_Lever\Metal_Lever3.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Metal_Lever\Metal_Lever3_3CADDE39.wem</Path>
-						</File>
-						<File Id="426273947" Language="SFX">
-							<ShortName>Interactables\Thug\Metal_Lever\Metal_Lever4.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Metal_Lever\Metal_Lever4_3CADDE39.wem</Path>
-						</File>
-						<File Id="715212057" Language="SFX">
-							<ShortName>Interactables\Thug\Metal_Lever\Metal_Lever2.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Metal_Lever\Metal_Lever2_3CADDE39.wem</Path>
-						</File>
-						<File Id="1066064421" Language="SFX">
-							<ShortName>Interactables\Thug\Metal_Lever\Metal_Lever.wav</ShortName>
-							<Path>SFX\Interactables\Thug\Metal_Lever\Metal_Lever_3CADDE39.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="3050945240" Name="New_Event" ObjectPath="\Events\Interactables\INGlobal\New_Event" GUID="{D06C9E50-CD86-4BD5-A541-FB069F2EFC89}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="754001494" Name="Play_AB_Fire" ObjectPath="\Events\Interactables\INOldLady\Play_AB_Fire" GUID="{46A5130E-C679-4A71-94C1-0EE5F8681C62}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -327,6 +307,26 @@
 						<File Id="648731874" Language="SFX">
 							<ShortName>Interactables\Global\KeyPad\KeyPad_Error.wav</ShortName>
 							<Path>SFX\Interactables\Global\KeyPad\KeyPad_Error_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1591678202" Name="Play_Metal_Lever" ObjectPath="\Events\Interactables\INThug\Play_Metal_Lever" GUID="{FEF52EB0-33FD-4C5D-B8A1-F862A93E1A9C}" DurationType="OneShot" DurationMin="0.464286" DurationMax="1.950884">
+					<IncludedMemoryFiles>
+						<File Id="295671336" Language="SFX">
+							<ShortName>Interactables\Thug\Metal_Lever\Metal_Lever3.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Metal_Lever\Metal_Lever3_3CADDE39.wem</Path>
+						</File>
+						<File Id="426273947" Language="SFX">
+							<ShortName>Interactables\Thug\Metal_Lever\Metal_Lever4.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Metal_Lever\Metal_Lever4_3CADDE39.wem</Path>
+						</File>
+						<File Id="715212057" Language="SFX">
+							<ShortName>Interactables\Thug\Metal_Lever\Metal_Lever2.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Metal_Lever\Metal_Lever2_3CADDE39.wem</Path>
+						</File>
+						<File Id="1066064421" Language="SFX">
+							<ShortName>Interactables\Thug\Metal_Lever\Metal_Lever.wav</ShortName>
+							<Path>SFX\Interactables\Thug\Metal_Lever\Metal_Lever_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

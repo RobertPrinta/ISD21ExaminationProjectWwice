@@ -13,6 +13,12 @@
 	<GameParameter Name="SidechaineMusicVolRTPC" ID="{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}"/>
 </PluginData>
 				</Effect>
+				<Effect Name="Bubbelsidechine" ID="{E35E11DE-B7FA-4024-9AEA-3D425390CF5A}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="Max" Type="Real32" Value="-2.3"/>
+						<Property Name="Min" Type="Real32" Value="-96.3"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

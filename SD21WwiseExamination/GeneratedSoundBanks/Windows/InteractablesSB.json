@@ -5,57 +5,22 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "324133685",
+    "Hash": "1357569218",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
     "IncludedEvents": [
-     {
-      "Id": "235917819",
-      "Name": "Metal_Lever",
-      "ObjectPath": "\\Events\\Interactables\\INThug\\Metal_Lever",
-      "GUID": "{FEF52EB0-33FD-4C5D-B8A1-F862A93E1A9C}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.464286",
-      "DurationMax": "1.950884",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "295671336",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever3.wav",
-        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever3_3CADDE39.wem"
-       },
-       {
-        "Id": "426273947",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever4.wav",
-        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever4_3CADDE39.wem"
-       },
-       {
-        "Id": "715212057",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever2.wav",
-        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever2_3CADDE39.wem"
-       },
-       {
-        "Id": "1066064421",
-        "Language": "SFX",
-        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever.wav",
-        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever_3CADDE39.wem"
-       }
-      ]
-     },
      {
       "Id": "3050945240",
       "Name": "New_Event",
@@ -589,6 +554,41 @@
         "Language": "SFX",
         "ShortName": "Interactables\\Global\\KeyPad\\KeyPad_Error.wav",
         "Path": "SFX\\Interactables\\Global\\KeyPad\\KeyPad_Error_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1591678202",
+      "Name": "Play_Metal_Lever",
+      "ObjectPath": "\\Events\\Interactables\\INThug\\Play_Metal_Lever",
+      "GUID": "{FEF52EB0-33FD-4C5D-B8A1-F862A93E1A9C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.464286",
+      "DurationMax": "1.950884",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "295671336",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever3.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever3_3CADDE39.wem"
+       },
+       {
+        "Id": "426273947",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever4.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever4_3CADDE39.wem"
+       },
+       {
+        "Id": "715212057",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever2.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever2_3CADDE39.wem"
+       },
+       {
+        "Id": "1066064421",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Thug\\Metal_Lever\\Metal_Lever.wav",
+        "Path": "SFX\\Interactables\\Thug\\Metal_Lever\\Metal_Lever_3CADDE39.wem"
        }
       ]
      },
