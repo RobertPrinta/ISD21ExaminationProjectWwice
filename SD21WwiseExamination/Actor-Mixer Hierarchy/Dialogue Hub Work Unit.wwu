@@ -276,6 +276,52 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<Sound Name="Phone_HangUp" ID="{6BE989A1-943A-4E19-9685-5632858ED9BA}" ShortID="1009555529">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Phone_HangUp" ID="{40D1C1A2-8846-485E-B753-71EB27A4917D}">
+							<Language>SFX</Language>
+							<AudioFile>Dialogue\Phone_HangUp.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="972737473"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Phone_HangUp" ID="{40D1C1A2-8846-485E-B753-71EB27A4917D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Phone_Call_Answer" ID="{F9DD3BEF-7FA2-4A50-B2A5-42B35FFC4EF1}" ShortID="1046986375">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Phone_Call_Answer" ID="{904F0CB4-54E7-4097-AFF4-F7C6CA9180FE}">
+							<Language>SFX</Language>
+							<AudioFile>Dialogue\Phone_Call_Answer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1016474686"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Phone_Call_Answer" ID="{904F0CB4-54E7-4097-AFF4-F7C6CA9180FE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
