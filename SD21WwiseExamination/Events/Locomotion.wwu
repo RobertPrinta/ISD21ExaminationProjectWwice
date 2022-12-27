@@ -6,6 +6,20 @@
 				<Event Name="PlayerFootstepsEvent" ID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}">
 					<ChildrenList>
 						<Action Name="" ID="{10F548FD-C91F-4B05-B45F-F6F46EAE847E}" ShortID="743011995">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1679CE55-7995-4331-9850-26BD483198CB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps" ID="{FB983F4B-6273-4EC4-B008-4F11158F2762}" WorkUnitID="{49D19C03-59A5-4898-9F51-3205F3BC1F24}"/>
