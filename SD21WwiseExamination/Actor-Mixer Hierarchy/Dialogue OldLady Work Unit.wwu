@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-14</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -181,7 +181,7 @@
 								<ActiveSource Name="Sigifrit_A3_S44" ID="{3018902C-2A7C-4CE8-8C76-390BC8FBD399}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Sigifrit_A1_S50_BG" ID="{B651ABB8-C861-46D5-8656-EFF8D9D41021}" ShortID="803375293">
+						<Sound Name="Sigifrit_A1_S50_BG" ID="{50E5EBCE-6848-4F6F-8A13-FF313BA5594F}" ShortID="752126911">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -191,7 +191,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sigifrit_A1_S50_BG" ID="{4B7101A2-4CDE-4621-80E0-96530920CA87}">
+								<AudioFileSource Name="Sigifrit_A1_S50_BG" ID="{15FF49FD-0B64-44DF-BAED-A11AB2F05606}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\OldLady\Sigifrit_A1_S50_BG.wav</AudioFile>
 									<MediaIDList>
@@ -201,10 +201,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Sigifrit_A1_S50_BG" ID="{4B7101A2-4CDE-4621-80E0-96530920CA87}" Platform="Linked"/>
+								<ActiveSource Name="Sigifrit_A1_S50_BG" ID="{15FF49FD-0B64-44DF-BAED-A11AB2F05606}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Sigifrit_A1_S52_BG" ID="{5E5437CC-E8D7-404C-A9C2-8B43AE99F110}" ShortID="775043382">
+						<Sound Name="Sigifrit_A1_S52_BG" ID="{6324E622-3CEE-4AB9-BF27-B0CB64917DE8}" ShortID="399489999">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -214,7 +214,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sigifrit_A1_S52_BG" ID="{1B318B79-5FE9-48CA-8FE4-C1F11DE359B1}">
+								<AudioFileSource Name="Sigifrit_A1_S52_BG" ID="{77BE1FB6-C167-46A9-991A-33C3BB8CAC2B}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\OldLady\Sigifrit_A1_S52_BG.wav</AudioFile>
 									<MediaIDList>
@@ -224,10 +224,17 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Sigifrit_A1_S52_BG" ID="{1B318B79-5FE9-48CA-8FE4-C1F11DE359B1}" Platform="Linked"/>
+								<ActiveSource Name="Sigifrit_A1_S52_BG" ID="{77BE1FB6-C167-46A9-991A-33C3BB8CAC2B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Sigifrit_A1_S54_BG" ID="{66343C90-3D29-4725-980D-85BA504587CE}" ShortID="888455517">
+						<Sound Name="Sigifrit_A1_S54_BG" ID="{BC84AFB6-9983-4B1A-81CB-6AC36BED87BC}" ShortID="430488954">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -237,7 +244,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sigifrit_A1_S54_BG" ID="{8F04DC10-AECC-48D0-8397-92ECA29E2ECA}">
+								<AudioFileSource Name="Sigifrit_A1_S54_BG" ID="{7F351280-BCA2-42B3-8612-88BAA36D9042}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\OldLady\Sigifrit_A1_S54_BG.wav</AudioFile>
 									<MediaIDList>
@@ -247,7 +254,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Sigifrit_A1_S54_BG" ID="{8F04DC10-AECC-48D0-8397-92ECA29E2ECA}" Platform="Linked"/>
+								<ActiveSource Name="Sigifrit_A1_S54_BG" ID="{7F351280-BCA2-42B3-8612-88BAA36D9042}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

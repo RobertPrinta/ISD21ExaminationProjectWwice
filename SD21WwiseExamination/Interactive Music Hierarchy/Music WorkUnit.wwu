@@ -11,6 +11,11 @@
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -2850,6 +2855,11 @@
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="50"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -4078,6 +4088,9 @@
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="107"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{1CB48841-9C45-4076-A59B-46A254CEF1AF}"/>
@@ -9455,6 +9468,11 @@
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="87"/>
 						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -10408,6 +10426,11 @@
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

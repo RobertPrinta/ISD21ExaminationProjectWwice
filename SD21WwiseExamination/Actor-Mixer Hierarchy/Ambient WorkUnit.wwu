@@ -879,6 +879,11 @@
 				<ActorMixer Name="3DAmbient" ID="{B2EDDFAA-0CEC-41CC-9C02-B9CD444B297D}" ShortID="404258927">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
