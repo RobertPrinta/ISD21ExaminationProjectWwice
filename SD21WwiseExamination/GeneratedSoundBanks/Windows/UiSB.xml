@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="2286486388">
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="990309022">
 			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
 			<ShortName>UiSB</ShortName>
 			<Path>UiSB.bnk</Path>
@@ -17,7 +17,7 @@
 					<IncludedMemoryFiles>
 						<File Id="476123600" Language="SFX">
 							<ShortName>UI\UI_Button_Click.wav</ShortName>
-							<Path>SFX\UI\UI_Button_Click_921E9EDC.wem</Path>
+							<Path>SFX\UI\UI_Button_Click_C253A8A7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -16,7 +16,7 @@
     "Id": "1070355952",
     "GUID": "{A646F937-A3B8-467A-82D6-7A999570C91A}",
     "Language": "SFX",
-    "Hash": "2286486388",
+    "Hash": "990309022",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UiSB",
     "ShortName": "UiSB",
     "Path": "UiSB.bnk",
@@ -34,7 +34,7 @@
         "Id": "476123600",
         "Language": "SFX",
         "ShortName": "UI\\UI_Button_Click.wav",
-        "Path": "SFX\\UI\\UI_Button_Click_921E9EDC.wem"
+        "Path": "SFX\\UI\\UI_Button_Click_C253A8A7.wem"
        }
       ]
      },

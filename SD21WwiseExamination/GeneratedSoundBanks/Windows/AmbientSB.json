@@ -16,7 +16,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "1422557098",
+    "Hash": "2871156186",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -360,52 +360,10 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "53760322",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee4.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee4_3F75BDB9.wem"
-       },
-       {
-        "Id": "219103676",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee7.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee7_3F75BDB9.wem"
-       },
-       {
         "Id": "227030349",
         "Language": "SFX",
         "ShortName": "Ambience\\Headlocked\\AB_Outdoors.wav",
         "Path": "SFX\\Ambience\\Headlocked\\AB_Outdoors_9EDFC787.wem"
-       },
-       {
-        "Id": "255528574",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee9.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee9_3F75BDB9.wem"
-       },
-       {
-        "Id": "285835734",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee6.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee6_3F75BDB9.wem"
-       },
-       {
-        "Id": "385019460",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee8.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee8_3F75BDB9.wem"
-       },
-       {
-        "Id": "709406548",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee11.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee11_3F75BDB9.wem"
-       },
-       {
-        "Id": "709892299",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee2.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee2_3F75BDB9.wem"
        },
        {
         "Id": "715327901",
@@ -418,36 +376,6 @@
         "Language": "SFX",
         "ShortName": "Ambience\\Headlocked\\AB_Small_Room_Headlocked.wav",
         "Path": "SFX\\Ambience\\Headlocked\\AB_Small_Room_Headlocked_9EDFC787.wem"
-       },
-       {
-        "Id": "923033233",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee3.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee3_3F75BDB9.wem"
-       },
-       {
-        "Id": "939689681",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee12.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee12_3F75BDB9.wem"
-       },
-       {
-        "Id": "947276510",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee1.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee1_3F75BDB9.wem"
-       },
-       {
-        "Id": "952965985",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee5.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee5_3F75BDB9.wem"
-       },
-       {
-        "Id": "1010535661",
-        "Language": "SFX",
-        "ShortName": "Ambience\\Headlocked\\AB_Bumblebee10.wav",
-        "Path": "SFX\\Ambience\\Headlocked\\AB_Bumblebee10_3F75BDB9.wem"
        }
       ]
      },

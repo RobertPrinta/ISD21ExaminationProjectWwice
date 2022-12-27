@@ -16,7 +16,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "1357569218",
+    "Hash": "966819243",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
@@ -664,6 +664,23 @@
       ]
      },
      {
+      "Id": "254921831",
+      "Name": "Play_Offic_Chair",
+      "ObjectPath": "\\Events\\Interactables\\INHub\\Play_Offic_Chair",
+      "GUID": "{DFDDB986-D175-44F4-9E11-8BA46AE4B97E}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.657687",
+      "DurationMax": "6.657687",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "473936763",
+        "Language": "SFX",
+        "ShortName": "Interactables\\Hub\\OfficChair.wav",
+        "Path": "SFX\\Interactables\\Hub\\OfficChair_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "1301152502",
       "Name": "Play_Pick_Up_Puzzle",
       "ObjectPath": "\\Events\\Interactables\\INGlobal\\Play_Pick_Up_Puzzle",
@@ -925,8 +942,8 @@
       "ObjectPath": "\\Events\\Interactables\\INHub\\Play_ShelvsSliding",
       "GUID": "{473BFB67-B3B1-4454-80A0-CDEFE58F23B0}",
       "DurationType": "OneShot",
-      "DurationMin": "3.983876",
-      "DurationMax": "4.076995",
+      "DurationMin": "5.019369",
+      "DurationMax": "5.136692",
       "IncludedMemoryFiles": [
        {
         "Id": "550325526",

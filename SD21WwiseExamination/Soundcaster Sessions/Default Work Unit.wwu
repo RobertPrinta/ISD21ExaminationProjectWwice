@@ -266,7 +266,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Thug_Act3" ID="{1389356E-9BA5-40DD-884D-83BC5081EF04}"/>
-						<CurrentStateRef Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
+						<CurrentStateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
 						<CurrentStateRef Name="None" ID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
 						<CurrentStateRef Name="Runner_Act1" ID="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}"/>
 						<CurrentStateRef Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
@@ -276,7 +276,7 @@
 						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
-						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
+						<CurrentSwitchRef Name="Default" ID="{5FB87FA5-08A2-48E9-958B-5E78B4A267D1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

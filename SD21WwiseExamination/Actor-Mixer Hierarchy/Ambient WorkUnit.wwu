@@ -2496,39 +2496,12 @@
 														<ActiveSource Name="AB_Police_Radio_Event_4_3D" ID="{171AA236-E845-4667-B1A3-B23FD366CA5E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}" ShortID="344013760">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<SourcePlugin Name="Wwise Silence" ID="{158D53F5-CD78-451F-9F10-421557DBC805}" ShortID="574153391" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-															<PropertyList>
-																<Property Name="Length" Type="Real32" Value="40"/>
-																<Property Name="LengthMin" Type="Real32" Value="-30"/>
-															</PropertyList>
-															<Language>SFX</Language>
-														</SourcePlugin>
-													</ChildrenList>
-													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="Wwise Silence" ID="{158D53F5-CD78-451F-9F10-421557DBC805}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 											</ChildrenList>
 											<ObjectLists/>
 											<Playlist>
-												<ItemRef Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}"/>
 												<ItemRef Name="AB_Police_Radio_Event_1_3D" ID="{3CFC4C2B-9360-4FA7-83BE-133866AB4045}"/>
-												<ItemRef Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}"/>
 												<ItemRef Name="AB_Police_Radio_Event_2_3D" ID="{F63F3068-02E7-45B4-8577-7321E29B3675}"/>
-												<ItemRef Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}"/>
 												<ItemRef Name="AB_Police_Radio_Event_3_3D" ID="{8119DF0A-1FF8-4AD8-9EE1-9DD423F0B76F}"/>
-												<ItemRef Name="AB_Silence_Between_Calls" ID="{666EA291-FF2F-4983-BEEA-34FA60EDA41F}"/>
 												<ItemRef Name="AB_Police_Radio_Event_4_3D" ID="{8A0781D1-D56E-4A8A-AD91-368C5F77F1B3}"/>
 											</Playlist>
 										</RandomSequenceContainer>
