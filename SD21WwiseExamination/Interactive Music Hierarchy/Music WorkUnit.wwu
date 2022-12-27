@@ -2810,14 +2810,6 @@
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Act_State" ID="{78D1B768-D1B0-4091-A56D-06D055E41D60}"/>
-							</Path>
-							<AudioNodeInfo>
-								<NoObject Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
 								<PathElementRef Name="Act1" ID="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -2838,6 +2830,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="OldLadyAct3KlarinettStingers" ID="{64BF1D8F-6CBA-4E88-B33E-D6395E875829}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{3D353952-6824-4660-8877-E0EE5B1CD150}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="OldLadyAct1KlarinettStingers" ID="{21BAC3FA-3512-43E2-A4DC-BE9F8B8CC807}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
@@ -4062,6 +4062,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="RunnerAct3" ID="{7302CEB0-0E72-4764-8B09-D12152EC4F44}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{3D353952-6824-4660-8877-E0EE5B1CD150}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="RunnerAct1" ID="{46CDFBE4-3F1D-4BB3-8151-3663C2DF757F}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
@@ -9428,6 +9436,14 @@
 								<AudioNodeRef Name="HubAct3" ID="{5A6D2106-52FF-478F-B8FF-B147772D3E55}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{3D353952-6824-4660-8877-E0EE5B1CD150}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="HubAct1" ID="{56673EF8-EC18-40F4-AA40-11B8313CD877}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="ThugMusic" ID="{5AD2F3BA-10BC-41E2-94A1-63420B7CE0BE}" ShortID="859707018">
@@ -10372,6 +10388,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="ThugMusic_Act3" ID="{12710F74-A249-4BA2-8E75-7185870E3675}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{3D353952-6824-4660-8877-E0EE5B1CD150}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="ThugMusic_Act1" ID="{05799B1A-B310-4185-B775-5228231BD617}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
@@ -12670,6 +12694,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="OldLadyAct3KontraStingers" ID="{D0486B2F-F15D-41FD-9463-468D302A5B97}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{3D353952-6824-4660-8877-E0EE5B1CD150}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="OldLadyAct1KontraStingers" ID="{0EFECDF2-A946-4691-854D-01E332C24C55}" WorkUnitID="{B8FA682B-AD82-4E1B-8925-565ED59B6CE7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

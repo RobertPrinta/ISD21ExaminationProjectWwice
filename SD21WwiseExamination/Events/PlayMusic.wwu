@@ -107,16 +107,6 @@
 				</Event>
 				<Event Name="Play_Runner" ID="{7C574E14-4AE8-42DB-B631-328664FFED03}">
 					<ChildrenList>
-						<Action Name="" ID="{0CA1E39B-223A-4440-9989-89430E2AB69F}" ShortID="41743938">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Play_Stop_All_Music" ID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{48EF10AB-5132-4C0D-A71E-2C604C6B889D}" ShortID="33058610">
 							<ReferenceList>
 								<Reference Name="Target">

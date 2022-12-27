@@ -1293,7 +1293,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="3112092716">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="1418764097">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -1336,6 +1336,17 @@
 						<File Id="744168595" Language="SFX">
 							<ShortName>Dialogue\Thug\BigThug_A1_S12.wav</ShortName>
 							<Path>SFX\Dialogue\Thug\BigThug_A1_S12_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1062190983" Name="Play_BigThug_A1_S48_BG" ObjectPath="\Events\Dialogue\DiThug\Play_BigThug_A1_S48_BG" GUID="{63059C2D-FB8B-42BB-B286-26D68D2C53BB}" DurationType="OneShot" DurationMin="22.132744" DurationMax="22.132744">
+					<IncludedMemoryFiles>
+						<File Id="332443770" Language="SFX">
+							<ShortName>Dialogue\Thug\BigThug_A1_S48_BG.wav</ShortName>
+							<Path>SFX\Dialogue\Thug\BigThug_A1_S48_BG_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionPostEvent>
@@ -1415,9 +1426,6 @@
 							<Path>SFX\Dialogue\Thug\BigThug_A2_S21.5(Hammertime)_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="1925955972" Name="Play_BigThug_A2_S22" ObjectPath="\Events\Dialogue\DiThug\Play_BigThug_A2_S22" GUID="{FC8B3CD0-F3FC-4FC5-A3C7-5CEB52F1A040}" DurationType="OneShot" DurationMin="4.890771" DurationMax="4.890771">
 					<IncludedMemoryFiles>
@@ -1459,9 +1467,6 @@
 							<Path>SFX\Dialogue\Thug\BigThug_A2_S58_BG_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="3249674541" Name="Play_BigThug_A3_S35" ObjectPath="\Events\Dialogue\DiThug\Play_BigThug_A3_S35" GUID="{00E8E351-0B14-4B33-8A69-D2AD5124F285}" DurationType="OneShot" DurationMin="8.787597" DurationMax="8.787597">
 					<IncludedMemoryFiles>
@@ -1525,9 +1530,6 @@
 							<Path>SFX\Dialogue\Runner\Emilia_A1_S49_BG_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="2644529260" Name="Play_Emilia_A2_S25" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_A2_S25" GUID="{06CA60DD-4A53-4301-9CEC-3B9AD9F5AB9F}" DurationType="OneShot" DurationMin="11.072018" DurationMax="11.072018">
 					<IncludedMemoryFiles>
@@ -1724,6 +1726,21 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
+				<Event Id="185865905" Name="Play_PoliceHub_A3_S34_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A3_S34_Tut" GUID="{C0D0C89B-83F2-43BE-B1DC-5D52FB6766DD}" DurationType="OneShot" DurationMin="25.708593" DurationMax="25.708593">
+					<IncludedMemoryFiles>
+						<File Id="59512752" Language="SFX">
+							<ShortName>Dialogue\Hub\PoliceHub_A3_S34_Perkins.wav</ShortName>
+							<Path>SFX\Dialogue\Hub\PoliceHub_A3_S34_Perkins_3CADDE39.wem</Path>
+						</File>
+						<File Id="962363174" Language="SFX">
+							<ShortName>Dialogue\Hub\PoliceHub_A3_S34_Sadie.wav</ShortName>
+							<Path>SFX\Dialogue\Hub\PoliceHub_A3_S34_Sadie_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="1783234309" Name="Play_Sigifrit_A1_S16" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S16" GUID="{7EE5EA54-1515-4A2F-87EF-8888907EAA33}" DurationType="OneShot" DurationMin="4.488027" DurationMax="4.488027">
 					<IncludedMemoryFiles>
 						<File Id="939100521" Language="SFX">
@@ -1753,9 +1770,6 @@
 							<Path>SFX\Dialogue\OldLady\Sigifrit_A1_S50_BG_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="3809216585" Name="Play_Sigifrit_A1_S52_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S52_BG" GUID="{36219D41-B950-4904-B295-2362C0C5022E}" DurationType="OneShot" DurationMin="6.82712" DurationMax="6.82712">
 					<IncludedMemoryFiles>
@@ -1764,9 +1778,6 @@
 							<Path>SFX\Dialogue\OldLady\Sigifrit_A1_S52_BG_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="3915117343" Name="Play_Sigifrit_A1_S54_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S54_BG" GUID="{30875B80-D1BF-46E4-AD9D-D545A19A1A46}" DurationType="OneShot" DurationMin="3.4922" DurationMax="3.4922">
 					<IncludedMemoryFiles>
@@ -1775,9 +1786,6 @@
 							<Path>SFX\Dialogue\OldLady\Sigifrit_A1_S54_BG_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="1155578380" Name="Play_Sigifrit_A3_S32_" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A3_S32_" GUID="{D126DF2F-5070-406B-982B-2DD76489B5E4}" DurationType="OneShot" DurationMin="14.818458" DurationMax="14.818458">
 					<IncludedMemoryFiles>
@@ -1837,7 +1845,7 @@
 				<Event Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2113973120">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1422407793">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -2144,6 +2152,37 @@
 								<File Id="1000740171"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="8527650"/>
+								<File Id="38661901"/>
+								<File Id="56903408"/>
+								<File Id="74421163"/>
+								<File Id="112429613"/>
+								<File Id="223431485"/>
+								<File Id="240629171"/>
+								<File Id="349021124"/>
+								<File Id="391664795"/>
+								<File Id="423504379"/>
+								<File Id="583933653"/>
+								<File Id="607379227"/>
+								<File Id="695985048"/>
+								<File Id="702685933"/>
+								<File Id="710814827"/>
+								<File Id="755352097"/>
+								<File Id="790405129"/>
+								<File Id="809878510"/>
+								<File Id="823916637"/>
+								<File Id="828113739"/>
+								<File Id="841251571"/>
+								<File Id="926145073"/>
+								<File Id="949673654"/>
+								<File Id="995413236"/>
+								<File Id="999313794"/>
+								<File Id="1044402490"/>
+								<File Id="1047510627"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}"/>
@@ -2324,6 +2363,15 @@
 								<File Id="1050294060"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="259785673"/>
+								<File Id="338010396"/>
+								<File Id="948744776"/>
+								<File Id="964639863"/>
+								<File Id="1050294060"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}">
 							<Media>
 								<File Id="53033174"/>
@@ -2349,6 +2397,15 @@
 								<File Id="133558551"/>
 								<File Id="734774858"/>
 								<File Id="1040388360"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="53033174"/>
+								<File Id="436433310"/>
+								<File Id="461225173"/>
+								<File Id="586083000"/>
+								<File Id="891722214"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -2422,10 +2479,15 @@
 								<File Id="1045753182"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="207454562"/>
+								<File Id="421102690"/>
+								<File Id="475492684"/>
+								<File Id="730972721"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1789806177" Name="Play_Stop_MainTheme" ObjectPath="\Events\PlayMusic\Play_Stop_MainTheme" GUID="{3C5E178D-70B8-48BC-A158-DD317939869A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -2482,6 +2544,11 @@
 						<SwitchContainer SwitchValue="{4561A81C-E7F2-47B7-8EBB-C283315D0661}">
 							<Media>
 								<File Id="499394862"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="912177680"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
