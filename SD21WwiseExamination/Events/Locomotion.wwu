@@ -13,7 +13,7 @@
 											<Modifier Name="" ID="{1679CE55-7995-4331-9850-26BD483198CB}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="0.4"/>
+													<Property Name="Max" Type="Real64" Value="0.05"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -27,6 +27,20 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{12E5522E-D3C3-46ED-88DE-9F73B3A25597}" ShortID="266802936">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{81C669A1-1830-4D24-8EC4-D3E6997FFDF8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.05"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Clothing" ID="{9F50AE32-4A1A-4396-8FC8-8E6897259CFE}" WorkUnitID="{49D19C03-59A5-4898-9F51-3205F3BC1F24}"/>
