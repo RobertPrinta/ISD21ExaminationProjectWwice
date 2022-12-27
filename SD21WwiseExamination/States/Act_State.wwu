@@ -35,6 +35,14 @@
 						<State Name="OldLady_Act3" ID="{5411FB4F-64CF-4F8F-9B63-5562422834BE}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Act_State" ID="{78D1B768-D1B0-4091-A56D-06D055E41D60}">
+					<ChildrenList>
+						<State Name="None" ID="{3D353952-6824-4660-8877-E0EE5B1CD150}"/>
+						<State Name="A0" ID="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}"/>
+						<State Name="A1" ID="{8389D881-02CB-4385-9C35-45B02BB42673}"/>
+						<State Name="A2" ID="{4561A81C-E7F2-47B7-8EBB-C283315D0661}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
