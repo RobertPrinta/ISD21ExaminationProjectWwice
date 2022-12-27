@@ -2591,7 +2591,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "3112092716",
+    "Hash": "1418764097",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -2685,6 +2685,31 @@
         "Language": "SFX",
         "ShortName": "Dialogue\\Thug\\BigThug_A1_S12.wav",
         "Path": "SFX\\Dialogue\\Thug\\BigThug_A1_S12_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1062190983",
+      "Name": "Play_BigThug_A1_S48_BG",
+      "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A1_S48_BG",
+      "GUID": "{63059C2D-FB8B-42BB-B286-26D68D2C53BB}",
+      "DurationType": "OneShot",
+      "DurationMin": "22.132744",
+      "DurationMax": "22.132744",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "332443770",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Thug\\BigThug_A1_S48_BG.wav",
+        "Path": "SFX\\Dialogue\\Thug\\BigThug_A1_S48_BG_3CADDE39.wem"
        }
       ],
       "ActionPostEvent": [
@@ -2861,14 +2886,6 @@
         "ShortName": "Dialogue\\Thug\\BigThug_A2_S21.5(Hammertime).wav",
         "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S21.5(Hammertime)_3CADDE39.wem"
        }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
       ]
      },
      {
@@ -2960,14 +2977,6 @@
         "Language": "SFX",
         "ShortName": "Dialogue\\Thug\\BigThug_A2_S58_BG.wav",
         "Path": "SFX\\Dialogue\\Thug\\BigThug_A2_S58_BG_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
        }
       ]
      },
@@ -3110,14 +3119,6 @@
         "Language": "SFX",
         "ShortName": "Dialogue\\Runner\\Emilia_A1_S49_BG.wav",
         "Path": "SFX\\Dialogue\\Runner\\Emilia_A1_S49_BG_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
        }
       ]
      },
@@ -3559,6 +3560,37 @@
       ]
      },
      {
+      "Id": "185865905",
+      "Name": "Play_PoliceHub_A3_S34_Tut",
+      "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A3_S34_Tut",
+      "GUID": "{C0D0C89B-83F2-43BE-B1DC-5D52FB6766DD}",
+      "DurationType": "OneShot",
+      "DurationMin": "25.708593",
+      "DurationMax": "25.708593",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "59512752",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A3_S34_Perkins.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A3_S34_Perkins_3CADDE39.wem"
+       },
+       {
+        "Id": "962363174",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A3_S34_Sadie.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A3_S34_Sadie_3CADDE39.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1194815331",
+        "Name": "Play_Stop_ALL_Dialogue",
+        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
+        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
       "Id": "1783234309",
       "Name": "Play_Sigifrit_A1_S16",
       "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S16",
@@ -3623,14 +3655,6 @@
         "ShortName": "Dialogue\\OldLady\\Sigifrit_A1_S50_BG.wav",
         "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A1_S50_BG_3CADDE39.wem"
        }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
       ]
      },
      {
@@ -3648,14 +3672,6 @@
         "ShortName": "Dialogue\\OldLady\\Sigifrit_A1_S52_BG.wav",
         "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A1_S52_BG_3CADDE39.wem"
        }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
       ]
      },
      {
@@ -3672,14 +3688,6 @@
         "Language": "SFX",
         "ShortName": "Dialogue\\OldLady\\Sigifrit_A1_S54_BG.wav",
         "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A1_S54_BG_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
        }
       ]
      },
@@ -3824,7 +3832,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "2113973120",
+    "Hash": "1422407793",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -4372,6 +4380,92 @@
           "Id": "1000740171"
          }
         ]
+       },
+       {
+        "SwitchValue": "{3D353952-6824-4660-8877-E0EE5B1CD150}",
+        "Media": [
+         {
+          "Id": "8527650"
+         },
+         {
+          "Id": "38661901"
+         },
+         {
+          "Id": "56903408"
+         },
+         {
+          "Id": "74421163"
+         },
+         {
+          "Id": "112429613"
+         },
+         {
+          "Id": "223431485"
+         },
+         {
+          "Id": "240629171"
+         },
+         {
+          "Id": "349021124"
+         },
+         {
+          "Id": "391664795"
+         },
+         {
+          "Id": "423504379"
+         },
+         {
+          "Id": "583933653"
+         },
+         {
+          "Id": "607379227"
+         },
+         {
+          "Id": "695985048"
+         },
+         {
+          "Id": "702685933"
+         },
+         {
+          "Id": "710814827"
+         },
+         {
+          "Id": "755352097"
+         },
+         {
+          "Id": "790405129"
+         },
+         {
+          "Id": "809878510"
+         },
+         {
+          "Id": "823916637"
+         },
+         {
+          "Id": "828113739"
+         },
+         {
+          "Id": "841251571"
+         },
+         {
+          "Id": "926145073"
+         },
+         {
+          "Id": "949673654"
+         },
+         {
+          "Id": "995413236"
+         },
+         {
+          "Id": "999313794"
+         },
+         {
+          "Id": "1044402490"
+         },
+         {
+          "Id": "1047510627"
+         }
+        ]
        }
       ],
       "ActionPostEvent": [
@@ -4669,6 +4763,26 @@
         ]
        },
        {
+        "SwitchValue": "{3D353952-6824-4660-8877-E0EE5B1CD150}",
+        "Media": [
+         {
+          "Id": "259785673"
+         },
+         {
+          "Id": "338010396"
+         },
+         {
+          "Id": "948744776"
+         },
+         {
+          "Id": "964639863"
+         },
+         {
+          "Id": "1050294060"
+         }
+        ]
+       },
+       {
         "SwitchValue": "{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}",
         "Media": [
          {
@@ -4725,6 +4839,26 @@
          },
          {
           "Id": "1040388360"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3D353952-6824-4660-8877-E0EE5B1CD150}",
+        "Media": [
+         {
+          "Id": "53033174"
+         },
+         {
+          "Id": "436433310"
+         },
+         {
+          "Id": "461225173"
+         },
+         {
+          "Id": "586083000"
+         },
+         {
+          "Id": "891722214"
          }
         ]
        }
@@ -4851,14 +4985,23 @@
           "Id": "1045753182"
          }
         ]
-       }
-      ],
-      "ActionPostEvent": [
+       },
        {
-        "Id": "3529625474",
-        "Name": "Play_Stop_All_Music",
-        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
-        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
+        "SwitchValue": "{3D353952-6824-4660-8877-E0EE5B1CD150}",
+        "Media": [
+         {
+          "Id": "207454562"
+         },
+         {
+          "Id": "421102690"
+         },
+         {
+          "Id": "475492684"
+         },
+         {
+          "Id": "730972721"
+         }
+        ]
        }
       ]
      },
@@ -5000,6 +5143,14 @@
         "Media": [
          {
           "Id": "499394862"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3D353952-6824-4660-8877-E0EE5B1CD150}",
+        "Media": [
+         {
+          "Id": "912177680"
          }
         ]
        }

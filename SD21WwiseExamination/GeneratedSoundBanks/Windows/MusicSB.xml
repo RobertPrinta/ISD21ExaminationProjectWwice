@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2113973120">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1422407793">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -315,6 +315,37 @@
 								<File Id="1000740171"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="8527650"/>
+								<File Id="38661901"/>
+								<File Id="56903408"/>
+								<File Id="74421163"/>
+								<File Id="112429613"/>
+								<File Id="223431485"/>
+								<File Id="240629171"/>
+								<File Id="349021124"/>
+								<File Id="391664795"/>
+								<File Id="423504379"/>
+								<File Id="583933653"/>
+								<File Id="607379227"/>
+								<File Id="695985048"/>
+								<File Id="702685933"/>
+								<File Id="710814827"/>
+								<File Id="755352097"/>
+								<File Id="790405129"/>
+								<File Id="809878510"/>
+								<File Id="823916637"/>
+								<File Id="828113739"/>
+								<File Id="841251571"/>
+								<File Id="926145073"/>
+								<File Id="949673654"/>
+								<File Id="995413236"/>
+								<File Id="999313794"/>
+								<File Id="1044402490"/>
+								<File Id="1047510627"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}"/>
@@ -495,6 +526,15 @@
 								<File Id="1050294060"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="259785673"/>
+								<File Id="338010396"/>
+								<File Id="948744776"/>
+								<File Id="964639863"/>
+								<File Id="1050294060"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}">
 							<Media>
 								<File Id="53033174"/>
@@ -520,6 +560,15 @@
 								<File Id="133558551"/>
 								<File Id="734774858"/>
 								<File Id="1040388360"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="53033174"/>
+								<File Id="436433310"/>
+								<File Id="461225173"/>
+								<File Id="586083000"/>
+								<File Id="891722214"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -593,10 +642,15 @@
 								<File Id="1045753182"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="207454562"/>
+								<File Id="421102690"/>
+								<File Id="475492684"/>
+								<File Id="730972721"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1789806177" Name="Play_Stop_MainTheme" ObjectPath="\Events\PlayMusic\Play_Stop_MainTheme" GUID="{3C5E178D-70B8-48BC-A158-DD317939869A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
@@ -653,6 +707,11 @@
 						<SwitchContainer SwitchValue="{4561A81C-E7F2-47B7-8EBB-C283315D0661}">
 							<Media>
 								<File Id="499394862"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3D353952-6824-4660-8877-E0EE5B1CD150}">
+							<Media>
+								<File Id="912177680"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
