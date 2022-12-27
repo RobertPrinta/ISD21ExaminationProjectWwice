@@ -20,29 +20,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="BigThug_A1_S6" ID="{B9C7A0B2-ED31-4EA8-9A2A-606DA02AFE9F}" ShortID="1018819423">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="BigThug_A1_S6" ID="{AF79F3FE-AF6E-4109-9231-39359B16AB2B}">
-									<Language>SFX</Language>
-									<AudioFile>Dialogue\Thug\BigThug_A1_S6.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="433585722"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="BigThug_A1_S6" ID="{AF79F3FE-AF6E-4109-9231-39359B16AB2B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="BigThug_A1_S9" ID="{DC85DDEE-EF13-4272-855A-43E178DBF8DB}" ShortID="643853220">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -409,6 +386,29 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="BigThug_A2_S58_BG" ID="{58D18F56-A128-4CDA-8844-E691F8659AD1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BigThug_A1_S6" ID="{A84D822D-0005-4E28-B75B-0AB05486CC8C}" ShortID="760838212">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigThug_A1_S6" ID="{F5FE6ACF-160F-49CD-B171-1F583E3689B1}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Thug\BigThug_A1_S6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="433585722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BigThug_A1_S6" ID="{F5FE6ACF-160F-49CD-B171-1F583E3689B1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
