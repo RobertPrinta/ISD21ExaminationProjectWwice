@@ -6,41 +6,41 @@
 				<StateGroup Name="Hub_LVL_State" ID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}">
 					<ChildrenList>
 						<State Name="None" ID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
-						<State Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
-						<State Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
-						<State Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+						<State Name="Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+						<State Name="Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+						<State Name="Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Runner_LVL_State" ID="{FD24C61E-9588-4D0F-BCAD-0DA024FB9634}">
 					<ChildrenList>
 						<State Name="None" ID="{8B77F188-B864-4A48-A88B-A13BCA72DB36}"/>
-						<State Name="Runner_Act1" ID="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}"/>
-						<State Name="Runner_Act2" ID="{F15E7649-AC49-4703-834C-42299FE4C3AD}"/>
-						<State Name="Runner_Act3" ID="{879C6307-863E-48F2-993D-E12F4D4DFBAE}"/>
+						<State Name="Act1" ID="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}"/>
+						<State Name="Act2" ID="{F15E7649-AC49-4703-834C-42299FE4C3AD}"/>
+						<State Name="Act3" ID="{879C6307-863E-48F2-993D-E12F4D4DFBAE}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Thug_LVL_State" ID="{CE361D83-0A5A-40ED-A09B-FB19152B38D8}">
 					<ChildrenList>
 						<State Name="None" ID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
-						<State Name="Thug_Act1" ID="{41717F4D-89C2-4812-B173-6BE94CC1F3C1}"/>
-						<State Name="Thug_Act2" ID="{B603DFE1-B99E-447A-90E4-22039077C126}"/>
-						<State Name="Thug_Act3" ID="{1389356E-9BA5-40DD-884D-83BC5081EF04}"/>
+						<State Name="Act1" ID="{41717F4D-89C2-4812-B173-6BE94CC1F3C1}"/>
+						<State Name="Act2" ID="{B603DFE1-B99E-447A-90E4-22039077C126}"/>
+						<State Name="Act3" ID="{1389356E-9BA5-40DD-884D-83BC5081EF04}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="OldLady_LVL" ID="{568D98EA-22AC-4E25-AE13-513AD3F9A270}">
 					<ChildrenList>
 						<State Name="None" ID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
-						<State Name="OldLady_Act1" ID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
-						<State Name="OldLady_Act2" ID="{508B344F-C35A-4116-9EB5-80E22DDCC24A}"/>
-						<State Name="OldLady_Act3" ID="{5411FB4F-64CF-4F8F-9B63-5562422834BE}"/>
+						<State Name="Act1" ID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
+						<State Name="Act2" ID="{508B344F-C35A-4116-9EB5-80E22DDCC24A}"/>
+						<State Name="Act3" ID="{5411FB4F-64CF-4F8F-9B63-5562422834BE}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Act_State" ID="{78D1B768-D1B0-4091-A56D-06D055E41D60}">
 					<ChildrenList>
 						<State Name="None" ID="{3D353952-6824-4660-8877-E0EE5B1CD150}"/>
-						<State Name="A0" ID="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}"/>
-						<State Name="A1" ID="{8389D881-02CB-4385-9C35-45B02BB42673}"/>
-						<State Name="A2" ID="{4561A81C-E7F2-47B7-8EBB-C283315D0661}"/>
+						<State Name="Act1" ID="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}"/>
+						<State Name="Act2" ID="{8389D881-02CB-4385-9C35-45B02BB42673}"/>
+						<State Name="Act3" ID="{4561A81C-E7F2-47B7-8EBB-C283315D0661}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

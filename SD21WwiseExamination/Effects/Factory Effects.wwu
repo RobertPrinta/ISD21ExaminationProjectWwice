@@ -57,7 +57,7 @@
 													</Point>
 													<Point>
 														<XPos>-27.23632</XPos>
-														<YPos>-0</YPos>
+														<YPos>0</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>SCurve</SegmentShape>
 													</Point>
@@ -2078,7 +2078,7 @@
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
-										<StateRef Name="Hub_Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
+										<StateRef Name="Act2" ID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
 										<CustomState Name="" ID="{90C50259-E0A3-4F34-8FF7-30C95703EF02}" ShortID="893710895">
 											<PropertyList>
 												<Property Name="ModDepth" Type="Real32" Value="22.1"/>
@@ -2086,7 +2086,7 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Hub_Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
+										<StateRef Name="Act1" ID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
 										<CustomState Name="" ID="{ACA58F61-CF02-4F02-811C-F15DE96FA616}" ShortID="332296121">
 											<PropertyList>
 												<Property Name="ModDepth" Type="Real32" Value="13.7"/>
@@ -2094,7 +2094,7 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Hub_Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+										<StateRef Name="Act3" ID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
 										<CustomState Name="" ID="{EFAD6E65-8C37-4D45-8B87-FCB948231142}" ShortID="474562835">
 											<PropertyList>
 												<Property Name="ModDepth" Type="Real32" Value="22.1"/>

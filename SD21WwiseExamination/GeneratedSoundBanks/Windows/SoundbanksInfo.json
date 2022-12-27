@@ -733,7 +733,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "2989483719",
+    "Hash": "1742006234",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -852,7 +852,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "1666175392",
+    "Hash": "1302507108",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -948,7 +948,7 @@
       "GUID": "{A7D35627-1610-4AF4-ADAE-0EE180A029D6}",
       "DurationType": "OneShot",
       "DurationMin": "0.481575",
-      "DurationMax": "0.900277",
+      "DurationMax": "1.300277",
       "IncludedMemoryFiles": [
        {
         "Id": "155546",
@@ -3824,7 +3824,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "1101775235",
+    "Hash": "2113973120",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -4194,7 +4194,93 @@
       ],
       "SwitchContainers": [
        {
-        "SwitchValue": "{3DECBAFC-492A-408F-BFF7-58207892F48E}",
+        "SwitchValue": "{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}",
+        "Media": [
+         {
+          "Id": "8527650"
+         },
+         {
+          "Id": "38661901"
+         },
+         {
+          "Id": "56903408"
+         },
+         {
+          "Id": "74421163"
+         },
+         {
+          "Id": "112429613"
+         },
+         {
+          "Id": "223431485"
+         },
+         {
+          "Id": "240629171"
+         },
+         {
+          "Id": "349021124"
+         },
+         {
+          "Id": "391664795"
+         },
+         {
+          "Id": "423504379"
+         },
+         {
+          "Id": "583933653"
+         },
+         {
+          "Id": "607379227"
+         },
+         {
+          "Id": "695985048"
+         },
+         {
+          "Id": "702685933"
+         },
+         {
+          "Id": "710814827"
+         },
+         {
+          "Id": "755352097"
+         },
+         {
+          "Id": "790405129"
+         },
+         {
+          "Id": "809878510"
+         },
+         {
+          "Id": "823916637"
+         },
+         {
+          "Id": "828113739"
+         },
+         {
+          "Id": "841251571"
+         },
+         {
+          "Id": "926145073"
+         },
+         {
+          "Id": "949673654"
+         },
+         {
+          "Id": "995413236"
+         },
+         {
+          "Id": "999313794"
+         },
+         {
+          "Id": "1044402490"
+         },
+         {
+          "Id": "1047510627"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8389D881-02CB-4385-9C35-45B02BB42673}",
         "Media": [
          {
           "Id": "107871130"
@@ -4238,7 +4324,7 @@
         ]
        },
        {
-        "SwitchValue": "{8AEF6285-402B-443A-949D-E2CECCE2ED93}",
+        "SwitchValue": "{4561A81C-E7F2-47B7-8EBB-C283315D0661}",
         "Media": [
          {
           "Id": "106864608"
@@ -4523,7 +4609,7 @@
       ],
       "SwitchContainers": [
        {
-        "SwitchValue": "{986CE454-595E-457B-A92A-89F99965AFA9}",
+        "SwitchValue": "{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}",
         "Media": [
          {
           "Id": "259785673"
@@ -4543,7 +4629,7 @@
         ]
        },
        {
-        "SwitchValue": "{508B344F-C35A-4116-9EB5-80E22DDCC24A}",
+        "SwitchValue": "{8389D881-02CB-4385-9C35-45B02BB42673}",
         "Media": [
          {
           "Id": "209565762"
@@ -4563,7 +4649,7 @@
         ]
        },
        {
-        "SwitchValue": "{5411FB4F-64CF-4F8F-9B63-5562422834BE}",
+        "SwitchValue": "{4561A81C-E7F2-47B7-8EBB-C283315D0661}",
         "Media": [
          {
           "Id": "40834639"
@@ -4583,7 +4669,7 @@
         ]
        },
        {
-        "SwitchValue": "{986CE454-595E-457B-A92A-89F99965AFA9}",
+        "SwitchValue": "{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}",
         "Media": [
          {
           "Id": "53033174"
@@ -4603,7 +4689,7 @@
         ]
        },
        {
-        "SwitchValue": "{508B344F-C35A-4116-9EB5-80E22DDCC24A}",
+        "SwitchValue": "{8389D881-02CB-4385-9C35-45B02BB42673}",
         "Media": [
          {
           "Id": "29784233"
@@ -4623,7 +4709,7 @@
         ]
        },
        {
-        "SwitchValue": "{5411FB4F-64CF-4F8F-9B63-5562422834BE}",
+        "SwitchValue": "{4561A81C-E7F2-47B7-8EBB-C283315D0661}",
         "Media": [
          {
           "Id": "3373477"
@@ -4722,7 +4808,7 @@
       ],
       "SwitchContainers": [
        {
-        "SwitchValue": "{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}",
+        "SwitchValue": "{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}",
         "Media": [
          {
           "Id": "207454562"
@@ -4739,7 +4825,7 @@
         ]
        },
        {
-        "SwitchValue": "{F15E7649-AC49-4703-834C-42299FE4C3AD}",
+        "SwitchValue": "{8389D881-02CB-4385-9C35-45B02BB42673}",
         "Media": [
          {
           "Id": "125976970"
@@ -4753,7 +4839,7 @@
         ]
        },
        {
-        "SwitchValue": "{879C6307-863E-48F2-993D-E12F4D4DFBAE}",
+        "SwitchValue": "{4561A81C-E7F2-47B7-8EBB-C283315D0661}",
         "Media": [
          {
           "Id": "361406635"
@@ -4894,7 +4980,7 @@
       ],
       "SwitchContainers": [
        {
-        "SwitchValue": "{41717F4D-89C2-4812-B173-6BE94CC1F3C1}",
+        "SwitchValue": "{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}",
         "Media": [
          {
           "Id": "912177680"
@@ -4902,7 +4988,7 @@
         ]
        },
        {
-        "SwitchValue": "{B603DFE1-B99E-447A-90E4-22039077C126}",
+        "SwitchValue": "{8389D881-02CB-4385-9C35-45B02BB42673}",
         "Media": [
          {
           "Id": "1023928592"
@@ -4910,7 +4996,7 @@
         ]
        },
        {
-        "SwitchValue": "{1389356E-9BA5-40DD-884D-83BC5081EF04}",
+        "SwitchValue": "{4561A81C-E7F2-47B7-8EBB-C283315D0661}",
         "Media": [
          {
           "Id": "499394862"
@@ -4922,130 +5008,34 @@
     ],
     "StateGroups": [
      {
-      "Id": "893472011",
-      "Name": "OldLady_LVL",
-      "ObjectPath": "\\States\\Act_State\\OldLady_LVL",
-      "GUID": "{568D98EA-22AC-4E25-AE13-513AD3F9A270}",
+      "Id": "628201337",
+      "Name": "Act_State",
+      "ObjectPath": "\\States\\Act_State\\Act_State",
+      "GUID": "{78D1B768-D1B0-4091-A56D-06D055E41D60}",
       "States": [
        {
         "Id": "748895195",
         "Name": "None",
-        "ObjectPath": "\\States\\Act_State\\OldLady_LVL\\None",
-        "GUID": "{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"
+        "ObjectPath": "\\States\\Act_State\\Act_State\\None",
+        "GUID": "{3D353952-6824-4660-8877-E0EE5B1CD150}"
        },
        {
-        "Id": "3548830618",
-        "Name": "OldLady_Act1",
-        "ObjectPath": "\\States\\Act_State\\OldLady_LVL\\OldLady_Act1",
-        "GUID": "{986CE454-595E-457B-A92A-89F99965AFA9}"
+        "Id": "3504395756",
+        "Name": "Act1",
+        "ObjectPath": "\\States\\Act_State\\Act_State\\Act1",
+        "GUID": "{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}"
        },
        {
-        "Id": "3548830617",
-        "Name": "OldLady_Act2",
-        "ObjectPath": "\\States\\Act_State\\OldLady_LVL\\OldLady_Act2",
-        "GUID": "{508B344F-C35A-4116-9EB5-80E22DDCC24A}"
+        "Id": "3504395759",
+        "Name": "Act2",
+        "ObjectPath": "\\States\\Act_State\\Act_State\\Act2",
+        "GUID": "{8389D881-02CB-4385-9C35-45B02BB42673}"
        },
        {
-        "Id": "3548830616",
-        "Name": "OldLady_Act3",
-        "ObjectPath": "\\States\\Act_State\\OldLady_LVL\\OldLady_Act3",
-        "GUID": "{5411FB4F-64CF-4F8F-9B63-5562422834BE}"
-       }
-      ]
-     },
-     {
-      "Id": "1025315780",
-      "Name": "Thug_LVL_State",
-      "ObjectPath": "\\States\\Act_State\\Thug_LVL_State",
-      "GUID": "{CE361D83-0A5A-40ED-A09B-FB19152B38D8}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Act_State\\Thug_LVL_State\\None",
-        "GUID": "{E49169DB-3DB7-473E-9317-37C60305E3B7}"
-       },
-       {
-        "Id": "1794750309",
-        "Name": "Thug_Act1",
-        "ObjectPath": "\\States\\Act_State\\Thug_LVL_State\\Thug_Act1",
-        "GUID": "{41717F4D-89C2-4812-B173-6BE94CC1F3C1}"
-       },
-       {
-        "Id": "1794750310",
-        "Name": "Thug_Act2",
-        "ObjectPath": "\\States\\Act_State\\Thug_LVL_State\\Thug_Act2",
-        "GUID": "{B603DFE1-B99E-447A-90E4-22039077C126}"
-       },
-       {
-        "Id": "1794750311",
-        "Name": "Thug_Act3",
-        "ObjectPath": "\\States\\Act_State\\Thug_LVL_State\\Thug_Act3",
-        "GUID": "{1389356E-9BA5-40DD-884D-83BC5081EF04}"
-       }
-      ]
-     },
-     {
-      "Id": "2910197478",
-      "Name": "Runner_LVL_State",
-      "ObjectPath": "\\States\\Act_State\\Runner_LVL_State",
-      "GUID": "{FD24C61E-9588-4D0F-BCAD-0DA024FB9634}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Act_State\\Runner_LVL_State\\None",
-        "GUID": "{8B77F188-B864-4A48-A88B-A13BCA72DB36}"
-       },
-       {
-        "Id": "1513083915",
-        "Name": "Runner_Act1",
-        "ObjectPath": "\\States\\Act_State\\Runner_LVL_State\\Runner_Act1",
-        "GUID": "{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}"
-       },
-       {
-        "Id": "1513083912",
-        "Name": "Runner_Act2",
-        "ObjectPath": "\\States\\Act_State\\Runner_LVL_State\\Runner_Act2",
-        "GUID": "{F15E7649-AC49-4703-834C-42299FE4C3AD}"
-       },
-       {
-        "Id": "1513083913",
-        "Name": "Runner_Act3",
-        "ObjectPath": "\\States\\Act_State\\Runner_LVL_State\\Runner_Act3",
-        "GUID": "{879C6307-863E-48F2-993D-E12F4D4DFBAE}"
-       }
-      ]
-     },
-     {
-      "Id": "4017376967",
-      "Name": "Hub_LVL_State",
-      "ObjectPath": "\\States\\Act_State\\Hub_LVL_State",
-      "GUID": "{3CF37EA4-03A8-475F-9A4C-E25764C3E424}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Act_State\\Hub_LVL_State\\None",
-        "GUID": "{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"
-       },
-       {
-        "Id": "3086885384",
-        "Name": "Hub_Act1",
-        "ObjectPath": "\\States\\Act_State\\Hub_LVL_State\\Hub_Act1",
-        "GUID": "{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"
-       },
-       {
-        "Id": "3086885387",
-        "Name": "Hub_Act2",
-        "ObjectPath": "\\States\\Act_State\\Hub_LVL_State\\Hub_Act2",
-        "GUID": "{3DECBAFC-492A-408F-BFF7-58207892F48E}"
-       },
-       {
-        "Id": "3086885386",
-        "Name": "Hub_Act3",
-        "ObjectPath": "\\States\\Act_State\\Hub_LVL_State\\Hub_Act3",
-        "GUID": "{8AEF6285-402B-443A-949D-E2CECCE2ED93}"
+        "Id": "3504395758",
+        "Name": "Act3",
+        "ObjectPath": "\\States\\Act_State\\Act_State\\Act3",
+        "GUID": "{4561A81C-E7F2-47B7-8EBB-C283315D0661}"
        }
       ]
      }

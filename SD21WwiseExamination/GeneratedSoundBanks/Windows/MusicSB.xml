@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1101775235">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="2113973120">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -248,7 +248,38 @@
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{3DECBAFC-492A-408F-BFF7-58207892F48E}">
+						<SwitchContainer SwitchValue="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}">
+							<Media>
+								<File Id="8527650"/>
+								<File Id="38661901"/>
+								<File Id="56903408"/>
+								<File Id="74421163"/>
+								<File Id="112429613"/>
+								<File Id="223431485"/>
+								<File Id="240629171"/>
+								<File Id="349021124"/>
+								<File Id="391664795"/>
+								<File Id="423504379"/>
+								<File Id="583933653"/>
+								<File Id="607379227"/>
+								<File Id="695985048"/>
+								<File Id="702685933"/>
+								<File Id="710814827"/>
+								<File Id="755352097"/>
+								<File Id="790405129"/>
+								<File Id="809878510"/>
+								<File Id="823916637"/>
+								<File Id="828113739"/>
+								<File Id="841251571"/>
+								<File Id="926145073"/>
+								<File Id="949673654"/>
+								<File Id="995413236"/>
+								<File Id="999313794"/>
+								<File Id="1044402490"/>
+								<File Id="1047510627"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8389D881-02CB-4385-9C35-45B02BB42673}">
 							<Media>
 								<File Id="107871130"/>
 								<File Id="184208573"/>
@@ -265,7 +296,7 @@
 								<File Id="1058437537"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{8AEF6285-402B-443A-949D-E2CECCE2ED93}">
+						<SwitchContainer SwitchValue="{4561A81C-E7F2-47B7-8EBB-C283315D0661}">
 							<Media>
 								<File Id="106864608"/>
 								<File Id="158290635"/>
@@ -437,7 +468,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{986CE454-595E-457B-A92A-89F99965AFA9}">
+						<SwitchContainer SwitchValue="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}">
 							<Media>
 								<File Id="259785673"/>
 								<File Id="338010396"/>
@@ -446,7 +477,7 @@
 								<File Id="1050294060"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{508B344F-C35A-4116-9EB5-80E22DDCC24A}">
+						<SwitchContainer SwitchValue="{8389D881-02CB-4385-9C35-45B02BB42673}">
 							<Media>
 								<File Id="209565762"/>
 								<File Id="229216676"/>
@@ -455,7 +486,7 @@
 								<File Id="1050294060"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{5411FB4F-64CF-4F8F-9B63-5562422834BE}">
+						<SwitchContainer SwitchValue="{4561A81C-E7F2-47B7-8EBB-C283315D0661}">
 							<Media>
 								<File Id="40834639"/>
 								<File Id="145780498"/>
@@ -464,7 +495,7 @@
 								<File Id="1050294060"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{986CE454-595E-457B-A92A-89F99965AFA9}">
+						<SwitchContainer SwitchValue="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}">
 							<Media>
 								<File Id="53033174"/>
 								<File Id="436433310"/>
@@ -473,7 +504,7 @@
 								<File Id="891722214"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{508B344F-C35A-4116-9EB5-80E22DDCC24A}">
+						<SwitchContainer SwitchValue="{8389D881-02CB-4385-9C35-45B02BB42673}">
 							<Media>
 								<File Id="29784233"/>
 								<File Id="108351385"/>
@@ -482,7 +513,7 @@
 								<File Id="1031073834"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{5411FB4F-64CF-4F8F-9B63-5562422834BE}">
+						<SwitchContainer SwitchValue="{4561A81C-E7F2-47B7-8EBB-C283315D0661}">
 							<Media>
 								<File Id="3373477"/>
 								<File Id="105373223"/>
@@ -540,7 +571,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}">
+						<SwitchContainer SwitchValue="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}">
 							<Media>
 								<File Id="207454562"/>
 								<File Id="421102690"/>
@@ -548,14 +579,14 @@
 								<File Id="730972721"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{F15E7649-AC49-4703-834C-42299FE4C3AD}">
+						<SwitchContainer SwitchValue="{8389D881-02CB-4385-9C35-45B02BB42673}">
 							<Media>
 								<File Id="125976970"/>
 								<File Id="131802224"/>
 								<File Id="549256240"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{879C6307-863E-48F2-993D-E12F4D4DFBAE}">
+						<SwitchContainer SwitchValue="{4561A81C-E7F2-47B7-8EBB-C283315D0661}">
 							<Media>
 								<File Id="361406635"/>
 								<File Id="407815057"/>
@@ -609,17 +640,17 @@
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{41717F4D-89C2-4812-B173-6BE94CC1F3C1}">
+						<SwitchContainer SwitchValue="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}">
 							<Media>
 								<File Id="912177680"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{B603DFE1-B99E-447A-90E4-22039077C126}">
+						<SwitchContainer SwitchValue="{8389D881-02CB-4385-9C35-45B02BB42673}">
 							<Media>
 								<File Id="1023928592"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{1389356E-9BA5-40DD-884D-83BC5081EF04}">
+						<SwitchContainer SwitchValue="{4561A81C-E7F2-47B7-8EBB-C283315D0661}">
 							<Media>
 								<File Id="499394862"/>
 							</Media>
@@ -628,36 +659,12 @@
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
-				<StateGroup Id="893472011" Name="OldLady_LVL" ObjectPath="\States\Act_State\OldLady_LVL" GUID="{568D98EA-22AC-4E25-AE13-513AD3F9A270}">
+				<StateGroup Id="628201337" Name="Act_State" ObjectPath="\States\Act_State\Act_State" GUID="{78D1B768-D1B0-4091-A56D-06D055E41D60}">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Act_State\OldLady_LVL\None" GUID="{7C0D22A5-A0AE-4B83-A6F3-3675B72345B6}"/>
-						<State Id="3548830618" Name="OldLady_Act1" ObjectPath="\States\Act_State\OldLady_LVL\OldLady_Act1" GUID="{986CE454-595E-457B-A92A-89F99965AFA9}"/>
-						<State Id="3548830617" Name="OldLady_Act2" ObjectPath="\States\Act_State\OldLady_LVL\OldLady_Act2" GUID="{508B344F-C35A-4116-9EB5-80E22DDCC24A}"/>
-						<State Id="3548830616" Name="OldLady_Act3" ObjectPath="\States\Act_State\OldLady_LVL\OldLady_Act3" GUID="{5411FB4F-64CF-4F8F-9B63-5562422834BE}"/>
-					</States>
-				</StateGroup>
-				<StateGroup Id="1025315780" Name="Thug_LVL_State" ObjectPath="\States\Act_State\Thug_LVL_State" GUID="{CE361D83-0A5A-40ED-A09B-FB19152B38D8}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Act_State\Thug_LVL_State\None" GUID="{E49169DB-3DB7-473E-9317-37C60305E3B7}"/>
-						<State Id="1794750309" Name="Thug_Act1" ObjectPath="\States\Act_State\Thug_LVL_State\Thug_Act1" GUID="{41717F4D-89C2-4812-B173-6BE94CC1F3C1}"/>
-						<State Id="1794750310" Name="Thug_Act2" ObjectPath="\States\Act_State\Thug_LVL_State\Thug_Act2" GUID="{B603DFE1-B99E-447A-90E4-22039077C126}"/>
-						<State Id="1794750311" Name="Thug_Act3" ObjectPath="\States\Act_State\Thug_LVL_State\Thug_Act3" GUID="{1389356E-9BA5-40DD-884D-83BC5081EF04}"/>
-					</States>
-				</StateGroup>
-				<StateGroup Id="2910197478" Name="Runner_LVL_State" ObjectPath="\States\Act_State\Runner_LVL_State" GUID="{FD24C61E-9588-4D0F-BCAD-0DA024FB9634}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Act_State\Runner_LVL_State\None" GUID="{8B77F188-B864-4A48-A88B-A13BCA72DB36}"/>
-						<State Id="1513083915" Name="Runner_Act1" ObjectPath="\States\Act_State\Runner_LVL_State\Runner_Act1" GUID="{5394A52B-9E1C-4F9A-A0BB-E5A9042B3A66}"/>
-						<State Id="1513083912" Name="Runner_Act2" ObjectPath="\States\Act_State\Runner_LVL_State\Runner_Act2" GUID="{F15E7649-AC49-4703-834C-42299FE4C3AD}"/>
-						<State Id="1513083913" Name="Runner_Act3" ObjectPath="\States\Act_State\Runner_LVL_State\Runner_Act3" GUID="{879C6307-863E-48F2-993D-E12F4D4DFBAE}"/>
-					</States>
-				</StateGroup>
-				<StateGroup Id="4017376967" Name="Hub_LVL_State" ObjectPath="\States\Act_State\Hub_LVL_State" GUID="{3CF37EA4-03A8-475F-9A4C-E25764C3E424}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Act_State\Hub_LVL_State\None" GUID="{E4349156-5BC3-4645-864E-6CAF9D4E0FFC}"/>
-						<State Id="3086885384" Name="Hub_Act1" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act1" GUID="{F7DD1200-F24C-4364-9D68-4B56F620CAA2}"/>
-						<State Id="3086885387" Name="Hub_Act2" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act2" GUID="{3DECBAFC-492A-408F-BFF7-58207892F48E}"/>
-						<State Id="3086885386" Name="Hub_Act3" ObjectPath="\States\Act_State\Hub_LVL_State\Hub_Act3" GUID="{8AEF6285-402B-443A-949D-E2CECCE2ED93}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Act_State\Act_State\None" GUID="{3D353952-6824-4660-8877-E0EE5B1CD150}"/>
+						<State Id="3504395756" Name="Act1" ObjectPath="\States\Act_State\Act_State\Act1" GUID="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}"/>
+						<State Id="3504395759" Name="Act2" ObjectPath="\States\Act_State\Act_State\Act2" GUID="{8389D881-02CB-4385-9C35-45B02BB42673}"/>
+						<State Id="3504395758" Name="Act3" ObjectPath="\States\Act_State\Act_State\Act3" GUID="{4561A81C-E7F2-47B7-8EBB-C283315D0661}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

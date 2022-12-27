@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "1666175392",
+    "Hash": "1302507108",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -112,7 +112,7 @@
       "GUID": "{A7D35627-1610-4AF4-ADAE-0EE180A029D6}",
       "DurationType": "OneShot",
       "DurationMin": "0.481575",
-      "DurationMax": "0.900277",
+      "DurationMax": "1.300277",
       "IncludedMemoryFiles": [
        {
         "Id": "155546",
