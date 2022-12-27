@@ -164,6 +164,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="pendulum clock" ID="{2E7A8E17-240D-4E0B-B735-FD4AE824C01F}" ShortID="13929304">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -252,6 +259,11 @@
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.432274318376954"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.0389826539618495"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-2.1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Interactables\OldLady\Valv\valv.wav</AudioFile>

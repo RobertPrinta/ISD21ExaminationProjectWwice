@@ -1264,6 +1264,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Door_Wood_Open" ID="{646E5A92-4DE2-4E68-B92B-91F0D77514C6}" ShortID="614381814">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1344,6 +1351,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Door_Wood_Close" ID="{E38A1048-C710-4FE0-9B3E-34623DE204B6}" ShortID="519731804">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1384,6 +1398,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Door_Metal_Open" ID="{2ECC2EBE-2747-49FE-A2E2-9152795294B5}" ShortID="45915844">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1467,6 +1488,11 @@
 											<PropertyList>
 												<Property Name="LoopEnd" Type="Real64" Value="7.478"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-0.8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\DrugPuzzel\Destiller.wav</AudioFile>
@@ -1498,6 +1524,11 @@
 												<Property Name="LoopBegin" Type="Real64" Value="1.238"/>
 												<Property Name="LoopEnd" Type="Real64" Value="6.0108480285318"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-1.2</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interactables\Global\DrugPuzzel\Heater.wav</AudioFile>

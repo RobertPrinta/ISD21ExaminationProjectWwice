@@ -1293,7 +1293,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="2581086350">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="3112092716">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -1342,7 +1342,7 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="87197515" Name="Play_BigThug_A1_S6" ObjectPath="\Events\Dialogue\DiThug\Play_BigThug_A1_S6" GUID="{27199B46-0EFA-40F8-811C-8F9DFC002D13}" DurationType="OneShot" DurationMin="10.19839" DurationMax="10.19839">
+				<Event Id="87197515" Name="Play_BigThug_A1_S6" ObjectPath="\Events\Dialogue\DiThug\Play_BigThug_A1_S6" GUID="{27199B46-0EFA-40F8-811C-8F9DFC002D13}" DurationType="OneShot" DurationMin="6.39542" DurationMax="6.39542">
 					<IncludedMemoryFiles>
 						<File Id="433585722" Language="SFX">
 							<ShortName>Dialogue\Thug\BigThug_A1_S6.wav</ShortName>
@@ -2491,7 +2491,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="966819243">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="336956969">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>

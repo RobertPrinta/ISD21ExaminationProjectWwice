@@ -2591,7 +2591,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "2581086350",
+    "Hash": "3112092716",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -2702,8 +2702,8 @@
       "ObjectPath": "\\Events\\Dialogue\\DiThug\\Play_BigThug_A1_S6",
       "GUID": "{27199B46-0EFA-40F8-811C-8F9DFC002D13}",
       "DurationType": "OneShot",
-      "DurationMin": "10.19839",
-      "DurationMax": "10.19839",
+      "DurationMin": "6.39542",
+      "DurationMax": "6.39542",
       "IncludedMemoryFiles": [
        {
         "Id": "433585722",
@@ -5055,7 +5055,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "966819243",
+    "Hash": "336956969",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",
