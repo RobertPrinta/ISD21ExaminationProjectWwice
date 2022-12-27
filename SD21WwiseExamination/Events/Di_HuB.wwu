@@ -108,85 +108,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_PoliceHub_A2_S18_Tut" ID="{650CE6D0-B545-42C3-9B9E-5465CDE9FDFE}">
+				<Event Name="Play_PoliceHub_A2_S18_Tut" ID="{5806D7C7-D1E5-455E-885E-7AD498F0334C}">
 					<ChildrenList>
-						<Action Name="" ID="{A4F96173-E47C-4824-81EB-E5FEDD63B623}" ShortID="883089378">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
+						<Action Name="" ID="{B6F9933B-6D01-491C-AED3-B3881E4F38E3}" ShortID="962493738">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{44AB19CF-5303-4862-A9BF-24471DB6B45F}" ShortID="563734319">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PoliceHub_A2_S18_Connor" ID="{68CD8E3C-CFE5-4B7F-831C-B6597F8D847D}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{D1B29625-D1BA-4292-B669-41734F94DB0C}" ShortID="947710318">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PoliceHub_A2_S18_Perkins" ID="{D6106FE3-C913-4E27-90EA-C7A5BC0C106C}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
+									<ObjectRef Name="PoliceHub_A2_S18_Tut" ID="{EFC5170D-04C1-4DC8-AAFC-0E71C8CEF9A9}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_PoliceHub_A1_S2_Tut" ID="{5BA03E90-B8DA-4757-9486-D9DA7BB4A34B}">
+				<Event Name="Play_PoliceHub_A3_S34_Tut" ID="{E77BF412-7268-46A7-B505-00058C125FA8}">
 					<ChildrenList>
-						<Action Name="" ID="{40325170-58C1-422D-B96E-B75BBC54B44C}" ShortID="803506844">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
+						<Action Name="" ID="{B55A12A9-BF44-49FE-A802-0E56A99F9AC4}" ShortID="892085453">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{91AA5F6A-D4B5-4AC1-9610-BFC502A0FE75}" ShortID="410035597">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PoliceHub_A1_S2_Connor" ID="{65165620-24F6-4328-B6D0-17CC7BEB06DE}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{D96CA3EB-E408-4D2B-838C-6BDB0E4EAF85}" ShortID="561627104">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PoliceHub_A1_S2_Perkins" ID="{906864BD-1ACB-4FDE-918D-8D3D1A86107D}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
+									<ObjectRef Name="PoliceHub_A3_S34_Tut" ID="{30821088-2142-484F-A472-BAF8A1A0E518}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_PoliceHub_A3_S34_Tut" ID="{C0D0C89B-83F2-43BE-B1DC-5D52FB6766DD}">
+				<Event Name="Play_PoliceHub_A1_S2_Tut" ID="{9AF3936F-6BE3-48D2-BD03-023E12DC05F7}">
 					<ChildrenList>
-						<Action Name="" ID="{E7DB1023-B2CC-4CE1-8398-6265E5E62243}" ShortID="138146189">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
+						<Action Name="" ID="{0F3DF6FC-349C-470D-9BC6-0B74E6377114}" ShortID="1045770877">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{986B921C-BF79-4D85-9BC4-0031D0E83B5C}" ShortID="773038379">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PoliceHub_A3_S34_Perkins" ID="{FED56D29-A9FA-4A0D-BC4D-AC2262FA9C1F}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{C4C6614E-26CD-4444-AA8A-5BFBA418EDA8}" ShortID="249795069">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PoliceHub_A3_S34_Connor" ID="{CD99CFB6-3D86-476B-A0CB-6BB2788F036F}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
+									<ObjectRef Name="PoliceHub_A1_S2_Tut" ID="{16918798-0A70-492C-AEC0-D6E41E403214}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

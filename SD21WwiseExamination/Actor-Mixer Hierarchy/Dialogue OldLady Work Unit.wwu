@@ -181,10 +181,7 @@
 								<ActiveSource Name="Sigifrit_A3_S44" ID="{3018902C-2A7C-4CE8-8C76-390BC8FBD399}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Sigifrit_A1_S50_BG" ID="{486D36E7-8700-49E0-AED8-0E66636473B3}" ShortID="650839978">
-							<PropertyList>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-							</PropertyList>
+						<Sound Name="Sigifrit_A1_S50_BG" ID="{B651ABB8-C861-46D5-8656-EFF8D9D41021}" ShortID="803375293">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -194,7 +191,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sigifrit_A1_S50_BG" ID="{E168DB50-4335-4431-BFA6-3F934681B5C2}">
+								<AudioFileSource Name="Sigifrit_A1_S50_BG" ID="{4B7101A2-4CDE-4621-80E0-96530920CA87}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\OldLady\Sigifrit_A1_S50_BG.wav</AudioFile>
 									<MediaIDList>
@@ -204,10 +201,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Sigifrit_A1_S50_BG" ID="{E168DB50-4335-4431-BFA6-3F934681B5C2}" Platform="Linked"/>
+								<ActiveSource Name="Sigifrit_A1_S50_BG" ID="{4B7101A2-4CDE-4621-80E0-96530920CA87}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Sigifrit_A1_S52_BG" ID="{6AC74A48-43C0-4E2C-828F-2C484A5B445B}" ShortID="35136519">
+						<Sound Name="Sigifrit_A1_S52_BG" ID="{5E5437CC-E8D7-404C-A9C2-8B43AE99F110}" ShortID="775043382">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -217,7 +214,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sigifrit_A1_S52_BG" ID="{5359093E-F063-4279-AF78-1C09E84AC54D}">
+								<AudioFileSource Name="Sigifrit_A1_S52_BG" ID="{1B318B79-5FE9-48CA-8FE4-C1F11DE359B1}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\OldLady\Sigifrit_A1_S52_BG.wav</AudioFile>
 									<MediaIDList>
@@ -227,10 +224,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Sigifrit_A1_S52_BG" ID="{5359093E-F063-4279-AF78-1C09E84AC54D}" Platform="Linked"/>
+								<ActiveSource Name="Sigifrit_A1_S52_BG" ID="{1B318B79-5FE9-48CA-8FE4-C1F11DE359B1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Sigifrit_A1_S54_BG" ID="{9687FC10-5A04-4CC3-9E77-7714A7760857}" ShortID="990163158">
+						<Sound Name="Sigifrit_A1_S54_BG" ID="{66343C90-3D29-4725-980D-85BA504587CE}" ShortID="888455517">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -240,7 +237,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sigifrit_A1_S54_BG" ID="{0384237D-7202-4B0E-A0DA-82CCA6E4E3CF}">
+								<AudioFileSource Name="Sigifrit_A1_S54_BG" ID="{8F04DC10-AECC-48D0-8397-92ECA29E2ECA}">
 									<Language>SFX</Language>
 									<AudioFile>Dialogue\OldLady\Sigifrit_A1_S54_BG.wav</AudioFile>
 									<MediaIDList>
@@ -250,7 +247,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Sigifrit_A1_S54_BG" ID="{0384237D-7202-4B0E-A0DA-82CCA6E4E3CF}" Platform="Linked"/>
+								<ActiveSource Name="Sigifrit_A1_S54_BG" ID="{8F04DC10-AECC-48D0-8397-92ECA29E2ECA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
