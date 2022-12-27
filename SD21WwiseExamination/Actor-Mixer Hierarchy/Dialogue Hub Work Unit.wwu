@@ -227,6 +227,52 @@
 								<ActiveSource Name="PoliceHub_A1_S2_Perkins" ID="{051C7181-9196-4C4A-B15E-484AD1BAE348}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="PoliceHub_A3_S34_Perkins" ID="{FED56D29-A9FA-4A0D-BC4D-AC2262FA9C1F}" ShortID="397057966">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoliceHub_A3_S34_Perkins" ID="{C53E4EBB-7287-432C-A656-CCA9C1DCEE98}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Hub\PoliceHub_A3_S34_Perkins.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="59512752"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PoliceHub_A3_S34_Perkins" ID="{C53E4EBB-7287-432C-A656-CCA9C1DCEE98}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoliceHub_A3_S34_Connor" ID="{CD99CFB6-3D86-476B-A0CB-6BB2788F036F}" ShortID="413712778">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoliceHub_A3_S34_Sadie" ID="{54CDA654-DC02-4087-9959-DC85A1395A86}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Hub\PoliceHub_A3_S34_Sadie.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="962363174"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PoliceHub_A3_S34_Sadie" ID="{54CDA654-DC02-4087-9959-DC85A1395A86}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

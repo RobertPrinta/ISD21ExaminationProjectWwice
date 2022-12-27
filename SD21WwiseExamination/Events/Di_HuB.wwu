@@ -164,6 +164,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PoliceHub_A3_S34_Tut" ID="{C0D0C89B-83F2-43BE-B1DC-5D52FB6766DD}">
+					<ChildrenList>
+						<Action Name="" ID="{E7DB1023-B2CC-4CE1-8398-6265E5E62243}" ShortID="138146189">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{986B921C-BF79-4D85-9BC4-0031D0E83B5C}" ShortID="773038379">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PoliceHub_A3_S34_Perkins" ID="{FED56D29-A9FA-4A0D-BC4D-AC2262FA9C1F}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C4C6614E-26CD-4444-AA8A-5BFBA418EDA8}" ShortID="249795069">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PoliceHub_A3_S34_Connor" ID="{CD99CFB6-3D86-476B-A0CB-6BB2788F036F}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
