@@ -173,16 +173,6 @@
 				</Event>
 				<Event Name="Play_BigThug_A2_S21_5_Hammertime_" ID="{5F0C3C07-0A0A-4211-8869-8C3F4B19DB9F}">
 					<ChildrenList>
-						<Action Name="" ID="{F3B0F521-9EF0-4B0E-806A-07CB84E0561B}" ShortID="887848924">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{18F2A126-96A8-4D0B-A7BB-A8A41E3CD70B}" ShortID="841848331">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -341,7 +331,18 @@
 				</Event>
 				<Event Name="Play_BigThug_A2_S58_BG" ID="{F1BA2F35-782B-4203-BB1B-7D182A65C024}">
 					<ChildrenList>
-						<Action Name="" ID="{D7AF9AD2-6584-42AF-863B-ADA4BBCA8E94}" ShortID="485429090">
+						<Action Name="" ID="{8167029C-4C8C-4F4E-960C-F8E715A59231}" ShortID="530482952">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigThug_A2_S58_BG" ID="{C8E4B665-602F-4AF2-AD7B-22612C393010}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BigThug_A1_S48_BG" ID="{63059C2D-FB8B-42BB-B286-26D68D2C53BB}">
+					<ChildrenList>
+						<Action Name="" ID="{6B54119B-F489-46A5-9528-2EE706BDBDC3}" ShortID="854323158">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
 							</PropertyList>
@@ -351,10 +352,10 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{8167029C-4C8C-4F4E-960C-F8E715A59231}" ShortID="530482952">
+						<Action Name="" ID="{843CDB1B-B0D5-4B0A-958F-690D7DA13C43}" ShortID="736224584">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BigThug_A2_S58_BG" ID="{C8E4B665-602F-4AF2-AD7B-22612C393010}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
+									<ObjectRef Name="BigThug_A1_S48_BG" ID="{0685B066-CE11-44F0-AF75-6EC30510928B}" WorkUnitID="{FDE7DC1A-E666-46F8-9631-9F190F021884}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
