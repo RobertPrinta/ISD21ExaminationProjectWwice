@@ -16,7 +16,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "370424841",
+    "Hash": "1819613747",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -1088,10 +1088,10 @@
       "Id": "2474538859",
       "Name": "Play_Sigifrit_A1_S50_BG",
       "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S50_BG",
-      "GUID": "{76EF21B9-2E5C-4EB0-B254-855408FD58A5}",
+      "GUID": "{B0D0AD02-1C36-46C0-8EA7-3C8294186AA2}",
       "DurationType": "OneShot",
-      "DurationMin": "8.346599",
-      "DurationMax": "8.346599",
+      "DurationMin": "5.846599",
+      "DurationMax": "5.846599",
       "IncludedMemoryFiles": [
        {
         "Id": "1030535360",
@@ -1102,13 +1102,30 @@
       ]
      },
      {
+      "Id": "955667568",
+      "Name": "Play_Sigifrit_A1_S51_BG",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S51_BG",
+      "GUID": "{0231CBE7-399E-4BF8-AC00-CB17137114A6}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.552721",
+      "DurationMax": "5.552721",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "425241657",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A1_S51_BG.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A1_S51_BG_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "3809216585",
       "Name": "Play_Sigifrit_A1_S52_BG",
       "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S52_BG",
-      "GUID": "{C422DC6B-7090-4BBE-B8D4-424A7D759204}",
+      "GUID": "{C96FF6D7-848C-4EAE-9D42-933547ED63E6}",
       "DurationType": "OneShot",
-      "DurationMin": "11.82712",
-      "DurationMax": "11.82712",
+      "DurationMin": "9.32712",
+      "DurationMax": "9.32712",
       "IncludedMemoryFiles": [
        {
         "Id": "145908948",
@@ -1119,19 +1136,87 @@
       ]
      },
      {
+      "Id": "1216577566",
+      "Name": "Play_Sigifrit_A1_S53_BG",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S53_BG",
+      "GUID": "{DA291572-BD64-4334-A200-3C7B30E0C2EE}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.731723",
+      "DurationMax": "6.731723",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "279656034",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A1_S53_BG.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A1_S53_BG_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "3915117343",
       "Name": "Play_Sigifrit_A1_S54_BG",
       "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S54_BG",
-      "GUID": "{C5A10CFC-0F99-492B-A75F-2F2D2B55EE4C}",
+      "GUID": "{43A1B2C4-7FB0-4964-BA7D-2E11864A4DCF}",
       "DurationType": "OneShot",
-      "DurationMin": "8.4922",
-      "DurationMax": "8.4922",
+      "DurationMin": "5.992199",
+      "DurationMax": "5.992199",
       "IncludedMemoryFiles": [
        {
         "Id": "271271517",
         "Language": "SFX",
         "ShortName": "Dialogue\\OldLady\\Sigifrit_A1_S54_BG.wav",
         "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A1_S54_BG_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3228692965",
+      "Name": "Play_Sigifrit_A2_S60_BG",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A2_S60_BG",
+      "GUID": "{A7166BBB-B0F8-42E9-942F-AA5A6E3E035C}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.428617",
+      "DurationMax": "9.428617",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "539975290",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A2_S60_BG.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A2_S60_BG_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1678587434",
+      "Name": "Play_Sigifrit_A2_S61_BG",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A2_S61_BG",
+      "GUID": "{089A7D7C-29C5-4613-AD73-C3C4AEA842F1}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.035646",
+      "DurationMax": "8.035646",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1051940194",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A2_S61_BG.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A2_S61_BG_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1914803335",
+      "Name": "Play_Sigifrit_A2_S62_BG",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A2_S62_BG",
+      "GUID": "{1017E626-A48D-4E0E-9E33-D03304DFE1C8}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.464014",
+      "DurationMax": "4.464014",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "905961938",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A2_S62_BG.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A2_S62_BG_3CADDE39.wem"
        }
       ]
      },
@@ -1257,6 +1342,23 @@
         "Name": "Play_Stop_ALL_Dialogue",
         "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
         "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "2563092911",
+      "Name": "Play_Sigifrit_A3_S67_BG",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A3_S67_BG",
+      "GUID": "{A8FE95EB-B29F-481E-B3E9-E440A2D3D9E9}",
+      "DurationType": "OneShot",
+      "DurationMin": "32.193153",
+      "DurationMax": "32.193153",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "656453831",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\OldLady\\Sigifrit_A3_S67_BG.wav",
+        "Path": "SFX\\Dialogue\\OldLady\\Sigifrit_A3_S67_BG_3CADDE39.wem"
        }
       ]
      },
