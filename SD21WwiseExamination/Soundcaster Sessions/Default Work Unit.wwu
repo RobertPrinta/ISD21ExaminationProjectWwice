@@ -406,6 +406,10 @@
 							<ObjectRef Name="Play_Thug" ID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP" ID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
