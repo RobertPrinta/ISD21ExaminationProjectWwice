@@ -299,10 +299,6 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Sigifrit_A1_S50_BG" ID="{76EF21B9-2E5C-4EB0-B254-855408FD58A5}" WorkUnitID="{EA391D63-12EC-4054-9F5D-8E2FE84D9A7A}"/>
-							<Position X="0" Y="4"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Emilia_A1_S49_BG" ID="{5C5441BE-AAC8-4F99-8FBD-700FCAA62B39}" WorkUnitID="{46C32E38-5F9A-467E-83E7-1E47CC3AFF7D}"/>
 							<Position X="0" Y="5"/>
 						</Module>
@@ -319,10 +315,6 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Sigifrit_A1_S52_BG" ID="{C422DC6B-7090-4BBE-B8D4-424A7D759204}" WorkUnitID="{EA391D63-12EC-4054-9F5D-8E2FE84D9A7A}"/>
-							<Position X="1" Y="4"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_BigThug_A1_S48_BG" ID="{63059C2D-FB8B-42BB-B286-26D68D2C53BB}" WorkUnitID="{5E775DC5-311E-48F7-96FB-B5CC0C920490}"/>
 							<Position X="1" Y="5"/>
 						</Module>
@@ -337,10 +329,6 @@
 						<Module>
 							<ObjectRef Name="Play_PoliceHub_A3_S34_Tut" ID="{E77BF412-7268-46A7-B505-00058C125FA8}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
 							<Position X="2" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Sigifrit_A1_S54_BG" ID="{C5A10CFC-0F99-492B-A75F-2F2D2B55EE4C}" WorkUnitID="{EA391D63-12EC-4054-9F5D-8E2FE84D9A7A}"/>
-							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_BigThug_A2_S58_BG" ID="{F1BA2F35-782B-4203-BB1B-7D182A65C024}" WorkUnitID="{5E775DC5-311E-48F7-96FB-B5CC0C920490}"/>
