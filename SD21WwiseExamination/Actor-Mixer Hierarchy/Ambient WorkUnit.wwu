@@ -1385,9 +1385,14 @@
 								<Sound Name="AB_Electricity_Hum_3D" ID="{D2F1472C-7FA2-48A1-8ED6-667915C09941}" ShortID="930033272">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>16</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
