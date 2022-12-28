@@ -295,14 +295,6 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Emilia_A1_S49_BG" ID="{5C5441BE-AAC8-4F99-8FBD-700FCAA62B39}" WorkUnitID="{46C32E38-5F9A-467E-83E7-1E47CC3AFF7D}"/>
-							<Position X="0" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Emilia_A1_S49_BG" ID="{5C5441BE-AAC8-4F99-8FBD-700FCAA62B39}" WorkUnitID="{46C32E38-5F9A-467E-83E7-1E47CC3AFF7D}"/>
-							<Position X="0" Y="5"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_OldLady" ID="{01F2B377-D584-4E43-A03D-50015A4F0E78}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="1" Y="0"/>
 						</Module>

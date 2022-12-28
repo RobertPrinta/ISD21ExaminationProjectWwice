@@ -276,12 +276,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Emilia_A1_S49_BG" ID="{5C5441BE-AAC8-4F99-8FBD-700FCAA62B39}">
+				<Event Name="Play_Emilia_A3_S64_BG" ID="{DACAD2D2-4925-426D-A48E-A38A49BEE179}">
 					<ChildrenList>
-						<Action Name="" ID="{6419E667-9ED8-4EF7-B8F9-F02A38D7402B}" ShortID="404147720">
+						<Action Name="" ID="{68183ADA-5219-482E-8E66-B6312778007E}" ShortID="689640774">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Emilia_A1_S49_BG" ID="{E44D6D26-460A-4B2F-A58A-6E10B0783AB2}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+									<ObjectRef Name="Emilia_A3_S64_BG" ID="{D5678A62-5288-4E0A-B4F5-3B94BC2D00A1}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A3_S65_BG" ID="{A08B4331-307B-41D0-9E04-70EAD4E04F7A}">
+					<ChildrenList>
+						<Action Name="" ID="{FF25E889-1CEC-4F3A-B895-4C1827AA05A1}" ShortID="48661446">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A3_S65_BG" ID="{BB5D4BE3-39DF-4253-AEE1-B0675F5F5ACB}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A3_S66_BG" ID="{721AD7FB-8F27-40AC-83E1-77F9917AA366}">
+					<ChildrenList>
+						<Action Name="" ID="{428EED8B-13B6-494C-9942-427FCC507DA5}" ShortID="210229889">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A3_S66_BG" ID="{26C6BAA1-079B-4C0A-B8AB-3BBA4D8E570D}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A1_S49_BG" ID="{37A813FB-DF21-42D7-A829-F50378746E54}">
+					<ChildrenList>
+						<Action Name="" ID="{89B49753-C065-4928-A72D-775EA7B057AA}" ShortID="38019222">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A1_S49_BG" ID="{301EA0F3-BCA2-423F-A125-82B26B2F31F8}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Emilia_A2_S59_BG" ID="{B8A5BF33-FAD3-4A38-A989-952CF87DC5CA}">
+					<ChildrenList>
+						<Action Name="" ID="{8546357A-A69D-40D4-B297-64380B83C9B6}" ShortID="385999421">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_A2_S59_BG" ID="{A2CC4EF0-F64E-44F3-A149-6BFD9A978411}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
