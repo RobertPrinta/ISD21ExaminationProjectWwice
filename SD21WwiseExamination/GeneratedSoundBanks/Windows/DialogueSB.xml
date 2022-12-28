@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="1819613747">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="3236240645">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -238,7 +238,7 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="660918573" Name="Play_Emilia_A1_S49_BG" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_A1_S49_BG" GUID="{5C5441BE-AAC8-4F99-8FBD-700FCAA62B39}" DurationType="OneShot" DurationMin="5.245805" DurationMax="5.245805">
+				<Event Id="660918573" Name="Play_Emilia_A1_S49_BG" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_A1_S49_BG" GUID="{37A813FB-DF21-42D7-A829-F50378746E54}" DurationType="OneShot" DurationMin="6.971791" DurationMax="6.971791">
 					<IncludedMemoryFiles>
 						<File Id="1028776668" Language="SFX">
 							<ShortName>Dialogue\Runner\Emilia_A1_S49_BG.wav</ShortName>
@@ -312,6 +312,14 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
+				<Event Id="1962016369" Name="Play_Emilia_A2_S59_BG" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_A2_S59_BG" GUID="{B8A5BF33-FAD3-4A38-A989-952CF87DC5CA}" DurationType="OneShot" DurationMin="10.354467" DurationMax="10.354467">
+					<IncludedMemoryFiles>
+						<File Id="117362777" Language="SFX">
+							<ShortName>Dialogue\Runner\Emilia_A2_S59_BG.wav</ShortName>
+							<Path>SFX\Dialogue\Runner\Emilia_A2_S59_BG_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="352125383" Name="Play_Emilia_A3_S38" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_A3_S38" GUID="{BABAC9F8-D718-4108-8D32-5F9467989BFA}" DurationType="OneShot" DurationMin="5.307755" DurationMax="5.307755">
 					<IncludedMemoryFiles>
 						<File Id="772320959" Language="SFX">
@@ -344,6 +352,30 @@
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
+				</Event>
+				<Event Id="1125469126" Name="Play_Emilia_A3_S64_BG" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_A3_S64_BG" GUID="{DACAD2D2-4925-426D-A48E-A38A49BEE179}" DurationType="OneShot" DurationMin="11.132132" DurationMax="11.132132">
+					<IncludedMemoryFiles>
+						<File Id="22048910" Language="SFX">
+							<ShortName>Dialogue\Runner\Emilia_A3_S64_BG.wav</ShortName>
+							<Path>SFX\Dialogue\Runner\Emilia_A3_S64_BG_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2675471281" Name="Play_Emilia_A3_S65_BG" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_A3_S65_BG" GUID="{A08B4331-307B-41D0-9E04-70EAD4E04F7A}" DurationType="OneShot" DurationMin="3.735624" DurationMax="3.735624">
+					<IncludedMemoryFiles>
+						<File Id="467828168" Language="SFX">
+							<ShortName>Dialogue\Runner\Emilia_A3_S65_BG.wav</ShortName>
+							<Path>SFX\Dialogue\Runner\Emilia_A3_S65_BG_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4137677912" Name="Play_Emilia_A3_S66_BG" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_A3_S66_BG" GUID="{721AD7FB-8F27-40AC-83E1-77F9917AA366}" DurationType="OneShot" DurationMin="18.379728" DurationMax="18.379728">
+					<IncludedMemoryFiles>
+						<File Id="1066228100" Language="SFX">
+							<ShortName>Dialogue\Runner\Emilia_A3_S66_BG.wav</ShortName>
+							<Path>SFX\Dialogue\Runner\Emilia_A3_S66_BG_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="223754490" Name="Play_Emilia_S2_A30" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_S2_A30" GUID="{A55260CD-6329-4977-A10F-A3826D425B8E}" DurationType="OneShot" DurationMin="11.956802" DurationMax="11.956802">
 					<IncludedMemoryFiles>

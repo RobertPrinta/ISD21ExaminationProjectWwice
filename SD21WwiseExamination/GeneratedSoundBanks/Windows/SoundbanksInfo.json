@@ -56,7 +56,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "4231037636",
+    "Hash": "472510380",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -2591,7 +2591,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "1819613747",
+    "Hash": "3236240645",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -3109,10 +3109,10 @@
       "Id": "660918573",
       "Name": "Play_Emilia_A1_S49_BG",
       "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A1_S49_BG",
-      "GUID": "{5C5441BE-AAC8-4F99-8FBD-700FCAA62B39}",
+      "GUID": "{37A813FB-DF21-42D7-A829-F50378746E54}",
       "DurationType": "OneShot",
-      "DurationMin": "5.245805",
-      "DurationMax": "5.245805",
+      "DurationMin": "6.971791",
+      "DurationMax": "6.971791",
       "IncludedMemoryFiles": [
        {
         "Id": "1028776668",
@@ -3273,6 +3273,23 @@
       ]
      },
      {
+      "Id": "1962016369",
+      "Name": "Play_Emilia_A2_S59_BG",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A2_S59_BG",
+      "GUID": "{B8A5BF33-FAD3-4A38-A989-952CF87DC5CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.354467",
+      "DurationMax": "10.354467",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "117362777",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A2_S59_BG.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A2_S59_BG_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "352125383",
       "Name": "Play_Emilia_A3_S38",
       "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A3_S38",
@@ -3344,6 +3361,57 @@
         "Name": "Play_Stop_ALL_Dialogue",
         "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
         "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+       }
+      ]
+     },
+     {
+      "Id": "1125469126",
+      "Name": "Play_Emilia_A3_S64_BG",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A3_S64_BG",
+      "GUID": "{DACAD2D2-4925-426D-A48E-A38A49BEE179}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.132132",
+      "DurationMax": "11.132132",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "22048910",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A3_S64_BG.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A3_S64_BG_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2675471281",
+      "Name": "Play_Emilia_A3_S65_BG",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A3_S65_BG",
+      "GUID": "{A08B4331-307B-41D0-9E04-70EAD4E04F7A}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.735624",
+      "DurationMax": "3.735624",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "467828168",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A3_S65_BG.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A3_S65_BG_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4137677912",
+      "Name": "Play_Emilia_A3_S66_BG",
+      "ObjectPath": "\\Events\\Dialogue\\DiRunner\\Play_Emilia_A3_S66_BG",
+      "GUID": "{721AD7FB-8F27-40AC-83E1-77F9917AA366}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.379728",
+      "DurationMax": "18.379728",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1066228100",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Runner\\Emilia_A3_S66_BG.wav",
+        "Path": "SFX\\Dialogue\\Runner\\Emilia_A3_S66_BG_3CADDE39.wem"
        }
       ]
      },
@@ -5317,7 +5385,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "1305164275",
+    "Hash": "2863650616",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",

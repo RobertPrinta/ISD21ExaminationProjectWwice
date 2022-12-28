@@ -21,6 +21,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1118411498	Play_PoliceHub_A1_S6			\Dialogue\Di_HuB\Play_PoliceHub_A1_S6	
 	1118411499	Play_PoliceHub_A1_S7			\Dialogue\Di_HuB\Play_PoliceHub_A1_S7	
 	1118411503	Play_PoliceHub_A1_S3			\Dialogue\Di_HuB\Play_PoliceHub_A1_S3	
+	1125469126	Play_Emilia_A3_S64_BG			\Dialogue\DiRunner\Play_Emilia_A3_S64_BG	
 	1194815331	Play_Stop_ALL_Dialogue			\Dialogue\Play_Stop_ALL_Dialogue	
 	1216577566	Play_Sigifrit_A1_S53_BG			\Dialogue\Di_OldLady\Play_Sigifrit_A1_S53_BG	
 	1433380830	Play_PoliceHub_A2_S18_Tut			\Dialogue\Di_HuB\Play_PoliceHub_A2_S18_Tut	
@@ -35,6 +36,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1925955973	Play_BigThug_A2_S23			\Dialogue\DiThug\Play_BigThug_A2_S23	
 	1925955974	Play_BigThug_A2_S20			\Dialogue\DiThug\Play_BigThug_A2_S20	
 	1925955975	Play_BigThug_A2_S21			\Dialogue\DiThug\Play_BigThug_A2_S21	
+	1962016369	Play_Emilia_A2_S59_BG			\Dialogue\DiRunner\Play_Emilia_A2_S59_BG	
 	2055928980	Play_BigThug_A1_S10			\Dialogue\DiThug\Play_BigThug_A1_S10	
 	2055928981	Play_BigThug_A1_S11			\Dialogue\DiThug\Play_BigThug_A1_S11	
 	2055928982	Play_BigThug_A1_S12			\Dialogue\DiThug\Play_BigThug_A1_S12	
@@ -49,6 +51,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2644529260	Play_Emilia_A2_S25			\Dialogue\DiRunner\Play_Emilia_A2_S25	
 	2644529262	Play_Emilia_A2_S27			\Dialogue\DiRunner\Play_Emilia_A2_S27	
 	2644529263	Play_Emilia_A2_S26			\Dialogue\DiRunner\Play_Emilia_A2_S26	
+	2675471281	Play_Emilia_A3_S65_BG			\Dialogue\DiRunner\Play_Emilia_A3_S65_BG	
 	3114983893	Play_Ending_Sigifrit			\Dialogue\Di_Endings\Play_Ending_Sigifrit	
 	3228692965	Play_Sigifrit_A2_S60_BG			\Dialogue\Di_OldLady\Play_Sigifrit_A2_S60_BG	
 	3249674541	Play_BigThug_A3_S35			\Dialogue\DiThug\Play_BigThug_A3_S35	
@@ -60,13 +63,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	3809216585	Play_Sigifrit_A1_S52_BG			\Dialogue\Di_OldLady\Play_Sigifrit_A1_S52_BG	
 	3847343766	Play_BigThug_A2_S19_5			\Dialogue\DiThug\Play_BigThug_A2_S19_5	
 	3915117343	Play_Sigifrit_A1_S54_BG			\Dialogue\Di_OldLady\Play_Sigifrit_A1_S54_BG	
+	4137677912	Play_Emilia_A3_S66_BG			\Dialogue\DiRunner\Play_Emilia_A3_S66_BG	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	8756383	Sigifrit_A3_S32-	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\OldLady\Sigifrit_A3_S32-_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue OldLady Work Unit\Dialogue OldLady\Sigifrit_A3_S32-		148830
+	22048910	Emilia_A3_S64_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A3_S64_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A3_S64_BG		119655
 	63124836	BigThug_A1_S11	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Thug\BigThug_A1_S11_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Thug Work Unit\DI_Thug_Actor-Mixer\BigThug_A1_S11		25023
 	65010175	Emilia_A3_S39	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A3_S39_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A3_S39		102391
 	106776280	Emilia_A1_S13	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A1_S13_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A1_S13		47857
 	112523308	Emilia_A2_S29	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A2_S29_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A2_S29		23348
+	117362777	Emilia_A2_S59_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A2_S59_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A2_S59_BG		116622
 	121317476	PoliceHub_A1_S5	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Hub\PoliceHub_A1_S5_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Hub Work Unit\DI_Hub_Actor-Mixer\PoliceHub_A1_S5		40908
 	145908948	Sigifrit_A1_S52_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\OldLady\Sigifrit_A1_S52_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue OldLady Work Unit\Dialogue OldLady\Sigifrit_A1_S52_BG		98687
 	162614556	Sigifrit_A3_S42	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\OldLady\Sigifrit_A3_S42_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue OldLady Work Unit\Dialogue OldLady\Sigifrit_A3_S42		22749
@@ -86,6 +92,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	429133083	BigThug_A3_S35	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Thug\BigThug_A3_S35_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Thug Work Unit\DI_Thug_Actor-Mixer\BigThug_A3_S35		76271
 	433585722	BigThug_A1_S6	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Thug\BigThug_A1_S6_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Thug Work Unit\DI_Thug_Actor-Mixer\BigThug_A1_S6		64708
 	463905607	Emilia_A2_S31	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A2_S31_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A2_S31		87585
+	467828168	Emilia_A3_S65_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A3_S65_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A3_S65_BG		41540
 	491378460	PoliceHub_A1_S2_Tut	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\HubTutorials\PoliceHub_A1_S2_Tut_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Hub Work Unit\DI_Hub_Actor-Mixer\PoliceHub_A1_S2_Tut		568867
 	493278628	PoliceHub_A1_S6	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Hub\PoliceHub_A1_S6_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Hub Work Unit\DI_Hub_Actor-Mixer\PoliceHub_A1_S6		30614
 	539021221	BigThug_A2_S22	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Thug\BigThug_A2_S22_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Thug Work Unit\DI_Thug_Actor-Mixer\BigThug_A2_S22		53051
@@ -115,10 +122,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	993263354	Sigifrit_A3_S33	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\OldLady\Sigifrit_A3_S33_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue OldLady Work Unit\Dialogue OldLady\Sigifrit_A3_S33		97032
 	1011394808	PoliceHub_A2_S18_Tut	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\HubTutorials\PoliceHub_A2_S18_Tut_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Hub Work Unit\DI_Hub_Actor-Mixer\PoliceHub_A2_S18_Tut		295242
 	1012396417	Emilia_A2_S28	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A2_S28_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A2_S28		37469
-	1028776668	Emilia_A1_S49_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A1_S49_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A1_S49_BG		57655
+	1028776668	Emilia_A1_S49_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A1_S49_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A1_S49_BG		74996
 	1030535360	Sigifrit_A1_S50_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\OldLady\Sigifrit_A1_S50_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue OldLady Work Unit\Dialogue OldLady\Sigifrit_A1_S50_BG		63305
 	1039193756	Ending_WP	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Endings\Ending_WP_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Hub Work Unit\Dialogue Endings Work Unit\Ending_WP		601415
 	1049815376	Emilia_A1_S14	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A1_S14_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A1_S14		46430
 	1051940194	Sigifrit_A2_S61_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\OldLady\Sigifrit_A2_S61_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue OldLady Work Unit\Dialogue OldLady\Sigifrit_A2_S61_BG		87090
+	1066228100	Emilia_A3_S66_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A3_S66_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A3_S66_BG		212382
 	1067974549	BigThug_A2_S19_5	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Thug\BigThug_A2_S19.5_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Thug Work Unit\DI_Thug_Actor-Mixer\BigThug_A2_S19_5		26879
 
