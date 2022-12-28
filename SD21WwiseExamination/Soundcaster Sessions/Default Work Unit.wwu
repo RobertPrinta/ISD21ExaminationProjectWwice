@@ -410,6 +410,10 @@
 							<ObjectRef Name="Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP" ID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Power_house" ID="{6409EE72-4377-4D85-8CA3-89F22A0264AC}" WorkUnitID="{129698BD-B9BE-4213-8D70-198E7B034F6F}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
