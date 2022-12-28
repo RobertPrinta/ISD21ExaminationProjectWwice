@@ -17,6 +17,10 @@
 				<Event Name="Play_AB_Low_Electricity_Hum_3D_LP" ID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}">
 					<ChildrenList>
 						<Action Name="" ID="{86CB1D93-0600-48FA-9713-636B20439ADD}" ShortID="375703576">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AB_Electricity_Hum_3D" ID="{D2F1472C-7FA2-48A1-8ED6-667915C09941}" WorkUnitID="{01F1A9CD-A9C4-425A-B9BA-3818704DCA12}"/>
