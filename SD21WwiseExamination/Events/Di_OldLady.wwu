@@ -150,39 +150,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Sigifrit_A1_S50_BG" ID="{76EF21B9-2E5C-4EB0-B254-855408FD58A5}">
-					<ChildrenList>
-						<Action Name="" ID="{913101F7-6161-4CD3-A3AA-A4A5E53E84B1}" ShortID="50437355">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sigifrit_A1_S50_BG" ID="{50E5EBCE-6848-4F6F-8A13-FF313BA5594F}" WorkUnitID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Sigifrit_A1_S52_BG" ID="{C422DC6B-7090-4BBE-B8D4-424A7D759204}">
-					<ChildrenList>
-						<Action Name="" ID="{DD40BB9A-2F81-48A1-A633-563792CBFA39}" ShortID="568178674">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sigifrit_A1_S52_BG" ID="{6324E622-3CEE-4AB9-BF27-B0CB64917DE8}" WorkUnitID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Sigifrit_A1_S54_BG" ID="{C5A10CFC-0F99-492B-A75F-2F2D2B55EE4C}">
-					<ChildrenList>
-						<Action Name="" ID="{182E85A6-7124-4738-A704-B5F709C5581F}" ShortID="141435496">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sigifrit_A1_S54_BG" ID="{BC84AFB6-9983-4B1A-81CB-6AC36BED87BC}" WorkUnitID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
