@@ -21,6 +21,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Di_Endings" ID="{C285200E-12FF-4240-8EAD-EDACB9598E9B}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

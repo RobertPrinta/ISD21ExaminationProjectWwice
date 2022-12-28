@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C285200E-12FF-4240-8EAD-EDACB9598E9B}" SchemaVersion="103" RootDocumentID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" ParentDocumentID="{B2850E86-100A-408E-86B6-D08D49F44F1A}">
+	<Events>
+		<WorkUnit Name="Di_Endings" ID="{C285200E-12FF-4240-8EAD-EDACB9598E9B}" OwnerID="{B2850E86-100A-408E-86B6-D08D49F44F1A}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Ending_WP" ID="{7B4009FD-B863-4FEA-AA97-E1E473D40DCA}">
+					<ChildrenList>
+						<Action Name="" ID="{8F2240E4-1742-4C4F-A94B-C2B5D4584B9E}" ShortID="972595234">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending_WP" ID="{9C39BFC4-179F-4FCD-AC92-A34A31CB11F0}" WorkUnitID="{2FBB5D9B-15F0-4570-B851-6041A1E8F74E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ending_BigThug" ID="{3EE2BCAB-2779-408F-BC9C-B0B8C4A13FC8}">
+					<ChildrenList>
+						<Action Name="" ID="{03D18916-8B94-46AE-BE9C-FC46700B94E7}" ShortID="935983816">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending_BigThug" ID="{40A6FCA6-10F0-474D-AA8C-2A88FDB16511}" WorkUnitID="{2FBB5D9B-15F0-4570-B851-6041A1E8F74E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ending_Sigifrit" ID="{FC1EE414-BE9B-4F1C-A530-B49D22D9AA4A}">
+					<ChildrenList>
+						<Action Name="" ID="{5DFA4C70-8671-4F10-9949-AE827EDC1486}" ShortID="784230591">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending_Sigifrit" ID="{C5542E03-ACF9-49E0-BF7F-EF8D355A9F5B}" WorkUnitID="{2FBB5D9B-15F0-4570-B851-6041A1E8F74E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ending_Emilia" ID="{290B8A6A-CF9E-45D3-999D-3EC591FD0976}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -228,6 +228,7 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<WorkUnit Name="Dialogue Endings Work Unit" ID="{2FBB5D9B-15F0-4570-B851-6041A1E8F74E}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
