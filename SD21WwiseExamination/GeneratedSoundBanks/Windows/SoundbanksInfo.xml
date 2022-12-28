@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
-		<SourceFilesRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\lundi\Documents\Unreal Projects\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -36,7 +36,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="490663941">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="916798287">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
@@ -81,7 +81,7 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="704208741" Name="Play_AB_Dream_Machine_Ambience_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Dream_Machine_Ambience_3D_LP" GUID="{CBBDF146-BD8D-42E1-8EA9-B2613361CE47}" MaxAttenuation="25000." DurationType="Infinite">
+				<Event Id="704208741" Name="Play_AB_Dream_Machine_Ambience_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Dream_Machine_Ambience_3D_LP" GUID="{CBBDF146-BD8D-42E1-8EA9-B2613361CE47}" MaxAttenuation="1500." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="5444127" Language="SFX">
 							<ShortName>Ambience\3D\Dream_Machine_Working5_3D.wav</ShortName>
@@ -296,7 +296,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX" Hash="990309022">
+		<SoundBank Id="1070355952" GUID="{A646F937-A3B8-467A-82D6-7A999570C91A}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\UiSB</ObjectPath>
 			<ShortName>UiSB</ShortName>
 			<Path>UiSB.bnk</Path>
@@ -418,7 +418,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="1302507108">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -457,7 +457,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0.481575" DurationMax="1.300277">
+				<Event Id="3528723453" Name="PlayerFootstepsEvent" ObjectPath="\Events\Locomotion\PlayerFootstepsEvent" GUID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" DurationType="OneShot" DurationMin="0.481575" DurationMax="0.950277">
 					<IncludedMemoryFiles>
 						<File Id="155546" Language="SFX">
 							<ShortName>Player\Footsteps\LuddesFotsteg\Carpet\Footsteps_Carpet (2).wav</ShortName>
@@ -1293,7 +1293,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="1418764097">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -1641,20 +1641,13 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="340744232" Name="Play_PoliceHub_A1_S2_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S2_Tut" GUID="{5BA03E90-B8DA-4757-9486-D9DA7BB4A34B}" DurationType="OneShot" DurationMin="44.252834" DurationMax="44.252834">
+				<Event Id="340744232" Name="Play_PoliceHub_A1_S2_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S2_Tut" GUID="{9AF3936F-6BE3-48D2-BD03-023E12DC05F7}" DurationType="OneShot" DurationMin="51.412949" DurationMax="51.412949">
 					<IncludedMemoryFiles>
-						<File Id="514352675" Language="SFX">
-							<ShortName>Dialogue\Hub\PoliceHub_A1_S2_Perkins.wav</ShortName>
-							<Path>SFX\Dialogue\Hub\PoliceHub_A1_S2_Perkins_3CADDE39.wem</Path>
-						</File>
-						<File Id="678875290" Language="SFX">
-							<ShortName>Dialogue\Hub\PoliceHub_A1_S2_Connor.wav</ShortName>
-							<Path>SFX\Dialogue\Hub\PoliceHub_A1_S2_Connor_3CADDE39.wem</Path>
+						<File Id="491378460" Language="SFX">
+							<ShortName>Dialogue\HubTutorials\PoliceHub_A1_S2_Tut.wav</ShortName>
+							<Path>SFX\Dialogue\HubTutorials\PoliceHub_A1_S2_Tut_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="1118411503" Name="Play_PoliceHub_A1_S3" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S3" GUID="{DBDFB023-B576-473C-AC05-E745AFE0F0AE}" DurationType="OneShot" DurationMin="7.49" DurationMax="7.49">
 					<IncludedMemoryFiles>
@@ -1711,35 +1704,21 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="1433380830" Name="Play_PoliceHub_A2_S18_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A2_S18_Tut" GUID="{650CE6D0-B545-42C3-9B9E-5465CDE9FDFE}" DurationType="OneShot" DurationMin="20.137959" DurationMax="20.137959">
+				<Event Id="1433380830" Name="Play_PoliceHub_A2_S18_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A2_S18_Tut" GUID="{5806D7C7-D1E5-455E-885E-7AD498F0334C}" DurationType="OneShot" DurationMin="26.84687" DurationMax="26.84687">
 					<IncludedMemoryFiles>
-						<File Id="364697845" Language="SFX">
-							<ShortName>Dialogue\Hub\PoliceHub_A2_S18_Perkins.wav</ShortName>
-							<Path>SFX\Dialogue\Hub\PoliceHub_A2_S18_Perkins_3CADDE39.wem</Path>
-						</File>
-						<File Id="655152494" Language="SFX">
-							<ShortName>Dialogue\Hub\PoliceHub_A2_S18_Connor.wav</ShortName>
-							<Path>SFX\Dialogue\Hub\PoliceHub_A2_S18_Connor_3CADDE39.wem</Path>
+						<File Id="1011394808" Language="SFX">
+							<ShortName>Dialogue\HubTutorials\PoliceHub_A2_S18_Tut.wav</ShortName>
+							<Path>SFX\Dialogue\HubTutorials\PoliceHub_A2_S18_Tut_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
-				<Event Id="185865905" Name="Play_PoliceHub_A3_S34_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A3_S34_Tut" GUID="{C0D0C89B-83F2-43BE-B1DC-5D52FB6766DD}" DurationType="OneShot" DurationMin="25.708593" DurationMax="25.708593">
+				<Event Id="185865905" Name="Play_PoliceHub_A3_S34_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A3_S34_Tut" GUID="{E77BF412-7268-46A7-B505-00058C125FA8}" DurationType="OneShot" DurationMin="32.671928" DurationMax="32.671928">
 					<IncludedMemoryFiles>
-						<File Id="59512752" Language="SFX">
-							<ShortName>Dialogue\Hub\PoliceHub_A3_S34_Perkins.wav</ShortName>
-							<Path>SFX\Dialogue\Hub\PoliceHub_A3_S34_Perkins_3CADDE39.wem</Path>
-						</File>
-						<File Id="962363174" Language="SFX">
-							<ShortName>Dialogue\Hub\PoliceHub_A3_S34_Sadie.wav</ShortName>
-							<Path>SFX\Dialogue\Hub\PoliceHub_A3_S34_Sadie_3CADDE39.wem</Path>
+						<File Id="814774033" Language="SFX">
+							<ShortName>Dialogue\HubTutorials\PoliceHub_A3_S34_Tut.wav</ShortName>
+							<Path>SFX\Dialogue\HubTutorials\PoliceHub_A3_S34_Tut_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="1783234309" Name="Play_Sigifrit_A1_S16" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S16" GUID="{7EE5EA54-1515-4A2F-87EF-8888907EAA33}" DurationType="OneShot" DurationMin="4.488027" DurationMax="4.488027">
 					<IncludedMemoryFiles>
@@ -1763,7 +1742,7 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="2474538859" Name="Play_Sigifrit_A1_S50_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S50_BG" GUID="{D8C2B918-30D3-4E8E-9324-7CDFDC6FE63D}" DurationType="OneShot" DurationMin="3.346599" DurationMax="3.346599">
+				<Event Id="2474538859" Name="Play_Sigifrit_A1_S50_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S50_BG" GUID="{76EF21B9-2E5C-4EB0-B254-855408FD58A5}" DurationType="OneShot" DurationMin="8.346599" DurationMax="8.346599">
 					<IncludedMemoryFiles>
 						<File Id="1030535360" Language="SFX">
 							<ShortName>Dialogue\OldLady\Sigifrit_A1_S50_BG.wav</ShortName>
@@ -1771,7 +1750,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3809216585" Name="Play_Sigifrit_A1_S52_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S52_BG" GUID="{36219D41-B950-4904-B295-2362C0C5022E}" DurationType="OneShot" DurationMin="6.82712" DurationMax="6.82712">
+				<Event Id="3809216585" Name="Play_Sigifrit_A1_S52_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S52_BG" GUID="{C422DC6B-7090-4BBE-B8D4-424A7D759204}" DurationType="OneShot" DurationMin="11.82712" DurationMax="11.82712">
 					<IncludedMemoryFiles>
 						<File Id="145908948" Language="SFX">
 							<ShortName>Dialogue\OldLady\Sigifrit_A1_S52_BG.wav</ShortName>
@@ -1779,7 +1758,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3915117343" Name="Play_Sigifrit_A1_S54_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S54_BG" GUID="{30875B80-D1BF-46E4-AD9D-D545A19A1A46}" DurationType="OneShot" DurationMin="3.4922" DurationMax="3.4922">
+				<Event Id="3915117343" Name="Play_Sigifrit_A1_S54_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S54_BG" GUID="{C5A10CFC-0F99-492B-A75F-2F2D2B55EE4C}" DurationType="OneShot" DurationMin="8.4922" DurationMax="8.4922">
 					<IncludedMemoryFiles>
 						<File Id="271271517" Language="SFX">
 							<ShortName>Dialogue\OldLady\Sigifrit_A1_S54_BG.wav</ShortName>
@@ -1787,7 +1766,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1155578380" Name="Play_Sigifrit_A3_S32_" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A3_S32_" GUID="{D126DF2F-5070-406B-982B-2DD76489B5E4}" DurationType="OneShot" DurationMin="14.818458" DurationMax="14.818458">
+				<Event Id="522378305" Name="Play_Sigifrit_A3_S32" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A3_S32" GUID="{D126DF2F-5070-406B-982B-2DD76489B5E4}" DurationType="OneShot" DurationMin="14.818458" DurationMax="14.818458">
 					<IncludedMemoryFiles>
 						<File Id="8756383" Language="SFX">
 							<ShortName>Dialogue\OldLady\Sigifrit_A3_S32-.wav</ShortName>
@@ -1845,7 +1824,7 @@
 				<Event Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1422407793">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -2565,7 +2544,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="336956969">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>

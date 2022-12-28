@@ -1097,7 +1097,6 @@
 								<RandomSequenceContainer Name="AB_Dream_Machine_Working_3D" ID="{535FDFB2-B0E8-4497-BB16-2159177C11E4}" ShortID="924321434">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
@@ -1108,7 +1107,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Att_Generic_25m" ID="{2BB92BAE-1D68-4FB0-B9F6-2AE415E2FED8}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+											<ObjectRef Name="Att_Generic_10m" ID="{0F21200F-4F50-4F6F-9381-BB9AD43FE5F3}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
