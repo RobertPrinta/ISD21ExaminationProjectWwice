@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
-   "SourceFilesRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\",
+   "SourceFilesRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\lundi\\Documents\\Unreal Projects\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Git\\ISD21ExaminationProjectWwice\\SD21WwiseExamination\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [
@@ -56,7 +56,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "916798287",
+    "Hash": "4231037636",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -558,6 +558,7 @@
     "Id": "1070355952",
     "GUID": "{A646F937-A3B8-467A-82D6-7A999570C91A}",
     "Language": "SFX",
+    "Hash": "990309022",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UiSB",
     "ShortName": "UiSB",
     "Path": "UiSB.bnk",
@@ -851,6 +852,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
+    "Hash": "1509298523",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -2589,6 +2591,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
+    "Hash": "370424841",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -3370,6 +3373,67 @@
       ]
      },
      {
+      "Id": "438335708",
+      "Name": "Play_Ending_BigThug",
+      "ObjectPath": "\\Events\\Dialogue\\Di_Endings\\Play_Ending_BigThug",
+      "GUID": "{3EE2BCAB-2779-408F-BC9C-B0B8C4A13FC8}",
+      "DurationType": "OneShot",
+      "DurationMin": "64.999527",
+      "DurationMax": "64.999527",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "243518832",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Endings\\Ending_BigThug.wav",
+        "Path": "SFX\\Dialogue\\Endings\\Ending_BigThug_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2097328809",
+      "Name": "Play_Ending_Emilia",
+      "ObjectPath": "\\Events\\Dialogue\\Di_Endings\\Play_Ending_Emilia",
+      "GUID": "{290B8A6A-CF9E-45D3-999D-3EC591FD0976}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "3114983893",
+      "Name": "Play_Ending_Sigifrit",
+      "ObjectPath": "\\Events\\Dialogue\\Di_Endings\\Play_Ending_Sigifrit",
+      "GUID": "{FC1EE414-BE9B-4F1C-A530-B49D22D9AA4A}",
+      "DurationType": "OneShot",
+      "DurationMin": "84.953789",
+      "DurationMax": "84.953789",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "265307884",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Endings\\Ending_Sigifrit.wav",
+        "Path": "SFX\\Dialogue\\Endings\\Ending_Sigifrit_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1869086155",
+      "Name": "Play_Ending_WP",
+      "ObjectPath": "\\Events\\Dialogue\\Di_Endings\\Play_Ending_WP",
+      "GUID": "{7B4009FD-B863-4FEA-AA97-E1E473D40DCA}",
+      "DurationType": "OneShot",
+      "DurationMin": "59.403038",
+      "DurationMax": "59.403038",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1039193756",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Endings\\Ending_WP.wav",
+        "Path": "SFX\\Dialogue\\Endings\\Ending_WP_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "340744232",
       "Name": "Play_PoliceHub_A1_S2_Tut",
       "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A1_S2_Tut",
@@ -3787,6 +3851,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
+    "Hash": "1541698908",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -5150,6 +5215,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
+    "Hash": "1305164275",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",

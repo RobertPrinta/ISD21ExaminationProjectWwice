@@ -16,7 +16,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "1418764097",
+    "Hash": "370424841",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -798,33 +798,80 @@
       ]
      },
      {
+      "Id": "438335708",
+      "Name": "Play_Ending_BigThug",
+      "ObjectPath": "\\Events\\Dialogue\\Di_Endings\\Play_Ending_BigThug",
+      "GUID": "{3EE2BCAB-2779-408F-BC9C-B0B8C4A13FC8}",
+      "DurationType": "OneShot",
+      "DurationMin": "64.999527",
+      "DurationMax": "64.999527",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "243518832",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Endings\\Ending_BigThug.wav",
+        "Path": "SFX\\Dialogue\\Endings\\Ending_BigThug_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2097328809",
+      "Name": "Play_Ending_Emilia",
+      "ObjectPath": "\\Events\\Dialogue\\Di_Endings\\Play_Ending_Emilia",
+      "GUID": "{290B8A6A-CF9E-45D3-999D-3EC591FD0976}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "3114983893",
+      "Name": "Play_Ending_Sigifrit",
+      "ObjectPath": "\\Events\\Dialogue\\Di_Endings\\Play_Ending_Sigifrit",
+      "GUID": "{FC1EE414-BE9B-4F1C-A530-B49D22D9AA4A}",
+      "DurationType": "OneShot",
+      "DurationMin": "84.953789",
+      "DurationMax": "84.953789",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "265307884",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Endings\\Ending_Sigifrit.wav",
+        "Path": "SFX\\Dialogue\\Endings\\Ending_Sigifrit_3CADDE39.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1869086155",
+      "Name": "Play_Ending_WP",
+      "ObjectPath": "\\Events\\Dialogue\\Di_Endings\\Play_Ending_WP",
+      "GUID": "{7B4009FD-B863-4FEA-AA97-E1E473D40DCA}",
+      "DurationType": "OneShot",
+      "DurationMin": "59.403038",
+      "DurationMax": "59.403038",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1039193756",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Endings\\Ending_WP.wav",
+        "Path": "SFX\\Dialogue\\Endings\\Ending_WP_3CADDE39.wem"
+       }
+      ]
+     },
+     {
       "Id": "340744232",
       "Name": "Play_PoliceHub_A1_S2_Tut",
       "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A1_S2_Tut",
-      "GUID": "{5BA03E90-B8DA-4757-9486-D9DA7BB4A34B}",
+      "GUID": "{9AF3936F-6BE3-48D2-BD03-023E12DC05F7}",
       "DurationType": "OneShot",
-      "DurationMin": "44.252834",
-      "DurationMax": "44.252834",
+      "DurationMin": "51.412949",
+      "DurationMax": "51.412949",
       "IncludedMemoryFiles": [
        {
-        "Id": "514352675",
+        "Id": "491378460",
         "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S2_Perkins.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S2_Perkins_3CADDE39.wem"
-       },
-       {
-        "Id": "678875290",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S2_Connor.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S2_Connor_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+        "ShortName": "Dialogue\\HubTutorials\\PoliceHub_A1_S2_Tut.wav",
+        "Path": "SFX\\Dialogue\\HubTutorials\\PoliceHub_A1_S2_Tut_3CADDE39.wem"
        }
       ]
      },
@@ -957,30 +1004,16 @@
       "Id": "1433380830",
       "Name": "Play_PoliceHub_A2_S18_Tut",
       "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A2_S18_Tut",
-      "GUID": "{650CE6D0-B545-42C3-9B9E-5465CDE9FDFE}",
+      "GUID": "{5806D7C7-D1E5-455E-885E-7AD498F0334C}",
       "DurationType": "OneShot",
-      "DurationMin": "20.137959",
-      "DurationMax": "20.137959",
+      "DurationMin": "26.84687",
+      "DurationMax": "26.84687",
       "IncludedMemoryFiles": [
        {
-        "Id": "364697845",
+        "Id": "1011394808",
         "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A2_S18_Perkins.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A2_S18_Perkins_3CADDE39.wem"
-       },
-       {
-        "Id": "655152494",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A2_S18_Connor.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A2_S18_Connor_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+        "ShortName": "Dialogue\\HubTutorials\\PoliceHub_A2_S18_Tut.wav",
+        "Path": "SFX\\Dialogue\\HubTutorials\\PoliceHub_A2_S18_Tut_3CADDE39.wem"
        }
       ]
      },
@@ -988,30 +1021,16 @@
       "Id": "185865905",
       "Name": "Play_PoliceHub_A3_S34_Tut",
       "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A3_S34_Tut",
-      "GUID": "{C0D0C89B-83F2-43BE-B1DC-5D52FB6766DD}",
+      "GUID": "{E77BF412-7268-46A7-B505-00058C125FA8}",
       "DurationType": "OneShot",
-      "DurationMin": "25.708593",
-      "DurationMax": "25.708593",
+      "DurationMin": "32.671928",
+      "DurationMax": "32.671928",
       "IncludedMemoryFiles": [
        {
-        "Id": "59512752",
+        "Id": "814774033",
         "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A3_S34_Perkins.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A3_S34_Perkins_3CADDE39.wem"
-       },
-       {
-        "Id": "962363174",
-        "Language": "SFX",
-        "ShortName": "Dialogue\\Hub\\PoliceHub_A3_S34_Sadie.wav",
-        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A3_S34_Sadie_3CADDE39.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
+        "ShortName": "Dialogue\\HubTutorials\\PoliceHub_A3_S34_Tut.wav",
+        "Path": "SFX\\Dialogue\\HubTutorials\\PoliceHub_A3_S34_Tut_3CADDE39.wem"
        }
       ]
      },
@@ -1069,10 +1088,10 @@
       "Id": "2474538859",
       "Name": "Play_Sigifrit_A1_S50_BG",
       "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S50_BG",
-      "GUID": "{D8C2B918-30D3-4E8E-9324-7CDFDC6FE63D}",
+      "GUID": "{76EF21B9-2E5C-4EB0-B254-855408FD58A5}",
       "DurationType": "OneShot",
-      "DurationMin": "3.346599",
-      "DurationMax": "3.346599",
+      "DurationMin": "8.346599",
+      "DurationMax": "8.346599",
       "IncludedMemoryFiles": [
        {
         "Id": "1030535360",
@@ -1086,10 +1105,10 @@
       "Id": "3809216585",
       "Name": "Play_Sigifrit_A1_S52_BG",
       "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S52_BG",
-      "GUID": "{36219D41-B950-4904-B295-2362C0C5022E}",
+      "GUID": "{C422DC6B-7090-4BBE-B8D4-424A7D759204}",
       "DurationType": "OneShot",
-      "DurationMin": "6.82712",
-      "DurationMax": "6.82712",
+      "DurationMin": "11.82712",
+      "DurationMax": "11.82712",
       "IncludedMemoryFiles": [
        {
         "Id": "145908948",
@@ -1103,10 +1122,10 @@
       "Id": "3915117343",
       "Name": "Play_Sigifrit_A1_S54_BG",
       "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A1_S54_BG",
-      "GUID": "{30875B80-D1BF-46E4-AD9D-D545A19A1A46}",
+      "GUID": "{C5A10CFC-0F99-492B-A75F-2F2D2B55EE4C}",
       "DurationType": "OneShot",
-      "DurationMin": "3.4922",
-      "DurationMax": "3.4922",
+      "DurationMin": "8.4922",
+      "DurationMax": "8.4922",
       "IncludedMemoryFiles": [
        {
         "Id": "271271517",
@@ -1117,9 +1136,9 @@
       ]
      },
      {
-      "Id": "1155578380",
-      "Name": "Play_Sigifrit_A3_S32_",
-      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A3_S32_",
+      "Id": "522378305",
+      "Name": "Play_Sigifrit_A3_S32",
+      "ObjectPath": "\\Events\\Dialogue\\Di_OldLady\\Play_Sigifrit_A3_S32",
       "GUID": "{D126DF2F-5070-406B-982B-2DD76489B5E4}",
       "DurationType": "OneShot",
       "DurationMin": "14.818458",
