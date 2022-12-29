@@ -129,27 +129,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Emilia_S2_A30" ID="{A55260CD-6329-4977-A10F-A3826D425B8E}">
-					<ChildrenList>
-						<Action Name="" ID="{7516677D-18A2-4F65-8F29-FBD53B73E106}" ShortID="595336646">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{13F34AD1-DF16-4D5F-9C78-83EC3FF42896}" ShortID="329832543">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Emilia_S2_A30" ID="{3447521A-BD62-44B6-AAFA-4892246D7D38}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Emilia_A2_S31" ID="{6B9A0AE0-CBC4-410D-9655-6EF54E77E91F}">
 					<ChildrenList>
 						<Action Name="" ID="{DD3C6DD4-CAF3-4682-A109-C12FC23D88A2}" ShortID="63001941">

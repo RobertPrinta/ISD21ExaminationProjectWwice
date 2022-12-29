@@ -388,6 +388,29 @@
 								<ActiveSource Name="Sigifrit_A3_S67_BG" ID="{976CC534-E8F1-4128-B17A-46267B7F9462}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Sigifrit_A3_S43" ID="{E7546323-386C-405E-88BF-115FC8176FE4}" ShortID="794255551">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sigifrit_A3_S43" ID="{391C273B-630F-44E7-963C-17A5588C1A61}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\OldLady\Sigifrit_A3_S43.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1036495358"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Sigifrit_A3_S43" ID="{391C273B-630F-44E7-963C-17A5588C1A61}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
