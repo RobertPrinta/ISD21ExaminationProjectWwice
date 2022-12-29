@@ -417,12 +417,24 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Wind_3D" ID="{B6944C11-A739-4A98-9152-173C0E55C5DF}" WorkUnitID="{D1104918-41A3-4BA9-AE82-B8911D50831E}"/>
+							<ObjectRef Name="Play_PoliceHub_A1_S3" ID="{DBDFB023-B576-473C-AC05-E745AFE0F0AE}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PoliceHub_A1_S2_Tut" ID="{9AF3936F-6BE3-48D2-BD03-023E12DC05F7}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Coin" ID="{485602A8-3A3A-42FB-8619-618456F906CF}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<ObjectRef Name="Play_Ending_BigThug" ID="{3EE2BCAB-2779-408F-BC9C-B0B8C4A13FC8}" WorkUnitID="{C285200E-12FF-4240-8EAD-EDACB9598E9B}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PoliceHub_A1_S1_Intro" ID="{4B6A1821-54B3-407A-9FD9-B71CE8E7BFF7}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
 							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Coin" ID="{485602A8-3A3A-42FB-8619-618456F906CF}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<Position X="0" Y="7"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Thug" ID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
@@ -433,36 +445,64 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Ending_Emilia" ID="{290B8A6A-CF9E-45D3-999D-3EC591FD0976}" WorkUnitID="{C285200E-12FF-4240-8EAD-EDACB9598E9B}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_PoliceHub_A1_S2_Tut" ID="{9AF3936F-6BE3-48D2-BD03-023E12DC05F7}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
-							<Position X="1" Y="3"/>
+							<Position X="1" Y="6"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Drawer" ID="{776FED0A-8D09-438D-AF2A-93D11E06229A}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
-							<Position X="1" Y="6"/>
+							<Position X="1" Y="7"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_OldLady" ID="{01F2B377-D584-4E43-A03D-50015A4F0E78}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_PoliceHub_A1_S3" ID="{DBDFB023-B576-473C-AC05-E745AFE0F0AE}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
-							<Position X="2" Y="3"/>
+							<ObjectRef Name="Play_Wind_3D" ID="{B6944C11-A739-4A98-9152-173C0E55C5DF}" WorkUnitID="{D1104918-41A3-4BA9-AE82-B8911D50831E}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ending_Sigifrit" ID="{FC1EE414-BE9B-4F1C-A530-B49D22D9AA4A}" WorkUnitID="{C285200E-12FF-4240-8EAD-EDACB9598E9B}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PoliceHub_A2_S18_Tut" ID="{5806D7C7-D1E5-455E-885E-7AD498F0334C}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
+							<Position X="2" Y="6"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Pick_Up_Puzzle" ID="{12E826DD-7A96-40EE-9D1E-7BCEA37C8A47}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
-							<Position X="2" Y="6"/>
+							<Position X="2" Y="7"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Runner" ID="{7C574E14-4AE8-42DB-B631-328664FFED03}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_SwitchButtons" ID="{287178B6-F4F7-4A89-B558-2A5ECEEC8142}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<ObjectRef Name="Play_AB_Basement_Headlocked_LP" ID="{CD9C85E7-42D8-4C7E-A909-EF17BD0967EE}" WorkUnitID="{D5F2C256-726A-439B-A628-F590F6C4B444}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ending_WP" ID="{7B4009FD-B863-4FEA-AA97-E1E473D40DCA}" WorkUnitID="{C285200E-12FF-4240-8EAD-EDACB9598E9B}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PoliceHub_A3_S34_Tut" ID="{E77BF412-7268-46A7-B505-00058C125FA8}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
 							<Position X="3" Y="6"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Valv" ID="{1164921E-57D7-4A0B-9649-8E00BE7CE8FF}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<ObjectRef Name="Play_SwitchButtons" ID="{287178B6-F4F7-4A89-B558-2A5ECEEC8142}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<Position X="3" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PoliceHub_A4_S45_Tut" ID="{3D354000-E547-4FD0-AFA0-54D7C34506FD}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
 							<Position X="4" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Valv" ID="{1164921E-57D7-4A0B-9649-8E00BE7CE8FF}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<Position X="4" Y="7"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -509,9 +549,9 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
-						<CurrentSwitchRef Name="Wood" ID="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
-						<CurrentSwitchRef Name="Runner" ID="{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"/>
+						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
 						<CurrentSwitchRef Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

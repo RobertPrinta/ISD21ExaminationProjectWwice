@@ -13,7 +13,7 @@
 						<Property Name="Tempo" Type="Real64" Value="100"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-17</Value>
+								<Value>-19</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2857,7 +2857,7 @@
 						<Property Name="Tempo" Type="Real64" Value="50"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -4089,7 +4089,7 @@
 						<Property Name="Tempo" Type="Real64" Value="107"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-12</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -9463,14 +9463,14 @@
 					<PropertyList>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-16</Value>
+								<Value>-19</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="87"/>
 						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-9</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -10428,7 +10428,7 @@
 						<Property Name="Tempo" Type="Real64" Value="100"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-17</Value>
+								<Value>-19</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

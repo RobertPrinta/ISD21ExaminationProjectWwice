@@ -197,6 +197,13 @@
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="INValv" ID="{03BA42DE-2302-41DC-BE3E-0CEB0365B410}" ShortID="560201940">
+					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
