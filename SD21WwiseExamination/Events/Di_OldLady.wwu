@@ -249,6 +249,38 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Sigifrit_A3_S43" ID="{715A874F-DE34-47B2-A878-F8AC117AE0F6}">
+					<ChildrenList>
+						<Action Name="" ID="{6949AE72-3F2E-4FD0-90BE-6DC3D74A0A0E}" ShortID="850872339">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sigifrit_A3_S43" ID="{E7546323-386C-405E-88BF-115FC8176FE4}" WorkUnitID="{5DF469BE-33D7-4CC9-816C-8F7A79034F5B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sigifrit_A2_S30" ID="{A55260CD-6329-4977-A10F-A3826D425B8E}">
+					<ChildrenList>
+						<Action Name="" ID="{7516677D-18A2-4F65-8F29-FBD53B73E106}" ShortID="595336646">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{13F34AD1-DF16-4D5F-9C78-83EC3FF42896}" ShortID="329832543">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emilia_S2_A30" ID="{3447521A-BD62-44B6-AAFA-4892246D7D38}" WorkUnitID="{9DD9BC1E-1F21-4D32-A530-D1C9CD87962E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
