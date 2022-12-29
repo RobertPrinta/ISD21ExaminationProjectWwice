@@ -3,11 +3,19 @@
 	<AudioObjects>
 		<WorkUnit Name="Dialogue Endings Work Unit" ID="{2FBB5D9B-15F0-4570-B851-6041A1E8F74E}" OwnerID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}" PersistMode="Nested">
 			<ChildrenList>
+<<<<<<< Updated upstream
 				<Sound Name="Ending_BigThug" ID="{40A6FCA6-10F0-474D-AA8C-2A88FDB16511}" ShortID="723386982">
 					<PropertyList>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
 								<Value>-12</Value>
+=======
+				<ActorMixer Name="Di_Endings Actor-Mixer" ID="{AA98176B-AD70-4CCF-AA5B-9EE8CA8B9110}" ShortID="443534450">
+					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-23</Value>
+>>>>>>> Stashed changes
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -20,15 +28,101 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Ending_BigThug" ID="{DC6B6BEE-8CCC-44AF-BC2B-605CEA324551}">
-							<Language>SFX</Language>
-							<AudioFile>Dialogue\Endings\Ending_BigThug.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="243518832"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="Ending_Sigifrit" ID="{C5542E03-ACF9-49E0-BF7F-EF8D355A9F5B}" ShortID="1052138854">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="DialogueMaster" ID="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ending_Sigifrit" ID="{0FA1B988-E26B-4AF8-86E3-D73AC60018E8}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Endings\Ending_Sigifrit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="265307884"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ending_Sigifrit" ID="{0FA1B988-E26B-4AF8-86E3-D73AC60018E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ending_Emilia" ID="{3D37DC94-C780-4951-99AA-40977391A51B}" ShortID="433957540">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="DialogueMaster" ID="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ending_Emilia" ID="{C59CED9E-3B8E-4A5D-A699-B0B73082E3DB}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Endings\Ending_Emilia.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="418897233"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ending_Emilia" ID="{C59CED9E-3B8E-4A5D-A699-B0B73082E3DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ending_BigThug" ID="{40A6FCA6-10F0-474D-AA8C-2A88FDB16511}" ShortID="723386982">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="DialogueMaster" ID="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ending_BigThug" ID="{DC6B6BEE-8CCC-44AF-BC2B-605CEA324551}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Endings\Ending_BigThug.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="243518832"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ending_BigThug" ID="{DC6B6BEE-8CCC-44AF-BC2B-605CEA324551}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ending_WP" ID="{9C39BFC4-179F-4FCD-AC92-A34A31CB11F0}" ShortID="1046729762">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="DialogueMaster" ID="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ending_WP" ID="{00A616E7-8FC1-4844-A478-DB847CC7095D}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Endings\Ending_WP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1039193756"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ending_WP" ID="{00A616E7-8FC1-4844-A478-DB847CC7095D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
+<<<<<<< Updated upstream
 					<ActiveSourceList>
 						<ActiveSource Name="Ending_BigThug" ID="{DC6B6BEE-8CCC-44AF-BC2B-605CEA324551}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -123,6 +217,9 @@
 						<ActiveSource Name="Ending_Emilia" ID="{C59CED9E-3B8E-4A5D-A699-B0B73082E3DB}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+=======
+				</ActorMixer>
+>>>>>>> Stashed changes
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
