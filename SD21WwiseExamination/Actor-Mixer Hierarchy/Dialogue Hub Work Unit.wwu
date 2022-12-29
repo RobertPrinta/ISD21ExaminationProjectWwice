@@ -248,6 +248,29 @@
 								<ActiveSource Name="PoliceHub_A1_S1_Intro" ID="{BAAD4630-6268-40FD-BD24-8A81AB205201}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="PoliceHub_A4_S45_Tut" ID="{94537A5E-7041-4B03-A858-D0C66F709FAB}" ShortID="849182679">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoliceHub_A4_S45_Tut" ID="{8E329879-272C-4A3A-A2C6-B9C4B6B936B1}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\Hub\PoliceHub_A4_S45_Tut.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="536395113"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PoliceHub_A4_S45_Tut" ID="{8E329879-272C-4A3A-A2C6-B9C4B6B936B1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
