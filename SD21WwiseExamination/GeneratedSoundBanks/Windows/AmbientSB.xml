@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="472510380">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="2002213447">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
@@ -63,6 +63,10 @@
 							<ShortName>Ambience\3D\Dream_Machine_Working1_3D.wav</ShortName>
 							<Path>SFX\Ambience\3D\Dream_Machine_Working1_3D_3F75BDB9.wem</Path>
 						</File>
+						<File Id="263852333" Language="SFX">
+							<ShortName>Ambience\3D\Ventilation_Storage_1_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\Ventilation_Storage_1_3D_9EDFC787.wem</Path>
+						</File>
 						<File Id="357629459" Language="SFX">
 							<ShortName>Ambience\3D\Dream_Machine_Working3_3D.wav</ShortName>
 							<Path>SFX\Ambience\3D\Dream_Machine_Working3_3D_3F75BDB9.wem</Path>
@@ -77,7 +81,13 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4164283174" Name="Play_AB_Dream_Machine_Heart_Monitor_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Dream_Machine_Heart_Monitor_3D_LP" GUID="{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="23.711632" DurationMax="23.711632">
+				<Event Id="4164283174" Name="Play_AB_Dream_Machine_Heart_Monitor_3D_LP" ObjectPath="\Events\Ambience\AB_Hub_Specific\Play_AB_Dream_Machine_Heart_Monitor_3D_LP" GUID="{AA47E98D-4D9A-4DFF-957C-B5878B320EC8}" MaxAttenuation="1500." DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="315448986" Language="SFX">
+							<ShortName>Ambience\3D\AB_Desk_Fan_3D.wav</ShortName>
+							<Path>SFX\Ambience\3D\AB_Desk_Fan_3D_9EDFC787.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
 					<IncludedMemoryFiles>
 						<File Id="71120849" Language="SFX">
 							<ShortName>Ambience\3D\Dream_Machine_Heart_Monitor1_3D.wav</ShortName>

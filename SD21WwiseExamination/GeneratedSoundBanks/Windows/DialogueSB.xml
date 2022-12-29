@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="3236240645">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="4113841683">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -377,17 +377,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="223754490" Name="Play_Emilia_S2_A30" ObjectPath="\Events\Dialogue\DiRunner\Play_Emilia_S2_A30" GUID="{A55260CD-6329-4977-A10F-A3826D425B8E}" DurationType="OneShot" DurationMin="11.956802" DurationMax="11.956802">
-					<IncludedMemoryFiles>
-						<File Id="278447361" Language="SFX">
-							<ShortName>Dialogue\Runner\Emilia_S2_A30.wav</ShortName>
-							<Path>SFX\Dialogue\Runner\Emilia_S2_A30_3CADDE39.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
-				</Event>
 				<Event Id="438335708" Name="Play_Ending_BigThug" ObjectPath="\Events\Dialogue\Di_Endings\Play_Ending_BigThug" GUID="{3EE2BCAB-2779-408F-BC9C-B0B8C4A13FC8}" DurationType="OneShot" DurationMin="64.999527" DurationMax="64.999527">
 					<IncludedMemoryFiles>
 						<File Id="243518832" Language="SFX">
@@ -396,7 +385,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2097328809" Name="Play_Ending_Emilia" ObjectPath="\Events\Dialogue\Di_Endings\Play_Ending_Emilia" GUID="{290B8A6A-CF9E-45D3-999D-3EC591FD0976}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2097328809" Name="Play_Ending_Emilia" ObjectPath="\Events\Dialogue\Di_Endings\Play_Ending_Emilia" GUID="{290B8A6A-CF9E-45D3-999D-3EC591FD0976}" DurationType="OneShot" DurationMin="67.219795" DurationMax="67.219795">
+					<IncludedMemoryFiles>
+						<File Id="418897233" Language="SFX">
+							<ShortName>Dialogue\Endings\Ending_Emilia.wav</ShortName>
+							<Path>SFX\Dialogue\Endings\Ending_Emilia_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3114983893" Name="Play_Ending_Sigifrit" ObjectPath="\Events\Dialogue\Di_Endings\Play_Ending_Sigifrit" GUID="{FC1EE414-BE9B-4F1C-A530-B49D22D9AA4A}" DurationType="OneShot" DurationMin="84.953789" DurationMax="84.953789">
 					<IncludedMemoryFiles>
 						<File Id="265307884" Language="SFX">
@@ -410,6 +406,14 @@
 						<File Id="1039193756" Language="SFX">
 							<ShortName>Dialogue\Endings\Ending_WP.wav</ShortName>
 							<Path>SFX\Dialogue\Endings\Ending_WP_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="861992510" Name="Play_PoliceHub_A1_S1_Intro" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S1_Intro" GUID="{4B6A1821-54B3-407A-9FD9-B71CE8E7BFF7}" DurationType="OneShot" DurationMin="45.842766" DurationMax="45.842766">
+					<IncludedMemoryFiles>
+						<File Id="552647942" Language="SFX">
+							<ShortName>Dialogue\Hub\PoliceHub_A1_S1_Intro.wav</ShortName>
+							<Path>SFX\Dialogue\Hub\PoliceHub_A1_S1_Intro_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -432,7 +436,7 @@
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="1118411496" Name="Play_PoliceHub_A1_S4" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S4" GUID="{2B197C8A-C155-41CA-9973-E44E3FA4172E}" DurationType="OneShot" DurationMin="5.879047" DurationMax="5.879047">
+				<Event Id="1118411496" Name="Play_PoliceHub_A1_S4" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S4" GUID="{2B197C8A-C155-41CA-9973-E44E3FA4172E}" DurationType="OneShot" DurationMin="2.963129" DurationMax="2.963129">
 					<IncludedMemoryFiles>
 						<File Id="671378646" Language="SFX">
 							<ShortName>Dialogue\Hub\PoliceHub_A1_S4.wav</ShortName>
@@ -492,6 +496,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="417544894" Name="Play_PoliceHub_A4_S45_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A4_S45_Tut" GUID="{3D354000-E547-4FD0-AFA0-54D7C34506FD}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1783234309" Name="Play_Sigifrit_A1_S16" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S16" GUID="{7EE5EA54-1515-4A2F-87EF-8888907EAA33}" DurationType="OneShot" DurationMin="4.488027" DurationMax="4.488027">
 					<IncludedMemoryFiles>
 						<File Id="939100521" Language="SFX">
@@ -553,6 +558,17 @@
 							<Path>SFX\Dialogue\OldLady\Sigifrit_A1_S54_BG_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3334888362" Name="Play_Sigifrit_A2_S30" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A2_S30" GUID="{A55260CD-6329-4977-A10F-A3826D425B8E}" DurationType="OneShot" DurationMin="11.956802" DurationMax="11.956802">
+					<IncludedMemoryFiles>
+						<File Id="278447361" Language="SFX">
+							<ShortName>Dialogue\Runner\Emilia_S2_A30.wav</ShortName>
+							<Path>SFX\Dialogue\Runner\Emilia_S2_A30_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="3228692965" Name="Play_Sigifrit_A2_S60_BG" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A2_S60_BG" GUID="{A7166BBB-B0F8-42E9-942F-AA5A6E3E035C}" DurationType="OneShot" DurationMin="9.428617" DurationMax="9.428617">
 					<IncludedMemoryFiles>
@@ -621,6 +637,14 @@
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
 					</ActionPostEvent>
+				</Event>
+				<Event Id="606266465" Name="Play_Sigifrit_A3_S43" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A3_S43" GUID="{715A874F-DE34-47B2-A878-F8AC117AE0F6}" DurationType="OneShot" DurationMin="1.547188" DurationMax="1.547188">
+					<IncludedMemoryFiles>
+						<File Id="1036495358" Language="SFX">
+							<ShortName>Dialogue\OldLady\Sigifrit_A3_S43.wav</ShortName>
+							<Path>SFX\Dialogue\OldLady\Sigifrit_A3_S43_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="606266470" Name="Play_Sigifrit_A3_S44" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A3_S44" GUID="{C6BC8AD8-B86A-4812-BB86-DD81B63554BD}" DurationType="OneShot" DurationMin="14.611632" DurationMax="14.611632">
 					<IncludedMemoryFiles>
