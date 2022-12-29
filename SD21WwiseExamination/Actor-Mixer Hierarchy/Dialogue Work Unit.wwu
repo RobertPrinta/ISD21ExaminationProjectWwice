@@ -7,13 +7,26 @@
 					<PropertyList>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>9</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Parametric EQ (Custom)" ID="{6251BA12-0530-440F-91A3-5E23E485C46B}" ShortID="1045658578" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FrequencyBand1" Type="Real32" Value="300"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="1500"/>
+										<Property Name="GainBand1" Type="Real32" Value="-2.5"/>
+										<Property Name="GainBand2" Type="Real32" Value="1.5"/>
+										<Property Name="QFactorBand2" Type="Real32" Value="0.6"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="DialogueMaster" ID="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>

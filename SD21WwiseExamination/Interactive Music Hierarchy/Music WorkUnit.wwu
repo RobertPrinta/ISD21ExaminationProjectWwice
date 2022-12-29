@@ -4102,6 +4102,21 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Parametric EQ (Custom)" ID="{376DE762-B9B0-43AF-8A36-B3ACD717E6BA}" ShortID="164053893" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="350"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="1500"/>
+										<Property Name="GainBand1" Type="Real32" Value="-1.5"/>
+										<Property Name="GainBand2" Type="Real32" Value="-1.5"/>
+										<Property Name="QFactorBand1" Type="Real32" Value="0.7"/>
+										<Property Name="QFactorBand2" Type="Real32" Value="0.7"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="MusicMaster" ID="{5152A5E2-4E64-4958-B2F6-9243F47006AB}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 						</Reference>
