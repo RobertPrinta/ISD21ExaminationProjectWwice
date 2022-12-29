@@ -409,20 +409,48 @@
 				<SoundcasterSession Name="Mixing" ID="{69681B5A-6B10-4451-A15E-AAE6ECAC9362}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_AB_Low_Electricity_Hum_3D_LP" ID="{EFFF0146-6A01-44AA-B9D8-AF4AAE12F85B}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<ObjectRef Name="Play_MusicHub" ID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayerFootstepsEvent" ID="{A7D35627-1610-4AF4-ADAE-0EE180A029D6}" WorkUnitID="{C5A83140-F17F-4361-A957-F5569C8CB4DB}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Coin" ID="{485602A8-3A3A-42FB-8619-618456F906CF}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<Position X="0" Y="6"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Thug" ID="{06DA93D8-27B4-42E4-BE5B-CAA7917CF54E}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_AB_Faulty_Socket_Electricity_Buzz_3D_LP" ID="{0325B0EB-0CC8-4805-AA3E-974BEE89C348}" WorkUnitID="{403E181F-F1AF-4911-B22F-B48D9E2DEB8D}"/>
+							<ObjectRef Name="Play_Headlocked_Ambience_LP" ID="{75515714-049D-48B2-9FA0-6190615A2562}" WorkUnitID="{A474B2D6-9874-4E8E-A5EB-0C0F445AF468}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Drawer" ID="{776FED0A-8D09-438D-AF2A-93D11E06229A}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<Position X="1" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_OldLady" ID="{01F2B377-D584-4E43-A03D-50015A4F0E78}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Power_house" ID="{6409EE72-4377-4D85-8CA3-89F22A0264AC}" WorkUnitID="{129698BD-B9BE-4213-8D70-198E7B034F6F}"/>
+							<ObjectRef Name="Play_Pick_Up_Puzzle" ID="{12E826DD-7A96-40EE-9D1E-7BCEA37C8A47}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Runner" ID="{7C574E14-4AE8-42DB-B631-328664FFED03}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SwitchButtons" ID="{287178B6-F4F7-4A89-B558-2A5ECEEC8142}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Valv" ID="{1164921E-57D7-4A0B-9649-8E00BE7CE8FF}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
+							<Position X="4" Y="6"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -468,7 +496,7 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
-						<CurrentSwitchRef Name="Carpet" ID="{49626C79-B44F-4186-B298-E4D7EA6A73C5}"/>
+						<CurrentSwitchRef Name="Lino" ID="{B1630C93-1781-45FF-A6DA-EDEB1850FC30}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
 						<CurrentSwitchRef Name="Default" ID="{5FB87FA5-08A2-48E9-958B-5E78B4A267D1}"/>
