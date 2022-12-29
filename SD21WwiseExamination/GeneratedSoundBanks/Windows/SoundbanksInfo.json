@@ -56,7 +56,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "2002213447",
+    "Hash": "2022931076",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -864,7 +864,7 @@
     "Id": "3161908922",
     "GUID": "{5421AEBB-4246-409D-870F-D804332B1B02}",
     "Language": "SFX",
-    "Hash": "3215346196",
+    "Hash": "3120305056",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -2603,7 +2603,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "4113841683",
+    "Hash": "3916039068",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -3569,14 +3569,6 @@
         "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S4.wav",
         "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S4_3CADDE39.wem"
        }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
       ]
      },
      {
@@ -3693,10 +3685,17 @@
       "Name": "Play_PoliceHub_A4_S45_Tut",
       "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A4_S45_Tut",
       "GUID": "{3D354000-E547-4FD0-AFA0-54D7C34506FD}",
-      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "24.419434",
+      "DurationMax": "24.419434",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "536395113",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A4_S45_Tut.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A4_S45_Tut_3CADDE39.wem"
+       }
+      ]
      },
      {
       "Id": "1783234309",
@@ -4084,7 +4083,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "1089249493",
+    "Hash": "989133255",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -5448,7 +5447,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "2863650616",
+    "Hash": "2442299634",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",

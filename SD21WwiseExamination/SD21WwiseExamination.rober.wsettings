@@ -302,11 +302,29 @@
 				<Property Name="Interactive Music\x64_{F71FD57D-4A0F-490C-B406-A93F4EA9BA74} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1Wz/gx+Ez5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{F9E34463-408B-43AF-9117-36CD1A6EF620} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzIix//BSC1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\LastObject2" Type="string" Value="{ABE69BCB-4419-4E78-95D6-DD412512ED14}"/>
+				<Property Name="MeterView\LastObject3" Type="string" Value="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}"/>
+				<Property Name="MeterView\LastObject4" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="MeterView\MeterMode2" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode2Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode2Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode2Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode2Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="MeterView\MeterMode3" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode3Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode3Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode3Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode3Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="MeterView\MeterMode4" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode4Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode4Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode4Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode4Viewpoint3" Type="int32" Value="0"/>
 				<Property Name="Mixing Desk\GroupCollapse\x64_{A3A2B66B-7DEC-4B20-84EB-C3B52BFA0034}" Type="string" Value="AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAA=="/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{A3A2B66B-7DEC-4B20-84EB-C3B52BFA0034}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
@@ -382,7 +400,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_11_2" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_2" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{5200DDC1-D73D-4220-95BA-BD09FDD505B9}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_2" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_2" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
@@ -471,7 +489,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{CAB47C1B-1E23-4525-B9D3-3997726640D0}"/>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{69681B5A-6B10-4451-A15E-AAE6ECAC9362}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

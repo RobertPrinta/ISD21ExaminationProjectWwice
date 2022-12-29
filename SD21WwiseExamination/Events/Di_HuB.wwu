@@ -89,20 +89,10 @@
 				</Event>
 				<Event Name="Play_PoliceHub_A1_S4" ID="{2B197C8A-C155-41CA-9973-E44E3FA4172E}">
 					<ChildrenList>
-						<Action Name="" ID="{1301A22B-4A80-4D59-B389-1A229FA7DEB2}" ShortID="313193128">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Play_Stop_ALL_Dialogue" ID="{9449E5F2-72D3-4511-82E3-B804759BF835}" WorkUnitID="{B2850E86-100A-408E-86B6-D08D49F44F1A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{7822C1BE-D521-464F-8938-03325244856C}" ShortID="1007277539">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="PoliceHub_A1_S4" ID="{BD1BF655-4AB3-47F1-B409-EC1D104DE226}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
+									<ObjectRef Name="PoliceHub_A1_S4" ID="{ADD39893-3761-4CA9-A032-1E0A945B9C26}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
