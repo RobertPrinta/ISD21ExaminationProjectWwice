@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="4113841683">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="3916039068">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -443,9 +443,6 @@
 							<Path>SFX\Dialogue\Hub\PoliceHub_A1_S4_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="1118411497" Name="Play_PoliceHub_A1_S5" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S5" GUID="{0B23316B-0C59-48AD-A217-77E066927931}" DurationType="OneShot" DurationMin="3.901678" DurationMax="3.901678">
 					<IncludedMemoryFiles>
@@ -496,7 +493,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="417544894" Name="Play_PoliceHub_A4_S45_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A4_S45_Tut" GUID="{3D354000-E547-4FD0-AFA0-54D7C34506FD}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="417544894" Name="Play_PoliceHub_A4_S45_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A4_S45_Tut" GUID="{3D354000-E547-4FD0-AFA0-54D7C34506FD}" DurationType="OneShot" DurationMin="24.419434" DurationMax="24.419434">
+					<IncludedMemoryFiles>
+						<File Id="536395113" Language="SFX">
+							<ShortName>Dialogue\Hub\PoliceHub_A4_S45_Tut.wav</ShortName>
+							<Path>SFX\Dialogue\Hub\PoliceHub_A4_S45_Tut_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1783234309" Name="Play_Sigifrit_A1_S16" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S16" GUID="{7EE5EA54-1515-4A2F-87EF-8888907EAA33}" DurationType="OneShot" DurationMin="4.488027" DurationMax="4.488027">
 					<IncludedMemoryFiles>
 						<File Id="939100521" Language="SFX">

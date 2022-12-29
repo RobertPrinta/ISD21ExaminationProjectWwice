@@ -36,7 +36,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="2002213447">
+		<SoundBank Id="712956476" GUID="{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}" Language="SFX" Hash="2022931076">
 			<ObjectPath>\SoundBanks\Default Work Unit\AmbientSB</ObjectPath>
 			<ShortName>AmbientSB</ShortName>
 			<Path>AmbientSB.bnk</Path>
@@ -428,7 +428,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="3215346196">
+		<SoundBank Id="3161908922" GUID="{5421AEBB-4246-409D-870F-D804332B1B02}" Language="SFX" Hash="3120305056">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -1303,7 +1303,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="4113841683">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="3916039068">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -1738,9 +1738,6 @@
 							<Path>SFX\Dialogue\Hub\PoliceHub_A1_S4_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="1118411497" Name="Play_PoliceHub_A1_S5" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S5" GUID="{0B23316B-0C59-48AD-A217-77E066927931}" DurationType="OneShot" DurationMin="3.901678" DurationMax="3.901678">
 					<IncludedMemoryFiles>
@@ -1791,7 +1788,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="417544894" Name="Play_PoliceHub_A4_S45_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A4_S45_Tut" GUID="{3D354000-E547-4FD0-AFA0-54D7C34506FD}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="417544894" Name="Play_PoliceHub_A4_S45_Tut" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A4_S45_Tut" GUID="{3D354000-E547-4FD0-AFA0-54D7C34506FD}" DurationType="OneShot" DurationMin="24.419434" DurationMax="24.419434">
+					<IncludedMemoryFiles>
+						<File Id="536395113" Language="SFX">
+							<ShortName>Dialogue\Hub\PoliceHub_A4_S45_Tut.wav</ShortName>
+							<Path>SFX\Dialogue\Hub\PoliceHub_A4_S45_Tut_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1783234309" Name="Play_Sigifrit_A1_S16" ObjectPath="\Events\Dialogue\Di_OldLady\Play_Sigifrit_A1_S16" GUID="{7EE5EA54-1515-4A2F-87EF-8888907EAA33}" DurationType="OneShot" DurationMin="4.488027" DurationMax="4.488027">
 					<IncludedMemoryFiles>
 						<File Id="939100521" Language="SFX">
@@ -1963,7 +1967,7 @@
 				<Event Id="1194815331" Name="Play_Stop_ALL_Dialogue" ObjectPath="\Events\Dialogue\Play_Stop_ALL_Dialogue" GUID="{9449E5F2-72D3-4511-82E3-B804759BF835}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="1089249493">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="989133255">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
@@ -2683,7 +2687,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="2863650616">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="2442299634">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>

@@ -16,7 +16,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "4113841683",
+    "Hash": "3916039068",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -982,14 +982,6 @@
         "ShortName": "Dialogue\\Hub\\PoliceHub_A1_S4.wav",
         "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A1_S4_3CADDE39.wem"
        }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "1194815331",
-        "Name": "Play_Stop_ALL_Dialogue",
-        "ObjectPath": "\\Events\\Dialogue\\Play_Stop_ALL_Dialogue",
-        "GUID": "{9449E5F2-72D3-4511-82E3-B804759BF835}"
-       }
       ]
      },
      {
@@ -1106,10 +1098,17 @@
       "Name": "Play_PoliceHub_A4_S45_Tut",
       "ObjectPath": "\\Events\\Dialogue\\Di_HuB\\Play_PoliceHub_A4_S45_Tut",
       "GUID": "{3D354000-E547-4FD0-AFA0-54D7C34506FD}",
-      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "24.419434",
+      "DurationMax": "24.419434",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "536395113",
+        "Language": "SFX",
+        "ShortName": "Dialogue\\Hub\\PoliceHub_A4_S45_Tut.wav",
+        "Path": "SFX\\Dialogue\\Hub\\PoliceHub_A4_S45_Tut_3CADDE39.wem"
+       }
+      ]
      },
      {
       "Id": "1783234309",
