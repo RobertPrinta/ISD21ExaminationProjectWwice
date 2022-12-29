@@ -1479,6 +1479,11 @@
 								<Sound Name="BlenderLP" ID="{B1F7B1DC-4D1F-42A3-97A4-2110375B282C}" ShortID="706580876">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1510,6 +1515,11 @@
 								<Sound Name="DestillerLP" ID="{CDEF2873-5A95-446E-AD74-59364E68A220}" ShortID="6732833">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1545,6 +1555,11 @@
 								<Sound Name="HeaterLP" ID="{5FAB4D83-454E-4E07-8327-CCEC82700272}" ShortID="46950246">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1648,6 +1663,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="KeyPad_Correct" ID="{94ED398E-E25C-415E-8DD2-92C6A5DEC5D9}" ShortID="360325783">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1671,6 +1693,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="KeyPad_Error" ID="{81C061C3-50F0-4AAD-A73F-656FAE7D367A}" ShortID="177691240">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1703,7 +1732,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-14</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

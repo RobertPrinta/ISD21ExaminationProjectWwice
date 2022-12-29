@@ -1891,11 +1891,6 @@
 										<Sound Name="AB_FireLoop_3D" ID="{9CBBEAC6-3E01-4109-A129-1D71F49896C2}" ShortID="371324055">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">

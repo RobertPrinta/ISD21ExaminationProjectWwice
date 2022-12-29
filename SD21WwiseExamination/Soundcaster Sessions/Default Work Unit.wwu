@@ -421,6 +421,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_PoliceHub_A1_S5" ID="{0B23316B-0C59-48AD-A217-77E066927931}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_PoliceHub_A1_S2_Tut" ID="{9AF3936F-6BE3-48D2-BD03-023E12DC05F7}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
 							<Position X="0" Y="4"/>
 						</Module>
