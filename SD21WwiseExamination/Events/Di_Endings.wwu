@@ -36,7 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Ending_Emilia" ID="{290B8A6A-CF9E-45D3-999D-3EC591FD0976}"/>
+				<Event Name="Play_Ending_Emilia" ID="{290B8A6A-CF9E-45D3-999D-3EC591FD0976}">
+					<ChildrenList>
+						<Action Name="" ID="{526B78D2-F6E1-49FE-8FA1-4C76470522FF}" ShortID="857762258">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending_Emilia" ID="{3D37DC94-C780-4951-99AA-40977391A51B}" WorkUnitID="{2FBB5D9B-15F0-4570-B851-6041A1E8F74E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
