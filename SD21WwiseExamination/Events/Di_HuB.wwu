@@ -141,6 +141,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PoliceHub_A4_S45_Tut" ID="{3D354000-E547-4FD0-AFA0-54D7C34506FD}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

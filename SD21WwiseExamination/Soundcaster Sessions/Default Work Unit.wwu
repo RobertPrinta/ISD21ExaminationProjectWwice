@@ -417,6 +417,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Wind_3D" ID="{B6944C11-A739-4A98-9152-173C0E55C5DF}" WorkUnitID="{D1104918-41A3-4BA9-AE82-B8911D50831E}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Coin" ID="{485602A8-3A3A-42FB-8619-618456F906CF}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
 							<Position X="0" Y="6"/>
 						</Module>
@@ -429,12 +433,20 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_PoliceHub_A1_S2_Tut" ID="{9AF3936F-6BE3-48D2-BD03-023E12DC05F7}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Drawer" ID="{776FED0A-8D09-438D-AF2A-93D11E06229A}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
 							<Position X="1" Y="6"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_OldLady" ID="{01F2B377-D584-4E43-A03D-50015A4F0E78}" WorkUnitID="{CB4043EC-E7C9-4D72-988D-3C99CE95180E}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PoliceHub_A1_S3" ID="{DBDFB023-B576-473C-AC05-E745AFE0F0AE}" WorkUnitID="{CDB0D8CE-63B3-4F0C-B8A1-167E95ABBAB0}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Pick_Up_Puzzle" ID="{12E826DD-7A96-40EE-9D1E-7BCEA37C8A47}" WorkUnitID="{67C36BFE-9C0B-4D12-920C-894D15CAC367}"/>
@@ -492,14 +504,15 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{E11AFFBE-74CB-4AA0-A7B9-9E79B144A966}"/>
+						<CurrentStateRef Name="Act1" ID="{EFFBFEA6-EC57-4917-AD0C-D87D71E80D60}"/>
+						<CurrentStateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
-						<CurrentSwitchRef Name="Lino" ID="{B1630C93-1781-45FF-A6DA-EDEB1850FC30}"/>
+						<CurrentSwitchRef Name="Wood" ID="{25FA518A-9DE7-4C4E-80A0-9A4E44BBF24D}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
-						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
-						<CurrentSwitchRef Name="Default" ID="{5FB87FA5-08A2-48E9-958B-5E78B4A267D1}"/>
+						<CurrentSwitchRef Name="Runner" ID="{322CEF9C-0110-4B99-BAED-432F6AD8E3C2}"/>
+						<CurrentSwitchRef Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

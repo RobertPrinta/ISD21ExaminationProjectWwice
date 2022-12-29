@@ -2838,6 +2838,11 @@
 								<RandomSequenceContainer Name="AB_Wind_3D" ID="{73F35C69-CF8B-4C4F-8CF7-553783C1DE6B}" ShortID="797003073">
 									<PropertyList>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
