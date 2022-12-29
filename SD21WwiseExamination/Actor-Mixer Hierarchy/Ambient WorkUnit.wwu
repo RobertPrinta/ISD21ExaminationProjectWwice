@@ -908,6 +908,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Ventilation_Storage_1_3D" ID="{AA318922-9C4F-4826-8FCC-F6156EB9D31D}" ShortID="822823225">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -931,6 +934,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Ventilation_Storage_2_3D" ID="{5E3EC1F2-AB2D-4C9E-A363-FF879104C448}" ShortID="550581760">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -954,6 +960,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Ventilation_Storage_3_3D" ID="{A1B4AF2E-C107-4C70-9D00-4035FB7DB0E7}" ShortID="832922634">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -977,6 +986,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Ventilation_Storage_4_3D" ID="{E600ADEF-2D6B-40EA-8584-416D87C7AA77}" ShortID="696213116">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1000,6 +1012,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Ventilation_Storage_5_3D" ID="{5B470025-BA6D-41F6-A952-56AC11429545}" ShortID="777477253">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1085,6 +1100,13 @@
 							<ObjectLists/>
 						</ActorMixer>
 						<ActorMixer Name="AB_Dream_Machine" ID="{8D2B619D-0D1F-41C9-A9A7-C6D540BE37CC}" ShortID="229809556">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -1363,6 +1385,76 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<Sound Name="AB_Desk_Fan_3D" ID="{8067A4E3-C19B-42A5-BE35-0BCBA3AAC883}" ShortID="158414639">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Generic_10m" ID="{0F21200F-4F50-4F6F-9381-BB9AD43FE5F3}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AB_Desk_Fan_3D" ID="{BBF4F43F-CE31-4C50-A2C5-E9B999C82145}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\3D\AB_Desk_Fan_3D.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="315448986"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AB_Desk_Fan_3D" ID="{BBF4F43F-CE31-4C50-A2C5-E9B999C82145}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ventilation_Storage_5_3D" ID="{C44AA36B-53F4-414D-BF52-3F9A8FEBA4E7}" ShortID="860407229">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_Generic_10m" ID="{0F21200F-4F50-4F6F-9381-BB9AD43FE5F3}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ventilation_Storage_5_3D" ID="{BED8BE27-E40D-4C4B-B82B-637D71BC79D4}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\3D\Ventilation_Storage_5_3D.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="724965767"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ventilation_Storage_5_3D" ID="{BED8BE27-E40D-4C4B-B82B-637D71BC79D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
@@ -2561,42 +2653,6 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="AB_Ceiling_Fan_3D" ID="{DFB58B60-EC3E-4E21-9619-3F1FFB55E6FC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AB_Desk_Fan_3D" ID="{8067A4E3-C19B-42A5-BE35-0BCBA3AAC883}" ShortID="158414639">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AB_Desk_Fan_3D" ID="{BBF4F43F-CE31-4C50-A2C5-E9B999C82145}">
-											<Language>SFX</Language>
-											<AudioFile>Ambience\3D\AB_Desk_Fan_3D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="315448986"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="AB_Desk_Fan_3D" ID="{BBF4F43F-CE31-4C50-A2C5-E9B999C82145}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<ActorMixer Name="AB_Fridge_3D" ID="{D747EE24-E110-48A5-9FB4-180149EF5CCC}" ShortID="146822894">
