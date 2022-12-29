@@ -15,11 +15,6 @@
 					<ChildrenList>
 						<SwitchContainer Name="AB_Level" ID="{9200AB4E-57EA-4165-A465-FD561AE42284}" ShortID="396631157">
 							<PropertyList>
-								<Property Name="MakeUpGain" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
-								</Property>
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>

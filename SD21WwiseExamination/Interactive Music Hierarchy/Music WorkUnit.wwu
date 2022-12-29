@@ -5,10 +5,15 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="OldLadyMusic1" ID="{D67909C7-5B3B-4E47-A34F-48168EC235FD}" ShortID="93409855">
 					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-19</Value>
+								<Value>-17</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2852,7 +2857,7 @@
 						<Property Name="Tempo" Type="Real64" Value="50"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -4084,7 +4089,7 @@
 						<Property Name="Tempo" Type="Real64" Value="107"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-9</Value>
+								<Value>-10</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -9465,7 +9470,7 @@
 						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-9</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -10415,6 +10420,11 @@
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="OldLadyMusic2" ID="{6E8DBF88-3B00-428B-89EA-646ED92BB5D8}" ShortID="894420355">
 					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
