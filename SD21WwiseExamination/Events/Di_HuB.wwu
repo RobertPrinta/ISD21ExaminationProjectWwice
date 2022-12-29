@@ -142,7 +142,17 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_PoliceHub_A4_S45_Tut" ID="{3D354000-E547-4FD0-AFA0-54D7C34506FD}"/>
-				<Event Name="Play_PoliceHub_A1_S1" ID="{4B6A1821-54B3-407A-9FD9-B71CE8E7BFF7}"/>
+				<Event Name="Play_PoliceHub_A1_S1_Intro" ID="{4B6A1821-54B3-407A-9FD9-B71CE8E7BFF7}">
+					<ChildrenList>
+						<Action Name="" ID="{A9B97F8F-F480-4600-9C1D-FB6D3455FB9E}" ShortID="986182663">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PoliceHub_A1_S1_Intro" ID="{FB21F80D-5D17-4298-BCBD-FC0FEE1E35D1}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
