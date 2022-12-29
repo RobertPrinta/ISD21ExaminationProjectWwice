@@ -142,6 +142,7 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_PoliceHub_A4_S45_Tut" ID="{3D354000-E547-4FD0-AFA0-54D7C34506FD}"/>
+				<Event Name="Play_PoliceHub_A1_S1" ID="{4B6A1821-54B3-407A-9FD9-B71CE8E7BFF7}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
