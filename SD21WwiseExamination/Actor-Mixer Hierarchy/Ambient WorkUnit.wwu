@@ -16,6 +16,11 @@
 						<SwitchContainer Name="AB_Level" ID="{9200AB4E-57EA-4165-A465-FD561AE42284}" ShortID="396631157">
 							<PropertyList>
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -111,6 +116,11 @@
 														<Value>4</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -137,6 +147,11 @@
 										<Sound Name="AB_Big_Room_HeadlockedLP" ID="{FC23CF8F-72D2-4656-9335-3D42C1BC76A4}" ShortID="314059373">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -241,6 +256,11 @@
 										<Sound Name="AB_Small_Room_HeadlockedLP" ID="{021A2C96-FD58-416A-B8D5-9E323E511240}" ShortID="1027473474">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -267,6 +287,11 @@
 										<Sound Name="AB_Big_Room_HeadlockedLP" ID="{2AB91F5A-7913-4BDE-BCB9-3E8188E7E879}" ShortID="720958938">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -365,6 +390,11 @@
 										<Sound Name="AB_Outdoors" ID="{170B1B1B-91F9-4499-BE95-C00535DAC470}" ShortID="156953898">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -376,6 +406,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="AB_Outdoors" ID="{0A51B8F9-9A48-40FB-A62D-36748062528D}">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>2.5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambience\Headlocked\AB_Outdoors.wav</AudioFile>
 													<MediaIDList>
@@ -410,6 +447,11 @@
 												<Sound Name="AB_Small_Room_HeadlockedLP" ID="{33E9FE7E-C409-4AE4-916A-DE71A6639806}" ShortID="594930325">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>7</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -436,6 +478,11 @@
 												<Sound Name="AB_Big_Room_HeadlockedLP" ID="{19547E7D-46F1-4D77-A2D5-F3415CC0471B}" ShortID="949293301">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -606,6 +653,11 @@
 												<Sound Name="AB_Small_Room_HeadlockedLP" ID="{7B45405F-32DA-4CAE-9865-7CCCB8713926}" ShortID="190023297">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>7</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -632,6 +684,11 @@
 												<Sound Name="AB_Big_Room_HeadlockedLP" ID="{86DD4BB9-75F3-4965-9241-6AFA138C1D83}" ShortID="651009922">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
