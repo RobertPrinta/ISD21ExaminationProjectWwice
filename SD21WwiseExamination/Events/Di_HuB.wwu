@@ -144,10 +144,10 @@
 				</Event>
 				<Event Name="Play_PoliceHub_A1_S1_Intro" ID="{4B6A1821-54B3-407A-9FD9-B71CE8E7BFF7}">
 					<ChildrenList>
-						<Action Name="" ID="{A9B97F8F-F480-4600-9C1D-FB6D3455FB9E}" ShortID="986182663">
+						<Action Name="" ID="{7B5126F6-6582-4716-8944-889FC99B1CBD}" ShortID="820168953">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="PoliceHub_A1_S1_Intro" ID="{FB21F80D-5D17-4298-BCBD-FC0FEE1E35D1}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
+									<ObjectRef Name="PoliceHub_A1_S1_Intro" ID="{24679155-E299-4A30-A595-AE0D5D8EF51C}" WorkUnitID="{B2658637-C0DB-4FCF-B4AE-780B4C2734B7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

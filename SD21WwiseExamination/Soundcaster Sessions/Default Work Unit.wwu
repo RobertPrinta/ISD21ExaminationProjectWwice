@@ -737,7 +737,7 @@
 						<CurrentSwitchRef Name="Concrete" ID="{A6E06224-83F6-4BFF-9DC3-53A4F16F26B5}"/>
 						<CurrentSwitchRef Name="Running" ID="{1AE29A23-ED00-467F-929E-092D3D4B00F5}"/>
 						<CurrentSwitchRef Name="Hub" ID="{9A83165F-A0DD-47EB-9147-626FAE542D5E}"/>
-						<CurrentSwitchRef Name="RoomSmall" ID="{5D010B08-4CCE-4BE9-8095-9D5446797640}"/>
+						<CurrentSwitchRef Name="RoomBig" ID="{D57D1D7F-3A1D-4E7F-8BAC-10285EEA7B33}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
