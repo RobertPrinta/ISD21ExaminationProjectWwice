@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{AFDBD36C-8895-4560-97BB-24C383FA6989}" WorkUnitID="{5200DDC1-D73D-4220-95BA-BD09FDD505B9}"/>
@@ -491,6 +498,9 @@
 										<Bus Name="DialogueMaster" ID="{BFCB4F53-74E1-4806-AD6D-F46EA8B480D8}">
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
 													<RTPCList>
 														<RTPC Name="" ID="{62C73028-5F58-4DCE-BE44-DCAF03692F12}" ShortID="568527348">
 															<ReferenceList>

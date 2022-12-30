@@ -9470,7 +9470,7 @@
 						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-9</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
