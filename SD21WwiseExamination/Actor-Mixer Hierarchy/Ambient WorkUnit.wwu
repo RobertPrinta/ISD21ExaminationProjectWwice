@@ -796,12 +796,110 @@
 												<ActiveSource Name="AB_Laundromat_Ambience" ID="{B77FEC85-BA76-408D-A3F7-4586226A5767}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<RandomSequenceContainer Name="AB_Wind_3D" ID="{73F35C69-CF8B-4C4F-8CF7-553783C1DE6B}" ShortID="797003073">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Generic_25m" ID="{2BB92BAE-1D68-4FB0-B9F6-2AE415E2FED8}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C791A1E2-C604-44C4-892C-A40D8E8339B5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient3D" ID="{9FFE511D-77A4-49D9-B4F4-B348B4B499F5}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AB_Windloop_1_3D" ID="{B8F0B85E-BDCF-48EE-915D-F377A8A54971}" ShortID="659858743">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Windloop_1_3D" ID="{F509EEA6-FE90-4CBE-99DD-028A92796544}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_Windloop_1_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="460082866"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Windloop_1_3D" ID="{F509EEA6-FE90-4CBE-99DD-028A92796544}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AB_Windloop_2_3D" ID="{93EC0F25-4AE2-4ED2-BC24-FE58EC091144}" ShortID="910134109">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AB_Windloop_2_3D" ID="{51173045-DB1A-4881-B6E5-300C35F94861}">
+															<Language>SFX</Language>
+															<AudioFile>Ambience\3D\AB_Windloop_2_3D.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="560725150"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="AB_Windloop_2_3D" ID="{51173045-DB1A-4881-B6E5-300C35F94861}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="AB_RoomType" ID="{FB3A8465-121A-411B-A7ED-73C568C31AE2}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="AB_Wind_3D" ID="{73F35C69-CF8B-4C4F-8CF7-553783C1DE6B}"/>
 												<PropertyList>
 													<Property Name="ContinuePlay" Type="bool" Value="True"/>
 													<Property Name="FadeInTime" Type="Real64">
@@ -834,6 +932,12 @@
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Outdoors" ID="{10680EB0-6A13-4457-AA70-FF5A98FCF9BD}"/>
+												<ItemList>
+													<ItemRef Name="AB_Wind_3D" ID="{73F35C69-CF8B-4C4F-8CF7-553783C1DE6B}"/>
+												</ItemList>
+											</Grouping>
 											<Grouping>
 												<SwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
 												<ItemList>
@@ -2896,86 +3000,6 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<RandomSequenceContainer Name="AB_Wind_3D" ID="{73F35C69-CF8B-4C4F-8CF7-553783C1DE6B}" ShortID="797003073">
-									<PropertyList>
-										<Property Name="MakeUpGain" Type="Real64">
-											<ValueList>
-												<Value>-1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="AB_Windloop_1_3D" ID="{B8F0B85E-BDCF-48EE-915D-F377A8A54971}" ShortID="659858743">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="AB_Windloop_1_3D" ID="{F509EEA6-FE90-4CBE-99DD-028A92796544}">
-													<Language>SFX</Language>
-													<AudioFile>Ambience\3D\AB_Windloop_1_3D.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="460082866"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="AB_Windloop_1_3D" ID="{F509EEA6-FE90-4CBE-99DD-028A92796544}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="AB_Windloop_2_3D" ID="{93EC0F25-4AE2-4ED2-BC24-FE58EC091144}" ShortID="910134109">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="AB_Windloop_2_3D" ID="{51173045-DB1A-4881-B6E5-300C35F94861}">
-													<Language>SFX</Language>
-													<AudioFile>Ambience\3D\AB_Windloop_2_3D.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="560725150"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="AB_Windloop_2_3D" ID="{51173045-DB1A-4881-B6E5-300C35F94861}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<ObjectLists/>
-								</RandomSequenceContainer>
-							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
 					</ChildrenList>
