@@ -762,6 +762,12 @@
 															<ItemRef Name="AB_Big_Room_HeadlockedLP" ID="{86DD4BB9-75F3-4965-9241-6AFA138C1D83}"/>
 														</ItemList>
 													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Default" ID="{5FB87FA5-08A2-48E9-958B-5E78B4A267D1}"/>
+														<ItemList>
+															<ItemRef Name="AB_Small_Room_HeadlockedLP" ID="{7B45405F-32DA-4CAE-9865-7CCCB8713926}"/>
+														</ItemList>
+													</Grouping>
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
@@ -796,10 +802,62 @@
 												<ActiveSource Name="AB_Laundromat_Ambience" ID="{B77FEC85-BA76-408D-A3F7-4586226A5767}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="AB_Wind_Headlocked" ID="{7821971A-E7DD-4AA6-B107-5773D1B417BB}" ShortID="991651683">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="SoundSeed Air Wind" ID="{606E48D0-36E4-49F4-8E5D-7740B3BC002A}" ShortID="729743818" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+													<PropertyList>
+														<Property Name="AverageVelocity" Type="Real32" Value="-1240"/>
+														<Property Name="Gustiness" Type="Real32" Value="0.23"/>
+														<Property Name="Variability" Type="Real32" Value="0.32"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<PluginData/>
+													<PluginInnerObjectList>
+														<List Name="Deflectors">
+															<PluginInnerObject Name="" ID="{ECDFD97B-0B19-4507-8A9E-09F55AB5AE07}" PluginName="Deflector" CompanyID="0" PluginID="121"/>
+														</List>
+													</PluginInnerObjectList>
+												</SourcePlugin>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SoundSeed Air Wind" ID="{606E48D0-36E4-49F4-8E5D-7740B3BC002A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="AB_Wind_Headlocked" ID="{7821971A-E7DD-4AA6-B107-5773D1B417BB}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>3</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="AB_RoomType" ID="{FB3A8465-121A-411B-A7ED-73C568C31AE2}"/>
 												<PropertyList>
@@ -834,6 +892,12 @@
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Outdoors" ID="{10680EB0-6A13-4457-AA70-FF5A98FCF9BD}"/>
+												<ItemList>
+													<ItemRef Name="AB_Wind_Headlocked" ID="{7821971A-E7DD-4AA6-B107-5773D1B417BB}"/>
+												</ItemList>
+											</Grouping>
 											<Grouping>
 												<SwitchRef Name="Indoors" ID="{2247D0C3-83B9-4ED7-B55B-47A10BE2F138}"/>
 												<ItemList>
