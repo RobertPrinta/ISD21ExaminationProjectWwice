@@ -20,7 +20,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="New Music Playlist Container" ID="{F2A49F03-AC8B-4602-A57C-C26762F92BC5}" ShortID="102458174">
+						<MusicPlaylistContainer Name="MainTeamMusic" ID="{F2A49F03-AC8B-4602-A57C-C26762F92BC5}" ShortID="102458174">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -30,14 +30,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="MAIN THEME (DEMO 2)" ID="{0CD51EC4-2985-4B74-A58A-15F09879D119}" ShortID="338197847">
+								<MusicSegment Name="Ossian Reynolds - Main Theme" ID="{E704AD76-18CC-4533-9CA8-D28DEAC87BD2}" ShortID="856156953">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="178285.729166667"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -48,23 +43,30 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="MAIN THEME (DEMO 2)" ID="{0D9E3085-7966-4C18-8036-463FAC0A5BF1}" ShortID="758173993">
+										<MusicTrack Name="Ossian Reynolds - Main Theme" ID="{67EF2C58-ACAC-4E8A-9212-589016CABAD6}" ShortID="187048212">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{560A6F75-7177-4669-BB02-0A9B95F8BC1B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MAIN THEME (DEMO 2)" ID="{7769E450-4CD5-4E4A-A80E-541E0447FDA7}">
+												<AudioFileSource Name="Ossian Reynolds - Main Theme" ID="{2A1D7A63-EFEB-4634-A4BC-F08B368BA9E1}">
 													<Language>SFX</Language>
-													<AudioFile>Music\Theam\MAIN THEME (DEMO 2).wav</AudioFile>
+													<AudioFile>Music\Theam\Ossian Reynolds - Main Theme.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="927860421"/>
+														<MediaID ID="308674"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{F08B0469-0C82-4D9D-9BA4-BCB82EE90EFB}">
+												<MusicTransition Name="Root" ID="{8FE41799-C242-4BE1-92B9-388D0A303F69}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -75,18 +77,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{12CBC453-DA97-4482-8D27-96419C6CD298}">
+															<MusicTrackSequence Name="" ID="{0AA8ADFA-BF61-4943-AC22-00611F7C2E96}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="MAIN THEME (DEMO 2)" ID="{7EC3181E-490E-4665-975F-3BF4DC7BE819}">
+																				<MusicClip Name="Ossian Reynolds - Main Theme" ID="{B3778908-3F77-4280-AF54-F825168623DE}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="178285.729166667"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="MAIN THEME (DEMO 2)" ID="{7769E450-4CD5-4E4A-A80E-541E0447FDA7}"/>
+																					<AudioSourceRef Name="Ossian Reynolds - Main Theme" ID="{2A1D7A63-EFEB-4634-A4BC-F08B368BA9E1}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -103,12 +105,12 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{5B74BB2B-FD95-4F7E-A81D-3BF91128E3DE}"/>
+													<MusicCue Name="Entry Cue" ID="{E5399170-50DD-4905-AA24-F8AC93284A41}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{9EB9C1E8-C05C-49D8-A375-9827BB996F8B}">
+													<MusicCue Name="Exit Cue" ID="{C9835CBB-292C-4616-9FBA-6E6FDBA052DE}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="178285.729166667"/>
@@ -135,7 +137,16 @@
 							</TransitionList>
 							<ObjectLists/>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{C3FA8E65-FA0B-4546-AD37-F9CB3C4D403C}" ShortID="672168204"/>
+								<MusicPlaylistItem Name="" ID="{C3FA8E65-FA0B-4546-AD37-F9CB3C4D403C}" ShortID="672168204">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{4730A00A-D32D-4B5E-AB28-3CF37F432DA9}" ShortID="440302936">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Ossian Reynolds - Main Theme" ID="{E704AD76-18CC-4533-9CA8-D28DEAC87BD2}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
@@ -156,7 +167,7 @@
 					<EntryList>
 						<Entry>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="New Music Playlist Container" ID="{F2A49F03-AC8B-4602-A57C-C26762F92BC5}" WorkUnitID="{B2780D92-C5EB-4024-8856-2F8CCD5E7A41}" Platform="Linked"/>
+								<AudioNodeRef Name="MainTeamMusic" ID="{F2A49F03-AC8B-4602-A57C-C26762F92BC5}" WorkUnitID="{B2780D92-C5EB-4024-8856-2F8CCD5E7A41}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

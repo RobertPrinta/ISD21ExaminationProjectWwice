@@ -8,6 +8,9 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{AFDBD36C-8895-4560-97BB-24C383FA6989}" WorkUnitID="{5200DDC1-D73D-4220-95BA-BD09FDD505B9}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Masterlimiter" ID="{EBAA736A-6439-4265-B097-CD66F72D7AFA}" WorkUnitID="{2A8558B7-AC5C-4B41-9D30-AB8BC48DA910}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Master" ID="{1F943B1B-0DE1-43D8-A7BB-CCE598BBA163}">
@@ -116,7 +119,23 @@
 													</RTPCList>
 												</Property>
 											</PropertyList>
-											<ReferenceList/>
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Parametric EQ (Custom)" ID="{01A81E06-95D8-460A-8156-A5FFFA7A1F0C}" ShortID="529468706" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+															<PropertyList>
+																<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+																<Property Name="FrequencyBand1" Type="Real32" Value="350"/>
+																<Property Name="FrequencyBand2" Type="Real32" Value="1500"/>
+																<Property Name="GainBand1" Type="Real32" Value="-1.5"/>
+																<Property Name="GainBand2" Type="Real32" Value="-1.5"/>
+																<Property Name="QFactorBand1" Type="Real32" Value="0.7"/>
+																<Property Name="QFactorBand2" Type="Real32" Value="0.7"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
 											<StateInfo>
 												<StatePropertyList>
 													<Property Name="BusVolume"/>
@@ -498,6 +517,11 @@
 															</Curve>
 														</RTPC>
 													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>

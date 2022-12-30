@@ -56,7 +56,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "2022931076",
+    "Hash": "3863652953",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -418,6 +418,18 @@
         "Path": "SFX\\Ambience\\Headlocked\\AB_Outdoors_9EDFC787.wem"
        },
        {
+        "Id": "460082866",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Windloop_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Windloop_1_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "560725150",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Windloop_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Windloop_2_3D_9EDFC787.wem"
+       },
+       {
         "Id": "715327901",
         "Language": "SFX",
         "ShortName": "Ambience\\Headlocked\\AB_Big_Room_HeadlockedLP.wav",
@@ -467,7 +479,6 @@
       "Name": "Play_Wind_3D",
       "ObjectPath": "\\Events\\Ambience\\AB_Outdoors\\Play_Wind_3D",
       "GUID": "{B6944C11-A739-4A98-9152-173C0E55C5DF}",
-      "MaxAttenuation": "25000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -745,7 +756,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "1742006234",
+    "Hash": "2540354362",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -2603,7 +2614,7 @@
     "Id": "3934261240",
     "GUID": "{3C1EE6B0-9F08-463E-9699-828BF513D672}",
     "Language": "SFX",
-    "Hash": "3916039068",
+    "Hash": "3444978119",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSB",
     "ShortName": "DialogueSB",
     "Path": "DialogueSB.bnk",
@@ -4083,7 +4094,7 @@
     "Id": "4065589793",
     "GUID": "{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}",
     "Language": "SFX",
-    "Hash": "989133255",
+    "Hash": "304008080",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB",
     "ShortName": "MusicSB",
     "Path": "MusicSB.bnk",
@@ -4098,18 +4109,10 @@
       "DurationMax": "178.285736",
       "IncludedMemoryFiles": [
        {
-        "Id": "927860421",
+        "Id": "308674",
         "Language": "SFX",
-        "ShortName": "Music\\Theam\\MAIN THEME (DEMO 2).wav",
-        "Path": "SFX\\Music\\Theam\\MAIN THEME (DEMO 2)_9EDFC787.wem"
-       }
-      ],
-      "ActionPostEvent": [
-       {
-        "Id": "3529625474",
-        "Name": "Play_Stop_All_Music",
-        "ObjectPath": "\\Events\\PlayMusic\\Play_Stop_All_Music",
-        "GUID": "{CA580360-9EE3-4498-ABB4-C721F74B76F9}"
+        "ShortName": "Music\\Theam\\Ossian Reynolds - Main Theme.wav",
+        "Path": "SFX\\Music\\Theam\\Ossian Reynolds - Main Theme_9EDFC787.wem"
        }
       ]
      },
@@ -5447,7 +5450,7 @@
     "Id": "4223437857",
     "GUID": "{B0814C00-BEE1-4158-93E3-3C36433AB163}",
     "Language": "SFX",
-    "Hash": "2442299634",
+    "Hash": "3631557506",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractablesSB",
     "ShortName": "InteractablesSB",
     "Path": "InteractablesSB.bnk",

@@ -68,6 +68,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3915117343	Play_Sigifrit_A1_S54_BG			\Dialogue\Di_OldLady\Play_Sigifrit_A1_S54_BG	
 	4137677912	Play_Emilia_A3_S66_BG			\Dialogue\DiRunner\Play_Emilia_A3_S66_BG	
 
+Effect plug-ins	ID	Name	Type				Notes
+	1045658578	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	8756383	Sigifrit_A3_S32-	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\OldLady\Sigifrit_A3_S32-_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue OldLady Work Unit\Dialogue OldLady\Sigifrit_A3_S32-		148830
 	22048910	Emilia_A3_S64_BG	C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\.cache\Windows\SFX\Dialogue\Runner\Emilia_A3_S64_BG_3CADDE39.wem		\Actor-Mixer Hierarchy\Dialogue Work Unit\Di_Master_Actor-Mixer\Dialogue Runner Work Unit\DI_Runner_Actor-Mixer\Emilia_A3_S64_BG		119655

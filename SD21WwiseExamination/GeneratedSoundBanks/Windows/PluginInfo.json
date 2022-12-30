@@ -11,10 +11,22 @@
     "StaticLib": "AkSilenceSource"
    },
    {
+    "Name": "Wwise Parametric EQ",
+    "ID": "6881283",
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
+   },
+   {
     "Name": "Wwise Delay",
     "ID": "6946819",
     "DLL": "AkDelay",
     "StaticLib": "AkDelayFX"
+   },
+   {
+    "Name": "Wwise Peak Limiter",
+    "ID": "7208963",
+    "DLL": "AkPeakLimiter",
+    "StaticLib": "AkPeakLimiterFX"
    },
    {
     "Name": "Wwise RoomVerb",

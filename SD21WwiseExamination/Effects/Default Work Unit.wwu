@@ -19,6 +19,12 @@
 						<Property Name="Min" Type="Real32" Value="-96.3"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="Masterlimiter" ID="{EBAA736A-6439-4265-B097-CD66F72D7AFA}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.16"/>
+						<Property Name="Threshold" Type="Real32" Value="-7"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

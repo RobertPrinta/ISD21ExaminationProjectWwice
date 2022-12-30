@@ -71,7 +71,9 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2933838247	SmallRoom			\Default Work Unit\Master Audio Bus\Master\MainINgame\Rooms\SmallRoom	
 
 Effect plug-ins	ID	Name	Type				Notes
+	529468706	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	602546716	Room_Large	Wwise RoomVerb			
+	720514353	Masterlimiter	Wwise Peak Limiter			
 	1588715066	Echoes_Linear	Wwise Delay			
 	1990128658	Room_Medium	Wwise RoomVerb			
 	2653529179	Three_Voices	Wwise Harmonizer			

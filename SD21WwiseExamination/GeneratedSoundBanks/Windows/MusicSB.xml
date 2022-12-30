@@ -8,21 +8,18 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="989133255">
+		<SoundBank Id="4065589793" GUID="{09EE4951-4ACF-43D8-8CEE-38D07191ED1F}" Language="SFX" Hash="304008080">
 			<ObjectPath>\SoundBanks\Default Work Unit\MusicSB</ObjectPath>
 			<ShortName>MusicSB</ShortName>
 			<Path>MusicSB.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3009755888" Name="Play_MainTheme" ObjectPath="\Events\PlayMusic\Play_MainTheme" GUID="{E13C3892-87B1-4F7B-BF9F-CBCB0B52DA6D}" DurationType="OneShot" DurationMin="178.285736" DurationMax="178.285736">
 					<IncludedMemoryFiles>
-						<File Id="927860421" Language="SFX">
-							<ShortName>Music\Theam\MAIN THEME (DEMO 2).wav</ShortName>
-							<Path>SFX\Music\Theam\MAIN THEME (DEMO 2)_9EDFC787.wem</Path>
+						<File Id="308674" Language="SFX">
+							<ShortName>Music\Theam\Ossian Reynolds - Main Theme.wav</ShortName>
+							<Path>SFX\Music\Theam\Ossian Reynolds - Main Theme_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="3529625474" Name="Play_Stop_All_Music" ObjectPath="\Events\PlayMusic\Play_Stop_All_Music" GUID="{CA580360-9EE3-4498-ABB4-C721F74B76F9}"/>
-					</ActionPostEvent>
 				</Event>
 				<Event Id="709266268" Name="Play_MusicHub" ObjectPath="\Events\PlayMusic\Play_MusicHub" GUID="{C3E0E349-4724-4570-9D91-A878DA702B8A}" DurationType="Infinite">
 					<IncludedMemoryFiles>

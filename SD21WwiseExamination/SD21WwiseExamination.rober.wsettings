@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{858C8DFD-367D-47E3-9C62-C3383FB8DE40}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\rober\Desktop\Sound Wwise 22\Rips\Oldlady\Bounses\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\rober\Desktop\Sound Wwise 22\Music\"/>
 				<Property Name="Event Action List\{00E8E351-0B14-4B33-8A69-D2AD5124F285}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{00EEDECC-2355-418C-8EE6-10F881E5908B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{01F2B377-D584-4E43-A03D-50015A4F0E78}\x64_Expand States" Type="string" Value=""/>
@@ -295,6 +295,7 @@
 				<Property Name="Interactive Music\x64_{E10856A2-2AAB-46D5-BB0A-DB5E60A09954} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAjHBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{E29CBF50-47C1-4C56-A46F-EAC786B3D2A9} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1UyIRUzYzFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{E5148DE9-5548-4A4F-BF35-99DC71572C4B} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAjHBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{E704AD76-18CC-4533-9CA8-D28DEAC87BD2} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP/Z0LLogDQFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{E76BACB8-5C29-47DB-9424-77158D4F87C5} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP2SlYxHDEz9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{EF8734C4-5DA4-4B0A-8FC6-37D169886E7E} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAgDNAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{F601DA18-5248-4F37-8077-30507166CF0C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1cyIRUzYzFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -414,7 +415,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_11_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_2" Type="string" Value="kGO6f/FM+kSdpfxl9m6PwA=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="PJZcQ6FY50yG4AVlg0TQDw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="JZibEszd40OjF/AFE0Nqu3atBOfMGDNFnKjSjerIe9IDn6Tyi6wCRqV8wmdi+SvFPJZcQ6FY50yG4AVlg0TQDw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_2" Type="string" Value=""/>
@@ -436,12 +437,12 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_2" Type="string" Value="rhrrdVMhOEqCfX0xftkvYQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_2" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="dW8KVndxaUa7Agqblfi8Gw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="GzuUH+EN2EOnu8zlmLuhY8cy93rTR6JEmEgOFmQhqRycnPq3HUfnRKGsRjV+frOldW8KVndxaUa7Agqblfi8G1NPy7/hdAZIrW30bqi0gNi+0bi4Cpc1TaaohgiG87cmy5vmqxlEeE6V1t1BJRLtFA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_2" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ83VvClZ3cWlGuwIKm5X4vBs="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="qtmzBDHFi0GYPMl2eRpqH30LB0B3btFDg9eMRVYxf+BF9/InoCn7Q7HvPeF6erHbm127L/AVcEW4UWBBoej3TgZNAnrewoRGpmEgB7Ykj2xsG9b6wQwcR5cGKJz6e4USiWTguanpi0e7/5+YC9/G0wOc0UmlWZhIn1EyBfO8HyRUC0K4BtbsSLKlhNoO5g8jGOn3x2Q7/Em4LFV4me4tYa3kX6WhRa5KgbTmYfyU0WFPfAuJBn7yTLwIiHFbs/0IUMgBTAEKLE2Qh81YckF5/KxMYT+BUL5PsF7XIYos/Pg3hmWy28DPT7SueAtMJzS3"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="qt/tsuwMzEGcArnNREspfc2p8QHEqVpCubo4GHBNyhKbXbsv8BVwRbhRYEGh6PdObBvW+sEMHEeXBiic+nuFEsAweq74dbhLhy7RkhvmJm1QyAFMAQosTZCHzVhyQXn8"/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_2" Type="string" Value="bBvW+sEMHEeXBiic+nuFElDIAUwBCixNkIfNWHJBefw="/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="Yx056uwSVECfXY4v6E2aeoYOhbIKEI5AhrbQjUn0TxqW8VFKVk+lQJXvce4KyX7YvZiWEr65E0KNcBmOewNPb1serpgO32NGkkmVvThGozvFXXdeHjH3SJb7tcwMkgSQ7ENAy8nnck2YjTyZzpUYDg=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_2" Type="string" Value="Yx056uwSVECfXY4v6E2aeoYOhbIKEI5AhrbQjUn0TxqW8VFKVk+lQJXvce4KyX7YSlBWyHH/rEGFi0bL7vRIB72YlhK+uRNCjXAZjnsDT28OIIXC/xJAQo6t7ay5WY6bQDGoxX/xYUOpV/VWnIy021uEqtDfPm5EuZLh4ln7Q09InVBlu2nBRbugDlFv2s3ROC7DRppffkaD5x5HzDr/fZx3M73LqDdHl0lm1PPkAYDFXXdeHjH3SJb7tcwMkgSQaJMuWcrmaEq9+69T+nupYv5rw2cLnBJNkgyJTRXKw2fsQ0DLyedyTZiNPJnOlRgOztiwzbNjDE+4oRZ+lau6sJWE0q8+CSFPvJGfdDBTUCM="/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="Yx056uwSVECfXY4v6E2aepbxUUpWT6VAle9x7grJfthbHq6YDt9jRpJJlb04RqM7xV13Xh4x90iW+7XMDJIEkOxDQMvJ53JNmI08mc6VGA4="/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_2" Type="string" Value="Yx056uwSVECfXY4v6E2aeoYOhbIKEI5AhrbQjUn0TxqW8VFKVk+lQJXvce4KyX7YSlBWyHH/rEGFi0bL7vRIB72YlhK+uRNCjXAZjnsDT28OIIXC/xJAQo6t7ay5WY6b8BdCgVlSQUK199qFA30Sy0AxqMV/8WFDqVf1VpyMtNtWwvLVanKbQ6Yo9ZD2xLREW4Sq0N8+bkS5kuHiWftDT0idUGW7acFFu6AOUW/azdE4LsNGml9+RoPnHkfMOv99nHczvcuoN0eXSWbU8+QBgMVdd14eMfdIlvu1zAySBJAfGD5Ar/ERSbIvtI2eLeuNaJMuWcrmaEq9+69T+nupYhhJENGjQalLroK4kR1Qgx7+a8NnC5wSTZIMiU0VysNn7ENAy8nnck2YjTyZzpUYDtaydKR0mI5OpesMD0Ra9GjO2LDNs2MMT7ihFn6Vq7qwlYTSrz4JIU+8kZ90MFNQIw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_2" Type="string" Value="re5FBg3TC0i5CCS2MipFn7GaiZeLD4lIkkxv42hyKTXYm+2tdQMVSZmflgNyvFCttcC4sVfuREmMSazjYt34mA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>

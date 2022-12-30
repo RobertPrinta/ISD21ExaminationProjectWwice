@@ -16,7 +16,7 @@
     "Id": "712956476",
     "GUID": "{B13F14F1-122E-43EE-8EE2-8D9AE7C4A5C4}",
     "Language": "SFX",
-    "Hash": "2022931076",
+    "Hash": "3863652953",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AmbientSB",
     "ShortName": "AmbientSB",
     "Path": "AmbientSB.bnk",
@@ -378,6 +378,18 @@
         "Path": "SFX\\Ambience\\Headlocked\\AB_Outdoors_9EDFC787.wem"
        },
        {
+        "Id": "460082866",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Windloop_1_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Windloop_1_3D_9EDFC787.wem"
+       },
+       {
+        "Id": "560725150",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3D\\AB_Windloop_2_3D.wav",
+        "Path": "SFX\\Ambience\\3D\\AB_Windloop_2_3D_9EDFC787.wem"
+       },
+       {
         "Id": "715327901",
         "Language": "SFX",
         "ShortName": "Ambience\\Headlocked\\AB_Big_Room_HeadlockedLP.wav",
@@ -427,7 +439,6 @@
       "Name": "Play_Wind_3D",
       "ObjectPath": "\\Events\\Ambience\\AB_Outdoors\\Play_Wind_3D",
       "GUID": "{B6944C11-A739-4A98-9152-173C0E55C5DF}",
-      "MaxAttenuation": "25000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
