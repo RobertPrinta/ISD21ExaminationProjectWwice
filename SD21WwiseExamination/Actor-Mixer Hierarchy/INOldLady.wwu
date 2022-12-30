@@ -177,8 +177,12 @@
 										<Value>-4</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Att_Generic_10m" ID="{0F21200F-4F50-4F6F-9381-BB9AD43FE5F3}" WorkUnitID="{FA76436A-E54C-4909-9B30-868BC1DD27C5}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 								</Reference>
