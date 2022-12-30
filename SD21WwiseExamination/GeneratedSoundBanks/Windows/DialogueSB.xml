@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="3444978119">
+		<SoundBank Id="3934261240" GUID="{3C1EE6B0-9F08-463E-9699-828BF513D672}" Language="SFX" Hash="1599936142">
 			<ObjectPath>\SoundBanks\Default Work Unit\DialogueSB</ObjectPath>
 			<ShortName>DialogueSB</ShortName>
 			<Path>DialogueSB.bnk</Path>
@@ -409,11 +409,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="861992510" Name="Play_PoliceHub_A1_S1_Intro" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S1_Intro" GUID="{4B6A1821-54B3-407A-9FD9-B71CE8E7BFF7}" DurationType="OneShot" DurationMin="45.842766" DurationMax="45.842766">
+				<Event Id="861992510" Name="Play_PoliceHub_A1_S1_Intro" ObjectPath="\Events\Dialogue\Di_HuB\Play_PoliceHub_A1_S1_Intro" GUID="{4B6A1821-54B3-407A-9FD9-B71CE8E7BFF7}" DurationType="OneShot" DurationMin="44.804874" DurationMax="44.804874">
 					<IncludedMemoryFiles>
-						<File Id="552647942" Language="SFX">
-							<ShortName>Dialogue\Hub\PoliceHub_A1_S1_Intro.wav</ShortName>
-							<Path>SFX\Dialogue\Hub\PoliceHub_A1_S1_Intro_3CADDE39.wem</Path>
+						<File Id="1036068725" Language="SFX">
+							<ShortName>Dialogue\HubTutorials\PoliceHub_A1_S1_Intro.wav</ShortName>
+							<Path>SFX\Dialogue\HubTutorials\PoliceHub_A1_S1_Intro_3CADDE39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -73,12 +73,12 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	529468706	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	602546716	Room_Large	Wwise RoomVerb			
+	667186334	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	720514353	Masterlimiter	Wwise Peak Limiter			
 	1588715066	Echoes_Linear	Wwise Delay			
 	1990128658	Room_Medium	Wwise RoomVerb			
 	2653529179	Three_Voices	Wwise Harmonizer			
 	2995775460	Room_Small	Wwise RoomVerb			
-	3860050053	SideChineMeater	Wwise Meter			
 	3900114836	Metal_Hangar	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
