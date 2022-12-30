@@ -58,47 +58,6 @@
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{FADECC40-A074-4495-A2B0-28992673A14A}" ShortID="244535198">
-															<ReferenceList>
-																<Reference Name="ControlInput">
-																	<ObjectRef Name="SidechaineMusicVolRTPC" ID="{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}" WorkUnitID="{C73D5600-EFDA-4643-80D3-1A2B64AC8EE1}"/>
-																</Reference>
-															</ReferenceList>
-															<Curve Name="" ID="{2F2952C2-4026-4F4E-B1B2-728345F0CEB4}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-48</XPos>
-																		<YPos>-1.18243</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>-47.999</XPos>
-																		<YPos>0.04355</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>-27.3206296603148</XPos>
-																		<YPos>0.0247615182565452</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>-17.29909</XPos>
-																		<YPos>-6.148</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Log1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</RTPC>
 														<RTPC Name="" ID="{2BA990C0-B634-4DB4-9D51-EB4E3F443F71}" ShortID="655732514">
 															<ReferenceList>
 																<Reference Name="ControlInput">
@@ -153,30 +112,6 @@
 													<Property Name="Pitch"/>
 													<Property Name="Volume"/>
 												</StatePropertyList>
-												<StateGroupList>
-													<StateGroupInfo MusicSyncType="2">
-														<StateGroupRef Name="GameState" ID="{35BA810B-88EC-4484-BCFC-6B6E8C29F01C}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="InGame" ID="{3252B483-306E-4C1E-A5E5-53733DA80CBE}"/>
-														<CustomState Name="" ID="{92526D06-8126-4896-AD1E-83BEBC9260EE}" ShortID="471660500">
-															<PropertyList>
-																<Property Name="BypassEffect0" Type="bool" Value="True"/>
-																<Property Name="BypassEffect1" Type="bool" Value="True"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="InMenu" ID="{4D9A9010-700B-4CAD-8E79-74E2058B596F}"/>
-														<CustomState Name="" ID="{29BC862E-61B7-433D-BB6A-F41E2BE2B4CA}" ShortID="401357270">
-															<PropertyList>
-																<Property Name="Highpass" Type="int16" Value="40"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-												</CustomStateList>
 											</StateInfo>
 											<ObjectLists/>
 										</Bus>

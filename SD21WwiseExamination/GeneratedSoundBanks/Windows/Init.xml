@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1161830389">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="130853195">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -25,7 +25,6 @@
 				<GameParameter Id="2342113436" Name="RevAux_Large_Room" ObjectPath="\Game Parameters\ReverbRoom\RevAux_Large_Room" GUID="{DBE2056E-0847-43EE-A528-2254377444F4}"/>
 				<GameParameter Id="2971952786" Name="RevAux_Medium_Room" ObjectPath="\Game Parameters\ReverbRoom\RevAux_Medium_Room" GUID="{E4B90C52-3478-422D-92AF-B2B158B4C1BA}"/>
 				<GameParameter Id="2987812640" Name="RevAux_Small_Room" ObjectPath="\Game Parameters\ReverbRoom\RevAux_Small_Room" GUID="{3942A380-EAAD-450A-8833-6DC605F2422A}"/>
-				<GameParameter Id="3495552253" Name="SidechaineMusicVolRTPC" ObjectPath="\Game Parameters\Meaters\SidechaineMusicVolRTPC" GUID="{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}"/>
 				<GameParameter Id="3578718921" Name="Master_Vol" ObjectPath="\Game Parameters\System Vol Sliders\Master_Vol" GUID="{31CFA690-A887-4407-BD42-0952ABFBF319}"/>
 				<GameParameter Id="4176647666" Name="Ambi_Vol" ObjectPath="\Game Parameters\System Vol Sliders\Ambi_Vol" GUID="{CD020137-2BA1-4350-8904-0D80EDF0B94F}"/>
 			</GameParameters>

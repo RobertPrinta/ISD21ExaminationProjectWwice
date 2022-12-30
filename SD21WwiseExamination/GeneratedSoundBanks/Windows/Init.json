@@ -16,7 +16,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "1161830389",
+    "Hash": "130853195",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -82,12 +82,6 @@
       "Name": "RevAux_Small_Room",
       "ObjectPath": "\\Game Parameters\\ReverbRoom\\RevAux_Small_Room",
       "GUID": "{3942A380-EAAD-450A-8833-6DC605F2422A}"
-     },
-     {
-      "Id": "3495552253",
-      "Name": "SidechaineMusicVolRTPC",
-      "ObjectPath": "\\Game Parameters\\Meaters\\SidechaineMusicVolRTPC",
-      "GUID": "{1B1490FB-E9A7-4CCF-B63B-8BC6D0A96BFC}"
      },
      {
       "Id": "3578718921",

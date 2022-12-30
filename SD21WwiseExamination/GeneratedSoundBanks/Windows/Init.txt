@@ -32,7 +32,6 @@ State	ID	Name	State Group			Notes
 	3374585465	InMenu	GameState			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	401357270	InMenu	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\MainINgame\MusicMaster		
 	471660500	InGame	GameState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Master\MainINgame\MusicMaster		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -42,7 +41,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2342113436	RevAux_Large_Room			\ReverbRoom\RevAux_Large_Room	
 	2971952786	RevAux_Medium_Room			\ReverbRoom\RevAux_Medium_Room	
 	2987812640	RevAux_Small_Room			\ReverbRoom\RevAux_Small_Room	
-	3495552253	SidechaineMusicVolRTPC			\Meaters\SidechaineMusicVolRTPC	
 	3578718921	Master_Vol			\System Vol Sliders\Master_Vol	
 	4176647666	Ambi_Vol			\System Vol Sliders\Ambi_Vol	
 
