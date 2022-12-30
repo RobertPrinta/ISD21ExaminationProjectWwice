@@ -434,7 +434,7 @@
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64">
 													<ValueList>
-														<Value>2</Value>
+														<Value>1</Value>
 													</ValueList>
 													<RTPCList>
 														<RTPC Name="" ID="{62C73028-5F58-4DCE-BE44-DCAF03692F12}" ShortID="568527348">
