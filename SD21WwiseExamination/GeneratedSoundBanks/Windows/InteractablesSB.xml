@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Git\ISD21ExaminationProjectWwice\SD21WwiseExamination\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="3631557506">
+		<SoundBank Id="4223437857" GUID="{B0814C00-BEE1-4158-93E3-3C36433AB163}" Language="SFX" Hash="3524860163">
 			<ObjectPath>\SoundBanks\Default Work Unit\InteractablesSB</ObjectPath>
 			<ShortName>InteractablesSB</ShortName>
 			<Path>InteractablesSB.bnk</Path>
@@ -66,7 +66,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4070979672" Name="Play_Clock" ObjectPath="\Events\Interactables\INOldLady\Play_Clock" GUID="{23A466A9-08FA-431D-ACB9-5CD810F95904}" DurationType="OneShot" DurationMin="31.346958" DurationMax="31.346958">
+				<Event Id="4070979672" Name="Play_Clock" ObjectPath="\Events\Interactables\INOldLady\Play_Clock" GUID="{23A466A9-08FA-431D-ACB9-5CD810F95904}" MaxAttenuation="1500." DurationType="OneShot" DurationMin="31.346958" DurationMax="31.346958">
 					<IncludedMemoryFiles>
 						<File Id="196364746" Language="SFX">
 							<ShortName>Interactables\OldLady\Clock\pendulum clock.wav</ShortName>
