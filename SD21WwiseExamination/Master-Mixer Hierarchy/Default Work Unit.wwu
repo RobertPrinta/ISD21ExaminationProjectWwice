@@ -525,8 +525,18 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
-													<ObjectRef Name="SideChineMeater" ID="{F497230F-89E8-4AA6-8ADB-41B0D88A5F98}" WorkUnitID="{2A8558B7-AC5C-4B41-9D30-AB8BC48DA910}"/>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Parametric EQ (Custom)" ID="{2EC982C3-16CB-4CBE-9C25-B3810EFC9F0C}" ShortID="667186334" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+															<PropertyList>
+																<Property Name="FrequencyBand1" Type="Real32" Value="300"/>
+																<Property Name="FrequencyBand2" Type="Real32" Value="1500"/>
+																<Property Name="GainBand1" Type="Real32" Value="-2.5"/>
+																<Property Name="GainBand2" Type="Real32" Value="1.5"/>
+																<Property Name="QFactorBand2" Type="Real32" Value="0.6"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
